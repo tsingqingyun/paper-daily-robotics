@@ -18,7 +18,7 @@ created: 2026-08-11
 
 ## 高价值条目
 
-### [[30_Updates/2026-08-11/SLIM-0.5B Learning Action-Grounded Predictive Latents for Robot Manipulation|SLIM-0.5B: Learning Action-Grounded Predictive Latents for Robot Manipulation]]
+### [SLIM-0.5B: Learning Action-Grounded Predictive Latents for Robot Manipulation](items/SLIM-0.5B%20Learning%20Action-Grounded%20Predictive%20Latents%20for%20Robot%20Manipulation.md)
 
 - Score: 53
 - Repeat fallback: no
@@ -28,7 +28,7 @@ created: 2026-08-11
 - Concepts: [[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
 - URL: https://arxiv.org/abs/2608.09771v1
 
-### [[30_Updates/2026-08-11/Skills in Weights, Memory in Code Hybrid Learning for Memory-Dependent Robot Man|Skills in Weights, Memory in Code: Hybrid Learning for Memory-Dependent Robot Manipulation]]
+### [Skills in Weights, Memory in Code: Hybrid Learning for Memory-Dependent Robot Manipulation](items/Skills%20in%20Weights%2C%20Memory%20in%20Code%20Hybrid%20Learning%20for%20Memory-Dependent%20Robot%20Man.md)
 
 - Score: 45
 - Repeat fallback: no
@@ -38,7 +38,7 @@ created: 2026-08-11
 - Concepts: [[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]] [[机器人学习]]
 - URL: https://arxiv.org/abs/2608.09410v1
 
-### [[30_Updates/2026-08-11/JEPA-WAM Learning Vision-Language-Action Policies with Joint-Embedding World Mod|JEPA-WAM: Learning Vision-Language-Action Policies with Joint-Embedding World Modeling]]
+### [JEPA-WAM: Learning Vision-Language-Action Policies with Joint-Embedding World Modeling](items/JEPA-WAM%20Learning%20Vision-Language-Action%20Policies%20with%20Joint-Embedding%20World%20Mod.md)
 
 - Score: 39
 - Repeat fallback: no
@@ -48,7 +48,7 @@ created: 2026-08-11
 - Concepts: [[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]]
 - URL: https://arxiv.org/abs/2608.09381v1
 
-### [[30_Updates/2026-08-11/WorldSimProbe Diagnosing Simulator Faithfulness in Action-Conditioned World Mode|WorldSimProbe: Diagnosing Simulator Faithfulness in Action-Conditioned World Models for Embodied Manipulation]]
+### [WorldSimProbe: Diagnosing Simulator Faithfulness in Action-Conditioned World Models for Embodied Manipulation](items/WorldSimProbe%20Diagnosing%20Simulator%20Faithfulness%20in%20Action-Conditioned%20World%20Mode.md)
 
 - Score: 38
 - Repeat fallback: no
@@ -58,7 +58,7 @@ created: 2026-08-11
 - Concepts: [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
 - URL: https://arxiv.org/abs/2608.09298v1
 
-### [[30_Updates/2026-08-11/Trajectory Divergence Horizon Decision for Reliable Dual-Arm Surgical Subtask Ma|Trajectory Divergence Horizon Decision for Reliable Dual-Arm Surgical Subtask Manipulation]]
+### [Trajectory Divergence Horizon Decision for Reliable Dual-Arm Surgical Subtask Manipulation](items/Trajectory%20Divergence%20Horizon%20Decision%20for%20Reliable%20Dual-Arm%20Surgical%20Subtask%20Ma.md)
 
 - Score: 38
 - Repeat fallback: no
@@ -68,7 +68,7 @@ created: 2026-08-11
 - Concepts: [[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]] [[机器人学习]] [[具身智能评测与基准]]
 - URL: https://arxiv.org/abs/2608.09125v1
 
-### [[30_Updates/2026-08-11/TrustRoboReward Preference-Ordered Isotonic Score Editing for Multi-Paradigm Rob|TrustRoboReward: Preference-Ordered Isotonic Score Editing for Multi-Paradigm Robot Reward Models]]
+### [TrustRoboReward: Preference-Ordered Isotonic Score Editing for Multi-Paradigm Robot Reward Models](items/TrustRoboReward%20Preference-Ordered%20Isotonic%20Score%20Editing%20for%20Multi-Paradigm%20Rob.md)
 
 - Score: 36
 - Repeat fallback: no
@@ -78,7 +78,7 @@ created: 2026-08-11
 - Concepts: [[多模态基础模型]] [[智能体 Agent]] [[机器人学习]] [[具身智能评测与基准]]
 - URL: https://arxiv.org/abs/2608.08491v1
 
-### [[30_Updates/2026-08-11/RynnValue Scaling Robotic Value Foundation Models with Temporal Distance|RynnValue: Scaling Robotic Value Foundation Models with Temporal Distance]]
+### [RynnValue: Scaling Robotic Value Foundation Models with Temporal Distance](items/RynnValue%20Scaling%20Robotic%20Value%20Foundation%20Models%20with%20Temporal%20Distance.md)
 
 - Score: 35
 - Repeat fallback: no
@@ -88,7 +88,7 @@ created: 2026-08-11
 - Concepts: [[多模态基础模型]] [[机器人学习]]
 - URL: https://arxiv.org/abs/2608.09853v1
 
-### [[30_Updates/2026-08-11/World Tokens Enhancing Embodied Policies with Training-Time World Modeling|World Tokens: Enhancing Embodied Policies with Training-Time World Modeling]]
+### [World Tokens: Enhancing Embodied Policies with Training-Time World Modeling](items/World%20Tokens%20Enhancing%20Embodied%20Policies%20with%20Training-Time%20World%20Modeling.md)
 
 - Score: 35
 - Repeat fallback: no
@@ -98,7 +98,7 @@ created: 2026-08-11
 - Concepts: [[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]]
 - URL: https://arxiv.org/abs/2608.09730v1
 
-### [[30_Updates/2026-08-11/Efficient Real-World Online Reinforcement Learning for Robot Manipulation via Ce|Efficient Real-World Online Reinforcement Learning for Robot Manipulation via Centralized Training and Critic Decomposition]]
+### [Efficient Real-World Online Reinforcement Learning for Robot Manipulation via Centralized Training and Critic Decomposition](items/Efficient%20Real-World%20Online%20Reinforcement%20Learning%20for%20Robot%20Manipulation%20via%20Ce.md)
 
 - Score: 33
 - Repeat fallback: no
@@ -108,7 +108,7 @@ created: 2026-08-11
 - Concepts: [[智能体 Agent]] [[机器人学习]] [[Sim2Real]] [[具身智能评测与基准]]
 - URL: https://arxiv.org/abs/2608.09762v1
 
-### [[30_Updates/2026-08-11/RecoverFly A Failure-Aware Reinforcement Learning Post-Training Framework for Ae|RecoverFly: A Failure-Aware Reinforcement Learning Post-Training Framework for Aerial Vision-Language Navigation]]
+### [RecoverFly: A Failure-Aware Reinforcement Learning Post-Training Framework for Aerial Vision-Language Navigation](items/RecoverFly%20A%20Failure-Aware%20Reinforcement%20Learning%20Post-Training%20Framework%20for%20Ae.md)
 
 - Score: 32
 - Repeat fallback: no
@@ -118,7 +118,7 @@ created: 2026-08-11
 - Concepts: [[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]] [[机器人学习]] [[具身智能评测与基准]]
 - URL: https://arxiv.org/abs/2608.09467v1
 
-### [[30_Updates/2026-08-11/VANE Reliable Test-Time Training for Vision-Language-Action Models via Future Vi|VANE: Reliable Test-Time Training for Vision-Language-Action Models via Future Visual Representation Prediction]]
+### [VANE: Reliable Test-Time Training for Vision-Language-Action Models via Future Visual Representation Prediction](items/VANE%20Reliable%20Test-Time%20Training%20for%20Vision-Language-Action%20Models%20via%20Future%20Vi.md)
 
 - Score: 32
 - Repeat fallback: no
@@ -128,7 +128,7 @@ created: 2026-08-11
 - Concepts: [[多模态基础模型]] [[视觉语言动作模型 VLA]]
 - URL: https://arxiv.org/abs/2608.09448v1
 
-### [[30_Updates/2026-08-11/FaLCon Facet-Anchored Retrieval with Late Consensus for Sim2Real Text-Based Pers|FaLCon: Facet-Anchored Retrieval with Late Consensus for Sim2Real Text-Based Person Anomaly Search]]
+### [FaLCon: Facet-Anchored Retrieval with Late Consensus for Sim2Real Text-Based Person Anomaly Search](items/FaLCon%20Facet-Anchored%20Retrieval%20with%20Late%20Consensus%20for%20Sim2Real%20Text-Based%20Pers.md)
 
 - Score: 31
 - Repeat fallback: no
@@ -138,7 +138,7 @@ created: 2026-08-11
 - Concepts: [[多模态基础模型]] [[智能体 Agent]] [[Sim2Real]] [[具身智能评测与基准]]
 - URL: https://arxiv.org/abs/2608.09474v1
 
-### [[30_Updates/2026-08-11/SAIN Structure-Aware Interactive Navigation with Active Dialogue Grounding for M|SAIN: Structure-Aware Interactive Navigation with Active Dialogue Grounding for Mobile Robot]]
+### [SAIN: Structure-Aware Interactive Navigation with Active Dialogue Grounding for Mobile Robot](items/SAIN%20Structure-Aware%20Interactive%20Navigation%20with%20Active%20Dialogue%20Grounding%20for%20M.md)
 
 - Score: 31
 - Repeat fallback: no
@@ -148,7 +148,7 @@ created: 2026-08-11
 - Concepts: [[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
 - URL: https://arxiv.org/abs/2608.09196v1
 
-### [[30_Updates/2026-08-11/Multi-Submap Implicit Neural SLAM with Local-to-Global Loop Closure for Large-Sc|Multi-Submap Implicit Neural SLAM with Local-to-Global Loop Closure for Large-Scale Scene Reconstruction]]
+### [Multi-Submap Implicit Neural SLAM with Local-to-Global Loop Closure for Large-Scale Scene Reconstruction](items/Multi-Submap%20Implicit%20Neural%20SLAM%20with%20Local-to-Global%20Loop%20Closure%20for%20Large-Sc.md)
 
 - Score: 31
 - Repeat fallback: no
@@ -158,7 +158,7 @@ created: 2026-08-11
 - Concepts: [[多模态基础模型]] [[世界模型]] [[具身智能评测与基准]]
 - URL: https://arxiv.org/abs/2608.09146v1
 
-### [[30_Updates/2026-08-11/Latent World Models with Monotone Planning Costs for Image-Goal Navigation|Latent World Models with Monotone Planning Costs for Image-Goal Navigation]]
+### [Latent World Models with Monotone Planning Costs for Image-Goal Navigation](items/Latent%20World%20Models%20with%20Monotone%20Planning%20Costs%20for%20Image-Goal%20Navigation.md)
 
 - Score: 31
 - Repeat fallback: no
@@ -168,7 +168,7 @@ created: 2026-08-11
 - Concepts: [[智能体 Agent]] [[世界模型]] [[视觉语言动作模型 VLA]]
 - URL: https://arxiv.org/abs/2608.09073v1
 
-### [[30_Updates/2026-08-11/Multi-modal Interactive Control of Robotic Arm based on Offline Large Language M|Multi-modal Interactive Control of Robotic Arm based on Offline Large Language Models]]
+### [Multi-modal Interactive Control of Robotic Arm based on Offline Large Language Models](items/Multi-modal%20Interactive%20Control%20of%20Robotic%20Arm%20based%20on%20Offline%20Large%20Language%20M.md)
 
 - Score: 31
 - Repeat fallback: no
@@ -178,7 +178,7 @@ created: 2026-08-11
 - Concepts: [[多模态基础模型]] [[智能体 Agent]]
 - URL: https://arxiv.org/abs/2608.08183v1
 
-### [[30_Updates/2026-08-11/SpeedTuning Speeding Up Policy Execution with Lightweight Reinforcement Learning|SpeedTuning: Speeding Up Policy Execution with Lightweight Reinforcement Learning]]
+### [SpeedTuning: Speeding Up Policy Execution with Lightweight Reinforcement Learning](items/SpeedTuning%20Speeding%20Up%20Policy%20Execution%20with%20Lightweight%20Reinforcement%20Learning.md)
 
 - Score: 30
 - Repeat fallback: no
@@ -188,7 +188,7 @@ created: 2026-08-11
 - Concepts: [[机器人学习]] [[具身智能评测与基准]]
 - URL: https://arxiv.org/abs/2608.09138v1
 
-### [[30_Updates/2026-08-11/OnEvoMemory Evolving Memory through Online Robot Rollouts for Pretrained Robot P|OnEvoMemory: Evolving Memory through Online Robot Rollouts for Pretrained Robot Policies]]
+### [OnEvoMemory: Evolving Memory through Online Robot Rollouts for Pretrained Robot Policies](items/OnEvoMemory%20Evolving%20Memory%20through%20Online%20Robot%20Rollouts%20for%20Pretrained%20Robot%20P.md)
 
 - Score: 30
 - Repeat fallback: no
@@ -198,7 +198,7 @@ created: 2026-08-11
 - Concepts: [[智能体 Agent]] [[视觉语言动作模型 VLA]] [[机器人学习]] [[具身智能评测与基准]]
 - URL: https://arxiv.org/abs/2608.08749v1
 
-### [[30_Updates/2026-08-11/Energy-Structured Latent World Models with Neural Time Fields for Physically Con|Energy-Structured Latent World Models with Neural Time Fields for Physically Constistent Open-World Motion Planning]]
+### [Energy-Structured Latent World Models with Neural Time Fields for Physically Constistent Open-World Motion Planning](items/Energy-Structured%20Latent%20World%20Models%20with%20Neural%20Time%20Fields%20for%20Physically%20Con.md)
 
 - Score: 28
 - Repeat fallback: no
@@ -208,7 +208,7 @@ created: 2026-08-11
 - Concepts: [[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
 - URL: https://arxiv.org/abs/2608.09876v1
 
-### [[30_Updates/2026-08-11/Efficient Human-Contact Representation for Human-Scene Interaction|Efficient Human-Contact Representation for Human-Scene Interaction]]
+### [Efficient Human-Contact Representation for Human-Scene Interaction](items/Efficient%20Human-Contact%20Representation%20for%20Human-Scene%20Interaction.md)
 
 - Score: 28
 - Repeat fallback: no
@@ -218,7 +218,7 @@ created: 2026-08-11
 - Concepts: [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
 - URL: https://arxiv.org/abs/2608.09388v1
 
-### [[30_Updates/2026-08-11/WA-SpecDec World-Aware Speculative Decoding for Vision-Language-Action Models|WA-SpecDec: World-Aware Speculative Decoding for Vision-Language-Action Models]]
+### [WA-SpecDec: World-Aware Speculative Decoding for Vision-Language-Action Models](items/WA-SpecDec%20World-Aware%20Speculative%20Decoding%20for%20Vision-Language-Action%20Models.md)
 
 - Score: 28
 - Repeat fallback: no
@@ -228,7 +228,7 @@ created: 2026-08-11
 - Concepts: [[多模态基础模型]] [[视觉语言动作模型 VLA]]
 - URL: https://arxiv.org/abs/2608.08725v1
 
-### [[30_Updates/2026-08-11/Spatiotemporal Context-dependent Personalized Movement Compensation in Delayed T|Spatiotemporal Context-dependent Personalized Movement Compensation in Delayed Telemanipulation]]
+### [Spatiotemporal Context-dependent Personalized Movement Compensation in Delayed Telemanipulation](items/Spatiotemporal%20Context-dependent%20Personalized%20Movement%20Compensation%20in%20Delayed%20T.md)
 
 - Score: 28
 - Repeat fallback: no
@@ -238,7 +238,7 @@ created: 2026-08-11
 - Concepts: [[世界模型]] [[具身智能评测与基准]]
 - URL: https://arxiv.org/abs/2608.08200v1
 
-### [[30_Updates/2026-08-11/Compiling and Benchmarking Task-State Horizons for Embodied Agents|Compiling and Benchmarking Task-State Horizons for Embodied Agents]]
+### [Compiling and Benchmarking Task-State Horizons for Embodied Agents](items/Compiling%20and%20Benchmarking%20Task-State%20Horizons%20for%20Embodied%20Agents.md)
 
 - Score: 28
 - Repeat fallback: no
@@ -248,7 +248,7 @@ created: 2026-08-11
 - Concepts: [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
 - URL: https://arxiv.org/abs/2608.08036v1
 
-### [[30_Updates/2026-08-11/EgoTrack3D A Modular Framework for Egocentric 3D Object Tracking|EgoTrack3D: A Modular Framework for Egocentric 3D Object Tracking]]
+### [EgoTrack3D: A Modular Framework for Egocentric 3D Object Tracking](items/EgoTrack3D%20A%20Modular%20Framework%20for%20Egocentric%203D%20Object%20Tracking.md)
 
 - Score: 28
 - Repeat fallback: no
