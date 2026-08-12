@@ -1,0 +1,56 @@
+---
+type: update-item
+tags: [update, ai, embodied-ai]
+source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
+url: "https://arxiv.org/abs/2608.09127v1"
+published: "2026-08-10T05:07:08Z"
+age_days: 1
+score: 27
+created: 2026-08-12
+concepts: ["机器人学习", "具身智能评测与基准"]
+---
+
+# High Fidelity Capture, Reconstruction, and Transfer of Human Demonstrations for Robot-Assisted Bathing
+
+## 为什么重要
+
+自动筛选分数：27
+
+连接概念：[[机器人学习]], [[具身智能评测与基准]]
+
+## 摘要
+
+Despite the demand for robots in high-value clinical tasks like bathing, contemporary
+systems still lack the safety and reliability required for complex, sustained physical
+interaction with humans. A key challenge hindering the development of such systems is
+that collecting, understanding, and effectively transferring highly dynamic, contact-
+rich human bathing demonstrations is difficult, even with modern motion and tactile
+sensing equipment. We present a straightforward, but effective framework for doing so
+with high fidelity by utilizing contact regions as a key processing primitive. We use
+our framework to build a dataset of bathing demonstrations performed by trained
+clinicians on human subjects. We then use this dataset to design and control an arm-
+mounted dexterous soft hand to perform bathing tasks on a mannequin using open- and
+closed-loop strategies. Our dataset is the first to provide high quality synchronized
+motion, shape, contact, and force during sustained, contact-rich human-human
+interaction, and our transfer strategies demonstrate effective use of these data across
+multiple levels of the robotics stack. All relevant materials will be publicly released
+to enable further advancements in physical human-robot interaction (pHRI) research.
+
+## 来源
+
+- Source: arXiv Daily - Frontier Embodied AI Robotics Papers
+- URL: https://arxiv.org/abs/2608.09127v1
+- Authors: Arjun S. Lakshmipathy, Jonathan P. King, Ethan Zuo, Rohit Satishkumar, Hongyi Chen, Jeffrey Ichnowski, Dan Ding, Zackory Erickson, Nancy S. Pollard
+- Published: 2026-08-10T05:07:08Z
+- Age days: 1
+
+## 我的判断
+
+- [ ] 是否值得沉淀为核心笔记？
+- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
+
+## 后续追踪
+
+- 复现实验/代码：
+- 相关论文：
+- 影响的知识节点：

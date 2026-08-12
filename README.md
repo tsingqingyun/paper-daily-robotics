@@ -5,4 +5,5 @@ Only each digest and the detail notes explicitly referenced by that digest are p
 
 ## Daily updates
 
+- [2026-08-12](daily/2026-08-12/index.md)
 - [2026-08-11](daily/2026-08-11/index.md)
