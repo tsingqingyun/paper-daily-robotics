@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-15",
+  "source_digest": "30_Updates/2026-06-15 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "ReactVLA Fast and Lightweight Reactive Robot Manipulation via Improved Mean Flow.md",
+    "Self-Improving VLA Policies Selected Diffusion Noise for Spurious-Robust Action.md",
+    "PhysVLA Towards Physically-Grounded VLA for Embodied Robotic Manipulation.md",
+    "$μ_0$ A Scalable 3D Interaction-Trace World Model.md",
+    "Hy-Embodied-0.5-VLA From Vision-Language-Action Models to a Real-World Robot Lea.md",
+    "Elastic Queries Reinforcement Learning Self-Aware Policy Execution for VLA Model.md",
+    "Multi-Agent Embodied Autonomous Driving From V2X Information Exchange to Shared.md",
+    "InterleaveThinker Reinforcing Agentic Interleaved Generation.md",
+    "An Attention-based Model for Robust Forecasting with Missing Modality.md",
+    "ContactWorld What Matters in Vision-Tactile World Models for Contact-Rich Manipu.md",
+    "Output-Level Regularization Eliminates the Seed Lottery in Single-GPU VLA Fine-T.md",
+    "Kine2Go Kinematic dataset for the Unitree Go2 robot with diverse gaits and motio.md",
+    "FloVerse Floor Plan-Guided Multi-Modal Navigation.md",
+    "Improving Robotic Generalist Policies via Flow Reversal Steering.md",
+    "ORCA A Platform for Open-Source Dexterity Research.md",
+    "FlowMo-WM A World Model with Object Momentum and Hidden Ambient Drift.md",
+    "WAM4D Fast 4D World Action Model via Spatial Register Tokens.md",
+    "TwinBI An Agentic Digital Twin for Efficient Augmented Interactions with Busines.md",
+    "SIMMER Benchmarking Latent Failures in LLM Executable Planning with a World Mode.md",
+    "OdysSim Building Foundation Models for Human Behavior Simulation.md",
+    "When and How Severely Scenario-Specific Safety Envelopes for Driving VLAs.md",
+    "ReactSim-Bench Benchmarking Reactive Behavior World Model Simulation in Autonomo.md",
+    "RT-VLA Real-Time Vision-Language-Action Models via Knowledge Distillation.md",
+    "TRACE Trajectory-Routed Causal Memory for Delayed-Evidence Visuomotor Imitation.md"
+  ],
+  "published_item_count": 24
+}

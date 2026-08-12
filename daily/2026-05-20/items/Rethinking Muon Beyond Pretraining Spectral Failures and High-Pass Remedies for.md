@@ -1,0 +1,64 @@
+---
+type: update-item
+tags: [update, ai, embodied-ai]
+source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
+url: "https://arxiv.org/abs/2605.19282v1"
+published: "2026-05-19T03:00:26Z"
+age_days: 0
+score: 30
+created: 2026-05-20
+concepts: ["多模态基础模型", "视觉语言动作模型 VLA", "机器人学习", "具身智能评测与基准"]
+---
+
+# Rethinking Muon Beyond Pretraining: Spectral Failures and High-Pass Remedies for VLA and RLVR
+
+## 为什么重要
+
+自动筛选分数：30
+
+连接概念：[[多模态基础模型]], [[视觉语言动作模型 VLA]], [[机器人学习]], [[具身智能评测与基准]]
+
+## 摘要
+
+Muon is a matrix-aware optimizer that leverages Newton-Schulz (NS) iterations to enforce
+spectral gradient orthogonalization by driving all singular values of the momentum
+matrix toward 1. While this uniform spectral whitening enhances exploration and
+outperforms AdamW in LLM pretraining, we show it could lead to fundamental limitations
+beyond pretraining in two regimes: (i) cross-modality vision-language-action (VLA)
+training, where inherently low-rank action-module gradients cause amplification of noisy
+tail directions, and (ii) reinforcement learning with verifiable rewards (RLVR), where
+low-SNR gradients and the need to preserve per-head specialization from prior training
+make whitening unstable. To address these challenges, we propose Pion, a drop-in
+replacement for Muon that preserves its computational efficiency while replacing uniform
+spectral whitening with a two-stage Promotion+Suppression mechanism, which we call the
+high-pass NS iteration. This design induces a sharp spectral high-pass effect, anchoring
+dominant singular values at 1 while suppressing noisy tail components toward 0, with
+controllable filter strength. To preserve pretrained per-head heterogeneity, Pion also
+supports a per-head mode that applies updates independently across attention heads via a
+simple reshape, at no extra cost. In VLA training on LIBERO and LIBERO-Plus, Pion
+consistently outperforms both baselines across l_1-regression (VLA-Adapter) and flow-
+matching (VLANeXt) architectures, e.g., reaching 100% success rate on LIBERO Object
+after 1,500 training steps with VLA-Adapter, vs. 97.0% for Muon and only 32.2% for
+AdamW. The advantage of Pion further extends to a real Franka Research 3 robot with a
+pi_0.5 backbone under the DROID setup on three grasp-and-place tasks. In RLVR post-
+training on Qwen3-1.7B/4B with GRPO and GMPO, Pion also outperforms AdamW on MATH and
+GSM8K while Muon collapses to zero.
+
+## 来源
+
+- Source: arXiv Daily - Frontier Embodied AI Robotics Papers
+- URL: https://arxiv.org/abs/2605.19282v1
+- Authors: Chongyu Fan, Gaowen Liu, Mingyi Hong, Ramana Rao Kompella, Sijia Liu
+- Published: 2026-05-19T03:00:26Z
+- Age days: 0
+
+## 我的判断
+
+- [ ] 是否值得沉淀为核心笔记？
+- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
+
+## 后续追踪
+
+- 复现实验/代码：
+- 相关论文：
+- 影响的知识节点：

@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-24",
+  "source_digest": "30_Updates/2026-06-24 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "HiL-ResRL A Model-Agnostic Finetuning Adapter via Human-in-the-loop Residual Rei.md",
+    "Wh0 Generative World Models as Scalable Sources of Egocentric Human Hand Manipul.md",
+    "LIBERO-Safety A Comprehensive Benchmark for Physical and Semantic Safety in Visi.md",
+    "Humanoid-OmniOcc Stereo-Based Full-View Occupancy Dataset for Embodied AI.md",
+    "Cloak Zero-Shot Cross-Embodiment Manipulation by Masking the End-Effector from t.md",
+    "PolicyTrim Boosting Intrinsic Policy Efficiency of Vision-Language-Action Models.md",
+    "dVLA-RL Reinforcement Learning over Denoising Trajectories for Discrete Diffusio.md",
+    "Foresight Failure Detection for Long-Horizon Robotic Manipulation with Action-Co.md",
+    "From Pixels to Concepts Growing Rich 3D Semantic Scene Graph Forests utilizing F.md",
+    "OpenHLM An Empirical Recipe for Whole-Body Humanoid Loco-Manipulation.md",
+    "HoloAgent-0 A Unified Embodied Agent Framework with 3D Spatial Memory.md",
+    "LaST-HD Learning Latent Physical Reasoning from Scalable Human Data for Robot Ma.md",
+    "Flow as Flow Modeling Robot Velocity Fields as Probability Velocity Fields for F.md",
+    "Improving Robotic Imitation Learning via Trajectory Standardization.md",
+    "BiliVLA Scene-Aware Vision-Language-Action Model with Reinforcement Learning for.md",
+    "IOI Decoupling Kinematics and Physics for Interactive World Models.md",
+    "Gold Points Sniper Self-guided Visual Reasoning in VLM for Fine-grained Action U.md",
+    "IMAGIN-4D Image-Guided Controllable Interaction Generation.md",
+    "Flatness Preserves Instruction Following in Vision-Language-Action Models.md",
+    "HERCULES An Open-Source Simulation Framework for Heterogeneous Multi-Robot SLAM,.md",
+    "Flowing With Purpose Latent Action Guided Flow Matching Policies For Robotic Man.md",
+    "UniFS Unified Fast-to-Slow Hierarchical Architecture for Vision-Language-Action.md",
+    "Pose Anything Anywhere Model-free Object Poses from Arbitrary References.md",
+    "Assistron Bayesian Shared Autonomy with Off-the-shelf Vision-Language-Action Mod.md"
+  ],
+  "published_item_count": 24
+}

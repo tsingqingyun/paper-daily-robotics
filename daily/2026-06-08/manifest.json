@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-08",
+  "source_digest": "30_Updates/2026-06-08 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "Robots Need More than VLA and World Models.md",
+    "World-Language-Action Model for Unified World Modeling, Language Reasoning, and.md",
+    "PiL-World A Chunk-Wise World Model for VLA Policy-in-the-Loop Evaluation.md",
+    "AffordanceVLA A Vision-Language-Action Model Empowering Action Generation throug.md",
+    "LARA Latent Action Representation Alignment for Vision-Language-Action Models.md",
+    "TempoVLA Learning Speed-Controllable Vision-Language-Action Policies.md",
+    "Safe Embodied AI for Long-horizon Tasks A Cross-layer Analysis of Robotic Manipu.md",
+    "WorldFly A World-Model-Based Vision-Language-Action Model for UAV Navigation.md",
+    "RhinoVLA Technical Report.md",
+    "ActionMap Robot Policy Learning via Voxel Action Heatmap.md",
+    "Towards a Data Flywheel for Embodied Intelligence in Logistics.md",
+    "LadderMan Learning Humanoid Perceptive Ladder Climbing.md",
+    "Robotic Policy Adaptation via Weight-Space Meta-Learning.md",
+    "The Sim-to-Real Gap of Foundation Model Agents A Unified MDP Perspective.md",
+    "Think Like a Pilot Fine-Grained Long-Horizon UAV Navigation.md",
+    "Coarse-to-Control Action-Token Planning for Vision-Language-Action Models.md",
+    "PhyRoGen Synthetic Generation of Physical Robot Manipulation Puzzles Using Proce.md",
+    "Simulation-Driven Imitation Learning for Biosignals-Free Shared-Autonomy Prosthe.md",
+    "GenPO++ Generative Policy Optimization with Jacobian-free Likelihood Ratios.md",
+    "HANDOFF Humanoid Agentic Task-Space Whole-Body Control via Distilled Complementa.md",
+    "CAPE Contrastive Action-conditioned Parallel Encoding for Embodied Planning.md",
+    "Dreaming when Necessary Advancing World Action Models with Adaptive Multi-Modal.md",
+    "Spline Policy A Structured Representation for Robot Policies.md",
+    "SCOUT Semantic scene COverage via Uncertainty-guided Traversal.md"
+  ],
+  "published_item_count": 24
+}

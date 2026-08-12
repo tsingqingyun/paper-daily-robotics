@@ -1,0 +1,31 @@
+{
+  "date": "2026-05-14",
+  "source_digest": "30_Updates/2026-05-14 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "RotVLA Rotational Latent Action for Vision-Language-Action Model.md",
+    "D-VLA A High-Concurrency Distributed Asynchronous Reinforcement Learning Framewo.md",
+    "World Action Models The Next Frontier in Embodied AI.md",
+    "AttenA+ Rectifying Action Inequality in Robotic Foundation Models.md",
+    "Guide, Think, Act Interactive Embodied Reasoning in Vision-Language-Action Model.md",
+    "Towards Long-horizon Embodied Agents with Tool-Aligned Vision-Language-Action Mo.md",
+    "Embodied Multi-Agent Coordination by Aligning World Models Through Dialogue.md",
+    "TMRL Diffusion Timestep-Modulated Pretraining Enables Exploration for Efficient.md",
+    "FrameSkip Learning from Fewer but More Informative Frames in VLA Training.md",
+    "BlockVLA Accelerating Autoregressive VLA via Block Diffusion Finetuning.md",
+    "What to Ignore, What to React Visually Robust RL Fine-Tuning of VLA Models.md",
+    "SenseNova-U1 Unifying Multimodal Understanding and Generation with NEO-unify Arc.md",
+    "What Limits Vision-and-Language Navigation.md",
+    "Reinforcing VLAs in Task-Agnostic World Models.md",
+    "TouchAnything A Dataset and Framework for Bimanual Tactile Estimation from Egoce.md",
+    "SafeManip A Property-Driven Benchmark for Temporal Safety Evaluation in Robotic.md",
+    "EgoEV-HandPose Egocentric 3D Hand Pose Estimation and Gesture Recognition with S.md",
+    "Realtime-VLA FLASH Speculative Inference Framework for Diffusion-based VLAs.md",
+    "Think Twice, Act Once Verifier-Guided Action Selection For Embodied Agents.md",
+    "Premover Fast Vision-Language-Action Control by Acting Before Instructions Are C.md",
+    "Learning POMDP World Models from Observations with Language-Model Priors.md",
+    "GuidedVLA Specifying Task-Relevant Factors via Plug-and-Play Action Attention Sp.md",
+    "From Imagined Futures to Executable Actions Mixture of Latent Actions for Robot.md",
+    "X-Imitator Spatial-Aware Imitation Learning via Bidirectional Action-Pose Intera.md"
+  ],
+  "published_item_count": 24
+}

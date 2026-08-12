@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-03",
+  "source_digest": "30_Updates/2026-07-03 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "2026 BAIR Graduate Showcase.md",
+    "Neuro-Symbolic Safety Guidance for Vision-Language-Action Models via Constrained.md",
+    "Human-Centric Transferable Tactile Pre-Training for Dexterous Robotic Manipulati.md",
+    "WorldSample Closed-loop Real-robot RL with World Modelling.md",
+    "VLA-Corrector Lightweight Detect-and-Correct Inference for Adaptive Action Horiz.md",
+    "Learning to Move Before Learning to Do Task-Agnostic pretraining for VLAs.md",
+    "ABot-M0.5 Unified Mobility-and-Manipulation World Action Model.md",
+    "Bridge-WA Predicting Where and How the World Changes for Robotic Action.md",
+    "Embodied.cpp A Portable Inference Runtime of Embodied AI Models on Heterogeneous.md",
+    "PhysMani Physics-principled 3D World Model for Dynamic Object Manipulation.md",
+    "VLAFlow A Unified Training Framework for Vision-Language-Action Models via Co-tr.md",
+    "FurnitureVLA Learning Long-Horizon Bimanual Furniture Assembly with Vision-Langu.md",
+    "Coachable agents for interactive gameplay.md",
+    "CoFL-S Spatially Queryable Sector Flow Fields for Local Language-Conditioned Nav.md",
+    "One Demonstration Is Enough for Real-World Robotic Reinforcement Learning.md",
+    "From Forgeries to Foundation Models A Systematic Survey of Identity Document Att.md",
+    "DeWorldSG Depth-Aware 3D Semantic Scene Graph Generation via World-Model Priors.md",
+    "Cross4D-JEPA Dense Cross-modal Correspondence Distillation for 4D Point Cloud Re.md",
+    "The Moving Eye Enhancing VLA Spatial Generalization via Hybrid Dynamic Data Coll.md",
+    "Guided Action Flow Q-Guided Inference for Flow-Matching Vision-Language-Action P.md",
+    "Domain Arithmetic One-Shot VLA Adaptation under Environmental Shifts.md",
+    "LIME Learning Intent-aware Camera Motion from Egocentric Video.md",
+    "From Technical Metrics to User Perception A User Study of a Multimodal Human-Rob.md",
+    "ComplexMimic Human-Scene Interaction Imitation in Complex 3D Environments.md"
+  ],
+  "published_item_count": 24
+}

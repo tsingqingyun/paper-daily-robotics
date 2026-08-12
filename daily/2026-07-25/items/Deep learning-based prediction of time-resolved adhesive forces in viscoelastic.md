@@ -1,0 +1,64 @@
+---
+type: update-item
+tags: [update, ai, embodied-ai]
+source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
+url: "https://arxiv.org/abs/2607.19060v1"
+published: "2026-07-21T12:48:48Z"
+age_days: 3
+score: 26
+created: 2026-07-25
+concepts: ["世界模型", "具身智能评测与基准"]
+---
+
+# Deep learning-based prediction of time-resolved adhesive forces in viscoelastic Hertzian contacts
+
+## 为什么重要
+
+自动筛选分数：26
+
+连接概念：[[世界模型]], [[具身智能评测与基准]]
+
+## 摘要
+
+Fast prediction of the response of adhesive soft viscoelastic contacts represents a
+current challenge in soft robotics and for gripping and manipulation tasks. Determining
+the complete time-resolved force trajectory requires full numerical simulations, whose
+computational cost is strongly parameter-dependent, making them impractical for real-
+time application or design-optimization loops. In this work, we overcome this limitation
+by training a scalar-conditioned, stateful, sequence-to-sequence deep learning model to
+predict the full force evolution from a prescribed displacement history for both short-
+and long-range adhesion regimes. The data set spans four orders of magnitude in loading
+and unloading rates and includes varied dwell times, with the Tabor parameter ranging
+from $0.2$ to $3.2$. To enable learning across these heterogeneous time scales, we
+introduce a fixed-measurement-step (FMS) representation that converts variable-length
+trajectories into fixed-length sequences while preserving their physical-time
+information. Different architectures were trained, including long short-term memory
+(LSTM) networks, temporal convolutional neural (TCN) networks, and time-distributed
+dense layers with three different Tabor-conditioning mechanisms. The models were
+compared using global waveform and error metrics. We found that the best-performing
+model has an LSTM architecture with concatenated conditioning, which achieves a held-out
+mean-squared error of $5.0\times10^{-4}$, a median pull-off-force error of
+$\approx2.2\%$, and a median hysteresis error of $\approx1.1\%$. For the held-out
+protocols, the model predicts a complete force trajectory with a median inference time
+of $0.16$ s. The model is tested across unseen parameter combinations and against
+analytical limiting cases, providing a rapid surrogate for repeated numerical
+evaluations with potential use in control-oriented applications.
+
+## 来源
+
+- Source: arXiv Daily - Frontier Embodied AI Robotics Papers
+- URL: https://arxiv.org/abs/2607.19060v1
+- Authors: Ali Maghami, Merten Stender, Michele Ciavarella, Antonio Papangelo
+- Published: 2026-07-21T12:48:48Z
+- Age days: 3
+
+## 我的判断
+
+- [ ] 是否值得沉淀为核心笔记？
+- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
+
+## 后续追踪
+
+- 复现实验/代码：
+- 相关论文：
+- 影响的知识节点：

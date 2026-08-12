@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-30",
+  "source_digest": "30_Updates/2026-06-30 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "Training Vision-Language-Action Models with Dense Embodied Chain-of-Thought Supe.md",
+    "Vision-Language-Action Models Experimental Insights from a Real-World UR5 Platfo.md",
+    "Event-VLA Action-Conditioned Event Fusion for Robust Vision-Language-Action Mode.md",
+    "SurgVLA-Bench Towards Evaluating Vision-Language-Action Models for Laparoscopic.md",
+    "Sequential Planning via Anchored Robotic Keypoints.md",
+    "SA-VLA State-aware tokenizer for improving Vision-Language-Action Models' perfor.md",
+    "Trust Your Instincts Confidence-Driven Test-Time RL for Vision-Language-Action M.md",
+    "OP3DSG Open-Vocabulary Part-Aware 3D Scene Graph Generation for Real-World Envir.md",
+    "RoamFlow Reinforcement-Aligned One-Step Action MeanFlow Policy for Image-Goal Na.md",
+    "Chronos A Physics-Informed Full-History Framework for Non-Markovian Long-Horizon.md",
+    "OpenSPM An Environment-Transferable Robotic Key Spatial Pose Memory and Closed-L.md",
+    "RoAd-RL A Unified Library and Benchmark for Robust Adversarial Reinforcement Lea.md",
+    "Learning Transferable Dynamics Priors from Action to World Modeling.md",
+    "Enhancing Part-Level Point Grounding for Any Open-Source MLLMs.md",
+    "Goku A Million-Scale Universal Dataset and Benchmark for Instruction-Based Video.md",
+    "UnfoldArt Zero-Shot Recovery of Full Articulated 3D Objects from Text or Image.md",
+    "Grasp-Oriented Non-Prehensile Manipulation via Learning a Graspability Field.md",
+    "HUMEMBR Learning Human Routines for Predictive Embodied Navigation.md",
+    "Automating the Design of Embodied AgentArchitectures.md",
+    "CORE Common Outcome Regularities from Action-Free Visual Demonstrations for Robo.md",
+    "Behavior Uncloning Distilling Mode Redirection into Policy Weights without Infer.md",
+    "Analytic Concept-Centric Memory for Agentic Embodied Manipulation.md",
+    "GROW$ 2$ Grounding Which and Where for Robot Tool Use.md",
+    "OmniCoT A Benchmark for Global and Multi-Step Panoramic Reasoning.md"
+  ],
+  "published_item_count": 24
+}

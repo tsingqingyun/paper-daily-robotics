@@ -1,0 +1,31 @@
+{
+  "date": "2026-05-12",
+  "source_digest": "30_Updates/2026-05-12 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "Repurposing Protein Folding Models for Generation with Latent Diffusion.md",
+    "RL without TD learning.md",
+    "Whole-Body Conditioned Egocentric Video Prediction.md",
+    "Gemini Robotics-ER 1.6 Powering real-world robotics tasks through enhanced embod.md",
+    "Scaling Up Reinforcement Learning for Traffic Smoothing A 100-AV Highway Deploym.md",
+    "Gemini Robotics 1.5 brings AI agents into the physical world.md",
+    "Bringing Robotics AI to Embedded Platforms Dataset Recording, VLA Fine‑Tuning, a.md",
+    "Adaptive Parallel Reasoning The Next Paradigm in Efficient Inference Scaling.md",
+    "SmolVLA Efficient Vision-Language-Action Model trained on Lerobot Community Data.md",
+    "Gemini Robotics brings AI into the physical world.md",
+    "Gemini Robotics On-Device brings AI to local robotic devices.md",
+    "Gradient-based Planning for World Models at Longer Horizons.md",
+    "Scaling robotics datasets with video encoding.md",
+    "LeRobot Community Datasets The “ImageNet” of Robotics — When and How.md",
+    "Multi-Goal Reinforcement Learning Challenging robotics environments and request.md",
+    "AsgardBench A benchmark for visually grounded interactive planning.md",
+    "Hugging Face to sell open-source robots thanks to Pollen Robotics acquisition 🤖.md",
+    "Addendum to o3 and o4-mini system card Codex.md",
+    "GPT-4.md",
+    "π0 and π0-FAST Vision-Language-Action Models for General Robot Control.md",
+    "LeRobot goes to driving school World’s largest open-source self-driving dataset.md",
+    "Procgen Benchmark.md",
+    "How we monitor internal coding agents for misalignment.md",
+    "OpenAI Robotics Symposium 2019.md"
+  ],
+  "published_item_count": 24
+}

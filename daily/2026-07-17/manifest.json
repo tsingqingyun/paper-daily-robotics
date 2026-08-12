@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-17",
+  "source_digest": "30_Updates/2026-07-17 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "Exploratory, Communicative, and Deployable Vision-Driven Embodied Agents for Ope.md",
+    "Learning Robust Execution in Robotic Manipulation with Agentic Reinforcement Lea.md",
+    "ExToken Structured Exploration for Efficient Vision-Language-Action Reinforcemen.md",
+    "Industrial Dexterity Benchmark A Hardware-Software Benchmarking Platform for Ind.md",
+    "Jetson-PI Towards Onboard Real-Time Robot Control via Foresight-Aligned Asynchro.md",
+    "Semantic Anchoring for Robotic Action Representations.md",
+    "Generalizable VLA Finetuning via Representation Anchoring and Language-Action Al.md",
+    "FlowWAM Optical Flow as a Unified Action Representation for World Action Models.md",
+    "VistaVLA Geometry- and Semantic-Aware 3D Gaussian-Grounded VLA for Robotic Manip.md",
+    "UESF-Bench Benchmarking and Probing for Unified Embodied Seeking and Following.md",
+    "EgoHTR Egocentric 4D Demonstrations of Human Terrain Traversal.md",
+    "DenseReward Dense Reward Learning via Failure Synthesis for Robotic Manipulation.md",
+    "Breaking Déjà Vu Independent Auditing of Visual Place Recognition through Vision.md",
+    "Joint On-and-Off Policy Learning for Vision-and-Language Navigation.md",
+    "Vision-Based Dribbling for Humanoid Soccer via Privileged Representation Learnin.md",
+    "Learning Safe Agent Behaviour from Human Preferences and Justifications via Worl.md",
+    "Hy-Embodied-VLM-1.0 Efficient Physical-World Agents.md",
+    "Towards Spatial Supersensing in the Wild.md",
+    "Flow-aware Optimal Navigation in Unsteady Flows through Reinforcement Learning.md",
+    "Worlds in One Demo A Synthetic Data Engine for Learning Open-World Mobile Manipu.md",
+    "Self in Space Benchmarking Self-Awareness and Spatial Cognition in UAV Embodied.md",
+    "UniPhysGen Unified Physical Grounding for Simulation-Ready 3D Assets.md",
+    "Learning Physics-Guided Residual Dynamics for Deformable Object Simulation.md",
+    "Just-In-Time Scene Graph Growth Combating Perceptual Saturation in Long-Horizon.md"
+  ],
+  "published_item_count": 24
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-25",
+  "source_digest": "30_Updates/2026-07-25 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "Unified Prediction and Planning via Conflict-Aware Disjoint Parameter Training.md",
+    "Robostral Navigate.md",
+    "PhysCoRe Physics-Corrected Residual World Models for Material-Aware Deformable D.md",
+    "LAVIFT Latent-Action-Guided Vision Fine-Tuning for Surgical Interaction Recognit.md",
+    "Inference-Time Steering for Cross-Lingual Factual Consistency in LLMs.md",
+    "Deep learning-based prediction of time-resolved adhesive forces in viscoelastic.md",
+    "Design and stability analysis of an underactuated hand with passively rotating f.md",
+    "Future Rendering $ neq$ Future Surface A Benchmark and Dataset for Dynamic Surfa.md",
+    "VoLN Vision-Only Long-Horizon Navigation---Paradigm, Benchmark, and Method.md",
+    "GuidedAttention Interpretable and Correctable Visual Attention for OOD-Robust Ro.md",
+    "SeededGrasp Language-Guided Grasping in Complex Scenes with Multiple Embodiments.md",
+    "EgoRecovery Acquiring Failure Recovery Ability Through Human Recovery Demonstrat.md",
+    "Bayesian Retraction Optimization for Tissue Attachment Mapping in Surgical Disse.md",
+    "Factorized Spatio-Temporal Convolutions for Human Pose Estimation from Planar Li.md",
+    "ZONDA Zero-shot Object Navigation with Dynamic Avoidance in Multi-floor Environm.md",
+    "SOPD-SocialNav Selective On-Policy Distillation for Vision-Language Social Navig.md",
+    "FilmWorld Agentic Novel-to-Film Generation through Dynamic Cinematic World Model.md",
+    "Correct-by-Construction Behavior Tree Synthesis from Signal Temporal Logic Speci.md",
+    "DWM Separating World Effects from Actions in Latent World Models.md",
+    "Same Dangerous Objective, Opposite Advice Direct Exposure versus Multi-Agent Med.md",
+    "RL-MACRO A Cybernetic Closed-Loop Intelligence Framework for Multimodal Adaptive.md",
+    "Human-Inspired Framework for Robotic Craniotomy Integrating Multimodal Fusion an.md",
+    "Emergent Compositional Skills in Mixture-of-Experts VLAs.md",
+    "Decentralized UAV Swarms for Ground Target Protection in GPS- and Communication-.md"
+  ],
+  "published_item_count": 24
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-14",
+  "source_digest": "30_Updates/2026-06-14 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "DARRMS -- An Efficient Algorithm for Dynamic Attention Radius in Resource-Constr.md",
+    "Ambient Diffusion Policy Imitation Learning from Suboptimal Data in Robotics.md",
+    "Fast-SDE Efficient Single-Microphone Sound Source Distance Estimation in Reverbe.md",
+    "Learning What to Say to Your VLA Mostly Harmless Vision Language Action Model St.md",
+    "$μ$VLA On Recurrent Memory for Partially Observable Manipulation in VLA Models.md",
+    "Point Cloud Segmentation for Autonomous Clip Positioning in Laparoscopic Cholecy.md",
+    "Scale Buys Interpolation, Structure Buys a Horizon Certified Predictability for.md",
+    "EA-WM Event-Aware World Models with Task-Specification Grounding for Long-Horizo.md",
+    "Topical Phase Transitions in Artificial Intelligence Research Large-Scale Eviden.md",
+    "VLADriveBench Evaluating CoT-Action Relationship in VLA for Autonomous Driving.md",
+    "EgoEngine From Egocentric Human Videos to High-Fidelity Dexterous Robot Demonstr.md",
+    "From Imitation to Alignment Human-Preference Flow Policies for Long-Horizon Side.md",
+    "Traceable Virtual Sea Trials in the Marine Robotics Unity Simulator for Manoeuvr.md",
+    "Critic Architecture Matters Dual vs. Unified Critics for Humanoid Loco-Manipulat.md",
+    "EmbodiSteer Steering Embodiment-Agnostic Visuomotor Policies with Joint-Space Gu.md",
+    "MAStrike Shapley-Guided Collusive Red-Teaming on Multi-Agent Systems.md",
+    "Action-Effect Memory Pretraining for Robot Manipulation.md",
+    "NavWAM A Navigation World Action Model for Goal-Conditioned Visual Navigation.md",
+    "WT-UMI Tactile-based Whole-Body Manipulation via Force-Supervised Contact-Aware.md",
+    "RoboProcessBench Benchmarking Process-Aware Understanding in Vision-Language Rob.md",
+    "GenHOI Contact-Aware Humanoid-Object Interaction by Imitating Generated Videos w.md",
+    "Diffusion Transformer World-Action Model for AV Scene Prediction.md",
+    "Towards Reliable Sequential Object Picking in Clutter The Runner-up Solution to.md",
+    "ProPlay Procedural World Models for Self-Evolving LLM Agents.md"
+  ],
+  "published_item_count": 24
+}

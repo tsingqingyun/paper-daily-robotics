@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-20",
+  "source_digest": "30_Updates/2026-06-20 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "Co-VLA Coordination-Aware Structured Action Modeling for Dual-Arm Vision-Languag.md",
+    "Finetuning Vision-Language-Action Models Requires Fewer Layers Than You Think.md",
+    "Data Standards for Humanoid Robotics The Missing Infrastructure for Physical AI.md",
+    "EventVLA Event-Driven Visual Evidence Memory for Long-Horizon Vision-Language-Ac.md",
+    "EquiVLA A General Framework for Rotationally Equivariant Vision-Language-Action.md",
+    "CRAX Fast Safe Reinforcement Learning Benchmarking.md",
+    "Bidirectional Tutoring for Developmental Motor Learning in Robots Co-Developed I.md",
+    "Fail-RAG A Retrieval Augmented Generation Informed Framework for Robot Failure I.md",
+    "CoLI A Reproducible Platform for Continuum Robot Learning via Monolithic 3D Prin.md",
+    "Pose6DAug Physically Plausible Multi-view Object Swapping for Robot Data Augment.md",
+    "ENPIRE Agentic Robot Policy Self-Improvement in the Real World.md",
+    "Playful Agentic Robot Learning.md",
+    "MemoryWAM Efficient World Action Modeling with Persistent Memory.md",
+    "Frequency-Aware Flow Matching for Continuous and Consistent Robotic Action Gener.md",
+    "TaCauchy An Extensible FEM Framework for Vision-Based Tactile Simulation.md",
+    "Lagrange An Open-Vocabulary, Energy-Based Sparse Framework for Generalized End-t.md",
+    "Start Right, Arrive Right Asynchronous Execution via Initial Noise Selection.md",
+    "ImageWAM Do World Action Models Really Need Video Generation, or Just Image Edit.md",
+    "Tri-Info Generalizable, Interpretable Failure Prediction for VLA Models via Info.md",
+    "DF-ExpEnse Diffusion Filtered Exploration for Sample Efficient Finetuning.md",
+    "3D-DLP Self-Supervised 3D Object-Centric Scene Representation Learning.md",
+    "Mem-World Memory-Augmented Action-Conditioned World Models for Persistent Robot.md",
+    "FlowMaps Modeling Long-Term Multimodal Object Dynamics with Flow Matching.md",
+    "See-and-Reach Precise Vision-Language Navigation for UAVs within the Field of Vi.md"
+  ],
+  "published_item_count": 24
+}

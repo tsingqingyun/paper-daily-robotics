@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-18",
+  "source_digest": "30_Updates/2026-07-18 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "Open-AoE An Open Egocentric Manipulation Dataset and Toolchain for Embodied Lear.md",
+    "Reflex Real-Time VLA Control through Streaming Inference.md",
+    "RoboTTT Context Scaling for Robot Policies.md",
+    "Towards Human-like Physical Intelligence LifelongVision-Language-Action Learning.md",
+    "Lights, Camera, Malfunction When Illumination Robustness Leaves VLA Models Blind.md",
+    "Knowing You at First Glance Inferring Apparent Personality from Faces.md",
+    "Representation-Aligned Tactile Grounding for Contact-Rich Robotic Manipulation.md",
+    "RxBrain Embodied Cognition Foundation Model with Joint Language-Visual Reasoning.md",
+    "Scaling Behavior Foundation Model for Humanoid Robots.md",
+    "Active Real-World Factor-Based Evaluation for Generalist Robot Policies.md",
+    "DiMaS Distribution Matching for Steering Vision-Language-Action Models.md",
+    "Never Too Late for Force Accelerating VLA Post-Training with Reactive Force Inje.md",
+    "DriftWorld Fast World Modeling through Drifting.md",
+    "SUFLECA Scaling Up Feature Learning for CAD-to-image Alignment.md",
+    "Hierarchical Denoising For Multi-Step Visual Reasoning.md",
+    "SafeRelBench A Spatial-Relation-Aware Benchmark for Process-Level Safety in VLM-.md",
+    "VTM-Nav Hierarchical Visual-Topological Memory for Cross-Episode Object-Goal Nav.md",
+    "Safe Execution of RL Policies Via Acceleration-Based CBF-QP Constraint Enforceme.md",
+    "SoftNav Injecting 3D Scene Tokens into VLMs for Embodied Navigation.md",
+    "HyMobileAgent Data-Environment Co-Scaling for Efficient GUI Agents.md",
+    "Zero2Skill Bootstrapping Robot Skills through Autonomous Data Collection, Traini.md",
+    "S-squared-VLA Decoupling Semantic and Spatial Streams in Vision-Language-Action.md",
+    "AeroAct Action-Centered World-Action Models for Language-Conditioned Quadrotor F.md",
+    "Multimodality as Supervision Self-Supervised Specialization to the Test Environm.md"
+  ],
+  "published_item_count": 24
+}

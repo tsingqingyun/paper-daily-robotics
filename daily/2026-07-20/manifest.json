@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-20",
+  "source_digest": "30_Updates/2026-07-20 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "Xiaomi-Robotics-1 Scaling Vision-Language-Action Models with over 100K Hours of.md",
+    "IMBench A Benchmark for Intuitive Robotic Manipulation.md",
+    "Handroid Bridging Dexterous Hand and Humanoid.md",
+    "Exo2EgoPose Leveraging Exocentric Demonstrations for Vision-Language guided Egoc.md",
+    "Event3R Asynchronous-to-Global 3D Reconstruction from Event Camera via Spatial-T.md",
+    "AC-VLA Robust Out-of-Distribution Action Execution via Compositional Learning.md",
+    "JoyNexus Service-Oriented Multi-Tenant Post-Training for VLA Models.md",
+    "Dynamics-Aware Meta-Imitation for Generalization to Unseen Robotic Manipulation.md",
+    "ToolVerse Unlocking Massive Environments and Long-Horizon Tasks for Agentic Rein.md",
+    "PIXIE A Zero-Shot texture-invariant 6D pose estimation framework for unseen obje.md",
+    "Embodied Active Learning under Limited Annotation and Navigation Budget for Obje.md",
+    "Learning Reach-Avoid Task with Reinforcement Learning Vectorized Simulation and.md",
+    "RAVEN Reinforcement-Adaptive Visibility-Graph Planning for Robust Humanoid Navig.md",
+    "PACE Persona Adaptation through Conversational Elicitation in Human-Robot Intera.md",
+    "VTLoc Learning-based Tactile Contact Localization in Visual Point Clouds.md",
+    "AEGIS Assay-Aware Protocol Validation and Runtime Monitoring for Open-Source Liq.md",
+    "Recursive Harness Self-Improvement.md",
+    "Robust Silicone Pour Casting and Sensor Embedding Procedures for Soft Robotic Ac.md",
+    "DPNeXt A Lightweight Multi-Scale Feature Fusion Framework for Efficient ViT-Base.md",
+    "DSWorld A Data Science World Model for Efficient Autonomous Agents.md",
+    "An Intelligent-Cloud Edge Multimodal Interaction System for Robots.md",
+    "Action QFormer Structured Representation Shaping under Action Supervision in Vis.md",
+    "Data and Learning Where it Matters for Contact-Rich Manipulation.md",
+    "NeuroCommitSSM Decision-Centric Shared Autonomy for Safe Assistive Manipulation.md"
+  ],
+  "published_item_count": 24
+}

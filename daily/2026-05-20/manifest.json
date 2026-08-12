@@ -1,0 +1,31 @@
+{
+  "date": "2026-05-20",
+  "source_digest": "30_Updates/2026-05-20 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "Dexora Open-source VLA for High-DoF Bimanual Dexterity.md",
+    "RoVLA Multi-Consistency Constraints for Robust Vision-Language-Action Models.md",
+    "RoboJailBench Benchmarking Adversarial Attacks and Defenses in Embodied Robotic.md",
+    "EgoTraj Real-World Egocentric Human Trajectory Dataset for Multimodal Prediction.md",
+    "Not What You Asked For Typographic Attacks in Household Robot Manipulation.md",
+    "PAPO-VLA Planning-Aware Policy Optimization for Vision-Language-Action Models.md",
+    "Robo-Cortex A Self-Evolving Embodied Agent via Dual-Grain Cognitive Memory and A.md",
+    "ManiSoft Towards Vision-Language Manipulation for Soft Continuum Robotics.md",
+    "Seeing Together Multi-Robot Cooperative Egocentric Spatial Reasoning with Multim.md",
+    "ARC-RL A Reinforcement Learning Playground Inspired by ARC Raiders.md",
+    "Key-Gram Extensible World Knowledge for Embodied Manipulation.md",
+    "DexHoldem Playing Texas Hold'em with Dexterous Embodied System.md",
+    "Qumus Realization of An Embodied AI Quantum Material Experimentalist.md",
+    "On Improving Multimodal Pedestrian Trajectory Prediction with CVAE A Study on Be.md",
+    "Non-Colliding Biometric Identities for Digital Entities Geometry, Capacity, and.md",
+    "SceneCode Executable World Programs for Editable Indoor Scenes with Articulated.md",
+    "Sampling-Based Safe Reinforcement Learning.md",
+    "SWEET Sparse World Modeling with Image Editing for Embodied Task Execution.md",
+    "Rethinking Muon Beyond Pretraining Spectral Failures and High-Pass Remedies for.md",
+    "EgoBabyVLM Benchmarking Cross-Modal Learning from Naturalistic Egocentric Video.md",
+    "Code as Agent Harness.md",
+    "StableVLA Towards Robust Vision-Language-Action Models without Extra Data.md",
+    "Beyond Waypoints Dual-Heatmap Grounding for Cross-Embodiment Semantic Navigation.md",
+    "Domain-Adaptive Communication-Rate Optimization for Sim-to-Real Humanoid-Robot W.md"
+  ],
+  "published_item_count": 24
+}

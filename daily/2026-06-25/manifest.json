@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-25",
+  "source_digest": "30_Updates/2026-06-25 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "World Value Models for Robotic Manipulation.md",
+    "RoBoSR Structured Scene Representations for Embodied Robotic Reasoning.md",
+    "G$ 3$VLA Geometric inductive bias for Vision-Language-Action Models.md",
+    "NoContactNoWorries Estimating Contact through Vision and Proprioception for In-H.md",
+    "Flow as Flow Modeling Robot Velocity Fields as Probability Velocity Fields for F.md",
+    "NavWM A Unified Navigation World Model for Foresight-Driven Planning.md",
+    "Supervise What Survives Geometry-Guided VLA Adaptation from Synthetic Robot Vide.md",
+    "REALM A Unified Red-Teaming Benchmark for Physical-World VLMs.md",
+    "TurboMPC Fast, Scalable, and Differentiable Model Predictive Control on the GPU.md",
+    "InSight Self-Guided Skill Acquisition via Steerable VLAs.md",
+    "RECALL Recovery Experience Collection for Active Lifelong Learning in Vision-Lan.md",
+    "KEMO Event-Driven Keyframe Memory for Long-Horizon Robot Manipulation with VLA P.md",
+    "TSD A Physics-Inspired Trajectory Saliency Detector for Efficient Imitation Lear.md",
+    "TEXEDO Test Time Scaling for Controller-aware Language-conditioned Humanoid Moti.md",
+    "ReMMD Realistic Multilingual Multi-Image Agentic Verification for Multimodal Mis.md",
+    "DriveStack-VLA Render-Teacher Alignment for BEV-Based DeepStack Vision-Language-.md",
+    "AIR Adaptive Interleaved Reasoning with Code in MLLMs.md",
+    "Attacking the Trusted Imagination Oracle-Level Integrity Attacks on Imagine-then.md",
+    "Intend, Reflect, Refine An Adaptive Multimodal Reflection Framework for Autonomo.md",
+    "ArtiTwinSplat Interactable Digital Twin Reconstruction via Gaussian Splatting fr.md",
+    "DexTeleop-0 Force-Aware Bimanual Dexterous Teleoperation with Ego-Centric Percep.md",
+    "Flow6D Discrete-to-Continuous Flow Matching for Efficient and Accurate Category-.md",
+    "AdaReP Adaptive Re-Planning under Model Mismatch for Neural World-Model Predicti.md",
+    "Compact Object-Level Representations with Open-Vocabulary Understanding for Indo.md"
+  ],
+  "published_item_count": 24
+}

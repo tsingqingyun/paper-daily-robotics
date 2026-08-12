@@ -1,0 +1,64 @@
+---
+type: update-item
+tags: [update, ai, embodied-ai]
+source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
+url: "https://arxiv.org/abs/2606.23675v1"
+published: "2026-06-22T17:58:03Z"
+age_days: 1
+score: 34
+created: 2026-06-24
+concepts: ["AI 核心知识地图"]
+---
+
+# IMAGIN-4D: Image-Guided Controllable Interaction Generation
+
+## 为什么重要
+
+自动筛选分数：34
+
+连接概念：[[AI 核心知识地图]]
+
+## 摘要
+
+Generating human-object interactions (HOI) is central to character animation, robotics,
+AR/VR, and embodied AI. Recent HOI generation methods synthesize motion from text,
+object geometry, and sparse waypoints, controlling action semantics and object
+trajectories. However, these signals underspecify interaction: the same prompt and
+trajectory can produce different grasps, approach directions, body poses, object poses,
+contacts, and body-object layouts. We address this ambiguity with a reference image as a
+visual specification of the desired interaction snapshot. However, a single global image
+representation conflates distinct cues and conditions all frames on identical visual
+evidence. We therefore introduce IMAGIN-4D, a diffusion-based HOI generator that
+decomposes image conditioning spatio-temporally. For spatial conditioning, IMAGIN-4D
+extracts supervised interaction-state tokens for body pose, object pose, body-object
+contact, and spatial relationships at the depicted frame. For temporal conditioning, it
+computes frame-aware tokens by querying image patches per generated frame, allowing
+sequence segments to attend to different visual cues from the same image. To balance
+image, text, and waypoint cues, IMAGIN-4D uses role-aware conditioning: text, waypoints,
+and interaction-state tokens use separate AdaLN streams, while frame-aware visual tokens
+cross-attend with motion tokens. Since HOI motion datasets lack paired images, we build
+a synthetic motion-to-image rendering pipeline from FullBodyManipulation (FBM) and
+introduce an image-adherence metric to evaluate whether generated motions match the
+reference snapshot. Experiments on FBM and BEHAVE show that IMAGIN-4D improves fine-
+grained interaction control over single-token and uniformly image-conditioned baselines
+while preserving waypoint-following and motion quality. Code and models will be released
+at https://imagin4d.github.io.
+
+## 来源
+
+- Source: arXiv Daily - Frontier Embodied AI Robotics Papers
+- URL: https://arxiv.org/abs/2606.23675v1
+- Authors: Sai Kumar Dwivedi, Federica Bogo, Buğra Tekin, Chenhongyi Yang, Nadine Bertsch, Tomas Hodan, Michael J. Black, Dimitrios Tzionas, Shreyas Hampali
+- Published: 2026-06-22T17:58:03Z
+- Age days: 1
+
+## 我的判断
+
+- [ ] 是否值得沉淀为核心笔记？
+- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
+
+## 后续追踪
+
+- 复现实验/代码：
+- 相关论文：
+- 影响的知识节点：

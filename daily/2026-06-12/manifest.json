@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-12",
+  "source_digest": "30_Updates/2026-06-12 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "Embodied-R1.5 Evolving Physical Intelligence via Embodied Foundation Models.md",
+    "TacCoRL Integrating Tactile Feedback into VLA via Simulation.md",
+    "Intelligent Automation for Embodied Benchmark Construction Pipelines, Embodiment.md",
+    "WorldOlympiad Can Your World Model Survive a Triathlon.md",
+    "World Pilot Steering Vision-Language-Action Models with World-Action Priors.md",
+    "DAM-VLA Decoupled Asynchronous Multimodal Vision Language Action model.md",
+    "DIRECT When and Where Should You Allocate Test-Time Compute in Embodied Planners.md",
+    "Fourier Features Let Agents Learn High Precision Policies with Imitation Learnin.md",
+    "DuoBench A Reproducible Benchmark for Bimanual Manipulation in Simulation and th.md",
+    "Bridging the Morphology Gap Adapting VLA Models to Dexterous Manipulation via In.md",
+    "Blind Dexterous Grasping via Real2Sim2Real Tactile Policy Learning.md",
+    "Learning Object Manipulation from Scratch via Contrastive Interaction.md",
+    "APT Action Expert Pretraining Improves Instruction Generalization of Vision-Lang.md",
+    "Implicit Neural Representations of Individual Behavior.md",
+    "Embodied-BenchClaw An Autonomous Multi-Agent System for Embodied Spatial Intelli.md",
+    "SG2Loc Sequential Visual Localization on 3D Scene Graphs.md",
+    "Cross-Modal Benchmarking for Robotic Perception in Natural Environments.md",
+    "TacForeSight Force-Guided Tactile World Model for Contact-Rich Manipulation.md",
+    "CHORUS Decentralized Multi-Embodiment Collaboration with One VLA Policy.md",
+    "World Model Self-Distillation Training World Models to Solve General Tasks.md",
+    "VICX Generalizable Robot Manipulation via Video Generation and In-Context Operat.md",
+    "Bridging the sim2real gap in the table tennis robot with a transformer-based bal.md",
+    "Test-Time Gradient Guidance of Flow Policies in Reinforcement Learning.md",
+    "VLGA Vision-Language-Geometry-Action Models for Autonomous Driving.md"
+  ],
+  "published_item_count": 24
+}

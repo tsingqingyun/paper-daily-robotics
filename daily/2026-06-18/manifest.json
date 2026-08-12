@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-18",
+  "source_digest": "30_Updates/2026-06-18 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "Geometric Action Model for Robot Policy Learning.md",
+    "Qwen-RobotManip Technical Report Alignment Unlocks Scale for Robotic Manipulatio.md",
+    "MuseVLA An Adaptive Multimodal Sensing Vision-Language-Action Model for Robotic.md",
+    "WireCraft A Simulation Benchmark for Industrial DLO Manipulation.md",
+    "Uncertainty Quantification for Flow-Based Vision-Language-Action Models.md",
+    "ROVE Unlocking Human Interventions for Humanoid Manipulation via Reinforcement L.md",
+    "ACE-Ego-0 Unifying Egocentric Human and Robotic Data for VLA Pretraining.md",
+    "Qwen-RobotWorld Technical Report Unifying Embodied World Modeling through Langua.md",
+    "ThinkingVLA Interleaved Vision and Language Reasoning for Robotic Manipulation.md",
+    "Video-Based Optimal Transport for Feedback-Efficient Offline Preference-Based Re.md",
+    "EgoInfinity A Web-Scale 4D Hand-Object Interaction Data Engine for Any-View Robo.md",
+    "Kairos A Native World Model Stack for Physical AI.md",
+    "PearlVLA Progressive Embodied Action-Plan Refinement in Latent Space.md",
+    "T-Rex Tactile-Reactive Dexterous Manipulation.md",
+    "EgoCS-400K An Egocentric Gameplay Dataset for World Models.md",
+    "VENOM Versatile Embodied Network for Omni-bodied Motion tracking.md",
+    "Memory as a Wasting Asset Pricing Flash Endurance for Embodied Agents, and the L.md",
+    "GASE Gaussian Splatting-Based Automated System for Reconstructing Embodied-Simul.md",
+    "GeneralVLA-2 Geometry-Aware Reconstruction and Governed Memory for Robot Plannin.md",
+    "Contrastive Action-Image Pre-training for Visuomotor Control.md",
+    "WeaveLA Event Driven Cross-Subtask Latent Memory Weaving for Repetitive Robot Ma.md",
+    "SoK Security and Privacy of Foundation-Model-Powered Robots.md",
+    "ERQA-Plus A Diagnostic Benchmark for Reasoning in Embodied AI.md",
+    "MagicSim A Unified Infrastructure for Executable Embodied Interaction.md"
+  ],
+  "published_item_count": 24
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2026-05-26",
+  "source_digest": "30_Updates/2026-05-26 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "EXPO-FT Sample-Efficient Reinforcement Learning Finetuning for Vision-Language-A.md",
+    "X-DiffVLA X-Embodied Diffusion Action Heads for Vision-Language-Action Models.md",
+    "Capability and Robustness Cannot Both Be Free An Information-Theoretic Bound for.md",
+    "OASIS Observation-Action Space Alignment via SE(3) Trajectory Prediction for Rob.md",
+    "Grow-Prune-Freeze Networks Adaptive & Continual Learning Technique for Olfactory.md",
+    "TapSampling Inference-Time Sampling with a Task-Progress-Understanding Verifier.md",
+    "Rethinking VLM Representation for VLA Initialization.md",
+    "FOUND-IT Foundation-model-first Task-driven 3D Scene Graphs with Granularity on.md",
+    "QuoVLA Quotient Space for Vision-Language-Action Models.md",
+    "Hylos Operability Contracts for Model-Native Spatial Intelligence.md",
+    "X-Foresight A Joint Vision-Action Causal Forecasting Network via Predictive Worl.md",
+    "EgoProx Evaluating MLLMs on Egocentric 3D Proximity Reasoning Across a Cognitive.md",
+    "Towards Active Real-to-Twin Inspection A New Paradigm for Zero-Shot Anomaly Dete.md",
+    "Fishbone From One 3D Asset to a Million Controllable Edits.md",
+    "AgentGrounder Zero-Shot 3D Visual Pointcloud Grounding using Multimodal Language.md",
+    "RepSAM Bridging Foundation Models to Robotic Vision via Representation-Guided Ad.md",
+    "How to Mitigate the Distribution Shift Problem in Robotics Control A Robust and.md",
+    "InvariantCloud A Globally Invariant, Uniquely Indexed Point Cloud Framework for.md",
+    "Security in the Fine-Tuning Lifecycle of Large Language Models Threats, Defenses.md",
+    "Stabilizing Streaming Video Geometry via Dynamic Feature Normalization.md",
+    "Understanding the Impact of Geometric Foundation Models on Vision-Language-Actio.md",
+    "ParkourFormer Integrating Predictive Supervision and Sequence Modeling into Park.md",
+    "Security of OpenClaw Agents Fundamentals, Attacks, and Countermeasures.md",
+    "Prior Policy Guided Dual-Agent Coordinated Manipulation Planning of Spacecraft-M.md"
+  ],
+  "published_item_count": 24
+}

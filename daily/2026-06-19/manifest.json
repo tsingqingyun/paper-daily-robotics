@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-19",
+  "source_digest": "30_Updates/2026-06-19 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "SC3-Eval Evaluating Robot Foundation Models via Self-Consistent Video Generation.md",
+    "Qwen-RobotManip Technical Report Alignment Unlocks Scale for Robotic Manipulatio.md",
+    "Motion-Focused Latent Action Enables Cross-Embodiment VLA Training from Human Eg.md",
+    "Does VLA Even Know the Basics Measuring Commonsense and World Knowledge Retentio.md",
+    "Object-Centric Residual RL for Zero-Shot Sim-to-Real VLA Enhancement.md",
+    "Invertible Neural Network Adapter for One-Step Flow Matching in Robot Manipulati.md",
+    "ROBOSHACKLES A Safety Dataset for Human-Injury Prevention in Embodied Foundation.md",
+    "DREAM-Chunk Reactive Action Chunking with Latent World Model.md",
+    "Guava An Effective and Universal Harness for Embodied Manipulation.md",
+    "A Scalable Embodied Intelligence Platform for Seamless Real-to-Sim-to-Real Trans.md",
+    "EffiNav Fusing Depth and Vision-Language for Efficient Object Goal Navigation.md",
+    "PAIWorld A 3D-Consistent World Foundation Model for Robotic Manipulation.md",
+    "Benchmarking Action Spaces in Reinforcement Learning for Vision-based Robotic Ma.md",
+    "ERQA-Plus A Diagnostic Benchmark for Reasoning in Embodied AI.md",
+    "Monocular 3D Occupancy Perception for Robots on Sidewalks via Hybrid 2D-3D Learn.md",
+    "VEGA Learning Navigation VLAs from In-the-Wild Egocentric Video with Geometric T.md",
+    "A Mixed-Reality Testbed for Autonomous Vehicles.md",
+    "HT-Bench Benchmarking and Learning Dexterous Full-Hand Tactile Representations w.md",
+    "ReSiReg Towards Spatially Consistent Semantics in Language-Conditioned Robotic T.md",
+    "Mem-World Memory-Augmented Action-Conditioned World Models for Persistent Robot.md",
+    "MoonSplat Monocular Online Gaussian Splatting with Sim(3) Global Optimization.md",
+    "HALOMI Learning Humanoid Loco-Manipulation with Active Perception from Human Dem.md",
+    "MolmoMotion Forecasting Point Trajectories in 3D with Language Instruction.md",
+    "Qwen-RobotNav Technical Report A Scalable Navigation Model Designed for an Agent.md"
+  ],
+  "published_item_count": 24
+}

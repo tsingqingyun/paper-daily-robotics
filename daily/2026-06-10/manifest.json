@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-10",
+  "source_digest": "30_Updates/2026-06-10 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "MemoryVLA++ Temporal Modeling via Memory and Imagination in Vision-Language-Acti.md",
+    "ProbeAct Probe-Guided Training-Free Failure Recovery in Vision-Language-Action M.md",
+    "iMaC Translating Actions into Motion and Contact Images for Embodied World Model.md",
+    "VeriSpace Spatially Grounded Action Verification for Vision-Language-Action Mode.md",
+    "What Matters in Orchestrating Robot Policies A Systematic Study of Hierarchical.md",
+    "MotionWAM Towards Foundation World Action Models for Real-Time Humanoid Loco-Man.md",
+    "SARM2 Multi-Task Stage Aware Reward Modeling for Self Improving Robotic Manipula.md",
+    "Your Model Already Knows Attention-Guided Safety Filter for Vision-Language-Acti.md",
+    "Harness Engineering for Physical AI Robot Middleware Is the Harness Layer.md",
+    "Dexterous Point Policy Learning Point-based Dexterous Hand Policies from Human D.md",
+    "Uncovering Vulnerability of Vision-Language-Action Models under Joint-Level Phys.md",
+    "AllDayNav Lifelong Navigation via Real-World Reinforcement Learning.md",
+    "Act on What You See Unlocking Safe Social Navigation in Vision-Language-Action M.md",
+    "A Practical Recipe Towards Improving Sim-and-Real Correlation for VLA Evaluation.md",
+    "TORL-VLA Tactile Guided Online Reinforcement Learning for Contact-Rich Manipulat.md",
+    "Task Robustness via Re-Labelling Vision-Action Robot Data.md",
+    "CT-VAM A Cerebello-Thalamic-Inspired Vision-Action Model for Efficient Visuomoto.md",
+    "LIBERO-Occ Evaluating and Improving Vision-Language-Action Models under Scene-In.md",
+    "ReCoVLA VLM-Guided Reward Compilation for Failure Recovery in Vision-Language-Ac.md",
+    "Safe-RULE Safe Reinforcement UnLEarning.md",
+    "Beyond APIs Probing the Limits of MLLMs in Physical Tool Use.md",
+    "Exploration of Foundation Model-Based Robots in Patient and Elderly Care.md",
+    "IMPACT Learning Internal-Model Predictive Control for Forceful Robotic Manipulat.md",
+    "Rethinking Embodied Navigation via Relational Inductive Bias.md"
+  ],
+  "published_item_count": 24
+}

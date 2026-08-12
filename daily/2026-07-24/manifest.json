@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-24",
+  "source_digest": "30_Updates/2026-07-24 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "ReferTrack Referring Then Tracking for Embodied Visual Tracking.md",
+    "Agentic Real2Sim Physics-based World Modeling with Vision-Language Agents.md",
+    "RoboInter1.5 A Holistic Intermediate Representation Suite for Embodied World Mod.md",
+    "Closing the Lab-to-Store Gap A Data-Efficient Post-Training and Experience-Drive.md",
+    "AXIS A Growable Community-Driven Data Engine for Scalable Robot Manipulation.md",
+    "EA-Nav Learning Safe Visual Navigation Policies with Embodiment Awareness.md",
+    "KineBench Benchmarking Embodied World Models via IDM-Free Kinematic Grounding.md",
+    "NavVerse Benchmarking Indoor-to-Outdoor Embodied Navigation in Continuous Robot.md",
+    "TransBiolab A Real-World Multi-View Dataset of Cluttered Transparent Biomedical.md",
+    "GS-Agent Creating 4D Physical Worlds With Generative Simulation.md",
+    "HyWorldVLA A Vision-Language-Action Model with Hybrid World Modeling for Autonom.md",
+    "ModPack An Extensible Teleoperation Interface for Bimanual Mobile Manipulation.md",
+    "Expert Behavior Prior Reinforcement Learning.md",
+    "Clinical Pathways as Safety Specifications for Physical AI in Hospital Wards.md",
+    "LENS LLM-guided Environment Simplification for Planning and Control in Clutter.md",
+    "DocOps A Verifiable Benchmark for Autonomous Agents in Complex Document Operatio.md",
+    "Masked Visual Actions for Unified World Modeling.md",
+    "ExpertVerse A General-Purpose Benchmark for Expert-Level Reasoning in Knowledge-.md",
+    "Beyond Episodic Evaluation Memory Architectural Bottlenecks in Sequential Embodi.md",
+    "TableVerse A Large-scale Tabletop Dataset with Real-world Grounded Layouts for G.md",
+    "Scale Up Strategically Learning Compositional Generalization via Bias-Aware Eval.md",
+    "URF A Unified Robot Control-Policy Framework for Stable Contact Aware Manipulati.md",
+    "ODeform Learning Continuous 4D Motion for Shape Deformation with Neural ODEs.md",
+    "Towards Miniature Humanoid Tele-Loco-Manipulation Using Virtual Reality and Rein.md"
+  ],
+  "published_item_count": 24
+}

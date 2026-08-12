@@ -1,0 +1,57 @@
+---
+type: update-item
+tags: [update, ai, embodied-ai]
+source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
+url: "https://arxiv.org/abs/2607.21309v1"
+published: "2026-07-23T13:31:54Z"
+age_days: 1
+score: 24
+created: 2026-07-25
+concepts: ["机器人学习", "具身智能评测与基准"]
+---
+
+# Factorized Spatio-Temporal Convolutions for Human Pose Estimation from Planar Lidar
+
+## 为什么重要
+
+自动筛选分数：24
+
+连接概念：[[机器人学习]], [[具身智能评测与基准]]
+
+## 摘要
+
+Localizing nearby humans and estimating their facing direction are key capabilities for
+safe navigation and socially aware human-robot interaction. Many pose-estimation
+pipelines target cameras and 3D LiDAR or assume GPU-class compute, whereas service
+robots are often equipped only with omnidirectional planar LiDARs and modest onboard
+processors. We address omnidirectional human detection and relative 2D pose estimation
+from planar LiDAR sequences with a lightweight network based on Space-Time Blocks, which
+explicitly separate spatial processing along scan rays from temporal aggregation across
+scans. Our network processes 360° LiDAR sequences to output per-ray human presence,
+distance, and relative orientation. We train it via cross-modal self-supervision from a
+narrow RGB-D body tracker in the sensors' overlap region, removing the need for manual
+LiDAR labels. Quantitative experiments show that our approach consistently outperforms a
+parameter-matched baseline model, reducing errors in distance (-38%), position (-28%),
+and orientation (-15%). We further benchmark on the public FROG dataset, report real-
+time CPU inference on a service robot, and validate with in-field demonstrations,
+supporting its suitability for spatial perception on computationally constrained service
+robots.
+
+## 来源
+
+- Source: arXiv Daily - Frontier Embodied AI Robotics Papers
+- URL: https://arxiv.org/abs/2607.21309v1
+- Authors: Simone Arreghini, Mirko Nava, Nicholas Carlotti, Antonio Paolillo, Alessandro Giusti
+- Published: 2026-07-23T13:31:54Z
+- Age days: 1
+
+## 我的判断
+
+- [ ] 是否值得沉淀为核心笔记？
+- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
+
+## 后续追踪
+
+- 复现实验/代码：
+- 相关论文：
+- 影响的知识节点：

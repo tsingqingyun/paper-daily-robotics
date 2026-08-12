@@ -1,0 +1,19 @@
+{
+  "date": "2026-05-10",
+  "source_digest": "30_Updates/2026-05-10 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "MolmoAct2 Action Reasoning Models for Real-world Deployment.md",
+    "LaST-R1 Reinforcing Robotic Manipulation via Adaptive Physical Latent Reasoning.md",
+    "RLDX-1 Technical Report.md",
+    "MotuBrain An Advanced World Action Model for Robot Control.md",
+    "Learning while Deploying Fleet-Scale Reinforcement Learning for Generalist Robot.md",
+    "TriRelVLA Triadic Relational Structure for Generalizable Embodied Manipulation.md",
+    "PRTS A Primitive Reasoning and Tasking System via Contrastive Representations.md",
+    "Vision-Language-Action Safety Threats, Challenges, Evaluations, and Mechanisms.md",
+    "VLA-GSE Boosting Parameter-Efficient Fine-Tuning in VLA with Generalized and Spe.md",
+    "Being-H0.7 A Latent World-Action Model from Egocentric Videos.md",
+    "Toward Visually Realistic Simulation A Benchmark for Evaluating Robot Manipulati.md",
+    "Seeing Realism from Simulation Efficient Video Transfer for Vision-Language-Acti.md"
+  ],
+  "published_item_count": 12
+}
