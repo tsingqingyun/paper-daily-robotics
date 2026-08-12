@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.13394v1"
 published: "2026-06-11T14:25:09Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "世界模型", "具身智能评测与基准
 
 # GeoHAT: Geometry-Adaptive Hybrid Action Transformer for Mobile Manipulation
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Experiments on the ManiSkill-HAB simulation benchmark demonstrate that GeoHAT achieves a 79.3% mean success rate, surpassing the strongest baseline by 23.7%.
 
-自动筛选分数：28
+## 关键点
 
-连接概念：[[多模态基础模型]], [[世界模型]], [[具身智能评测与基准]]
+- **问题**：Whole-body mobile manipulation requires coordinating mobile base and manipulator under shifting viewpoints, posing challenges in geometric perception and action generation.
+- **创新点 / 方法**：We present GeoHAT, an end-to-end diffusion-based framework built on a simple principle: geometry should be injected only where reliable and attended to only where needed.
+- **证据**：Experiments on the ManiSkill-HAB simulation benchmark demonstrate that GeoHAT achieves a 79.3% mean success rate, surpassing the strongest baseline by 23.7%.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[世界模型]] [[具身智能评测与基准]]
+- **筛选分数**：28
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Whole-body mobile manipulation requires coordinating mobile base and manipulator under
 shifting viewpoints, posing challenges in geometric perception and action generation.
@@ -41,7 +59,7 @@ Experiments on the ManiSkill-HAB simulation benchmark demonstrate that GeoHAT ac
 world experiments on diverse tasks also confirm consistent improvements over all
 baselines.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.13394v1
@@ -49,13 +67,4 @@ baselines.
 - Published: 2026-06-11T14:25:09Z
 - Age days: 1
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

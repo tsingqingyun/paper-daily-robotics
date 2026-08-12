@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2607.14021v1"
 published: "2026-07-15T16:54:28Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "机器人学习", "具身智能评测与基
 
 # Industrial Dexterity Benchmark: A Hardware-Software Benchmarking Platform for Industrial Dexterous Manipulation
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> The best performing configuration, a multimodal expansion Diffusion Policy (DP), includes a multi-view RGB image source passed through an R3M encoder and reaches a 78% grasp and insert combined task success rate.
 
-自动筛选分数：36
+## 关键点
 
-连接概念：[[多模态基础模型]], [[机器人学习]], [[具身智能评测与基准]]
+- **问题**：Dexterous manipulation remains a critical bottleneck in industrial automation; tasks such as cable routing, connector insertion, and precision assembly still rely heavily on manual labor despite decades of robotics research.
+- **创新点 / 方法**：As a part of this work, we introduce three key contributions: a set of Industrial Dexterity Benchmark (IDB) boards aimed to mimic datacenter cable management, automotive cable harnesses, and gearbox assembly tasks; a scalable imitation learning framework (DAG-ROS); and a multimodal diffusion- based policy framework (A…
+- **证据**：The best performing configuration, a multimodal expansion Diffusion Policy (DP), includes a multi-view RGB image source passed through an R3M encoder and reaches a 78% grasp and insert combined task success rate.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[机器人学习]] [[具身智能评测与基准]]
+- **筛选分数**：36
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Dexterous manipulation remains a critical bottleneck in industrial automation; tasks
 such as cable routing, connector insertion, and precision assembly still rely heavily on
@@ -42,7 +60,7 @@ vision and control robotic methods in robustness, generalization, and deployment
 efficiency, justifying a shift toward scalable robotic automation for high up-time
 industrial environments.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2607.14021v1
@@ -50,13 +68,4 @@ industrial environments.
 - Published: 2026-07-15T16:54:28Z
 - Age days: 1
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

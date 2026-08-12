@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.07089v1"
 published: "2026-06-05T09:35:48Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "智能体 Agent", "视觉语言动作模型
 
 # Dreaming when Necessary: Advancing World Action Models with Adaptive Multi-Modal Reasoning
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Experiments on both simulated and real-world embodied tasks show that AdaWAM substantially improves inference efficiency while outperforming state-of-the-art embodied policies.
 
-自动筛选分数：29
+## 关键点
 
-连接概念：[[多模态基础模型]], [[智能体 Agent]], [[视觉语言动作模型 VLA]]
+- **问题**：World Action Models (WAMs) offer a promising approach to embodied intelligence, yet existing methods rely heavily on video prediction as action priors and lack adaptive multimodal reasoning, limiting their effectiveness on long-horizon, complex tasks.
+- **创新点 / 方法**：Motivated by this observation, we propose \textbf{AdaWAM}, a world action model with adaptive multimodal reasoning abilities.
+- **证据**：Experiments on both simulated and real-world embodied tasks show that AdaWAM substantially improves inference efficiency while outperforming state-of-the-art embodied policies.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]]
+- **筛选分数**：29
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 World Action Models (WAMs) offer a promising approach to embodied intelligence, yet
 existing methods rely heavily on video prediction as action priors and lack adaptive
@@ -34,7 +52,7 @@ tasks show that AdaWAM substantially improves inference efficiency while outperf
 state-of-the-art embodied policies. Codes and demos are available at:
 https://adawam.github.io/.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.07089v1
@@ -42,13 +60,4 @@ https://adawam.github.io/.
 - Published: 2026-06-05T09:35:48Z
 - Age days: 2
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2607.13586v1"
 published: "2026-07-15T08:27:07Z"
@@ -12,13 +17,26 @@ concepts: ["世界模型", "具身智能评测与基准"]
 
 # UniPhysGen: Unified Physical Grounding for Simulation-Ready 3D Assets
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> We present UniPhys, a scalable framework for automatically transforming raw 3D assets into simulation-ready assets with unified physical semantics.
 
-自动筛选分数：29
+## 关键点
 
-连接概念：[[世界模型]], [[具身智能评测与基准]]
+- **问题**：However, most existing 3D assets lack unified physical semantics, including articulation semantics and intrinsic physical properties, required for realistic interaction.
+- **创新点 / 方法**：We present UniPhys, a scalable framework for automatically transforming raw 3D assets into simulation-ready assets with unified physical semantics.
+- **证据**：摘要未报告明确实验结论；需阅读全文核查。
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[世界模型]] [[具身智能评测与基准]]
+- **筛选分数**：29
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Physically grounded 3D assets are increasingly important for embodied AI and robotic
 simulation. However, most existing 3D assets lack unified physical semantics, including
@@ -38,7 +56,7 @@ tasks, while the resulting assets can be directly deployed in robotic simulation
 environments for realistic physical interaction. Our code and dataset will be available
 at https://github.com/breezexian/UniPhysGen.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2607.13586v1
@@ -46,13 +64,4 @@ at https://github.com/breezexian/UniPhysGen.
 - Published: 2026-07-15T08:27:07Z
 - Age days: 1
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

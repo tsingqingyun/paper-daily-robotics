@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2605.13083v1"
 published: "2026-05-13T06:54:36Z"
@@ -12,13 +17,26 @@ concepts: ["世界模型", "具身智能评测与基准"]
 
 # TouchAnything: A Dataset and Framework for Bimanual Tactile Estimation from Egocentric Video
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Experiments show that incorporating wrist-mounted views generally improves tactile prediction over egocentric- only input, achieving up to 5.0% relative improvement in Contact IoU and 6.1% relative improvement in Volumetric IoU.
 
-自动筛选分数：32
+## 关键点
 
-连接概念：[[世界模型]], [[具身智能评测与基准]]
+- **问题**：However, existing egocentric datasets typically lack tactile sensing, a critical modality that provides direct cues about contact, force, and pressure in human-object interaction.
+- **创新点 / 方法**：To enable research in this direction, we introduce EgoTouch, a large-scale multi-view egocentric dataset with dense tactile supervision for bimanual hand-object interaction.
+- **证据**：Experiments show that incorporating wrist-mounted views generally improves tactile prediction over egocentric- only input, achieving up to 5.0% relative improvement in Contact IoU and 6.1% relative improvement in Volumetric IoU.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[世界模型]] [[具身智能评测与基准]]
+- **筛选分数**：32
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Egocentric human video data, which captures rich human-environment interactions and can
 be collected at scale, has become a key driver of embodied intelligence research.
@@ -43,7 +61,7 @@ only input, achieving up to 5.0% relative improvement in Contact IoU and 6.1% re
 improvement in Volumetric IoU. We will publicly release the dataset, code, and
 benchmark.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2605.13083v1
@@ -51,13 +69,4 @@ benchmark.
 - Published: 2026-05-13T06:54:36Z
 - Age days: 0
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

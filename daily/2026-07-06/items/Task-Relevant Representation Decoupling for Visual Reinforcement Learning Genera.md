@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2607.00796v1"
 published: "2026-07-01T11:26:25Z"
@@ -12,13 +17,26 @@ concepts: ["智能体 Agent", "机器人学习"]
 
 # Task-Relevant Representation Decoupling for Visual Reinforcement Learning Generalization
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> T2RD achieves State-Of-The-Art (SOTA) generalization performance and sample efficiency in the DeepMind Control Suite and Robotic Manipulation tasks.
 
-自动筛选分数：26
+## 关键点
 
-连接概念：[[智能体 Agent]], [[机器人学习]]
+- **问题**：However, generalizing learned policies to new environments remains a major challenge, as agents often overfit to task-irrelevant features in the training environment.
+- **创新点 / 方法**：To solve this problem, we introduce the concept of decoupling observations into task-relevant and task-irrelevant representations.
+- **证据**：T2RD achieves State-Of-The-Art (SOTA) generalization performance and sample efficiency in the DeepMind Control Suite and Robotic Manipulation tasks.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[智能体 Agent]] [[机器人学习]]
+- **筛选分数**：26
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Visual Reinforcement Learning (VRL) has achieved considerable success in solving control
 tasks. However, generalizing learned policies to new environments remains a major
@@ -35,7 +53,7 @@ introduces dynamic prediction. T2RD achieves State-Of-The-Art (SOTA) generalizat
 performance and sample efficiency in the DeepMind Control Suite and Robotic Manipulation
 tasks.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2607.00796v1
@@ -43,13 +61,4 @@ tasks.
 - Published: 2026-07-01T11:26:25Z
 - Age days: 4
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

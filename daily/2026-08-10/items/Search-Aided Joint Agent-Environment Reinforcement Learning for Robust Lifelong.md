@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2608.05588v1"
 published: "2026-08-06T04:17:38Z"
@@ -12,13 +17,26 @@ concepts: ["智能体 Agent", "机器人学习", "具身智能评测与基准"]
 
 # Search-Aided Joint Agent-Environment Reinforcement Learning for Robust Lifelong Multi-Agent Path Finding with Rotations
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Experiments demonstrate that SJRL achieves significant improvements over the strong search-based planner, Causal-PIBT, across multiple high- density maps.
 
-自动筛选分数：26
+## 关键点
 
-连接概念：[[智能体 Agent]], [[机器人学习]], [[具身智能评测与基准]]
+- **问题**：These constraints substantially increase coordination difficulty, particularly in highly constrained spaces.
+- **创新点 / 方法**：To address these challenges, we propose Search-Aided Joint Reinforcement Learning (SJRL).
+- **证据**：Experiments demonstrate that SJRL achieves significant improvements over the strong search-based planner, Causal-PIBT, across multiple high- density maps.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[智能体 Agent]] [[机器人学习]] [[具身智能评测与基准]]
+- **筛选分数**：26
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Lifelong Multi-Agent Path Finding (LMAPF) requires repeatedly planning collision-free
 paths for agents that continuously receive new goals upon reaching their current ones.
@@ -38,7 +56,7 @@ improvements over the strong search-based planner, Causal-PIBT, across multiple 
 density maps. We further validate SJRL in a challenging mixed-reality warehouse
 environment with 8 physical robots and 248 virtual robots.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2608.05588v1
@@ -46,13 +64,4 @@ environment with 8 physical robots and 248 virtual robots.
 - Published: 2026-08-06T04:17:38Z
 - Age days: 4
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

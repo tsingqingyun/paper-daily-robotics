@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2605.18287v1"
 published: "2026-05-18T12:15:16Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "智能体 Agent", "视觉语言动作模型
 
 # StableVLA: Towards Robust Vision-Language-Action Models without Extra Data
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Without requiring any extra data or augmentation strategies, IB- Adapter consistently improves over the baseline by an average of 30%, while adding fewer than 10M parameters, demonstrating notable efficiency and effectiveness.
 
-自动筛选分数：30
+## 关键点
 
-连接概念：[[多模态基础模型]], [[智能体 Agent]], [[视觉语言动作模型 VLA]], [[具身智能评测与基准]]
+- **问题**：It is infeasible to encompass all possible disturbances within the training dataset.
+- **创新点 / 方法**：To mitigate this issue, we propose a lightweight adapter module grounded in information theory, termed the Information Bottleneck Adapter (IB-Adapter), which selectively filters potential noise from visual inputs.
+- **证据**：Without requiring any extra data or augmentation strategies, IB- Adapter consistently improves over the baseline by an average of 30%, while adding fewer than 10M parameters, demonstrating notable efficiency and effectiveness.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
+- **筛选分数**：30
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 It is infeasible to encompass all possible disturbances within the training dataset.
 This raises a critical question regarding the robustness of Vision-Language-Action (VLA)
@@ -37,7 +55,7 @@ state-of-the-art VLAs. With negligible parameter overhead (<10M), our approach m
 accuracy on long-horizon tasks and surpasses OpenPi under both synthetic and physical
 visual corruptions.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2605.18287v1
@@ -45,13 +63,4 @@ visual corruptions.
 - Published: 2026-05-18T12:15:16Z
 - Age days: 1
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

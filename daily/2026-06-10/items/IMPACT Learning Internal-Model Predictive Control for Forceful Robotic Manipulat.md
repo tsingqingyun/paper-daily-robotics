@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.10818v1"
 published: "2026-06-09T13:00:56Z"
@@ -12,13 +17,26 @@ concepts: ["智能体 Agent", "世界模型", "机器人学习", "具身智能�
 
 # IMPACT: Learning Internal-Model Predictive Control for Forceful Robotic Manipulation
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Extensive simulation and real-world experiments demonstrate that the proposed framework achieves higher success rates and improved generalization to unseen object weights, as well as better safety and energy efficiency.
 
-自动筛选分数：30
+## 关键点
 
-连接概念：[[智能体 Agent]], [[世界模型]], [[机器人学习]], [[具身智能评测与基准]]
+- **问题**：However, implicit approaches generalize poorly across object weights, while explicit approaches require specialized hardware and increase system complexity.
+- **创新点 / 方法**：In this work, we propose IMPACT, a framework that decouples these forceful tasks into task-planning and internal-model- based predictive control.
+- **证据**：Extensive simulation and real-world experiments demonstrate that the proposed framework achieves higher success rates and improved generalization to unseen object weights, as well as better safety and energy efficiency.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[智能体 Agent]] [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
+- **筛选分数**：30
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Real-world robotic manipulation tasks often involve forceful interactions with the
 environment, such as using tools of varying weights, transporting objects with different
@@ -34,7 +52,7 @@ based predictive control. Extensive simulation and real-world experiments demons
 that the proposed framework achieves higher success rates and improved generalization to
 unseen object weights, as well as better safety and energy efficiency.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.10818v1
@@ -42,13 +60,4 @@ unseen object weights, as well as better safety and energy efficiency.
 - Published: 2026-06-09T13:00:56Z
 - Age days: 0
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

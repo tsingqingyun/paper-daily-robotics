@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: false
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.23589v1"
 published: "2026-06-22T16:57:43Z"
@@ -12,13 +17,26 @@ concepts: ["智能体 Agent", "视觉语言动作模型 VLA", "具身智能评�
 
 # KEMO: Event-Driven Keyframe Memory for Long-Horizon Robot Manipulation with VLA Policies
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Compared with the memory-free baseline (e.g., $π_{0.5}$), KEMO improves aggregate Task Success Rate by 23.6\% and Stage Completion Rate by 34.1\%.
 
-自动筛选分数：31
+## 关键点
 
-连接概念：[[智能体 Agent]], [[视觉语言动作模型 VLA]], [[具身智能评测与基准]]
+- **问题**：Long-horizon robot manipulation remains challenging because similar observations may occur at different execution stages, while the appropriate action depends on previously completed operations.
+- **创新点 / 方法**：In this work, we propose propose KEMO, a lightweight plug-in memory framework that automatically selectively preserves keyframes associated with task-relevant state changes for VLA policies.
+- **证据**：Compared with the memory-free baseline (e.g., $π_{0.5}$), KEMO improves aggregate Task Success Rate by 23.6\% and Stage Completion Rate by 34.1\%.
+- **局限**：Long-horizon robot manipulation remains challenging because similar observations may occur at different execution stages, while the appropriate action depends on previously completed operations.
 
-## 摘要
+## 研究关联
+
+- **概念**：[[智能体 Agent]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
+- **筛选分数**：31
+- **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Long-horizon robot manipulation remains challenging because similar observations may
 occur at different execution stages, while the appropriate action depends on previously
@@ -40,7 +58,7 @@ Rate by 34.1\%. Ablations show that event-driven keyframe selection outperforms 
 sampling and recent-frame retention, while the proposed gated fusion and keyframe-
 aligned loss weighting provide complementary gains.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.23589v1
@@ -48,13 +66,4 @@ aligned loss weighting provide complementary gains.
 - Published: 2026-06-22T16:57:43Z
 - Age days: 2
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

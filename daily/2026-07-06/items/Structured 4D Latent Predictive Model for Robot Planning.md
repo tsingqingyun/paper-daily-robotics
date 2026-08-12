@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2607.01166v1"
 published: "2026-07-01T16:52:49Z"
@@ -12,13 +17,26 @@ concepts: ["智能体 Agent", "世界模型"]
 
 # Structured 4D Latent Predictive Model for Robot Planning
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Consequently, our full planning pipeline achieves superior performance on complex manipulation tasks, exhibits robust generalization to novel visual conditions, and proves effective on real- world robotic platforms.
 
-自动筛选分数：28
+## 关键点
 
-连接概念：[[智能体 Agent]], [[世界模型]]
+- **问题**：However, prevailing approaches often operate on 2D video sequences, inherently lacking the 3D geometric understanding necessary for precise spatial reasoning and physical consistency.
+- **创新点 / 方法**：We introduce a Structured 4D Latent Predictive Model, which predicts the evolution of a scene's 3D structure in a structured latent space conditioned on observations and textual instructions.
+- **证据**：Consequently, our full planning pipeline achieves superior performance on complex manipulation tasks, exhibits robust generalization to novel visual conditions, and proves effective on real- world robotic platforms.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[智能体 Agent]] [[世界模型]]
+- **筛选分数**：28
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Video predictive models are emerging as a powerful paradigm in robotics, offering a
 promising path toward task generalization, long-horizon planning, and flexible decision-
@@ -38,7 +56,7 @@ exhibits robust generalization to novel visual conditions, and proves effective 
 world robotic platforms. Our website is available at
 https://structured-4d-model.github.io/.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2607.01166v1
@@ -46,13 +64,4 @@ https://structured-4d-model.github.io/.
 - Published: 2026-07-01T16:52:49Z
 - Age days: 4
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

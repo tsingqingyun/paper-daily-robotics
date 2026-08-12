@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.19451v1"
 published: "2026-06-17T18:00:08Z"
@@ -12,13 +17,26 @@ concepts: ["AI 核心知识地图"]
 
 # 3D-DLP: Self-Supervised 3D Object-Centric Scene Representation Learning
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Furthermore, we show that leveraging these compact 3D latent particles for downstream robotic manipulation improves performance over baselines that either lack explicit 3D information or rely on memory-intensive dense 3D inputs without object-centric structur…
 
-自动筛选分数：29
+## 关键点
 
-连接概念：[[AI 核心知识地图]]
+- **问题**：Furthermore, we show that leveraging these compact 3D latent particles for downstream robotic manipulation improves performance over baselines that either lack explicit 3D information or rely on memory-intensive dense 3D inputs without object-centric structure.
+- **创新点 / 方法**：We introduce 3D-DLP, a self-supervised object-centric representation learning model that decomposes scene-level RGB-D or voxel observations into a set of 3D latent particles.
+- **证据**：Furthermore, we show that leveraging these compact 3D latent particles for downstream robotic manipulation improves performance over baselines that either lack explicit 3D information or rely on memory-intensive dense 3D inputs without object-centric structure.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[AI 核心知识地图]]
+- **筛选分数**：29
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 We introduce 3D-DLP, a self-supervised object-centric representation learning model that
 decomposes scene-level RGB-D or voxel observations into a set of 3D latent particles.
@@ -34,7 +52,7 @@ improves performance over baselines that either lack explicit 3D information or 
 memory-intensive dense 3D inputs without object-centric structure. Code and videos are
 available at https://eubooks3003.github.io/3d-dlp.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.19451v1
@@ -42,13 +60,4 @@ available at https://eubooks3003.github.io/3d-dlp.
 - Published: 2026-06-17T18:00:08Z
 - Age days: 2
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

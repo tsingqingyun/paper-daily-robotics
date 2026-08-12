@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.13053v1"
 published: "2026-06-11T08:35:37Z"
@@ -12,13 +17,26 @@ concepts: ["智能体 Agent", "世界模型"]
 
 # EA-WM: Event-Aware World Models with Task-Specification Grounding for Long-Horizon Manipulation
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> We introduce EA-WM, an event-aware world-model framework that augments frozen visual-feature dynamics with task-specification-grounded event prediction and verification.
 
-自动筛选分数：27
+## 关键点
 
-连接概念：[[智能体 Agent]], [[世界模型]]
+- **问题**：Pretrained-feature world models provide a useful substrate for robot imagination, but visual or latent prediction alone does not determine whether an imagined future satisfies task-relevant events.
+- **创新点 / 方法**：We introduce EA-WM, an event-aware world-model framework that augments frozen visual-feature dynamics with task-specification-grounded event prediction and verification.
+- **证据**：摘要未报告明确实验结论；需阅读全文核查。
+- **局限**：Pretrained-feature world models provide a useful substrate for robot imagination, but visual or latent prediction alone does not determine whether an imagined future satisfies task-relevant events.
 
-## 摘要
+## 研究关联
+
+- **概念**：[[智能体 Agent]] [[世界模型]]
+- **筛选分数**：27
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Pretrained-feature world models provide a useful substrate for robot imagination, but
 visual or latent prediction alone does not determine whether an imagined future
@@ -36,7 +54,7 @@ PPOgenerated proposals. Across navigation, deformable-object, wall-constrained, 
 languagedescribed manipulation studies, EA-WM shows that event-aware verification can
 make featurespace world models more interpretable and better aligned with task progress.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.13053v1
@@ -44,13 +62,4 @@ make featurespace world models more interpretable and better aligned with task p
 - Published: 2026-06-11T08:35:37Z
 - Age days: 2
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

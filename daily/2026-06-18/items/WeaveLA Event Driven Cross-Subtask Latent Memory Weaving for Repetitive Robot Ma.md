@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.17463v1"
 published: "2026-06-16T03:25:34Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "视觉语言动作模型 VLA", "机器人�
 
 # WeaveLA: Event Driven Cross-Subtask Latent Memory Weaving for Repetitive Robot Manipulation
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> The core issue is structural: short-window VLAs lack an explicit channel for rouxting information across sub-task boundaries, and existing memory-augmented variants either write at every frame, retrieve from demonstration-time stages, or fire at sub-goal even…
 
-自动筛选分数：32
+## 关键点
 
-连接概念：[[多模态基础模型]], [[视觉语言动作模型 VLA]], [[机器人学习]], [[具身智能评测与基准]]
+- **问题**：Vision-Language-Action (VLA) policies have achieved remarkable single-step manipulation, yet they remain brittle precisely where each stage depends on what was just completed.
+- **创新点 / 方法**：The core issue is structural: short-window VLAs lack an explicit channel for rouxting information across sub-task boundaries, and existing memory-augmented variants either write at every frame, retrieve from demonstration-time stages, or fire at sub-goal events without performing an explicit sub-task-to-sub-task hand-…
+- **证据**：摘要未报告明确实验结论；需阅读全文核查。
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[视觉语言动作模型 VLA]] [[机器人学习]] [[具身智能评测与基准]]
+- **筛选分数**：32
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Vision-Language-Action (VLA) policies have achieved remarkable single-step manipulation,
 yet they remain brittle precisely where each stage depends on what was just completed.
@@ -39,7 +57,7 @@ from $0\%$ to $47.8\%$, while single-execution episodes remain unchanged. Per-ep
 paired analysis confirms the gains are confined to tasks whose causal structure requires
 cross-subtask information.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.17463v1
@@ -47,13 +65,4 @@ cross-subtask information.
 - Published: 2026-06-16T03:25:34Z
 - Age days: 1
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

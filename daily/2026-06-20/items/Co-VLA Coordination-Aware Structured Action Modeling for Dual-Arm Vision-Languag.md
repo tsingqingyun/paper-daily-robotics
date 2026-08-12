@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.20285v1"
 published: "2026-06-18T14:28:37Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "世界模型", "视觉语言动作模型 VL
 
 # Co-VLA: Coordination-Aware Structured Action Modeling for Dual-Arm Vision-Language-Action Systems
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Experiments across simulation and real-world benchmarks show Co-VLA significantly outperforms monolithic baselines, achieving a 27% success rate gain in tight- coordination tasks, more than doubling performance in OOD real-world scenarios (from 13% to 27%), a…
 
-自动筛选分数：41
+## 关键点
 
-连接概念：[[多模态基础模型]], [[世界模型]], [[视觉语言动作模型 VLA]], [[具身智能评测与基准]]
+- **问题**：However, as bimanual tasks become tightly coupled and execution constraints become critical, implicit coordination alone is insufficient to ensure reliable, interpretable, and stable behavior.
+- **创新点 / 方法**：In this work, we propose Co-VLA, a coordination- aware bimanual manipulation framework introducing explicit structural priors into VLA models.
+- **证据**：Experiments across simulation and real-world benchmarks show Co-VLA significantly outperforms monolithic baselines, achieving a 27% success rate gain in tight- coordination tasks, more than doubling performance in OOD real-world scenarios (from 13% to 27%), and reducing task completion time by up to 25%.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
+- **筛选分数**：41
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Vision-language-action (VLA) models show strong capabilities in single and dual-arm
 robotic manipulation. Prior works show coordinated bimanual behaviors can emerge from
@@ -42,7 +60,7 @@ outperforms monolithic baselines, achieving a 27% success rate gain in tight-
 coordination tasks, more than doubling performance in OOD real-world scenarios (from 13%
 to 27%), and reducing task completion time by up to 25%.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.20285v1
@@ -50,13 +68,4 @@ to 27%), and reducing task completion time by up to 25%.
 - Published: 2026-06-18T14:28:37Z
 - Age days: 1
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

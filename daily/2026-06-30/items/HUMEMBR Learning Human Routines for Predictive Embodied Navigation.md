@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.30404v1"
 published: "2026-06-29T14:50:50Z"
@@ -12,13 +17,26 @@ concepts: ["智能体 Agent"]
 
 # HUMEMBR: Learning Human Routines for Predictive Embodied Navigation
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Our experimental results indicate that HUMEMBR improves long-horizon reasoning about human behavior relative to full-context LLM baselines, while using substantially fewer tokens.
 
-自动筛选分数：29
+## 关键点
 
-连接概念：[[智能体 Agent]]
+- **问题**：Understanding and navigating human-centered environments over extended periods of time while considering human behavior and routines remains a fundamental challenge in robotics.
+- **创新点 / 方法**：To this end, we introduce Human-Centered Memory for Embodied Robots (HUMEMBR), a system designed for embodied question answering and routine-conditioned navigation.
+- **证据**：Our experimental results indicate that HUMEMBR improves long-horizon reasoning about human behavior relative to full-context LLM baselines, while using substantially fewer tokens.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[智能体 Agent]]
+- **筛选分数**：29
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Understanding and navigating human-centered environments over extended periods of time
 while considering human behavior and routines remains a fundamental challenge in
@@ -36,7 +54,7 @@ baselines, while using substantially fewer tokens. Furthermore, we deploy HUMEMB
 physical robot in two distinct environments, showing its ability to handle diverse
 queries and navigation tasks under real-world conditions.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.30404v1
@@ -44,13 +62,4 @@ queries and navigation tasks under real-world conditions.
 - Published: 2026-06-29T14:50:50Z
 - Age days: 0
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2607.15890v1"
 published: "2026-07-17T12:05:07Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "世界模型", "视觉语言动作模型 VL
 
 # Exo2EgoPose: Leveraging Exocentric Demonstrations for Vision-Language guided Egocentric 3D Hand Pose Forecasting
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Extensive experiments on \textit{AssemblyHands}, \textit{Ego-Exo4D}, and our newly constructed \textit{EgoMe-pose} benchmarks show the superiority of our method, which outperforms state-of-the-art methods by a large margin.
 
-自动筛选分数：37
+## 关键点
 
-连接概念：[[多模态基础模型]], [[世界模型]], [[视觉语言动作模型 VLA]], [[机器人学习]], [[具身智能评测与基准]]
+- **问题**：However, previous studies either rely mainly on under-informed visual inputs to predict coarse human motions or follow the VRM/VLA paradigm, which suffers from insufficient robot data and the gap between human and robot embodiments.
+- **创新点 / 方法**：To overcome the limited field-of-view and highly dynamic motions in the Ego view, we propose a framework dubbed Exo2EgoPose, which innovatively leverages holistic and stable exocentric (Exo) demonstrations as guidance to compensate for partial and dynamic Ego-view cues.
+- **证据**：Extensive experiments on \textit{AssemblyHands}, \textit{Ego-Exo4D}, and our newly constructed \textit{EgoMe-pose} benchmarks show the superiority of our method, which outperforms state-of-the-art methods by a large margin.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]] [[机器人学习]] [[具身智能评测与基准]]
+- **筛选分数**：37
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Perceiving multimodal cues and forecasting fine-grained actions from an egocentric (Ego)
 perspective is vital for applications like robot manipulation. However, previous studies
@@ -44,7 +62,7 @@ state-of-the-art methods by a large margin. Moreover, it demonstrates an effecti
 human-to-robot transfer capability and yields improvements on the \textit{CALVIN}
 dataset. Code will be released.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2607.15890v1
@@ -52,13 +70,4 @@ dataset. Code will be released.
 - Published: 2026-07-17T12:05:07Z
 - Age days: 2
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

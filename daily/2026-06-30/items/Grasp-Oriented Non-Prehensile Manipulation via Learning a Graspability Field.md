@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.30474v1"
 published: "2026-06-29T15:33:27Z"
@@ -12,13 +17,26 @@ concepts: ["世界模型", "机器人学习", "具身智能评测与基准"]
 
 # Grasp-Oriented Non-Prehensile Manipulation via Learning a Graspability Field
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Non-prehensile manipulation is often used as a preparatory step for robotic grasping, yet existing approaches typically require a predefined target object pose.
 
-自动筛选分数：29
+## 关键点
 
-连接概念：[[世界模型]], [[机器人学习]], [[具身智能评测与基准]]
+- **问题**：In practice, however, objects admit multiple graspable configurations and the desired pose is not known in advance.
+- **创新点 / 方法**：Non-prehensile manipulation is often used as a preparatory step for robotic grasping, yet existing approaches typically require a predefined target object pose.
+- **证据**：摘要未报告明确实验结论；需阅读全文核查。
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
+- **筛选分数**：29
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Non-prehensile manipulation is often used as a preparatory step for robotic grasping,
 yet existing approaches typically require a predefined target object pose. In practice,
@@ -36,7 +54,7 @@ predicted graspability distance correlates with real world grasp success, which
 indicates that the learned representation captures grasp feasibility of object
 configurations.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.30474v1
@@ -44,13 +62,4 @@ configurations.
 - Published: 2026-06-29T15:33:27Z
 - Age days: 0
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

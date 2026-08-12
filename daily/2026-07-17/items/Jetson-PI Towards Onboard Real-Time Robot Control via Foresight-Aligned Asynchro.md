@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: false
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2607.12659v1"
 published: "2026-07-14T11:38:36Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "视觉语言动作模型 VLA", "具身智�
 
 # Jetson-PI: Towards Onboard Real-Time Robot Control via Foresight-Aligned Asynchronous Inference
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Extensive experiments demonstrate that Jetson-PI achieves 8.66x and 5.41x improvements in control frequency compared with naive PyTorch and vla.cpp on NVIDIA Jetson Orin, while outperforming VLASH by 14.8\% in average success rate on the LIBERO benchmark.
 
-自动筛选分数：36
+## 关键点
 
-连接概念：[[多模态基础模型]], [[视觉语言动作模型 VLA]], [[具身智能评测与基准]]
+- **问题**：However, deploying VLA models on low-power onboard devices, such as the Jetson Orin, remains challenging due to their high computational complexity, which leads to substantial inference latency and low control frequency.
+- **创新点 / 方法**：In this paper, we propose Jetson-PI, a method for efficient VLA deployment on onboard devices via Foresight-Aligned Asynchronous Correction.
+- **证据**：Extensive experiments demonstrate that Jetson-PI achieves 8.66x and 5.41x improvements in control frequency compared with naive PyTorch and vla.cpp on NVIDIA Jetson Orin, while outperforming VLASH by 14.8\% in average success rate on the LIBERO benchmark.
+- **局限**：However, deploying VLA models on low-power onboard devices, such as the Jetson Orin, remains challenging due to their high computational complexity, which leads to substantial inference latency and low control frequency.
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
+- **筛选分数**：36
+- **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Vision-Language-Action (VLA) models have achieved impressive performance on diverse
 embodied tasks. However, deploying VLA models on low-power onboard devices, such as the
@@ -41,7 +59,7 @@ of our asynchronous algorithm is available on https://github.com/PKU-SEC-Lab/Jet
 and our efficient llama.cpp-based inference engine is available on
 https://github.com/PKU-SEC-Lab/Jetson-PI-Edge.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2607.12659v1
@@ -49,13 +67,4 @@ https://github.com/PKU-SEC-Lab/Jetson-PI-Edge.
 - Published: 2026-07-14T11:38:36Z
 - Age days: 2
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

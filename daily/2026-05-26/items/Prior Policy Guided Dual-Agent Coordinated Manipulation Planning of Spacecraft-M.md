@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2605.25362v1"
 published: "2026-05-25T02:32:23Z"
@@ -12,13 +17,26 @@ concepts: ["智能体 Agent", "世界模型", "机器人学习", "具身智能�
 
 # Prior Policy Guided Dual-Agent Coordinated Manipulation Planning of Spacecraft-Manipulator System
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> To enhance learning efficiency, we present a prior policy-guided Deep Reinforcement Learning algorithm incorporating the Timestep-level Expert Switching Guidance (TESG) mechanism, thereby promoting global convergence and improving task success rates.
 
-自动筛选分数：26
+## 关键点
 
-连接概念：[[智能体 Agent]], [[世界模型]], [[机器人学习]], [[具身智能评测与基准]]
+- **问题**：The strong dynamic coupling between the manipulator and the base poses a significant challenge to maintaining spacecraft attitude stability, potentially compromising mission safety.
+- **创新点 / 方法**：In this paper, we propose a Dual-Agent Coordinated Manipulation Planning (DACMP) framework that simultaneously achieves high-precision end-effector pose reaching for a 6-DoF space manipulator and attitude stabilization of the base spacecraft.
+- **证据**：To enhance learning efficiency, we present a prior policy-guided Deep Reinforcement Learning algorithm incorporating the Timestep-level Expert Switching Guidance (TESG) mechanism, thereby promoting global convergence and improving task success rates.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[智能体 Agent]] [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
+- **筛选分数**：26
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 The strong dynamic coupling between the manipulator and the base poses a significant
 challenge to maintaining spacecraft attitude stability, potentially compromising mission
@@ -34,7 +52,7 @@ is validated under various challenging scenarios, including system constraints,
 environmental disturbances, and perception uncertainties. The code and simulation
 configurations are available on GitHub: https://github.com/HIT-YuhuiHu/DACMP.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2605.25362v1
@@ -42,13 +60,4 @@ configurations are available on GitHub: https://github.com/HIT-YuhuiHu/DACMP.
 - Published: 2026-05-25T02:32:23Z
 - Age days: 1
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

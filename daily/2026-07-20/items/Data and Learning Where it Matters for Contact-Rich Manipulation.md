@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: false
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2607.15982v1"
 published: "2026-07-17T14:18:20Z"
@@ -12,13 +17,26 @@ concepts: ["智能体 Agent", "机器人学习", "具身智能评测与基准"]
 
 # Data and Learning Where it Matters for Contact-Rich Manipulation
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Across four challenging real-world tasks, using only 2 to 2.5 hours of autonomous data collection, we achieve an average success rate of 96%, compared to the strongest baseline at 55%.
 
-自动筛选分数：26
+## 关键点
 
-连接概念：[[智能体 Agent]], [[机器人学习]], [[具身智能评测与基准]]
+- **问题**：Learned policies trained end-to-end on large datasets often remain brittle in high- precision tasks and struggle with generalization.
+- **创新点 / 方法**：We propose an automated data-collection scheme in combination with offline deep reinforcement learning for the critical segment of the task, eliminating reliance on a teleoperator's skill and on online policy updates.
+- **证据**：Across four challenging real-world tasks, using only 2 to 2.5 hours of autonomous data collection, we achieve an average success rate of 96%, compared to the strongest baseline at 55%.
+- **局限**：We find that these limitations largely stem from a lack of structure and focus in data collection.
 
-## 摘要
+## 研究关联
+
+- **概念**：[[智能体 Agent]] [[机器人学习]] [[具身智能评测与基准]]
+- **筛选分数**：26
+- **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Learned policies trained end-to-end on large datasets often remain brittle in high-
 precision tasks and struggle with generalization. We find that these limitations largely
@@ -34,7 +52,7 @@ distribution scenarios where end-to-end approaches struggle. Our results pave th
 for targeted data collection for contact-rich tasks and for high success rates in
 precision applications.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2607.15982v1
@@ -42,13 +60,4 @@ precision applications.
 - Published: 2026-07-17T14:18:20Z
 - Age days: 2
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

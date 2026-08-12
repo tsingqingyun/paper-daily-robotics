@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: false
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.19161v1"
 published: "2026-06-17T15:01:30Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "具身智能评测与基准"]
 
 # HT-Bench: Benchmarking and Learning Dexterous Full-Hand Tactile Representations with Egocentric Vision
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Across HT-Bench, HandTouch consistently outperforms representative tactile encoder baselines, improving Recall@5 on fine-grained tactile similarity retrieval from 74.65\% to 85.23\%, reducing RMSE on masked tactile inpainting from 0.022 to 0.010, and increasi…
 
-自动筛选分数：29
+## 关键点
 
-连接概念：[[多模态基础模型]], [[具身智能评测与基准]]
+- **问题**：Establishing a universal benchmark for tactile representation learning in robotic manipulation remains challenging due to the diversity of tactile sensor designs, data formats, and robot embodiments.
+- **创新点 / 方法**：To this end, we introduce \textbf{HT-Bench}, a large-scale multi-task benchmark for dexterous full-hand tactile sensing, comprising 10M RGB frames and 7.8M tactile frames collected across 226 tasks.
+- **证据**：Across HT-Bench, HandTouch consistently outperforms representative tactile encoder baselines, improving Recall@5 on fine-grained tactile similarity retrieval from 74.65\% to 85.23\%, reducing RMSE on masked tactile inpainting from 0.022 to 0.010, and increasing OOD cIoU on vision-to-tactile synthesis from 0.628 to 0.7…
+- **局限**：Establishing a universal benchmark for tactile representation learning in robotic manipulation remains challenging due to the diversity of tactile sensor designs, data formats, and robot embodiments.
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[具身智能评测与基准]]
+- **筛选分数**：29
+- **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Establishing a universal benchmark for tactile representation learning in robotic
 manipulation remains challenging due to the diversity of tactile sensor designs, data
@@ -42,7 +60,7 @@ effectiveness of HandTouch and suggest that large-scale egocentric full-hand tac
 data provides a scalable basis for evaluating and advancing tactile representation
 learning in dexterous manipulation.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.19161v1
@@ -50,13 +68,4 @@ learning in dexterous manipulation.
 - Published: 2026-06-17T15:01:30Z
 - Age days: 1
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

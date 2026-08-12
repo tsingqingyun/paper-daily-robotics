@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: false
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2607.00678v1"
 published: "2026-07-01T09:21:20Z"
@@ -12,13 +17,26 @@ concepts: ["智能体 Agent", "世界模型", "视觉语言动作模型 VLA", "�
 
 # ABot-M0.5: Unified Mobility-and-Manipulation World Action Model
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Experiments on challenging mobile and fine-grained manipulation benchmarks demonstrate that ABot-M0.5 achieves state-of-the-art performance in both long-horizon task success and finegrained control accuracy.
 
-自动筛选分数：38
+## 关键点
 
-连接概念：[[智能体 Agent]], [[世界模型]], [[视觉语言动作模型 VLA]], [[具身智能评测与基准]]
+- **问题**：Mobile manipulation is a key capability for general-purpose robots, yet remains challenging for current embodied learning methods.
+- **创新点 / 方法**：We propose ABot-M0.5, a new WAM built on the insight that mobile manipulation requires alignment at three levels: temporal granularity, action space, and train-test consistency.
+- **证据**：Experiments on challenging mobile and fine-grained manipulation benchmarks demonstrate that ABot-M0.5 achieves state-of-the-art performance in both long-horizon task success and finegrained control accuracy.
+- **局限**：Mobile manipulation is a key capability for general-purpose robots, yet remains challenging for current embodied learning methods.
 
-## 摘要
+## 研究关联
+
+- **概念**：[[智能体 Agent]] [[世界模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
+- **筛选分数**：38
+- **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Mobile manipulation is a key capability for general-purpose robots, yet remains
 challenging for current embodied learning methods. VLA policies are typically reactive
@@ -43,7 +61,7 @@ in both long-horizon task success and finegrained control accuracy. These result
 highlight the critical importance of granularity-aligned, action-disentangled, and
 inference-consistent world-action modeling.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2607.00678v1
@@ -51,13 +69,4 @@ inference-consistent world-action modeling.
 - Published: 2026-07-01T09:21:20Z
 - Age days: 1
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

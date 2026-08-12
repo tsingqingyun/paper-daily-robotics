@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2607.00530v1"
 published: "2026-07-01T07:19:00Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "具身智能评测与基准"]
 
 # From Technical Metrics to User Perception: A User Study of a Multimodal Human-Robot Interaction System for Object Detection and Grasping
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Results show that 17 out of 24 participants (70.83%) preferred the improved system (exact binomial test, p = 0.043, h = 0.43), and all three perceptual constructs were rated significantly higher for the improved configuration after Holm correction, with large…
 
-自动筛选分数：31
+## 关键点
 
-连接概念：[[多模态基础模型]], [[具身智能评测与基准]]
+- **问题**：Improvements in the technical performance of human--robot interaction (HRI) systems do not automatically translate into differences that human users can detect during live interaction.
+- **创新点 / 方法**：This paper investigates whether a 15 percentage point gain in end-to-end task success (from 75% in a multimodal baseline system to 90% in an improved configuration identified through a prior ablation study) is sufficient to produce consistent and measurable differences in user perception.
+- **证据**：Results show that 17 out of 24 participants (70.83%) preferred the improved system (exact binomial test, p = 0.043, h = 0.43), and all three perceptual constructs were rated significantly higher for the improved configuration after Holm correction, with large to very large effect sizes (p < 0.001).
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[具身智能评测与基准]]
+- **筛选分数**：31
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Improvements in the technical performance of human--robot interaction (HRI) systems do
 not automatically translate into differences that human users can detect during live
@@ -41,7 +59,7 @@ that the identified technical improvements are perceptible to users in direct
 interaction and underscore the importance of complementing benchmark evaluation with
 user-centred evidence when assessing robotic manipulation pipelines.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2607.00530v1
@@ -49,13 +67,4 @@ user-centred evidence when assessing robotic manipulation pipelines.
 - Published: 2026-07-01T07:19:00Z
 - Age days: 2
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

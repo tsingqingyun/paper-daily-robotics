@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2605.12236v1"
 published: "2026-05-12T15:07:04Z"
@@ -12,13 +17,26 @@ concepts: ["智能体 Agent", "视觉语言动作模型 VLA", "机器人学习"]
 
 # TMRL: Diffusion Timestep-Modulated Pretraining Enables Exploration for Efficient Policy Finetuning
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Integrating seamlessly with arbitrary policy inputs, e.g., states, 3D point clouds, or image-based VLA policies, we show that TMRL improves RL fine-tuning sample efficiency.
 
-自动筛选分数：36
+## 关键点
 
-连接概念：[[智能体 Agent]], [[视觉语言动作模型 VLA]], [[机器人学习]]
+- **问题**：Fine-tuning pre-trained robot policies with reinforcement learning (RL) often inherits the bottlenecks introduced by pre-training with behavioral cloning (BC), which produces narrow action distributions that lack the coverage necessary for downstream exploration.
+- **创新点 / 方法**：We present a unified framework that enables the exploration necessary to enable efficient robot policy finetuning by bridging BC pre-training and RL fine-tuning.
+- **证据**：Integrating seamlessly with arbitrary policy inputs, e.g., states, 3D point clouds, or image-based VLA policies, we show that TMRL improves RL fine-tuning sample efficiency.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[智能体 Agent]] [[视觉语言动作模型 VLA]] [[机器人学习]]
+- **筛选分数**：36
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Fine-tuning pre-trained robot policies with reinforcement learning (RL) often inherits
 the bottlenecks introduced by pre-training with behavioral cloning (BC), which produces
@@ -36,7 +54,7 @@ fine-tuning sample efficiency. Notably, TMRL enables successful real-world fine-
 on complex manipulation tasks in under one hour. Videos and code available at
 https://weirdlabuw.github.io/tmrl/.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2605.12236v1
@@ -44,13 +62,4 @@ https://weirdlabuw.github.io/tmrl/.
 - Published: 2026-05-12T15:07:04Z
 - Age days: 1
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

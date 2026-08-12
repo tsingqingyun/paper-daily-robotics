@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2608.06221v1"
 published: "2026-08-06T16:12:18Z"
@@ -12,13 +17,26 @@ concepts: ["世界模型", "机器人学习", "具身智能评测与基准"]
 
 # Robot Learning from Human Demonstrations: Handwritten Alphabet Trajectories and Human-Likeness Evaluation
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> The resulting human-like robot motion is recognised as a key factor in building trust and enabling natural collaboration in human-robot interaction.
 
-自动筛选分数：26
+## 关键点
 
-连接概念：[[世界模型]], [[机器人学习]], [[具身智能评测与基准]]
+- **问题**：Learning from demonstration (LfD) provides a developmental framework through which robots can develop motor skills by observing and imitating human dynamics, reducing reliance on explicit programming to teach a skill to a robot.
+- **创新点 / 方法**：The resulting human-like robot motion is recognised as a key factor in building trust and enabling natural collaboration in human-robot interaction.
+- **证据**：摘要未报告明确实验结论；需阅读全文核查。
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
+- **筛选分数**：26
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Learning from demonstration (LfD) provides a developmental framework through which
 robots can develop motor skills by observing and imitating human dynamics, reducing
@@ -44,7 +62,7 @@ factors, and reported positive attitudes toward human-like robot behaviour. The 
 are released as open-source, providing a reproducible benchmark for developing and
 evaluating human-like robot motion methods.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2608.06221v1
@@ -52,13 +70,4 @@ evaluating human-like robot motion methods.
 - Published: 2026-08-06T16:12:18Z
 - Age days: 3
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

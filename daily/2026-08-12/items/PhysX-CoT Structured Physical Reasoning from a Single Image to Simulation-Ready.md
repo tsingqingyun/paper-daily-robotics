@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2608.08053v1"
 published: "2026-08-08T10:39:09Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "世界模型"]
 
 # PhysX-CoT: Structured Physical Reasoning from a Single Image to Simulation-Ready 3D Assets
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Under a unified protocol that retrains all learned baselines on the same backbone, data, and frozen decoder, PhysX-CoT outperforms the closest full-task baseline across geometry, scale, and physical- attribute metrics.
 
-自动筛选分数：27
+## 关键点
 
-连接概念：[[多模态基础模型]], [[世界模型]]
+- **问题**：Simulation-ready 3D assets are central to robotics and embodied AI.
+- **创新点 / 方法**：Generating them from a single image is usually framed as a vision-language model that emits a serialized asset for a decoder to turn into geometry and physical fields, leaving the image-to-3D reasoning implicit.
+- **证据**：Under a unified protocol that retrains all learned baselines on the same backbone, data, and frozen decoder, PhysX-CoT outperforms the closest full-task baseline across geometry, scale, and physical- attribute metrics.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[世界模型]]
+- **筛选分数**：27
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Simulation-ready 3D assets are central to robotics and embodied AI. Generating them from
 a single image is usually framed as a vision-language model that emits a serialized
@@ -39,7 +57,7 @@ attribute metrics. Oracle, token-matched, and state-order controls show the expl
 states are functional rather than cosmetic, and in Unreal Engine~5 the generated assets
 parse, collide, and articulate at high validity.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2608.08053v1
@@ -47,13 +65,4 @@ parse, collide, and articulate at high validity.
 - Published: 2026-08-08T10:39:09Z
 - Age days: 3
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

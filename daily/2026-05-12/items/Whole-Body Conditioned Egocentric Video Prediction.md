@@ -1,9 +1,15 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: false
+summary_method: abstract-extractive
 source: "Berkeley BAIR Blog"
 url: "http://bair.berkeley.edu/blog/2025/07/01/peva/"
 published: "Tue, 01 Jul 2025 02:00:00 -0700"
+age_days: 
 score: 24
 created: 2026-05-12
 concepts: ["智能体 Agent", "世界模型", "具身智能评测与基准"]
@@ -11,13 +17,26 @@ concepts: ["智能体 Agent", "世界模型", "具身智能评测与基准"]
 
 # Whole-Body Conditioned Egocentric Video Prediction
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> We demonstrate some samples of PEVA generating coherent 16-second rollouts conditioned on full-body motion.
 
-自动筛选分数：24
+## 关键点
 
-连接概念：[[智能体 Agent]], [[世界模型]], [[具身智能评测与基准]]
+- **问题**：Design of PEVA: Autoregressive Conditional Diffusion Transformer While the Conditional Diffusion Transformer (CDiT) from Navigation World Models uses simple control signals like velocity and rotation, modeling whole-body human motion presents greater challenges.
+- **创新点 / 方法**：To develop a World Model for Embodied Agents, we must ground our approach in agents that meet these criteria.
+- **证据**：We demonstrate some samples of PEVA generating coherent 16-second rollouts conditioned on full-body motion.
+- **局限**：We see a limitation with our method as we only predict the right arm so we do not predict to move the left arm down accordingly.
 
-## 摘要
+## 研究关联
+
+- **概念**：[[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
+- **筛选分数**：24
+- **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 .modal { display: none; position: fixed; z-index: 9999; padding-top: 50px; left: 0; top:
 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.9); }
@@ -159,20 +178,12 @@ Brent Yi for his help in human motion related works and Alexei Efros for the dis
 and debates regarding world models. This work is partially supported by the ONR MURI
 N00014-21-1-2801. For more details, read the full paper or visit the project website .
 
-## 来源
+### 来源
 
 - Source: Berkeley BAIR Blog
 - URL: http://bair.berkeley.edu/blog/2025/07/01/peva/
 
 - Published: Tue, 01 Jul 2025 02:00:00 -0700
+- Age days: 
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

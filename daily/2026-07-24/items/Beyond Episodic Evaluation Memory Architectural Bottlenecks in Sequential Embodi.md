@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2607.21571v1"
 published: "2026-07-23T17:50:45Z"
@@ -12,13 +17,26 @@ concepts: ["智能体 Agent", "具身智能评测与基准"]
 
 # Beyond Episodic Evaluation: Memory Architectural Bottlenecks in Sequential Embodied Question Answering
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Extensive experiments in simulated environments reveal that this form of memory breaks the accuracy-efficiency tradeoff in sequential settings, simultaneously achieving higher answer accuracy and lower navigation costs.
 
-自动筛选分数：28
+## 关键点
 
-连接概念：[[智能体 Agent]], [[具身智能评测与基准]]
+- **问题**：However, real-world robots operate continuously and must accumulate, retain, and selectively reuse information acquired from prior interactions.
+- **创新点 / 方法**：Embodied question answering (EQA) is traditionally evaluated under an episodic formulation, where agents solve each task independently and reset internal state between episodes.
+- **证据**：Extensive experiments in simulated environments reveal that this form of memory breaks the accuracy-efficiency tradeoff in sequential settings, simultaneously achieving higher answer accuracy and lower navigation costs.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[智能体 Agent]] [[具身智能评测与基准]]
+- **筛选分数**：28
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Embodied question answering (EQA) is traditionally evaluated under an episodic
 formulation, where agents solve each task independently and reset internal state between
@@ -43,7 +61,7 @@ lower navigation costs. We further validate these findings on a real-world mobil
 demonstrating that spatially grounded visual memory is critical for enabling continuous,
 intelligent operation in physical environments.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2607.21571v1
@@ -51,13 +69,4 @@ intelligent operation in physical environments.
 - Published: 2026-07-23T17:50:45Z
 - Age days: 0
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

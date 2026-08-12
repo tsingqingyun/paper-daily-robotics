@@ -1,9 +1,15 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: false
+summary_method: abstract-extractive
 source: "Berkeley BAIR Blog"
 url: "http://bair.berkeley.edu/blog/2025/11/01/rl-without-td-learning/"
 published: "Sat, 01 Nov 2025 02:00:00 -0700"
+age_days: 
 score: 24
 created: 2026-05-12
 concepts: ["智能体 Agent", "世界模型", "机器人学习", "具身智能评测与基准"]
@@ -11,13 +17,26 @@ concepts: ["智能体 Agent", "世界模型", "机器人学习", "具身智能�
 
 # RL without TD learning
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> TRL achieves the best performance on highly challenging, long-horizon tasks.
 
-自动筛选分数：24
+## 关键点
 
-连接概念：[[智能体 Agent]], [[世界模型]], [[机器人学习]], [[具身智能评测与基准]]
+- **问题**：Unlike traditional methods, this algorithm is not based on temporal difference (TD) learning (which has scalability challenges ), and scales well to long-horizon tasks.
+- **创新点 / 方法**：puzzle To see whether our method scales well to complex tasks, we directly evaluated TRL on some of the most challenging tasks in OGBench , a benchmark for offline goal-conditioned RL.
+- **证据**：TRL achieves the best performance on highly challenging, long-horizon tasks.
+- **局限**：Your browser does not support the video tag.
 
-## 摘要
+## 研究关联
+
+- **概念**：[[智能体 Agent]] [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
+- **筛选分数**：24
+- **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 In this post, I’ll introduce a reinforcement learning (RL) algorithm based on an
 “alternative” paradigm: divide and conquer . Unlike traditional methods, this algorithm
@@ -152,20 +171,12 @@ on). I hope to see more exciting progress in scalable off-policy RL in the near 
 Acknowledgments I’d like to thank Kevin and Sergey for their helpful feedback on this
 post. This post originally appeared on Seohong Park’s blog .
 
-## 来源
+### 来源
 
 - Source: Berkeley BAIR Blog
 - URL: http://bair.berkeley.edu/blog/2025/11/01/rl-without-td-learning/
 
 - Published: Sat, 01 Nov 2025 02:00:00 -0700
+- Age days: 
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

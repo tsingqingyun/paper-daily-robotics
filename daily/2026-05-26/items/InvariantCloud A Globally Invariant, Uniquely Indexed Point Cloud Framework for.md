@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: false
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2605.25216v1"
 published: "2026-05-24T18:46:24Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "机器人学习", "具身智能评测与基
 
 # InvariantCloud: A Globally Invariant, Uniquely Indexed Point Cloud Framework for Robust 6-DoF Tactile Pose Tracking
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Experimental verifications show that InvariantCloud achieves superior yaw tracking accuracy and re-localization repeatability compared to existing benchmarks, demonstrating its precision and robustness in long-sequence manipulation tasks.
 
-自动筛选分数：28
+## 关键点
 
-连接概念：[[多模态基础模型]], [[机器人学习]], [[具身智能评测与基准]]
+- **问题**：In contrast to recent approaches, our one-shot globally invariant point cloud registration suppresses cumulative drift and overcomes long-standing limitations in accurately estimating yaw (Z-axis) rotation.
+- **创新点 / 方法**：We introduce InvariantCloud, a 6-DoF pose estimation framework that leverages the global invariance of surface marker constellations on vision-based tactile sensors.
+- **证据**：Experimental verifications show that InvariantCloud achieves superior yaw tracking accuracy and re-localization repeatability compared to existing benchmarks, demonstrating its precision and robustness in long-sequence manipulation tasks.
+- **局限**：In contrast to recent approaches, our one-shot globally invariant point cloud registration suppresses cumulative drift and overcomes long-standing limitations in accurately estimating yaw (Z-axis) rotation.
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[机器人学习]] [[具身智能评测与基准]]
+- **筛选分数**：28
+- **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Recent advances in imitation learning and vision-language models highlight the need for
 high-fidelity tactile perception, with 6-DoF tactile object pose estimation providing a
@@ -31,7 +49,7 @@ Experimental verifications show that InvariantCloud achieves superior yaw tracki
 accuracy and re-localization repeatability compared to existing benchmarks,
 demonstrating its precision and robustness in long-sequence manipulation tasks.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2605.25216v1
@@ -39,13 +57,4 @@ demonstrating its precision and robustness in long-sequence manipulation tasks.
 - Published: 2026-05-24T18:46:24Z
 - Age days: 1
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

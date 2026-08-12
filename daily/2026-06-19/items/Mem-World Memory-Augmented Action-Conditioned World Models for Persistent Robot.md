@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: false
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.18960v1"
 published: "2026-06-17T11:42:00Z"
@@ -12,13 +17,26 @@ concepts: ["智能体 Agent", "世界模型", "机器人学习", "具身智能�
 
 # Mem-World: Memory-Augmented Action-Conditioned World Models for Persistent Robot Manipulation
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Extensive experiments show that Mem-World generates persistent rollouts in complex manipulation scenarios, enables more reliable policy evaluation than Ctrl-World, improving the Pearson correlation with real-world performance by 14.5\%, and supports effective…
 
-自动筛选分数：29
+## 关键点
 
-连接概念：[[智能体 Agent]], [[世界模型]], [[机器人学习]], [[具身智能评测与基准]]
+- **问题**：However, persistent world modeling remains challenging in manipulation: frequent end-effector occlusions and rapid wrist-camera motion make the current observation insufficient for predicting future views, causing models to forget or hallucinate scene details seen in earlier frames.
+- **创新点 / 方法**：To address this limitation, we propose Mem-World, a memory-augmented multi-view action- conditioned world model.
+- **证据**：Extensive experiments show that Mem-World generates persistent rollouts in complex manipulation scenarios, enables more reliable policy evaluation than Ctrl-World, improving the Pearson correlation with real-world performance by 14.5\%, and supports effective policy improvement through synthetic data generation, incre…
+- **局限**：However, persistent world modeling remains challenging in manipulation: frequent end-effector occlusions and rapid wrist-camera motion make the current observation insufficient for predicting future views, causing models to forget or hallucinate scene details seen in earlier frames.
 
-## 摘要
+## 研究关联
+
+- **概念**：[[智能体 Agent]] [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
+- **筛选分数**：29
+- **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Action-conditioned world models have emerged as a promising paradigm for robot learning,
 offering a scalable alternative to costly real-world experimentation by generating
@@ -40,7 +58,7 @@ improving the Pearson correlation with real-world performance by 14.5\%, and sup
 effective policy improvement through synthetic data generation, increasing success rates
 from 58\% to 72\% on long-horizon tasks.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.18960v1
@@ -48,13 +66,4 @@ from 58\% to 72\% on long-horizon tasks.
 - Published: 2026-06-17T11:42:00Z
 - Age days: 1
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

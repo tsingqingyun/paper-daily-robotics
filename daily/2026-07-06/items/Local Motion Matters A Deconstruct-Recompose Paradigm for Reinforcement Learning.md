@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2607.00808v1"
 published: "2026-07-01T11:36:27Z"
@@ -12,13 +17,26 @@ concepts: ["智能体 Agent", "世界模型", "机器人学习"]
 
 # Local Motion Matters: A Deconstruct-Recompose Paradigm for Reinforcement Learning Pre-training from Videos
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Building on this insight, we propose a novel Deconstruct- Recompose Paradigm (DRP) for learning transferable local motion representations.
 
-自动筛选分数：26
+## 关键点
 
-连接概念：[[智能体 Agent]], [[世界模型]], [[机器人学习]]
+- **问题**：Pre-training on large-scale videos to improve reinforcement learning efficiency is promising yet remains challenging.
+- **创新点 / 方法**：Building on this insight, we propose a novel Deconstruct- Recompose Paradigm (DRP) for learning transferable local motion representations.
+- **证据**：摘要未报告明确实验结论；需阅读全文核查。
+- **局限**：Pre-training on large-scale videos to improve reinforcement learning efficiency is promising yet remains challenging.
 
-## 摘要
+## 研究关联
+
+- **概念**：[[智能体 Agent]] [[世界模型]] [[机器人学习]]
+- **筛选分数**：26
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Pre-training on large-scale videos to improve reinforcement learning efficiency is
 promising yet remains challenging. Existing methods typically treat the agent as an
@@ -37,7 +55,7 @@ action-specific dynamics to accelerate policy learning. Extensive experiments
 demonstrate that our method effectively transfers to diverse robotic control and
 manipulation tasks, significantly improving sample efficiency and performance.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2607.00808v1
@@ -45,13 +63,4 @@ manipulation tasks, significantly improving sample efficiency and performance.
 - Published: 2026-07-01T11:36:27Z
 - Age days: 4
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

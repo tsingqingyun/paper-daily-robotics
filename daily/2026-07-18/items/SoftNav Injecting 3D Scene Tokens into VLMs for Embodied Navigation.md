@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2607.14586v1"
 published: "2026-07-16T05:32:52Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "智能体 Agent"]
 
 # SoftNav: Injecting 3D Scene Tokens into VLMs for Embodied Navigation
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Current approaches transmit 3D scene information to vision-language models (VLMs) through text, suggesting a representation gap in our tested configurations; a controlled ablation confirms that direct embedding-level transfer significantly outperforms the eva…
 
-自动筛选分数：29
+## 关键点
 
-连接概念：[[多模态基础模型]], [[智能体 Agent]]
+- **问题**：In goal-directed embodied navigation, where an agent must locate a specified target in an unseen environment, 3D scene understanding and navigation reasoning must work in concert.
+- **创新点 / 方法**：We introduce SoftNav, which injects entity-level 3D continuous representations -- one token per detected object or frontier -- into a VLM's hidden space as soft tokens through a lightweight projector.
+- **证据**：Current approaches transmit 3D scene information to vision-language models (VLMs) through text, suggesting a representation gap in our tested configurations; a controlled ablation confirms that direct embedding-level transfer significantly outperforms the evaluated text serialization formats.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[智能体 Agent]]
+- **筛选分数**：29
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 In goal-directed embodied navigation, where an agent must locate a specified target in
 an unseen environment, 3D scene understanding and navigation reasoning must work in
@@ -36,7 +54,7 @@ without retraining or architectural modification. Injecting 3D scene tokens dire
 into VLMs bridges the representation gap, enabling transferable navigation with minimal
 training.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2607.14586v1
@@ -44,13 +62,4 @@ training.
 - Published: 2026-07-16T05:32:52Z
 - Age days: 1
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

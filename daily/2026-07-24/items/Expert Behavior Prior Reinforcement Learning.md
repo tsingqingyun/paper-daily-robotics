@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: false
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2607.21302v1"
 published: "2026-07-23T13:26:57Z"
@@ -12,13 +17,26 @@ concepts: ["智能体 Agent", "世界模型", "机器人学习", "具身智能�
 
 # Expert Behavior Prior Reinforcement Learning
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Extensive experiments conducted on robotic control (Gym, PyBullet) and industrial control (DMControl) benchmarks demonstrate that EBP significantly outperforms state-of-the-art online RL algorithms, achieving higher sample efficiency and more stable convergen…
 
-自动筛选分数：30
+## 关键点
 
-连接概念：[[智能体 Agent]], [[世界模型]], [[机器人学习]], [[具身智能评测与基准]]
+- **问题**：However, most existing BPRL methods rely on static offline datasets, which often suffer from low data diversity and suboptimal trajectory quality.
+- **创新点 / 方法**：Specifically, we introduce a Q-guided conditional variational autoencoder (Q-CVAE) that learns to generate expert policy priors directly from the online replay buffer.
+- **证据**：Extensive experiments conducted on robotic control (Gym, PyBullet) and industrial control (DMControl) benchmarks demonstrate that EBP significantly outperforms state-of-the-art online RL algorithms, achieving higher sample efficiency and more stable convergence.
+- **局限**：To address these limitations, we deviate from existing offline pre-training methods and propose an Expert Behavior Prior (EBP) algorithm.
 
-## 摘要
+## 研究关联
+
+- **概念**：[[智能体 Agent]] [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
+- **筛选分数**：30
+- **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Behavior prior reinforcement learning (BPRL) has emerged as a promising paradigm to
 improve sample efficiency in online reinforcement learning (RL) by leveraging policy
@@ -40,7 +58,7 @@ control (Gym, PyBullet) and industrial control (DMControl) benchmarks demonstrat
 EBP significantly outperforms state-of-the-art online RL algorithms, achieving higher
 sample efficiency and more stable convergence.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2607.21302v1
@@ -48,13 +66,4 @@ sample efficiency and more stable convergence.
 - Published: 2026-07-23T13:26:57Z
 - Age days: 0
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2607.15065v1"
 published: "2026-07-16T14:37:43Z"
@@ -12,13 +17,26 @@ concepts: ["智能体 Agent", "世界模型", "具身智能评测与基准"]
 
 # DriftWorld: Fast World Modeling through Drifting
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> By producing rollouts that are both accurate and fast, DriftWorld achieves state-of-the-art decision-making performance with far less inference time than diffusion-based world model baselines.
 
-自动筛选分数：32
+## 关键点
 
-连接概念：[[智能体 Agent]], [[世界模型]], [[具身智能评测与基准]]
+- **问题**：This creates a bottleneck for diffusion-based world models: multistep sampling makes each rollout expensive, limiting large-scale action search at inference time.
+- **创新点 / 方法**：We introduce DriftWorld, an action-conditioned world model based on drifting generative models.
+- **证据**：By producing rollouts that are both accurate and fast, DriftWorld achieves state-of-the-art decision-making performance with far less inference time than diffusion-based world model baselines.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
+- **筛选分数**：32
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Predictive world models enable robots to plan by imagining the outcomes of their
 actions, but their value for control hinges on generating many rollouts quickly. This
@@ -38,7 +56,7 @@ with rollout-based scores correlating with ground truth at up to 0.99. These res
 show that drifting models are a strong fit for robot world modeling, where fast, high-
 quality imagination directly supports planning and policy evaluation.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2607.15065v1
@@ -46,13 +64,4 @@ quality imagination directly supports planning and policy evaluation.
 - Published: 2026-07-16T14:37:43Z
 - Age days: 1
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

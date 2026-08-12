@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2608.09876v1"
 published: "2026-08-10T17:31:18Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "智能体 Agent", "世界模型", "具身�
 
 # Energy-Structured Latent World Models with Neural Time Fields for Physically Constistent Open-World Motion Planning
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Against Active Neural Time Fields, it improves navigation success from 81.3% to 89.7% and SPL from 0.64 to 0.73, while cutting the physical collision rate from 12.1% to 5.8% and the Eikonal residual from 0.083 to 0.031.
 
-自动筛选分数：28
+## 关键点
 
-连接概念：[[多模态基础模型]], [[智能体 Agent]], [[世界模型]], [[具身智能评测与基准]]
+- **问题**：Physically consistent motion planning remains a fundamental challenge in embodied AI, as generated trajectories must strictly conform to real-world execution dynamics.
+- **创新点 / 方法**：To address this, we propose a novel Energy-Structured Latent World Model (ELWM).
+- **证据**：Against Active Neural Time Fields, it improves navigation success from 81.3% to 89.7% and SPL from 0.64 to 0.73, while cutting the physical collision rate from 12.1% to 5.8% and the Eikonal residual from 0.083 to 0.031.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
+- **筛选分数**：28
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Physically consistent motion planning remains a fundamental challenge in embodied AI, as
 generated trajectories must strictly conform to real-world execution dynamics. While
@@ -42,7 +60,7 @@ demonstrate that embedding explicit physical structures into latent spaces intri
 bridges the gap between predictive world models and safe, dynamically feasible motion
 planning.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2608.09876v1
@@ -50,13 +68,4 @@ planning.
 - Published: 2026-08-10T17:31:18Z
 - Age days: 0
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: false
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2607.19060v1"
 published: "2026-07-21T12:48:48Z"
@@ -12,13 +17,26 @@ concepts: ["世界模型", "具身智能评测与基准"]
 
 # Deep learning-based prediction of time-resolved adhesive forces in viscoelastic Hertzian contacts
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> We found that the best-performing model has an LSTM architecture with concatenated conditioning, which achieves a held-out mean-squared error of $5.0\times10^{-4}$, a median pull-off-force error of $\approx2.2\%$, and a median hysteresis error of $\approx1.1\…
 
-自动筛选分数：26
+## 关键点
 
-连接概念：[[世界模型]], [[具身智能评测与基准]]
+- **问题**：Fast prediction of the response of adhesive soft viscoelastic contacts represents a current challenge in soft robotics and for gripping and manipulation tasks.
+- **创新点 / 方法**：To enable learning across these heterogeneous time scales, we introduce a fixed-measurement-step (FMS) representation that converts variable-length trajectories into fixed-length sequences while preserving their physical-time information.
+- **证据**：We found that the best-performing model has an LSTM architecture with concatenated conditioning, which achieves a held-out mean-squared error of $5.0\times10^{-4}$, a median pull-off-force error of $\approx2.2\%$, and a median hysteresis error of $\approx1.1\%$.
+- **局限**：In this work, we overcome this limitation by training a scalar-conditioned, stateful, sequence-to-sequence deep learning model to predict the full force evolution from a prescribed displacement history for both short- and long-range adhesion regimes.
 
-## 摘要
+## 研究关联
+
+- **概念**：[[世界模型]] [[具身智能评测与基准]]
+- **筛选分数**：26
+- **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Fast prediction of the response of adhesive soft viscoelastic contacts represents a
 current challenge in soft robotics and for gripping and manipulation tasks. Determining
@@ -44,7 +62,7 @@ of $0.16$ s. The model is tested across unseen parameter combinations and agains
 analytical limiting cases, providing a rapid surrogate for repeated numerical
 evaluations with potential use in control-oriented applications.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2607.19060v1
@@ -52,13 +70,4 @@ evaluations with potential use in control-oriented applications.
 - Published: 2026-07-21T12:48:48Z
 - Age days: 3
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

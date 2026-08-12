@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: false
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2607.13926v1"
 published: "2026-07-15T15:07:02Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "智能体 Agent", "视觉语言动作模型
 
 # S-squared-VLA: Decoupling Semantic and Spatial Streams in Vision-Language-Action Models for Autonomous Driving
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Evaluations on the NAVSIM closed-loop benchmark show that S-squared-VLA achieves a Predictive Driver Model Score (PDMS) of 87.1, establishing a new state-of-the-art for VLA models under a purely supervised fine-tuning (SFT) setting.
 
-自动筛选分数：28
+## 关键点
 
-连接概念：[[多模态基础模型]], [[智能体 Agent]], [[视觉语言动作模型 VLA]], [[具身智能评测与基准]]
+- **问题**：Vision-Language Models (VLMs) have demonstrated remarkable potential for high-level reasoning in autonomous driving, yet they fundamentally struggle to generate precise, low-level control actions.
+- **创新点 / 方法**：To address this limitation, we propose the S-squared-VLA, which explicitly decouples the semantic and spatial streams in Vision-Language-Action models.
+- **证据**：Evaluations on the NAVSIM closed-loop benchmark show that S-squared-VLA achieves a Predictive Driver Model Score (PDMS) of 87.1, establishing a new state-of-the-art for VLA models under a purely supervised fine-tuning (SFT) setting.
+- **局限**：This limitation is rooted in a semantic-physical gap caused by the inherent mismatch between discrete language tokens and continuous trajectory planning.
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
+- **筛选分数**：28
+- **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Vision-Language Models (VLMs) have demonstrated remarkable potential for high-level
 reasoning in autonomous driving, yet they fundamentally struggle to generate precise,
@@ -43,7 +61,7 @@ supervised fine-tuning (SFT) setting. By mitigating the spatial representation c
 of traditional VLMs, our framework significantly outperforms baselines, achieving the
 highest No Collision (NC) rate of 98.4 among all evaluated methods.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2607.13926v1
@@ -51,13 +69,4 @@ highest No Collision (NC) rate of 98.4 among all evaluated methods.
 - Published: 2026-07-15T15:07:02Z
 - Age days: 2
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

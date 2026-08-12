@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: false
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2607.12477v2"
 published: "2026-07-14T08:04:31Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "智能体 Agent", "世界模型", "具身�
 
 # Self in Space: Benchmarking Self-Awareness and Spatial Cognition in UAV Embodied Intelligence
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Experimental results show that modeling agent motion consistently improves perception and memory performance, not only in spatial cognition but also in self-awareness, and generalizes to downstream UAV decision-making tasks.
 
-自动筛选分数：30
+## 关键点
 
-连接概念：[[多模态基础模型]], [[智能体 Agent]], [[世界模型]], [[具身智能评测与基准]]
+- **问题**：However, existing UAV-oriented approaches and benchmarks remain largely environment-centric, primarily focusing on spatial understanding tasks, with the agent's self-awareness remaining implicit.
+- **创新点 / 方法**：To address this gap, we introduce SIS-Bench, a benchmark for evaluating embodied spatial intelligence in UAV scenarios under a unified self-in-space formulation.
+- **证据**：Experimental results show that modeling agent motion consistently improves perception and memory performance, not only in spatial cognition but also in self-awareness, and generalizes to downstream UAV decision-making tasks.
+- **局限**：Extensive evaluations reveal that current MLLMs exhibit fundamental limitations in modeling dynamic and agent-centered processes.
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
+- **筛选分数**：30
+- **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Autonomous UAV systems increasingly rely on multimodal large language models (MLLMs) to
 operate in complex real-world environments. Such embodied scenarios require not only
@@ -43,7 +61,7 @@ tasks. Our results highlight the importance of self-awareness for advancing embo
 spatial intelligence, and provide both a new benchmark and empirical evidence for
 motion-aware self-in-space modeling.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2607.12477v2
@@ -51,13 +69,4 @@ motion-aware self-in-space modeling.
 - Published: 2026-07-14T08:04:31Z
 - Age days: 2
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

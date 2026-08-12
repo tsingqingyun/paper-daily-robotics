@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2608.09298v1"
 published: "2026-08-10T08:48:06Z"
@@ -12,13 +17,26 @@ concepts: ["智能体 Agent", "世界模型", "具身智能评测与基准"]
 
 # WorldSimProbe: Diagnosing Simulator Faithfulness in Action-Conditioned World Models for Embodied Manipulation
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> To operationalize this contract, we introduce WorldSimProbe, comprising five controlled suites spanning local control sensitivity, global trajectory variation, source-diverse actions, interaction grounding, and dynamics.
 
-自动筛选分数：38
+## 关键点
 
-连接概念：[[智能体 Agent]], [[世界模型]], [[具身智能评测与基准]]
+- **问题**：Yet their applicability remains difficult to establish because prevailing evaluations emphasize visual quality, task outcomes, or coarse rollout-level responsiveness without directly testing simulator fidelity.
+- **创新点 / 方法**：To operationalize this contract, we introduce WorldSimProbe, comprising five controlled suites spanning local control sensitivity, global trajectory variation, source-diverse actions, interaction grounding, and dynamics.
+- **证据**：摘要未报告明确实验结论；需阅读全文核查。
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
+- **筛选分数**：38
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Action-conditioned world models (ACWMs) promise to provide embodied AI with scalable
 predictive simulators for planning, policy evaluation, and data generation. Realizing
@@ -42,7 +60,7 @@ human judgments and downstream outcomes. Together, this capability-based framewo
 provides a transparent, and standardized paradigm for diagnosing ACWM simulator fidelity
 beyond coarse, task-directed evaluation.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2608.09298v1
@@ -50,13 +68,4 @@ beyond coarse, task-directed evaluation.
 - Published: 2026-08-10T08:48:06Z
 - Age days: 0
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

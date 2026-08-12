@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.12299v1"
 published: "2026-06-10T16:34:49Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "世界模型", "视觉语言动作模型 VL
 
 # Learning What to Say to Your VLA: Mostly Harmless Vision Language Action Model Steering
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> On seen environments, our conformalized LFP improves base VLA performance by 24.7% in simulation and 65.0% in hardware.
 
-自动筛选分数：28
+## 关键点
 
-连接概念：[[多模态基础模型]], [[世界模型]], [[视觉语言动作模型 VLA]]
+- **问题**：Vision-Language-Action (VLA) models provide a natural language interface to robot control, but the mapping from language to behavior is often brittle and unintuitive: semantically similar instructions can induce drastically different behaviors, while some capabilities may not be elicitable through prompting alone.
+- **创新点 / 方法**：In this work, we propose a framework that interactively searches for language sequences that improve closed-loop VLA task performance, distills these sequences into a test-time language feedback policy (LFP), and learns an improvement head that predicts when language steering will improve performance.
+- **证据**：On seen environments, our conformalized LFP improves base VLA performance by 24.7% in simulation and 65.0% in hardware.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]]
+- **筛选分数**：28
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Vision-Language-Action (VLA) models provide a natural language interface to robot
 control, but the mapping from language to behavior is often brittle and unintuitive:
@@ -38,7 +56,7 @@ performance by 24.7% in simulation and 65.0% in hardware. On visual and semantic
 perturbations, our conformalized LFP has strong harmlessness guarantees, and produces
 recovery behaviors not observed with open-loop prompting.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.12299v1
@@ -46,13 +64,4 @@ recovery behaviors not observed with open-loop prompting.
 - Published: 2026-06-10T16:34:49Z
 - Age days: 3
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2607.02298v1"
 published: "2026-07-02T15:15:56Z"
@@ -12,13 +17,26 @@ concepts: ["AI 核心知识地图"]
 
 # Real-Time Visual Intelligence on Low-Cost UAVs: A Modular Approach for Tracking, Scanning, and Navigation
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> This paper presents the development of an integrated intelligent drone system designed to serve as a personal assistant.
 
-自动筛选分数：23
+## 关键点
 
-连接概念：[[AI 核心知识地图]]
+- **问题**：Autonomous drones are rapidly transforming modern warfare and civil applications alike.
+- **创新点 / 方法**：This paper presents the development of an integrated intelligent drone system designed to serve as a personal assistant.
+- **证据**：摘要未报告明确实验结论；需阅读全文核查。
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[AI 核心知识地图]]
+- **筛选分数**：23
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Autonomous drones are rapidly transforming modern warfare and civil applications alike.
 This paper presents the development of an integrated intelligent drone system designed
@@ -36,7 +54,7 @@ techniques in real-time robotic systems and illustrates the feasibility of deplo
 them on constrained hardware, providing a foundation for future research in autonomous
 UAVs for military, rescue, and surveillance missions.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2607.02298v1
@@ -44,13 +62,4 @@ UAVs for military, rescue, and surveillance missions.
 - Published: 2026-07-02T15:15:56Z
 - Age days: 3
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

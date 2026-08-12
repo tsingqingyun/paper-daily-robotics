@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.09749v1"
 published: "2026-06-08T17:11:16Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "视觉语言动作模型 VLA", "具身智�
 
 # Your Model Already Knows: Attention-Guided Safety Filter for Vision-Language-Action Models
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> On the dynamic variant, where the oracle's init-time target assignment becomes stale, our method substantially outperforms it by 43%, on average.
 
-自动筛选分数：37
+## 关键点
 
-连接概念：[[多模态基础模型]], [[视觉语言动作模型 VLA]], [[具身智能评测与基准]]
+- **问题**：However, these policies offer no guarantees against collisions with task-irrelevant objects in the scene.
+- **创新点 / 方法**：On the original static benchmark, our method performs comparably to an oracle that uses privileged simulator state to identify the target, emulating a VLM-based identification step run once at episode initialization.
+- **证据**：On the dynamic variant, where the oracle's init-time target assignment becomes stale, our method substantially outperforms it by 43%, on average.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
+- **筛选分数**：37
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Vision-Language-Action (VLA) models have demonstrated impressive end-to-end performance
 across a variety of robotic manipulation tasks. However, these policies offer no
@@ -41,7 +59,7 @@ init-time target assignment becomes stale, our method substantially outperforms 
 safety filtering are already present within VLA policies and can be exploited without
 additional training or heavy auxiliary models.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.09749v1
@@ -49,13 +67,4 @@ additional training or heavy auxiliary models.
 - Published: 2026-06-08T17:11:16Z
 - Age days: 1
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

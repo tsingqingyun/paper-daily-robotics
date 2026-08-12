@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2607.13033v1"
 published: "2026-07-14T17:59:29Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "世界模型", "机器人学习", "具身�
 
 # DenseReward: Dense Reward Learning via Failure Synthesis for Robotic Manipulation
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Experiments show that DenseReward outperforms general-purpose VLMs and existing robotic reward models in dense reward prediction across both simulated and real-world manipulation.
 
-自动筛选分数：33
+## 关键点
 
-连接概念：[[多模态基础模型]], [[世界模型]], [[机器人学习]], [[具身智能评测与基准]]
+- **问题**：However, its practical adoption remains bottlenecked by the lack of reliable vision-language reward models that provide dense and informative feedback.
+- **创新点 / 方法**：We introduce DenseReward, a dense robotic reward model that addresses both challenges.
+- **证据**：Experiments show that DenseReward outperforms general-purpose VLMs and existing robotic reward models in dense reward prediction across both simulated and real-world manipulation.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
+- **筛选分数**：33
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Reinforcement learning holds great promise for improving robot policies beyond the
 limits of imitation learning. However, its practical adoption remains bottlenecked by
@@ -43,7 +61,7 @@ model predictive control and reinforcement learning. We release the dataset, tra
 reward models, and evaluation suite to support the development of failure-aware dense
 reward modeling for robot learning.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2607.13033v1
@@ -51,13 +69,4 @@ reward modeling for robot learning.
 - Published: 2026-07-14T17:59:29Z
 - Age days: 2
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

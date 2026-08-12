@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.20118v1"
 published: "2026-06-18T11:41:25Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "视觉语言动作模型 VLA", "机器人�
 
 # Pose6DAug: Physically Plausible Multi-view Object Swapping for Robot Data Augmentation
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Fine-tuning a VLA on data augmented by our method improves success rates by 16.5% relative to the state-of-the-art baseline on novel objects, while preserving in- distribution performance.
 
-自动筛选分数：33
+## 关键点
 
-连接概念：[[多模态基础模型]], [[视觉语言动作模型 VLA]], [[机器人学习]], [[具身智能评测与基准]]
+- **问题**：The standard remedy is to collect multi-view teleoperation data for every failure case, but this scales poorly in both cost and time.
+- **创新点 / 方法**：We introduce Pose6DAug, a failure-driven data augmentation framework that turns a policy's own successful episodes into targeted demonstrations for its failure modes, without any new data collection.
+- **证据**：Fine-tuning a VLA on data augmented by our method improves success rates by 16.5% relative to the state-of-the-art baseline on novel objects, while preserving in- distribution performance.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[视觉语言动作模型 VLA]] [[机器人学习]] [[具身智能评测与基准]]
+- **筛选分数**：33
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Vision-language-action (VLA) policies have shown strong potential for general-purpose
 manipulation, yet they often fail on novel, out-of-distribution objects whose appearance
@@ -39,7 +57,7 @@ relative to the state-of-the-art baseline on novel objects, while preserving in-
 distribution performance. These results show that multi-view and physically consistent
 augmentation is a practical path to scalable VLA generalization.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.20118v1
@@ -47,13 +65,4 @@ augmentation is a practical path to scalable VLA generalization.
 - Published: 2026-06-18T11:41:25Z
 - Age days: 1
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

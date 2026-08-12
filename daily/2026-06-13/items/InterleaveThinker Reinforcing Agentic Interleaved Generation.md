@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: false
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.13679v1"
 published: "2026-06-11T17:59:50Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "智能体 Agent", "具身智能评测与基
 
 # InterleaveThinker: Reinforcing Agentic Interleaved Generation
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> On interleaved generation benchmarks, it achieves performance comparable to Nano Banana and GPT-5.
 
-自动筛选分数：33
+## 关键点
 
-连接概念：[[多模态基础模型]], [[智能体 Agent]], [[具身智能评测与基准]]
+- **问题**：However, constrained by their architectures, they cannot achieve interleaved generation (text-image sequence), which has crucial applications in visual narratives, guidance, and embodied manipulation.
+- **创新点 / 方法**：In this paper, we introduce InterleaveThinker, the first multi-agent pipeline designed to endow any existing image generator with interleaved generation capabilities.
+- **证据**：On interleaved generation benchmarks, it achieves performance comparable to Nano Banana and GPT-5.
+- **局限**：However, constrained by their architectures, they cannot achieve interleaved generation (text-image sequence), which has crucial applications in visual narratives, guidance, and embodied manipulation.
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
+- **筛选分数**：33
+- **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Recent image generators have demonstrated impressive photorealism and instruction-
 following capabilities in single-image generation and editing. However, constrained by
@@ -44,7 +62,7 @@ comparable to Nano Banana and GPT-5. Surprisingly, it also significantly enhance
 base model on reasoning-based benchmarks; for example, on 4-step FLUX.2-klein, we
 observe substantial gains on WISE and RISE.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.13679v1
@@ -52,13 +70,4 @@ observe substantial gains on WISE and RISE.
 - Published: 2026-06-11T17:59:50Z
 - Age days: 1
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

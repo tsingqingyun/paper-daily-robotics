@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2608.09388v1"
 published: "2026-08-10T10:09:27Z"
@@ -12,13 +17,26 @@ concepts: ["视觉语言动作模型 VLA", "具身智能评测与基准"]
 
 # Efficient Human-Contact Representation for Human-Scene Interaction
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> The experimental results show that our approach outperforms state-of-the-art models in reconstruction accuracy and achieves a computation speed-up of at least 12 times over recent baselines.
 
-自动筛选分数：28
+## 关键点
 
-连接概念：[[视觉语言动作模型 VLA]], [[具身智能评测与基准]]
+- **问题**：Despite significant progress in network architectures to improve the results or optimize models' parameters for fast inference speed, the efficient representation of contact between humans and their environments remains an open challenge.
+- **创新点 / 方法**：In this paper, we propose a new efficient human- contact representation for human-scene interaction.
+- **证据**：The experimental results show that our approach outperforms state-of-the-art models in reconstruction accuracy and achieves a computation speed-up of at least 12 times over recent baselines.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
+- **筛选分数**：28
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Human-scene interaction is an active research topic with several industrial applications
 in virtual reality, gaming, robotics, and surveillance. Despite significant progress in
@@ -38,7 +56,7 @@ interaction: contact prediction and scene synthesis. The experimental results sh
 our approach outperforms state-of-the-art models in reconstruction accuracy and achieves
 a computation speed-up of at least 12 times over recent baselines.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2608.09388v1
@@ -46,13 +64,4 @@ a computation speed-up of at least 12 times over recent baselines.
 - Published: 2026-08-10T10:09:27Z
 - Age days: 0
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

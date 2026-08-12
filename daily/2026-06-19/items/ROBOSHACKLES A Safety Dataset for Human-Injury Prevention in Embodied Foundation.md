@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: false
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.18632v1"
 published: "2026-06-17T03:03:16Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "具身智能评测与基准"]
 
 # ROBOSHACKLES: A Safety Dataset for Human-Injury Prevention in Embodied Foundation Models
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Results show that all evaluated models produce unsafe actions in the tested safety-critical scenarios, yielding a 100% unsafe action generation rate.
 
-自动筛选分数：39
+## 关键点
 
-连接概念：[[多模态基础模型]], [[具身智能评测与基准]]
+- **问题**：Yet their safety alignment for human-injury prevention remains underexplored, primarily because real-world data of robots harming humans or creating hazardous household situations cannot be safely or ethically collected.
+- **创新点 / 方法**：To address this challenge, we propose a safety-critical data construction pipeline for human-injury prevention in EFMs.Starting from real DROID observations, our construction pipeline proceeds through scene understanding, hazard-aware image editing, temporal prompt generation, and single-pass rollout synthesis.
+- **证据**：Results show that all evaluated models produce unsafe actions in the tested safety-critical scenarios, yielding a 100% unsafe action generation rate.
+- **局限**：Yet their safety alignment for human-injury prevention remains underexplored, primarily because real-world data of robots harming humans or creating hazardous household situations cannot be safely or ethically collected.
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[具身智能评测与基准]]
+- **筛选分数**：39
+- **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Embodied Foundation Models (EFMs) integrate multimodal understanding, future-state
 reasoning, and executable robot actions. Yet their safety alignment for human-injury
@@ -40,7 +58,7 @@ scalable benchmark and training resource for refusal learning and hazard anticip
 before robot action execution.The dataset is publicly available at
 https://huggingface.co/datasets/YZW00/RoboShackles.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.18632v1
@@ -48,13 +66,4 @@ https://huggingface.co/datasets/YZW00/RoboShackles.
 - Published: 2026-06-17T03:03:16Z
 - Age days: 1
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

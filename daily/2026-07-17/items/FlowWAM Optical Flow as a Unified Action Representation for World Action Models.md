@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2607.13017v1"
 published: "2026-07-14T17:57:12Z"
@@ -12,13 +17,26 @@ concepts: ["世界模型", "视觉语言动作模型 VLA", "具身智能评测�
 
 # FlowWAM: Optical Flow as a Unified Action Representation for World Action Models
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> On RoboTwin manipulation, FlowWAM raises the success rate to 92.94% on the Clean setting and 92.14% on Random, outperforming both VLA and WAM baselines.
 
-自动筛选分数：35
+## 关键点
 
-连接概念：[[世界模型]], [[视觉语言动作模型 VLA]], [[具身智能评测与基准]]
+- **问题**：However, directly leveraging such video generators for control raises a new challenge: how to represent actions in a suitable form that aligns with pretrained video generators while carrying enough motion cues for accurate control.
+- **创新点 / 方法**：World Action Models (WAMs) are able to leverage pretrained video generators for both world modeling and action prediction.
+- **证据**：On RoboTwin manipulation, FlowWAM raises the success rate to 92.94% on the Clean setting and 92.14% on Random, outperforming both VLA and WAM baselines.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[世界模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
+- **筛选分数**：35
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 World Action Models (WAMs) are able to leverage pretrained video generators for both
 world modeling and action prediction. However, directly leveraging such video generators
@@ -40,7 +58,7 @@ outperforming both VLA and WAM baselines. On WorldArena world modeling, it achie
 best overall EWMScore (63.71) with an 18.4% relative improvement in trajectory accuracy.
 More results can be found on our project website: https://flow-wam.github.io .
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2607.13017v1
@@ -48,13 +66,4 @@ More results can be found on our project website: https://flow-wam.github.io .
 - Published: 2026-07-14T17:57:12Z
 - Age days: 2
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

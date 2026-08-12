@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2607.13245v1"
 published: "2026-07-14T20:14:50Z"
@@ -12,13 +17,26 @@ concepts: ["智能体 Agent"]
 
 # Just-In-Time Scene Graph Growth: Combating Perceptual Saturation in Long-Horizon Robotics
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> To resolve this, we present JITOMA (Just-In- Time On-demand Memory Activation), a closed-loop framework that unifies task reasoning, perception, and memory into a just-in-time growth process.
 
-自动筛选分数：29
+## 关键点
 
-连接概念：[[智能体 Agent]]
+- **问题**：While 3D Scene Graphs (3DSGs) provide crucial structured representations for embodied agents, conventional Ahead-of-Time, build-everything-then-filter pipelines conflict with the real-time, low-latency demands of edge platforms, inducing a perceptual saturation effect via severe observation redundancy.
+- **创新点 / 方法**：To resolve this, we present JITOMA (Just-In- Time On-demand Memory Activation), a closed-loop framework that unifies task reasoning, perception, and memory into a just-in-time growth process.
+- **证据**：摘要未报告明确实验结论；需阅读全文核查。
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[智能体 Agent]]
+- **筛选分数**：29
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 While 3D Scene Graphs (3DSGs) provide crucial structured representations for embodied
 agents, conventional Ahead-of-Time, build-everything-then-filter pipelines conflict with
@@ -38,7 +56,7 @@ step reasoning. Extensive experiments demonstrate that JITOMA substantially redu
 active graph size and captioning latency, while maintaining stable processing time under
 long-horizon task switching.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2607.13245v1
@@ -46,13 +64,4 @@ long-horizon task switching.
 - Published: 2026-07-14T20:14:50Z
 - Age days: 2
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

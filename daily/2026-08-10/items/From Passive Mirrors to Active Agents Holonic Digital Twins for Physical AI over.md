@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2608.06227v1"
 published: "2026-08-06T16:17:43Z"
@@ -12,13 +17,26 @@ concepts: ["智能体 Agent", "世界模型"]
 
 # From Passive Mirrors to Active Agents: Holonic Digital Twins for Physical AI over Networks
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Despite advances in artificial intelligence (AI) across multiple sectors, today's AI tools, including deep learning and generative AI, still fail when embedded into physical systems, such as robots and vehicles operating under real-world physical laws.
 
-自动筛选分数：28
+## 关键点
 
-连接概念：[[智能体 Agent]], [[世界模型]]
+- **问题**：However, current architectures optimize throughput, latency, and reliability and cannot support real-time physical AI coordination, requiring agents to maintain shared spatiotemporal context.
+- **创新点 / 方法**：Despite advances in artificial intelligence (AI) across multiple sectors, today's AI tools, including deep learning and generative AI, still fail when embedded into physical systems, such as robots and vehicles operating under real-world physical laws.
+- **证据**：摘要未报告明确实验结论；需阅读全文核查。
+- **局限**：However, current architectures optimize throughput, latency, and reliability and cannot support real-time physical AI coordination, requiring agents to maintain shared spatiotemporal context.
 
-## 摘要
+## 研究关联
+
+- **概念**：[[智能体 Agent]] [[世界模型]]
+- **筛选分数**：28
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Despite advances in artificial intelligence (AI) across multiple sectors, today's AI
 tools, including deep learning and generative AI, still fail when embedded into physical
@@ -44,7 +62,7 @@ representations. Finally, integrated information theory quantifies when collecti
 intelligence exceeds independent operation and how network intelligence evolves through
 coordinated learning and information exchange.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2608.06227v1
@@ -52,13 +70,4 @@ coordinated learning and information exchange.
 - Published: 2026-08-06T16:17:43Z
 - Age days: 3
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

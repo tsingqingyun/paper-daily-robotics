@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2605.12162v1"
 published: "2026-05-12T14:13:06Z"
@@ -12,13 +17,26 @@ concepts: ["机器人学习"]
 
 # X-Imitator: Spatial-Aware Imitation Learning via Bidirectional Action-Pose Interaction
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Extensive experiments across 24 simulated and 3 real-world tasks demonstrate that our framework significantly outperforms both vanilla policies and prior methods utilizing explicit pose guidance.
 
-自动筛选分数：29
+## 关键点
 
-连接概念：[[机器人学习]]
+- **问题**：Effectively handling the interplay between spatial perception and action generation remains a critical bottleneck in robotic manipulation.
+- **创新点 / 方法**：To address this, we propose X-Imitator, a versatile dual-path framework that models spatial perception and action execution as a tightly coupled bidirectional loop.
+- **证据**：Extensive experiments across 24 simulated and 3 real-world tasks demonstrate that our framework significantly outperforms both vanilla policies and prior methods utilizing explicit pose guidance.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[机器人学习]]
+- **筛选分数**：29
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Effectively handling the interplay between spatial perception and action generation
 remains a critical bottleneck in robotic manipulation. Existing methods typically treat
@@ -34,7 +52,7 @@ visuomotor policies. Extensive experiments across 24 simulated and 3 real-world 
 demonstrate that our framework significantly outperforms both vanilla policies and prior
 methods utilizing explicit pose guidance. The code will be open sourced.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2605.12162v1
@@ -42,13 +60,4 @@ methods utilizing explicit pose guidance. The code will be open sourced.
 - Published: 2026-05-12T14:13:06Z
 - Age days: 1
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

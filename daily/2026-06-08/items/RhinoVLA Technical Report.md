@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: false
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.07383v1"
 published: "2026-06-05T15:21:41Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "视觉语言动作模型 VLA", "机器人�
 
 # RhinoVLA Technical Report
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Experiments show that RhinoVLA achieves downstream performance comparable to π0.5 at a similar parameter scale, while reaching 11.69 Hz end-to-end inference on Huixi R1, meeting the 10 Hz real-time closedloop control target.
 
-自动筛选分数：37
+## 关键点
 
-连接概念：[[多模态基础模型]], [[视觉语言动作模型 VLA]], [[机器人学习]]
+- **问题**：Vision-Language-Action (VLA) models have shown strong potential for robotic manipulation, but real-time deployment on edge hardware remains challenging.
+- **创新点 / 方法**：Motivated by this observation, we propose RhinoVLA, a deployment-oriented VLA model co-designed with the Huixi R1 edge SoC.
+- **证据**：Experiments show that RhinoVLA achieves downstream performance comparable to π0.5 at a similar parameter scale, while reaching 11.69 Hz end-to-end inference on Huixi R1, meeting the 10 Hz real-time closedloop control target.
+- **局限**：Vision-Language-Action (VLA) models have shown strong potential for robotic manipulation, but real-time deployment on edge hardware remains challenging.
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[视觉语言动作模型 VLA]] [[机器人学习]]
+- **筛选分数**：37
+- **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Vision-Language-Action (VLA) models have shown strong potential for robotic
 manipulation, but real-time deployment on edge hardware remains challenging. In this
@@ -38,7 +56,7 @@ similar parameter scale, while reaching 11.69 Hz end-to-end inference on Huixi R
 meeting the 10 Hz real-time closedloop control target. The project will be open-sourced
 at https://github.com/HuixiAI/RhinoVLA.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.07383v1
@@ -46,13 +64,4 @@ at https://github.com/HuixiAI/RhinoVLA.
 - Published: 2026-06-05T15:21:41Z
 - Age days: 2
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

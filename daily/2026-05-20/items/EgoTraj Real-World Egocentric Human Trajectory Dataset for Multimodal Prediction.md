@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2605.19004v1"
 published: "2026-05-18T18:26:51Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "智能体 Agent", "具身智能评测与基
 
 # EgoTraj: Real-World Egocentric Human Trajectory Dataset for Multimodal Prediction
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Addressing this need, we introduce EgoTraj, an egocentric multimodal open dataset recorded using Meta Quest Pro (MQPro).
 
-自动筛选分数：38
+## 关键点
 
-连接概念：[[多模态基础模型]], [[智能体 Agent]], [[具身智能评测与基准]]
+- **问题**：However, progress in this direction remains limited due to the scarcity of egocentric trajectory datasets collected in real-world environments.
+- **创新点 / 方法**：Addressing this need, we introduce EgoTraj, an egocentric multimodal open dataset recorded using Meta Quest Pro (MQPro).
+- **证据**：摘要未报告明确实验结论；需阅读全文核查。
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
+- **筛选分数**：38
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Accurately forecasting human trajectories from an egocentric perspective plays a central
 role in applications such as humanoid robotics, wearable sensing systems, and assistive
@@ -38,7 +56,7 @@ motion cues. The results highlight the utility of EgoTraj for AR-based perceptio
 navigation, and assistive systems. The EgoTraj dataset, code, and EgoViz Dashboard are
 publicly available at https://github.com/yehiahmad/EgoTraj.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2605.19004v1
@@ -46,13 +64,4 @@ publicly available at https://github.com/yehiahmad/EgoTraj.
 - Published: 2026-05-18T18:26:51Z
 - Age days: 1
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

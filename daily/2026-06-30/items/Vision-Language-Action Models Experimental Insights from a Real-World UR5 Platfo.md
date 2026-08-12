@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.30456v1"
 published: "2026-06-29T15:23:34Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "智能体 Agent", "世界模型", "视觉�
 
 # Vision-Language-Action Models: Experimental Insights from a Real-World UR5 Platform
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> This project investigates whether recent Vision-Language-Action (VLA) models can be transferred from controlled research benchmarks to a real-world robotic platform, specifically a UR5e manipulator, in a reproducible and operationally meaningful manner.
 
-自动筛选分数：50
+## 关键点
 
-连接概念：[[多模态基础模型]], [[智能体 Agent]], [[世界模型]], [[视觉语言动作模型 VLA]], [[具身智能评测与基准]]
+- **问题**：Empirically, the experiments reveal a consistent gap between promising offline indicators and unstable closed-loop behavior on the physical system: this gap cannot be attributed solely to model limitations, it is strongly influenced by action semantics, coordinate frame conventions, temporal alignment between modaliti…
+- **创新点 / 方法**：This project investigates whether recent Vision-Language-Action (VLA) models can be transferred from controlled research benchmarks to a real-world robotic platform, specifically a UR5e manipulator, in a reproducible and operationally meaningful manner.
+- **证据**：摘要未报告明确实验结论；需阅读全文核查。
+- **局限**：Empirically, the experiments reveal a consistent gap between promising offline indicators and unstable closed-loop behavior on the physical system: this gap cannot be attributed solely to model limitations, it is strongly influenced by action semantics, coordinate frame conventions, temporal alignment between modaliti…
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
+- **筛选分数**：50
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 This project investigates whether recent Vision-Language-Action (VLA) models can be
 transferred from controlled research benchmarks to a real-world robotic platform,
@@ -44,7 +62,7 @@ system-level problem; it highlights the difficulty of running robust task execut
 the real robot and provides a clear, experimentally grounded understanding of the
 conditions required for reliable deployment.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.30456v1
@@ -52,13 +70,4 @@ conditions required for reliable deployment.
 - Published: 2026-06-29T15:23:34Z
 - Age days: 0
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

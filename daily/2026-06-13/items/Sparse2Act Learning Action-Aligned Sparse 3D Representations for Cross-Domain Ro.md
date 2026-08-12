@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.12759v1"
 published: "2026-06-10T23:56:01Z"
@@ -12,13 +17,26 @@ concepts: ["世界模型", "Sim2Real", "具身智能评测与基准"]
 
 # Sparse2Act: Learning Action-Aligned Sparse 3D Representations for Cross-Domain Robot Manipulation
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> On the LIBERO-10 benchmark, our method achieves 86.9% average success after 500 fine-tuning steps.
 
-自动筛选分数：29
+## 关键点
 
-连接概念：[[世界模型]], [[Sim2Real]], [[具身智能评测与基准]]
+- **问题**：However, sparse 3D encoders are often learned through downstream task objectives, tying the representation to a particular data distribution, policy architecture, and action parameterization.
+- **创新点 / 方法**：We introduce Sparse2Act, an observation-action alignment framework for pretraining sparse point-cloud encoders.
+- **证据**：On the LIBERO-10 benchmark, our method achieves 86.9% average success after 500 fine-tuning steps.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[世界模型]] [[Sim2Real]] [[具身智能评测与基准]]
+- **筛选分数**：29
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Explicit 3D representations are attractive for manipulation because they expose object
 shape, workspace geometry, and robot-object relations in metric coordinates. However,
@@ -40,7 +58,7 @@ success rate of 72.5% across four tasks, demonstrating effective sim-to-real tra
 These results suggest that robot actions can provide compact geometric supervision for
 reusable sparse 3D representations.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.12759v1
@@ -48,13 +66,4 @@ reusable sparse 3D representations.
 - Published: 2026-06-10T23:56:01Z
 - Age days: 2
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

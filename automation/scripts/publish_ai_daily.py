@@ -23,10 +23,12 @@ WIKI_LINK_RE = re.compile(r"\[\[([^\]\n]+)\]\]")
 DIGEST_SUFFIX = " AI Embodied Intelligence Update.md"
 PUBLIC_AUTOMATION_FILES = {
     "scripts/update_info_flow.py": "automation/scripts/update_info_flow.py",
+    "scripts/migrate_ai_notes_compact.py": "automation/scripts/migrate_ai_notes_compact.py",
     "scripts/check_vault_links.py": "automation/scripts/check_vault_links.py",
     "scripts/publish_ai_daily.py": "automation/scripts/publish_ai_daily.py",
     "scripts/run_ai_daily.sh": "automation/scripts/run_ai_daily.sh",
     "tests/test_update_info_flow.py": "automation/tests/test_update_info_flow.py",
+    "tests/test_migrate_ai_notes_compact.py": "automation/tests/test_migrate_ai_notes_compact.py",
     "tests/test_publish_ai_daily.py": "automation/tests/test_publish_ai_daily.py",
     "tests/test_check_vault_links.py": "automation/tests/test_check_vault_links.py",
     "40_Sources/sources.json": "automation/config/sources.json",

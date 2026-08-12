@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.06967v1"
 published: "2026-06-05T06:54:09Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "机器人学习"]
 
 # GenPO++: Generative Policy Optimization with Jacobian-free Likelihood Ratios
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> We evaluate GenPO++ on large- scale simulated control, fine-tuning, and real-world robotic manipulation tasks, where it achieves competitive or superior performance over state-of-the-art on-policy RL methods, while improving training stability and computation…
 
-自动筛选分数：30
+## 关键点
 
-连接概念：[[多模态基础模型]], [[机器人学习]]
+- **问题**：However, applying such generative policies to likelihood- based on-policy learning remains limited by the difficulty of evaluating the probability of executed actions.
+- **创新点 / 方法**：In this work, we propose GenPO++, a reversible generative policy optimization framework that uses history states as auxiliary memory in a high-order reversible ODE solver, yielding exact inversion without changing the original action dimension.
+- **证据**：We evaluate GenPO++ on large- scale simulated control, fine-tuning, and real-world robotic manipulation tasks, where it achieves competitive or superior performance over state-of-the-art on-policy RL methods, while improving training stability and computational efficiency.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[机器人学习]]
+- **筛选分数**：30
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Generative policies provide expressive and multimodal action distributions, making them
 attractive for reinforcement learning (RL) in complex continuous-control tasks. Among
@@ -39,7 +57,7 @@ scale simulated control, fine-tuning, and real-world robotic manipulation tasks,
 it achieves competitive or superior performance over state-of-the-art on-policy RL
 methods, while improving training stability and computational efficiency.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.06967v1
@@ -47,13 +65,4 @@ methods, while improving training stability and computational efficiency.
 - Published: 2026-06-05T06:54:09Z
 - Age days: 2
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

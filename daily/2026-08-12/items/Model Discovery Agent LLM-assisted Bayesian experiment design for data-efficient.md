@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2608.09696v1"
 published: "2026-08-10T14:59:22Z"
@@ -12,13 +17,26 @@ concepts: ["智能体 Agent", "世界模型", "具身智能评测与基准"]
 
 # Model Discovery Agent: LLM-assisted Bayesian experiment design for data-efficient discovery of mechanistic world models
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> On three different benchmarks --- covering physics (\DPbench, \citep{wiemann2026discoverphysics}), chemistry (\CHEMbench, \citep{kabra2026autoscilab}) and biology (\HHbench, a new partially observed single-neuron electrophysiology benchmark we create) --- we…
 
-自动筛选分数：25
+## 关键点
 
-连接概念：[[智能体 Agent]], [[世界模型]], [[具身智能评测与基准]]
+- **问题**：Experiments are expensive, so the central problem is \emph{data efficiency}.
+- **创新点 / 方法**：We present the Model Discovery Agent (MDA), which couples a large language model (LLM), used as a \emph{proposer} of candidate structures, with standard Bayesian machinery --- sequential Monte Carlo (SMC) for parameter and structure posteriors, simulation-based inference (SBI) for intractable likelihoods, and value-of…
+- **证据**：On three different benchmarks --- covering physics (\DPbench, \citep{wiemann2026discoverphysics}), chemistry (\CHEMbench, \citep{kabra2026autoscilab}) and biology (\HHbench, a new partially observed single-neuron electrophysiology benchmark we create) --- we show that MDA sets a new SOTA in terms of data-efficient mod…
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
+- **筛选分数**：25
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Predicting the answer to interventional ``what if'' questions --- the outcome of an
 action never taken --- requires a \emph{mechanistic}, causal model, not a curve fit; and
@@ -41,7 +59,7 @@ and biology (\HHbench, a new partially observed single-neuron electrophysiology
 benchmark we create) --- we show that MDA sets a new SOTA in terms of data-efficient
 model learning and reliable interventional forecasting ability.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2608.09696v1
@@ -49,13 +67,4 @@ model learning and reliable interventional forecasting ability.
 - Published: 2026-08-10T14:59:22Z
 - Age days: 1
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

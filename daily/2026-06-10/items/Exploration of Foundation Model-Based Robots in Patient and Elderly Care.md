@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.10208v1"
 published: "2026-06-08T22:00:08Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "智能体 Agent", "世界模型", "具身�
 
 # Exploration of Foundation Model-Based Robots in Patient and Elderly Care
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Demand for older-adult and patient care is growing rapidly as populations age worldwide.
 
-自动筛选分数：31
+## 关键点
 
-连接概念：[[多模态基础模型]], [[智能体 Agent]], [[世界模型]], [[具身智能评测与基准]]
+- **问题**：However, care settings require reliable and workflow-compatible systems with accountable human oversight, and it remains unclear whether current embodied systems can translate technical advances into clinical impact.
+- **创新点 / 方法**：Demand for older-adult and patient care is growing rapidly as populations age worldwide.
+- **证据**：摘要未报告明确实验结论；需阅读全文核查。
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
+- **筛选分数**：31
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Demand for older-adult and patient care is growing rapidly as populations age worldwide.
 Foundation models are increasingly being integrated into robots and interactive agents,
@@ -38,7 +56,7 @@ care-related changes. We argue that future research should transition toward car
 specific evaluation standards, accountable autonomy, and integration into care workflows
 to support more responsive and responsible care technologies.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.10208v1
@@ -46,13 +64,4 @@ to support more responsive and responsible care technologies.
 - Published: 2026-06-08T22:00:08Z
 - Age days: 1
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

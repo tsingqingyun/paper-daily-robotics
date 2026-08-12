@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: false
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2607.19633v1"
 published: "2026-07-22T00:05:00Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "智能体 Agent", "世界模型", "视觉�
 
 # LENS: LLM-guided Environment Simplification for Planning and Control in Clutter
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> In our experiments, we show that LENS improves classical planning, model-based control, and a vision-language-action model, across a diverse set of highly cluttered manipulation scenes.
 
-自动筛选分数：30
+## 关键点
 
-连接概念：[[多模态基础模型]], [[智能体 Agent]], [[世界模型]], [[视觉语言动作模型 VLA]]
+- **问题**：Despite recent advances in general-purpose robotic manipulation, real-world multi-object clutter remains challenging to handle for today's prevalent approaches.
+- **创新点 / 方法**：The problem scales in complexity due to more objects and collisions, more unpredictable contact physics, distractors, and task ambiguity.
+- **证据**：In our experiments, we show that LENS improves classical planning, model-based control, and a vision-language-action model, across a diverse set of highly cluttered manipulation scenes.
+- **局限**：Despite recent advances in general-purpose robotic manipulation, real-world multi-object clutter remains challenging to handle for today's prevalent approaches.
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[视觉语言动作模型 VLA]]
+- **筛选分数**：30
+- **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Despite recent advances in general-purpose robotic manipulation, real-world multi-object
 clutter remains challenging to handle for today's prevalent approaches. The problem
@@ -36,7 +54,7 @@ versatile and easy to use. In our experiments, we show that LENS improves classi
 planning, model-based control, and a vision-language-action model, across a diverse set
 of highly cluttered manipulation scenes. Project website: https://lens-2026.github.io/.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2607.19633v1
@@ -44,13 +62,4 @@ of highly cluttered manipulation scenes. Project website: https://lens-2026.gith
 - Published: 2026-07-22T00:05:00Z
 - Age days: 2
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

@@ -33,6 +33,57 @@ class FakeResponse:
 
 
 class UpdateInfoFlowTests(unittest.TestCase):
+    def test_abstract_summary_is_compact_and_evidence_bounded(self):
+        abstract = (
+            "Robot policies fail in cluttered scenes. "
+            "We propose a contact-aware diffusion controller. "
+            "Results show a 17% success-rate improvement on three benchmarks. "
+            "However, the method does not handle deformable objects."
+        )
+        summary = MODULE.summarize_abstract(abstract)
+        self.assertIn("contact-aware", summary["method"])
+        self.assertIn("17%", summary["evidence"])
+        self.assertIn("does not handle", summary["limitation"])
+        self.assertFalse(summary["needs_fulltext"])
+
+    def test_abstract_summary_marks_unreported_evidence(self):
+        summary = MODULE.summarize_abstract("We propose a compact robot policy for mobile manipulation.")
+        self.assertEqual(summary["evidence"], MODULE.UNSTATED_EVIDENCE)
+        self.assertEqual(summary["limitation"], MODULE.UNSTATED_LIMITATION)
+        self.assertTrue(summary["needs_fulltext"])
+
+    def test_note_and_digest_use_decision_first_format(self):
+        items = []
+        for index in range(15):
+            abstract = f"We propose controller {index}. Results show a {index + 1}% gain."
+            item = {
+                "title": f"Paper {index}",
+                "source": "arXiv",
+                "url": f"https://example.test/{index}",
+                "published": "2026-08-12T00:00:00Z",
+                "age_days": 0,
+                "authors": ["A. Author"],
+                "summary": abstract,
+                "score": 20 - index,
+                "concepts": ["机器人学习"],
+                "link_path": f"30_Updates/2026-08-12/Paper {index}",
+                "compact_summary": MODULE.summarize_abstract(abstract),
+            }
+            items.append(item)
+        note = MODULE.note_body(items[0], items[0]["concepts"], items[0]["score"], "2026-08-12")
+        self.assertIn("format_version: 2", note)
+        self.assertIn("## 关键点", note)
+        self.assertIn("**创新点 / 方法**", note)
+        self.assertIn("<summary>原始摘要与来源</summary>", note)
+        self.assertNotIn("## 我的判断", note)
+
+        digest = MODULE.digest_body("2026-08-12", items, 100, [], "机器人学习 15", 0)
+        self.assertIn("## 必读 5 篇", digest)
+        self.assertIn("## 扫读 7 篇", digest)
+        self.assertIn("## 其余存档 3 篇", digest)
+        for item in items:
+            self.assertIn(item["link_path"], digest)
+
     def test_fetch_retries_transient_network_failure(self):
         side_effects = [urllib.error.URLError("temporary"), FakeResponse(b"ok")]
         with mock.patch.object(MODULE.urllib.request, "urlopen", side_effect=side_effects) as opener:

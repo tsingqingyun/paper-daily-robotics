@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2608.08303v1"
 published: "2026-08-08T19:31:19Z"
@@ -12,13 +17,26 @@ concepts: ["智能体 Agent", "具身智能评测与基准"]
 
 # Query-Only Backdoor Attacks on Self-Evolving Skills via Trajectory Poisoning
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> To demonstrate the threat, we propose Trajectory Backdoor Attack (TBA), a query-only attack that steers a trusted skill-evolution pipeline toward producing a backdoored skill.
 
-自动筛选分数：24
+## 关键点
 
-连接概念：[[智能体 Agent]], [[具身智能评测与基准]]
+- **问题**：However, manually authored skills often adapt poorly to long-horizon tasks and changing environments.
+- **创新点 / 方法**：To demonstrate the threat, we propose Trajectory Backdoor Attack (TBA), a query-only attack that steers a trusted skill-evolution pipeline toward producing a backdoored skill.
+- **证据**：摘要未报告明确实验结论；需阅读全文核查。
+- **局限**：To address the limitation, self-evolving skill systems have been developed to automatically construct and update skills from execution trajectories, shifting skill acquisition from external marketplaces to a trusted evolution pipeline.
 
-## 摘要
+## 研究关联
+
+- **概念**：[[智能体 Agent]] [[具身智能评测与基准]]
+- **筛选分数**：24
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Agentic skills improve large language model (LLM) agents by encoding reusable procedures
 for complex tasks. However, manually authored skills often adapt poorly to long-horizon
@@ -42,7 +60,7 @@ demonstrate that TBA reliably implants conditional backdoors while preserving cl
 utility, matching or even surpassing direct skill injection. The results reveal a
 critical vulnerability in trajectory-driven skill evolution.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2608.08303v1
@@ -50,13 +68,4 @@ critical vulnerability in trajectory-driven skill evolution.
 - Published: 2026-08-08T19:31:19Z
 - Age days: 3
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

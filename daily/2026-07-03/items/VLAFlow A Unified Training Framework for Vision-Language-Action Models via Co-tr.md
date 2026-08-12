@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2607.01586v1"
 published: "2026-07-02T01:38:16Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "视觉语言动作模型 VLA", "具身智�
 
 # VLAFlow: A Unified Training Framework for Vision-Language-Action Models via Co-training and Future Latent Alignment
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> In contrast, language supervision helps preserve vision-language generalization, while future latent alignment improves state-transition and action- outcome modeling.
 
-自动筛选分数：35
+## 关键点
 
-连接概念：[[多模态基础模型]], [[视觉语言动作模型 VLA]], [[具身智能评测与基准]]
+- **问题**：Vision-language-action models (VLAs) have recently advanced robotic manipulation, yet the effects of different robot-data pre-training paradigms remain difficult to compare because existing models often differ in architecture, data, action space, and evaluation protocol.
+- **创新点 / 方法**：We present VLAFlow (Vision-Language-Action Flow), a unified flow-matching framework for controlled comparison of VLA training objectives.
+- **证据**：In contrast, language supervision helps preserve vision-language generalization, while future latent alignment improves state-transition and action- outcome modeling.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
+- **筛选分数**：35
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Vision-language-action models (VLAs) have recently advanced robotic manipulation, yet
 the effects of different robot-data pre-training paradigms remain difficult to compare
@@ -38,7 +56,7 @@ transfer performance across benchmarks. These results suggest a meta-action spac
 language and future latent representations provide complementary intermediate
 constraints that make heterogeneous action supervision smoother and more transferable.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2607.01586v1
@@ -46,13 +64,4 @@ constraints that make heterogeneous action supervision smoother and more transfe
 - Published: 2026-07-02T01:38:16Z
 - Age days: 1
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

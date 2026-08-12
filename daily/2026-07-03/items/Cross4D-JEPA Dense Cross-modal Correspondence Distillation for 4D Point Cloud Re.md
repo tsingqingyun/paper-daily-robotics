@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2607.00514v1"
 published: "2026-07-01T06:49:17Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "具身智能评测与基准"]
 
 # Cross4D-JEPA: Dense Cross-modal Correspondence Distillation for 4D Point Cloud Representation Learning
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Experimental results show that, under a matched protocol, the proposed method consistently outperforms intra-modal and global cross-modal baselines across the four benchmarks and is competitive with heavier published 4D methods; further analysis attributes th…
 
-自动筛选分数：33
+## 关键点
 
-连接概念：[[多模态基础模型]], [[具身智能评测与基准]]
+- **问题**：Existing pretext tasks, however, are almost entirely intra-modal, and the few methods that transfer knowledge from 2D foundation models rely on a single global embedding per clip, discarding the rich per-patch semantics that these models compute.
+- **创新点 / 方法**：To address this gap, we propose Cross4D-JEPA, a teacher-student method that distills a frozen 2D foundation model, an image model DINOv2, or a video model V-JEPA 2, into a 4D point encoder.
+- **证据**：Experimental results show that, under a matched protocol, the proposed method consistently outperforms intra-modal and global cross-modal baselines across the four benchmarks and is competitive with heavier published 4D methods; further analysis attributes this gain primarily to the granularity of the correspondence r…
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[具身智能评测与基准]]
+- **筛选分数**：33
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Automatic understanding of dynamic 4D point clouds, the 3D-point sequences captured over
 time by depth sensors and LiDAR, is central to robotics and embodied perception. Yet
@@ -42,7 +60,7 @@ accuracy, the dense representation learned by Cross4D-JEPA transfers across doma
 improves label efficiency, and improves full-label fine-tuning under the same training
 budget, while a 13x smaller encoder matches a heavyweight pooling backbone.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2607.00514v1
@@ -50,13 +68,4 @@ budget, while a 13x smaller encoder matches a heavyweight pooling backbone.
 - Published: 2026-07-01T06:49:17Z
 - Age days: 2
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

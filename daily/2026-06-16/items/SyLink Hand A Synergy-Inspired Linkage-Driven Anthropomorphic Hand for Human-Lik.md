@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.14250v1"
 published: "2026-06-12T08:29:52Z"
@@ -12,13 +17,26 @@ concepts: ["具身智能评测与基准"]
 
 # SyLink Hand: A Synergy-Inspired Linkage-Driven Anthropomorphic Hand for Human-Like Dexterity
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Inspired by human hand synergies, this paper presents the SyLink Hand, an anthropomorphic dexterous hand that integrates biomechanical synergy principles with linkage-driven transmission mechanisms to achieve a high degree of anthropomorphism in appearance, k…
 
-自动筛选分数：22
+## 关键点
 
-连接概念：[[具身智能评测与基准]]
+- **问题**：Designing anthropomorphic robotic hands that balance functional dexterity with mechanical simplicity remains a significant challenge.
+- **创新点 / 方法**：Inspired by human hand synergies, this paper presents the SyLink Hand, an anthropomorphic dexterous hand that integrates biomechanical synergy principles with linkage-driven transmission mechanisms to achieve a high degree of anthropomorphism in appearance, kinematics, and functionality within a compact and cost-effec…
+- **证据**：摘要未报告明确实验结论；需阅读全文核查。
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[具身智能评测与基准]]
+- **筛选分数**：22
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Designing anthropomorphic robotic hands that balance functional dexterity with
 mechanical simplicity remains a significant challenge. Inspired by human hand synergies,
@@ -41,7 +59,7 @@ design effectively balances anthropomorphism, mechanical simplicity, and functio
 versatility, highlighting its potential for practical deployment in dexterity-demanding
 robotic applications.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.14250v1
@@ -49,13 +67,4 @@ robotic applications.
 - Published: 2026-06-12T08:29:52Z
 - Age days: 3
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

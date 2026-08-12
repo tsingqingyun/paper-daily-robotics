@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.13731v1"
 published: "2026-06-11T11:49:31Z"
@@ -12,13 +17,26 @@ concepts: ["智能体 Agent", "世界模型", "具身智能评测与基准"]
 
 # TwinBI: An Agentic Digital Twin for Efficient Augmented Interactions with Business Intelligence Dashboards
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> In a controlled A/B benchmark with the same backbone agent, TwinBI improves exact-match accuracy from 43.3% to 63.3%, partial-credit accuracy from 48.3% to 70.8%, and substantially reduces timeout rate from 40.0% to 10.0% relative to Dashboard alone.
 
-自动筛选分数：28
+## 关键点
 
-连接概念：[[智能体 Agent]], [[世界模型]], [[具身智能评测与基准]]
+- **问题**：As users switch between direct dashboard manipulation and natural-language queries, it becomes difficult to preserve a consistent analytical state across filters, hierarchies, metrics, and chart context.
+- **创新点 / 方法**：We present TwinBI, an agentic digital-twin framework that couples an LLM-based agent system with an executable BI dashboard state.
+- **证据**：In a controlled A/B benchmark with the same backbone agent, TwinBI improves exact-match accuracy from 43.3% to 63.3%, partial-credit accuracy from 48.3% to 70.8%, and substantially reduces timeout rate from 40.0% to 10.0% relative to Dashboard alone.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
+- **筛选分数**：28
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Business intelligence (BI) increasingly combines dashboard interaction with LLM-based
 assistance, but these two modes often fall out of sync during multi-step analysis. As
@@ -40,7 +58,7 @@ analytical reliability and user-facing analytical support by turning visible das
 state into richer actionable context. Our dataset and source code are available at:
 https://github.com/simonjisu/TwinBI
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.13731v1
@@ -48,13 +66,4 @@ https://github.com/simonjisu/TwinBI
 - Published: 2026-06-11T11:49:31Z
 - Age days: 3
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

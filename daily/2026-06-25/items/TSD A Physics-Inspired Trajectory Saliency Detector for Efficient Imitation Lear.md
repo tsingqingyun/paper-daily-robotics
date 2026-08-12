@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.23371v1"
 published: "2026-06-22T14:06:04Z"
@@ -12,13 +17,26 @@ concepts: ["世界模型", "机器人学习"]
 
 # TSD: A Physics-Inspired Trajectory Saliency Detector for Efficient Imitation Learning
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> We further leverage TSD to develop a dataset compression method that reduces training costs and a dataset expansion strategy that improves data collection efficiency.
 
-自动筛选分数：31
+## 关键点
 
-连接概念：[[世界模型]], [[机器人学习]]
+- **问题**：In this paper, we leverage the inherent heterogeneity of trajectories to address this challenge.
+- **创新点 / 方法**：Therefore, we propose the Trajectory Saliency Detector (TSD), a training-free and plug-and-play framework to identify trajectory saliency.
+- **证据**：We further leverage TSD to develop a dataset compression method that reduces training costs and a dataset expansion strategy that improves data collection efficiency.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[世界模型]] [[机器人学习]]
+- **筛选分数**：31
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 For imitation learning in robotic manipulation, high data collection costs result in the
 scarcity of high quality data. In this paper, we leverage the inherent heterogeneity of
@@ -39,7 +57,7 @@ Consequently, TSD offers a scalable and cost-effective pathway to synthesize
 information-dense datasets for efficient robot learning. Project page:
 https://trajectory-saliency-detector.github.io/trajectory-saliency-detector/
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.23371v1
@@ -47,13 +65,4 @@ https://trajectory-saliency-detector.github.io/trajectory-saliency-detector/
 - Published: 2026-06-22T14:06:04Z
 - Age days: 2
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

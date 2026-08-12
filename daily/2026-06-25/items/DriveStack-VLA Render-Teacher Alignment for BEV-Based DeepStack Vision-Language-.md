@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: false
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.24051v1"
 published: "2026-06-23T01:40:54Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "智能体 Agent", "视觉语言动作模型
 
 # DriveStack-VLA: Render-Teacher Alignment for BEV-Based DeepStack Vision-Language-Action Model
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> DriveStack-VLA achieves 91.6 PDMS on NAVSIMv1, 91.0 EPDMS on NAVSIMv2 (with the human penalty filter enabled), and a driving score of 79.49 with a success rate of 56.36\% on the closed-loop Bench2Drive.
 
-自动筛选分数：30
+## 关键点
 
-连接概念：[[多模态基础模型]], [[智能体 Agent]], [[视觉语言动作模型 VLA]], [[机器人学习]], [[具身智能评测与基准]]
+- **问题**：However, existing VLA driving models still lack driving-oriented spatial intelligence: their policies are mainly grounded on perspective image tokens and language priors, while precise motion planning requires metric geometry, top-down scene structure, and attention to safety-critical perceptual cues.
+- **创新点 / 方法**：In this paper, we present DriveStack-VLA, a framework built upon a large VLM backbone.
+- **证据**：DriveStack-VLA achieves 91.6 PDMS on NAVSIMv1, 91.0 EPDMS on NAVSIMv2 (with the human penalty filter enabled), and a driving score of 79.49 with a success rate of 56.36\% on the closed-loop Bench2Drive.
+- **局限**：This limitation makes current models vulnerable to weak visual geometry modeling and perceptual coverage in expert demonstrations.
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]] [[机器人学习]] [[具身智能评测与基准]]
+- **筛选分数**：30
+- **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Vision-Language-Action driving models convert a pretrained Vision-Language Model into a
 driving policy, allowing them to use world knowledge and follow language guidances.
@@ -39,7 +57,7 @@ the human penalty filter enabled), and a driving score of 79.49 with a success r
 56.36\% on the closed-loop Bench2Drive. More visualizations are available on our project
 page: https://anonymous.4open.science/w/drivestack-vla/.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.24051v1
@@ -47,13 +65,4 @@ page: https://anonymous.4open.science/w/drivestack-vla/.
 - Published: 2026-06-23T01:40:54Z
 - Age days: 1
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

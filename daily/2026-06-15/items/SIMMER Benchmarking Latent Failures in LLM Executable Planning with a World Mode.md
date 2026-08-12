@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.14574v1"
 published: "2026-06-12T15:53:16Z"
@@ -12,13 +17,26 @@ concepts: ["智能体 Agent", "世界模型", "具身智能评测与基准"]
 
 # SIMMER: Benchmarking Latent Failures in LLM Executable Planning with a World Model
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> To address this gap, we introduce SIMMER, a benchmark for evaluating latent failures in LLM planning through a human-curated symbolic world model grounded in the kitchen domain.
 
-自动筛选分数：27
+## 关键点
 
-连接概念：[[智能体 Agent]], [[世界模型]], [[具身智能评测与基准]]
+- **问题**：While existing benchmarks evaluate whether LLM-generated plans execute successfully, they overlook a critical type of failure: latent failures.
+- **创新点 / 方法**：To address this gap, we introduce SIMMER, a benchmark for evaluating latent failures in LLM planning through a human-curated symbolic world model grounded in the kitchen domain.
+- **证据**：摘要未报告明确实验结论；需阅读全文核查。
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
+- **筛选分数**：27
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Large language models (LLMs) are increasingly deployed as planners for autonomous agents
 in household environments. While existing benchmarks evaluate whether LLM-generated
@@ -39,7 +57,7 @@ demonstrate that explicit state reasoning via counterfactual foresight simulatio
 reduce latent failures by up to 72% and irreversible cases by up to 75%, suggesting a
 promising direction for more robust LLM planners.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.14574v1
@@ -47,13 +65,4 @@ promising direction for more robust LLM planners.
 - Published: 2026-06-12T15:53:16Z
 - Age days: 2
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

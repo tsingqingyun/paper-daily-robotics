@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: false
+summary_method: abstract-extractive
 source: "Berkeley BAIR Blog"
 url: "http://bair.berkeley.edu/blog/2026/04/20/grasp/"
 published: "Mon, 20 Apr 2026 02:00:00 -0700"
@@ -12,13 +17,26 @@ concepts: ["智能体 Agent", "世界模型", "具身智能评测与基准"]
 
 # Gradient-based Planning for World Models at Longer Horizons
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Success rate (%) / median time to success.
 
-自动筛选分数：15
+## 关键点
 
-连接概念：[[智能体 Agent]], [[世界模型]], [[具身智能评测与基准]]
+- **问题**：They can predict long sequences of future observations in high-dimensional visual spaces and generalize across tasks in ways that were difficult to imagine a few years ago.
+- **创新点 / 方法**：In this blog post, I describe the problems that motivated this project and our approach to address them: why planning with modern world models can be surprisingly fragile, why long horizons are the real stress test, and what we changed to make gradient-based planning much more robust.
+- **证据**：Success rate (%) / median time to success.
+- **局限**：Later work has painted a geometric picture for what’s going on: for data near a low- dimensional manifold $\mathcal{M}$, the training process controls behavior in tangential directions, but does not regularize behavior in orthogonal directions, thus leading to sensitive behavior ( Stutz et al., 2019 ).
 
-## 摘要
+## 研究关联
+
+- **概念**：[[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
+- **筛选分数**：15
+- **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 .grasp-results-table table { font-size: 0.875rem; line-height: 1.35; width: 100%; }
 .grasp-results-table th, .grasp-results-table td { padding: 0.35rem 0.5rem; } /*
@@ -252,7 +270,7 @@ Krishnapriyan and Yann LeCun and Amir Bar} , year = {2026} , eprint = {2602.0047
 archivePrefix = {arXiv} , primaryClass = {cs.LG} , url =
 {https://arxiv.org/abs/2602.00475} }
 
-## 来源
+### 来源
 
 - Source: Berkeley BAIR Blog
 - URL: http://bair.berkeley.edu/blog/2026/04/20/grasp/
@@ -260,13 +278,4 @@ archivePrefix = {arXiv} , primaryClass = {cs.LG} , url =
 - Published: Mon, 20 Apr 2026 02:00:00 -0700
 - Age days: 49
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

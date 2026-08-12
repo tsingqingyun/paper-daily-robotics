@@ -1,9 +1,15 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "Berkeley BAIR Blog"
 url: "http://bair.berkeley.edu/blog/2025/03/25/rl-av-smoothing/"
 published: "Tue, 25 Mar 2025 02:00:00 -0700"
+age_days: 
 score: 20
 created: 2026-05-12
 concepts: ["智能体 Agent", "世界模型", "机器人学习", "Sim2Real", "具身智能评测与基准"]
@@ -11,13 +17,26 @@ concepts: ["智能体 Agent", "世界模型", "机器人学习", "Sim2Real", "�
 
 # Scaling Up Reinforcement Learning for Traffic Smoothing: A 100-AV Highway Deployment
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> The agent collects experience through trial and error, learns from its mistakes, and improves over time.
 
-自动筛选分数：20
+## 关键点
 
-连接概念：[[智能体 Agent]], [[世界模型]], [[机器人学习]], [[Sim2Real]], [[具身智能评测与基准]]
+- **问题**：In our latest paper , we explore the challenges of deploying RL controllers on a large- scale, from simulation to the field, during this 100-car experiment.
+- **创新点 / 方法**：We designed the AVs with deployment in mind, ensuring that they can operate using only basic sensor information about themselves and the vehicle in front.
+- **证据**：The agent collects experience through trial and error, learns from its mistakes, and improves over time.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[智能体 Agent]] [[世界模型]] [[机器人学习]] [[Sim2Real]] [[具身智能评测与基准]]
+- **筛选分数**：20
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Training Diffusion Models with Reinforcement Learning We deployed 100 reinforcement
 learning (RL)-controlled cars into rush-hour highway traffic to smooth congestion and
@@ -164,20 +183,12 @@ contributors took part in making the MegaVanderTest happen! The full list is ava
 on the CIRCLES project page, along with more details about the project. Read more:
 [paper]
 
-## 来源
+### 来源
 
 - Source: Berkeley BAIR Blog
 - URL: http://bair.berkeley.edu/blog/2025/03/25/rl-av-smoothing/
 
 - Published: Tue, 25 Mar 2025 02:00:00 -0700
+- Age days: 
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2608.07075v1"
 published: "2026-08-07T10:27:37Z"
@@ -12,13 +17,26 @@ concepts: ["智能体 Agent"]
 
 # Detection and Ranging of Transient Extrinsic Contacts Based on 6D Dynamic Tactile Sensing
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Specifically, fusing tactile data with robot pose via an extended Kalman filter enables fast and precise localization of extrinsic contact, reaching millimeter-level accuracy within 180 ms.
 
-自动筛选分数：26
+## 关键点
 
-连接概念：[[智能体 Agent]]
+- **问题**：While the human hand localizes these contacts effortlessly thanks to superior tactile sensitivity, robotic systems often lack the requisite resolution to acquire the information necessary for motion planning, resulting in clumsy manipulation or even task failure.
+- **创新点 / 方法**：Here, we propose transient extrinsic contact detection and ranging (TECDAR), a simple yet fast and efficient method for detecting and ranging extrinsic contact of grasped objects.
+- **证据**：Specifically, fusing tactile data with robot pose via an extended Kalman filter enables fast and precise localization of extrinsic contact, reaching millimeter-level accuracy within 180 ms.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[智能体 Agent]]
+- **筛选分数**：26
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Delicate manipulation often involves transient and subtle collisions between a grasped
 object and the environment. While the human hand localizes these contacts effortlessly
@@ -43,7 +61,7 @@ requiring delicate manipulation, including precision assembly, surgical assistan
 autonomous exploration in touch-dominant environments. Project page:
 humitlab.github.io/TECDAR/
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2608.07075v1
@@ -51,13 +69,4 @@ humitlab.github.io/TECDAR/
 - Published: 2026-08-07T10:27:37Z
 - Age days: 3
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

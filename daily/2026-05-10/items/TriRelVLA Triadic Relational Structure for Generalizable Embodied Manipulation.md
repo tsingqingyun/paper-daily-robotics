@@ -1,9 +1,15 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: false
+summary_method: abstract-extractive
 source: "arXiv Daily - Embodied AI and Robotics"
 url: "https://arxiv.org/abs/2605.05714v1"
 published: "2026-05-07T05:57:49Z"
+age_days: 
 score: 34
 created: 2026-05-10
 concepts: ["多模态基础模型", "视觉语言动作模型 VLA"]
@@ -11,13 +17,26 @@ concepts: ["多模态基础模型", "视觉语言动作模型 VLA"]
 
 # TriRelVLA: Triadic Relational Structure for Generalizable Embodied Manipulation
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Prior work improves transferability through structured intermediate representations that objectify visual content.
 
-自动筛选分数：34
+## 关键点
 
-连接概念：[[多模态基础模型]], [[视觉语言动作模型 VLA]]
+- **问题**：Vision-language-action (VLA) models perform well on training-seen robotic tasks but struggle to generalize to unseen scenes and objects.
+- **创新点 / 方法**：Based on this observation, we propose TriRelVLA, a triadic relational VLA framework for generalizable embodied manipulation.
+- **证据**：Prior work improves transferability through structured intermediate representations that objectify visual content.
+- **局限**：A key limitation lies in their implicit visual representations, which entangle object appearance, background, and scene layout.
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[视觉语言动作模型 VLA]]
+- **筛选分数**：34
+- **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Vision-language-action (VLA) models perform well on training-seen robotic tasks but
 struggle to generalize to unseen scenes and objects. A key limitation lies in their
@@ -41,20 +60,12 @@ compositions. We further introduce a real-world robotic dataset for fine-tuning.
 Experiments show strong performance on fine-tuned tasks and clear gains in cross-scene,
 cross-object, and cross-task generalization.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Embodied AI and Robotics
 - URL: https://arxiv.org/abs/2605.05714v1
 - Authors: Hanyu Zhou, Chuanhao Ma, Gim Hee Lee
 - Published: 2026-05-07T05:57:49Z
+- Age days: 
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

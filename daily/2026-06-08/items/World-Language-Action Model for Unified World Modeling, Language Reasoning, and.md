@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.05979v1"
 published: "2026-06-04T10:23:01Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "智能体 Agent", "世界模型", "视觉�
 
 # World-Language-Action Model for Unified World Modeling, Language Reasoning, and Action Synthesis
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Our WLA-0 prototype, with 2B active parameters, achieves 40 ms per inference on an NVIDIA RTX 5090.
 
-自动筛选分数：47
+## 关键点
 
-连接概念：[[多模态基础模型]], [[智能体 Agent]], [[世界模型]], [[视觉语言动作模型 VLA]], [[具身智能评测与基准]]
+- **问题**：We propose world-language-action (WLA) models as a new class of embodied foundation models.
+- **创新点 / 方法**：We propose world-language-action (WLA) models as a new class of embodied foundation models.
+- **证据**：Our WLA-0 prototype, with 2B active parameters, achieves 40 ms per inference on an NVIDIA RTX 5090.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
+- **筛选分数**：47
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 We propose world-language-action (WLA) models as a new class of embodied foundation
 models. WLA takes textual instructions, images, and robot states as inputs to jointly
@@ -41,7 +59,7 @@ long-horizon learning abilities, e.g., 92.94\% success rate on RoboTwin2.0 Clean
 56.5\% success rate on RMBench. WLA-0 also holds the promise to learn novel tasks
 directly from \emph{cross-embodiment robot videos} without action annotations.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.05979v1
@@ -49,13 +67,4 @@ directly from \emph{cross-embodiment robot videos} without action annotations.
 - Published: 2026-06-04T10:23:01Z
 - Age days: 3
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

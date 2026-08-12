@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2607.21400v1"
 published: "2026-07-23T15:02:01Z"
@@ -12,13 +17,26 @@ concepts: ["智能体 Agent", "具身智能评测与基准"]
 
 # VoLN: Vision-Only Long-Horizon Navigation---Paradigm, Benchmark, and Method
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> On the five-environment Test-Unseen split, it obtains success rates of 7.4%, 4.5%, and 1.8% on Easy, Normal, and Hard episodes, respectively.
 
-自动筛选分数：25
+## 关键点
 
-连接概念：[[智能体 Agent]], [[具身智能评测与基准]]
+- **问题**：However, route-level instructions commonly encode spatial priors, such as orientation, distance, and layout, that are not explicitly available from onboard sensing at deployment in open, GPS-denied environments.
+- **创新点 / 方法**：As a complementary formulation, we propose Vision-Only Long-Horizon Navigation (VoLN), which shifts route-relevant information from externally supplied instructions and global guidance to locally observable in-scene cues.
+- **证据**：On the five-environment Test-Unseen split, it obtains success rates of 7.4%, 4.5%, and 1.8% on Easy, Normal, and Hard episodes, respectively.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[智能体 Agent]] [[具身智能评测与基准]]
+- **筛选分数**：25
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Vision-and-Language Navigation (VLN) enables embodied agents to follow natural-language
 instructions. However, route-level instructions commonly encode spatial priors, such as
@@ -42,7 +60,7 @@ respectively. These results provide an initial evaluation of VoLN and reveal sub
 remaining challenges in long-horizon evidence integration, cross-view goal matching, and
 closed-loop stability. Project page: https://admire-ljb.github.io/VoLN-UAV/
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2607.21400v1
@@ -50,13 +68,4 @@ closed-loop stability. Project page: https://admire-ljb.github.io/VoLN-UAV/
 - Published: 2026-07-23T15:02:01Z
 - Age days: 1
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

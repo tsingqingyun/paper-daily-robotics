@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2608.08871v1"
 published: "2026-08-09T19:22:51Z"
@@ -12,13 +17,26 @@ concepts: ["智能体 Agent", "世界模型", "机器人学习"]
 
 # Hierarchical Topology-Aware Planning and Control of Underwater Vehicle-Manipulator Systems in Confined Environments
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Across 120 matched planning queries, it achieves higher task success than full-state sampling-based baselines while producing larger clearance margins and lower arm motion.
 
-自动筛选分数：24
+## 关键点
 
-连接概念：[[智能体 Agent]], [[世界模型]], [[机器人学习]]
+- **问题**：This paper addresses autonomous intervention with an underwater vehicle--manipulator system (UVMS) in confined, cluttered, and partially known environments, where poor maneuverability, narrow passages, and uncertain execution may cause the robot to enter unrecoverable regions.
+- **创新点 / 方法**：We propose MANTA, a three-layer hierarchical planning-and-control framework that couples passage accessibility, manipulation feasibility, and closed-loop execution.
+- **证据**：Across 120 matched planning queries, it achieves higher task success than full-state sampling-based baselines while producing larger clearance margins and lower arm motion.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[智能体 Agent]] [[世界模型]] [[机器人学习]]
+- **筛选分数**：24
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 This paper addresses autonomous intervention with an underwater vehicle--manipulator
 system (UVMS) in confined, cluttered, and partially known environments, where poor
@@ -41,7 +59,7 @@ on both training and unseen tube-like references. These results show MANTA as a
 structured and data-efficient framework for safe autonomous underwater intervention in
 caves, tubes, and cluttered subsea structures.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2608.08871v1
@@ -49,13 +67,4 @@ caves, tubes, and cluttered subsea structures.
 - Published: 2026-08-09T19:22:51Z
 - Age days: 2
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

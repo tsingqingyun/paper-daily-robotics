@@ -1,9 +1,15 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: false
+summary_method: abstract-extractive
 source: "Berkeley BAIR Blog"
 url: "http://bair.berkeley.edu/blog/2026/05/08/adaptive-parallel-reasoning/"
 published: "Fri, 08 May 2026 02:00:00 -0700"
+age_days: 
 score: 18
 created: 2026-05-12
 concepts: ["多模态基础模型", "智能体 Agent", "机器人学习", "具身智能评测与基准"]
@@ -11,13 +17,26 @@ concepts: ["多模态基础模型", "智能体 Agent", "机器人学习", "具�
 
 # Adaptive Parallel Reasoning: The Next Paradigm in Efficient Inference Scaling
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> The authors of Parallel-R1 ( Zheng et al., 2025 ) introduced an alternating-schedule, only rewarding parallel structure 20% of the time, which successfully increased the use of parallel structure (13.6% → 63%), but had little impact on overall accuracy.
 
-自动筛选分数：18
+## 关键点
 
-连接概念：[[多模态基础模型]], [[智能体 Agent]], [[机器人学习]], [[具身智能评测与基准]]
+- **问题**：What if a reasoning model could decide for itself when to decompose and parallelize independent subtasks, how many concurrent threads to spawn, and how to coordinate them based on the problem at hand?
+- **创新点 / 方法**：Can we design training methods that account for available compute budget at inference time, so parallelization decisions are hardware-aware rather than purely problem-driven?
+- **证据**：The authors of Parallel-R1 ( Zheng et al., 2025 ) introduced an alternating-schedule, only rewarding parallel structure 20% of the time, which successfully increased the use of parallel structure (13.6% → 63%), but had little impact on overall accuracy.
+- **局限**：Figure 2: Various Strategies for Parallel Reasoning The methods above share a common limitation: the decision to parallelize, the level of parallelization, and the search strategy are imposed on the model, regardless of whether the problem actually benefits from it.
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[机器人学习]] [[具身智能评测与基准]]
+- **筛选分数**：18
+- **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 .apr-fig { text-align: center; margin: 1.35em 0; line-height: 1.4; } .apr-fig--wide img
 { display: inline-block; width: 100%; max-width: 100%; height: auto; vertical-align:
@@ -317,20 +336,12 @@ and Anya Ji for their valuable discussions. We thank Jiayi Pan , Xiuyu Li , and 
 Zhang for their constructive correspondences about Adaptive Parallel Reasoning and
 Recursive Language Models.
 
-## 来源
+### 来源
 
 - Source: Berkeley BAIR Blog
 - URL: http://bair.berkeley.edu/blog/2026/05/08/adaptive-parallel-reasoning/
 
 - Published: Fri, 08 May 2026 02:00:00 -0700
+- Age days: 
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

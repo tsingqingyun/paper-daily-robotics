@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.24039v1"
 published: "2026-06-23T00:42:33Z"
@@ -12,13 +17,26 @@ concepts: ["智能体 Agent", "世界模型", "机器人学习"]
 
 # TurboMPC: Fast, Scalable, and Differentiable Model Predictive Control on the GPU
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> We present TurboMPC, a differentiable MPC solver that runs entirely on the GPU and supports state and control inequality constraints, implicit integrators, cross-time-coupled costs, and slack variables.
 
-自动筛选分数：32
+## 关键点
 
-连接概念：[[智能体 Agent]], [[世界模型]], [[机器人学习]]
+- **问题**：For model predictive control (MPC) to scale with this paradigm, solvers must run efficiently on this hardware while remaining fast, differentiable, and compatible with expressive MPC formulations used in robotics.
+- **创新点 / 方法**：We present TurboMPC, a differentiable MPC solver that runs entirely on the GPU and supports state and control inequality constraints, implicit integrators, cross-time-coupled costs, and slack variables.
+- **证据**：摘要未报告明确实验结论；需阅读全文核查。
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[智能体 Agent]] [[世界模型]] [[机器人学习]]
+- **筛选分数**：32
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Robotics increasingly relies on GPUs for parallel simulation, large-scale learning, and
 neural-network inference. For model predictive control (MPC) to scale with this
@@ -39,7 +57,7 @@ TurboMPC also scales to planning horizons of over $8000$ knot points while maint
 control of the vehicle. We open-source TurboMPC at:
 https://github.com/ToyotaResearchInstitute/turbompc
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.24039v1
@@ -47,13 +65,4 @@ https://github.com/ToyotaResearchInstitute/turbompc
 - Published: 2026-06-23T00:42:33Z
 - Age days: 1
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

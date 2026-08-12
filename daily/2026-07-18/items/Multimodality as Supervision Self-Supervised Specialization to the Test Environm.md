@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2607.14721v1"
 published: "2026-07-16T08:36:54Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "智能体 Agent"]
 
 # Multimodality as Supervision: Self-Supervised Specialization to the Test Environment via Multimodality
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> To study this, we propose a controlled setup, where we restrict a user device to just a given test environment.
 
-自动筛选分数：27
+## 关键点
 
-连接概念：[[多模态基础模型]], [[智能体 Agent]]
+- **问题**：Cross-modal learning, i.e., learning to predict one modality from another, is a fundamental mechanism for self-supervision via leveraging multimodality.
+- **创新点 / 方法**：To study this, we propose a controlled setup, where we restrict a user device to just a given test environment.
+- **证据**：摘要未报告明确实验结论；需阅读全文核查。
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[智能体 Agent]]
+- **筛选分数**：27
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Cross-modal learning, i.e., learning to predict one modality from another, is a
 fundamental mechanism for self-supervision via leveraging multimodality. Many practical
@@ -42,7 +60,7 @@ ablations that raise intriguing points on substituting data with (multi)modality
 how varying pre-training data enables a tradeoff between a model's abilities to
 specialise to a test environment, and generalize to held-out spaces.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2607.14721v1
@@ -50,13 +68,4 @@ specialise to a test environment, and generalize to held-out spaces.
 - Published: 2026-07-16T08:36:54Z
 - Age days: 1
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

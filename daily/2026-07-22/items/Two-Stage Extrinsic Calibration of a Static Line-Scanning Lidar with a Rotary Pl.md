@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2607.18578v1"
 published: "2026-07-20T23:19:33Z"
@@ -12,13 +17,26 @@ concepts: ["AI 核心知识地图"]
 
 # Two-Stage Extrinsic Calibration of a Static Line-Scanning Lidar with a Rotary Platform
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Any inaccuracy in this transformation directly affects the quality of the reconstructed point cloud, leading to misrepresentation of the object of interest.
 
-自动筛选分数：28
+## 关键点
 
-连接概念：[[AI 核心知识地图]]
+- **问题**：However, this setup gives rise to the following problem: how can the axis of rotation of the platform be accurately identified with respect to the lidar coordinate system?
+- **创新点 / 方法**：A line-scanning lidar yields range and azimuth values in a fixed plane.
+- **证据**：Any inaccuracy in this transformation directly affects the quality of the reconstructed point cloud, leading to misrepresentation of the object of interest.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[AI 核心知识地图]]
+- **筛选分数**：28
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 A line-scanning lidar yields range and azimuth values in a fixed plane. To perceive
 surrounding objects in 3D, there must be relative motion between the lidar plane and the
@@ -37,7 +55,7 @@ algorithms have been validated on real-world datasets obtained from a custom mad
 platform and an FMCW lidar, and their convergence characteristics are studied for
 various initial conditions.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2607.18578v1
@@ -45,13 +63,4 @@ various initial conditions.
 - Published: 2026-07-20T23:19:33Z
 - Age days: 1
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

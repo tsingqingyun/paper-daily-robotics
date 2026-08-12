@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.17256v1"
 published: "2026-06-15T20:00:20Z"
@@ -12,13 +17,26 @@ concepts: ["AI 核心知识地图"]
 
 # Contrastive Action-Image Pre-training for Visuomotor Control
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Leveraging 32,041 hours of egocentric human video and only 88 hours of robotic manipulation data, CAIP outperforms state-of-the-art vision encoders including DINOv2, SigLIP, MVP, and R3M.
 
-自动筛选分数：33
+## 关键点
 
-连接概念：[[AI 核心知识地图]]
+- **问题**：Existing vision encoders for robotics face a fundamental bottleneck: robotic datasets lack the scale necessary for large-scale pre-training.
+- **创新点 / 方法**：To this end, we introduce CAIP (Contrastive Action-Image Pre-training), a vision encoder that treats human hand poses from large-scale egocentric video as a proxy for end-effector actions.
+- **证据**：Leveraging 32,041 hours of egocentric human video and only 88 hours of robotic manipulation data, CAIP outperforms state-of-the-art vision encoders including DINOv2, SigLIP, MVP, and R3M.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[AI 核心知识地图]]
+- **筛选分数**：33
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Existing vision encoders for robotics face a fundamental bottleneck: robotic datasets
 lack the scale necessary for large-scale pre-training. Prior work circumvents this data
@@ -40,7 +58,7 @@ manipulation. Our results show that our method of contrastive action-centric pre
 training yields a scalable path to achieving robust visual representations better suited
 for physical interaction.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.17256v1
@@ -48,13 +66,4 @@ for physical interaction.
 - Published: 2026-06-15T20:00:20Z
 - Age days: 2
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

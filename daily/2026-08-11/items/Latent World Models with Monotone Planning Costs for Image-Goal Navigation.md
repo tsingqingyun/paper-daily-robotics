@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2608.09073v1"
 published: "2026-08-10T03:23:26Z"
@@ -12,13 +17,26 @@ concepts: ["智能体 Agent", "世界模型", "视觉语言动作模型 VLA"]
 
 # Latent World Models with Monotone Planning Costs for Image-Goal Navigation
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> On the GNM navigation dataset, our method outperforms Navigation World Models (NWM), DINO-WM, OmniVLA, and NoMaD, achieving state-of-the-art image-goal navigation performance while reducing orientation error by $2.7\times$ over the same-encoder DINO WM baseli…
 
-自动筛选分数：31
+## 关键点
 
-连接概念：[[智能体 Agent]], [[世界模型]], [[视觉语言动作模型 VLA]]
+- **问题**：Image-goal navigation with latent world models requires not only accurate future prediction, but also a planning cost that reliably ranks candidate action sequences.
+- **创新点 / 方法**：To address this, we propose a latent world model built on a frozen DINO-family encoder and train it with two complementary objectives.
+- **证据**：On the GNM navigation dataset, our method outperforms Navigation World Models (NWM), DINO-WM, OmniVLA, and NoMaD, achieving state-of-the-art image-goal navigation performance while reducing orientation error by $2.7\times$ over the same-encoder DINO WM baseline.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[智能体 Agent]] [[世界模型]] [[视觉语言动作模型 VLA]]
+- **筛选分数**：31
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Image-goal navigation with latent world models requires not only accurate future
 prediction, but also a planning cost that reliably ranks candidate action sequences. We
@@ -37,7 +55,7 @@ $2.7\times$ over the same-encoder DINO WM baseline. We also deploy the model zer
 on a physical robot, where it follows goal-directed paths in unseen indoor and outdoor
 environments.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2608.09073v1
@@ -45,13 +63,4 @@ environments.
 - Published: 2026-08-10T03:23:26Z
 - Age days: 1
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

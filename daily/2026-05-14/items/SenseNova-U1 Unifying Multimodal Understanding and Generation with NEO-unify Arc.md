@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: false
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2605.12500v1"
 published: "2026-05-12T17:59:58Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "智能体 Agent", "世界模型", "视觉�
 
 # SenseNova-U1: Unifying Multimodal Understanding and Generation with NEO-unify Architecture
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Beyond performance, we show detailed model design, data preprocessing, pre-/post-training, and inference strategies to support community research.
 
-自动筛选分数：34
+## 关键点
 
-连接概念：[[多模态基础模型]], [[智能体 Agent]], [[世界模型]], [[视觉语言动作模型 VLA]]
+- **问题**：Recent large vision-language models (VLMs) remain fundamentally constrained by a persistent dichotomy: understanding and generation are treated as distinct problems, leading to fragmented architectures, cascaded pipelines, and misaligned representation spaces.
+- **创新点 / 方法**：Hence, we introduce SenseNova-U1, a native unified multimodal paradigm built upon NEO- unify, in which understanding and generation evolve as synergistic views of a single underlying process.
+- **证据**：Beyond performance, we show detailed model design, data preprocessing, pre-/post-training, and inference strategies to support community research.
+- **局限**：We argue that this divide is not merely an engineering artifact, but a structural limitation that hinders the emergence of native multimodal intelligence.
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[视觉语言动作模型 VLA]]
+- **筛选分数**：34
+- **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Recent large vision-language models (VLMs) remain fundamentally constrained by a
 persistent dichotomy: understanding and generation are treated as distinct problems,
@@ -44,7 +62,7 @@ think and act across them in a native manner. Multimodal AI is no longer about
 connecting separate systems, but about building a unified one and trusting the necessary
 capabilities to emerge from within.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2605.12500v1
@@ -52,13 +70,4 @@ capabilities to emerge from within.
 - Published: 2026-05-12T17:59:58Z
 - Age days: 1
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

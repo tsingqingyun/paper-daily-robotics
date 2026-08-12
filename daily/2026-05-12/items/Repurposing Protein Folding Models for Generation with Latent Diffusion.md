@@ -1,9 +1,15 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "Berkeley BAIR Blog"
 url: "http://bair.berkeley.edu/blog/2025/04/08/plaid/"
 published: "Tue, 08 Apr 2025 03:30:00 -0700"
+age_days: 
 score: 27
 created: 2026-05-12
 concepts: ["多模态基础模型", "视觉语言动作模型 VLA"]
@@ -11,13 +17,26 @@ concepts: ["多模态基础模型", "视觉语言动作模型 VLA"]
 
 # Repurposing Protein Folding Models for Generation with Latent Diffusion
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> In PLAID , we develop a method that learns to sample from the latent space of protein folding models to generate new proteins.
 
-自动筛选分数：27
+## 关键点
 
-连接概念：[[多模态基础模型]], [[视觉语言动作模型 VLA]]
+- **问题**：Unlike many previous protein structure generative models, PLAID addresses the multimodal co-generation problem setting: simultaneously generating both discrete sequence and continuous all-atom structural coordinates.
+- **创新点 / 方法**：In PLAID , we develop a method that learns to sample from the latent space of protein folding models to generate new proteins.
+- **证据**：摘要未报告明确实验结论；需阅读全文核查。
+- **局限**：From structure prediction to real-world drug design Though recent works demonstrate promise for the ability of diffusion models to generate proteins, there still exist limitations of previous models that make them impractical for real-world applications, such as: All-atom generation : Many existing generative models o…
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[视觉语言动作模型 VLA]]
+- **筛选分数**：27
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 PLAID is a multimodal generative model that simultaneously generates protein 1D sequence
 and 3D structure, by learning the latent space of protein folding models. The awarding
@@ -113,20 +132,12 @@ to co-authors across BAIR, Genentech, Microsoft Research, and New York Universit
 Wilson Yan, Sarah A. Robinson, Simon Kelow, Kevin K. Yang, Vladimir Gligorijevic,
 Kyunghyun Cho, Richard Bonneau, Pieter Abbeel, and Nathan C. Frey.
 
-## 来源
+### 来源
 
 - Source: Berkeley BAIR Blog
 - URL: http://bair.berkeley.edu/blog/2025/04/08/plaid/
 
 - Published: Tue, 08 Apr 2025 03:30:00 -0700
+- Age days: 
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

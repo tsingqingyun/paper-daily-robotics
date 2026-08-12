@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2605.25782v1"
 published: "2026-05-25T12:29:47Z"
@@ -12,13 +17,26 @@ concepts: ["世界模型", "机器人学习", "具身智能评测与基准"]
 
 # ParkourFormer: Integrating Predictive Supervision and Sequence Modeling into Parkour Locomotion
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Experiments in simulation and on a real humanoid robot show that ParkourFormer achieves a 93.85% average traversal success rate on highly challenging terrains, with improvements of up to 42.73% over strong MLP, MoE-based MLP, and vanilla Transformer baselines…
 
-自动筛选分数：26
+## 关键点
 
-连接概念：[[世界模型]], [[机器人学习]], [[具身智能评测与基准]]
+- **问题**：Humanoid parkour requires locomotion policies to coordinate whole-body dynamics across rapidly changing terrains such as stairs, gaps, slopes, and obstacles.
+- **创新点 / 方法**：Such modeling becomes critical in agile locomotion tasks where successful motion execution depends strongly on anticipating upcoming contact transitions and body dynamics.We present ParkourFormer, a Transformer-based sequence modeling framework that reformulates humanoid locomotion as a future-conditioned decision-mak…
+- **证据**：Experiments in simulation and on a real humanoid robot show that ParkourFormer achieves a 93.85% average traversal success rate on highly challenging terrains, with improvements of up to 42.73% over strong MLP, MoE-based MLP, and vanilla Transformer baselines, while maintaining a single unified policy across all terra…
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
+- **筛选分数**：26
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Humanoid parkour requires locomotion policies to coordinate whole-body dynamics across
 rapidly changing terrains such as stairs, gaps, slopes, and obstacles. Existing
@@ -41,7 +59,7 @@ baselines, while maintaining a single unified policy across all terrain types. T
 results demonstrate that explicit future-state modeling significantly improves
 robustness and generalization for agile whole-body locomotion.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2605.25782v1
@@ -49,13 +67,4 @@ robustness and generalization for agile whole-body locomotion.
 - Published: 2026-05-25T12:29:47Z
 - Age days: 0
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

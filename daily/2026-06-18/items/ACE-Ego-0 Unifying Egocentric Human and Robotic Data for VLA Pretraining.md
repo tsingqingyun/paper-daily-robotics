@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: false
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.17200v1"
 published: "2026-06-15T18:40:18Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "世界模型", "视觉语言动作模型 VL
 
 # ACE-Ego-0: Unifying Egocentric Human and Robotic Data for VLA Pretraining
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> ACE-EGO-0 achieves state-of-the- art performance on RoboCasa GR1 TableTop and RoboTwin 2.0, while demonstrating strong transfer to real-world bimanual manipulation.
 
-自动筛选分数：39
+## 关键点
 
-连接概念：[[多模态基础模型]], [[世界模型]], [[视觉语言动作模型 VLA]], [[机器人学习]]
+- **问题**：However, joint training on human and robot data remains challenging due to divergences in action spaces, embodiment structures, temporal dynamics, and supervision quality.
+- **创新点 / 方法**：We introduce ACE-EGO-0, a unified VLA pretraining framework jointly leveraging heterogeneous data sources.
+- **证据**：ACE-EGO-0 achieves state-of-the- art performance on RoboCasa GR1 TableTop and RoboTwin 2.0, while demonstrating strong transfer to real-world bimanual manipulation.
+- **局限**：However, joint training on human and robot data remains challenging due to divergences in action spaces, embodiment structures, temporal dynamics, and supervision quality.
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]] [[机器人学习]]
+- **筛选分数**：39
+- **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Vision-Language-Action (VLA) models benefit from large-scale and diverse embodied data,
 yet scaling robot trajectory collection is costly and labor-intensive. Recent advances
@@ -41,7 +59,7 @@ unified joint pretraining and supervised fine-tuning. ACE-EGO-0 achieves state-o
 art performance on RoboCasa GR1 TableTop and RoboTwin 2.0, while demonstrating strong
 transfer to real-world bimanual manipulation.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.17200v1
@@ -49,13 +67,4 @@ transfer to real-world bimanual manipulation.
 - Published: 2026-06-15T18:40:18Z
 - Age days: 2
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

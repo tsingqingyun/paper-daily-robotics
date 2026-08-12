@@ -1,46 +1,53 @@
 ---
 type: daily-update
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
 created: 2026-05-25
 ---
 
 # 2026-05-25 AI Embodied Intelligence Update
 
-## 运行摘要
+> [!summary] 30 秒结论
+> 今日最值得关注：[Catch up on the Dialogues stage at Google I/O 2026.](items/Catch%20up%20on%20the%20Dialogues%20stage%20at%20Google%20I%20O%202026..md) — A recap of the 2026 I/O Dialogues, where leaders discuss the future of AI, quantum computing, robotics and creativity.
+
+- **规模**：1901 个候选 → 2 篇入选；回填 0 篇
+- **主题**：AI 核心知识地图 1、世界模型 1
+- **源异常**：1
+
+## 必读 2 篇
+
+### 1. [Catch up on the Dialogues stage at Google I/O 2026.](items/Catch%20up%20on%20the%20Dialogues%20stage%20at%20Google%20I%20O%202026..md)
+
+- **创新点 / 方法**：A recap of the 2026 I/O Dialogues, where leaders discuss the future of AI, quantum computing, robotics and creativity.
+- **证据**：摘要未报告明确实验结论；需阅读全文核查。
+
+### 2. [Roundtables: Can AI Learn to Understand the World?](items/Roundtables%20Can%20AI%20Learn%20to%20Understand%20the%20World.md)
+
+- **创新点 / 方法**：Recent developments have brought world models to the forefront of the AI discussion.
+- **证据**：摘要未报告明确实验结论；需阅读全文核查。
+
+## 扫读 0 篇
+
+无。
+
+## 其余存档 0 篇
+
+无。
+
+<details>
+<summary>运行信息与信息源错误</summary>
 
 - 候选数量：1901
 - 入选条目：2
+- 回填已见条目：0
 - 最高分论文：Catch up on the Dialogues stage at Google I/O 2026.
 - 最高分论文发布时间：Fri, 22 May 2026 18:00:00 +0000
 - 主要技术对象分类：AI 核心知识地图 1、世界模型 1
 - 信息源错误：1
 
-## 信息源错误
+### 信息源错误
 
 - arXiv Daily - Frontier Embodied AI Robotics Papers: The read operation timed out
 
-## 高价值条目
-
-### [Catch up on the Dialogues stage at Google I/O 2026.](items/Catch%20up%20on%20the%20Dialogues%20stage%20at%20Google%20I%20O%202026..md)
-
-- Score: 18
-- Source: Google AI Blog
-- Published: Fri, 22 May 2026 18:00:00 +0000
-- Age days: 2
-- Concepts: [[AI 核心知识地图]]
-- URL: https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/
-
-### [Roundtables: Can AI Learn to Understand the World?](items/Roundtables%20Can%20AI%20Learn%20to%20Understand%20the%20World.md)
-
-- Score: 13
-- Source: MIT Technology Review AI
-- Published: Thu, 21 May 2026 20:41:05 +0000
-- Age days: 3
-- Concepts: [[世界模型]]
-- URL: https://www.technologyreview.com/2026/05/21/1137756/roundtables-can-ai-learn-to-understand-the-world/
-
-## 复盘
-
-- 哪些条目改变了我对核心路线的判断？
-- 哪些需要沉淀为论文卡片？
-- 哪些只是噪声，下次应降低权重？
+</details>

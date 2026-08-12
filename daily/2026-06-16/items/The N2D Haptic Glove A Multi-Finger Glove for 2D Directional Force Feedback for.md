@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.14083v1"
 published: "2026-06-12T03:59:33Z"
@@ -12,13 +17,26 @@ concepts: ["世界模型", "机器人学习"]
 
 # The N2D Haptic Glove: A Multi-Finger Glove for 2D Directional Force Feedback for Contact Rich Manipulation
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Without directional cues, users must infer contact force from vision alone, often leading to over-pressing, inconsistent control, and reduced precision in robotic teleoperation.
 
-自动筛选分数：24
+## 关键点
 
-连接概念：[[世界模型]], [[机器人学习]]
+- **问题**：Humans rely on directional fingertip forces to probe and regulate contact during manipulation, yet most wearable haptic gloves render only vibration or single-axis force, leaving force direction ambiguous.
+- **创新点 / 方法**：We present the N2D Haptic Glove, a multi-finger wearable device that renders planar flexion-extension fingertip forces using capstan-drive transmissions for high-transparency force feedback.
+- **证据**：Without directional cues, users must infer contact force from vision alone, often leading to over-pressing, inconsistent control, and reduced precision in robotic teleoperation.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[世界模型]] [[机器人学习]]
+- **筛选分数**：24
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Humans rely on directional fingertip forces to probe and regulate contact during
 manipulation, yet most wearable haptic gloves render only vibration or single-axis
@@ -37,7 +55,7 @@ immersive virtual reality simulations, and robot learning from demonstrations. N
 Haptic Glove's hardware and software system will be fully open-sourced at
 \href{https://ucsdarclab.github.io/n2d-glove/}{this https URL}.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.14083v1
@@ -45,13 +63,4 @@ Haptic Glove's hardware and software system will be fully open-sourced at
 - Published: 2026-06-12T03:59:33Z
 - Age days: 3
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

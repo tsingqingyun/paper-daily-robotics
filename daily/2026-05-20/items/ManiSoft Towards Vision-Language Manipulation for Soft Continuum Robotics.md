@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2605.18617v1"
 published: "2026-05-18T16:26:22Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "世界模型", "机器人学习", "具身�
 
 # ManiSoft: Towards Vision-Language Manipulation for Soft Continuum Robotics
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> To investigate these challenges, we introduce \ManiSoft, a benchmark for vision-language manipulation with soft arms.
 
-自动筛选分数：35
+## 关键点
 
-连接概念：[[多模态基础模型]], [[世界模型]], [[机器人学习]], [[具身智能评测与基准]]
+- **问题**：Soft robotic arms offer an appealing alternative due to their deformability, but confront challenges such as unreliable proprioception and distributed low-level actuation.
+- **创新点 / 方法**：To investigate these challenges, we introduce \ManiSoft, a benchmark for vision-language manipulation with soft arms.
+- **证据**：摘要未报告明确实验结论；需阅读全文核查。
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
+- **筛选分数**：35
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Most existing vision-language manipulation research targets rigid robotic arms, whose
 fixed morphology limits adaptability in cluttered or confined spaces. Soft robotic arms
@@ -42,7 +60,7 @@ valuable testbed, bridging the gap between rigid and soft arms in the context of
 language manipulation. Out codes and datasets are released at https://buaa-
 colalab.github.io/ManiSoft.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2605.18617v1
@@ -50,13 +68,4 @@ colalab.github.io/ManiSoft.
 - Published: 2026-05-18T16:26:22Z
 - Age days: 1
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2607.20670v1"
 published: "2026-07-22T19:08:31Z"
@@ -12,13 +17,26 @@ concepts: ["世界模型"]
 
 # ODeform: Learning Continuous 4D Motion for Shape Deformation with Neural ODEs
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> We evaluate our approach on unseen physical parameter configurations, showing improved motion prediction accuracy over baseline methods.
 
-自动筛选分数：27
+## 关键点
 
-连接概念：[[世界模型]]
+- **问题**：However, these approaches either use discrete time steps or are too computationally intensive for real- time applications.
+- **创新点 / 方法**：We present ODeform, a novel extension of Neural Ordinary Differential Equations to continuous 4D dynamics of deformable objects in 3D space.
+- **证据**：We evaluate our approach on unseen physical parameter configurations, showing improved motion prediction accuracy over baseline methods.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[世界模型]]
+- **筛选分数**：27
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Modeling continuous object deformation is important for many computer vision and
 robotics tasks, such as manipulation and simulation. Existing approaches rely on
@@ -36,7 +54,7 @@ successful transfer to real 3D captured objects with novel shapes, along with ef
 interpolation and extrapolation of the learned dynamics. Our code and data will be made
 publicly available.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2607.20670v1
@@ -44,13 +62,4 @@ publicly available.
 - Published: 2026-07-22T19:08:31Z
 - Age days: 1
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

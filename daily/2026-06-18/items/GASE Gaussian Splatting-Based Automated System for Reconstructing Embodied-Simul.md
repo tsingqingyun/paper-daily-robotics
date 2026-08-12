@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.17520v1"
 published: "2026-06-16T05:00:42Z"
@@ -12,13 +17,26 @@ concepts: ["智能体 Agent", "世界模型", "机器人学习", "Sim2Real"]
 
 # GASE: Gaussian Splatting-Based Automated System for Reconstructing Embodied-Simulation Environments
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Extensive experiments demonstrate that GASE outperforms existing 3D Gaussian-based methods in segmentation accuracy by over 10\% while achieving state-of-the-art inpainting quality.
 
-自动筛选分数：33
+## 关键点
 
-连接概念：[[智能体 Agent]], [[世界模型]], [[机器人学习]], [[Sim2Real]]
+- **问题**：Training embodied agents in the real world requires skilled operators and expensive hardware.
+- **创新点 / 方法**：Simulation environments offer a compelling alternative by enabling large- scale, cost-effective data augmentation.
+- **证据**：Extensive experiments demonstrate that GASE outperforms existing 3D Gaussian-based methods in segmentation accuracy by over 10\% while achieving state-of-the-art inpainting quality.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[智能体 Agent]] [[世界模型]] [[机器人学习]] [[Sim2Real]]
+- **筛选分数**：33
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Training embodied agents in the real world requires skilled operators and expensive
 hardware. Simulation environments offer a compelling alternative by enabling large-
@@ -40,7 +58,7 @@ gap of less than 10\% compared to policies trained purely on real-world data. Th
 results confirm that GASE provides an efficient and highly effective solution for
 bridging the sim-to-real gap. Code will be released.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.17520v1
@@ -48,13 +66,4 @@ bridging the sim-to-real gap. Code will be released.
 - Published: 2026-06-16T05:00:42Z
 - Age days: 1
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

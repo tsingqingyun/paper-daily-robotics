@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: false
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2608.07045v1"
 published: "2026-08-07T09:54:00Z"
@@ -12,13 +17,26 @@ concepts: ["世界模型", "机器人学习", "具身智能评测与基准"]
 
 # C2Dex: Contact-Consistent Reconstruction and Retargeting for Dexterous Manipulation from Monocular Video
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Experiments on DexYCB and TACO show that C2Dex achieves end-to-end trajectory success rates of 57.78% and 26.67%, respectively, substantially outperforming the strongest baselines (17.78% and 10.00%) under identical evaluation criteria.
 
-自动筛选分数：24
+## 关键点
 
-连接概念：[[世界模型]], [[机器人学习]], [[具身智能评测与基准]]
+- **问题**：High-quality demonstrations for dexterous robot manipulation are costly and difficult to collect, whereas monocular human videos provide a scalable source of diverse manipulation behaviors.
+- **创新点 / 方法**：We present C2Dex, a video-to- dexterous-manipulation framework built around a shared interaction representation: stable object-side contacts recovered by aggregating noisy frame-wise observations in the canonical object space.
+- **证据**：Experiments on DexYCB and TACO show that C2Dex achieves end-to-end trajectory success rates of 57.78% and 26.67%, respectively, substantially outperforming the strongest baselines (17.78% and 10.00%) under identical evaluation criteria.
+- **局限**：However, transferring such demonstrations to dexterous robots remains challenging: monocular hand-object interaction (HOI) reconstruction often produces temporally unstable contacts and physically implausible interactions, while conventional retargeting methods struggle to preserve task-relevant contacts and local int…
 
-## 摘要
+## 研究关联
+
+- **概念**：[[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
+- **筛选分数**：24
+- **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 High-quality demonstrations for dexterous robot manipulation are costly and difficult to
 collect, whereas monocular human videos provide a scalable source of diverse
@@ -40,7 +58,7 @@ the strongest baselines (17.78% and 10.00%) under identical evaluation criteria.
 robot replay experiments further demonstrate physical feasibility across diverse
 contact-rich manipulation tasks. Project page: https://k-jie.github.io/C2Dex/
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2608.07045v1
@@ -48,13 +66,4 @@ contact-rich manipulation tasks. Project page: https://k-jie.github.io/C2Dex/
 - Published: 2026-08-07T09:54:00Z
 - Age days: 3
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: false
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.24338v1"
 published: "2026-06-23T09:24:52Z"
@@ -12,13 +17,26 @@ concepts: ["智能体 Agent", "机器人学习", "具身智能评测与基准"]
 
 # RoBoSR: Structured Scene Representations for Embodied Robotic Reasoning
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Across several benchmarks and real-world demonstrations, our method consistently outperforms prompting-based methods and classical TAMP baselines in zero-shot generalization and long-horizon tasks.
 
-自动筛选分数：38
+## 关键点
 
-连接概念：[[智能体 Agent]], [[机器人学习]], [[具身智能评测与基准]]
+- **问题**：Despite rapid progress, embodied reasoning under real-world variability remains challenging.
+- **创新点 / 方法**：We introduce RoBoSR, an intermediate structural representation that formulates manipulation as step-wise state transitions over semantically grounded, object-centric scene graphs.
+- **证据**：Across several benchmarks and real-world demonstrations, our method consistently outperforms prompting-based methods and classical TAMP baselines in zero-shot generalization and long-horizon tasks.
+- **局限**：Despite rapid progress, embodied reasoning under real-world variability remains challenging.
 
-## 摘要
+## 研究关联
+
+- **概念**：[[智能体 Agent]] [[机器人学习]] [[具身智能评测与基准]]
+- **筛选分数**：38
+- **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Despite rapid progress, embodied reasoning under real-world variability remains
 challenging. Existing approaches rely on demonstration-driven sequential biases,
@@ -38,7 +56,7 @@ and classical TAMP baselines in zero-shot generalization and long-horizon tasks.
 results underscore structured intermediate representations as a critical inductive bias
 for scalable embodied reasoning.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.24338v1
@@ -46,13 +64,4 @@ for scalable embodied reasoning.
 - Published: 2026-06-23T09:24:52Z
 - Age days: 1
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

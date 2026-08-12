@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.06836v1"
 published: "2026-06-05T02:23:05Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "智能体 Agent", "视觉语言动作模型
 
 # Think Like a Pilot: Fine-Grained Long-Horizon UAV Navigation
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Its trained Streaming Pilot Reasoning VLM further improves UAV video reasoning, validating the effectiveness of our design.
 
-自动筛选分数：33
+## 关键点
 
-连接概念：[[多模态基础模型]], [[智能体 Agent]], [[视觉语言动作模型 VLA]], [[具身智能评测与基准]]
+- **问题**：Language-guided UAV agents must execute long-horizon semantic instructions while producing smooth, physically feasible continuous flight commands, yet existing Vision- Language Navigation (VLN) benchmarks typically use discrete or coarse actions and existing UAV Vision-Language-Action (VLA) tasks focus on short, atomi…
+- **创新点 / 方法**：To address this gap in UAV task settings, we introduce \textbf{FLIGHT}, a \textbf{F}ine- grained \textbf{L}ong-horizon \textbf{I}nstruction-\textbf{G}uided benchmark for \textbf{H}ybrid UAV navigation and reasoning \textbf{T}asks, which combines multi-stage instructions with dense 6-DoF trajectory annotations across t…
+- **证据**：Its trained Streaming Pilot Reasoning VLM further improves UAV video reasoning, validating the effectiveness of our design.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
+- **筛选分数**：33
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Language-guided UAV agents must execute long-horizon semantic instructions while
 producing smooth, physically feasible continuous flight commands, yet existing Vision-
@@ -41,7 +59,7 @@ stage completion, subgoal adherence, and terminal control. Its trained Streaming
 Reasoning VLM further improves UAV video reasoning, validating the effectiveness of our
 design.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.06836v1
@@ -49,13 +67,4 @@ design.
 - Published: 2026-06-05T02:23:05Z
 - Age days: 2
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

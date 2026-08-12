@@ -126,6 +126,7 @@ fresh = (
     and output
     and Path(output).expanduser().resolve() == digest
     and digest.is_file()
+    and "format_version: 2" in digest.read_text(encoding="utf-8")
 )
 raise SystemExit(0 if fresh else 1)
 PY
@@ -160,6 +161,44 @@ if last_run.timestamp() + 2 < started_at:
     print(f"State verification failed: stale last_run={last_run.isoformat()}")
     raise SystemExit(65)
 print(f"State verification ok: {digest}")
+PY
+}
+
+verify_compact_format() {
+  "$PYTHON" - "$PROJECT" <<'PY'
+import datetime as dt
+import re
+import sys
+from pathlib import Path
+
+project = Path(sys.argv[1])
+today = dt.date.today().isoformat()
+digest = project / "30_Updates" / f"{today} AI Embodied Intelligence Update.md"
+text = digest.read_text(encoding="utf-8")
+required = [
+    "format_version: 2",
+    "> [!summary] 30 秒结论",
+    "## 必读 ",
+    "## 扫读 ",
+    "## 其余存档 ",
+]
+missing = [marker for marker in required if marker not in text]
+if missing:
+    print(f"Compact format verification failed for {digest}: missing {missing}")
+    raise SystemExit(65)
+
+reference_re = re.compile(rf"\[\[(30_Updates/{today}/[^|\]\n]+)(?:\|[^\]\n]+)?\]\]")
+references = sorted(set(reference_re.findall(text)))
+if not references:
+    print(f"Compact format verification failed: no referenced paper notes in {digest}")
+    raise SystemExit(65)
+for target in references:
+    note = project / f"{target.removesuffix('.md')}.md"
+    note_text = note.read_text(encoding="utf-8")
+    if "format_version: 2" not in note_text or "## 关键点" not in note_text:
+        print(f"Compact format verification failed for referenced note: {note}")
+        raise SystemExit(65)
+print(f"Compact format verification ok: format v2, {len(references)} referenced notes")
 PY
 }
 
@@ -258,6 +297,11 @@ run_publish() {
 
   if [ "$exit_code" -eq 0 ]; then
     verify_current_run "$run_started_epoch"
+    exit_code=$?
+  fi
+
+  if [ "$exit_code" -eq 0 ]; then
+    verify_compact_format
     exit_code=$?
   fi
 

@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2605.25073v1"
 published: "2026-05-24T13:34:47Z"
@@ -12,13 +17,26 @@ concepts: ["智能体 Agent", "具身智能评测与基准"]
 
 # Security in the Fine-Tuning Lifecycle of Large Language Models: Threats, Defenses,Evaluation, and Future Directions
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Background: Fine-tuning is central to adapting pre-trained Large Language Models (LLMs) to downstream tasks, but its reliance on training data, parameter updates, and reusable components opens entry points for attackers.
 
-自动筛选分数：28
+## 关键点
 
-连接概念：[[智能体 Agent]], [[具身智能评测与基准]]
+- **问题**：Threats have evolved from data poisoning and weight tampering to agent manipulation and interface exploitation, yet existing reviews lack a unified framework spanning the full fine-tuning lifecycle.
+- **创新点 / 方法**：Background: Fine-tuning is central to adapting pre-trained Large Language Models (LLMs) to downstream tasks, but its reliance on training data, parameter updates, and reusable components opens entry points for attackers.
+- **证据**：摘要未报告明确实验结论；需阅读全文核查。
+- **局限**：Within each phase, strategies are reviewed and contrasted to expose their evolution and limitations.
 
-## 摘要
+## 研究关联
+
+- **概念**：[[智能体 Agent]] [[具身智能评测与基准]]
+- **筛选分数**：28
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Background: Fine-tuning is central to adapting pre-trained Large Language Models (LLMs)
 to downstream tasks, but its reliance on training data, parameter updates, and reusable
@@ -42,7 +60,7 @@ state. Conclusion: We identify key open problems (configuration-robust defense, 
 phase defense composition, and embedding-space attacks beyond behavioral assumptions)
 and propose concrete future research directions.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2605.25073v1
@@ -50,13 +68,4 @@ and propose concrete future research directions.
 - Published: 2026-05-24T13:34:47Z
 - Age days: 1
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

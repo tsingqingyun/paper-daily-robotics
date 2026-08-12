@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2608.08476v1"
 published: "2026-08-09T04:41:34Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型"]
 
 # RayLift: Lifting Complementary Ray-Wise Evidence with 3D Geometry Priors for Semantic Scene Completion
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Extensive experiments on SemanticKITTI and SSCBench-KITTI-360 demonstrate that RayLift achieves competitive performance and consistently outperforms existing methods.
 
-自动筛选分数：26
+## 关键点
 
-连接概念：[[多模态基础模型]]
+- **问题**：However, existing methods often treat stereo depth estimates as deterministic geometric constraints, causing depth uncertainty and local correspondence errors to propagate directly into voxel representations.
+- **创新点 / 方法**：To address this issue, we propose RayLift, a framework that uses stereo geometry as a metric reference while incorporating complementary ray evidence to recover reliable 3D structures adaptively.
+- **证据**：Extensive experiments on SemanticKITTI and SSCBench-KITTI-360 demonstrate that RayLift achieves competitive performance and consistently outperforms existing methods.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]]
+- **筛选分数**：26
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Camera-based 3D semantic scene completion (SSC) provides comprehensive scene
 understanding for autonomous driving and robotics. However, existing methods often treat
@@ -36,7 +54,7 @@ by explicitly modeling their spatial support. Extensive experiments on SemanticK
 SSCBench-KITTI-360 demonstrate that RayLift achieves competitive performance and
 consistently outperforms existing methods.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2608.08476v1
@@ -44,13 +62,4 @@ consistently outperforms existing methods.
 - Published: 2026-08-09T04:41:34Z
 - Age days: 2
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

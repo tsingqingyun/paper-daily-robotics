@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: false
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.13886v1"
 published: "2026-06-11T20:23:09Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "世界模型", "视觉语言动作模型 VL
 
 # PhysVLA: Towards Physically-Grounded VLA for Embodied Robotic Manipulation
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Evaluated across OpenVLA, OpenVLA-OFT, Force-VLA, and Generalist-VLA on LIBERO-Spatial with a 7-DoF Franka Panda, the framework delivers absolute success rate increases of up to 17% and stability increases of up to 19% with no per-task regressions, improves t…
 
-自动筛选分数：36
+## 关键点
 
-连接概念：[[多模态基础模型]], [[世界模型]], [[视觉语言动作模型 VLA]], [[机器人学习]], [[具身智能评测与基准]]
+- **问题**：However, because they are trained primarily to fit behavioural demonstration data, they do not explicitly enforce fundamental physical principles such as rigid-body dynamics or contact constraints.
+- **创新点 / 方法**：To bridge this gap, we introduce PhysVLA (Physics-VLA), a plug-and-play, inference-time framework designed to wrap any frozen VLA backbone without retraining, fine-tuning, or weight access, with less than 1 ms of overhead per control step.
+- **证据**：Evaluated across OpenVLA, OpenVLA-OFT, Force-VLA, and Generalist-VLA on LIBERO-Spatial with a 7-DoF Franka Panda, the framework delivers absolute success rate increases of up to 17% and stability increases of up to 19% with no per-task regressions, improves trajectory efficiency by up to 15% across all four backbones…
+- **局限**：This exposes a critical physics gap: standard temporal smoothing applied on top of single- step or chunked VLAs trades trajectory quality for added failures that short-term memory cannot resolve.
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]] [[机器人学习]] [[具身智能评测与基准]]
+- **筛选分数**：36
+- **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Vision-Language-Action (VLA) models excel at mapping visual inputs and natural language
 instructions directly to robotic control policies. However, because they are trained
@@ -43,7 +61,7 @@ Piper arm with a pick-and-place task, confirming that PhysVLA transfers to physi
 hardware without retraining, with success-rate improvements of up to 50%, establishing
 physical awareness as a composable, backbone-agnostic runtime module.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.13886v1
@@ -51,13 +69,4 @@ physical awareness as a composable, backbone-agnostic runtime module.
 - Published: 2026-06-11T20:23:09Z
 - Age days: 3
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2608.09448v1"
 published: "2026-08-10T11:22:54Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "视觉语言动作模型 VLA"]
 
 # VANE: Reliable Test-Time Training for Vision-Language-Action Models via Future Visual Representation Prediction
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> On SimplerEnv WidowX, VANE improves average success by $3.2$ percentage points over the corresponding TTT baseline.
 
-自动筛选分数：32
+## 关键点
 
-连接概念：[[多模态基础模型]], [[视觉语言动作模型 VLA]]
+- **问题**：Test-time training (TTT) offers a lightweight way to adapt vision--language--action (VLA) policies from unlabeled deployment streams, but it remains difficult to use reliably in closed-loop manipulation.
+- **创新点 / 方法**：We introduce a reliable TTT framework for VLA policies (VANE).
+- **证据**：On SimplerEnv WidowX, VANE improves average success by $3.2$ percentage points over the corresponding TTT baseline.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[视觉语言动作模型 VLA]]
+- **筛选分数**：32
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Test-time training (TTT) offers a lightweight way to adapt vision--language--action
 (VLA) policies from unlabeled deployment streams, but it remains difficult to use
@@ -34,7 +52,7 @@ TTT baseline. Results on Google Robot further show that deployment-time gains re
 task- and embodiment-dependent. Together, these results demonstrate a constrained,
 evidence-based approach to adapting VLA policies during interaction.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2608.09448v1
@@ -42,13 +60,4 @@ evidence-based approach to adapting VLA policies during interaction.
 - Published: 2026-08-10T11:22:54Z
 - Age days: 0
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

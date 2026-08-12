@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.19784v1"
 published: "2026-06-18T04:36:57Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "视觉语言动作模型 VLA"]
 
 # EquiVLA: A General Framework for Rotationally Equivariant Vision-Language-Action Models
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Instantiated on GR00T~N1.5 and evaluated across four LIBERO suites, CALVIN ABCD$\to$D, and five real- robot tasks on Mobile ALOHA, \textsc{EquiVLA} achieves $92.6\%$ average success on LIBERO (vs.
 
-自动筛选分数：37
+## 关键点
 
-连接概念：[[多模态基础模型]], [[视觉语言动作模型 VLA]]
+- **问题**：Vision-Language-Action (VLA) models have emerged as a powerful paradigm for generalist robot manipulation, yet they lack geometric inductive biases: policies trained at specific orientations require substantially more data to generalize across rotational configurations.
+- **创新点 / 方法**：We present \textsc{EquiVLA}, the first general framework for end-to-end $\mathrm{SO}(2)$-equivariant VLA models, applicable to any architecture coupling a frozen vision-language backbone with a flow-matching Diffusion Transformer action head.
+- **证据**：Instantiated on GR00T~N1.5 and evaluated across four LIBERO suites, CALVIN ABCD$\to$D, and five real- robot tasks on Mobile ALOHA, \textsc{EquiVLA} achieves $92.6\%$ average success on LIBERO (vs.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[视觉语言动作模型 VLA]]
+- **筛选分数**：37
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Vision-Language-Action (VLA) models have emerged as a powerful paradigm for generalist
 robot manipulation, yet they lack geometric inductive biases: policies trained at
@@ -36,7 +54,7 @@ robot tasks on Mobile ALOHA, \textsc{EquiVLA} achieves $92.6\%$ average success 
 LIBERO (vs. $78.1\%$ baseline), an average sequence length of $4.03$ on CALVIN (vs.
 $3.45$), and improves real-robot success from $54\%$ to $72\%$.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.19784v1
@@ -44,13 +62,4 @@ $3.45$), and improves real-robot success from $54\%$ to $72\%$.
 - Published: 2026-06-18T04:36:57Z
 - Age days: 1
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

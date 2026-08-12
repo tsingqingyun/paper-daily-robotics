@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2607.18950v1"
 published: "2026-07-21T10:37:18Z"
@@ -12,13 +17,26 @@ concepts: ["具身智能评测与基准"]
 
 # Design and stability analysis of an underactuated hand with passively rotating fingers
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> With only two phalanges per finger, the design simplifies kinematic complexity while supporting precision and enveloping grasps.
 
-自动筛选分数：26
+## 关键点
 
-连接概念：[[具身智能评测与基准]]
+- **问题**：This paper presents an innovative design and stability analysis of an underactuated robotic finger with spatial mobility, designed to enhance gripping dexterity in robotic hands.
+- **创新点 / 方法**：The finger architecture incorporates a revolute joint at its base, enabling passive spatial rotation that facilitates both cylindrical and spherical grasping.
+- **证据**：With only two phalanges per finger, the design simplifies kinematic complexity while supporting precision and enveloping grasps.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[具身智能评测与基准]]
+- **筛选分数**：26
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 This paper presents an innovative design and stability analysis of an underactuated
 robotic finger with spatial mobility, designed to enhance gripping dexterity in robotic
@@ -42,7 +60,7 @@ waste sorting. Future research will focus on automating actuation and refining c
 strategies to further improve grasp stability and precision, paving the way for
 autonomous manipulation in unstructured environments.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2607.18950v1
@@ -50,13 +68,4 @@ autonomous manipulation in unstructured environments.
 - Published: 2026-07-21T10:37:18Z
 - Age days: 3
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

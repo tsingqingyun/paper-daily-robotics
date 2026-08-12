@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.11087v1"
 published: "2026-06-09T16:45:57Z"
@@ -12,13 +17,26 @@ concepts: ["机器人学习", "具身智能评测与基准"]
 
 # Test-Time Gradient Guidance of Flow Policies in Reinforcement Learning
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Empirically, QGF outperforms prior test-time RL methods on single-task and goal-conditioned offline RL benchmarks with high-dimensional action spaces, and is competitive with state-of-the-art training-time algorithms while being much cheaper to run.
 
-自动筛选分数：31
+## 关键点
 
-连接概念：[[机器人学习]], [[具身智能评测与基准]]
+- **问题**：While they are known to scale stably in the supervised imitation learning setting, incorporating them into reinforcement learning (RL) pipelines for policy improvement has proven more difficult.
+- **创新点 / 方法**：To this end, we propose QGF (Q-Guided Flow), an RL algorithm that performs policy optimization entirely at test time.
+- **证据**：Empirically, QGF outperforms prior test-time RL methods on single-task and goal-conditioned offline RL benchmarks with high-dimensional action spaces, and is competitive with state-of-the-art training-time algorithms while being much cheaper to run.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[机器人学习]] [[具身智能评测与基准]]
+- **筛选分数**：31
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Expressive continuous control policies, such as diffusion and flow models, form the
 backbone of recent advances in scaling imitation learning for simulated and real robot
@@ -40,7 +58,7 @@ much cheaper to run. Moreover, it exhibits favorable scaling with model size by 
 the instability of actor-critic training, offering a practical and effective alternative
 RL algorithm with expressive policies.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.11087v1
@@ -48,13 +66,4 @@ RL algorithm with expressive policies.
 - Published: 2026-06-09T16:45:57Z
 - Age days: 2
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

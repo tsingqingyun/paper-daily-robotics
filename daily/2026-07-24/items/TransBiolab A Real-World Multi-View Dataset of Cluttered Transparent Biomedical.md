@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2607.21071v1"
 published: "2026-07-23T09:04:11Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "具身智能评测与基准"]
 
 # TransBiolab: A Real-World Multi-View Dataset of Cluttered Transparent Biomedical Objects
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> To address this gap, we present TrainsBiolab, a real-world RGB-D dataset of cluttered transparent biomedical objects captured as calibrated multi-view sequences.
 
-自动筛选分数：34
+## 关键点
 
-连接概念：[[多模态基础模型]], [[具身智能评测与基准]]
+- **问题**：Autonomous biomedical laboratories increasingly rely on visual perception to recognize, localize, and manipulate transparent plasticware, yet high-quality real-world datasets for this setting remain limited.
+- **创新点 / 方法**：To address this gap, we present TrainsBiolab, a real-world RGB-D dataset of cluttered transparent biomedical objects captured as calibrated multi-view sequences.
+- **证据**：摘要未报告明确实验结论；需阅读全文核查。
+- **局限**：The scarcity of domain-relevant data is particularly restrictive in cluttered multi-object scenes, where mutual occlusion and view-dependent appearance changes remain challenging even for contemporary visual foundation models.
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[具身智能评测与基准]]
+- **筛选分数**：34
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Autonomous biomedical laboratories increasingly rely on visual perception to recognize,
 localize, and manipulate transparent plasticware, yet high-quality real-world datasets
@@ -42,7 +60,7 @@ TrainsBiolab provides a resource for segmentation, depth estimation, 6D pose est
 and multi-view reasoning in autonomous laboratory manipulation. Project page:
 https://dualtransparency.github.io/TransBiolab/.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2607.21071v1
@@ -50,13 +68,4 @@ https://dualtransparency.github.io/TransBiolab/.
 - Published: 2026-07-23T09:04:11Z
 - Age days: 0
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

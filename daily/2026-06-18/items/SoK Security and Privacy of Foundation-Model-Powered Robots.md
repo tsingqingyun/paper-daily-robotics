@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.16788v1"
 published: "2026-06-15T14:32:08Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "具身智能评测与基准"]
 
 # SoK: Security and Privacy of Foundation-Model-Powered Robots
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> To address this gap, we propose a progressive F-E-S-G structural boundary framework for analyzing the S&P of FM-powered robots.
 
-自动筛选分数：32
+## 关键点
 
-连接概念：[[多模态基础模型]], [[具身智能评测与基准]]
+- **问题**：However, their integration also introduces security and privacy (S&P) risks that extend beyond the FMs themselves to embodied execution pipelines, supporting ecosystems, and broader governance impacts.
+- **创新点 / 方法**：To address this gap, we propose a progressive F-E-S-G structural boundary framework for analyzing the S&P of FM-powered robots.
+- **证据**：摘要未报告明确实验结论；需阅读全文核查。
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[具身智能评测与基准]]
+- **筛选分数**：32
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Foundation models are reshaping robotics by enabling robots to interpret open-ended
 instructions, reason over multimodal contexts, and operate in complex, open-world
@@ -42,7 +60,7 @@ perspective. Based on these findings, we identify open challenges and future dir
 to provide a research agenda for developing secure, privacy-preserving, and responsibly
 governed FM-powered robotic systems.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.16788v1
@@ -50,13 +68,4 @@ governed FM-powered robotic systems.
 - Published: 2026-06-15T14:32:08Z
 - Age days: 2
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

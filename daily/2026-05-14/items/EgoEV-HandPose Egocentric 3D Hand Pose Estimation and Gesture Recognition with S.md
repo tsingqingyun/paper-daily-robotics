@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2605.12297v1"
 published: "2026-05-12T15:51:04Z"
@@ -12,13 +17,26 @@ concepts: ["具身智能评测与基准"]
 
 # EgoEV-HandPose: Egocentric 3D Hand Pose Estimation and Gesture Recognition with Stereo Event Cameras
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Extensive experiments demonstrate that EgoEV-HandPose achieves state-of-the-art performance with an MPJPE of 30.54mm and 86.87% Top-1 gesture recognition accuracy, significantly outperforming RGB-based stereo and prior event-camera methods, particularly in lo…
 
-自动筛选分数：32
+## 关键点
 
-连接概念：[[具身智能评测与基准]]
+- **问题**：However, conventional frame-based cameras suffer from motion blur and limited dynamic range, while existing event-based methods are hindered by ego-motion interference, monocular depth ambiguity, and the lack of large-scale real-world stereo datasets.
+- **创新点 / 方法**：To overcome these limitations, we propose EgoEV-HandPose, an end-to-end framework for joint 3D bimanual pose estimation and gesture recognition from stereo event streams.
+- **证据**：Extensive experiments demonstrate that EgoEV-HandPose achieves state-of-the-art performance with an MPJPE of 30.54mm and 86.87% Top-1 gesture recognition accuracy, significantly outperforming RGB-based stereo and prior event-camera methods, particularly in low-light and bimanual occlusion scenarios, thereby setting a…
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[具身智能评测与基准]]
+- **筛选分数**：32
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Egocentric 3D hand pose estimation and gesture recognition are essential for immersive
 augmented/virtual reality, human-computer interaction, and robotics. However,
@@ -40,7 +58,7 @@ and bimanual occlusion scenarios, thereby setting a new benchmark for event-base
 egocentric perception. The established dataset and source code will be publicly released
 at https://github.com/ZJUWang01/EgoEV-HandPose.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2605.12297v1
@@ -48,13 +66,4 @@ at https://github.com/ZJUWang01/EgoEV-HandPose.
 - Published: 2026-05-12T15:51:04Z
 - Age days: 1
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

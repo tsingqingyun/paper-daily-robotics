@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.17935v1"
 published: "2026-06-16T13:43:35Z"
@@ -12,13 +17,26 @@ concepts: ["具身智能评测与基准"]
 
 # MoonSplat: Monocular Online Gaussian Splatting with Sim(3) Global Optimization
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Extensive experiments on diverse indoor and outdoor datasets demonstrate that our method achieves state-of-the-art performance in both camera pose estimation accuracy and rendering quality, while retaining real-time efficiency.
 
-自动筛选分数：29
+## 关键点
 
-连接概念：[[具身智能评测与基准]]
+- **问题**：However, existing online 3DGS methods still suffer from some key challenges: fragile camera pose estimation due to the lack of global optimization, and low optimization efficiency in large-scale or long-sequence scenarios.
+- **创新点 / 方法**：To address these issues, we propose a robust and efficient online voxelized 3DGS reconstruction framework integrated with global $\text{Sim}(3)$ optimization, which enables reliable camera tracking and efficient global loop closure for both camera poses and voxelized 3DGS.
+- **证据**：Extensive experiments on diverse indoor and outdoor datasets demonstrate that our method achieves state-of-the-art performance in both camera pose estimation accuracy and rendering quality, while retaining real-time efficiency.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[具身智能评测与基准]]
+- **筛选分数**：29
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Online 3D reconstruction from monocular image sequences is a challenging and ongoing
 research topic. 3D Gaussian Splatting (3DGS), leveraging its high-quality real-time
@@ -40,7 +58,7 @@ grounded on our proposed method, validating its robustness and generalizability 
 practical online 3D reconstruction tasks. Our code and data are available at
 https://github.com/TrickyGo/MoonSplat.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.17935v1
@@ -48,13 +66,4 @@ https://github.com/TrickyGo/MoonSplat.
 - Published: 2026-06-16T13:43:35Z
 - Age days: 2
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

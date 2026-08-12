@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2605.12090v1"
 published: "2026-05-12T13:10:52Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "世界模型", "视觉语言动作模型 VL
 
 # World Action Models: The Next Frontier in Embodied AI
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Vision-Language-Action (VLA) models have achieved strong semantic generalization for embodied policy learning, yet they learn reactive observation-to-action mappings without explicitly modeling how the physical world evolves under intervention.
 
-自动筛选分数：42
+## 关键点
 
-连接概念：[[多模态基础模型]], [[世界模型]], [[视觉语言动作模型 VLA]], [[机器人学习]], [[具身智能评测与基准]]
+- **问题**：A growing body of work addresses this limitation by integrating world models, predictive models of environment dynamics, into the action generation pipeline.
+- **创新点 / 方法**：Vision-Language-Action (VLA) models have achieved strong semantic generalization for embodied policy learning, yet they learn reactive observation-to-action mappings without explicitly modeling how the physical world evolves under intervention.
+- **证据**：摘要未报告明确实验结论；需阅读全文核查。
+- **局限**：A growing body of work addresses this limitation by integrating world models, predictive models of environment dynamics, into the action generation pipeline.
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]] [[机器人学习]] [[具身智能评测与基准]]
+- **筛选分数**：42
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Vision-Language-Action (VLA) models have achieved strong semantic generalization for
 embodied policy learning, yet they learn reactive observation-to-action mappings without
@@ -41,7 +59,7 @@ plausibility. Overall, this survey provides the first systematic account of the 
 landscape, clarifies key architectural paradigms and their trade-offs, and identifies
 open challenges and future opportunities for this rapidly evolving field.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2605.12090v1
@@ -49,13 +67,4 @@ open challenges and future opportunities for this rapidly evolving field.
 - Published: 2026-05-12T13:10:52Z
 - Age days: 1
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

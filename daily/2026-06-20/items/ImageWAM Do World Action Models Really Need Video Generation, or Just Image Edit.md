@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: false
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.19531v1"
 published: "2026-06-17T19:25:28Z"
@@ -12,13 +17,26 @@ concepts: ["智能体 Agent", "世界模型", "视觉语言动作模型 VLA"]
 
 # ImageWAM: Do World Action Models Really Need Video Generation, or Just Image Editing?
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> ImageWAM outperforms standard VLA baselines and matching competitive WAMs without additional policy pretraining across different simulator and real-world experiments.
 
-自动筛选分数：31
+## 关键点
 
-连接概念：[[智能体 Agent]], [[世界模型]], [[视觉语言动作模型 VLA]]
+- **问题**：However, video-based WAMs face three coupled limitations: dense multi-frame future tokens make inference costly, full video prediction spends capacity on action-irrelevant temporal and appearance details, and long-horizon future imagination may introduce errors that mislead action prediction.
+- **创新点 / 方法**：We propose ImageWAM, a simple WAM framework that repurposes pretrained image editing models for robot action prediction.
+- **证据**：ImageWAM outperforms standard VLA baselines and matching competitive WAMs without additional policy pretraining across different simulator and real-world experiments.
+- **局限**：However, video-based WAMs face three coupled limitations: dense multi-frame future tokens make inference costly, full video prediction spends capacity on action-irrelevant temporal and appearance details, and long-horizon future imagination may introduce errors that mislead action prediction.
 
-## 摘要
+## 研究关联
+
+- **概念**：[[智能体 Agent]] [[世界模型]] [[视觉语言动作模型 VLA]]
+- **筛选分数**：31
+- **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 World Action Models (WAMs) commonly rely on video generation to bridge visual world
 modeling and robot control. However, video-based WAMs face three coupled limitations:
@@ -40,7 +58,7 @@ Attention analysis further shows that editing caches focus on task-relevant chan
 regions, supporting image editing as an effective alternative to video-based world-
 action modeling.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.19531v1
@@ -48,13 +66,4 @@ action modeling.
 - Published: 2026-06-17T19:25:28Z
 - Age days: 2
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

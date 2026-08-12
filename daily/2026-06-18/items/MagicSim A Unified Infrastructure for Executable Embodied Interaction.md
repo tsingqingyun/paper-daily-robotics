@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.17511v1"
 published: "2026-06-16T04:42:43Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "智能体 Agent", "世界模型", "机器�
 
 # MagicSim: A Unified Infrastructure for Executable Embodied Interaction
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> We present MagicSim, an embodied interaction infrastructure built around one deterministic batched runtime and a shared Markov decision process (MDP).
 
-自动筛选分数：31
+## 关键点
 
-连接概念：[[多模态基础模型]], [[智能体 Agent]], [[世界模型]], [[机器人学习]], [[具身智能评测与基准]]
+- **问题**：Robot learning and embodied agents now require simulation to serve as a shared execution substrate linking control, skills, and planning, not only as a renderer, controller testbed, or fixed task environment.
+- **创新点 / 方法**：We present MagicSim, an embodied interaction infrastructure built around one deterministic batched runtime and a shared Markov decision process (MDP).
+- **证据**：摘要未报告明确实验结论；需阅读全文核查。
+- **局限**：Existing pipelines split these layers with "magic" actions, disconnected training environments, or forward-only renders that cannot reproduce, evaluate, and annotate the same episode.
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
+- **筛选分数**：31
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Robot learning and embodied agents now require simulation to serve as a shared execution
 substrate linking control, skills, and planning, not only as a renderer, controller
@@ -43,7 +61,7 @@ and task-level status with the executed episode. MagicSim thus unifies diverse w
 construction, embodied execution, task evaluation, automatic rollout generation, and
 interactive agent interfaces in one planner-in-the-loop runtime.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.17511v1
@@ -51,13 +69,4 @@ interactive agent interfaces in one planner-in-the-loop runtime.
 - Published: 2026-06-16T04:42:43Z
 - Age days: 1
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

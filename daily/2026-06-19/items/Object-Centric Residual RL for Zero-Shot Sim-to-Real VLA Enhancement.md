@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.18953v1"
 published: "2026-06-17T11:36:54Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "世界模型", "视觉语言动作模型 VL
 
 # Object-Centric Residual RL for Zero-Shot Sim-to-Real VLA Enhancement
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Across five manipulation tasks on a real Franka Research 3 (FR3) robot, our method improves the success rate from 42% to 76% zero-shot, and the improved rollouts can be further reused to retrain the base VLA for self-improvement without additional teleoperati…
 
-自动筛选分数：42
+## 关键点
 
-连接概念：[[多模态基础模型]], [[世界模型]], [[视觉语言动作模型 VLA]], [[机器人学习]], [[Sim2Real]], [[具身智能评测与基准]]
+- **问题**：Vision-Language-Action (VLA) models can generalize across diverse manipulation tasks, but their imitation-learning-based policies remain brittle in precise physical interactions due to compounding execution errors; Can a reinforcement learning policy trained purely in simulation improve the robustness of real-world VL…
+- **创新点 / 方法**：We propose an object- centric residual RL framework that refines VLA actions using object poses, enabling a compact observation space that transfers consistently between simulation and reality.
+- **证据**：Across five manipulation tasks on a real Franka Research 3 (FR3) robot, our method improves the success rate from 42% to 76% zero-shot, and the improved rollouts can be further reused to retrain the base VLA for self-improvement without additional teleoperation.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]] [[机器人学习]] [[Sim2Real]] [[具身智能评测与基准]]
+- **筛选分数**：42
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Vision-Language-Action (VLA) models can generalize across diverse manipulation tasks,
 but their imitation-learning-based policies remain brittle in precise physical
@@ -39,7 +57,7 @@ rollouts can be further reused to retrain the base VLA for self-improvement with
 additional teleoperation. Project page: https://www.microsoft.com/en-
 us/research/articles/object-centric-residual-rl/
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.18953v1
@@ -47,13 +65,4 @@ us/research/articles/object-centric-residual-rl/
 - Published: 2026-06-17T11:36:54Z
 - Age days: 1
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

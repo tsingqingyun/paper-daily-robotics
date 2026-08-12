@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2607.19243v1"
 published: "2026-07-21T16:15:05Z"
@@ -12,13 +17,26 @@ concepts: ["具身智能评测与基准"]
 
 # Inference-Time Steering for Cross-Lingual Factual Consistency in LLMs
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> These findings suggest that cross-lingual inconsistency is at least partly a selection problem, and that simple contextual interventions may outperform more invasive methods for robust, transferable alignment.
 
-自动筛选分数：26
+## 关键点
 
-连接概念：[[具身智能评测与基准]]
+- **问题**：Although Large Language Models (LLMs) demonstrate remarkable multilingual fluency, their internal knowledge representations remain disproportionately biased toward high-resource languages.
+- **创新点 / 方法**：This leads to cross-lingual factual inconsistency, where they shift their empirical answer distributions based solely on the prompt language.
+- **证据**：These findings suggest that cross-lingual inconsistency is at least partly a selection problem, and that simple contextual interventions may outperform more invasive methods for robust, transferable alignment.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[具身智能评测与基准]]
+- **筛选分数**：26
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Although Large Language Models (LLMs) demonstrate remarkable multilingual fluency, their
 internal knowledge representations remain disproportionately biased toward high-resource
@@ -41,7 +59,7 @@ gains. These findings suggest that cross-lingual inconsistency is at least partl
 selection problem, and that simple contextual interventions may outperform more invasive
 methods for robust, transferable alignment.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2607.19243v1
@@ -49,13 +67,4 @@ methods for robust, transferable alignment.
 - Published: 2026-07-21T16:15:05Z
 - Age days: 3
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

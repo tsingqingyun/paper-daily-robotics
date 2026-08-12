@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: false
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.11767v1"
 published: "2026-06-10T07:46:38Z"
@@ -12,13 +17,26 @@ concepts: ["世界模型", "机器人学习", "Sim2Real", "具身智能评测与
 
 # Blind Dexterous Grasping via Real2Sim2Real Tactile Policy Learning
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> The deployed policy achieves a 27\% real-world grasp success rate across all 20 objects, without real-world grasping demonstrations or visual input.
 
-自动筛选分数：35
+## 关键点
 
-连接概念：[[世界模型]], [[机器人学习]], [[Sim2Real]], [[具身智能评测与基准]]
+- **问题**：Nevertheless, learning such tactile-only policies for real robots remains challenging due to the tactile sim-to-real gap and the limited expressiveness of sparse tactile signals.
+- **创新点 / 方法**：To bridge this gap, we propose a framework for tactile-only blind grasping that is deployable on a physical multi-fingered robotic hand.
+- **证据**：The deployed policy achieves a 27\% real-world grasp success rate across all 20 objects, without real-world grasping demonstrations or visual input.
+- **局限**：Nevertheless, learning such tactile-only policies for real robots remains challenging due to the tactile sim-to-real gap and the limited expressiveness of sparse tactile signals.
 
-## 摘要
+## 研究关联
+
+- **概念**：[[世界模型]] [[机器人学习]] [[Sim2Real]] [[具身智能评测与基准]]
+- **筛选分数**：35
+- **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Blind grasping with a dexterous hand is a crucial manipulation capability. Nevertheless,
 learning such tactile-only policies for real robots remains challenging due to the
@@ -43,7 +61,7 @@ representation learning, and diffusion-based policy aggregation provide an effec
 path toward tactile-only blind grasping on real dexterous robotic hands. Project
 page:Dex-Blind-Grasp.github.io.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.11767v1
@@ -51,13 +69,4 @@ page:Dex-Blind-Grasp.github.io.
 - Published: 2026-06-10T07:46:38Z
 - Age days: 1
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

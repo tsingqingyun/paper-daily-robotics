@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: false
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2608.06830v1"
 published: "2026-08-07T05:39:27Z"
@@ -12,13 +17,26 @@ concepts: ["智能体 Agent", "具身智能评测与基准"]
 
 # When Coordination Becomes a Threat: Communication Attacks in LLM-Controlled Multi-Robot Systems
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Results show that unsafe information can turn into unsafe actions across all three architectures: DMAS reaches a 96.7\% entry endorsement rate and a 100\% post endorsement activation rate, HMAS-1 reaches a 97.8\% unsafe action success rate, and HMAS-2 trigger…
 
-自动筛选分数：25
+## 关键点
 
-连接概念：[[智能体 Agent]], [[具身智能评测与基准]]
+- **问题**：Prior work has focused mainly on individual robots, while communication risks in multi-robot collaboration remain insufficiently understood.
+- **创新点 / 方法**：To mitigate risks from trusted information flow, we introduce the Claim Provenance and Verification (CPV) Gate, which verifies communicated claims before downstream reuse and reduces the violation rate from 70.0\% to 36.6\%.
+- **证据**：Results show that unsafe information can turn into unsafe actions across all three architectures: DMAS reaches a 96.7\% entry endorsement rate and a 100\% post endorsement activation rate, HMAS-1 reaches a 97.8\% unsafe action success rate, and HMAS-2 triggers 88.3\% of task defined unsafe action slots.
+- **局限**：Existing multi-robot studies are further limited to preliminary analysis under the Decentralized Multi-agent System (DMAS) architecture, so it remains unclear whether these risks persist across other common communication architectures and how attacker access settings shape their propagation.
 
-## 摘要
+## 研究关联
+
+- **概念**：[[智能体 Agent]] [[具身智能评测与基准]]
+- **筛选分数**：25
+- **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Large Language Models (LLMs) are increasingly used as high-level planners in embodied
 multi-robot systems, enabling robots to interpret natural language instructions and
@@ -40,7 +58,7 @@ flow, we introduce the Claim Provenance and Verification (CPV) Gate, which verif
 communicated claims before downstream reuse and reduces the violation rate from 70.0\%
 to 36.6\%.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2608.06830v1
@@ -48,13 +66,4 @@ to 36.6\%.
 - Published: 2026-08-07T05:39:27Z
 - Age days: 3
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

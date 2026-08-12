@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2605.12620v1"
 published: "2026-05-12T18:08:24Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "智能体 Agent", "具身智能评测与基
 
 # Think Twice, Act Once: Verifier-Guided Action Selection For Embodied Agents
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Across embodied reasoning benchmarks spanning the Habitat and ALFRED environments, VeGAS consistently improves generalization, achieving up to a 36% relative performance gain over strong CoT baselines on the most challenging multi-object, long-horizon tasks.
 
-自动筛选分数：31
+## 关键点
 
-连接概念：[[多模态基础模型]], [[智能体 Agent]], [[具身智能评测与基准]]
+- **问题**：Building generalist embodied agents capable of solving complex real-world tasks remains a fundamental challenge in AI.
+- **创新点 / 方法**：To address this, we propose Verifier- Guided Action Selection (VegAS), a test-time framework designed to improve the robustness of MLLM-based embodied agents through an explicit verification step.
+- **证据**：Across embodied reasoning benchmarks spanning the Habitat and ALFRED environments, VeGAS consistently improves generalization, achieving up to a 36% relative performance gain over strong CoT baselines on the most challenging multi-object, long-horizon tasks.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
+- **筛选分数**：31
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Building generalist embodied agents capable of solving complex real-world tasks remains
 a fundamental challenge in AI. Multimodal Large Language Models (MLLMs) have
@@ -37,7 +55,7 @@ time. Across embodied reasoning benchmarks spanning the Habitat and ALFRED envir
 VeGAS consistently improves generalization, achieving up to a 36% relative performance
 gain over strong CoT baselines on the most challenging multi-object, long-horizon tasks.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2605.12620v1
@@ -45,13 +63,4 @@ gain over strong CoT baselines on the most challenging multi-object, long-horizo
 - Published: 2026-05-12T18:08:24Z
 - Age days: 1
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.14267v1"
 published: "2026-06-12T08:49:53Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "智能体 Agent", "机器人学习"]
 
 # FloVerse: Floor Plan-Guided Multi-Modal Navigation
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> To bridge this gap, we introduce FloVerse, a new task for floor plan-guided embodied navigation that unifies PointNav, ObjectNav, and ImageNav.
 
-自动筛选分数：30
+## 关键点
 
-连接概念：[[多模态基础模型]], [[智能体 Agent]], [[机器人学习]]
+- **问题**：While prior work has explored floor plan-guided navigation, it has focused mainly on PointNav and a limited set of environments.
+- **创新点 / 方法**：To bridge this gap, we introduce FloVerse, a new task for floor plan-guided embodied navigation that unifies PointNav, ObjectNav, and ImageNav.
+- **证据**：摘要未报告明确实验结论；需阅读全文核查。
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[机器人学习]]
+- **筛选分数**：30
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Floor plans encapsulate compact spatial priors, enabling agents to navigate unseen
 scenes more efficiently. While prior work has explored floor plan-guided navigation, it
@@ -35,7 +53,7 @@ modalities, and (2) ThreeDiff implicitly captures spatial information from floor
 These results underscore the effectiveness of spatial priors and validate our proposed
 unified approach for floor plan-guided embodied navigation.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.14267v1
@@ -43,13 +61,4 @@ unified approach for floor plan-guided embodied navigation.
 - Published: 2026-06-12T08:49:53Z
 - Age days: 2
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

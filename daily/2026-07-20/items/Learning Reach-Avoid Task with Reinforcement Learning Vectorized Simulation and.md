@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2607.15935v1"
 published: "2026-07-17T13:18:32Z"
@@ -12,13 +17,26 @@ concepts: ["智能体 Agent", "世界模型", "机器人学习", "具身智能�
 
 # Learning Reach-Avoid Task with Reinforcement Learning: Vectorized Simulation and Benchmark
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> We achieved state-of- the-art results with success rates of 96.1% (UR5e) and 98.8% (Franka Emika Robot) for the reach task and 86.8% (UR5e) and 95.2% (Franka) for the static reachavoid task.
 
-自动筛选分数：30
+## 关键点
 
-连接概念：[[智能体 Agent]], [[世界模型]], [[机器人学习]], [[具身智能评测与基准]]
+- **问题**：Deep reinforcement learning (DRL) has a longstanding tradition in addressing the reach- avoid task problem, especially for controlling robotic arms.
+- **创新点 / 方法**：In this paper, we present, for the first time, a comprehensive benchmark for the reachavoid task that accurately captures real- world complexities without simplifications.
+- **证据**：We achieved state-of- the-art results with success rates of 96.1% (UR5e) and 98.8% (Franka Emika Robot) for the reach task and 86.8% (UR5e) and 95.2% (Franka) for the static reachavoid task.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[智能体 Agent]] [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
+- **筛选分数**：30
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Deep reinforcement learning (DRL) has a longstanding tradition in addressing the reach-
 avoid task problem, especially for controlling robotic arms. While this task serves as a
@@ -39,7 +57,7 @@ is still required to claim the successful resolution of the robotic arm reach-av
 using DRL. The environment and benchmarking code is available as open source at the
 following link
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2607.15935v1
@@ -47,13 +65,4 @@ following link
 - Published: 2026-07-17T13:18:32Z
 - Age days: 2
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

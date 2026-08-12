@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.19598v1"
 published: "2026-06-17T21:02:47Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "世界模型"]
 
 # Fail-RAG : A Retrieval Augmented Generation Informed Framework for Robot Failure Identification
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Fail-RAG achieved 25 percentage point higher failure detection accuracy on average across five types of robot operations compared to using off-the- shelf VLMs, indicating its effectiveness for real-world failure detection.
 
-自动筛选分数：34
+## 关键点
 
-连接概念：[[多模态基础模型]], [[世界模型]]
+- **问题**：Specifically, we refer to any unexpected events as failures and develop methods to detect robot operations related failures.
+- **创新点 / 方法**：We propose 'Fail-RAG', a Retrieval Augmented Generation (RAG)-based failure detection framework where failure images and context information are embedded and queried against a failure database by calculating their similarities.
+- **证据**：Fail-RAG achieved 25 percentage point higher failure detection accuracy on average across five types of robot operations compared to using off-the- shelf VLMs, indicating its effectiveness for real-world failure detection.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[世界模型]]
+- **筛选分数**：34
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Industry automation is witnessing an evolution in robotics driven by both technological
 breakthroughs and societal changes: progress towards generalist robots, embodied and
@@ -39,7 +57,7 @@ warehouse automation. Fail-RAG achieved 25 percentage point higher failure detec
 accuracy on average across five types of robot operations compared to using off-the-
 shelf VLMs, indicating its effectiveness for real-world failure detection.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.19598v1
@@ -47,13 +65,4 @@ shelf VLMs, indicating its effectiveness for real-world failure detection.
 - Published: 2026-06-17T21:02:47Z
 - Age days: 2
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: false
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2607.01067v1"
 published: "2026-07-01T15:26:26Z"
@@ -12,13 +17,26 @@ concepts: ["多模态基础模型", "世界模型", "视觉语言动作模型 VL
 
 # Human-Centric Transferable Tactile Pre-Training for Dexterous Robotic Manipulation
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Extensive experiments in simulation and on real robots demonstrate that our model achieves superior performance, exhibiting robust generalization and fine-grained manipulation capabilities.
 
-自动筛选分数：40
+## 关键点
 
-连接概念：[[多模态基础模型]], [[世界模型]], [[视觉语言动作模型 VLA]], [[具身智能评测与基准]]
+- **问题**：However, limited by hardware and data collection systems, existing datasets with tactility remain small in scale and narrow in contact coverage.
+- **创新点 / 方法**：In this paper, we present H-Tac, a large- scale tactile-action dataset with 160-hour egocentric human videos containing more than 300 tasks and 135k episodes.
+- **证据**：Extensive experiments in simulation and on real robots demonstrate that our model achieves superior performance, exhibiting robust generalization and fine-grained manipulation capabilities.
+- **局限**：As an essential modality for dexterous and contact-rich tasks, tactile sensing provides precise force feedback that cannot be reliably inferred from vision.
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
+- **筛选分数**：40
+- **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 As an essential modality for dexterous and contact-rich tasks, tactile sensing provides
 precise force feedback that cannot be reliably inferred from vision. However, limited by
@@ -38,7 +56,7 @@ demonstrate that our model achieves superior performance, exhibiting robust
 generalization and fine-grained manipulation capabilities. TTP paves the way for
 scalable tactile pre-training via human-to-robot transfer.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2607.01067v1
@@ -46,13 +64,4 @@ scalable tactile pre-training via human-to-robot transfer.
 - Published: 2026-07-01T15:26:26Z
 - Age days: 1
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

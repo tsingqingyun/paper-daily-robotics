@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2606.23675v1"
 published: "2026-06-22T17:58:03Z"
@@ -12,13 +17,26 @@ concepts: ["AI 核心知识地图"]
 
 # IMAGIN-4D: Image-Guided Controllable Interaction Generation
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Experiments on FBM and BEHAVE show that IMAGIN-4D improves fine- grained interaction control over single-token and uniformly image-conditioned baselines while preserving waypoint-following and motion quality.
 
-自动筛选分数：34
+## 关键点
 
-连接概念：[[AI 核心知识地图]]
+- **问题**：However, these signals underspecify interaction: the same prompt and trajectory can produce different grasps, approach directions, body poses, object poses, contacts, and body-object layouts.
+- **创新点 / 方法**：Since HOI motion datasets lack paired images, we build a synthetic motion-to-image rendering pipeline from FullBodyManipulation (FBM) and introduce an image-adherence metric to evaluate whether generated motions match the reference snapshot.
+- **证据**：Experiments on FBM and BEHAVE show that IMAGIN-4D improves fine- grained interaction control over single-token and uniformly image-conditioned baselines while preserving waypoint-following and motion quality.
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[AI 核心知识地图]]
+- **筛选分数**：34
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Generating human-object interactions (HOI) is central to character animation, robotics,
 AR/VR, and embodied AI. Recent HOI generation methods synthesize motion from text,
@@ -44,7 +62,7 @@ grained interaction control over single-token and uniformly image-conditioned ba
 while preserving waypoint-following and motion quality. Code and models will be released
 at https://imagin4d.github.io.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2606.23675v1
@@ -52,13 +70,4 @@ at https://imagin4d.github.io.
 - Published: 2026-06-22T17:58:03Z
 - Age days: 1
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

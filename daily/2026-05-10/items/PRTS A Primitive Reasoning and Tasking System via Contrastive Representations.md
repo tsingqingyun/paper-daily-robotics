@@ -1,9 +1,15 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - VLA and Robot Foundation Models"
 url: "https://arxiv.org/abs/2604.27472v1"
 published: "2026-04-30T06:14:02Z"
+age_days: 
 score: 34
 created: 2026-05-10
 concepts: ["多模态基础模型", "智能体 Agent", "视觉语言动作模型 VLA", "机器人学习"]
@@ -11,13 +17,26 @@ concepts: ["多模态基础模型", "智能体 Agent", "视觉语言动作模型
 
 # PRTS: A Primitive Reasoning and Tasking System via Contrastive Representations
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Pretrained on 167B tokens of diverse manipulation and embodied- reasoning data, PRTS reaches state-of-the-art performance on LIBERO, LIBERO-Pro, LIBERO- Plus, SimplerEnv, and a real-world suite of 14 complex tasks, with particularly substantial gains on long-…
 
-自动筛选分数：34
+## 关键点
 
-连接概念：[[多模态基础模型]], [[智能体 Agent]], [[视觉语言动作模型 VLA]], [[机器人学习]]
+- **问题**：However, existing VLAs predominantly frame pretraining as supervised behavior cloning, overlooking the fundamental nature of robot learning as a goal-reaching process that requires understanding temporal task progress.
+- **创新点 / 方法**：We present \textbf{PRTS} (\textbf{P}rimitive \textbf{R}easoning and \textbf{T}asking \textbf{S}ystem), a VLA foundation model that reformulates pretraining through Goal-Conditioned Reinforcement Learning.
+- **证据**：Pretrained on 167B tokens of diverse manipulation and embodied- reasoning data, PRTS reaches state-of-the-art performance on LIBERO, LIBERO-Pro, LIBERO- Plus, SimplerEnv, and a real-world suite of 14 complex tasks, with particularly substantial gains on long-horizon, contact-rich, and zero-shot novel-instruction setti…
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]] [[机器人学习]]
+- **筛选分数**：34
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Vision-Language-Action (VLA) models advance robotic control via strong visual-linguistic
 priors. However, existing VLAs predominantly frame pretraining as supervised behavior
@@ -43,20 +62,12 @@ settings, confirming that injecting goal-reachability awareness significantly im
 both execution success and long-horizon planning of general-purpose robotic foundation
 policies.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - VLA and Robot Foundation Models
 - URL: https://arxiv.org/abs/2604.27472v1
 - Authors: Yang Zhang, Jiangyuan Zhao, Chenyou Fan, Fangzheng Yan, Tian Li, Haitong Tang, Sen Fu, Xuan'er Wu, Qizhen Weng, Weinan Zhang, Xiu Li, Chi Zhang, Chenjia Bai, Xuelong Li
 - Published: 2026-04-30T06:14:02Z
+- Age days: 
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>

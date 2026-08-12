@@ -1,6 +1,11 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
+format_version: 2
+evidence_level: abstract
+reading_status: skimmed
+needs_fulltext: true
+summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2607.18548v1"
 published: "2026-07-20T22:28:16Z"
@@ -12,13 +17,26 @@ concepts: ["智能体 Agent", "具身智能评测与基准"]
 
 # Engineering Trustworthy Agentic AI for Critical Systems
 
-## 为什么重要
+> [!summary] 一句话结论（基于摘要）
+> Agentic artificial intelligence systems, capable of autonomous perception, planning, tool use, and multi-step action, are increasingly proposed for critical engineering domains where decisions carry physical, operational, or economic consequences.
 
-自动筛选分数：30
+## 关键点
 
-连接概念：[[智能体 Agent]], [[具身智能评测与基准]]
+- **问题**：These principles are then examined across four constraint-bound engineering domains: power systems, autonomous vehicles/robotics/UAVs, high-performance computing, and communication networks, identifying recurring design patterns, shared failure modes, and domain-specific gaps.
+- **创新点 / 方法**：Agentic artificial intelligence systems, capable of autonomous perception, planning, tool use, and multi-step action, are increasingly proposed for critical engineering domains where decisions carry physical, operational, or economic consequences.
+- **证据**：摘要未报告明确实验结论；需阅读全文核查。
+- **局限**：摘要未明确说明；需阅读全文核查。
 
-## 摘要
+## 研究关联
+
+- **概念**：[[智能体 Agent]] [[具身智能评测与基准]]
+- **筛选分数**：30
+- **阅读状态**：摘要级快读；需要全文核查证据或局限
+
+<details>
+<summary>原始摘要与来源</summary>
+
+### 原始摘要
 
 Agentic artificial intelligence systems, capable of autonomous perception, planning,
 tool use, and multi-step action, are increasingly proposed for critical engineering
@@ -41,7 +59,7 @@ trustworthiness is shown to be a single problem, with a path outlined toward a r
 cross-domain assurance framework analogous to the graded certification regimes used by
 mature safety-critical engineering fields.
 
-## 来源
+### 来源
 
 - Source: arXiv Daily - Frontier Embodied AI Robotics Papers
 - URL: https://arxiv.org/abs/2607.18548v1
@@ -49,13 +67,4 @@ mature safety-critical engineering fields.
 - Published: 2026-07-20T22:28:16Z
 - Age days: 1
 
-## 我的判断
-
-- [ ] 是否值得沉淀为核心笔记？
-- [ ] 是否需要加入 [[具身智能评测与基准]] 或 [[视觉语言动作模型 VLA]]？
-
-## 后续追踪
-
-- 复现实验/代码：
-- 相关论文：
-- 影响的知识节点：
+</details>
