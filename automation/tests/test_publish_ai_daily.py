@@ -80,6 +80,18 @@ class PublishAiDailyTests(unittest.TestCase):
             self.assertIn("automation/config/sources.json", tree)
             self.assertIn("automation/codex/automation.toml.example", tree)
             self.assertNotIn("automation/env.zsh", tree)
+            published_manifest = json.loads(
+                subprocess.run(
+                    ["git", "--git-dir", str(remote), "show", f"main:daily/{run_date}/manifest.json"],
+                    check=True,
+                    stdout=subprocess.PIPE,
+                    text=True,
+                ).stdout
+            )
+            self.assertEqual(
+                published_manifest["source_digest"],
+                f"30_Updates/{run_date} AI Embodied Intelligence Update.md",
+            )
             published_digest = subprocess.run(
                 ["git", "--git-dir", str(remote), "show", f"main:daily/{run_date}/index.md"],
                 check=True,

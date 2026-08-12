@@ -11,7 +11,7 @@ AUTOMATION_DIR="$PROJECT/automations/ai"
 ENV_FILE="$AUTOMATION_DIR/env.zsh"
 RUN_LOG="$STATE_DIR/ai-daily.run.log"
 MEMORY="$AUTOMATION_DIR/memory.md"
-DEFAULT_GITHUB_REMOTE="git@github.com:tsingqingyun/paper-daily-robotics.git"
+DEFAULT_GITHUB_REMOTE=""
 
 if ! mkdir -p "$STATE_DIR" "$AUTOMATION_DIR"; then
   /bin/echo "Cannot create AI daily state directories under $PROJECT" >&2
@@ -189,6 +189,11 @@ run_publish() {
 
   AI_DAILY_GITHUB_REMOTE="${AI_DAILY_GITHUB_REMOTE:-$DEFAULT_GITHUB_REMOTE}"
   AI_DAILY_GITHUB_BRANCH="${AI_DAILY_GITHUB_BRANCH:-main}"
+
+  if [ -z "$AI_DAILY_GITHUB_REMOTE" ]; then
+    log "AI_DAILY_GITHUB_REMOTE is not configured"
+    exit 78
+  fi
 
   for required in "$UPDATE_SCRIPT" "$LINK_CHECK_SCRIPT" "$PUBLISH_SCRIPT"; do
     if [ ! -f "$required" ]; then

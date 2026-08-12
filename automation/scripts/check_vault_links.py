@@ -16,7 +16,14 @@ LINK_RE = re.compile(r"(?<!!)\[\[([^\]\n]+)\]\]")
 
 def is_vault_content(path: Path, vault: Path) -> bool:
     relative = path.relative_to(vault)
-    return not any(part.startswith(".") for part in relative.parts)
+    if any(part.startswith(".") for part in relative.parts):
+        return False
+    current = vault
+    for part in relative.parts[:-1]:
+        current /= part
+        if (current / ".git").is_dir():
+            return False
+    return True
 
 
 def note_key(path: Path, vault: Path) -> str:

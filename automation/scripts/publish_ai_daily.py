@@ -204,6 +204,23 @@ def export_automation(vault: Path, repo: Path) -> list[str]:
     return ["automation"]
 
 
+def normalize_existing_manifests(repo: Path) -> list[str]:
+    changed: list[str] = []
+    for path in sorted((repo / "daily").glob("*/manifest.json")):
+        try:
+            manifest = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError) as exc:
+            raise PublishError(f"Cannot normalize publication manifest {path}: {exc}", EX_CONFIG) from exc
+        run_date = str(manifest.get("date") or path.parent.name)
+        source_digest = f"30_Updates/{run_date}{DIGEST_SUFFIX}"
+        if manifest.get("source_digest") == source_digest:
+            continue
+        manifest["source_digest"] = source_digest
+        atomic_write_json(path, manifest)
+        changed.append(path.relative_to(repo).as_posix())
+    return changed
+
+
 def update_readme(repo: Path) -> None:
     dates = sorted(
         (path.parent.name for path in (repo / "daily").glob("*/index.md")),
@@ -264,6 +281,7 @@ def publish(args: argparse.Namespace) -> str:
     for run_date in dates:
         stage_paths.extend(export_date(vault, repo, run_date, verify_state=not args.all))
     stage_paths.extend(export_automation(vault, repo))
+    stage_paths.extend(normalize_existing_manifests(repo))
     update_readme(repo)
     git(repo, "add", "--", *stage_paths)
 
