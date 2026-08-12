@@ -1,0 +1,140 @@
+{
+  "max_items_per_run": 24,
+  "min_score": 5,
+  "max_age_days": 45,
+  "required_terms_any": [
+    "embodied",
+    "robot",
+    "robotics",
+    "manipulation",
+    "humanoid",
+    "locomotion",
+    "vision-language-action",
+    "vla",
+    "robot foundation model",
+    "language-conditioned",
+    "open-vocabulary manipulation",
+    "world model",
+    "sim2real",
+    "sim-to-real",
+    "diffusion policy",
+    "imitation learning",
+    "teleoperation",
+    "real robot",
+    "lerobot",
+    "gemini robotics"
+  ],
+  "feeds": [
+    {
+      "name": "arXiv Daily - Frontier Embodied AI Robotics Papers",
+      "url": "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.RO+OR+cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CV%29+AND+%28embodied+OR+robot+OR+robotics+OR+manipulation+OR+humanoid+OR+locomotion+OR+%22vision-language-action%22+OR+VLA+OR+%22robot+foundation+model%22+OR+%22language-conditioned%22+OR+%22open-vocabulary+manipulation%22+OR+%22world+model%22+OR+sim2real+OR+%22diffusion+policy%22+OR+%22imitation+learning%22+OR+teleoperation+OR+%22real+robot%22%29&sortBy=submittedDate&sortOrder=descending&max_results=120",
+      "type": "atom",
+      "weight": 6,
+      "max_age_days": 21
+    },
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "type": "rss",
+      "weight": 2,
+      "max_age_days": 60
+    },
+    {
+      "name": "Google DeepMind Blog",
+      "url": "https://deepmind.google/blog/rss.xml",
+      "type": "rss",
+      "weight": 3,
+      "max_age_days": 60
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "type": "rss",
+      "weight": 2,
+      "max_age_days": 60
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "type": "rss",
+      "weight": 2,
+      "max_age_days": 60
+    },
+    {
+      "name": "Microsoft Research Blog",
+      "url": "https://www.microsoft.com/en-us/research/feed/",
+      "type": "rss",
+      "weight": 1,
+      "max_age_days": 60
+    },
+    {
+      "name": "Berkeley BAIR Blog",
+      "url": "https://bair.berkeley.edu/blog/feed.xml",
+      "type": "rss",
+      "weight": 2,
+      "max_age_days": 60
+    },
+    {
+      "name": "MIT Technology Review AI",
+      "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+      "type": "rss",
+      "weight": 1,
+      "max_age_days": 60
+    }
+  ],
+  "concept_links": {
+    "多模态基础模型": ["multimodal", "vision-language", "vlm", "foundation model", "gemini", "gpt", "claude", "qwen", "deepseek", "glm"],
+    "智能体 Agent": ["agent", "agents", "tool use", "planning", "workflow", "browser", "computer use", "long-horizon"],
+    "世界模型": ["world model", "simulation", "predictive model", "model-based", "dynamics", "digital twin"],
+    "视觉语言动作模型 VLA": ["vision-language-action", "vla", "action model", "robotics-er", "gemini robotics", "rt-2", "openvla", "robot foundation model"],
+    "机器人学习": ["robot learning", "imitation learning", "reinforcement learning", "teleoperation", "demonstration", "diffusion policy"],
+    "Sim2Real": ["sim2real", "sim-to-real", "simulation-to-real", "domain randomization"],
+    "具身智能评测与基准": ["benchmark", "evaluation", "safety", "success rate", "robustness", "real robot"]
+  },
+  "ranking_terms": {
+    "embodied": 4,
+    "robot": 4,
+    "robotics": 4,
+    "vision-language-action": 5,
+    "vla": 5,
+    "world model": 4,
+    "agent": 3,
+    "multimodal": 3,
+    "manipulation": 4,
+    "sim2real": 4,
+    "benchmark": 3,
+    "safety": 2,
+    "foundation model": 3,
+    "robot foundation model": 5,
+    "gemini robotics": 5,
+    "humanoid": 3,
+    "language-conditioned": 4,
+    "open-vocabulary": 3,
+    "real robot": 5,
+    "real-world": 3,
+    "cross-embodiment": 5,
+    "generalist robot": 5,
+    "imitation learning": 3,
+    "reinforcement learning": 2,
+    "survey": 3,
+    "dataset": 3,
+    "code": 1,
+    "open-source": 2,
+    "sota": 1
+  },
+  "quality_rules": {
+    "prefer": [
+      "真实机器人实验",
+      "跨场景或跨机器人泛化",
+      "公开代码、数据或 benchmark",
+      "明确失败模式和消融实验",
+      "来自领先实验室/公司，或被多个独立团队快速复现"
+    ],
+    "downrank": [
+      "只展示 demo 视频",
+      "没有强基线",
+      "只有仿真且任务过窄",
+      "标题党式 agent 或 embodied 概念包装"
+    ]
+  }
+}

@@ -1,7 +1,11 @@
 # AI & Embodied Intelligence Daily
 
 Verified daily AI / Physical AI / Robotics digests exported from the local Obsidian workflow.
-Only each digest and the detail notes explicitly referenced by that digest are published.
+Each digest, its explicitly referenced detail notes, and the allowlisted automation source are published.
+
+## Automation
+
+- [Source code and setup](automation/README.md)
 
 ## Daily updates
 
