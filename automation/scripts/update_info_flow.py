@@ -450,6 +450,9 @@ concepts: [{", ".join(yaml_string(c) for c in concepts)}]
 - **概念**：{concept_line}
 - **筛选分数**：{score}
 - **阅读状态**：摘要级快读；{('需要全文核查证据或局限' if needs_fulltext else '摘要已提供证据与局限，仍建议按需核对全文')}
+- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+
+`python3 scripts/start_ai_deep_read.py --vault "." --note "{item.get('link_path', '')}.md" --level full`
 
 <details>
 <summary>原始摘要与来源</summary>
@@ -506,6 +509,7 @@ def digest_body(
         f"- **规模**：{candidate_count} 个候选 → {len(selected)} 篇入选；回填 {repeated_count} 篇",
         f"- **主题**：{concept_summary or '无'}",
         f"- **源异常**：{source_anomalies}",
+        "- **需要更高精度**：从“必读”选择论文，进入 [[AI 论文深读工作流|L1 / L2 精读]]",
         "",
         f"## 必读 {len(must_read)} 篇",
         "",
@@ -627,6 +631,8 @@ def update_index(vault: Path) -> None:
             "- [[信息源清单]]",
             "- [[AI 核心知识地图]]",
             "- [[具身智能核心知识地图]]",
+            "- [[AI 论文深读工作流]]",
+            "- [[精读论文索引]]",
             "",
             "## 阅读规则",
             "",

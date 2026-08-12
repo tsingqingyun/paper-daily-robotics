@@ -32,6 +32,9 @@ concepts: ["多模态基础模型", "智能体 Agent", "世界模型", "具身�
 - **概念**：[[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
 - **筛选分数**：30
 - **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
+- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+
+`python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-07-17/Self in Space Benchmarking Self-Awareness and Spatial Cognition in UAV Embodied.md" --level full`
 
 <details>
 <summary>原始摘要与来源</summary>

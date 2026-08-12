@@ -32,6 +32,9 @@ concepts: ["世界模型", "视觉语言动作模型 VLA", "机器人学习", "�
 - **概念**：[[世界模型]] [[视觉语言动作模型 VLA]] [[机器人学习]] [[具身智能评测与基准]]
 - **筛选分数**：42
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
+- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+
+`python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-13/An Embodied Simulation Platform, Benchmark, and Data-Efficient Augmentation Fram.md" --level full`
 
 <details>
 <summary>原始摘要与来源</summary>

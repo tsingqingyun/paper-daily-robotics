@@ -32,6 +32,9 @@ concepts: ["多模态基础模型", "世界模型", "视觉语言动作模型 VL
 - **概念**：[[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]] [[机器人学习]] [[具身智能评测与基准]]
 - **筛选分数**：45
 - **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
+- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+
+`python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-08/PiL-World A Chunk-Wise World Model for VLA Policy-in-the-Loop Evaluation.md" --level full`
 
 <details>
 <summary>原始摘要与来源</summary>

@@ -32,6 +32,9 @@ concepts: ["机器人学习"]
 - **概念**：[[机器人学习]]
 - **筛选分数**：25
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
+- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+
+`python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-07-25/EgoRecovery Acquiring Failure Recovery Ability Through Human Recovery Demonstrat.md" --level full`
 
 <details>
 <summary>原始摘要与来源</summary>

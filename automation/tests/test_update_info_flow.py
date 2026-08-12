@@ -75,12 +75,15 @@ class UpdateInfoFlowTests(unittest.TestCase):
         self.assertIn("## 关键点", note)
         self.assertIn("**创新点 / 方法**", note)
         self.assertIn("<summary>原始摘要与来源</summary>", note)
+        self.assertIn("[[AI 论文深读工作流|", note)
+        self.assertIn("scripts/start_ai_deep_read.py", note)
         self.assertNotIn("## 我的判断", note)
 
         digest = MODULE.digest_body("2026-08-12", items, 100, [], "机器人学习 15", 0)
         self.assertIn("## 必读 5 篇", digest)
         self.assertIn("## 扫读 7 篇", digest)
         self.assertIn("## 其余存档 3 篇", digest)
+        self.assertIn("[[AI 论文深读工作流|", digest)
         for item in items:
             self.assertIn(item["link_path"], digest)
 

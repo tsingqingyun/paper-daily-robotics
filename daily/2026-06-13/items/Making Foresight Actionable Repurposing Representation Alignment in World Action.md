@@ -32,6 +32,9 @@ concepts: ["世界模型", "视觉语言动作模型 VLA"]
 - **概念**：[[世界模型]] [[视觉语言动作模型 VLA]]
 - **筛选分数**：30
 - **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
+- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+
+`python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-13/Making Foresight Actionable Repurposing Representation Alignment in World Action.md" --level full`
 
 <details>
 <summary>原始摘要与来源</summary>

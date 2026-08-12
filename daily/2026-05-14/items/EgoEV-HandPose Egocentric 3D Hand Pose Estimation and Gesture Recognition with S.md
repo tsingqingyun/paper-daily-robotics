@@ -32,6 +32,9 @@ concepts: ["具身智能评测与基准"]
 - **概念**：[[具身智能评测与基准]]
 - **筛选分数**：32
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
+- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+
+`python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-05-14/EgoEV-HandPose Egocentric 3D Hand Pose Estimation and Gesture Recognition with S.md" --level full`
 
 <details>
 <summary>原始摘要与来源</summary>

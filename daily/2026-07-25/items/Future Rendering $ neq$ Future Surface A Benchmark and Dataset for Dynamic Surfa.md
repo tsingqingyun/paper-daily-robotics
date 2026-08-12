@@ -32,6 +32,9 @@ concepts: ["智能体 Agent", "具身智能评测与基准"]
 - **概念**：[[智能体 Agent]] [[具身智能评测与基准]]
 - **筛选分数**：25
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
+- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+
+`python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-07-25/Future Rendering $ neq$ Future Surface A Benchmark and Dataset for Dynamic Surfa.md" --level full`
 
 <details>
 <summary>原始摘要与来源</summary>

@@ -79,6 +79,9 @@ class PublishAiDailyTests(unittest.TestCase):
             self.assertIn("automation/scripts/update_info_flow.py", tree)
             self.assertIn("automation/config/sources.json", tree)
             self.assertIn("automation/codex/automation.toml.example", tree)
+            self.assertIn("deep-reading/README.md", tree)
+            self.assertIn("deep-reading/index-template.md", tree)
+            self.assertIn("automation/templates/Paper Deep Read.md", tree)
             self.assertNotIn("automation/env.zsh", tree)
             published_manifest = json.loads(
                 subprocess.run(

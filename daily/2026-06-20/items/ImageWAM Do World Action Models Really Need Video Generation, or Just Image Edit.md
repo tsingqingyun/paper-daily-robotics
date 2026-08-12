@@ -32,6 +32,9 @@ concepts: ["智能体 Agent", "世界模型", "视觉语言动作模型 VLA"]
 - **概念**：[[智能体 Agent]] [[世界模型]] [[视觉语言动作模型 VLA]]
 - **筛选分数**：31
 - **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
+- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+
+`python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-20/ImageWAM Do World Action Models Really Need Video Generation, or Just Image Edit.md" --level full`
 
 <details>
 <summary>原始摘要与来源</summary>

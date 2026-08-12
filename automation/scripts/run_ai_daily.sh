@@ -6,6 +6,10 @@ PYTHON="${AI_DAILY_PYTHON:-/usr/bin/python3}"
 UPDATE_SCRIPT="$PROJECT/scripts/update_info_flow.py"
 LINK_CHECK_SCRIPT="$PROJECT/scripts/check_vault_links.py"
 PUBLISH_SCRIPT="$PROJECT/scripts/publish_ai_daily.py"
+DEEP_READ_SCRIPT="$PROJECT/scripts/start_ai_deep_read.py"
+DEEP_READ_GUIDE="$PROJECT/10_MOCs/AI 论文深读工作流.md"
+DEEP_READ_TEMPLATE="$PROJECT/90_Templates/Paper Deep Read.md"
+DEEP_READ_INDEX="$PROJECT/50_Papers/精读论文索引.md"
 STATE_DIR="$PROJECT/state"
 AUTOMATION_DIR="$PROJECT/automations/ai"
 ENV_FILE="$AUTOMATION_DIR/env.zsh"
@@ -181,6 +185,7 @@ required = [
     "## 必读 ",
     "## 扫读 ",
     "## 其余存档 ",
+    "[[AI 论文深读工作流|",
 ]
 missing = [marker for marker in required if marker not in text]
 if missing:
@@ -195,7 +200,11 @@ if not references:
 for target in references:
     note = project / f"{target.removesuffix('.md')}.md"
     note_text = note.read_text(encoding="utf-8")
-    if "format_version: 2" not in note_text or "## 关键点" not in note_text:
+    if (
+        "format_version: 2" not in note_text
+        or "## 关键点" not in note_text
+        or "[[AI 论文深读工作流|" not in note_text
+    ):
         print(f"Compact format verification failed for referenced note: {note}")
         raise SystemExit(65)
 print(f"Compact format verification ok: format v2, {len(references)} referenced notes")
@@ -234,7 +243,7 @@ run_publish() {
     exit 78
   fi
 
-  for required in "$UPDATE_SCRIPT" "$LINK_CHECK_SCRIPT" "$PUBLISH_SCRIPT"; do
+  for required in "$UPDATE_SCRIPT" "$LINK_CHECK_SCRIPT" "$PUBLISH_SCRIPT" "$DEEP_READ_SCRIPT" "$DEEP_READ_GUIDE" "$DEEP_READ_TEMPLATE" "$DEEP_READ_INDEX"; do
     if [ ! -f "$required" ]; then
       log "Required script missing: $required"
       exit 78

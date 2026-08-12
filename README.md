@@ -6,6 +6,7 @@ Each digest, its explicitly referenced detail notes, and the allowlisted automat
 ## Automation
 
 - [Source code and setup](automation/README.md)
+- [Optional L1/L2 deep-reading workflow](deep-reading/README.md)
 
 ## Daily updates
 

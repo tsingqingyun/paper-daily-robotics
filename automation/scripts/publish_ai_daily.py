@@ -24,17 +24,22 @@ DIGEST_SUFFIX = " AI Embodied Intelligence Update.md"
 PUBLIC_AUTOMATION_FILES = {
     "scripts/update_info_flow.py": "automation/scripts/update_info_flow.py",
     "scripts/migrate_ai_notes_compact.py": "automation/scripts/migrate_ai_notes_compact.py",
+    "scripts/start_ai_deep_read.py": "automation/scripts/start_ai_deep_read.py",
     "scripts/check_vault_links.py": "automation/scripts/check_vault_links.py",
     "scripts/publish_ai_daily.py": "automation/scripts/publish_ai_daily.py",
     "scripts/run_ai_daily.sh": "automation/scripts/run_ai_daily.sh",
     "tests/test_update_info_flow.py": "automation/tests/test_update_info_flow.py",
     "tests/test_migrate_ai_notes_compact.py": "automation/tests/test_migrate_ai_notes_compact.py",
+    "tests/test_start_ai_deep_read.py": "automation/tests/test_start_ai_deep_read.py",
     "tests/test_publish_ai_daily.py": "automation/tests/test_publish_ai_daily.py",
     "tests/test_check_vault_links.py": "automation/tests/test_check_vault_links.py",
     "40_Sources/sources.json": "automation/config/sources.json",
     "automations/ai/README.public.md": "automation/README.md",
     "automations/ai/env.example.zsh": "automation/env.example.zsh",
     "automations/ai/automation.example.toml": "automation/codex/automation.toml.example",
+    "90_Templates/Paper Deep Read.md": "automation/templates/Paper Deep Read.md",
+    "10_MOCs/AI 论文深读工作流.md": "deep-reading/README.md",
+    "50_Papers/精读论文索引.md": "deep-reading/index-template.md",
 }
 
 
@@ -197,13 +202,15 @@ def export_date(vault: Path, repo: Path, run_date: str, verify_state: bool) -> l
 
 
 def export_automation(vault: Path, repo: Path) -> list[str]:
+    destinations: set[str] = set()
     for source_relative, destination_relative in PUBLIC_AUTOMATION_FILES.items():
         source = vault / source_relative
         if not source.is_file():
             raise PublishError(f"Public automation source is missing: {source}", EX_CONFIG)
         destination = repo / destination_relative
         atomic_write_text(destination, source.read_text(encoding="utf-8"))
-    return ["automation"]
+        destinations.add(Path(destination_relative).parts[0])
+    return sorted(destinations)
 
 
 def normalize_existing_manifests(repo: Path) -> list[str]:
@@ -237,6 +244,7 @@ def update_readme(repo: Path) -> None:
         "## Automation",
         "",
         "- [Source code and setup](automation/README.md)",
+        "- [Optional L1/L2 deep-reading workflow](deep-reading/README.md)",
         "",
         "## Daily updates",
         "",
