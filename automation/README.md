@@ -6,7 +6,7 @@ This directory contains the allowlisted, reusable source for generating and publ
 
 - `scripts/update_info_flow.py`: fetch, rank, deduplicate, and write the digest and detail notes.
 - `scripts/migrate_ai_notes_compact.py`: migrate historical AI digests and only their referenced notes to compact format v2 without deleting, moving, or renaming files.
-- `scripts/start_ai_deep_read.py`: create an idempotent L1/L2 deep-reading card from a selected daily paper note.
+- `scripts/start_ai_deep_read.py`: create an idempotent, one-paper-per-directory L1/L2 deep-reading card and manifest from a selected daily paper note.
 - `scripts/check_vault_links.py`: validate Obsidian Wiki links before publication.
 - `scripts/publish_ai_daily.py`: export the verified digest, referenced notes, and this public source allowlist to GitHub.
 - `scripts/run_ai_daily.sh`: canonical idempotent entry point with retry, validation, link gate, and publication.
@@ -25,7 +25,7 @@ Requirements: zsh, Git, and Python 3.9 or newer using only the standard library.
 3. Copy `env.example.zsh` to `<vault>/automations/ai/env.zsh` and set the Git remote. Keep this local file private.
 4. Run `AI_DAILY_VAULT="/path/to/vault" /bin/zsh scripts/run_ai_daily.sh`.
 
-The wrapper will not publish if generation validation or the vault link gate fails. Publication is limited to the current digest, its explicitly referenced detail notes, and the source allowlist defined in `publish_ai_daily.py`.
+The wrapper will not publish if generation validation or the vault link gate fails. Publication is limited to the current digest, its explicitly referenced detail notes, completed deep-read reports, and the source allowlist defined in `publish_ai_daily.py`. Source PDFs remain local by default; published reports link to the canonical paper URL.
 
 ## Note format v2
 
@@ -37,4 +37,4 @@ The wrapper will not publish if generation validation or the vault link gate fai
 
 To migrate existing AI notes, first preview the scope with `python3 scripts/migrate_ai_notes_compact.py --vault "/path/to/vault" --dry-run`, then rerun without `--dry-run`. The migration only rewrites AI digests and their referenced paper notes; it never deletes, moves, or renames files.
 
-To start a deep read, run `python3 scripts/start_ai_deep_read.py --vault "/path/to/vault" --note "30_Updates/YYYY-MM-DD/Paper.md" --level focused` for a 10–15 minute evidence check, or use `--level full` for a 45–90 minute review. The command creates a separate note from `templates/Paper Deep Read.md` and does not overwrite the compact paper card.
+To start a deep read, run `python3 scripts/start_ai_deep_read.py --vault "/path/to/vault" --note "30_Updates/YYYY-MM-DD/Paper.md" --level focused` for a 10–15 minute evidence check, or use `--level full` for a 45–90 minute review. The command creates `50_Papers/Deep Reads/<paper>/README.md` plus a publication manifest and does not overwrite the compact paper card. Mark both files `processed` only after the evidence gate is complete.

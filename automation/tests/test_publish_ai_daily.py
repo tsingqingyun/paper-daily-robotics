@@ -48,6 +48,31 @@ class PublishAiDailyTests(unittest.TestCase):
                 source.write_text(f"fixture for {source_relative}\n", encoding="utf-8")
             private_env = vault / "automations" / "ai" / "env.zsh"
             private_env.write_text("export SECRET=must-not-publish\n", encoding="utf-8")
+            deep_read = vault / "50_Papers" / "Deep Reads" / "Test Paper 2608.00001v1"
+            deep_read.mkdir(parents=True)
+            (vault / "50_Papers" / "Deep Reads" / "README.md").write_text(
+                "# Deep Reads\n", encoding="utf-8"
+            )
+            (deep_read / "README.md").write_text(
+                f"---\nreading_status: processed\n---\n\n# Test L2\n\n[[30_Updates/{run_date}/Included paper|Quick note]]\n\n"
+                "[[50_Papers/Deep Reads/Test Paper 2608.00001v1/source.pdf|PDF]]\n",
+                encoding="utf-8",
+            )
+            (deep_read / "source.pdf").write_bytes(b"not published")
+            (deep_read / "manifest.json").write_text(
+                json.dumps(
+                    {
+                        "title": "Test Paper",
+                        "reading_level": "L2-full",
+                        "reading_status": "processed",
+                        "report": "README.md",
+                        "pdf_url": "https://arxiv.org/pdf/2608.00001v1",
+                        "source_pdf": "source.pdf",
+                        "publish_source_pdf": False,
+                    }
+                ),
+                encoding="utf-8",
+            )
             subprocess.run(
                 ["git", "init", "--bare", "--initial-branch=main", str(remote)],
                 check=True,
@@ -82,6 +107,9 @@ class PublishAiDailyTests(unittest.TestCase):
             self.assertIn("deep-reading/README.md", tree)
             self.assertIn("deep-reading/index-template.md", tree)
             self.assertIn("automation/templates/Paper Deep Read.md", tree)
+            self.assertIn("deep-reads/Test Paper 2608.00001v1/README.md", tree)
+            self.assertIn("deep-reads/Test Paper 2608.00001v1/manifest.json", tree)
+            self.assertNotIn("deep-reads/Test Paper 2608.00001v1/source.pdf", tree)
             self.assertNotIn("automation/env.zsh", tree)
             published_manifest = json.loads(
                 subprocess.run(
@@ -102,6 +130,20 @@ class PublishAiDailyTests(unittest.TestCase):
                 text=True,
             ).stdout
             self.assertIn("[Included](items/Included%20paper.md)", published_digest)
+            published_deep_read = subprocess.run(
+                [
+                    "git",
+                    "--git-dir",
+                    str(remote),
+                    "show",
+                    "main:deep-reads/Test Paper 2608.00001v1/README.md",
+                ],
+                check=True,
+                stdout=subprocess.PIPE,
+                text=True,
+            ).stdout
+            self.assertIn(f"../../daily/{run_date}/items/Included%20paper.md", published_deep_read)
+            self.assertIn("https://arxiv.org/pdf/2608.00001v1", published_deep_read)
 
 
 if __name__ == "__main__":

@@ -2,7 +2,7 @@ version = 1
 id = "ai"
 kind = "cron"
 name = "AI and embodied intelligence daily update"
-prompt = "In the configured Obsidian vault, run the canonical entry point `/bin/zsh scripts/run_ai_daily.sh`. Verify that the digest and referenced paper notes use format_version 2, the digest includes the must-read/scan/archive tiers, every paper card links to the L1/L2 deep-reading workflow, `state/seen.json` is current, the vault link gate passes, `state/ai-daily.publish.json` succeeds, and the publication mirror HEAD matches origin/main. Report candidate and selected counts, top title, concepts, feed failures, link status, repository, publication status, and commit SHA. Do not delete files."
+prompt = "In the configured Obsidian vault, run the canonical entry point `/bin/zsh scripts/run_ai_daily.sh`. Verify that the digest and referenced paper notes use format_version 2, the digest includes the must-read/scan/archive tiers, every paper card links to the L1/L2 deep-reading workflow or its completed report, completed one-paper-per-directory deep reads are published under GitHub deep-reads with source PDFs kept local by default, `state/seen.json` is current, the vault link gate passes, `state/ai-daily.publish.json` succeeds, and the publication mirror HEAD matches origin/main. Report candidate and selected counts, top title, concepts, feed failures, link status, repository, publication status, and commit SHA. Do not delete files."
 status = "ACTIVE"
 rrule = "FREQ=DAILY;BYHOUR=8;BYMINUTE=10"
 execution_environment = "local"

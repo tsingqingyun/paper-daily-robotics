@@ -415,14 +415,24 @@ def note_body(item: dict[str, Any], concepts: list[str], score: int, run_date: s
     authors = ", ".join(item.get("authors") or [])
     summary = (item.get("summary") or "暂无摘要。").strip()
     compact = item.get("compact_summary") or summarize_abstract(summary)
-    needs_fulltext = bool(compact["needs_fulltext"])
+    deep_read_note = str(item.get("deep_read_note", "")).removesuffix(".md")
+    deep_read_status = str(item.get("deep_read_status", ""))
+    needs_fulltext = bool(compact["needs_fulltext"]) and deep_read_status != "processed"
+    deep_read_metadata = ""
+    deep_read_line = "- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]"
+    if deep_read_note:
+        deep_read_metadata = (
+            f"deep_read_status: {deep_read_status or 'processed'}\n"
+            f"deep_read_note: {yaml_string(deep_read_note)}\n"
+        )
+        deep_read_line = f"- **L2 精读**：[[{deep_read_note}|已完成精读报告]]"
     return f"""---
 type: update-item
 tags: [update, ai, embodied-ai]
 format_version: {FORMAT_VERSION}
 evidence_level: abstract
 reading_status: skimmed
-needs_fulltext: {str(needs_fulltext).lower()}
+{deep_read_metadata}needs_fulltext: {str(needs_fulltext).lower()}
 summary_method: abstract-extractive
 source: {yaml_string(item.get("source", ""))}
 url: {yaml_string(item.get("url", ""))}
@@ -450,7 +460,7 @@ concepts: [{", ".join(yaml_string(c) for c in concepts)}]
 - **概念**：{concept_line}
 - **筛选分数**：{score}
 - **阅读状态**：摘要级快读；{('需要全文核查证据或局限' if needs_fulltext else '摘要已提供证据与局限，仍建议按需核对全文')}
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+{deep_read_line}
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "{item.get('link_path', '')}.md" --level full`
 

@@ -4,7 +4,9 @@ tags: [update, ai, embodied-ai]
 format_version: 2
 evidence_level: abstract
 reading_status: skimmed
-needs_fulltext: true
+deep_read_status: processed
+deep_read_note: "50_Papers/Deep Reads/GAUGE 2608.05948v1/README"
+needs_fulltext: false
 summary_method: abstract-extractive
 source: "arXiv Daily - Frontier Embodied AI Robotics Papers"
 url: "https://arxiv.org/abs/2608.05948v1"
@@ -31,8 +33,8 @@ concepts: ["世界模型", "具身智能评测与基准"]
 
 - **概念**：[[世界模型]] [[具身智能评测与基准]]
 - **筛选分数**：28
-- **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
+- **L2 精读**：[[50_Papers/Deep Reads/GAUGE 2608.05948v1/README|已完成精读报告]]
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-10/GAUGE A Measurement-Grounded Benchmark for Physical Fidelity in Simulation Engin.md" --level full`
 

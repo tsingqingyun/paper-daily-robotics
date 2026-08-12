@@ -1,0 +1,14 @@
+{
+  "arxiv_id": "2608.05948v1",
+  "title": "GAUGE: A Measurement-Grounded Benchmark for Physical Fidelity in Simulation Engines and Video World Models",
+  "reading_level": "L2-full",
+  "reading_status": "processed",
+  "completed": "2026-08-12",
+  "report": "README.md",
+  "source_url": "https://arxiv.org/abs/2608.05948v1",
+  "pdf_url": "https://arxiv.org/pdf/2608.05948v1",
+  "source_pdf": "GAUGE-2608.05948v1.pdf",
+  "source_pdf_sha256": "57314698a5f496a1f4f2368272cae2f517b7bac06e1d8a77091a265cf41b180c",
+  "publish_source_pdf": false,
+  "source_note": "30_Updates/2026-08-10/GAUGE A Measurement-Grounded Benchmark for Physical Fidelity in Simulation Engin.md"
+}

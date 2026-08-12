@@ -203,7 +203,10 @@ for target in references:
     if (
         "format_version: 2" not in note_text
         or "## 关键点" not in note_text
-        or "[[AI 论文深读工作流|" not in note_text
+        or (
+            "[[AI 论文深读工作流|" not in note_text
+            and "- **L2 精读**：" not in note_text
+        )
     ):
         print(f"Compact format verification failed for referenced note: {note}")
         raise SystemExit(65)

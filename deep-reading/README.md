@@ -75,7 +75,9 @@ python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/YYYY-MM-DD/
 python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/YYYY-MM-DD/论文笔记.md" --level full
 ```
 
-脚本只创建独立精读卡并登记到 [[精读论文索引]]；不会删除、移动或覆盖原论文快读卡。重复运行会返回已有精读卡路径。
+脚本会在 `50_Papers/Deep Reads/<论文标题 + arXiv ID>/` 下创建 `README.md` 精读卡和 `manifest.json` 状态清单，并登记到 [[精读论文索引]]；不会删除、移动或覆盖原论文快读卡。重复运行会返回已有精读卡路径。
+
+完成全文核验后，把 `README.md` 的 `reading_status` 和 `manifest.json` 的同名字段都改为 `processed`。每日发布器只把已完成报告同步到 GitHub 的 `deep-reads/`；源 PDF 默认只在本地保存，公开目录保留校验值和 arXiv 原文链接。
 
 ## 证据纪律
 
@@ -97,4 +99,3 @@ python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/YYYY-MM-DD/
 - DeepPaperNote：https://github.com/917Dhj/DeepPaperNote
 - PaperQA2：https://github.com/Future-House/paper-qa
 - Obsidian Research Vault Template：https://github.com/hoonsubin/obsidian-research-vault-template
-

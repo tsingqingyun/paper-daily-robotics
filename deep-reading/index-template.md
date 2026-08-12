@@ -20,3 +20,4 @@ created: 2026-08-12
 
 完成精读后，把对应条目移到这里，并将精读卡的 `reading_status` 改为 `processed`。
 
+- [x] [[50_Papers/Deep Reads/GAUGE 2608.05948v1/README|GAUGE：物理保真度诊断 benchmark]] · L2 · 2026-08-12 · [[世界模型]] [[具身智能评测与基准]]

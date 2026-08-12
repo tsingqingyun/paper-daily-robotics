@@ -55,8 +55,11 @@ concepts: ["机器人学习"]
             ]
             first = subprocess.run(command, check=True, capture_output=True, text=True)
             self.assertIn("Created deep-read note", first.stdout)
-            output = vault / "50_Papers" / "Deep Reads" / "Paper Reliable Robot Learning - 精读.md"
+            output = vault / "50_Papers" / "Deep Reads" / "Paper Reliable Robot Learning" / "README.md"
             self.assertTrue(output.is_file())
+            manifest = output.with_name("manifest.json")
+            self.assertTrue(manifest.is_file())
+            self.assertIn('"reading_status": "queued"', manifest.read_text(encoding="utf-8"))
             deep_text = output.read_text(encoding="utf-8")
             self.assertIn("reading_level: L1-focused", deep_text)
             self.assertIn("Results show a 12% gain.", deep_text)

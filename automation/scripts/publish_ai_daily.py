@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import datetime as dt
+import hashlib
 import json
 import os
 import re
@@ -213,6 +214,77 @@ def export_automation(vault: Path, repo: Path) -> list[str]:
     return sorted(destinations)
 
 
+def github_deep_read(report: str, manifest: dict[str, Any]) -> str:
+    source_pdf = str(manifest.get("source_pdf", ""))
+    pdf_url = str(manifest.get("pdf_url", ""))
+
+    def replace(match: re.Match[str]) -> str:
+        target, label = parse_wiki_target(match.group(1))
+        if target.startswith("30_Updates/"):
+            parts = target.split("/", 2)
+            if len(parts) == 3:
+                return f"[{label}](../../daily/{quote(parts[1])}/items/{quote(Path(parts[2]).name)}.md)"
+        if source_pdf and Path(target).name == source_pdf and pdf_url:
+            return f"[{label}]({pdf_url})"
+        return label
+
+    return WIKI_LINK_RE.sub(replace, report)
+
+
+def export_deep_reads(vault: Path, repo: Path) -> list[str]:
+    source_root = vault / "50_Papers" / "Deep Reads"
+    if not source_root.is_dir():
+        return []
+    destination_root = repo / "deep-reads"
+    root_readme = source_root / "README.md"
+    if root_readme.is_file():
+        atomic_write_text(destination_root / "README.md", root_readme.read_text(encoding="utf-8"))
+
+    published = 0
+    for paper_dir in sorted(path for path in source_root.iterdir() if path.is_dir()):
+        manifest_path = paper_dir / "manifest.json"
+        if not manifest_path.is_file():
+            continue
+        try:
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError) as exc:
+            raise PublishError(f"Cannot read deep-read manifest {manifest_path}: {exc}", EX_CONFIG) from exc
+        if manifest.get("reading_status") != "processed":
+            continue
+        report_name = str(manifest.get("report", "README.md"))
+        report_path = (paper_dir / report_name).resolve()
+        try:
+            report_path.relative_to(paper_dir.resolve())
+        except ValueError as exc:
+            raise PublishError(f"Unsafe deep-read report path: {report_path}", EX_CONFIG) from exc
+        if not report_path.is_file():
+            raise PublishError(f"Deep-read report is missing: {report_path}", EX_CONFIG)
+        report_source = report_path.read_text(encoding="utf-8")
+        if not re.search(r"(?m)^reading_status:\s*processed\s*$", report_source):
+            raise PublishError(f"Deep-read report is not marked processed: {report_path}", EX_CONFIG)
+        source_pdf = str(manifest.get("source_pdf", ""))
+        expected_sha = str(manifest.get("source_pdf_sha256", ""))
+        if source_pdf:
+            source_pdf_path = (paper_dir / source_pdf).resolve()
+            try:
+                source_pdf_path.relative_to(paper_dir.resolve())
+            except ValueError as exc:
+                raise PublishError(f"Unsafe deep-read PDF path: {source_pdf_path}", EX_CONFIG) from exc
+            if not source_pdf_path.is_file():
+                raise PublishError(f"Deep-read source PDF is missing: {source_pdf_path}", EX_CONFIG)
+            if expected_sha:
+                actual_sha = hashlib.sha256(source_pdf_path.read_bytes()).hexdigest()
+                if actual_sha != expected_sha:
+                    raise PublishError(f"Deep-read PDF checksum mismatch: {source_pdf_path}", EX_CONFIG)
+        destination = destination_root / paper_dir.name
+        report = github_deep_read(report_source, manifest)
+        atomic_write_text(destination / "README.md", report)
+        atomic_write_json(destination / "manifest.json", manifest)
+        published += 1
+
+    return ["deep-reads"] if published or root_readme.is_file() else []
+
+
 def normalize_existing_manifests(repo: Path) -> list[str]:
     changed: list[str] = []
     for path in sorted((repo / "daily").glob("*/manifest.json")):
@@ -246,9 +318,23 @@ def update_readme(repo: Path) -> None:
         "- [Source code and setup](automation/README.md)",
         "- [Optional L1/L2 deep-reading workflow](deep-reading/README.md)",
         "",
-        "## Daily updates",
+        "## L2 deep reads",
         "",
     ]
+    deep_reads = []
+    for manifest_path in sorted((repo / "deep-reads").glob("*/manifest.json")):
+        try:
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError) as exc:
+            raise PublishError(f"Cannot read published deep-read manifest {manifest_path}: {exc}", EX_CONFIG) from exc
+        title = str(manifest.get("title") or manifest_path.parent.name)
+        deep_reads.append(f"- [{title}](deep-reads/{quote(manifest_path.parent.name)}/README.md)")
+    lines.extend(deep_reads or ["- No completed deep reads yet."])
+    lines.extend([
+        "",
+        "## Daily updates",
+        "",
+    ])
     lines.extend(f"- [{run_date}](daily/{run_date}/index.md)" for run_date in dates)
     lines.append("")
     atomic_write_text(repo / "README.md", "\n".join(lines))
@@ -291,6 +377,7 @@ def publish(args: argparse.Namespace) -> str:
     for run_date in dates:
         stage_paths.extend(export_date(vault, repo, run_date, verify_state=not args.all))
     stage_paths.extend(export_automation(vault, repo))
+    stage_paths.extend(export_deep_reads(vault, repo))
     stage_paths.extend(normalize_existing_manifests(repo))
     update_readme(repo)
     git(repo, "add", "--", *stage_paths)
@@ -299,7 +386,11 @@ def publish(args: argparse.Namespace) -> str:
     if staged.returncode not in (0, 1):
         raise PublishError(f"Cannot inspect staged publication changes: {staged.stderr.strip()}")
     if staged.returncode == 1:
-        message = f"publish AI daily {dates[-1]}" if len(dates) == 1 else f"publish AI daily archive through {dates[-1]}"
+        changed = git(repo, "diff", "--cached", "--name-only").stdout.splitlines()
+        if any(path.startswith("deep-reads/") for path in changed):
+            message = "publish completed L2 deep reads"
+        else:
+            message = f"publish AI daily {dates[-1]}" if len(dates) == 1 else f"publish AI daily archive through {dates[-1]}"
         git(repo, "commit", "-m", message)
     head = git(repo, "rev-parse", "HEAD").stdout.strip()
     push_with_retry(repo, args.branch, args.push_retries, args.push_backoff)

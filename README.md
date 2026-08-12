@@ -8,6 +8,10 @@ Each digest, its explicitly referenced detail notes, and the allowlisted automat
 - [Source code and setup](automation/README.md)
 - [Optional L1/L2 deep-reading workflow](deep-reading/README.md)
 
+## L2 deep reads
+
+- [GAUGE: A Measurement-Grounded Benchmark for Physical Fidelity in Simulation Engines and Video World Models](deep-reads/GAUGE%202608.05948v1/README.md)
+
 ## Daily updates
 
 - [2026-08-12](daily/2026-08-12/index.md)

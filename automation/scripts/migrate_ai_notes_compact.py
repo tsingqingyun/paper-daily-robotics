@@ -107,6 +107,8 @@ def parse_detail(path: Path, run_date: str, link_path: str, label: str) -> dict[
         "compact_summary": flow.summarize_abstract(summary),
         "link_path": link_path,
         "run_date": run_date,
+        "deep_read_status": str(metadata.get("deep_read_status", "")),
+        "deep_read_note": str(metadata.get("deep_read_note", "")),
     }
 
 
