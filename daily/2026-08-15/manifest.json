@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-15",
+  "source_digest": "30_Updates/2026-08-15 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "G0.5 One Autoregressive Stream for Robot Reasoning and Action.md",
+    "UniTexture Cross-Task Universal Adversarial Textures for Vision-Language-Action.md",
+    "Policy-Induced Hand Priors in Humanoid Dual-Arm Manipulation Diagnosing and Miti.md",
+    "RoboSynChallenge Mastering Real-World Dexterity via Generalizing Synthesized Man.md",
+    "ComBodied Agents a New Paradigm of Human-Centric Agentic AI.md",
+    "HandEdit A Unified Benchmark for Egocentric Human-to-Robot Dexterous Hand Image.md",
+    "Self-Evolving Embodied Agents via Skill-Harness Evolution.md",
+    "H2R-Bench Benchmarking Human-to-Robot Manipulation Video Generation in World Mod.md",
+    "Spatial Memory Agent Experience-Grounded Procedure Memory for Spatial Intelligen.md",
+    "Scaling Automatic Research Agents via World Models.md",
+    "Learning Loco-Manipulation From SMPC Demonstrations With Sparse Offline-to-Onlin.md",
+    "Decoding Task Progress from VLA Representations.md",
+    "HUI360 A 360° Egocentric Dataset and Baselines for Human-Robot Interaction Antic.md",
+    "StellaVLA In-Context Structured Demonstration for Generalizable Vision-Language-.md",
+    "Temporal GRPO Beyond Trajectory-Level Credit in Vision-Language-Action Reinforce.md",
+    "HumanoidVLN A Physics-Grounded Simulator and Benchmark for Vision-Language Navig.md",
+    "ContactGuard Pre-Contact Execution Monitoring with Action-Conditioned Latent Wor.md",
+    "S2-HWM Sparse Event-Structured Hierarchical World Model for Long-Horizon Surgica.md",
+    "DreamFly Causal Memory and Receding-Horizon Diffusion Planning for Aerial Vision.md",
+    "D3D-GEN Robot-Aware Domain-Grounded Interactive 3D World Generation for Social R.md",
+    "BrainWAM Action-Space Coordination of Semantic Priors and Predictive Dynamics fo.md",
+    "SAP-Nav Spatial Semantic Representation Meets Active Perception for Hierarchical.md",
+    "AVA-Encoder Towards Agent-Native Video Representation Learning.md",
+    "Autonomous Telerehabilitation via Skeletal Motion Prediction and Joint-Level Per.md"
+  ],
+  "published_item_count": 24
+}
