@@ -30,7 +30,16 @@
       "url": "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.RO+OR+cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CV%29+AND+%28embodied+OR+robot+OR+robotics+OR+manipulation+OR+humanoid+OR+locomotion+OR+%22vision-language-action%22+OR+VLA+OR+%22robot+foundation+model%22+OR+%22language-conditioned%22+OR+%22open-vocabulary+manipulation%22+OR+%22world+model%22+OR+sim2real+OR+%22diffusion+policy%22+OR+%22imitation+learning%22+OR+teleoperation+OR+%22real+robot%22%29&sortBy=submittedDate&sortOrder=descending&max_results=120",
       "type": "atom",
       "weight": 6,
-      "max_age_days": 21
+      "max_age_days": 21,
+      "critical": true,
+      "fetch_retries": 1,
+      "fallback_fetch_retries": 2,
+      "fallback_urls": [
+        "https://rss.arxiv.org/rss/cs.RO",
+        "https://rss.arxiv.org/rss/cs.AI",
+        "https://rss.arxiv.org/rss/cs.LG",
+        "https://rss.arxiv.org/rss/cs.CV"
+      ]
     },
     {
       "name": "OpenAI News",

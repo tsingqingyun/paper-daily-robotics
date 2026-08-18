@@ -27,6 +27,8 @@ Requirements: zsh, Git, and Python 3.9 or newer using only the standard library.
 
 The wrapper will not publish if generation validation or the vault link gate fails. Publication is limited to the current digest, its explicitly referenced detail notes, completed deep-read reports, and the source allowlist defined in `publish_ai_daily.py`. Source PDFs remain local by default; published reports link to the canonical paper URL.
 
+The arXiv search API remains the primary paper source. If it is rate-limited or unavailable, the updater automatically switches to the configured official arXiv category RSS feeds, records the recovery in the digest and state, and continues ranking the merged paper set. If both the primary endpoint and every fallback for a critical source fail, the run preserves the previous verified state and blocks publication instead of publishing a low-quality news-only digest.
+
 ## Note format v2
 
 - Daily digest: a 30-second conclusion, 5 must-read papers, 7 scan items, then a compact archive list.

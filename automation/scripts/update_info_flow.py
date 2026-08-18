@@ -197,7 +197,10 @@ def fetch(url: str, timeout: int = 25, retries: int = 3, retry_backoff: float = 
         request = urllib.request.Request(
             url,
             headers={
-                "User-Agent": "Obsidian-AI-Embodied-InfoFlow/1.0 (+local research workflow)",
+                "User-Agent": (
+                    "Obsidian-AI-Embodied-InfoFlow/1.1 "
+                    "(https://github.com/tsingqingyun/paper-daily-robotics)"
+                ),
                 "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, */*",
             },
         )
@@ -297,6 +300,91 @@ def parse_feed(raw: bytes, source: dict[str, Any]) -> list[dict[str, Any]]:
             }
         )
     return items
+
+
+FEED_ERRORS = (
+    urllib.error.URLError,
+    TimeoutError,
+    socket.timeout,
+    http.client.HTTPException,
+    OSError,
+    ET.ParseError,
+    ValueError,
+)
+
+
+def fetch_source(
+    source: dict[str, Any],
+    *,
+    timeout: int,
+    retries: int,
+    retry_backoff: float,
+    inter_fetch_sleep: float,
+) -> tuple[list[dict[str, Any]], str, str]:
+    """Fetch one source, using configured feeds when its primary endpoint fails.
+
+    Returns (items, recovery_message, failure_message). A successful fallback is
+    recorded as a recovery rather than a hard source failure.
+    """
+
+    name = str(source.get("name") or "Unnamed source")
+    primary_url = str(source.get("url") or "")
+    primary_attempts = max(1, int(source.get("fetch_retries", retries)))
+    try:
+        raw = fetch(
+            primary_url,
+            timeout=timeout,
+            retries=primary_attempts,
+            retry_backoff=retry_backoff,
+        )
+        return parse_feed(raw, source), "", ""
+    except FEED_ERRORS as exc:
+        primary_error = f"{exc} (after {primary_attempts} attempts)"
+
+    fallback_urls = [
+        str(url).strip()
+        for url in source.get("fallback_urls", [])
+        if str(url).strip()
+    ]
+    if not fallback_urls:
+        return [], "", f"{name}: {primary_error}"
+
+    fallback_attempts = max(1, int(source.get("fallback_fetch_retries", retries)))
+    fallback_items: list[dict[str, Any]] = []
+    fallback_errors: list[str] = []
+    fallback_successes = 0
+    for fallback_url in fallback_urls:
+        if inter_fetch_sleep > 0:
+            time.sleep(inter_fetch_sleep)
+        try:
+            raw = fetch(
+                fallback_url,
+                timeout=timeout,
+                retries=fallback_attempts,
+                retry_backoff=retry_backoff,
+            )
+            fallback_items.extend(parse_feed(raw, source))
+            fallback_successes += 1
+        except FEED_ERRORS as exc:
+            fallback_errors.append(
+                f"{fallback_url}: {exc} (after {fallback_attempts} attempts)"
+            )
+
+    if fallback_successes:
+        recovery = (
+            f"{name}: primary failed: {primary_error}; recovered via "
+            f"{fallback_successes}/{len(fallback_urls)} configured fallback feeds"
+        )
+        if fallback_errors:
+            recovery += "; fallback errors: " + " | ".join(fallback_errors)
+        return fallback_items, recovery, ""
+
+    return (
+        [],
+        "",
+        f"{name}: primary failed: {primary_error}; all {len(fallback_urls)} fallback feeds "
+        f"failed: {' | '.join(fallback_errors)}",
+    )
 
 
 def item_id(item: dict[str, Any]) -> str:
@@ -491,8 +579,12 @@ def digest_body(
     concept_summary: str,
     repeated_count: int,
     failure_count: int | str | None = None,
+    recoveries: list[str] | None = None,
 ) -> str:
-    source_anomalies = len(failures) if failure_count is None else failure_count
+    recoveries = recoveries or []
+    source_anomalies = (
+        len(failures) + len(recoveries) if failure_count is None else failure_count
+    )
     top_item = selected[0] if selected else None
     must_read = selected[:MUST_READ_COUNT]
     scan = selected[MUST_READ_COUNT : MUST_READ_COUNT + SCAN_COUNT]
@@ -557,7 +649,7 @@ def digest_body(
             lines.append(f"- [[{item['link_path']}|{item['title']}]] · {concepts}")
         lines.append("")
 
-    lines.extend(["<details>", "<summary>运行信息与信息源错误</summary>", ""])
+    lines.extend(["<details>", "<summary>运行信息与信息源状态</summary>", ""])
     lines.extend(
         [
             f"- 候选数量：{candidate_count}",
@@ -566,9 +658,13 @@ def digest_body(
             f"- 最高分论文：{top_item['title'] if top_item else '无'}",
             f"- 最高分论文发布时间：{top_item.get('published', '无') if top_item else '无'}",
             f"- 主要技术对象分类：{concept_summary or '无'}",
-            f"- 信息源错误：{source_anomalies}",
+            f"- 信息源错误：{len(failures)}",
+            f"- 自动恢复信息源：{len(recoveries)}",
         ]
     )
+    if recoveries:
+        lines.extend(["", "### 自动恢复信息源", ""])
+        lines.extend(f"- {recovery}" for recovery in recoveries)
     if failures:
         lines.extend(["", "### 信息源错误", ""])
         lines.extend(f"- {failure}" for failure in failures)
@@ -582,12 +678,14 @@ def write_update_notes(
     config: dict[str, Any],
     candidate_count: int = 0,
     failures: list[str] | None = None,
+    recoveries: list[str] | None = None,
 ) -> list[Path]:
     today = dt.date.today().isoformat()
     item_dir = vault / "30_Updates" / today
     item_dir.mkdir(parents=True, exist_ok=True)
     written: list[Path] = []
     failures = failures or []
+    recoveries = recoveries or []
     concept_counts: dict[str, int] = {}
     for item in selected:
         for concept in item.get("concepts", []):
@@ -610,7 +708,15 @@ def write_update_notes(
     digest_path = vault / "30_Updates" / f"{today} AI Embodied Intelligence Update.md"
     atomic_write_text(
         digest_path,
-        digest_body(today, selected, candidate_count, failures, concept_summary, repeated_count),
+        digest_body(
+            today,
+            selected,
+            candidate_count,
+            failures,
+            concept_summary,
+            repeated_count,
+            recoveries=recoveries,
+        ),
     )
     written.append(digest_path)
     return written
@@ -671,28 +777,41 @@ def run(args: argparse.Namespace) -> int:
     state = read_json(state_path, {"seen": {}})
     seen: dict[str, Any] = state.setdefault("seen", {})
     failures = []
+    recoveries = []
+    critical_failures = []
     candidates: list[dict[str, Any]] = []
 
     for source in feeds:
-        try:
-            raw = fetch(
-                source["url"],
-                timeout=args.timeout,
-                retries=args.fetch_retries,
-                retry_backoff=args.retry_backoff,
-            )
-            candidates.extend(parse_feed(raw, source))
+        source_items, recovery, failure = fetch_source(
+            source,
+            timeout=args.timeout,
+            retries=args.fetch_retries,
+            retry_backoff=args.retry_backoff,
+            inter_fetch_sleep=args.sleep,
+        )
+        candidates.extend(source_items)
+        if recovery:
+            recoveries.append(recovery)
+        if failure:
+            failures.append(failure)
+            if source.get("critical"):
+                critical_failures.append(failure)
+        if args.sleep > 0:
             time.sleep(args.sleep)
-        except (
-            urllib.error.URLError,
-            TimeoutError,
-            socket.timeout,
-            http.client.HTTPException,
-            OSError,
-            ET.ParseError,
-            ValueError,
-        ) as exc:
-            failures.append(f"{source.get('name')}: {exc} (after {max(1, args.fetch_retries)} attempts)")
+
+    if critical_failures:
+        print(
+            "Critical feed outage; preserving the previous daily note, index, and seen state.",
+            file=sys.stderr,
+        )
+        print("\nCritical feed failures:", file=sys.stderr)
+        for failure in critical_failures:
+            print(f"- {failure}", file=sys.stderr)
+        if recoveries:
+            print("\nRecovered sources:", file=sys.stderr)
+            for recovery in recoveries:
+                print(f"- {recovery}", file=sys.stderr)
+        return EX_TEMPFAIL
 
     if not candidates:
         print(
@@ -703,6 +822,10 @@ def run(args: argparse.Namespace) -> int:
             print("\nFeed failures:", file=sys.stderr)
             for failure in failures:
                 print(f"- {failure}", file=sys.stderr)
+        if recoveries:
+            print("\nRecovered sources:", file=sys.stderr)
+            for recovery in recoveries:
+                print(f"- {recovery}", file=sys.stderr)
         return EX_TEMPFAIL
 
     ranking_terms = config.get("ranking_terms", {})
@@ -776,10 +899,21 @@ def run(args: argparse.Namespace) -> int:
             print("\nFailures:", file=sys.stderr)
             for failure in failures:
                 print(f"- {failure}", file=sys.stderr)
+        if recoveries:
+            print("\nRecoveries:", file=sys.stderr)
+            for recovery in recoveries:
+                print(f"- {recovery}", file=sys.stderr)
         return 0
 
     try:
-        written = write_update_notes(vault, selected, config, candidate_count=len(candidates), failures=failures)
+        written = write_update_notes(
+            vault,
+            selected,
+            config,
+            candidate_count=len(candidates),
+            failures=failures,
+            recoveries=recoveries,
+        )
         output_path = str(written[-1]) if written else None
         update_index(vault)
     except OSError as exc:
@@ -800,6 +934,7 @@ def run(args: argparse.Namespace) -> int:
     state["last_run"] = now
     state["last_output_path"] = output_path
     state["last_failures"] = failures
+    state["last_recoveries"] = recoveries
     state["last_candidate_count"] = len(candidates)
     state["last_selected_count"] = len(selected)
     state["last_repeat_fallback_count"] = sum(1 for item in selected if item.get("repeat_fallback"))
@@ -825,6 +960,10 @@ def run(args: argparse.Namespace) -> int:
         print("\nFeed failures:", file=sys.stderr)
         for failure in failures:
             print(f"- {failure}", file=sys.stderr)
+    if recoveries:
+        print("\nRecovered sources:", file=sys.stderr)
+        for recovery in recoveries:
+            print(f"- {recovery}", file=sys.stderr)
     return 0
 
 

@@ -131,6 +131,7 @@ fresh = (
     and Path(output).expanduser().resolve() == digest
     and digest.is_file()
     and "format_version: 2" in digest.read_text(encoding="utf-8")
+    and not state.get("last_failures")
 )
 raise SystemExit(0 if fresh else 1)
 PY
@@ -387,13 +388,15 @@ except (ValueError, OSError):
 
 if fresh:
     failures = state.get("last_failures", [])
+    recoveries = state.get("last_recoveries", [])
     concept_counts = state.get("last_concept_counts", {})
     concept_summary = "、".join(f"{name} {count}" for name, count in concept_counts.items()) or "无"
     metrics = (
         f"Candidates: {state.get('last_candidate_count', 0)}. "
         f"Selected: {state.get('last_selected_count', 0)}. "
         f"Top: {state.get('last_top_title') or '无'}. "
-        f"Concepts: {concept_summary}. Feed failures: {len(failures)}."
+        f"Concepts: {concept_summary}. Feed failures: {len(failures)}. "
+        f"Recovered sources: {len(recoveries)}."
     )
 else:
     metrics = "Current-run metrics unavailable; previous seen state was preserved."

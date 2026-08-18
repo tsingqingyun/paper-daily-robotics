@@ -105,6 +105,105 @@ class UpdateInfoFlowTests(unittest.TestCase):
         self.assertEqual(opener.call_count, 1)
         sleep.assert_not_called()
 
+    def test_source_falls_back_to_official_feed_after_primary_429(self):
+        rss = b"""<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel><item>
+    <title>Fallback Robot Paper</title>
+    <link>https://arxiv.org/abs/2608.00001</link>
+    <description>Abstract: We propose a real robot policy.</description>
+    <pubDate>Mon, 17 Aug 2026 00:00:00 -0400</pubDate>
+    <dc:creator>A. Author</dc:creator>
+  </item></channel>
+</rss>"""
+        rate_error = urllib.error.HTTPError(
+            "https://export.arxiv.org/api/query", 429, "Too Many Requests", {}, None
+        )
+        source = {
+            "name": "arXiv frontier",
+            "url": "https://export.arxiv.org/api/query",
+            "fallback_urls": ["https://rss.arxiv.org/rss/cs.RO"],
+            "fetch_retries": 1,
+            "fallback_fetch_retries": 2,
+            "weight": 6,
+            "max_age_days": 21,
+        }
+        with mock.patch.object(MODULE, "fetch", side_effect=[rate_error, rss]) as fetcher:
+            with mock.patch.object(MODULE.time, "sleep") as sleep:
+                items, recovery, failure = MODULE.fetch_source(
+                    source,
+                    timeout=10,
+                    retries=3,
+                    retry_backoff=2,
+                    inter_fetch_sleep=3,
+                )
+        self.assertEqual([item["title"] for item in items], ["Fallback Robot Paper"])
+        self.assertIn("recovered via 1/1", recovery)
+        self.assertEqual(failure, "")
+        self.assertEqual(fetcher.call_count, 2)
+        sleep.assert_called_once_with(3)
+
+    def test_critical_source_failure_blocks_partial_digest(self):
+        rss = b"""<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel><item>
+  <title>Generic robot story</title>
+  <link>https://example.test/story</link>
+  <description>A robot story without the paper source.</description>
+  <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+</item></channel></rss>"""
+        with tempfile.TemporaryDirectory() as temp_dir:
+            vault = Path(temp_dir)
+            (vault / "40_Sources").mkdir(parents=True)
+            (vault / "state").mkdir(parents=True)
+            (vault / "30_Updates").mkdir(parents=True)
+            config = {
+                "feeds": [
+                    {
+                        "name": "critical papers",
+                        "url": "https://example.test/critical",
+                        "critical": True,
+                    },
+                    {"name": "generic news", "url": "https://example.test/news"},
+                ],
+                "ranking_terms": {"robot": 5},
+                "concept_links": {},
+                "required_terms_any": ["robot"],
+            }
+            (vault / "40_Sources" / "sources.json").write_text(
+                json.dumps(config), encoding="utf-8"
+            )
+            state_path = vault / "state" / "seen.json"
+            original_state = '{"sentinel": true, "seen": {}}\n'
+            state_path.write_text(original_state, encoding="utf-8")
+            args = argparse.Namespace(
+                vault=str(vault),
+                config="",
+                timeout=1,
+                sleep=0,
+                fetch_retries=1,
+                retry_backoff=0,
+                min_score=0,
+                max_items=0,
+                max_age_days=0,
+                include_seen=False,
+                include_old=False,
+                dry_run=False,
+            )
+
+            def fake_fetch(url, **kwargs):
+                if url.endswith("critical"):
+                    raise urllib.error.URLError("offline")
+                return rss
+
+            with mock.patch.object(MODULE, "fetch", side_effect=fake_fetch):
+                result = MODULE.run(args)
+            self.assertEqual(result, MODULE.EX_TEMPFAIL)
+            self.assertEqual(state_path.read_text(encoding="utf-8"), original_state)
+            self.assertEqual(
+                list((vault / "30_Updates").glob("* AI Embodied Intelligence Update.md")),
+                [],
+            )
+
     def test_total_feed_outage_preserves_state_and_notes(self):
         with tempfile.TemporaryDirectory() as temp_dir:
             vault = Path(temp_dir)

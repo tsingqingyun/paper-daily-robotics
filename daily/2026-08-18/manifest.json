@@ -2,7 +2,30 @@
   "date": "2026-08-18",
   "source_digest": "30_Updates/2026-08-18 AI Embodied Intelligence Update.md",
   "published_items": [
-    "What happens when a kid’s robot best friend dies.md"
+    "HAF Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierar.md",
+    "$τ_0$-VLA a Hierarchical Robot Foundation Model with World-Model-Guided Test-Tim.md",
+    "NebulaVLA A Dual-Frequency Vision-Language-Action Model With Guide Action for Ro.md",
+    "GigaBrain-0.7 Scaling Embodied Foundation Models to Emergent Capabilities with a.md",
+    "Robo-Dopamine 2.0 History-Conditioned and OOD-Aware Process Reward Modeling for.md",
+    "Vision-Based Tactile Intelligence for Robotics Sensing, Learning, and Embodied M.md",
+    "US-VLA An Ultrasound Vision-Language-Action Model for Embodied Abdomina.md",
+    "StructRL Structured Action-Space Exploration for Flow-Based VLAs.md",
+    "Don't Drop the BATON Long-Horizon Robot Manipulation via Agentic Subtask Explora.md",
+    "ViTaR Visuo-Tactile Residual Adaptation for Foundation VLA Manipulation.md",
+    "Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inf.md",
+    "PACE Phase-Progress-Aware Credit for Long-Horizon Embodied Manipulation.md",
+    "ForceU-VLA A Force-Aware Vision-Language-Action Model for Embodied Ultrasound Sc.md",
+    "Bit-Flip Attacks on Vision-Language-Action Models Action-Decoding Architecture S.md",
+    "When State Becomes an Attack Surface State-Semantic Injection in LLM-Driven Embo.md",
+    "Security of Foundation-Model-Powered Embodied Agents Attack Surfaces, Attacks, D.md",
+    "DeepInsight II One Trace from Benchmark to Robot.md",
+    "GaussianDWM++ Language-Grounded 3D Gaussian Driving World Model for Unified Scen.md",
+    "SparkVLA Stop-Aware Hierarchical VLA with Adaptive Action Chunking for Long-Hori.md",
+    "Revisiting Open-Loop Execution in Robotics Toward Reactive, Higher-Performing Po.md",
+    "EcoVLA Energy-Efficient Device-Edge Co-Inference for Vision-Language-Action Mode.md",
+    "MatchingPolicy Correspondence-Aware Policy Enables Cross-Object In-Context Learn.md",
+    "CrossView Can Vision-Language Models Reason Across Cameras.md",
+    "EgoTac In-the-wild Tactile Prediction from Egocentric Vision.md"
   ],
-  "published_item_count": 1
+  "published_item_count": 24
 }
