@@ -143,6 +143,72 @@ class UpdateInfoFlowTests(unittest.TestCase):
         self.assertEqual(fetcher.call_count, 2)
         sleep.assert_called_once_with(3)
 
+    def test_run_records_recovered_source_in_state_and_digest(self):
+        rss = b"""<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel><item>
+    <title>Recovered Real Robot Paper</title>
+    <link>https://arxiv.org/abs/2608.00002</link>
+    <description>We propose a real robot policy. Results show a 20% gain.</description>
+    <pubDate>Mon, 17 Aug 2026 00:00:00 -0400</pubDate>
+    <dc:creator>B. Author</dc:creator>
+  </item></channel>
+</rss>"""
+        with tempfile.TemporaryDirectory() as temp_dir:
+            vault = Path(temp_dir)
+            (vault / "40_Sources").mkdir(parents=True)
+            (vault / "state").mkdir(parents=True)
+            config = {
+                "feeds": [
+                    {
+                        "name": "critical papers",
+                        "url": "https://example.test/primary",
+                        "fallback_urls": ["https://example.test/fallback"],
+                        "critical": True,
+                        "fetch_retries": 1,
+                        "fallback_fetch_retries": 1,
+                        "weight": 6,
+                    }
+                ],
+                "ranking_terms": {"robot": 5},
+                "concept_links": {"机器人学习": ["robot"]},
+                "required_terms_any": ["robot"],
+                "min_score": 1,
+                "max_items_per_run": 5,
+            }
+            (vault / "40_Sources" / "sources.json").write_text(
+                json.dumps(config), encoding="utf-8"
+            )
+            args = argparse.Namespace(
+                vault=str(vault),
+                config="",
+                timeout=1,
+                sleep=0,
+                fetch_retries=3,
+                retry_backoff=0,
+                min_score=0,
+                max_items=0,
+                max_age_days=0,
+                include_seen=False,
+                include_old=False,
+                dry_run=False,
+            )
+            with mock.patch.object(
+                MODULE,
+                "fetch",
+                side_effect=[urllib.error.URLError("rate limited"), rss],
+            ):
+                result = MODULE.run(args)
+
+            self.assertEqual(result, 0)
+            state = json.loads((vault / "state" / "seen.json").read_text(encoding="utf-8"))
+            self.assertEqual(state["last_failures"], [])
+            self.assertEqual(len(state["last_recoveries"]), 1)
+            self.assertEqual(state["last_selected_count"], 1)
+            digest = Path(state["last_output_path"]).read_text(encoding="utf-8")
+            self.assertIn("- **源异常**：1", digest)
+            self.assertIn("- 自动恢复信息源：1", digest)
+
     def test_critical_source_failure_blocks_partial_digest(self):
         rss = b"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><item>
