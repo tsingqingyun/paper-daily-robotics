@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-19",
+  "source_digest": "30_Updates/2026-08-19 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "Q-Learning With World Models.md",
+    "Teach and Grow An Agent-Centered Architecture for General Robot Learning.md",
+    "PRISM Precision and contact-rich Real-world Industrial Skill dataset with Multim.md",
+    "CompCPZ Preserving Multi-Modal Intent in Language-Guided Robot Manipulation.md",
+    "Reuse Before You Retrieve Diagnosing Headroom and Complementarity for Test-Time.md",
+    "Prism-GRPO Faster VLA Policy Optimization via Splitting Same-outcome Groups.md",
+    "PROBE Manipulation-Grounded Visual Question Answering with VLM Agents.md",
+    "Inference-Time Attention Steering for Vision-Language-Action Driving Models.md",
+    "FetchMan Learning Visual Humanoid Loco-Manipulation Policies from Simulated Expe.md",
+    "LIBERO-VIFO Benchmarking the Capability and Safety of Visual Cue Following in Vi.md",
+    "EATR-Stereo Embodiment-Aware Routing of Paired Stereo Evidence for Humanoid Visi.md",
+    "MANIGUARD A Benchmark and Data Suite for Specification-Grounded Safety Evaluatio.md",
+    "Repetition as Reinforcement Enhancing Sample Efficiency via Instant Episode Repe.md",
+    "HODAgent Towards On-Demand, Responsive Humanoids for Physical World Human Intera.md",
+    "Plug-and-Play Traffic Element Awareness for End-to-End Autonomous Driving.md",
+    "Calibrated Predictive Safety for Heterogeneous Robots An Action-Conditioned JEPA.md",
+    "HiPHI A Large-Scale Benchmark for High-Precision Human Motion and Object-Interac.md",
+    "RoboStriker Latent-Space Strategic Games for Autonomous Humanoid Boxing.md",
+    "OVIP-SG Open-Vocabulary Instance-Preserving Scene Graphs for Mapping and Retriev.md",
+    "Scalix Uncertainty-Aware Scale-Consistent Monocular SLAM.md",
+    "ORPA Online Residual Policy Adaptation for Robot Manipulation Control with Human.md",
+    "Exposing the Long-tail in Embodied Urban Navigation via Scalable Learning from I.md",
+    "Beyond Similarity Matching Structured Reasoning for Open-Vocabulary Referring Se.md",
+    "Pre-training Visual Dexterity in Simulation.md"
+  ],
+  "published_item_count": 24
+}
