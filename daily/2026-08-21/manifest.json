@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-21",
+  "source_digest": "30_Updates/2026-08-21 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "The Embodiment Gap in Robot Foundation Models.md",
+    "Revisiting the Push-T Robot Manipulation Task with Agentic Robotics.md",
+    "RoboEdit Turning Human Manipulation Videos into Scalable Robot Experience.md",
+    "Vision-Language Models for Egocentric Video From Hand-Object Interaction to Embo.md",
+    "Human-Centric Intelligence in the Era of Foundation Models A Survey.md",
+    "EATR-Stereo Embodiment-Aware Token Routing of Paired Stereo Evidence for Humanoi.md",
+    "LabDex A Hierarchical Benchmark for Dexterous Manipulation in Laboratories.md",
+    "A Comprehensive Review of Large Language Models for Nanophotonics From Surrogate.md",
+    "Beyond Placement and Articulation Usage-Driven Code Scenes for Embodied Interact.md",
+    "Breaking the weakest link to evade vision language models.md",
+    "CL4D Contrastive Language-4D Pretraining for Vision-Language Reasoning in Dynami.md",
+    "Orienteering Problem with Uncertain Time-Varying Rewards Framework and Benchmark.md",
+    "GigaBrain-WBC-0.5 A Behavior World Model for Robust Whole-Body Control with Envi.md",
+    "OVIP-SG Open-Vocabulary Instance-Preserving Scene Graphs for Mapping and Retriev.md",
+    "GS-VLA Plug-and-Play Viewpoint Canonicalization for Frozen VLA Policies via Gaus.md",
+    "SoftVTBench A Deformation-Aware Visuo-Tactile Dataset and Benchmark for Deformab.md",
+    "Role-Conditioned Sub-Token Routing for Efficient Vision-Language-Action Policies.md",
+    "Iterative Grasp Pose Refinement A Deep Reinforcement Learning Approach for 2D Vi.md",
+    "Beyond the Transcript Detecting Covert Co ordination in Latent Multi-Agent Commu.md",
+    "Dream2Reward Transition-Alignment Reward Models from Positive Demonstrations for.md",
+    "Reinforced Planning with Latent World Models.md",
+    "HarnessEval-W Agentifying the Evaluation of Visual Worlds.md",
+    "Hydra-0 Action Flow for Generalist World Modeling and Control.md",
+    "Beyond Instrument Motion Recognizing Tissue Tension Toward Surgical Skill Assess.md"
+  ],
+  "published_item_count": 24
+}
