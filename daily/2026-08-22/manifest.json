@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-22",
+  "source_digest": "30_Updates/2026-08-22 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "EXIMO VLM Guided Exploration of VLA Policies.md",
+    "Fine-Tuning VLAs with Self-Demonstrated Generative Control for Multi-Task Manipu.md",
+    "RoMAN-Flow Taming Autoregressive Normalizing Flows for Offline Reinforcement Lea.md",
+    "OrthoSkillVLA Continual Skill Learning via Gradient-Informed Skill Subspace Adap.md",
+    "DreamHand Repurposing Video Diffusion Models for Occlusion-Robust Egocentric 3D.md",
+    "Planning-Oriented End-to-End Autonomous Driving Architectures, Evaluation, and E.md",
+    "Towards Professional Tennis Styles for Humanoid Robots with Adaptive Motion Plan.md",
+    "GOAG Generative and Object-Agnostic Grasp Planner for Dexterous Robotic Manipula.md",
+    "Robust Cross-Modal Foundation Model Perception for Underwater Robots under Degra.md",
+    "What Matters for Latent Actions in Robot Learning.md",
+    "Hybrid Feedback Sampling for Sample-Efficient Model Predictive Control.md",
+    "Multi-Tool Robotics Enables In-Situ Sample Manipulation for Time-Resolved Synchr.md",
+    "Towards general embodied intelligence integrating large language models, knowled.md",
+    "When Automata Meet Streams Temporal Logic Compilation for Stream-Based Robotics.md",
+    "Video2DoorTraversal Push Door Traversal via Simulated Door Twins.md",
+    "DECOWAM Decoupled Whole-Body World-Action Model for Legged Mobile Manipulation.md",
+    "PVRA A Pointwise Key-point Voting Framework for Robotic Assembly.md",
+    "Keeping the Franka Emika Panda alive a ROS 2 stack with a reliable position inte.md",
+    "World-Model-Grounded LLM Planning for AUV and ASV Navigation Near Offshore Wind.md",
+    "Effector-Centric NMPC of Tiltable-Multirotors for Offset-Free Omnidirectional Ae.md",
+    "An Irreducible Quantum Advantage in Aligning World Models with Reality.md",
+    "Learning the Right Abstraction Neural Reduced Dynamics for Complex Robot Control.md",
+    "DyG$ 2$T Modeling Object Dynamics with 3D Gaussian Temporal-Spatial Particle Gra.md",
+    "Multimodal Rapport Estimation in Real-World HRI.md"
+  ],
+  "published_item_count": 24
+}
