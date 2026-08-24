@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-24",
+  "source_digest": "30_Updates/2026-08-24 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "Just Noticeable Difference Modeling for Token Compression in Vision-Language-Act.md",
+    "ForeTime-VLA Causal Future-Token Distillation from a World Action Model for Conv.md",
+    "Stream3Dv2 Geometric-Semantic Fusion Enhanced Streaming Zero-Shot 3D Scene Under.md",
+    "PhysCaP Grounding Code-as-Policy Agent with Physics-Informed Exploration.md",
+    "Is Multimodal Speculative Decoding Ready for Diffusion-Based Parallel Drafting A.md",
+    "Humanoid Musical Robots as Experimental Interfaces for Music-Evoked Emotion.md",
+    "A Collaborative Multi-Modality Interaction for VLA-based End-to-End Autonomous D.md",
+    "Logic-VLA A Temporal Logic Conditioned Vision-Language-Action Model.md",
+    "Mining beyond Earth with Space Robots Exploration, Sampling, and Extraction.md",
+    "ViTacPhys Physical Property-Aware Grasping from Human Visual-Tactile Demonstrati.md",
+    "VT-MUSE Multimodal Unified Sequential Visuotactile Representation Learning for M.md",
+    "TaPeR Probabilistic Recovery of Sparse Task Precedence Graphs from a Handful of.md",
+    "Rethinking Demonstration Unlearning in Imitation Learning for Robotics.md",
+    "Beyond Imitation Self-Improving Robot Policies via Off-Policy Q-Planning.md",
+    "Belief Without Behavior Measuring the Translation of Theory of Mind into Coordin.md",
+    "Neural-Primitive An Efficient End-to-end Local Planner with Primitive-based Imit.md",
+    "GhostTac Manipulating Tactile Sensors without Physical Contact.md",
+    "AudioWorldSim Realistic Binaural Audio Datasets For World Models.md",
+    "Koala Gripper Co-designing Robotic Grippers and Data-Capture Devices for Scaling.md",
+    "DECOWAM Decoupled Whole-Body World-Action Model for Legged Mobile Manipulation.md",
+    "CertVLA Certified Defense against Physical Visual Attacks for Vision-Language-Ac.md",
+    "SRL-MPC Shape-Aware Reinforcement Learned Model Predictive Control.md",
+    "Teaching is a Process The TOSS Framework for Modeling Human Teaching Decisions i.md",
+    "Natural Sit-to-Stand Motion Synthesis For Humanoids via Guided Assistance Curric.md"
+  ],
+  "published_item_count": 24
+}
