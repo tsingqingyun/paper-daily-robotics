@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-25",
+  "source_digest": "30_Updates/2026-08-25 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "Just Noticeable Difference Modeling for Token Compression in Vision-Language-Act.md",
+    "ForeTime-VLA Causal Future-Token Distillation from a World Action Model for Conv.md",
+    "Humanoid Musical Robots as Experimental Interfaces for Music-Evoked Emotion.md",
+    "PhysCaP Grounding Code-as-Policy Agent with Physics-Informed Exploration.md",
+    "A Survey on Foundations and Frontiers of Multimodal Agentic Frameworks Technique.md",
+    "Stream3Dv2 Geometric-Semantic Fusion Enhanced Streaming Zero-Shot 3D Scene Under.md",
+    "Is Multimodal Speculative Decoding Ready for Diffusion-Based Parallel Drafting A.md",
+    "A Collaborative Multi-Modality Interaction for VLA-based End-to-End Autonomous D.md",
+    "Logic-VLA A Temporal Logic Conditioned Vision-Language-Action Model.md",
+    "OVIP-SG Open-Vocabulary Instance-Preserving Scene Graphs for Mapping and Retriev.md",
+    "Rethinking Demonstration Unlearning in Imitation Learning for Robotics.md",
+    "TaPeR Probabilistic Recovery of Sparse Task Precedence Graphs from a Handful of.md",
+    "VT-MUSE Multimodal Unified Sequential Visuotactile Representation Learning for M.md",
+    "ViTacPhys Physical Property-Aware Grasping from Human Visual-Tactile Demonstrati.md",
+    "Mining beyond Earth with Space Robots Exploration, Sampling, and Extraction.md",
+    "Neural-Primitive An Efficient End-to-end Local Planner with Primitive-based Imit.md",
+    "Beyond Imitation Self-Improving Robot Policies via Off-Policy Q-Planning.md",
+    "GhostTac Manipulating Tactile Sensors without Physical Contact.md",
+    "Can you see how I learn Human observers' inferences about Reinforcement Learning.md",
+    "Belief Without Behavior Measuring the Translation of Theory of Mind into Coordin.md",
+    "Future Dynamic 3D Reconstruction Toward 3D World Modeling with Disentangled Ego-.md",
+    "AudioWorldSim Realistic Binaural Audio Datasets For World Models.md",
+    "Koala Gripper Co-designing Robotic Grippers and Data-Capture Devices for Scaling.md",
+    "Update-Free On-Policy Steering via Verifiers.md"
+  ],
+  "published_item_count": 24
+}
