@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-24",
+  "source_digest": "30_Updates/2026-09-24 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "MATE Multi-Agent Virtual Teleoperation Platform for Humanoid Collaboration Data.md",
+    "MedVLA A Hierarchical Vision-Language-Action Framework for Closed-Loop Precision.md",
+    "MachEmbodied-U0 Unified Understanding and Generation Model for Embodied Intellig.md",
+    "HOTICE Whole-Body Humanoid Object Transportation in Cluttered Environments.md",
+    "RouteRLT Learning When and Which RL Specialist Should Control a Vision-Language-.md",
+    "SafeLoop Risk-Aware Rollback for Vision-Language-Action Manipulation.md",
+    "TriWorldBench A Tri-View Consistency Perspective on Embodied World Models.md",
+    "RoboTwin-Phys Do WAMs and VLAs Understand the Physical World.md",
+    "RoboFollow Unveiling the Instruction Following Mirage in Embodied Agents.md",
+    "IndustrialVLA-Bench A Traceable Multi-Axis Evaluation of Open Robot Policy Model.md",
+    "HABILIS Brain 0 Geometry-Change Supervision for Vision-Language-Action and Resid.md",
+    "Imperfection for Precision Upcycling Imperfect Data for High-Precision Robotic M.md",
+    "Metric-Bench Exploring In-context Spatial Metric Reasoning in VLMs for Indoor Sc.md",
+    "VisForce Visual Grounding of Current and Desired Forces for Goal-Conditioned Dex.md",
+    "CableVLA Simulation-Privileged Global-Local Representation Learning for Cable Ro.md",
+    "VLAQuantBench Closed-Loop Evaluation of Post-Training Quantization for Vision-La.md",
+    "Generalizing Manipulation Skills with a Local Coding Agent.md",
+    "Hierarchical Floorplan-Guided Vision-Language Exploration for Embodied Question.md",
+    "The Cartesian Hand In-Hand Manipulation with All-Linear Fingers.md",
+    "Norm2Tex Augmenting Visuo-Tactile Simulations with Texture.md",
+    "Benchmarking Robots for Everyday Environments From Lab Experiments to Real-World.md",
+    "PAKT Physically-Aligned Kinesthetic Teaching for Reinforcement Learning.md",
+    "MotionForge A Data Generation Pipeline and Large-Scale Benchmark for Long-Horizo.md",
+    "SAM-V Geometry-Aware Segment Anything for Multi-View Instance Segmentation.md"
+  ],
+  "published_item_count": 24
+}

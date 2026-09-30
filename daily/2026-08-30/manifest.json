@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-30",
+  "source_digest": "30_Updates/2026-08-30 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "PredVLA A Sub-Million-Parameter Predictive-Coding Policy for Robot Manipulation.md",
+    "CLAP Cross-Embodiment Video World Models are Zero-Shot Physical Simulators.md",
+    "FlashVLA Streaming Action Decoding for Fast and Asynchronous VLA Inference.md",
+    "Riemann-1.0 An Embodied World Action Model for Physical AI.md",
+    "TrapVLA Trapping Vision-Language-Action Models in Configured Failure Modes.md",
+    "SpatialCrafter Single Image World Modeling with Generative 3D Proxies.md",
+    "GRAFT Grounded and Efficient Online Reinforcement Adaptation for Fine-Grained Ro.md",
+    "TemporalFlow-VLA Learning Physically Grounded Execution History for Long-Horizon.md",
+    "FLARE A Failure-Aware Framework for Autonomous Correction and Recovery in Visual.md",
+    "LM-X Explainable Action Modeling with Progress, Event, and Uncertainty Predictio.md",
+    "Embodied Scene Rearrangement Planning.md",
+    "Rapid On-Robot Learning for Dynamic Manipulation Skills Robot Juggling.md",
+    "Reconstructing Humans and Objects in Interaction using Large Reconstruction Mode.md",
+    "Tensegrity Continuum Robots Enable Task-Adaptive Morphologies for Cooperative Be.md",
+    "Zero-WAM In-Context World-Action Modeling from Human Videos for Open-Ended Task.md",
+    "Surgical Video Generation From Diffusion to World Models A Survey.md",
+    "Diffusion Policies for Short-Horizon Planning in Robot Crowd Navigation.md",
+    "Active sensing to characterize the heterogeneity of plant stress.md",
+    "Decoupling Planning and Control for Instructable Agents.md",
+    "Memory Anchors for Continual Robot Learning.md",
+    "WALL-SS Scaling Long-horizon World Models via Next-Scale Autoregression.md",
+    "4DStreamCtrl Interactive Video Generation with Online 4D Control.md",
+    "DINOcular Self-Supervised Visuospatial Representations.md",
+    "Cross-Platform Benchmark of Neural 3D Reconstruction for Autonomous Laboratory R.md"
+  ],
+  "published_item_count": 24
+}

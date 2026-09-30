@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-27",
+  "source_digest": "30_Updates/2026-08-27 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "One Policy, Many Embodiments Unified Camera-Centric Action Geometry Pre-training.md",
+    "MA-VLA Multi-Arm Vision-Language-Action Model for Collaboration and Compositiona.md",
+    "V-Link Recovering Lost Visual Representations in Action DiT for Vision-Language-.md",
+    "TrAct Bridging Robot Control and Visual Prediction with Visual Tracks.md",
+    "Hierarchical Skill Retrieval for Data-Efficient Adaptation of Vision-Language-Ac.md",
+    "GaussianDream++ Efficient 3D Gaussian World Modeling for Robotic Manipulation.md",
+    "RA-VLA Retrieval-Augmented VLA for Test-Time Adaptation.md",
+    "StreamPI Streaming Multimodal Temporal Modeling for Vision-Language-Action Model.md",
+    "Fast Generative Grasping via Lie Group-Constrained MeanFlow.md",
+    "$R 3$ Training Robots to Reason in Natural Language via Reinforcement Learning.md",
+    "Gripper-aware Vision Language Action Models.md",
+    "LM-X Explainable Action Modeling with Progress, Event, and Uncertainty Predictio.md",
+    "Fiber Optic Sensing Glove for High Performance Dexterous Manipulation Capture.md",
+    "GaussVLA Geometry-Aware Spatial Reasoning for Vision-Language-Action Model.md",
+    "PonderPounce A Pretrained MLLM as an Episode Context Engine for Robot Control.md",
+    "From Seeing to Acting Smart Glasses as First-Person Intelligence Platforms.md",
+    "LAC Linear and Angular Compliance for Humanoid Whole-body Control.md",
+    "Zero-WAM In-Context World-Action Modeling from Human Videos for Open-Ended Task.md",
+    "Simultaneous inference of environmental and interaction forces in collective dyn.md",
+    "GaussianWAM Distilling Geometry and Semantics from 3D Gaussian Fields into World.md",
+    "DreamLedger Execution-Settled Credit Files for World-Model Imagination in Robot.md",
+    "ConfAL-WM Confidence-Guided Active Learning for Action-Conditioned World Models.md",
+    "Agentic Game Development as a Verifiable Trajectory Data Engine for Scaling Worl.md",
+    "PIVOT A Multi-Trajectory Dataset and Testbed for Pose, Intrinsics, and Novel Vie.md"
+  ],
+  "published_item_count": 24
+}

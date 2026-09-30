@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-29",
+  "source_digest": "30_Updates/2026-08-29 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "CLAP Cross-Embodiment Video World Models are Zero-Shot Physical Simulators.md",
+    "TrapVLA Trapping Vision-Language-Action Models in Configured Failure Modes.md",
+    "SpatialCrafter Single Image World Modeling with Generative 3D Proxies.md",
+    "Reconstructing Humans and Objects in Interaction using Large Reconstruction Mode.md",
+    "Surgical Video Generation From Diffusion to World Models A Survey.md",
+    "Pre-training Visual Dexterity in Simulation.md",
+    "Zero-WAM In-Context World-Action Modeling from Human Videos for Open-Ended Task.md",
+    "MLLM-Routed Heterogeneous Ensembles for Robust Cross-Dataset Image Classificatio.md",
+    "Unified Prediction and Planning via Conflict-Aware Disjoint Parameter Training.md",
+    "4DStreamCtrl Interactive Video Generation with Online 4D Control.md",
+    "DINOcular Self-Supervised Visuospatial Representations.md",
+    "Egosurg Arbitrary view synthesis for egocentric replay of operating room workflo.md",
+    "Think3D Thinking with Space for Spatial Reasoning.md",
+    "4DSynth Controllable Procedural World Synthesis for Dynamic Embodied Simulation.md",
+    "Parameter Efficient Continual Learning for Sparse Event-Based Transformers.md",
+    "R2M-Bench Evaluating Revisit Memory via Relative Consistency in Interactive Vide.md",
+    "PAWBench How Far Are We from Probabilistically Aligned World Modeling.md",
+    "GameWAM A World Action Model for Video Games.md",
+    "I spent a day at a robot “carnival” in Shanghai. Here’s what I saw..md",
+    "Successive Capacity Growth Task-Complexity-Driven Width and Depth Expansion for.md",
+    "High-Fidelity Face Content Recovery via Tamper-Resilient Versatile Watermarking.md",
+    "DALE-CT Depth-Aware 2D Slice Encoders Learn an Anatomical World Model of Chest C.md",
+    "Knowledge Distillation Driven Semantic NOMA with GAN Refinement for 6G Robotic V.md",
+    "Latent Spatial Memory for Video World Models.md"
+  ],
+  "published_item_count": 24
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-23",
+  "source_digest": "30_Updates/2026-09-23 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "Grounded Action Model 3D Grounding as a Foundation for Robotics.md",
+    "Bridge3D Enabling Vision-Language-Action Models to See and Act in 3D.md",
+    "LIBERO-VPro Benchmarking Closed-Loop Visual Robustness of Robotic Foundation Mod.md",
+    "Opt2VLA Force-Aware Vision-Language-Action for Contact-Rich Humanoid Whole-Body.md",
+    "Think Like a World Model, Act Like a VLA Distilling World-Model Representations.md",
+    "Phrase-Level Robotic Guqin Performance Bimanual Motion Planning and Audio-Tactil.md",
+    "CARE Experience-Guided Atomic Corrective Execution for Vision-Language-Action Po.md",
+    "Imagine-RL Residual-Confidence-Guided Cross-Attention for World-Model-Augmented.md",
+    "Topology-Informed Visual Prompting For Vision Language Action Policies.md",
+    "HumynexSurg-1 A Curated Expert Liposuction Dataset.md",
+    "AR-WAM A Visual-Conditioned Agent-Ready World Action Model for Robotic Manipulat.md",
+    "ARSTAG An Agentic Real2Sim2Real System for Task-Specific Robot Data Generation.md",
+    "ActiveArena Benchmarking and Understanding Active Perception in Robotic Manipula.md",
+    "Beyond Appearance Shifts Task-Semantic Action Calibration for VLA Models.md",
+    "CompVLA A Variable Compliance Vision-Language-Action Model for Contact-rich Mani.md",
+    "ReVeal A Reconstruction-Aware Real-to-Sim Framework for VLA Policy Evaluation.md",
+    "EgoWild2Dex Learning Dexterous Robotic Manipulation from In-the-Wild Human Exper.md",
+    "ME-VLM A Unified VLM for Embodied Cognition and Agent Coordination.md",
+    "InsertAnything Generalizable Contact-Rich Precision Insertion from Simulation to.md",
+    "Zeva-Ego Egocentric Mid-Training with In-Context Causal Learning for Robot Manip.md",
+    "TaskAnchor Grounding Task State in Reactive VLAs for Long-Horizon Manipulation.md",
+    "MIGU Multimodal Instruction Grounding under Uncertainty for Manipulation Plannin.md",
+    "vla.simd Efficient CPU Inference for Language-Conditioned Manipulation.md",
+    "A Topological Representation with Object-Path Graphs for Open-Vocabulary Instanc.md"
+  ],
+  "published_item_count": 24
+}

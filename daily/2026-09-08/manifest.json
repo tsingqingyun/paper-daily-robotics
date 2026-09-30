@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-08",
+  "source_digest": "30_Updates/2026-09-08 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "RoboSPA Can VLA Models Go Beyond Simple Scenes and Short-Horizon Tasks.md",
+    "LIBERO-RECOVER Beyond Task Success Towards Failure Recovery in Robotic Manipulat.md",
+    "MultihopSpatial Multi-hop Compositional Spatial Reasoning Benchmark for Vision-L.md",
+    "VLA-Precision Asymmetric Co-Bootstrapping for Efficient Real-World Online RL of.md",
+    "Towards Neuro-Symbolic Procedural Reasoning for Long-Horizon Vision-Language-Act.md",
+    "Evaluating Uncertainty and Quality of Vision-Language-Action-enabled Robots.md",
+    "EmbodiedLGR Integrating Lightweight Graph Representation and Retrieval for Seman.md",
+    "Knowing When to Stop Adaptive Action Chunking via Internal Cross-Attention Dynam.md",
+    "CoFreeVLA Short-Horizon Collision-Free Dual-Arm Manipulation via Vision-Language.md",
+    "Squint Fast Visual Reinforcement Learning for Sim-to-Real Robotics.md",
+    "RL-VLA$ 3$ A Flexible and Asynchronous Reinforcement Learning Framework for VLA.md",
+    "CF-VLA Efficient Coarse-to-Fine Action Generation for Vision-Language-Action Pol.md",
+    "FailureSpot Label-Efficient Timestamp-Level Failure Detection for Vision-Languag.md",
+    "Reasoning Without Inference Cost Latent Semantic Scaffolding for Robot VLA Polic.md",
+    "Development of a Humanoid Robot Prototype for Multimodal Human-Robot Interaction.md",
+    "Rapid On-Robot Learning for Dynamic Manipulation Skills Robot Juggling.md",
+    "MINT A Unified Model for World-Space Camera and Hand Motion Estimation from Scal.md",
+    "RedVLA Physical Red Teaming for Vision-Language-Action Models.md",
+    "SCRIPT Scalable Diffusion Policy with Multi-stage Training for Language-driven P.md",
+    "One Word, Different Action A Real-Robot Benchmark for Language-Conditioned Embod.md",
+    "From Language Models to World-Acting Systems Progress and Limits of Agentic AI a.md",
+    "HiSfM Disambiguating Structure-from-Motion via Scaffold-Anchored Hierarchical Re.md",
+    "Continual Field-Adaptive Models (CFAMs) for Post-Deployment Physical AI.md",
+    "Open-Set 3D Scene Graphs for Field Robotics An Outdoor Case Study.md"
+  ],
+  "published_item_count": 24
+}

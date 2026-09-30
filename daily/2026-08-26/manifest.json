@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-26",
+  "source_digest": "30_Updates/2026-08-26 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "Pointing-VLA Typed Spatial Grounding Interfaces for Vision-Language-Action Manip.md",
+    "InstructMove A Text-Indispensable Benchmark for Instruction-Following Manipulati.md",
+    "TrAct Bridging Robot Control and Visual Prediction with Visual Tracks.md",
+    "Hierarchical Skill Retrieval for Data-Efficient Adaptation of Vision-Language-Ac.md",
+    "Act with Intent Distilling Behavior Intent for Vision-Language-Action Models.md",
+    "Learning to Act While Waiting RL Finetuning of Generalist Robot Policies Under I.md",
+    "Enhancing Sim2Real Transfer for Torque-Controlled Robots through Real2Sim Dynami.md",
+    "SuperMap A Spatio-Temporal SLAM System for Visual-Language Navigation.md",
+    "Gripper-aware Vision Language Action Models.md",
+    "Triplet2Track A Hierarchical System with Object-Centric Representations for Reli.md",
+    "Fiber Optic Sensing Glove for High Performance Dexterous Manipulation Capture.md",
+    "PonderPounce A Pretrained MLLM as an Episode Context Engine for Robot Control.md",
+    "OmniCAD A Large-Scale Benchmark for 3D Spatial Reasoning in Robotics Assemblies.md",
+    "From Seeing to Acting Smart Glasses as First-Person Intelligence Platforms.md",
+    "ROS2SmolVLA Enabling Small Vision-Language-Action Models for Integration into In.md",
+    "Budget-Constrained Embodied Perception Four Resource Walls and a Pre-Registered.md",
+    "MobilePA-Bench Benchmarking Mobile Planner Agents on Complex Real-World Tasks.md",
+    "GaussianWAM Distilling Geometry and Semantics from 3D Gaussian Fields into World.md",
+    "DreamLedger Execution-Settled Credit Files for World-Model Imagination in Robot.md",
+    "Reward-Free Continual Adaptation for Resilient Space Robots.md",
+    "Think Only When Needed Prompt-Authority Control for Selective Slow-Path Interven.md",
+    "Macro-Action Topological Navigation under Noisy Localization using Reinforcement.md",
+    "UniMem Unifying Multimodal Memory and Control for Vision-Language-Action Models.md",
+    "Physics Filtering Favors the Generalization of Robot Learning.md"
+  ],
+  "published_item_count": 24
+}

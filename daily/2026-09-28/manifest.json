@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-28",
+  "source_digest": "30_Updates/2026-09-28 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "VLaRL Augmenting Vision-Language-Action Models with Simulation-Trained Latent-Co.md",
+    "InternW0-$Δ$ A World Action Model Bridging Predictive Dynamics and Actions with.md",
+    "Towards VLA-Dreamer Refining VLA Behavior Using World Models.md",
+    "Enabling a Unified Cross-Domain Representation for Two-Finger Gripper Manipulati.md",
+    "TACTIC Understanding Tactile Encoders and Conditioning for Contact-rich Robot Ma.md",
+    "Kintsugi-VLA Turning Failed Robot Rollouts into Recovery Data through Interventi.md",
+    "FRAM Trajectory-Guided Visual Feature Selection for Compact Language-Conditioned.md",
+    "RoboMonitor Label-Efficient Runtime Monitoring of Robot Task Execution via Predi.md",
+    "DualManip Agentic Dynamic Manipulation via Dual-Path Semantic Reasoning and Geom.md",
+    "PHASE Compliance-Enabled Tactile Phase Retrieval for Few-Shot Insertion Learning.md",
+    "ManiVid Unified and Explainable Forensic Analysis of Manipulated Videos.md",
+    "GraspTwin Zero-Shot Task-Oriented Grasp Optimization via a Digital Twin.md",
+    "Transformer-based Monte Carlo Localization in Construction Meshes.md",
+    "DyMD Preserving Interaction Dynamics through Distribution Matching Distillation.md",
+    "SciHorizon-eLab An Agentic Protocol-to-Task Compiler for Scalable Benchmarking o.md",
+    "Causeway Restoring Task Accessibility for Instruction Switching in VLA Policies.md",
+    "RAPID Robot Agentic Programming from Demonstrations.md",
+    "WorldTS World Modeling for Multimodal Covariate-aware Time Series Forecasting.md",
+    "The Linear Representation Hypothesis for Vision-Language-Action Models.md",
+    "VisTacAlign Co-Training Dexterous Policies on Tactile Human and Robot Demonstrat.md",
+    "Fast Plans, Faithful Actions Closing the Planning-Execution Gap in Hierarchical.md",
+    "Skip the Talk, Re-Focus on Vision Latent Reasoning for Reasoning Segmentation in.md",
+    "NavGen Visual Generative Models as a Scalable Data Engine for Embodied 3D Naviga.md",
+    "Rolling-WAM World Action Models with Rolling Imagination.md"
+  ],
+  "published_item_count": 24
+}

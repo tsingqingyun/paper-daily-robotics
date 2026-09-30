@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-12",
+  "source_digest": "30_Updates/2026-09-12 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "ReactHuman A Physics-Grounded Benchmark for Human-Like Reactive Decision-Making.md",
+    "HuRo Robotizing Human Videos for Scalable VLA Pretraining.md",
+    "ActSafeGuard Differentiable and Training-Aligned Constraint Enforcement for Flow.md",
+    "IMLE-VLA Fast Single-Step Action Generation for Vision-Language-Action Policies.md",
+    "2AM Grounding Agent-Side Memory as Guidance for Steerable Action Models in Long-.md",
+    "UniMPA A Unified Memory-Prediction-Action Model via Action-Grounded Transition M.md",
+    "Rapid Learning of Dexterous In-Hand Pen Writing through Real-Time Jacobian Estim.md",
+    "SwarmNxt Open-source Software-Hardware Platform for Fast and Agile Aerial Swarms.md",
+    "FARM Reading Failure Signals from the Internal Predictive States of a Frozen Rob.md",
+    "Harness Robotic OS A Unified Embodied-Agent Runtime for Closed-Loop Quadruped In.md",
+    "When Validation Stops Learning Auditing Update Admission for Continual Embodied.md",
+    "Safety-aware Skill Adaptation for Reinforcement Learning in Dynamic Environments.md",
+    "Morphology-Aware Human Motion Retargeting for Wheeled-Humanoid Loco-Manipulation.md",
+    "ObstaDiff Generalizable Diffusion Policy Learning via Obstacle-aware Representat.md",
+    "Memory as Plans World-Action Modeling with Memory-Grounded Planning.md",
+    "SEED-UMI Sharing the Exoskeleton between human and robot for onE-to-one Dexterou.md",
+    "LTLDiff Finite Linear Temporal Logic-Guided Data Generation and Diffusion Polici.md",
+    "BridgeMatch Conditional Transport Bridges in Matching Matrix Space for 3D Deform.md",
+    "Beyond Noise Steering Dual-Latent Space Reinforcement Learning for Generative Ro.md",
+    "MuJoCable Reduced-Order Surface-Routed Cable Transmission for Tendon-Driven Robo.md",
+    "Autonomy, Social Norms, and Alignment Towards a Developmental Framework for Auto.md",
+    "Your Model Already Knows Don't Teach It, Learn to Ask It Soft Prompting for Few-.md",
+    "Topological Necessities Mechanism-Invariant Strategic Subgoals for Cross-Embodim.md",
+    "Adversarial Training for Tabular Credit Scoring A Multi-Attack Robustness Evalua.md"
+  ],
+  "published_item_count": 24
+}

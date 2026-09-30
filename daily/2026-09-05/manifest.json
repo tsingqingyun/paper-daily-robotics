@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-05",
+  "source_digest": "30_Updates/2026-09-05 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "Toward Unified Robot Learning Bridging Representation, Vision-Language-Action, a.md",
+    "TrAct Bridging Robot Control and Visual Prediction with Visual Tracks.md",
+    "WISE World-model-guided Imagination Scheduling for Efficient Post-training of Vi.md",
+    "FWBC-VLA Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation.md",
+    "GIFT Guided Intermediate Feature Training via Action-Oriented Structural Supervi.md",
+    "Sensing Which Modality Matters Evidence-Gated Regularization for Robust VLA Poli.md",
+    "ProAct Harnessing Streaming Motion Generation and Agentic Reasoning for Real-Tim.md",
+    "R2S-Eval Robot Evaluation with Real-to-Sim Calibration via Vision-Language Model.md",
+    "Scaling Bimanual Household Manipulation from 1,500 hours of Demonstrations to On.md",
+    "MINERVA How Small Can a Manipulation Policy Be and Still Solve LIBERO.md",
+    "GPU-Accelerated Astrodynamics World Models for Spacecraft Rendezvous and Proximi.md",
+    "FailBench How Reliable are VLMs at Judging Robot Task Success.md",
+    "MulDP Multimodal Diffusion Policy for Autonomous Quadruped Parkour Navigation ac.md",
+    "Continuous Actions from Discrete Minds Latent-Aligned Planning for End-to-End Au.md",
+    "CoMAP Co-Evolving World Models and Agent Policies for LLM Agents.md",
+    "Rethinking 3D Noise Learning 3D-Aware Video Priors via Optimization-Free Morphol.md",
+    "RoboTok An Internet-Scale Data Engine for Human Demonstration Retrieval and Dext.md",
+    "AnyBox Efficient Zero-Shot 9DoF Pose Estimation of Boxes for Robotic Manipulatio.md",
+    "Establishing a Dynamic Multimodal HRI Dataset for Engagement Analysis with a Hum.md",
+    "Decentralized Vision-Based Autonomous Aerial Wildlife Monitoring.md",
+    "WorldReward Reward Modeling for Camera-Conditioned World Models.md",
+    "Learning Terrain-Aware Whole-Body Control for Perceptive Legged Loco-Manipulatio.md",
+    "A Taxonomy of Construction Task Activities for Robot Workers.md",
+    "Theoretical Foundations and Effective Algorithms for Policy-Aware Simulator Lear.md"
+  ],
+  "published_item_count": 24
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-07",
+  "source_digest": "30_Updates/2026-09-07 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "Toward Unified Robot Learning Bridging Representation, Vision-Language-Action, a.md",
+    "WISE World-model-guided Imagination Scheduling for Efficient Post-training of Vi.md",
+    "GIFT Guided Intermediate Feature Training via Action-Oriented Structural Supervi.md",
+    "FWBC-VLA Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation.md",
+    "MINERVA How Small Can a Manipulation Policy Be and Still Solve LIBERO.md",
+    "Scaling Bimanual Household Manipulation from 1,500 hours of Demonstrations to On.md",
+    "R2S-Eval Robot Evaluation with Real-to-Sim Calibration via Vision-Language Model.md",
+    "Sensing Which Modality Matters Evidence-Gated Regularization for Robust VLA Poli.md",
+    "GPU-Accelerated Astrodynamics World Models for Spacecraft Rendezvous and Proximi.md",
+    "Continuous Actions from Discrete Minds Latent-Aligned Planning for End-to-End Au.md",
+    "MulDP Multimodal Diffusion Policy for Autonomous Quadruped Parkour Navigation ac.md",
+    "FailBench How Reliable are VLMs at Judging Robot Task Success.md",
+    "Rethinking 3D Noise Learning 3D-Aware Video Priors via Optimization-Free Morphol.md",
+    "WorldReward Reward Modeling for Camera-Conditioned World Models.md",
+    "Establishing a Dynamic Multimodal HRI Dataset for Engagement Analysis with a Hum.md",
+    "RoboTok An Internet-Scale Data Engine for Human Demonstration Retrieval and Dext.md",
+    "Revisiting Topological Graphs for Macro Action based Closed-loop Reinforcement L.md",
+    "DropClick Semi-Automated One-Click Segmentation for Agricultural Robotic Data.md",
+    "Toward Physically Grounded JEPA World Models for Goal-Conditioned Robotic Planni.md",
+    "Adaptive Vision-Language Grasping via Composable Foundation Priors and Generaliz.md",
+    "IRWOZ 2.0 A Large Language Model-driven Dialogue Dataset for Industrial Robot Co.md",
+    "Semantic Bayesian World Models.md",
+    "Rethinking World Models for Safety-Critical Embodied Systems.md",
+    "Building Pretraining Data for World Models An Unreal Engine-Based Pipeline for A.md"
+  ],
+  "published_item_count": 24
+}

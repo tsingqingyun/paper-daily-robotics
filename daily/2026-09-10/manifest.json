@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-10",
+  "source_digest": "30_Updates/2026-09-10 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "EvoNav-Bench Benchmarking Lifelong Navigation in Evolving Environments.md",
+    "mjorbit A Simulation Framework for Space Robotics.md",
+    "NutriBench-Kitchen Benchmarking Embodied AI for Nutrition Management.md",
+    "SyncWorld Visual Calibration Enables World Models as Zero-Shot Simulators.md",
+    "Remotely Detectable Keyed Communication through Motion.md",
+    "Graph-Based Safe Reinforcement Learning for Multi-Agent Systems with Time-Varyin.md",
+    "TASG-Explore Traversability-Aware Sector-Guided Exploration for Ground Robot on.md",
+    "CALIPER Clean Scenes Cannot Rank Physical Inference in Pretrained Visual Represe.md",
+    "P$ 2$Calib Utilizing Pattern Priors for LiDAR-Camera Extrinsic Calibration.md",
+    "How Long Until Your Robot Ignores You A Safety Benchmark for LLM Orchestrators i.md",
+    "FOCI Policy Focus on Object-Centric Interactions for Relational Manipulation Pol.md",
+    "CASD Chunk-Aligned Semantic Distillation for Multi-StageRobot Manipulation.md",
+    "From Where to How Continuous 4D Interaction Forecasting from Egocentric Video.md",
+    "PGMT Perceptive General Motion Tracking for Humanoid Robots.md",
+    "RoboCousin Build Your Own Simulation Playground for Robust Bimanual Robotic Mani.md",
+    "SPOT Spatial Perception-Oriented Long-Horizon Humanoid Teleoperation.md",
+    "Dex-X Learning Visual-Tactile Dexterous Manipulation From Human Videos with Simu.md",
+    "Decentralized Safe Multi-Agent Reinforcement Learning via Predictive Shielding.md",
+    "D3ARC Time-Critical Distributed Disaster Detection for Asynchronous Cooperative.md",
+    "DYAD A Multimodal Dataset of Co-Located Human Assistance.md",
+    "HiBRIDGE A Hierarchical Bayesian Neural Network Framework for Interpretable Dial.md",
+    "AgentIdeaBench Benchmarking Scientific Ideation in the Agent Era.md",
+    "Social Intuition vs. Machine Reasoning Anticipating Human-Robot Interaction from.md",
+    "LightSplat Real-Time High-Fidelity 3D Gaussian SLAM with Loop Closure.md"
+  ],
+  "published_item_count": 24
+}

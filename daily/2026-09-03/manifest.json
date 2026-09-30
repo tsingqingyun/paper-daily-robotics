@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-03",
+  "source_digest": "30_Updates/2026-09-03 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "ZETA A Controlled Study of Zero-Shot Cross-Embodiment VLA Transfer for Tabletop.md",
+    "Towards Zero-Shot Transfer Across Embodiments For Driving VLAs.md",
+    "Monocular Depth Estimation from a Single Image Progress and Opportunities.md",
+    "EmbodiedSkills A Unified Framework for Orchestrating, Training, and Deploying VL.md",
+    "Knowing When to Stop Adaptive Action Chunking via Internal Cross-Attention Dynam.md",
+    "Latent Cluster Analysis for Vision-Language-Action Models.md",
+    "Facet-0 A Robotic Foundation Model for Contact-Rich Precise Manipulation.md",
+    "REFACTOR-VLA Unsupervised Library Learning of Typed Motor Programs.md",
+    "ZimaBlue Evolving Generalizable World Action Models through Scalable Video Pre-t.md",
+    "Provably Safe Sim-to-Real Transfer.md",
+    "Evaluating Multimodal LLMs as Generalist Vision-Language-Action Agents for Drone.md",
+    "HINT Human-Intent Inception for Long-Horizon Robot Manipulation.md",
+    "Towards Generalizable Visually Grounded Exploration of Household Devices.md",
+    "Toward Robust LiDAR Semantic Segmentation for Real-World Deployment Evaluation u.md",
+    "Spatially Aware World Action Model via Geometric Latent Diffusion.md",
+    "TAPVid-MV A Benchmark for Tracking Any Point in 3D Across Multiple Views.md",
+    "A Survey on Self-Improving Test-Time Intelligence Feedback-Driven Adapting, Lear.md",
+    "Adaptive Depth-Map-Guided Bundle Adjustment for Correspondence-Free Multi-View P.md",
+    "AM-Bench A Modular Simulation Suite and Benchmark for Aerial Manipulation Policy.md",
+    "Beyond Object Selection Markerless Gaze-based Robot Placement at Arbitrary Posit.md",
+    "Exploring Collaboration between a language and a non-language agent.md",
+    "Discriminative World Models for Web Agents.md",
+    "MV-dVRK A Multi-Viewpoint Benchmark for Spatial Surgical Perception.md",
+    "Real-Time Dynamics-Based Torque-Sampling MPPI for Compliant and Force Aware Mani.md"
+  ],
+  "published_item_count": 24
+}

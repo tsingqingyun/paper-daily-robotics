@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-31",
+  "source_digest": "30_Updates/2026-08-31 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "Beyond Data Scaling Representation-Centric Continued Pre-training for Vision-Lan.md",
+    "PHR-VLA Planning Horizon Reasoning for Vision-Language-Action Models.md",
+    "Beyond Relative Geometry Metric-Aware Geometry Perception for Robotics.md",
+    "GRAFT Grounded and Efficient Online Reinforcement Adaptation for Fine-Grained Ro.md",
+    "SpatialCrafter Single Image World Modeling with Generative 3D Proxies.md",
+    "DeicticVLA Unifying Instruction Modes Based on Language and Deictic Gestures in.md",
+    "Coordinated Motion Planning for Multi-Arm Systems via Iterative LQ Games.md",
+    "WM-R1 Training GUI Agents to Reason and leverage World Models with Reinforcement.md",
+    "LUCID An Agentic AI Framework on Digital-Twin in the Loop for QoS-Guaranteeing R.md",
+    "CoCoBench A Cooperative Coordination Benchmark for Embodied Multi-Agent Task Pla.md",
+    "A-PAIR A Benchmark and Identity-Consistent Grounding Framework for Air-Ground Cr.md",
+    "PanelShield Verifiable Closed-Loop Safe Planning for Robotic Industrial Panel Op.md",
+    "Training-free Suction Grasp Detection for Deformed Aseptic Cartons Using Vision-.md",
+    "Stay Seated Learning Omnidirectional Humanoid Locomotion on a Passive Mobile Cha.md",
+    "uScenes A Multimodal RGB and 3D Sonar Dataset for Underwater Robot Perception.md",
+    "Iron Intent-Aligned and Retrospective Dual Learning Framework for Enhancing Gene.md",
+    "4DSynth Controllable Procedural World Synthesis for Dynamic Embodied Simulation.md",
+    "Chart2SVG Editable SVG Generation from Raster Chart Images.md",
+    "Online Joint Calibration of Steering Offset and Planar LiDAR Extrinsics for Whee.md",
+    "FUSED Forensic-Semantic Mixture-of-Experts for AI Inpainting Detection and Local.md",
+    "CEDAR Automata as Verifiable Interfaces for Language-Guided Embodied Action.md",
+    "Quanta Perception as Probabilistic Events.md",
+    "VidParse Online Parsing of Egocentric Procedures Like a Pro.md",
+    "Ultra Low-Power, Lightweight, Probabilistic RSS-Based Path Reconstruction A Syst.md"
+  ],
+  "published_item_count": 24
+}

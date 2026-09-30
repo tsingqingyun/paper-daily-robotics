@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-04",
+  "source_digest": "30_Updates/2026-09-04 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "FineVLA Fine-Grained Instruction Alignment for Steerable Vision-Language-Action.md",
+    "ZETA A Controlled Study of Zero-Shot Cross-Embodiment VLA Transfer for Tabletop.md",
+    "Towards Zero-Shot Transfer Across Embodiments For Driving VLAs.md",
+    "Harness VLA Steering Frozen VLAs into Reliable Manipulation Primitives via Memor.md",
+    "SEBA Sample-Efficient Black-Box Attacks on Visual Reinforcement Learning.md",
+    "NS-VLA Towards Neuro-Symbolic Vision-Language-Action Models.md",
+    "Latent Cluster Analysis for Vision-Language-Action Models.md",
+    "What Drives Success in Physical Planning with Joint-Embedding Predictive World M.md",
+    "Glass Segmentation with Fusion of Learned and General Visual Features.md",
+    "HINT Human-Intent Inception for Long-Horizon Robot Manipulation.md",
+    "Toward Robust LiDAR Semantic Segmentation for Real-World Deployment Evaluation u.md",
+    "Spatially Aware World Action Model via Geometric Latent Diffusion.md",
+    "Exploring Collaboration between a language and a non-language agent.md",
+    "A Survey on Self-Improving Test-Time Intelligence Feedback-Driven Adapting, Lear.md",
+    "TAPVid-MV A Benchmark for Tracking Any Point in 3D Across Multiple Views.md",
+    "Minimal Solvers for Full-DoF Motion Estimation from Asynchronous Differential Sf.md",
+    "Real-Time Dynamics-Based Torque-Sampling MPPI for Compliant and Force Aware Mani.md",
+    "MV-dVRK A Multi-Viewpoint Benchmark for Spatial Surgical Perception.md",
+    "MultiGraspNet A Multitask 3D Vision Model for Multi-gripper Robotic Grasping.md",
+    "Discriminative World Models for Web Agents.md",
+    "A Data-Driven Multimodal Method for Early Detection of Coordinated Abnormal Beha.md",
+    "Mol-JEPA A multimodal Joint Embedding Predictive Architecture for Molecules.md",
+    "Sim2Signal Sim-to-Real Benchmarks for Traffic Signal Control.md",
+    "Modeling What Changes Sparse, Residual World Models for Object-Centric Manipulat.md"
+  ],
+  "published_item_count": 24
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-09",
+  "source_digest": "30_Updates/2026-09-09 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "Measuring Language Transfer in Robot Policies Adding Greek to a Cosmos3 Vision-L.md",
+    "Monkey See, Can Monkey Do A Benchmark for Evaluating Robot Skill Learning by Obs.md",
+    "WorldAgen Unified State-Action Prediction with Test-Time World Model Training.md",
+    "ComVLA Communication-Aware Split Inference for VLA Models in 6G-Connected Roboti.md",
+    "ICI-VLA In-Context Imitation with Spatiotemporally Aligned Demonstrations for Vi.md",
+    "DeCAL Towards Physically-Grounded Dexterous Vision-Language-Action Models via Co.md",
+    "Visible-Reachable Workspace for Perception-Aware Humanoid Design.md",
+    "TANGO Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Lan.md",
+    "BIFTA Brain-Inspired Few-Shot Tactile Adaptation for Unknown Sensors.md",
+    "PhysReal Learning Real-World Deformable Object Physics via Hybrid Constitutive M.md",
+    "OpenWAM An Open, Modular Exploration Towards Systematic World-Action Model Pretr.md",
+    "CLAMP Constrained Decoding for Vision-Language Embodied Planning.md",
+    "Safe Task Planning with Long-Term Graph Memory for Embodied Agents.md",
+    "Bridging Language and Physics Automated Design of Continuum Robots with Large La.md",
+    "Proxy Policy Steering.md",
+    "Observe Before You Alert Adaptive Driver Alerting with Vision-Language Models.md",
+    "A Multimodal Label Forecasting Method for Aperiodic Visuo-Motor Time Series.md",
+    "MemForest Efficient Agent Memory Management via EventTree Partitioning and Progr.md",
+    "3DWay Generalizing Robot Manipulation via 3D Consistent Waypoints.md",
+    "OmniNav Robust Long-Horizon Target Navigation in Dynamic Environments.md",
+    "CosmoH2G A Hand-to-Gripper Transfer Dataset and Baseline Method for Object Manip.md",
+    "CAST Alternating State-Value Targets and Expanded Policy Gradients for Model-Bas.md",
+    "Towards Embodied Air-Ground Cooperative Object Search Benchmark, Dataset and Age.md",
+    "VeriScene Reconstructing Crime Scenes from Legal Evidence via World-Model Agent.md"
+  ],
+  "published_item_count": 24
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-11",
+  "source_digest": "30_Updates/2026-09-11 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "HaWMPO Hallucination-Aware World Model-based Policy Optimization for Generalist.md",
+    "FolDeX A Physical-World Benchmark for Long-Horizon Robotic Manipulation of Defor.md",
+    "Modality-Decoupled Federated Learning for Privacy-Preserving Embodied Intelligen.md",
+    "Show-Harness Just a VLM Agent Can Play Robots.md",
+    "Valerant An Automatic Navigable Game Map Generator via Action-Conditioned World.md",
+    "DUET-DINO Simultaneous Cross-View World Modeling for Latent Planning in Robot Ma.md",
+    "GTA-2 A Multi-VLM Framework for Synthesizing Robot Manipulation Skills via Groun.md",
+    "Proxy Policy Steering.md",
+    "Frequency-Conditioned Flow Matching for Vision-Language-Action Models.md",
+    "Time-Frequency Geometric Cross-Attention for Chunked Vision-Language-Action Mode.md",
+    "InstantMimic A High Performance System for Learning Physics-based Skills in Seco.md",
+    "No Free Checker A Survey of Verifiers for Robot Policies.md",
+    "A Decade of Bayesian Optimization for Controller Tuning and Robot Learning Tutor.md",
+    "Semigroup-JEPA Latent Dynamics Consistency for Zero-Shot Physics Generalization.md",
+    "RoboDrop Curating VLA Post-Training Data via Local Gradient Compatibility.md",
+    "Compact Visuotactile World Models for Lifting Prediction, Reward Alignment, and.md",
+    "Automatic Reproducible Camera Intrinsic Calibration.md",
+    "ViBe Visual Behavior Adaptation for Perceptive Humanoid Whole-Body Control.md",
+    "PccDiffuser Multi-solution Motion Planning for Continuum Robots.md",
+    "MuJoCable Reduced-Order Surface-Routed Cable Transmission for Tendon-Driven Robo.md",
+    "PGMT Perceptive General Motion Tracking for Humanoid Robots.md",
+    "Programmable World Model.md",
+    "Adaptive Shared Control with Online Bounded-Rational Human Behavior Estimation.md",
+    "Assembling Two Parts in One Hand.md"
+  ],
+  "published_item_count": 24
+}

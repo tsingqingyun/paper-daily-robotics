@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-01",
+  "source_digest": "30_Updates/2026-09-01 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "AGM Achievement-Grounded Memory for Closed-Loop Agents with Frozen VLA Policies.md",
+    "CometVLA Co-Training on an Embodied Data Pyramid towards Physical Understanding.md",
+    "$ mathcal{N}_0$-Foundation Towards the Age of Tactile Intelligence.md",
+    "AdaVLA Adaptive Step Flow Matching for Training-free Acceleration of Vision-Lang.md",
+    "LightNav-0 Eliciting VLM Spatial Intelligence for Generalist Embodied Navigation.md",
+    "AnyWorld Factorized Egocentric World Models for Cross-Embodiment Generalization.md",
+    "DREAM Deployment-Time Demonstration Generation via Real-to-Sim for Scalable Poli.md",
+    "Zeva In-Context Causal Learning for Generalizable Embodied Manipulation.md",
+    "Motus2 A Self-Evolving General World Model for Dexterous Manipulation.md",
+    "Matrix-Game 3.5 Enhancing Real-Time Streaming Interactive World Models with Patc.md",
+    "Self-Aware Active Learning Enables Continual Improvement in Autonomous Driving.md",
+    "Temporal Forcing 4D Representation Alignment for Vision-Language-Action Models.md",
+    "Towards a Systems Foundation for Agentic Skills Architecture, Lifecycle, and Sec.md",
+    "Behavior-Skill A Fine-Grained Benchmark for Evaluating Vision-Language-Action Po.md",
+    "SmoothRL Online Reinforcement Learning During Asynchronous Execution.md",
+    "DriftingVLA Native One-Step Vision-Language-Action Generation via Per-Dimension.md",
+    "Agri-Sim Agricultural Simulation Platform for Embodied Intelligence Evaluation i.md",
+    "Brain-Language-Action (BLA) Models Language-Conditioned EEG for Robotics Control.md",
+    "When Robots Mishear Us Mapping the Safety Risks of Voice-Controlled Embodied AI.md",
+    "EMERGE-Policy A Robot Mind Emerges Beyond a Single Policy.md",
+    "Toward Trustworthy Robot-Assisted Sliding Palpation for Shallow Vessel Localisat.md",
+    "Adversarial Calibration Attack on Autonomous Vehicles.md",
+    "CAER Causal Action Effect Reweighting for World Model Training.md",
+    "T3S Improving Multi-Task Reinforcement Learning with Task-Specific Feature Selec.md"
+  ],
+  "published_item_count": 24
+}

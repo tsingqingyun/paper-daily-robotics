@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-18",
+  "source_digest": "30_Updates/2026-09-18 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "Uni-LaDiR Latent Diffusion Unifies Multimodal Reasoning.md",
+    "WorldContact A Contact-Centric World Model for Scalable Robot Learning.md",
+    "rMuscle Robotic Muscle Memory for Efficient Vision-Language-Action Model Inferen.md",
+    "Towards High-DoF Dexterous Manipulation through VLA Post-Training.md",
+    "FASA Feedback-Aware Sampling Adaptation for Efficient Diffusion-Based VLA Models.md",
+    "PointZero 3D Point Track Completion for Learning Transferable 3D Dynamics.md",
+    "AI Smart Glasses for Wearable Intelligence From Egocentric Sensing to Agentic Pe.md",
+    "Improving Cross-embodiment Transfer in Latent Action Models with Action-Similari.md",
+    "Co-VLA Consensus-based Federated Training for Vision-Language-Action Models.md",
+    "Affective Shared Autonomy Temporal Affect Dynamics and Subjective Evaluation in.md",
+    "Calibrated Probabilistic Obstruction Reasoning with Vision-Language Models for G.md",
+    "Recovering Aggressively Pruned Vision-Language-Action Models with Offline Hidden.md",
+    "Runtime Safety Filtering for Two-Terminal Hazards in Robotic Battery Recycling.md",
+    "EmbodiedMind Adaptive Data Curation and Prefix-Tree Reinforcement Learning for E.md",
+    "Quantifying Mechanical Intelligence in Legged Robots with Information Theory.md",
+    "ParticleSplat Self-supervised Object-centric Latent Particle Splatting.md",
+    "Compliance for Free Learning Identifiable Impedance via Bilateral Teleoperation.md",
+    "CitySTAR Structured and Topology-Aware Reasoning for Open-Vocabulary Urban 3D Gr.md",
+    "WeaveRL Weaving Reconstruction into Scene-Aware Fabrics for Perceptive Reinforce.md",
+    "MAGMA-GEN Validated Recovery Supervision from Ambiguous Failures via Counterfact.md",
+    "MaskHarness-WAM Instance-Grounded Harnessing for Long-Horizon Robot Manipulation.md",
+    "BinoGen Scaling egocentric binocular data for embodied visual perception and lea.md",
+    "LIFD Anchored Diffusion for 3D-Aware Scene Memory in Robotic Manipulation.md",
+    "Predict Before You Deploy Offline Prediction of Quantization-Induced Task Degrad.md"
+  ],
+  "published_item_count": 24
+}
