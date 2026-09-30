@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["daily_take", "trend", "papers"],
+  "properties": {
+    "daily_take": {"type": "string", "minLength": 1, "maxLength": 600},
+    "trend": {"type": "string", "minLength": 1, "maxLength": 400},
+    "papers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "tldr",
+          "problem",
+          "method",
+          "evidence",
+          "why_it_matters",
+          "caveat",
+          "verdict"
+        ],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "tldr": {"type": "string", "minLength": 1, "maxLength": 500},
+          "problem": {"type": "string", "minLength": 1, "maxLength": 500},
+          "method": {"type": "string", "minLength": 1, "maxLength": 700},
+          "evidence": {"type": "string", "minLength": 1, "maxLength": 500},
+          "why_it_matters": {"type": "string", "minLength": 1, "maxLength": 500},
+          "caveat": {"type": "string", "minLength": 1, "maxLength": 500},
+          "verdict": {"type": "string", "minLength": 1, "maxLength": 400}
+        }
+      }
+    }
+  }
+}

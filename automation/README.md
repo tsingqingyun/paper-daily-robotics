@@ -4,7 +4,7 @@ This directory contains the allowlisted, reusable source for generating and publ
 
 ## Included
 
-- `scripts/update_info_flow.py`: fetch, rank, deduplicate, and write the digest and detail notes.
+- `scripts/update_info_flow.py`: fetch, rank, deduplicate, run one batched semantic explanation, and write the digest and detail notes.
 - `scripts/migrate_ai_notes_compact.py`: migrate historical AI digests and only their referenced notes to compact format v2 without deleting, moving, or renaming files.
 - `scripts/start_ai_deep_read.py`: create an idempotent, one-paper-per-directory L1/L2 deep-reading card and manifest from a selected daily paper note.
 - `scripts/check_vault_links.py`: validate Obsidian Wiki links before publication.
@@ -18,7 +18,7 @@ Local environment files, state, logs, memories, credentials, backup files, and u
 
 ## Run
 
-Requirements: zsh, Git, and Python 3.9 or newer using only the standard library.
+Requirements: zsh, Git, Python 3.9 or newer using only the standard library, and an authenticated Codex CLI for semantic paper explanations.
 
 1. Place the `scripts`, `tests`, and `config/sources.json` files in an Obsidian vault as shown here; rename `config` to `40_Sources`.
 2. Put `templates/Paper Deep Read.md` in `90_Templates`, `deep-reading/README.md` in `10_MOCs` as `AI 论文深读工作流.md`, and `deep-reading/index-template.md` in `50_Papers` as `精读论文索引.md`.
@@ -29,13 +29,16 @@ The wrapper will not publish if generation validation or the vault link gate fai
 
 The arXiv search API remains the primary paper source. If it is rate-limited or unavailable, the updater automatically switches to the configured official arXiv category RSS feeds, records the recovery in the digest and state, and continues ranking the merged paper set. If both the primary endpoint and every fallback for a critical source fail, the run preserves the previous verified state and blocks publication instead of publishing a low-quality news-only digest.
 
-## Note format v2
+## Note format v3
 
-- Daily digest: a 30-second conclusion, 5 must-read papers, 7 scan items, then a compact archive list.
-- Paper note: one-line takeaway, problem, method or novelty, abstract-supported evidence, limitation, and research connections.
-- Evidence boundary: summaries are extractive from the abstract. Missing evidence or limitations are explicitly marked for full-text review.
+- Daily digest: an opinionated daily take, trend line, 5 explained must-read papers, 7 scan items, then a compact archive list.
+- Paper note: plain-language TL;DR, concrete bottleneck, mechanism, evidence, research relevance, caveat, and verdict.
+- Evidence boundary: one Codex call explains all selected abstracts in Chinese, but may not add facts absent from the abstract. Missing evidence is stated explicitly.
+- Quality gate: if Codex is unavailable, times out, or returns an incomplete paper set, publication stops and preserves the previous verified state.
 - Provenance: the original abstract and source metadata stay available in a folded section.
 - Optional precision layer: every paper card points to an L1 focused check or L2 full deep read; deep notes live separately so daily reading stays compact.
+
+The explanation structure adapts the Apache-2.0 `Nech07/dailypaper` review workflow. See `OPEN_SOURCE_NOTICES.md` for attribution.
 
 To migrate existing AI notes, first preview the scope with `python3 scripts/migrate_ai_notes_compact.py --vault "/path/to/vault" --dry-run`, then rerun without `--dry-run`. The migration only rewrites AI digests and their referenced paper notes; it never deletes, moves, or renames files.
 

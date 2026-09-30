@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Migrate AI daily digests and their referenced notes to compact format v2.
+"""Migrate AI daily digests and their referenced notes to the current compact format.
 
 Only notes referenced by ``* AI Embodied Intelligence Update.md`` are in scope.
 No file is deleted, moved, or renamed.

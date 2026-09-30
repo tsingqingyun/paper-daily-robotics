@@ -3,6 +3,7 @@ set -u
 
 PROJECT="${AI_DAILY_VAULT:-${0:A:h:h}}"
 PYTHON="${AI_DAILY_PYTHON:-/usr/bin/python3}"
+CODEX="${AI_DAILY_CODEX:-/opt/homebrew/bin/codex}"
 UPDATE_SCRIPT="$PROJECT/scripts/update_info_flow.py"
 LINK_CHECK_SCRIPT="$PROJECT/scripts/check_vault_links.py"
 PUBLISH_SCRIPT="$PROJECT/scripts/publish_ai_daily.py"
@@ -106,7 +107,15 @@ PY
 }
 
 run_update() {
-  "$PYTHON" "$UPDATE_SCRIPT" --vault "$PROJECT" --timeout 60 --sleep 3 --fetch-retries 3 --retry-backoff 2
+  "$PYTHON" "$UPDATE_SCRIPT" \
+    --vault "$PROJECT" \
+    --timeout 60 \
+    --sleep 3 \
+    --fetch-retries 3 \
+    --retry-backoff 2 \
+    --explainer codex \
+    --codex-bin "${AI_DAILY_CODEX:-$CODEX}" \
+    --explain-timeout 420
 }
 
 current_state_is_today() {
@@ -203,7 +212,8 @@ for target in references:
     note_text = note.read_text(encoding="utf-8")
     if (
         "format_version: 2" not in note_text
-        or "## 关键点" not in note_text
+        or "summary_method: codex-abstract-explanatory" not in note_text
+        or any(marker not in note_text for marker in ("## 问题", "## 创新点或方法", "## 证据", "## 局限", "## 研究关联", "<details>", "<summary>原始摘要与来源</summary>"))
         or (
             "[[AI 论文深读工作流|" not in note_text
             and "- **L2 精读**：" not in note_text

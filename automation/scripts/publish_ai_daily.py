@@ -38,6 +38,8 @@ PUBLIC_AUTOMATION_FILES = {
     "automations/ai/README.public.md": "automation/README.md",
     "automations/ai/env.example.zsh": "automation/env.example.zsh",
     "automations/ai/automation.example.toml": "automation/codex/automation.toml.example",
+    "automations/ai/paper_explanation.schema.json": "automation/config/paper_explanation.schema.json",
+    "automations/ai/OPEN_SOURCE_NOTICES.md": "automation/OPEN_SOURCE_NOTICES.md",
     "90_Templates/Paper Deep Read.md": "automation/templates/Paper Deep Read.md",
     "10_MOCs/AI 论文深读工作流.md": "deep-reading/README.md",
     "50_Papers/精读论文索引.md": "deep-reading/index-template.md",

@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-30",
+  "source_digest": "30_Updates/2026-09-30 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "AeroManip-VLA Scalable Vision-Language-Action Learning for Aerial Manipulation w.md",
+    "Explore, Execute, Evolve A Skill Acquisition and Reuse Loop for Embodied Agents.md",
+    "MotorMind Scaffolding General Vision Language Models for Zero-Shot Robot Manipul.md",
+    "RawVLA Embodied Neural Image Signal Processor For Robotic Manipulation.md",
+    "Counterfactual Video Generation Enables Scalable Humanoid Loco-Manipulation.md",
+    "Urgent Actions Go First Urgency-Aware Denoising for Real-Time VLA Control.md",
+    "EgoHumanoid-V2 Human-to-Humanoid Transfer of Coordinated Whole-Body Skills for L.md",
+    "Real2Gym Building Gyms from Videos, Bringing Skills to Robots.md",
+    "Remember What You Did Action-History Memory with Dual-Expert Denoising for Long-.md",
+    "CrossBFM Distilling a Shared Latent Behavior Space Across Humanoid Embodiments.md",
+    "Faster and Better Benchmark Bugs and Design Limitations Distort the Evaluation o.md",
+    "When to Adapt Multi-Signal Domain Shift Detection for Efficient Training-Free Ad.md",
+    "VLALight A Vision-Language-Action Model for Traffic Signal Control.md",
+    "DROM A Language-Guided Diffusion Framework for Multi-Skill Robotic Manipulation.md",
+    "RoXDrive Closed-Loop Reinforcement Learning for End-to-End Autonomous Driving vi.md",
+    "UniAfford Token-Routed Multitask Learning for Generalizable 2D-3D Affordance Per.md",
+    "Disentangling Spurious Correlations in Vision-Language-Action Models via Predict.md",
+    "Beyond Token Importance Preserving Spatial Scaffolds for Efficient Vision-Langua.md",
+    "Exemplar2VQA A Scalable Exemplar-Driven Visual Question Answering Generation Fra.md",
+    "Video2STL Grounding VLM-Generated Temporal Specifications for Robot Learning.md",
+    "Taming VLAs under Robot Execution Errors Self-Compensation and Stress Testing.md",
+    "MultiTalk Scaling Full-Duplex Speech Models to Long, Multi-Party, Bilingual Conv.md",
+    "LongLive-Plug Once-for-All Distillation for Video Generation.md",
+    "WorldLine Action-Driven Visual Simulation for Robotic Manipulation.md"
+  ],
+  "published_item_count": 24
+}

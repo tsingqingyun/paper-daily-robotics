@@ -46,6 +46,14 @@ def key_point(body: str, label: str) -> str:
     return match.group(1).strip() if match else "待从全文核验。"
 
 
+def first_key_point(body: str, *labels: str) -> str:
+    for label in labels:
+        value = key_point(body, label)
+        if value != "待从全文核验。":
+            return value
+    return "待从全文核验。"
+
+
 def resolve_source(vault: Path, note: str) -> Path:
     source = Path(note).expanduser()
     if not source.is_absolute():
@@ -184,9 +192,9 @@ def create_deep_read(vault: Path, note: str, level: str) -> tuple[Path, bool]:
         "url_yaml": flow.yaml_string(url),
         "title": title,
         "title_yaml": flow.yaml_string(title),
-        "problem": key_point(body, "问题"),
-        "method": key_point(body, "创新点 / 方法"),
-        "abstract_evidence": key_point(body, "证据"),
+        "problem": first_key_point(body, "卡在哪里", "问题"),
+        "method": first_key_point(body, "关键解法", "创新点 / 方法"),
+        "abstract_evidence": first_key_point(body, "拿什么证明", "证据"),
         "concepts": " ".join(f"[[{concept}]]" for concept in concepts) or "待连接。",
     }
     rendered = render_template(template, values)

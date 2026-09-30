@@ -5,5 +5,7 @@ export AI_DAILY_GITHUB_BRANCH="main"
 # Optional overrides:
 # export AI_DAILY_VAULT="/path/to/your/obsidian-vault"
 # export AI_DAILY_PYTHON="/usr/bin/python3"
+# export AI_DAILY_CODEX="/opt/homebrew/bin/codex"
+# export AI_DAILY_CODEX_MODEL=""
 # export https_proxy="http://127.0.0.1:PORT"
 # export http_proxy="$https_proxy"

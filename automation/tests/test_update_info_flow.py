@@ -72,20 +72,73 @@ class UpdateInfoFlowTests(unittest.TestCase):
             items.append(item)
         note = MODULE.note_body(items[0], items[0]["concepts"], items[0]["score"], "2026-08-12")
         self.assertIn("format_version: 2", note)
-        self.assertIn("## 关键点", note)
-        self.assertIn("**创新点 / 方法**", note)
+        self.assertIn("## 问题", note)
+        self.assertIn("## 局限", note)
+        self.assertIn("## 证据", note)
+        self.assertIn("## 研究关联", note)
+        self.assertIn("## 创新点或方法", note)
         self.assertIn("<summary>原始摘要与来源</summary>", note)
         self.assertIn("[[AI 论文深读工作流|", note)
         self.assertIn("scripts/start_ai_deep_read.py", note)
         self.assertNotIn("## 我的判断", note)
 
         digest = MODULE.digest_body("2026-08-12", items, 100, [], "机器人学习 15", 0)
+        self.assertIn("format_version: 2", digest)
+        self.assertIn("30 秒结论", digest)
         self.assertIn("## 必读 5 篇", digest)
         self.assertIn("## 扫读 7 篇", digest)
         self.assertIn("## 其余存档 3 篇", digest)
         self.assertIn("[[AI 论文深读工作流|", digest)
         for item in items:
             self.assertIn(item["link_path"], digest)
+
+    def test_codex_explainer_requires_complete_grounded_batch(self):
+        item = {
+            "id": "paper-1",
+            "title": "Grounded Robot Policy",
+            "summary": "Robot policies fail under latency. We propose asynchronous control.",
+            "concepts": ["机器人学习"],
+        }
+        response = {
+            "daily_take": "今天的重点是推理延迟下的机器人控制。",
+            "trend": "研究正在把部署约束直接写进策略学习。",
+            "papers": [
+                {
+                    "id": "paper-1",
+                    "tldr": "这项工作让机器人在等待慢模型输出时仍能持续行动。",
+                    "problem": "通用策略的推理延迟会让机器人停顿。",
+                    "method": "异步控制器利用中间信息持续产生动作。",
+                    "evidence": "摘要未给出可核查的结果数字。",
+                    "why_it_matters": "它直接处理真实机器人部署中的时延。",
+                    "caveat": "摘要没有说明不同延迟强度下是否稳定。",
+                    "verdict": "值得定向核查延迟建模与真实机实验。",
+                }
+            ],
+        }
+        with tempfile.TemporaryDirectory() as temp_dir:
+            vault = Path(temp_dir)
+            schema = vault / "automations" / "ai" / "paper_explanation.schema.json"
+            schema.parent.mkdir(parents=True)
+            schema.write_text("{}", encoding="utf-8")
+            codex = vault / "codex"
+            codex.write_text("binary", encoding="utf-8")
+
+            def fake_run(command, **kwargs):
+                output = Path(command[command.index("--output-last-message") + 1])
+                output.write_text(json.dumps(response, ensure_ascii=False), encoding="utf-8")
+                return mock.Mock(returncode=0, stdout="", stderr="")
+
+            with mock.patch.object(MODULE.subprocess, "run", side_effect=fake_run):
+                briefing = MODULE.codex_explain_papers(
+                    [item],
+                    vault=vault,
+                    run_date="2026-08-27",
+                    codex_bin=str(codex),
+                    timeout=30,
+                )
+        self.assertIn("推理延迟", briefing["daily_take"])
+        self.assertEqual(item["summary_method"], "codex-abstract-explanatory")
+        self.assertIn("持续行动", item["compact_summary"]["tldr"])
 
     def test_fetch_retries_transient_network_failure(self):
         side_effects = [urllib.error.URLError("temporary"), FakeResponse(b"ok")]
