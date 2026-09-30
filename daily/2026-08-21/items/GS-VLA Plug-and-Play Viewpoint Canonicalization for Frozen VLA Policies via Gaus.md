@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "视觉语言动作模型 VLA", "具身智�
 > [!summary] 一句话结论（基于摘要）
 > Our experiments show that even a small displacement of the camera mount can reduce the success rate on the LIBERO benchmark from about 90% to about 10% in the worst case.
 
-## 关键点
+## 问题
 
-- **问题**：To address this, viewpoint shifts are reformulated as a localized novel-view synthesis problem.
-- **创新点 / 方法**：This paper proposes a lightweight, plug-and-play framework that improves robustness to viewpoint shifts in Vision-Language-Action (VLA) policies without policy retraining.
-- **证据**：Our experiments show that even a small displacement of the camera mount can reduce the success rate on the LIBERO benchmark from about 90% to about 10% in the worst case.
-- **局限**：摘要未明确说明；需阅读全文核查。
+To address this, viewpoint shifts are reformulated as a localized novel-view synthesis problem.
+
+## 创新点或方法
+
+This paper proposes a lightweight, plug-and-play framework that improves robustness to viewpoint shifts in Vision-Language-Action (VLA) policies without policy retraining.
+
+## 证据
+
+Our experiments show that even a small displacement of the camera mount can reduce the success rate on the LIBERO benchmark from about 90% to about 10% in the worst case.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 视觉语言动作模型 VLA 具身智能评测与基准
 - **筛选分数**：27
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-21/GS-VLA Plug-and-Play Viewpoint Canonicalization for Frozen VLA Policies via Gaus.md" --level full`
 

@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "智能体 Agent", "视觉语言动作模型
 > [!summary] 一句话结论（基于摘要）
 > We validate these insights on a physical Franka arm in a DROID setup spanning zero-shot manipulation and long-horizon chaining, where our router matches or exceeds a stronger model's success rate at up to 65% lower average latency.
 
-## 关键点
+## 问题
 
-- **问题**：However, we observe that doing so increases latency, token usage, and FLOPs while yielding uneven, often diminishing gains in downstream success, limiting where embodied agents can be deployed.
-- **创新点 / 方法**：We introduce DIRECT, a routing framework that uses multimodal scene context to allocate compute per prompt, improving the success--cost Pareto frontier over fixed model selection.
-- **证据**：We validate these insights on a physical Franka arm in a DROID setup spanning zero-shot manipulation and long-horizon chaining, where our router matches or exceeds a stronger model's success rate at up to 65% lower average latency.
-- **局限**：摘要未明确说明；需阅读全文核查。
+However, we observe that doing so increases latency, token usage, and FLOPs while yielding uneven, often diminishing gains in downstream success, limiting where embodied agents can be deployed.
+
+## 创新点或方法
+
+We introduce DIRECT, a routing framework that uses multimodal scene context to allocate compute per prompt, improving the success--cost Pareto frontier over fixed model selection.
+
+## 证据
+
+We validate these insights on a physical Franka arm in a DROID setup spanning zero-shot manipulation and long-horizon chaining, where our router matches or exceeds a stronger model's success rate at up to 65% lower average latency.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 智能体 Agent 视觉语言动作模型 VLA 具身智能评测与基准
 - **筛选分数**：37
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-12/DIRECT When and Where Should You Allocate Test-Time Compute in Embodied Planners.md" --level full`
 

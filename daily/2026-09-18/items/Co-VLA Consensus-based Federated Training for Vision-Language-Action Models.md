@@ -42,10 +42,10 @@ concepts: ["多模态基础模型", "视觉语言动作模型 VLA", "机器人�
 
 对拥有分散机器人数据的VLA团队，这是训练组织方式上的直接参考，重点价值在于如何协调异质客户端。
 
-- **概念**：[[多模态基础模型]] [[视觉语言动作模型 VLA]] [[机器人学习]]
+- **概念**：多模态基础模型 视觉语言动作模型 VLA 机器人学习
 - **筛选分数**：31
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-18/Co-VLA Consensus-based Federated Training for Vision-Language-Action Models.md" --level full`
 

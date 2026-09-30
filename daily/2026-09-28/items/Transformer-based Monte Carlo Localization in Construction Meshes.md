@@ -42,10 +42,10 @@ concepts: ["具身智能评测与基准"]
 
 对具身定位评测研究者，提供了将合成训练、学习观测模型与概率定位结合的案例；与 VLA 或操作世界模型的直接关联有限。
 
-- **概念**：[[具身智能评测与基准]]
+- **概念**：具身智能评测与基准
 - **筛选分数**：29
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-28/Transformer-based Monte Carlo Localization in Construction Meshes.md" --level full`
 

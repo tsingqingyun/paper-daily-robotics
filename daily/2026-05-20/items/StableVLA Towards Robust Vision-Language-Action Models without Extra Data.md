@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "智能体 Agent", "视觉语言动作模型
 > [!summary] 一句话结论（基于摘要）
 > Without requiring any extra data or augmentation strategies, IB- Adapter consistently improves over the baseline by an average of 30%, while adding fewer than 10M parameters, demonstrating notable efficiency and effectiveness.
 
-## 关键点
+## 问题
 
-- **问题**：It is infeasible to encompass all possible disturbances within the training dataset.
-- **创新点 / 方法**：To mitigate this issue, we propose a lightweight adapter module grounded in information theory, termed the Information Bottleneck Adapter (IB-Adapter), which selectively filters potential noise from visual inputs.
-- **证据**：Without requiring any extra data or augmentation strategies, IB- Adapter consistently improves over the baseline by an average of 30%, while adding fewer than 10M parameters, demonstrating notable efficiency and effectiveness.
-- **局限**：摘要未明确说明；需阅读全文核查。
+It is infeasible to encompass all possible disturbances within the training dataset.
+
+## 创新点或方法
+
+To mitigate this issue, we propose a lightweight adapter module grounded in information theory, termed the Information Bottleneck Adapter (IB-Adapter), which selectively filters potential noise from visual inputs.
+
+## 证据
+
+Without requiring any extra data or augmentation strategies, IB- Adapter consistently improves over the baseline by an average of 30%, while adding fewer than 10M parameters, demonstrating notable efficiency and effectiveness.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 智能体 Agent 视觉语言动作模型 VLA 具身智能评测与基准
 - **筛选分数**：30
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-05-20/StableVLA Towards Robust Vision-Language-Action Models without Extra Data.md" --level full`
 

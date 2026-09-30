@@ -20,19 +20,29 @@ concepts: ["具身智能评测与基准"]
 > [!summary] 一句话结论（基于摘要）
 > We introduce DreamHand, an offline clip-level framework that extracts features via a Deterministic Clean-Latent Encoder and decodes them with a Bidirectional Spatiotemporal Decoder.
 
-## 关键点
+## 问题
 
-- **问题**：Egocentric video offers scalable manipulation data for embodied AI, yet recovering metric 3D hand trajectories remains challenging due to severe object occlusion and frequent out-of-sight gaps.
-- **创新点 / 方法**：We introduce DreamHand, an offline clip-level framework that extracts features via a Deterministic Clean-Latent Encoder and decodes them with a Bidirectional Spatiotemporal Decoder.
-- **证据**：摘要未报告明确实验结论；需阅读全文核查。
-- **局限**：Egocentric video offers scalable manipulation data for embodied AI, yet recovering metric 3D hand trajectories remains challenging due to severe object occlusion and frequent out-of-sight gaps.
+Egocentric video offers scalable manipulation data for embodied AI, yet recovering metric 3D hand trajectories remains challenging due to severe object occlusion and frequent out-of-sight gaps.
+
+## 创新点或方法
+
+We introduce DreamHand, an offline clip-level framework that extracts features via a Deterministic Clean-Latent Encoder and decodes them with a Bidirectional Spatiotemporal Decoder.
+
+## 证据
+
+摘要未报告明确实验结论；需阅读全文核查。
+
+## 局限
+
+Egocentric video offers scalable manipulation data for embodied AI, yet recovering metric 3D hand trajectories remains challenging due to severe object occlusion and frequent out-of-sight gaps.
+
 
 ## 研究关联
 
-- **概念**：[[具身智能评测与基准]]
+- **概念**：具身智能评测与基准
 - **筛选分数**：30
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-22/DreamHand Repurposing Video Diffusion Models for Occlusion-Robust Egocentric 3D.md" --level full`
 

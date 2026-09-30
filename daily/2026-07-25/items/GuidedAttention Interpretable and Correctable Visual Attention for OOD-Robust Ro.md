@@ -20,19 +20,29 @@ concepts: ["世界模型", "机器人学习"]
 > [!summary] 一句话结论（基于摘要）
 > Experiments in simulation and the real world demonstrate that GuidedAttention consistently improves robot manipulation performance, particularly under positional and appearance out-of-distribution (OOD) conditions.
 
-## 关键点
+## 问题
 
-- **问题**：End-to-end visuomotor policies provide little opportunity for humans to understand or correct the policy's visual attention.
-- **创新点 / 方法**：We propose GuidedAttention, a visuomotor imitation learning framework that introduces interpretable and correctable visual attention as an explicit intermediate representation.
-- **证据**：Experiments in simulation and the real world demonstrate that GuidedAttention consistently improves robot manipulation performance, particularly under positional and appearance out-of-distribution (OOD) conditions.
-- **局限**：摘要未明确说明；需阅读全文核查。
+End-to-end visuomotor policies provide little opportunity for humans to understand or correct the policy's visual attention.
+
+## 创新点或方法
+
+We propose GuidedAttention, a visuomotor imitation learning framework that introduces interpretable and correctable visual attention as an explicit intermediate representation.
+
+## 证据
+
+Experiments in simulation and the real world demonstrate that GuidedAttention consistently improves robot manipulation performance, particularly under positional and appearance out-of-distribution (OOD) conditions.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[世界模型]] [[机器人学习]]
+- **概念**：世界模型 机器人学习
 - **筛选分数**：25
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-07-25/GuidedAttention Interpretable and Correctable Visual Attention for OOD-Robust Ro.md" --level full`
 

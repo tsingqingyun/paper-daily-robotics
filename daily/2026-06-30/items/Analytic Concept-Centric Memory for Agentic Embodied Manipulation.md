@@ -20,19 +20,29 @@ concepts: ["智能体 Agent", "具身智能评测与基准"]
 > [!summary] 一句话结论（基于摘要）
 > Experiments on memory-dependent manipulation, articulated-object generalization, real- world memory evaluation, and ablations show that our approach improves task completion, retrieval accuracy, object re-identification, and cross-object skill generalization…
 
-## 关键点
+## 问题
 
-- **问题**：However, existing agent memories are often stored as unstructured histories or embedding-based records, making it difficult to retrieve manipulation-relevant object parts, physical states, action effects, and executable skills.
-- **创新点 / 方法**：We propose an analytic concept-centric memory framework for agentic embodied manipulation.
-- **证据**：Experiments on memory-dependent manipulation, articulated-object generalization, real- world memory evaluation, and ablations show that our approach improves task completion, retrieval accuracy, object re-identification, and cross-object skill generalization over unstructured and embedding-based memory baselines.
-- **局限**：摘要未明确说明；需阅读全文核查。
+However, existing agent memories are often stored as unstructured histories or embedding-based records, making it difficult to retrieve manipulation-relevant object parts, physical states, action effects, and executable skills.
+
+## 创新点或方法
+
+We propose an analytic concept-centric memory framework for agentic embodied manipulation.
+
+## 证据
+
+Experiments on memory-dependent manipulation, articulated-object generalization, real- world memory evaluation, and ablations show that our approach improves task completion, retrieval accuracy, object re-identification, and cross-object skill generalization over unstructured and embedding-based memory baselines.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[智能体 Agent]] [[具身智能评测与基准]]
+- **概念**：智能体 Agent 具身智能评测与基准
 - **筛选分数**：28
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-30/Analytic Concept-Centric Memory for Agentic Embodied Manipulation.md" --level full`
 

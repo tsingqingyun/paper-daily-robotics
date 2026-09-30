@@ -42,10 +42,10 @@ concepts: ["多模态基础模型", "世界模型", "视觉语言动作模型 VL
 
 对 VLA 与机器人学习研究者，它提供了保留通用策略、局部引入 RL 精度的模块化路径，切换边界处理也直接关系到闭环执行可靠性。
 
-- **概念**：[[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]] [[机器人学习]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 世界模型 视觉语言动作模型 VLA 机器人学习 具身智能评测与基准
 - **筛选分数**：37
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-24/RouteRLT Learning When and Which RL Specialist Should Control a Vision-Language-.md" --level full`
 

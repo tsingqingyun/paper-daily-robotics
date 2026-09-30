@@ -42,10 +42,10 @@ concepts: ["多模态基础模型", "智能体 Agent", "机器人学习", "具�
 
 对多模态基础模型和Agent研究，价值在于专家能力合并及端侧部署；摘要没有证明它能直接产生机器人动作。
 
-- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[机器人学习]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 智能体 Agent 机器人学习 具身智能评测与基准
 - **筛选分数**：33
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-23/ME-VLM A Unified VLM for Embodied Cognition and Agent Coordination.md" --level full`
 

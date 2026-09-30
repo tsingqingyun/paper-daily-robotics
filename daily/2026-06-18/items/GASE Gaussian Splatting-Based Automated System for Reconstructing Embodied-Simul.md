@@ -20,19 +20,29 @@ concepts: ["智能体 Agent", "世界模型", "机器人学习", "Sim2Real"]
 > [!summary] 一句话结论（基于摘要）
 > Extensive experiments demonstrate that GASE outperforms existing 3D Gaussian-based methods in segmentation accuracy by over 10\% while achieving state-of-the-art inpainting quality.
 
-## 关键点
+## 问题
 
-- **问题**：Training embodied agents in the real world requires skilled operators and expensive hardware.
-- **创新点 / 方法**：Simulation environments offer a compelling alternative by enabling large- scale, cost-effective data augmentation.
-- **证据**：Extensive experiments demonstrate that GASE outperforms existing 3D Gaussian-based methods in segmentation accuracy by over 10\% while achieving state-of-the-art inpainting quality.
-- **局限**：摘要未明确说明；需阅读全文核查。
+Training embodied agents in the real world requires skilled operators and expensive hardware.
+
+## 创新点或方法
+
+Simulation environments offer a compelling alternative by enabling large- scale, cost-effective data augmentation.
+
+## 证据
+
+Extensive experiments demonstrate that GASE outperforms existing 3D Gaussian-based methods in segmentation accuracy by over 10\% while achieving state-of-the-art inpainting quality.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[智能体 Agent]] [[世界模型]] [[机器人学习]] [[Sim2Real]]
+- **概念**：智能体 Agent 世界模型 机器人学习 Sim2Real
 - **筛选分数**：33
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-18/GASE Gaussian Splatting-Based Automated System for Reconstructing Embodied-Simul.md" --level full`
 

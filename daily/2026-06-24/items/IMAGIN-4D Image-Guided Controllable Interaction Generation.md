@@ -20,19 +20,29 @@ concepts: ["AI 核心知识地图"]
 > [!summary] 一句话结论（基于摘要）
 > Experiments on FBM and BEHAVE show that IMAGIN-4D improves fine- grained interaction control over single-token and uniformly image-conditioned baselines while preserving waypoint-following and motion quality.
 
-## 关键点
+## 问题
 
-- **问题**：However, these signals underspecify interaction: the same prompt and trajectory can produce different grasps, approach directions, body poses, object poses, contacts, and body-object layouts.
-- **创新点 / 方法**：Since HOI motion datasets lack paired images, we build a synthetic motion-to-image rendering pipeline from FullBodyManipulation (FBM) and introduce an image-adherence metric to evaluate whether generated motions match the reference snapshot.
-- **证据**：Experiments on FBM and BEHAVE show that IMAGIN-4D improves fine- grained interaction control over single-token and uniformly image-conditioned baselines while preserving waypoint-following and motion quality.
-- **局限**：摘要未明确说明；需阅读全文核查。
+However, these signals underspecify interaction: the same prompt and trajectory can produce different grasps, approach directions, body poses, object poses, contacts, and body-object layouts.
+
+## 创新点或方法
+
+Since HOI motion datasets lack paired images, we build a synthetic motion-to-image rendering pipeline from FullBodyManipulation (FBM) and introduce an image-adherence metric to evaluate whether generated motions match the reference snapshot.
+
+## 证据
+
+Experiments on FBM and BEHAVE show that IMAGIN-4D improves fine- grained interaction control over single-token and uniformly image-conditioned baselines while preserving waypoint-following and motion quality.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[AI 核心知识地图]]
+- **概念**：AI 核心知识地图
 - **筛选分数**：34
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-24/IMAGIN-4D Image-Guided Controllable Interaction Generation.md" --level full`
 

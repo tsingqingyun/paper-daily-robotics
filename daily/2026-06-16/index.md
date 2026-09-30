@@ -14,7 +14,7 @@ created: 2026-06-16
 - **规模**：2043 个候选 → 23 篇入选；回填 0 篇
 - **主题**：具身智能评测与基准 14、世界模型 11、智能体 Agent 8、机器人学习 8、多模态基础模型 4、AI 核心知识地图 2、视觉语言动作模型 VLA 2
 - **源异常**：2
-- **需要更高精度**：从“必读”选择论文，进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **需要更高精度**：从“必读”选择论文，进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -55,17 +55,17 @@ created: 2026-06-16
 
 ## 其余存档 11 篇
 
-- [Sensitivity Shaping for Latent Modeling](items/Sensitivity%20Shaping%20for%20Latent%20Modeling.md) · [[智能体 Agent]] [[世界模型]]
-- [Provably Safe, Yet Scalable Reinforcement Learning](items/Provably%20Safe%2C%20Yet%20Scalable%20Reinforcement%20Learning.md) · [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
-- [SyLink Hand: A Synergy-Inspired Linkage-Driven Anthropomorphic Hand for Human-Like Dexterity](items/SyLink%20Hand%20A%20Synergy-Inspired%20Linkage-Driven%20Anthropomorphic%20Hand%20for%20Human-Lik.md) · [[具身智能评测与基准]]
-- [AnyGoal: Vision-Language Guided Multi-Agent Exploration for Training-Free Lifelong Navigation](items/AnyGoal%20Vision-Language%20Guided%20Multi-Agent%20Exploration%20for%20Training-Free%20Lifelon.md) · [[多模态基础模型]] [[智能体 Agent]] [[世界模型]]
-- [ComAct: Reframing Professional Software Manipulation via COM-as-Action Paradigm](items/ComAct%20Reframing%20Professional%20Software%20Manipulation%20via%20COM-as-Action%20Paradigm.md) · [[智能体 Agent]] [[具身智能评测与基准]]
-- [Proprioceptive-visual correspondence enables self-other distinction in humanoid robots](items/Proprioceptive-visual%20correspondence%20enables%20self-other%20distinction%20in%20humanoid.md) · [[智能体 Agent]]
-- [Functional Cache Grafting: Robust and Rapid Code-Policy Synthesis for Embodied Agents](items/Functional%20Cache%20Grafting%20Robust%20and%20Rapid%20Code-Policy%20Synthesis%20for%20Embodied%20Ag.md) · [[智能体 Agent]] [[具身智能评测与基准]]
-- [Whole-Body Impedance Model Predictive Control for Safe Physical Human--Robot Interaction on Floating-Base Platforms](items/Whole-Body%20Impedance%20Model%20Predictive%20Control%20for%20Safe%20Physical%20Human--Robot%20Int.md) · [[世界模型]]
-- [AERMANI-PLACE: Language Guided Object Placement with Aerial Manipulators](items/AERMANI-PLACE%20Language%20Guided%20Object%20Placement%20with%20Aerial%20Manipulators.md) · [[具身智能评测与基准]]
-- [Scratched Lenses, Shifted Depth: Passive Camera-Side Optical Attacks](items/Scratched%20Lenses%2C%20Shifted%20Depth%20Passive%20Camera-Side%20Optical%20Attacks.md) · [[具身智能评测与基准]]
-- [CSPO: Constraint-Sensitive Policy Optimization for Safe Reinforcement Learning](items/CSPO%20Constraint-Sensitive%20Policy%20Optimization%20for%20Safe%20Reinforcement%20Learning.md) · [[机器人学习]] [[具身智能评测与基准]]
+- [Sensitivity Shaping for Latent Modeling](items/Sensitivity%20Shaping%20for%20Latent%20Modeling.md) · 智能体 Agent 世界模型
+- [Provably Safe, Yet Scalable Reinforcement Learning](items/Provably%20Safe%2C%20Yet%20Scalable%20Reinforcement%20Learning.md) · 世界模型 机器人学习 具身智能评测与基准
+- [SyLink Hand: A Synergy-Inspired Linkage-Driven Anthropomorphic Hand for Human-Like Dexterity](items/SyLink%20Hand%20A%20Synergy-Inspired%20Linkage-Driven%20Anthropomorphic%20Hand%20for%20Human-Lik.md) · 具身智能评测与基准
+- [AnyGoal: Vision-Language Guided Multi-Agent Exploration for Training-Free Lifelong Navigation](items/AnyGoal%20Vision-Language%20Guided%20Multi-Agent%20Exploration%20for%20Training-Free%20Lifelon.md) · 多模态基础模型 智能体 Agent 世界模型
+- [ComAct: Reframing Professional Software Manipulation via COM-as-Action Paradigm](items/ComAct%20Reframing%20Professional%20Software%20Manipulation%20via%20COM-as-Action%20Paradigm.md) · 智能体 Agent 具身智能评测与基准
+- [Proprioceptive-visual correspondence enables self-other distinction in humanoid robots](items/Proprioceptive-visual%20correspondence%20enables%20self-other%20distinction%20in%20humanoid.md) · 智能体 Agent
+- [Functional Cache Grafting: Robust and Rapid Code-Policy Synthesis for Embodied Agents](items/Functional%20Cache%20Grafting%20Robust%20and%20Rapid%20Code-Policy%20Synthesis%20for%20Embodied%20Ag.md) · 智能体 Agent 具身智能评测与基准
+- [Whole-Body Impedance Model Predictive Control for Safe Physical Human--Robot Interaction on Floating-Base Platforms](items/Whole-Body%20Impedance%20Model%20Predictive%20Control%20for%20Safe%20Physical%20Human--Robot%20Int.md) · 世界模型
+- [AERMANI-PLACE: Language Guided Object Placement with Aerial Manipulators](items/AERMANI-PLACE%20Language%20Guided%20Object%20Placement%20with%20Aerial%20Manipulators.md) · 具身智能评测与基准
+- [Scratched Lenses, Shifted Depth: Passive Camera-Side Optical Attacks](items/Scratched%20Lenses%2C%20Shifted%20Depth%20Passive%20Camera-Side%20Optical%20Attacks.md) · 具身智能评测与基准
+- [CSPO: Constraint-Sensitive Policy Optimization for Safe Reinforcement Learning](items/CSPO%20Constraint-Sensitive%20Policy%20Optimization%20for%20Safe%20Reinforcement%20Learning.md) · 机器人学习 具身智能评测与基准
 
 <details>
 <summary>运行信息与信息源错误</summary>

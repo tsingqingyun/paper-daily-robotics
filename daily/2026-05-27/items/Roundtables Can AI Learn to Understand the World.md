@@ -20,19 +20,29 @@ concepts: ["世界模型"]
 > [!summary] 一句话结论（基于摘要）
 > Recent developments have brought world models to the forefront of the AI discussion.
 
-## 关键点
+## 问题
 
-- **问题**：Listen to the session or watch below AI companies want to build systems that understand the external world and overcome the limitations of LLMs.
-- **创新点 / 方法**：Recent developments have brought world models to the forefront of the AI discussion.
-- **证据**：摘要未报告明确实验结论；需阅读全文核查。
-- **局限**：Listen to the session or watch below AI companies want to build systems that understand the external world and overcome the limitations of LLMs.
+Listen to the session or watch below AI companies want to build systems that understand the external world and overcome the limitations of LLMs.
+
+## 创新点或方法
+
+Recent developments have brought world models to the forefront of the AI discussion.
+
+## 证据
+
+摘要未报告明确实验结论；需阅读全文核查。
+
+## 局限
+
+Listen to the session or watch below AI companies want to build systems that understand the external world and overcome the limitations of LLMs.
+
 
 ## 研究关联
 
-- **概念**：[[世界模型]]
+- **概念**：世界模型
 - **筛选分数**：11
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-05-27/Roundtables Can AI Learn to Understand the World.md" --level full`
 

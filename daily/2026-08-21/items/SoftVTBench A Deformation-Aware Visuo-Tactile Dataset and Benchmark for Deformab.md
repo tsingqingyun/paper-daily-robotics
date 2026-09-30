@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "机器人学习", "具身智能评测与基
 > [!summary] 一句话结论（基于摘要）
 > Building upon this dataset, we establish a closed-loop benchmark that uses fixed object-specific calibration to define the Deformation-aware Success Rate (DSR), which counts a rollout as successful only when it completes the task and keeps peak normalized def…
 
-## 关键点
+## 问题
 
-- **问题**：A primary bottleneck is the absence of visuo-tactile datasets that pair policy-visible contact observations with independent physical ground truth over complete tasks.
-- **创新点 / 方法**：We introduce SoftVTBench, a visuo-tactile dataset for physical-interaction-aware deformable-object manipulation.
-- **证据**：Building upon this dataset, we establish a closed-loop benchmark that uses fixed object-specific calibration to define the Deformation-aware Success Rate (DSR), which counts a rollout as successful only when it completes the task and keeps peak normalized deformation within tolerance.
-- **局限**：These results show that making touch available does not by itself ensure effective multimodal fusion.
+A primary bottleneck is the absence of visuo-tactile datasets that pair policy-visible contact observations with independent physical ground truth over complete tasks.
+
+## 创新点或方法
+
+We introduce SoftVTBench, a visuo-tactile dataset for physical-interaction-aware deformable-object manipulation.
+
+## 证据
+
+Building upon this dataset, we establish a closed-loop benchmark that uses fixed object-specific calibration to define the Deformation-aware Success Rate (DSR), which counts a rollout as successful only when it completes the task and keeps peak normalized deformation within tolerance.
+
+## 局限
+
+These results show that making touch available does not by itself ensure effective multimodal fusion.
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[机器人学习]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 机器人学习 具身智能评测与基准
 - **筛选分数**：27
 - **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-21/SoftVTBench A Deformation-Aware Visuo-Tactile Dataset and Benchmark for Deformab.md" --level full`
 

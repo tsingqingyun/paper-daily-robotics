@@ -20,19 +20,29 @@ concepts: ["机器人学习", "具身智能评测与基准"]
 > [!summary] 一句话结论（基于摘要）
 > Across the three quantitatively evaluated tasks, HALOMI achieves an average success rate of 85\%, while additional qualitative demonstrations show its ability to support dynamic tossing and deep-squat grasping.
 
-## 关键点
+## 问题
 
-- **问题**：However, directly transferring human demonstrations to humanoids requires a precise world-frame tracking controller, which is often brittle under Out-of-Distribution(OOD) targets, while human-to-humanoid gaps persist in both egocentric observation and action execution.
-- **创新点 / 方法**：To address these challenges, we present HALOMI, a scalable framework for learning humanoid loco-manipulation with active perception from human demonstrations.
-- **证据**：Across the three quantitatively evaluated tasks, HALOMI achieves an average success rate of 85\%, while additional qualitative demonstrations show its ability to support dynamic tossing and deep-squat grasping.
-- **局限**：摘要未明确说明；需阅读全文核查。
+However, directly transferring human demonstrations to humanoids requires a precise world-frame tracking controller, which is often brittle under Out-of-Distribution(OOD) targets, while human-to-humanoid gaps persist in both egocentric observation and action execution.
+
+## 创新点或方法
+
+To address these challenges, we present HALOMI, a scalable framework for learning humanoid loco-manipulation with active perception from human demonstrations.
+
+## 证据
+
+Across the three quantitatively evaluated tasks, HALOMI achieves an average success rate of 85\%, while additional qualitative demonstrations show its ability to support dynamic tossing and deep-squat grasping.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[机器人学习]] [[具身智能评测与基准]]
+- **概念**：机器人学习 具身智能评测与基准
 - **筛选分数**：28
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-19/HALOMI Learning Humanoid Loco-Manipulation with Active Perception from Human Dem.md" --level full`
 

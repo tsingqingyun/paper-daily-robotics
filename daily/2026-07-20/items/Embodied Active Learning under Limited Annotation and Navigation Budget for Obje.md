@@ -20,19 +20,29 @@ concepts: ["智能体 Agent", "世界模型"]
 > [!summary] 一句话结论（基于摘要）
 > Through comparison against several baselines, our experimental results show that spatial inconsistency helps guide the agent and select relevant images without external supervision, achieving the highest detection accuracy at the end of the adaptation process…
 
-## 关键点
+## 问题
 
-- **问题**：Formally, the approach is an embodied variant of batch active learning, where at each round an agent has a limited navigation budget to collect candidate samples and a limited annotation budget for the most relevant images.
-- **创新点 / 方法**：Our approach selects informative robot trajectories and image samples to retrain the detector, explicitly targeting its failure cases.
-- **证据**：Through comparison against several baselines, our experimental results show that spatial inconsistency helps guide the agent and select relevant images without external supervision, achieving the highest detection accuracy at the end of the adaptation process under the same budget.
-- **局限**：摘要未明确说明；需阅读全文核查。
+Formally, the approach is an embodied variant of batch active learning, where at each round an agent has a limited navigation budget to collect candidate samples and a limited annotation budget for the most relevant images.
+
+## 创新点或方法
+
+Our approach selects informative robot trajectories and image samples to retrain the detector, explicitly targeting its failure cases.
+
+## 证据
+
+Through comparison against several baselines, our experimental results show that spatial inconsistency helps guide the agent and select relevant images without external supervision, achieving the highest detection accuracy at the end of the adaptation process under the same budget.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[智能体 Agent]] [[世界模型]]
+- **概念**：智能体 Agent 世界模型
 - **筛选分数**：30
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-07-20/Embodied Active Learning under Limited Annotation and Navigation Budget for Obje.md" --level full`
 

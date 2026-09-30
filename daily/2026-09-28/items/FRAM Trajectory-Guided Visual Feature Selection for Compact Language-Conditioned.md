@@ -42,10 +42,10 @@ concepts: ["多模态基础模型", "视觉语言动作模型 VLA", "机器人�
 
 对紧凑 VLA 和机器人学习研究者，提供了将预测运动变成视觉选择机制的方案。基准、消融和真机展示分别支持性能、组件作用及执行可行性。
 
-- **概念**：[[多模态基础模型]] [[视觉语言动作模型 VLA]] [[机器人学习]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 视觉语言动作模型 VLA 机器人学习 具身智能评测与基准
 - **筛选分数**：32
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-28/FRAM Trajectory-Guided Visual Feature Selection for Compact Language-Conditioned.md" --level full`
 

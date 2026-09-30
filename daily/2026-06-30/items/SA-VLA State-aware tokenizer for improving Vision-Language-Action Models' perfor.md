@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "视觉语言动作模型 VLA", "Sim2Real", 
 > [!summary] 一句话结论（基于摘要）
 > On 12 RoboTwin manipulation tasks, SA-VLA improves the average success rate from 0.29 to 0.56 over the strongest tokenizer baseline.
 
-## 关键点
+## 问题
 
-- **问题**：Discrete action tokenization provides a compact interface for autoregressive VLA policies, but accurately recovering continuous robot actions from discrete codes remains challenging.
-- **创新点 / 方法**：Existing tokenizers typically map each discrete code to a fixed continuous action prototype, ignoring the robot's current proprioceptive state.
-- **证据**：On 12 RoboTwin manipulation tasks, SA-VLA improves the average success rate from 0.29 to 0.56 over the strongest tokenizer baseline.
-- **局限**：Discrete action tokenization provides a compact interface for autoregressive VLA policies, but accurately recovering continuous robot actions from discrete codes remains challenging.
+Discrete action tokenization provides a compact interface for autoregressive VLA policies, but accurately recovering continuous robot actions from discrete codes remains challenging.
+
+## 创新点或方法
+
+Existing tokenizers typically map each discrete code to a fixed continuous action prototype, ignoring the robot's current proprioceptive state.
+
+## 证据
+
+On 12 RoboTwin manipulation tasks, SA-VLA improves the average success rate from 0.29 to 0.56 over the strongest tokenizer baseline.
+
+## 局限
+
+Discrete action tokenization provides a compact interface for autoregressive VLA policies, but accurately recovering continuous robot actions from discrete codes remains challenging.
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[视觉语言动作模型 VLA]] [[Sim2Real]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 视觉语言动作模型 VLA Sim2Real 具身智能评测与基准
 - **筛选分数**：36
 - **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-30/SA-VLA State-aware tokenizer for improving Vision-Language-Action Models' perfor.md" --level full`
 

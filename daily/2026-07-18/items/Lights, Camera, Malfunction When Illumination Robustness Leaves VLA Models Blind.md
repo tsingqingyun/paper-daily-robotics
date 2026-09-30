@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "视觉语言动作模型 VLA", "具身智�
 > [!summary] 一句话结论（基于摘要）
 > We expose this degradation through a diagnostic grayscale evaluation, in which the defended model maintains high success rates on grayscale inputs, while its success rate on benign, color-dependent real-world tasks drops to at most 47.5%, well below the undef…
 
-## 关键点
+## 问题
 
-- **问题**：Vision-Language-Action (VLA) models have emerged as a powerful paradigm for general- purpose robot manipulation; however, their transition to real-world environments reveals vulnerabilities to minor environmental perturbations.
-- **创新点 / 方法**：We propose FLARE, an optimized physical spotlight attack framework that exploits these vulnerabilities via targeted illuminations, dropping baseline task success rates to zero without any access to model internals.
-- **证据**：We expose this degradation through a diagnostic grayscale evaluation, in which the defended model maintains high success rates on grayscale inputs, while its success rate on benign, color-dependent real-world tasks drops to at most 47.5%, well below the undefended baseline.
-- **局限**：摘要未明确说明；需阅读全文核查。
+Vision-Language-Action (VLA) models have emerged as a powerful paradigm for general- purpose robot manipulation; however, their transition to real-world environments reveals vulnerabilities to minor environmental perturbations.
+
+## 创新点或方法
+
+We propose FLARE, an optimized physical spotlight attack framework that exploits these vulnerabilities via targeted illuminations, dropping baseline task success rates to zero without any access to model internals.
+
+## 证据
+
+We expose this degradation through a diagnostic grayscale evaluation, in which the defended model maintains high success rates on grayscale inputs, while its success rate on benign, color-dependent real-world tasks drops to at most 47.5%, well below the undefended baseline.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 视觉语言动作模型 VLA 具身智能评测与基准
 - **筛选分数**：35
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-07-18/Lights, Camera, Malfunction When Illumination Robustness Leaves VLA Models Blind.md" --level full`
 

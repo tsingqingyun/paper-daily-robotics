@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "视觉语言动作模型 VLA"]
 > [!summary] 一句话结论（基于摘要）
 > In real-world experiments including mobile tape measurement, library book handovers, and laundry basket lifting, CHORUS achieves a 64% point improvement over decentralized, from-scratch models, improves reactivity to teammate behavior by 40% points, and outpe…
 
-## 关键点
+## 问题
 
-- **问题**：However, achieving such coordination in mobile multi-robot settings remains challenging: centralized methods conditioned on the combined observations of a team scale poorly with team size, and decentralized methods that train one policy per robot often require explicit alignment procedures or information sharing at in…
-- **创新点 / 方法**：We propose CHORUS, a framework that adapts a single VLA backbone to control diverse, multi- robot teams.
-- **证据**：In real-world experiments including mobile tape measurement, library book handovers, and laundry basket lifting, CHORUS achieves a 64% point improvement over decentralized, from-scratch models, improves reactivity to teammate behavior by 40% points, and outperforms centralized baselines.
-- **局限**：However, achieving such coordination in mobile multi-robot settings remains challenging: centralized methods conditioned on the combined observations of a team scale poorly with team size, and decentralized methods that train one policy per robot often require explicit alignment procedures or information sharing at in…
+However, achieving such coordination in mobile multi-robot settings remains challenging: centralized methods conditioned on the combined observations of a team scale poorly with team size, and decentralized methods that train one policy per robot often require explicit alignment procedures or information sharing at in…
+
+## 创新点或方法
+
+We propose CHORUS, a framework that adapts a single VLA backbone to control diverse, multi- robot teams.
+
+## 证据
+
+In real-world experiments including mobile tape measurement, library book handovers, and laundry basket lifting, CHORUS achieves a 64% point improvement over decentralized, from-scratch models, improves reactivity to teammate behavior by 40% points, and outperforms centralized baselines.
+
+## 局限
+
+However, achieving such coordination in mobile multi-robot settings remains challenging: centralized methods conditioned on the combined observations of a team scale poorly with team size, and decentralized methods that train one policy per robot often require explicit alignment procedures or information sharing at in…
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[视觉语言动作模型 VLA]]
+- **概念**：多模态基础模型 视觉语言动作模型 VLA
 - **筛选分数**：31
 - **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-12/CHORUS Decentralized Multi-Embodiment Collaboration with One VLA Policy.md" --level full`
 

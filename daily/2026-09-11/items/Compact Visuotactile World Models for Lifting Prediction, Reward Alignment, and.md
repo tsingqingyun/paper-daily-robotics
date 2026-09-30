@@ -1,7 +1,7 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
-format_version: 3
+format_version: 2
 evidence_level: abstract
 reading_status: skimmed
 needs_fulltext: false
@@ -20,24 +20,33 @@ concepts: ["世界模型"]
 > [!summary] 先说人话（基于摘要）
 > However, tactile persistence achieves lower errors of 0.095 and 0.498 N, respectively.
 
-## 这篇到底在做什么
+## 问题
 
-- **卡在哪里**：However, tactile persistence achieves lower errors of 0.095 and 0.498 N, respectively.
-- **关键解法**：Accurate contact prediction is useful for robotic manipulation only if it supports effective decisions.
-- **拿什么证明**：However, tactile persistence achieves lower errors of 0.095 and 0.498 N, respectively.
+However, tactile persistence achieves lower errors of 0.095 and 0.498 N, respectively.
 
-## 值不值得读
+## 创新点或方法
 
-- **和你的研究有什么关系**：需结合研究方向判断；规则式回退未做语义评审。
-- **先别急着信**：The evidence is limited to public sensing records and simulator execution, without a demonstrated transfer between them.
+Accurate contact prediction is useful for robotic manipulation only if it supports effective decisions.
+
+## 证据
+
+However, tactile persistence achieves lower errors of 0.095 and 0.498 N, respectively.
+
+
+## 局限
+
+The evidence is limited to public sensing records and simulator execution, without a demonstrated transfer between them.
+
 - **判断**：仅完成摘要摘取，建议等待语义讲解或阅读全文。
 
 ## 研究关联
 
-- **概念**：[[世界模型]]
+需结合研究方向判断；规则式回退未做语义评审。
+
+- **概念**：世界模型
 - **筛选分数**：26
 - **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-11/Compact Visuotactile World Models for Lifting Prediction, Reward Alignment, and.md" --level full`
 

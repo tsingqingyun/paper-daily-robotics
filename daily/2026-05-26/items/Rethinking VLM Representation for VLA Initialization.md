@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "视觉语言动作模型 VLA"]
 > [!summary] 一句话结论（基于摘要）
 > Our experiments show that the original pretrained VLM representation is a key source of action performance.
 
-## 关键点
+## 问题
 
-- **问题**：Vision-Language-Action (VLA) models widely adopt pretrained Vision-Language Models (VLMs) as policy backbones, yet it remains unclear what kind of pretrained VLM representation is useful as a VLA initialization.
-- **创新点 / 方法**：In this paper, we study VLA initialization as a controlled representation-design problem along three axes: capability-level embodied VQA supervision, parameter-update strategy, and robot-data pretraining.
-- **证据**：Our experiments show that the original pretrained VLM representation is a key source of action performance.
-- **局限**：However, embodied VQA adaptation does not yield uniform gains: its benefit depends on downstream bottlenecks, and gains from different capability domains are not simply additive.
+Vision-Language-Action (VLA) models widely adopt pretrained Vision-Language Models (VLMs) as policy backbones, yet it remains unclear what kind of pretrained VLM representation is useful as a VLA initialization.
+
+## 创新点或方法
+
+In this paper, we study VLA initialization as a controlled representation-design problem along three axes: capability-level embodied VQA supervision, parameter-update strategy, and robot-data pretraining.
+
+## 证据
+
+Our experiments show that the original pretrained VLM representation is a key source of action performance.
+
+## 局限
+
+However, embodied VQA adaptation does not yield uniform gains: its benefit depends on downstream bottlenecks, and gains from different capability domains are not simply additive.
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[视觉语言动作模型 VLA]]
+- **概念**：多模态基础模型 视觉语言动作模型 VLA
 - **筛选分数**：32
 - **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-05-26/Rethinking VLM Representation for VLA Initialization.md" --level full`
 

@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "智能体 Agent", "机器人学习", "具�
 > [!summary] 一句话结论（基于摘要）
 > The authors of Parallel-R1 ( Zheng et al., 2025 ) introduced an alternating-schedule, only rewarding parallel structure 20% of the time, which successfully increased the use of parallel structure (13.6% → 63%), but had little impact on overall accuracy.
 
-## 关键点
+## 问题
 
-- **问题**：What if a reasoning model could decide for itself when to decompose and parallelize independent subtasks, how many concurrent threads to spawn, and how to coordinate them based on the problem at hand?
-- **创新点 / 方法**：Can we design training methods that account for available compute budget at inference time, so parallelization decisions are hardware-aware rather than purely problem-driven?
-- **证据**：The authors of Parallel-R1 ( Zheng et al., 2025 ) introduced an alternating-schedule, only rewarding parallel structure 20% of the time, which successfully increased the use of parallel structure (13.6% → 63%), but had little impact on overall accuracy.
-- **局限**：Figure 2: Various Strategies for Parallel Reasoning The methods above share a common limitation: the decision to parallelize, the level of parallelization, and the search strategy are imposed on the model, regardless of whether the problem actually benefits from it.
+What if a reasoning model could decide for itself when to decompose and parallelize independent subtasks, how many concurrent threads to spawn, and how to coordinate them based on the problem at hand?
+
+## 创新点或方法
+
+Can we design training methods that account for available compute budget at inference time, so parallelization decisions are hardware-aware rather than purely problem-driven?
+
+## 证据
+
+The authors of Parallel-R1 ( Zheng et al., 2025 ) introduced an alternating-schedule, only rewarding parallel structure 20% of the time, which successfully increased the use of parallel structure (13.6% → 63%), but had little impact on overall accuracy.
+
+## 局限
+
+Figure 2: Various Strategies for Parallel Reasoning The methods above share a common limitation: the decision to parallelize, the level of parallelization, and the search strategy are imposed on the model, regardless of whether the problem actually benefits from it.
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[机器人学习]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 智能体 Agent 机器人学习 具身智能评测与基准
 - **筛选分数**：18
 - **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-05-12/Adaptive Parallel Reasoning The Next Paradigm in Efficient Inference Scaling.md" --level full`
 

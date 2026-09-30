@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "智能体 Agent", "视觉语言动作模型
 > [!summary] 一句话结论（基于摘要）
 > Specifically, it improves OpenVLA-OFT to 98.6% (+1.5%) on the Libero benchmark and pushes FastWAM to 92.4% (+0.6%) on RoboTwin 2.0.
 
-## 关键点
+## 问题
 
-- **问题**：This "flat" training paradigm, inherited from language modeling, remains indifferent to the underlying physical hierarchy of manipulation.
-- **创新点 / 方法**：To rectify this, we introduce AttenA+, an architecture-agnostic framework that prioritizes kinematically critical segments via velocity-driven action attention.
-- **证据**：Specifically, it improves OpenVLA-OFT to 98.6% (+1.5%) on the Libero benchmark and pushes FastWAM to 92.4% (+0.6%) on RoboTwin 2.0.
-- **局限**：摘要未明确说明；需阅读全文核查。
+This "flat" training paradigm, inherited from language modeling, remains indifferent to the underlying physical hierarchy of manipulation.
+
+## 创新点或方法
+
+To rectify this, we introduce AttenA+, an architecture-agnostic framework that prioritizes kinematically critical segments via velocity-driven action attention.
+
+## 证据
+
+Specifically, it improves OpenVLA-OFT to 98.6% (+1.5%) on the Libero benchmark and pushes FastWAM to 92.4% (+0.6%) on RoboTwin 2.0.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 智能体 Agent 视觉语言动作模型 VLA 具身智能评测与基准
 - **筛选分数**：41
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-05-14/AttenA+ Rectifying Action Inequality in Robotic Foundation Models.md" --level full`
 

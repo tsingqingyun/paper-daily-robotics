@@ -20,19 +20,29 @@ concepts: ["智能体 Agent", "世界模型", "具身智能评测与基准"]
 > [!summary] 一句话结论（基于摘要）
 > Success rate (%) / median time to success.
 
-## 关键点
+## 问题
 
-- **问题**：They can predict long sequences of future observations in high-dimensional visual spaces and generalize across tasks in ways that were difficult to imagine a few years ago.
-- **创新点 / 方法**：In this blog post, I describe the problems that motivated this project and our approach to address them: why planning with modern world models can be surprisingly fragile, why long horizons are the real stress test, and what we changed to make gradient-based planning much more robust.
-- **证据**：Success rate (%) / median time to success.
-- **局限**：Later work has painted a geometric picture for what’s going on: for data near a low- dimensional manifold $\mathcal{M}$, the training process controls behavior in tangential directions, but does not regularize behavior in orthogonal directions, thus leading to sensitive behavior ( Stutz et al., 2019 ).
+They can predict long sequences of future observations in high-dimensional visual spaces and generalize across tasks in ways that were difficult to imagine a few years ago.
+
+## 创新点或方法
+
+In this blog post, I describe the problems that motivated this project and our approach to address them: why planning with modern world models can be surprisingly fragile, why long horizons are the real stress test, and what we changed to make gradient-based planning much more robust.
+
+## 证据
+
+Success rate (%) / median time to success.
+
+## 局限
+
+Later work has painted a geometric picture for what’s going on: for data near a low- dimensional manifold $\mathcal{M}$, the training process controls behavior in tangential directions, but does not regularize behavior in orthogonal directions, thus leading to sensitive behavior ( Stutz et al., 2019 ).
+
 
 ## 研究关联
 
-- **概念**：[[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
+- **概念**：智能体 Agent 世界模型 具身智能评测与基准
 - **筛选分数**：15
 - **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-04/Gradient-based Planning for World Models at Longer Horizons.md" --level full`
 

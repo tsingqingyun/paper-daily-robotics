@@ -14,7 +14,7 @@ created: 2026-05-12
 - **规模**：1856-1876 区间，因 arXiv 限流和部分 feed 超时波动。 个候选 → 24 篇入选；回填 0 篇
 - **主题**：多模态基础模型、视觉语言动作模型 VLA、智能体 Agent、世界模型、机器人学习、具身智能评测与基准。
 - **源异常**：主要来自 arXiv 429 限流、个别 feed 超时或 SSL EOF。
-- **需要更高精度**：从“必读”选择论文，进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **需要更高精度**：从“必读”选择论文，进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -55,18 +55,18 @@ created: 2026-05-12
 
 ## 其余存档 12 篇
 
-- [Scaling robotics datasets with video encoding](items/Scaling%20robotics%20datasets%20with%20video%20encoding.md) · [[AI 核心知识地图]]
-- [LeRobot Community Datasets: The “ImageNet” of Robotics — When and How?](items/LeRobot%20Community%20Datasets%20The%20%E2%80%9CImageNet%E2%80%9D%20of%20Robotics%20%E2%80%94%20When%20and%20How.md) · [[AI 核心知识地图]]
-- [Multi-Goal Reinforcement Learning: Challenging robotics environments and request for research](items/Multi-Goal%20Reinforcement%20Learning%20Challenging%20robotics%20environments%20and%20request.md) · [[机器人学习]]
-- [AsgardBench: A benchmark for visually grounded interactive planning](items/AsgardBench%20A%20benchmark%20for%20visually%20grounded%20interactive%20planning.md) · [[智能体 Agent]] [[具身智能评测与基准]]
-- [Hugging Face to sell open-source robots thanks to Pollen Robotics acquisition 🤖](items/Hugging%20Face%20to%20sell%20open-source%20robots%20thanks%20to%20Pollen%20Robotics%20acquisition%20%F0%9F%A4%96.md) · [[AI 核心知识地图]]
-- [Addendum to o3 and o4-mini system card: Codex](items/Addendum%20to%20o3%20and%20o4-mini%20system%20card%20Codex.md) · [[智能体 Agent]] [[机器人学习]]
-- [GPT-4](items/GPT-4.md) · [[多模态基础模型]] [[具身智能评测与基准]]
-- [π0 and π0-FAST: Vision-Language-Action Models for General Robot Control](items/%CF%800%20and%20%CF%800-FAST%20Vision-Language-Action%20Models%20for%20General%20Robot%20Control.md) · [[多模态基础模型]] [[视觉语言动作模型 VLA]]
-- [LeRobot goes to driving school: World’s largest open-source self-driving dataset](items/LeRobot%20goes%20to%20driving%20school%20World%E2%80%99s%20largest%20open-source%20self-driving%20dataset.md) · [[AI 核心知识地图]]
-- [Procgen Benchmark](items/Procgen%20Benchmark.md) · [[智能体 Agent]] [[机器人学习]] [[具身智能评测与基准]]
-- [How we monitor internal coding agents for misalignment](items/How%20we%20monitor%20internal%20coding%20agents%20for%20misalignment.md) · [[智能体 Agent]] [[具身智能评测与基准]]
-- [OpenAI Robotics Symposium 2019](items/OpenAI%20Robotics%20Symposium%202019.md) · [[AI 核心知识地图]]
+- [Scaling robotics datasets with video encoding](items/Scaling%20robotics%20datasets%20with%20video%20encoding.md) · AI 核心知识地图
+- [LeRobot Community Datasets: The “ImageNet” of Robotics — When and How?](items/LeRobot%20Community%20Datasets%20The%20%E2%80%9CImageNet%E2%80%9D%20of%20Robotics%20%E2%80%94%20When%20and%20How.md) · AI 核心知识地图
+- [Multi-Goal Reinforcement Learning: Challenging robotics environments and request for research](items/Multi-Goal%20Reinforcement%20Learning%20Challenging%20robotics%20environments%20and%20request.md) · 机器人学习
+- [AsgardBench: A benchmark for visually grounded interactive planning](items/AsgardBench%20A%20benchmark%20for%20visually%20grounded%20interactive%20planning.md) · 智能体 Agent 具身智能评测与基准
+- [Hugging Face to sell open-source robots thanks to Pollen Robotics acquisition 🤖](items/Hugging%20Face%20to%20sell%20open-source%20robots%20thanks%20to%20Pollen%20Robotics%20acquisition%20%F0%9F%A4%96.md) · AI 核心知识地图
+- [Addendum to o3 and o4-mini system card: Codex](items/Addendum%20to%20o3%20and%20o4-mini%20system%20card%20Codex.md) · 智能体 Agent 机器人学习
+- [GPT-4](items/GPT-4.md) · 多模态基础模型 具身智能评测与基准
+- [π0 and π0-FAST: Vision-Language-Action Models for General Robot Control](items/%CF%800%20and%20%CF%800-FAST%20Vision-Language-Action%20Models%20for%20General%20Robot%20Control.md) · 多模态基础模型 视觉语言动作模型 VLA
+- [LeRobot goes to driving school: World’s largest open-source self-driving dataset](items/LeRobot%20goes%20to%20driving%20school%20World%E2%80%99s%20largest%20open-source%20self-driving%20dataset.md) · AI 核心知识地图
+- [Procgen Benchmark](items/Procgen%20Benchmark.md) · 智能体 Agent 机器人学习 具身智能评测与基准
+- [How we monitor internal coding agents for misalignment](items/How%20we%20monitor%20internal%20coding%20agents%20for%20misalignment.md) · 智能体 Agent 具身智能评测与基准
+- [OpenAI Robotics Symposium 2019](items/OpenAI%20Robotics%20Symposium%202019.md) · AI 核心知识地图
 
 <details>
 <summary>运行信息与信息源错误</summary>

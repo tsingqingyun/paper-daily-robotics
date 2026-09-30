@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "智能体 Agent", "世界模型", "机器�
 > [!summary] 一句话结论（基于摘要）
 > We present MagicSim, an embodied interaction infrastructure built around one deterministic batched runtime and a shared Markov decision process (MDP).
 
-## 关键点
+## 问题
 
-- **问题**：Robot learning and embodied agents now require simulation to serve as a shared execution substrate linking control, skills, and planning, not only as a renderer, controller testbed, or fixed task environment.
-- **创新点 / 方法**：We present MagicSim, an embodied interaction infrastructure built around one deterministic batched runtime and a shared Markov decision process (MDP).
-- **证据**：摘要未报告明确实验结论；需阅读全文核查。
-- **局限**：Existing pipelines split these layers with "magic" actions, disconnected training environments, or forward-only renders that cannot reproduce, evaluate, and annotate the same episode.
+Robot learning and embodied agents now require simulation to serve as a shared execution substrate linking control, skills, and planning, not only as a renderer, controller testbed, or fixed task environment.
+
+## 创新点或方法
+
+We present MagicSim, an embodied interaction infrastructure built around one deterministic batched runtime and a shared Markov decision process (MDP).
+
+## 证据
+
+摘要未报告明确实验结论；需阅读全文核查。
+
+## 局限
+
+Existing pipelines split these layers with "magic" actions, disconnected training environments, or forward-only renders that cannot reproduce, evaluate, and annotate the same episode.
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 智能体 Agent 世界模型 机器人学习 具身智能评测与基准
 - **筛选分数**：31
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-18/MagicSim A Unified Infrastructure for Executable Embodied Interaction.md" --level full`
 

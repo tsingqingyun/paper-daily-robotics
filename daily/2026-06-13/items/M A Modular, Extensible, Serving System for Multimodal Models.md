@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "智能体 Agent", "世界模型", "视觉�
 > [!summary] 一句话结论（基于摘要）
 > We instantiate M* on representative models and find that it achieves, on average, 20% lower end-to-end latency than vLLM-Omni for text-to-image workloads on BAGEL, while delivering up to 2.9x lower real-time factor and 2.7x higher throughput for text-to-speec…
 
-## 关键点
+## 问题
 
-- **问题**：However, existing model serving frameworks were built on narrow assumptions about model structure, making them ill-suited to accommodate this new architectural diversity.
-- **创新点 / 方法**：Here we present M*, a universal serving system for efficient serving of composite AI models.
-- **证据**：We instantiate M* on representative models and find that it achieves, on average, 20% lower end-to-end latency than vLLM-Omni for text-to-image workloads on BAGEL, while delivering up to 2.9x lower real-time factor and 2.7x higher throughput for text-to-speech workloads on Qwen3-Omni.
-- **局限**：摘要未明确说明；需阅读全文核查。
+However, existing model serving frameworks were built on narrow assumptions about model structure, making them ill-suited to accommodate this new architectural diversity.
+
+## 创新点或方法
+
+Here we present M*, a universal serving system for efficient serving of composite AI models.
+
+## 证据
+
+We instantiate M* on representative models and find that it achieves, on average, 20% lower end-to-end latency than vLLM-Omni for text-to-image workloads on BAGEL, while delivering up to 2.9x lower real-time factor and 2.7x higher throughput for text-to-speech workloads on Qwen3-Omni.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[视觉语言动作模型 VLA]]
+- **概念**：多模态基础模型 智能体 Agent 世界模型 视觉语言动作模型 VLA
 - **筛选分数**：31
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-13/M A Modular, Extensible, Serving System for Multimodal Models.md" --level full`
 

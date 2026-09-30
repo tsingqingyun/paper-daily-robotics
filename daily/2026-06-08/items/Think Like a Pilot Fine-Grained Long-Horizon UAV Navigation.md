@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "智能体 Agent", "视觉语言动作模型
 > [!summary] 一句话结论（基于摘要）
 > Its trained Streaming Pilot Reasoning VLM further improves UAV video reasoning, validating the effectiveness of our design.
 
-## 关键点
+## 问题
 
-- **问题**：Language-guided UAV agents must execute long-horizon semantic instructions while producing smooth, physically feasible continuous flight commands, yet existing Vision- Language Navigation (VLN) benchmarks typically use discrete or coarse actions and existing UAV Vision-Language-Action (VLA) tasks focus on short, atomi…
-- **创新点 / 方法**：To address this gap in UAV task settings, we introduce \textbf{FLIGHT}, a \textbf{F}ine- grained \textbf{L}ong-horizon \textbf{I}nstruction-\textbf{G}uided benchmark for \textbf{H}ybrid UAV navigation and reasoning \textbf{T}asks, which combines multi-stage instructions with dense 6-DoF trajectory annotations across t…
-- **证据**：Its trained Streaming Pilot Reasoning VLM further improves UAV video reasoning, validating the effectiveness of our design.
-- **局限**：摘要未明确说明；需阅读全文核查。
+Language-guided UAV agents must execute long-horizon semantic instructions while producing smooth, physically feasible continuous flight commands, yet existing Vision- Language Navigation (VLN) benchmarks typically use discrete or coarse actions and existing UAV Vision-Language-Action (VLA) tasks focus on short, atomi…
+
+## 创新点或方法
+
+To address this gap in UAV task settings, we introduce \textbf{FLIGHT}, a \textbf{F}ine- grained \textbf{L}ong-horizon \textbf{I}nstruction-\textbf{G}uided benchmark for \textbf{H}ybrid UAV navigation and reasoning \textbf{T}asks, which combines multi-stage instructions with dense 6-DoF trajectory annotations across t…
+
+## 证据
+
+Its trained Streaming Pilot Reasoning VLM further improves UAV video reasoning, validating the effectiveness of our design.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 智能体 Agent 视觉语言动作模型 VLA 具身智能评测与基准
 - **筛选分数**：33
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-08/Think Like a Pilot Fine-Grained Long-Horizon UAV Navigation.md" --level full`
 

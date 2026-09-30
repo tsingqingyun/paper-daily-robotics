@@ -23,6 +23,9 @@ EX_CONFIG = getattr(os, "EX_CONFIG", 78)
 WIKI_LINK_RE = re.compile(r"\[\[([^\]\n]+)\]\]")
 DIGEST_SUFFIX = " AI Embodied Intelligence Update.md"
 PUBLIC_AUTOMATION_FILES = {
+    "scripts/paper_reading_context.py": "automation/scripts/paper_reading_context.py",
+    "scripts/refresh_ai_explanations.py": "automation/scripts/refresh_ai_explanations.py",
+    "tests/test_paper_reading_context.py": "automation/tests/test_paper_reading_context.py",
     "scripts/update_info_flow.py": "automation/scripts/update_info_flow.py",
     "scripts/migrate_ai_notes_compact.py": "automation/scripts/migrate_ai_notes_compact.py",
     "scripts/start_ai_deep_read.py": "automation/scripts/start_ai_deep_read.py",
@@ -159,10 +162,27 @@ def github_digest(digest_text: str, run_date: str, references: dict[str, Path]) 
         target, label = parse_wiki_target(match.group(1))
         source = references.get(target)
         if source is None:
-            return match.group(0)
+            return public_reading_link(target, label, "../../")
         return f"[{label}](items/{quote(source.name)})"
 
     return WIKI_LINK_RE.sub(replace, digest_text)
+
+
+def public_reading_link(target: str, label: str, root: str) -> str:
+    if target in {"AI 论文深读工作流", "10_MOCs/AI 论文深读工作流"}:
+        return f"[{label}]({root}deep-reading/README.md)"
+    if target.startswith("50_Papers/Deep Reads/"):
+        relative = target.removeprefix("50_Papers/Deep Reads/")
+        return f"[{label}]({root}deep-reads/{quote(relative)}.md)"
+    # Concept notes are not part of the public export; display their names plainly.
+    return label
+
+
+def github_paper_note(note: str) -> str:
+    def replace(match: re.Match[str]) -> str:
+        target, label = parse_wiki_target(match.group(1))
+        return public_reading_link(target, label, "../../../")
+    return WIKI_LINK_RE.sub(replace, note)
 
 
 def verify_current_state(vault: Path, run_date: str, digest: Path) -> None:
@@ -192,7 +212,7 @@ def export_date(vault: Path, repo: Path, run_date: str, verify_state: bool) -> l
     items_dir.mkdir(parents=True, exist_ok=True)
     atomic_write_text(destination / "index.md", github_digest(digest_text, run_date, references))
     for source in references.values():
-        atomic_write_text(items_dir / source.name, source.read_text(encoding="utf-8"))
+        atomic_write_text(items_dir / source.name, github_paper_note(source.read_text(encoding="utf-8")))
 
     manifest = {
         "date": run_date,
@@ -201,7 +221,9 @@ def export_date(vault: Path, repo: Path, run_date: str, verify_state: bool) -> l
         "published_item_count": len(references),
     }
     atomic_write_json(destination / "manifest.json", manifest)
-    return [f"daily/{run_date}"]
+    return [f"daily/{run_date}/index.md", f"daily/{run_date}/manifest.json"] + [
+        f"daily/{run_date}/items/{source.name}" for source in references.values()
+    ]
 
 
 def export_automation(vault: Path, repo: Path) -> list[str]:
@@ -212,7 +234,7 @@ def export_automation(vault: Path, repo: Path) -> list[str]:
             raise PublishError(f"Public automation source is missing: {source}", EX_CONFIG)
         destination = repo / destination_relative
         atomic_write_text(destination, source.read_text(encoding="utf-8"))
-        destinations.add(Path(destination_relative).parts[0])
+        destinations.add(destination_relative)
     return sorted(destinations)
 
 
@@ -239,8 +261,10 @@ def export_deep_reads(vault: Path, repo: Path) -> list[str]:
         return []
     destination_root = repo / "deep-reads"
     root_readme = source_root / "README.md"
+    exported: list[str] = []
     if root_readme.is_file():
         atomic_write_text(destination_root / "README.md", root_readme.read_text(encoding="utf-8"))
+        exported.append("deep-reads/README.md")
 
     published = 0
     for paper_dir in sorted(path for path in source_root.iterdir() if path.is_dir()):
@@ -282,9 +306,10 @@ def export_deep_reads(vault: Path, repo: Path) -> list[str]:
         report = github_deep_read(report_source, manifest)
         atomic_write_text(destination / "README.md", report)
         atomic_write_json(destination / "manifest.json", manifest)
+        exported.extend([f"deep-reads/{paper_dir.name}/README.md", f"deep-reads/{paper_dir.name}/manifest.json"])
         published += 1
 
-    return ["deep-reads"] if published or root_readme.is_file() else []
+    return exported
 
 
 def normalize_existing_manifests(repo: Path) -> list[str]:
@@ -367,6 +392,9 @@ def publish(args: argparse.Namespace) -> str:
     if not remote:
         raise PublishError("AI_DAILY_GITHUB_REMOTE is not configured", EX_CONFIG)
 
+    if (repo / ".git").is_dir() and git(repo, "diff", "--cached", "--name-only").stdout.strip():
+        raise PublishError("Publication mirror has pre-existing staged changes; refusing to include unrelated files", EX_CONFIG)
+
     ensure_repository(repo, remote, args.branch)
     if args.all:
         dates = sorted(path.name[:10] for path in (vault / "30_Updates").glob(f"*{DIGEST_SUFFIX}"))
@@ -382,13 +410,23 @@ def publish(args: argparse.Namespace) -> str:
     stage_paths.extend(export_deep_reads(vault, repo))
     stage_paths.extend(normalize_existing_manifests(repo))
     update_readme(repo)
-    git(repo, "add", "--", *stage_paths)
+    # Large archives can exceed macOS ARG_MAX when every note is explicit.
+    for offset in range(0, len(stage_paths), 100):
+        git(repo, "add", "--", *stage_paths[offset:offset + 100])
 
     staged = git(repo, "diff", "--cached", "--quiet", check=False)
     if staged.returncode not in (0, 1):
         raise PublishError(f"Cannot inspect staged publication changes: {staged.stderr.strip()}")
     if staged.returncode == 1:
         changed = git(repo, "diff", "--cached", "--name-only").stdout.splitlines()
+        # Git quotes non-ASCII names unless core.quotepath is disabled.
+        changed_exact = run_command(["git", "-c", "core.quotepath=false", "-C", str(repo), "diff", "--cached", "--name-only"]).stdout.splitlines()
+        if not set(changed_exact).issubset(set(stage_paths)):
+            raise PublishError("Staged publication contains files outside the explicit export list", EX_CONFIG)
+        if git(repo, "diff", "--cached", "--name-only", "--diff-filter=D").stdout.strip():
+            raise PublishError("Publication would delete files", EX_CONFIG)
+        if any(path.lower().endswith(".pdf") for path in changed_exact):
+            raise PublishError("Publication would upload source PDFs", EX_CONFIG)
         if any(path.startswith("deep-reads/") for path in changed):
             message = "publish completed L2 deep reads"
         else:

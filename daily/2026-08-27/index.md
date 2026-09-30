@@ -1,21 +1,21 @@
 ---
 type: daily-update
 tags: [update, ai, embodied-ai]
-format_version: 3
+format_version: 2
 evidence_level: abstract
 created: 2026-08-27
 ---
 
 # 2026-08-27 AI Embodied Intelligence Update
 
-> [!summary] 今日判断
+> [!summary] 30 秒结论
 > 今天最值得看的，是几条把 VLA 从“直接模仿动作”推向结构化中间表示的路线：统一相机几何、视觉轨迹、3D Gaussian 表征、分层技能与显式进度状态都在降低跨本体、跨任务和长时程控制的难度。另一条重要线索是部署可靠性：有工作开始记录世界模型预测的历史信用、利用置信度主动选数据，或让语言推理承担测试时计算，而不再只追逐单一成功率。
 > **趋势**：共同趋势是把感知、预测和控制之间的隐含耦合拆开，用可组合技能、几何 token、轨迹或可审计状态作为接口；同时尽量把昂贵模块留在训练阶段，保持在线控制轻量。评测也正从同分布任务扩展到未见协作模式、相机与布局变化、异步观测及真实硬件。
 
 - **规模**：2264 个候选 → 24 篇入选；回填 0 篇
 - **主题**：具身智能评测与基准 16、多模态基础模型 14、视觉语言动作模型 VLA 14、世界模型 13、机器人学习 10、智能体 Agent 8
 - **源异常**：1
-- **阅读方式**：先看 5 篇必读的“为什么值得读”，有用再进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **阅读方式**：先看 5 篇必读的“为什么值得读”，有用再进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -71,18 +71,18 @@ created: 2026-08-27
 
 ## 其余存档 12 篇
 
-- [Fiber Optic Sensing Glove for High Performance Dexterous Manipulation Capture](items/Fiber%20Optic%20Sensing%20Glove%20for%20High%20Performance%20Dexterous%20Manipulation%20Capture.md) · [[机器人学习]] [[具身智能评测与基准]]
-- [GaussVLA: Geometry-Aware Spatial Reasoning for Vision-Language-Action Model](items/GaussVLA%20Geometry-Aware%20Spatial%20Reasoning%20for%20Vision-Language-Action%20Model.md) · [[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [PonderPounce: A Pretrained MLLM as an Episode Context Engine for Robot Control](items/PonderPounce%20A%20Pretrained%20MLLM%20as%20an%20Episode%20Context%20Engine%20for%20Robot%20Control.md) · [[多模态基础模型]] [[视觉语言动作模型 VLA]] [[机器人学习]]
-- [From Seeing to Acting: Smart Glasses as First-Person Intelligence Platforms](items/From%20Seeing%20to%20Acting%20Smart%20Glasses%20as%20First-Person%20Intelligence%20Platforms.md) · [[多模态基础模型]] [[具身智能评测与基准]]
-- [LAC: Linear and Angular Compliance for Humanoid Whole-body Control](items/LAC%20Linear%20and%20Angular%20Compliance%20for%20Humanoid%20Whole-body%20Control.md) · [[世界模型]] [[机器人学习]]
-- [Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization](items/Zero-WAM%20In-Context%20World-Action%20Modeling%20from%20Human%20Videos%20for%20Open-Ended%20Task.md) · [[智能体 Agent]] [[世界模型]] [[视觉语言动作模型 VLA]] [[机器人学习]] [[具身智能评测与基准]]
-- [Simultaneous inference of environmental and interaction forces in collective dynamics](items/Simultaneous%20inference%20of%20environmental%20and%20interaction%20forces%20in%20collective%20dyn.md) · [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
-- [GaussianWAM: Distilling Geometry and Semantics from 3D Gaussian Fields into World-Action Models](items/GaussianWAM%20Distilling%20Geometry%20and%20Semantics%20from%203D%20Gaussian%20Fields%20into%20World.md) · [[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]]
-- [DreamLedger: Execution-Settled Credit Files for World-Model Imagination in Robot Decision Loops](items/DreamLedger%20Execution-Settled%20Credit%20Files%20for%20World-Model%20Imagination%20in%20Robot.md) · [[智能体 Agent]] [[具身智能评测与基准]]
-- [ConfAL-WM: Confidence-Guided Active Learning for Action-Conditioned World Models](items/ConfAL-WM%20Confidence-Guided%20Active%20Learning%20for%20Action-Conditioned%20World%20Models.md) · [[智能体 Agent]] [[世界模型]]
-- [Agentic Game Development as a Verifiable Trajectory Data Engine for Scaling World Models](items/Agentic%20Game%20Development%20as%20a%20Verifiable%20Trajectory%20Data%20Engine%20for%20Scaling%20Worl.md) · [[智能体 Agent]] [[世界模型]] [[机器人学习]]
-- [PIVOT: A Multi-Trajectory Dataset and Testbed for Pose, Intrinsics, and Novel Viewpoint Evaluation in Real-World 3D Reconstruction](items/PIVOT%20A%20Multi-Trajectory%20Dataset%20and%20Testbed%20for%20Pose%2C%20Intrinsics%2C%20and%20Novel%20Vie.md) · [[具身智能评测与基准]]
+- [Fiber Optic Sensing Glove for High Performance Dexterous Manipulation Capture](items/Fiber%20Optic%20Sensing%20Glove%20for%20High%20Performance%20Dexterous%20Manipulation%20Capture.md) · 机器人学习 具身智能评测与基准
+- [GaussVLA: Geometry-Aware Spatial Reasoning for Vision-Language-Action Model](items/GaussVLA%20Geometry-Aware%20Spatial%20Reasoning%20for%20Vision-Language-Action%20Model.md) · 多模态基础模型 世界模型 视觉语言动作模型 VLA 具身智能评测与基准
+- [PonderPounce: A Pretrained MLLM as an Episode Context Engine for Robot Control](items/PonderPounce%20A%20Pretrained%20MLLM%20as%20an%20Episode%20Context%20Engine%20for%20Robot%20Control.md) · 多模态基础模型 视觉语言动作模型 VLA 机器人学习
+- [From Seeing to Acting: Smart Glasses as First-Person Intelligence Platforms](items/From%20Seeing%20to%20Acting%20Smart%20Glasses%20as%20First-Person%20Intelligence%20Platforms.md) · 多模态基础模型 具身智能评测与基准
+- [LAC: Linear and Angular Compliance for Humanoid Whole-body Control](items/LAC%20Linear%20and%20Angular%20Compliance%20for%20Humanoid%20Whole-body%20Control.md) · 世界模型 机器人学习
+- [Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization](items/Zero-WAM%20In-Context%20World-Action%20Modeling%20from%20Human%20Videos%20for%20Open-Ended%20Task.md) · 智能体 Agent 世界模型 视觉语言动作模型 VLA 机器人学习 具身智能评测与基准
+- [Simultaneous inference of environmental and interaction forces in collective dynamics](items/Simultaneous%20inference%20of%20environmental%20and%20interaction%20forces%20in%20collective%20dyn.md) · 智能体 Agent 世界模型 具身智能评测与基准
+- [GaussianWAM: Distilling Geometry and Semantics from 3D Gaussian Fields into World-Action Models](items/GaussianWAM%20Distilling%20Geometry%20and%20Semantics%20from%203D%20Gaussian%20Fields%20into%20World.md) · 多模态基础模型 世界模型 视觉语言动作模型 VLA
+- [DreamLedger: Execution-Settled Credit Files for World-Model Imagination in Robot Decision Loops](items/DreamLedger%20Execution-Settled%20Credit%20Files%20for%20World-Model%20Imagination%20in%20Robot.md) · 智能体 Agent 具身智能评测与基准
+- [ConfAL-WM: Confidence-Guided Active Learning for Action-Conditioned World Models](items/ConfAL-WM%20Confidence-Guided%20Active%20Learning%20for%20Action-Conditioned%20World%20Models.md) · 智能体 Agent 世界模型
+- [Agentic Game Development as a Verifiable Trajectory Data Engine for Scaling World Models](items/Agentic%20Game%20Development%20as%20a%20Verifiable%20Trajectory%20Data%20Engine%20for%20Scaling%20Worl.md) · 智能体 Agent 世界模型 机器人学习
+- [PIVOT: A Multi-Trajectory Dataset and Testbed for Pose, Intrinsics, and Novel Viewpoint Evaluation in Real-World 3D Reconstruction](items/PIVOT%20A%20Multi-Trajectory%20Dataset%20and%20Testbed%20for%20Pose%2C%20Intrinsics%2C%20and%20Novel%20Vie.md) · 具身智能评测与基准
 
 <details>
 <summary>运行信息与信息源状态</summary>

@@ -20,19 +20,29 @@ concepts: ["世界模型", "Sim2Real"]
 > [!summary] 一句话结论（基于摘要）
 > We provide empirical evidence on sim2sim visual navigation and sim2real contact rich manipulation task and visual servoing task that BIFROST achieves effective transfer where domain adaptation and co-training baselines fail under both visual and dynamics doma…
 
-## 关键点
+## 问题
 
-- **问题**：Sim2real transfer for robot policy learning suffers due to mismatch between simulation and reality.
-- **创新点 / 方法**：We introduce BIFROST, which learns a shared history encoder on paired cross- domain data via cross-domain bisimulation objective: observation-action sequences leading to equivalent long-term behavior are mapped to nearby latent states, regardless of domain.
-- **证据**：We provide empirical evidence on sim2sim visual navigation and sim2real contact rich manipulation task and visual servoing task that BIFROST achieves effective transfer where domain adaptation and co-training baselines fail under both visual and dynamics domain gaps.
-- **局限**：摘要未明确说明；需阅读全文核查。
+Sim2real transfer for robot policy learning suffers due to mismatch between simulation and reality.
+
+## 创新点或方法
+
+We introduce BIFROST, which learns a shared history encoder on paired cross- domain data via cross-domain bisimulation objective: observation-action sequences leading to equivalent long-term behavior are mapped to nearby latent states, regardless of domain.
+
+## 证据
+
+We provide empirical evidence on sim2sim visual navigation and sim2real contact rich manipulation task and visual servoing task that BIFROST achieves effective transfer where domain adaptation and co-training baselines fail under both visual and dynamics domain gaps.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[世界模型]] [[Sim2Real]]
+- **概念**：世界模型 Sim2Real
 - **筛选分数**：25
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-07-06/BIFROST Bridging Invariant Feature Representation for Observation-space Sim2Real.md" --level full`
 

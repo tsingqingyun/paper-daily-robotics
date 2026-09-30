@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "智能体 Agent", "世界模型", "视觉�
 > [!summary] 一句话结论（基于摘要）
 > HarnessWAM achieves state-of-the-art full-task and subtask success rates of 59.6% and 69.9% on RoboMemArena, and an SR of 23.7% on RoboCerebra Ideal.
 
-## 关键点
+## 问题
 
-- **问题**：However, finite- horizon prediction and action generation are insufficient for complex embodied tasks that require global planning, cross-stage state maintenance, execution verification, and failure recovery.
-- **创新点 / 方法**：To address this gap, we propose HarnessWAM, an agentic framework for WAMs.
-- **证据**：HarnessWAM achieves state-of-the-art full-task and subtask success rates of 59.6% and 69.9% on RoboMemArena, and an SR of 23.7% on RoboCerebra Ideal.
-- **局限**：摘要未明确说明；需阅读全文核查。
+However, finite- horizon prediction and action generation are insufficient for complex embodied tasks that require global planning, cross-stage state maintenance, execution verification, and failure recovery.
+
+## 创新点或方法
+
+To address this gap, we propose HarnessWAM, an agentic framework for WAMs.
+
+## 证据
+
+HarnessWAM achieves state-of-the-art full-task and subtask success rates of 59.6% and 69.9% on RoboMemArena, and an SR of 23.7% on RoboCerebra Ideal.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 智能体 Agent 世界模型 视觉语言动作模型 VLA 具身智能评测与基准
 - **筛选分数**：25
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-12/HarnessWAM Bridging Prediction and Deliberation in World Action Models.md" --level full`
 

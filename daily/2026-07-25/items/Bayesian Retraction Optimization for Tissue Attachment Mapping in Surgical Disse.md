@@ -20,19 +20,29 @@ concepts: ["世界模型", "具身智能评测与基准"]
 > [!summary] 一句话结论（基于摘要）
 > Our method uses a Sequential Bayesian Hilbert Map (SBHM) to represent the likelihood that each tissue point is attached to the underlying resection surface.
 
-## 关键点
+## 问题
 
-- **问题**：We instead view tissue attachment identification as an inherently probabilistic problem and propose a Bayesian approach that avoids explicit tissue modeling.
-- **创新点 / 方法**：Our method uses a Sequential Bayesian Hilbert Map (SBHM) to represent the likelihood that each tissue point is attached to the underlying resection surface.
-- **证据**：摘要未报告明确实验结论；需阅读全文核查。
-- **局限**：Prior work has relied on hand-crafted incision policies that cannot quantify uncertainty or has relied on simulation-based methods that require strong modeling assumptions.
+We instead view tissue attachment identification as an inherently probabilistic problem and propose a Bayesian approach that avoids explicit tissue modeling.
+
+## 创新点或方法
+
+Our method uses a Sequential Bayesian Hilbert Map (SBHM) to represent the likelihood that each tissue point is attached to the underlying resection surface.
+
+## 证据
+
+摘要未报告明确实验结论；需阅读全文核查。
+
+## 局限
+
+Prior work has relied on hand-crafted incision policies that cannot quantify uncertainty or has relied on simulation-based methods that require strong modeling assumptions.
+
 
 ## 研究关联
 
-- **概念**：[[世界模型]] [[具身智能评测与基准]]
+- **概念**：世界模型 具身智能评测与基准
 - **筛选分数**：25
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-07-25/Bayesian Retraction Optimization for Tissue Attachment Mapping in Surgical Disse.md" --level full`
 

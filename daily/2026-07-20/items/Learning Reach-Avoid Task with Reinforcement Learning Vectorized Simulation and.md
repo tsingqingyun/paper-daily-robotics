@@ -20,19 +20,29 @@ concepts: ["智能体 Agent", "世界模型", "机器人学习", "具身智能�
 > [!summary] 一句话结论（基于摘要）
 > We achieved state-of- the-art results with success rates of 96.1% (UR5e) and 98.8% (Franka Emika Robot) for the reach task and 86.8% (UR5e) and 95.2% (Franka) for the static reachavoid task.
 
-## 关键点
+## 问题
 
-- **问题**：Deep reinforcement learning (DRL) has a longstanding tradition in addressing the reach- avoid task problem, especially for controlling robotic arms.
-- **创新点 / 方法**：In this paper, we present, for the first time, a comprehensive benchmark for the reachavoid task that accurately captures real- world complexities without simplifications.
-- **证据**：We achieved state-of- the-art results with success rates of 96.1% (UR5e) and 98.8% (Franka Emika Robot) for the reach task and 86.8% (UR5e) and 95.2% (Franka) for the static reachavoid task.
-- **局限**：摘要未明确说明；需阅读全文核查。
+Deep reinforcement learning (DRL) has a longstanding tradition in addressing the reach- avoid task problem, especially for controlling robotic arms.
+
+## 创新点或方法
+
+In this paper, we present, for the first time, a comprehensive benchmark for the reachavoid task that accurately captures real- world complexities without simplifications.
+
+## 证据
+
+We achieved state-of- the-art results with success rates of 96.1% (UR5e) and 98.8% (Franka Emika Robot) for the reach task and 86.8% (UR5e) and 95.2% (Franka) for the static reachavoid task.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[智能体 Agent]] [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
+- **概念**：智能体 Agent 世界模型 机器人学习 具身智能评测与基准
 - **筛选分数**：30
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-07-20/Learning Reach-Avoid Task with Reinforcement Learning Vectorized Simulation and.md" --level full`
 

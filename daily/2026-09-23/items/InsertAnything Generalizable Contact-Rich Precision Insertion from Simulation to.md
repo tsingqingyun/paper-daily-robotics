@@ -42,10 +42,10 @@ concepts: ["世界模型", "机器人学习", "具身智能评测与基准"]
 
 对机器人学习和Sim2Real，展示了以紧凑力反馈支撑精密接触迁移与跨几何复用的路径；它不直接验证学习式世界模型。
 
-- **概念**：[[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
+- **概念**：世界模型 机器人学习 具身智能评测与基准
 - **筛选分数**：32
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-23/InsertAnything Generalizable Contact-Rich Precision Insertion from Simulation to.md" --level full`
 

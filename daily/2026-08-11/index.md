@@ -14,7 +14,7 @@ created: 2026-08-11
 - **规模**：2231 个候选 → 24 篇入选；回填 0 篇
 - **主题**：具身智能评测与基准 16、多模态基础模型 15、智能体 Agent 13、视觉语言动作模型 VLA 11、世界模型 10、机器人学习 8、Sim2Real 2
 - **源异常**：0
-- **需要更高精度**：从“必读”选择论文，进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **需要更高精度**：从“必读”选择论文，进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -55,18 +55,18 @@ created: 2026-08-11
 
 ## 其余存档 12 篇
 
-- [SAIN: Structure-Aware Interactive Navigation with Active Dialogue Grounding for Mobile Robot](items/SAIN%20Structure-Aware%20Interactive%20Navigation%20with%20Active%20Dialogue%20Grounding%20for%20M.md) · [[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
-- [Multi-Submap Implicit Neural SLAM with Local-to-Global Loop Closure for Large-Scale Scene Reconstruction](items/Multi-Submap%20Implicit%20Neural%20SLAM%20with%20Local-to-Global%20Loop%20Closure%20for%20Large-Sc.md) · [[多模态基础模型]] [[世界模型]] [[具身智能评测与基准]]
-- [Latent World Models with Monotone Planning Costs for Image-Goal Navigation](items/Latent%20World%20Models%20with%20Monotone%20Planning%20Costs%20for%20Image-Goal%20Navigation.md) · [[智能体 Agent]] [[世界模型]] [[视觉语言动作模型 VLA]]
-- [Multi-modal Interactive Control of Robotic Arm based on Offline Large Language Models](items/Multi-modal%20Interactive%20Control%20of%20Robotic%20Arm%20based%20on%20Offline%20Large%20Language%20M.md) · [[多模态基础模型]] [[智能体 Agent]]
-- [SpeedTuning: Speeding Up Policy Execution with Lightweight Reinforcement Learning](items/SpeedTuning%20Speeding%20Up%20Policy%20Execution%20with%20Lightweight%20Reinforcement%20Learning.md) · [[机器人学习]] [[具身智能评测与基准]]
-- [OnEvoMemory: Evolving Memory through Online Robot Rollouts for Pretrained Robot Policies](items/OnEvoMemory%20Evolving%20Memory%20through%20Online%20Robot%20Rollouts%20for%20Pretrained%20Robot%20P.md) · [[智能体 Agent]] [[视觉语言动作模型 VLA]] [[机器人学习]] [[具身智能评测与基准]]
-- [Energy-Structured Latent World Models with Neural Time Fields for Physically Constistent Open-World Motion Planning](items/Energy-Structured%20Latent%20World%20Models%20with%20Neural%20Time%20Fields%20for%20Physically%20Con.md) · [[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
-- [Efficient Human-Contact Representation for Human-Scene Interaction](items/Efficient%20Human-Contact%20Representation%20for%20Human-Scene%20Interaction.md) · [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [WA-SpecDec: World-Aware Speculative Decoding for Vision-Language-Action Models](items/WA-SpecDec%20World-Aware%20Speculative%20Decoding%20for%20Vision-Language-Action%20Models.md) · [[多模态基础模型]] [[视觉语言动作模型 VLA]]
-- [Spatiotemporal Context-dependent Personalized Movement Compensation in Delayed Telemanipulation](items/Spatiotemporal%20Context-dependent%20Personalized%20Movement%20Compensation%20in%20Delayed%20T.md) · [[世界模型]] [[具身智能评测与基准]]
-- [Compiling and Benchmarking Task-State Horizons for Embodied Agents](items/Compiling%20and%20Benchmarking%20Task-State%20Horizons%20for%20Embodied%20Agents.md) · [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
-- [EgoTrack3D: A Modular Framework for Egocentric 3D Object Tracking](items/EgoTrack3D%20A%20Modular%20Framework%20for%20Egocentric%203D%20Object%20Tracking.md) · [[世界模型]] [[具身智能评测与基准]]
+- [SAIN: Structure-Aware Interactive Navigation with Active Dialogue Grounding for Mobile Robot](items/SAIN%20Structure-Aware%20Interactive%20Navigation%20with%20Active%20Dialogue%20Grounding%20for%20M.md) · 多模态基础模型 智能体 Agent 具身智能评测与基准
+- [Multi-Submap Implicit Neural SLAM with Local-to-Global Loop Closure for Large-Scale Scene Reconstruction](items/Multi-Submap%20Implicit%20Neural%20SLAM%20with%20Local-to-Global%20Loop%20Closure%20for%20Large-Sc.md) · 多模态基础模型 世界模型 具身智能评测与基准
+- [Latent World Models with Monotone Planning Costs for Image-Goal Navigation](items/Latent%20World%20Models%20with%20Monotone%20Planning%20Costs%20for%20Image-Goal%20Navigation.md) · 智能体 Agent 世界模型 视觉语言动作模型 VLA
+- [Multi-modal Interactive Control of Robotic Arm based on Offline Large Language Models](items/Multi-modal%20Interactive%20Control%20of%20Robotic%20Arm%20based%20on%20Offline%20Large%20Language%20M.md) · 多模态基础模型 智能体 Agent
+- [SpeedTuning: Speeding Up Policy Execution with Lightweight Reinforcement Learning](items/SpeedTuning%20Speeding%20Up%20Policy%20Execution%20with%20Lightweight%20Reinforcement%20Learning.md) · 机器人学习 具身智能评测与基准
+- [OnEvoMemory: Evolving Memory through Online Robot Rollouts for Pretrained Robot Policies](items/OnEvoMemory%20Evolving%20Memory%20through%20Online%20Robot%20Rollouts%20for%20Pretrained%20Robot%20P.md) · 智能体 Agent 视觉语言动作模型 VLA 机器人学习 具身智能评测与基准
+- [Energy-Structured Latent World Models with Neural Time Fields for Physically Constistent Open-World Motion Planning](items/Energy-Structured%20Latent%20World%20Models%20with%20Neural%20Time%20Fields%20for%20Physically%20Con.md) · 多模态基础模型 智能体 Agent 世界模型 具身智能评测与基准
+- [Efficient Human-Contact Representation for Human-Scene Interaction](items/Efficient%20Human-Contact%20Representation%20for%20Human-Scene%20Interaction.md) · 视觉语言动作模型 VLA 具身智能评测与基准
+- [WA-SpecDec: World-Aware Speculative Decoding for Vision-Language-Action Models](items/WA-SpecDec%20World-Aware%20Speculative%20Decoding%20for%20Vision-Language-Action%20Models.md) · 多模态基础模型 视觉语言动作模型 VLA
+- [Spatiotemporal Context-dependent Personalized Movement Compensation in Delayed Telemanipulation](items/Spatiotemporal%20Context-dependent%20Personalized%20Movement%20Compensation%20in%20Delayed%20T.md) · 世界模型 具身智能评测与基准
+- [Compiling and Benchmarking Task-State Horizons for Embodied Agents](items/Compiling%20and%20Benchmarking%20Task-State%20Horizons%20for%20Embodied%20Agents.md) · 智能体 Agent 世界模型 具身智能评测与基准
+- [EgoTrack3D: A Modular Framework for Egocentric 3D Object Tracking](items/EgoTrack3D%20A%20Modular%20Framework%20for%20Egocentric%203D%20Object%20Tracking.md) · 世界模型 具身智能评测与基准
 
 <details>
 <summary>运行信息与信息源错误</summary>

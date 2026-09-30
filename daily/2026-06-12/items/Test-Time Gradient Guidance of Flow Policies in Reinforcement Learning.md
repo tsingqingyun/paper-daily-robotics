@@ -20,19 +20,29 @@ concepts: ["机器人学习", "具身智能评测与基准"]
 > [!summary] 一句话结论（基于摘要）
 > Empirically, QGF outperforms prior test-time RL methods on single-task and goal-conditioned offline RL benchmarks with high-dimensional action spaces, and is competitive with state-of-the-art training-time algorithms while being much cheaper to run.
 
-## 关键点
+## 问题
 
-- **问题**：While they are known to scale stably in the supervised imitation learning setting, incorporating them into reinforcement learning (RL) pipelines for policy improvement has proven more difficult.
-- **创新点 / 方法**：To this end, we propose QGF (Q-Guided Flow), an RL algorithm that performs policy optimization entirely at test time.
-- **证据**：Empirically, QGF outperforms prior test-time RL methods on single-task and goal-conditioned offline RL benchmarks with high-dimensional action spaces, and is competitive with state-of-the-art training-time algorithms while being much cheaper to run.
-- **局限**：摘要未明确说明；需阅读全文核查。
+While they are known to scale stably in the supervised imitation learning setting, incorporating them into reinforcement learning (RL) pipelines for policy improvement has proven more difficult.
+
+## 创新点或方法
+
+To this end, we propose QGF (Q-Guided Flow), an RL algorithm that performs policy optimization entirely at test time.
+
+## 证据
+
+Empirically, QGF outperforms prior test-time RL methods on single-task and goal-conditioned offline RL benchmarks with high-dimensional action spaces, and is competitive with state-of-the-art training-time algorithms while being much cheaper to run.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[机器人学习]] [[具身智能评测与基准]]
+- **概念**：机器人学习 具身智能评测与基准
 - **筛选分数**：31
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-12/Test-Time Gradient Guidance of Flow Policies in Reinforcement Learning.md" --level full`
 

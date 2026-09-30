@@ -42,10 +42,10 @@ concepts: ["多模态基础模型", "视觉语言动作模型 VLA"]
 
 全身智能与 VLA 的动作输出和机器人控制范围有关，值得相关研究者跟踪；但标题不足以提供可复用的方法或设计依据。
 
-- **概念**：[[多模态基础模型]] [[视觉语言动作模型 VLA]]
+- **概念**：多模态基础模型 视觉语言动作模型 VLA
 - **筛选分数**：16
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-20/Gemini Robotics 2 brings whole body intelligence to robots.md" --level full`
 

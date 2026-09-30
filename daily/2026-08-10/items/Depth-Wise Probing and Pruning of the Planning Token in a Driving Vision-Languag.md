@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "智能体 Agent", "视觉语言动作模型
 > [!summary] 一句话结论（基于摘要）
 > Our diagnostic shows that semantic intent is linearly decodable early: command-probe accuracy reaches 97.7\% after the first decoder layer, compared with 16.7\% chance.
 
-## 关键点
+## 问题
 
-- **问题**：These findings are limited to the evaluated ORION checkpoint and Bench2Drive setup.
-- **创新点 / 方法**：Vision-language-action (VLA) models route driving decisions through a deep language model, but it is unclear how much of that depth the action itself requires.
-- **证据**：Our diagnostic shows that semantic intent is linearly decodable early: command-probe accuracy reaches 97.7\% after the first decoder layer, compared with 16.7\% chance.
-- **局限**：These findings are limited to the evaluated ORION checkpoint and Bench2Drive setup.
+These findings are limited to the evaluated ORION checkpoint and Bench2Drive setup.
+
+## 创新点或方法
+
+Vision-language-action (VLA) models route driving decisions through a deep language model, but it is unclear how much of that depth the action itself requires.
+
+## 证据
+
+Our diagnostic shows that semantic intent is linearly decodable early: command-probe accuracy reaches 97.7\% after the first decoder layer, compared with 16.7\% chance.
+
+## 局限
+
+These findings are limited to the evaluated ORION checkpoint and Bench2Drive setup.
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]]
+- **概念**：多模态基础模型 智能体 Agent 视觉语言动作模型 VLA
 - **筛选分数**：25
 - **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-10/Depth-Wise Probing and Pruning of the Planning Token in a Driving Vision-Languag.md" --level full`
 

@@ -42,10 +42,10 @@ concepts: ["世界模型", "具身智能评测与基准"]
 
 对具身评测和机器人学习研究者，这能帮助设计公平的触觉对照实验，避免直接照搬某项任务上的最佳配置。摘要未显示其对世界模型预测的直接贡献。
 
-- **概念**：[[世界模型]] [[具身智能评测与基准]]
+- **概念**：世界模型 具身智能评测与基准
 - **筛选分数**：33
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-28/TACTIC Understanding Tactile Encoders and Conditioning for Contact-rich Robot Ma.md" --level full`
 

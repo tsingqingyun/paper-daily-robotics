@@ -20,19 +20,29 @@ concepts: ["智能体 Agent", "世界模型", "具身智能评测与基准"]
 > [!summary] 一句话结论（基于摘要）
 > We present the orienteering problem with uncertain time-varying rewards (OP-UTVR), a novel variant of the orienteering problem (OP).
 
-## 关键点
+## 问题
 
-- **问题**：We address this problem using three planners that differ in planning horizon and online adaptivity, and derive theoretical bounds on their performance under reward stochasticity.
-- **创新点 / 方法**：We present the orienteering problem with uncertain time-varying rewards (OP-UTVR), a novel variant of the orienteering problem (OP).
-- **证据**：摘要未报告明确实验结论；需阅读全文核查。
-- **局限**：摘要未明确说明；需阅读全文核查。
+We address this problem using three planners that differ in planning horizon and online adaptivity, and derive theoretical bounds on their performance under reward stochasticity.
+
+## 创新点或方法
+
+We present the orienteering problem with uncertain time-varying rewards (OP-UTVR), a novel variant of the orienteering problem (OP).
+
+## 证据
+
+摘要未报告明确实验结论；需阅读全文核查。
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
+- **概念**：智能体 Agent 世界模型 具身智能评测与基准
 - **筛选分数**：28
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-21/Orienteering Problem with Uncertain Time-Varying Rewards Framework and Benchmark.md" --level full`
 

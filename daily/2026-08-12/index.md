@@ -14,7 +14,7 @@ created: 2026-08-12
 - **规模**：2233 个候选 → 24 篇入选；回填 0 篇
 - **主题**：智能体 Agent 16、具身智能评测与基准 15、多模态基础模型 13、世界模型 11、机器人学习 4、视觉语言动作模型 VLA 4、Sim2Real 1
 - **源异常**：0
-- **需要更高精度**：从“必读”选择论文，进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **需要更高精度**：从“必读”选择论文，进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -55,18 +55,18 @@ created: 2026-08-12
 
 ## 其余存档 12 篇
 
-- [verdi: retrieval is not transfer for continual world model optimization](items/verdi%20retrieval%20is%20not%20transfer%20for%20continual%20world%20model%20optimization.md) · [[智能体 Agent]] [[世界模型]]
-- [HarnessWAM: Bridging Prediction and Deliberation in World Action Models](items/HarnessWAM%20Bridging%20Prediction%20and%20Deliberation%20in%20World%20Action%20Models.md) · [[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [EsaacSim: A Multimodal Event Camera Add-on for NVIDIA Isaac Sim](items/EsaacSim%20A%20Multimodal%20Event%20Camera%20Add-on%20for%20NVIDIA%20Isaac%20Sim.md) · [[多模态基础模型]] [[世界模型]] [[具身智能评测与基准]]
-- [SkillsMetric: Mapping the Detection Boundary of Static Analysis for Malicious Agent Skills](items/SkillsMetric%20Mapping%20the%20Detection%20Boundary%20of%20Static%20Analysis%20for%20Malicious%20Age.md) · [[智能体 Agent]] [[具身智能评测与基准]]
-- [Diminishing Returns of Intelligence: The Non-Linear Relationship Between LLM Scale and User Perception in Short-Duration Open-Ended Social Human-Robot Interactions](items/Diminishing%20Returns%20of%20Intelligence%20The%20Non-Linear%20Relationship%20Between%20LLM%20Scal.md) · [[多模态基础模型]] [[智能体 Agent]]
-- [Action- and Language-Conditioned Video Assessment for Embodied Control](items/Action-%20and%20Language-Conditioned%20Video%20Assessment%20for%20Embodied%20Control.md) · [[多模态基础模型]] [[智能体 Agent]]
-- [Lingjing: A Simulation Testbed for Multi-Agent Embodied Tasks in Open-Ended Cities](items/Lingjing%20A%20Simulation%20Testbed%20for%20Multi-Agent%20Embodied%20Tasks%20in%20Open-Ended%20Citie.md) · [[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
-- [Sekai2: From World Exploration to Interactive World Modeling](items/Sekai2%20From%20World%20Exploration%20to%20Interactive%20World%20Modeling.md) · [[智能体 Agent]] [[世界模型]]
-- [Particle-Based Conformal Prediction for Contact-Aware Uncertainty Calibration in Stratified Configuration Spaces](items/Particle-Based%20Conformal%20Prediction%20for%20Contact-Aware%20Uncertainty%20Calibration%20in.md) · [[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
-- [Hierarchical Topology-Aware Planning and Control of Underwater Vehicle-Manipulator Systems in Confined Environments](items/Hierarchical%20Topology-Aware%20Planning%20and%20Control%20of%20Underwater%20Vehicle-Manipulat.md) · [[智能体 Agent]] [[世界模型]] [[机器人学习]]
-- [Vid2WAM: Distilling Video Diffusion Priors into World Action Models](items/Vid2WAM%20Distilling%20Video%20Diffusion%20Priors%20into%20World%20Action%20Models.md) · [[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]] [[机器人学习]]
-- [Query-Only Backdoor Attacks on Self-Evolving Skills via Trajectory Poisoning](items/Query-Only%20Backdoor%20Attacks%20on%20Self-Evolving%20Skills%20via%20Trajectory%20Poisoning.md) · [[智能体 Agent]] [[具身智能评测与基准]]
+- [verdi: retrieval is not transfer for continual world model optimization](items/verdi%20retrieval%20is%20not%20transfer%20for%20continual%20world%20model%20optimization.md) · 智能体 Agent 世界模型
+- [HarnessWAM: Bridging Prediction and Deliberation in World Action Models](items/HarnessWAM%20Bridging%20Prediction%20and%20Deliberation%20in%20World%20Action%20Models.md) · 多模态基础模型 智能体 Agent 世界模型 视觉语言动作模型 VLA 具身智能评测与基准
+- [EsaacSim: A Multimodal Event Camera Add-on for NVIDIA Isaac Sim](items/EsaacSim%20A%20Multimodal%20Event%20Camera%20Add-on%20for%20NVIDIA%20Isaac%20Sim.md) · 多模态基础模型 世界模型 具身智能评测与基准
+- [SkillsMetric: Mapping the Detection Boundary of Static Analysis for Malicious Agent Skills](items/SkillsMetric%20Mapping%20the%20Detection%20Boundary%20of%20Static%20Analysis%20for%20Malicious%20Age.md) · 智能体 Agent 具身智能评测与基准
+- [Diminishing Returns of Intelligence: The Non-Linear Relationship Between LLM Scale and User Perception in Short-Duration Open-Ended Social Human-Robot Interactions](items/Diminishing%20Returns%20of%20Intelligence%20The%20Non-Linear%20Relationship%20Between%20LLM%20Scal.md) · 多模态基础模型 智能体 Agent
+- [Action- and Language-Conditioned Video Assessment for Embodied Control](items/Action-%20and%20Language-Conditioned%20Video%20Assessment%20for%20Embodied%20Control.md) · 多模态基础模型 智能体 Agent
+- [Lingjing: A Simulation Testbed for Multi-Agent Embodied Tasks in Open-Ended Cities](items/Lingjing%20A%20Simulation%20Testbed%20for%20Multi-Agent%20Embodied%20Tasks%20in%20Open-Ended%20Citie.md) · 多模态基础模型 智能体 Agent 世界模型 具身智能评测与基准
+- [Sekai2: From World Exploration to Interactive World Modeling](items/Sekai2%20From%20World%20Exploration%20to%20Interactive%20World%20Modeling.md) · 智能体 Agent 世界模型
+- [Particle-Based Conformal Prediction for Contact-Aware Uncertainty Calibration in Stratified Configuration Spaces](items/Particle-Based%20Conformal%20Prediction%20for%20Contact-Aware%20Uncertainty%20Calibration%20in.md) · 多模态基础模型 智能体 Agent 具身智能评测与基准
+- [Hierarchical Topology-Aware Planning and Control of Underwater Vehicle-Manipulator Systems in Confined Environments](items/Hierarchical%20Topology-Aware%20Planning%20and%20Control%20of%20Underwater%20Vehicle-Manipulat.md) · 智能体 Agent 世界模型 机器人学习
+- [Vid2WAM: Distilling Video Diffusion Priors into World Action Models](items/Vid2WAM%20Distilling%20Video%20Diffusion%20Priors%20into%20World%20Action%20Models.md) · 多模态基础模型 世界模型 视觉语言动作模型 VLA 机器人学习
+- [Query-Only Backdoor Attacks on Self-Evolving Skills via Trajectory Poisoning](items/Query-Only%20Backdoor%20Attacks%20on%20Self-Evolving%20Skills%20via%20Trajectory%20Poisoning.md) · 智能体 Agent 具身智能评测与基准
 
 <details>
 <summary>运行信息与信息源错误</summary>

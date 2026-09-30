@@ -20,19 +20,29 @@ concepts: ["世界模型", "机器人学习", "具身智能评测与基准"]
 > [!summary] 一句话结论（基于摘要）
 > Under OOD control scenarios spanning unseen seasons and climate regions, ADAPT maintains robust performance with only marginal degradation relative to its IID performance, substantially outperforming existing methods in transfer robustness.
 
-## 关键点
+## 问题
 
-- **问题**：However, indoor delayed thermodynamic responses and partial observability severely hinder existing methods, which are primarily limited by implicit thermal inertia, occupancy dynamic prediction, and cumulative prediction errors, especially for out-of-distribution environments.
-- **创新点 / 方法**：To address this problem, we propose ADAPT, a physics-aware conditional diffusion indoor environmental world model for HVAC control.
-- **证据**：Under OOD control scenarios spanning unseen seasons and climate regions, ADAPT maintains robust performance with only marginal degradation relative to its IID performance, substantially outperforming existing methods in transfer robustness.
-- **局限**：摘要未明确说明；需阅读全文核查。
+However, indoor delayed thermodynamic responses and partial observability severely hinder existing methods, which are primarily limited by implicit thermal inertia, occupancy dynamic prediction, and cumulative prediction errors, especially for out-of-distribution environments.
+
+## 创新点或方法
+
+To address this problem, we propose ADAPT, a physics-aware conditional diffusion indoor environmental world model for HVAC control.
+
+## 证据
+
+Under OOD control scenarios spanning unseen seasons and climate regions, ADAPT maintains robust performance with only marginal degradation relative to its IID performance, substantially outperforming existing methods in transfer robustness.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
+- **概念**：世界模型 机器人学习 具身智能评测与基准
 - **筛选分数**：20
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-23/ADAPT Physics-Aware Diffusion-based World Models for Adaptive Predictive Transfe.md" --level full`
 

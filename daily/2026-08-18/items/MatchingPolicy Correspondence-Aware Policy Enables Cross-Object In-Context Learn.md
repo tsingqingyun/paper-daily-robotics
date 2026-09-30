@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "机器人学习", "具身智能评测与基
 > [!summary] 一句话结论（基于摘要）
 > Extensive evaluations on RLBench and real-world manipulation tasks confirm that MatchingPolicy achieves superior few-shot performance, generalizing reliably across unseen object instances and semantic categories.
 
-## 关键点
+## 问题
 
-- **问题**：In-context imitation learning enables few-shot policy generalization but struggles to maintain performance on unseen objects and novel scenarios.
-- **创新点 / 方法**：To address this, we introduce MatchingPolicy, a correspondence-driven framework that explicitly decouples demonstration-to-scene matching from policy learning.
-- **证据**：Extensive evaluations on RLBench and real-world manipulation tasks confirm that MatchingPolicy achieves superior few-shot performance, generalizing reliably across unseen object instances and semantic categories.
-- **局限**：摘要未明确说明；需阅读全文核查。
+In-context imitation learning enables few-shot policy generalization but struggles to maintain performance on unseen objects and novel scenarios.
+
+## 创新点或方法
+
+To address this, we introduce MatchingPolicy, a correspondence-driven framework that explicitly decouples demonstration-to-scene matching from policy learning.
+
+## 证据
+
+Extensive evaluations on RLBench and real-world manipulation tasks confirm that MatchingPolicy achieves superior few-shot performance, generalizing reliably across unseen object instances and semantic categories.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[机器人学习]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 机器人学习 具身智能评测与基准
 - **筛选分数**：31
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-18/MatchingPolicy Correspondence-Aware Policy Enables Cross-Object In-Context Learn.md" --level full`
 

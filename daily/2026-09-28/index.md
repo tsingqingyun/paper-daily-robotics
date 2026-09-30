@@ -15,7 +15,7 @@ created: 2026-09-28
 - **规模**：2269 个候选 → 24 篇入选；回填 0 篇
 - **主题**：具身智能评测与基准 18、多模态基础模型 18、世界模型 14、机器人学习 10、视觉语言动作模型 VLA 9、智能体 Agent 8、Sim2Real 4
 - **源异常**：1
-- **阅读方式**：先看 5 篇必读的“为什么值得读”，有用再进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **阅读方式**：先看 5 篇必读的“为什么值得读”，有用再进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -71,18 +71,18 @@ created: 2026-09-28
 
 ## 其余存档 12 篇
 
-- [Transformer-based Monte Carlo Localization in Construction Meshes](items/Transformer-based%20Monte%20Carlo%20Localization%20in%20Construction%20Meshes.md) · [[具身智能评测与基准]]
-- [DyMD: Preserving Interaction Dynamics through Distribution Matching Distillation in Few-Step Video World Models](items/DyMD%20Preserving%20Interaction%20Dynamics%20through%20Distribution%20Matching%20Distillation.md) · [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
-- [SciHorizon-eLab: An Agentic Protocol-to-Task Compiler for Scalable Benchmarking of Scientific Embodied Agents](items/SciHorizon-eLab%20An%20Agentic%20Protocol-to-Task%20Compiler%20for%20Scalable%20Benchmarking%20o.md) · [[智能体 Agent]] [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
-- [Causeway: Restoring Task Accessibility for Instruction Switching in VLA Policies](items/Causeway%20Restoring%20Task%20Accessibility%20for%20Instruction%20Switching%20in%20VLA%20Policies.md) · [[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]]
-- [RAPID: Robot Agentic Programming from Demonstrations](items/RAPID%20Robot%20Agentic%20Programming%20from%20Demonstrations.md) · [[智能体 Agent]] [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
-- [WorldTS: World Modeling for Multimodal Covariate-aware Time Series Forecasting](items/WorldTS%20World%20Modeling%20for%20Multimodal%20Covariate-aware%20Time%20Series%20Forecasting.md) · [[多模态基础模型]] [[世界模型]]
-- [The Linear Representation Hypothesis for Vision-Language-Action Models](items/The%20Linear%20Representation%20Hypothesis%20for%20Vision-Language-Action%20Models.md) · [[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]]
-- [VisTacAlign: Co-Training Dexterous Policies on Tactile Human and Robot Demonstrations](items/VisTacAlign%20Co-Training%20Dexterous%20Policies%20on%20Tactile%20Human%20and%20Robot%20Demonstrat.md) · [[多模态基础模型]] [[机器人学习]]
-- [Fast Plans, Faithful Actions: Closing the Planning-Execution Gap in Hierarchical Vision-Language-Action Models](items/Fast%20Plans%2C%20Faithful%20Actions%20Closing%20the%20Planning-Execution%20Gap%20in%20Hierarchical.md) · [[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [Skip the Talk, Re-Focus on Vision: Latent Reasoning for Reasoning Segmentation in Multimodal Large Language Models](items/Skip%20the%20Talk%2C%20Re-Focus%20on%20Vision%20Latent%20Reasoning%20for%20Reasoning%20Segmentation%20in.md) · [[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
-- [NavGen: Visual Generative Models as a Scalable Data Engine for Embodied 3D Navigation](items/NavGen%20Visual%20Generative%20Models%20as%20a%20Scalable%20Data%20Engine%20for%20Embodied%203D%20Naviga.md) · [[多模态基础模型]] [[Sim2Real]] [[具身智能评测与基准]]
-- [Rolling-WAM: World Action Models with Rolling Imagination](items/Rolling-WAM%20World%20Action%20Models%20with%20Rolling%20Imagination.md) · [[智能体 Agent]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
+- [Transformer-based Monte Carlo Localization in Construction Meshes](items/Transformer-based%20Monte%20Carlo%20Localization%20in%20Construction%20Meshes.md) · 具身智能评测与基准
+- [DyMD: Preserving Interaction Dynamics through Distribution Matching Distillation in Few-Step Video World Models](items/DyMD%20Preserving%20Interaction%20Dynamics%20through%20Distribution%20Matching%20Distillation.md) · 智能体 Agent 世界模型 具身智能评测与基准
+- [SciHorizon-eLab: An Agentic Protocol-to-Task Compiler for Scalable Benchmarking of Scientific Embodied Agents](items/SciHorizon-eLab%20An%20Agentic%20Protocol-to-Task%20Compiler%20for%20Scalable%20Benchmarking%20o.md) · 智能体 Agent 世界模型 机器人学习 具身智能评测与基准
+- [Causeway: Restoring Task Accessibility for Instruction Switching in VLA Policies](items/Causeway%20Restoring%20Task%20Accessibility%20for%20Instruction%20Switching%20in%20VLA%20Policies.md) · 多模态基础模型 世界模型 视觉语言动作模型 VLA
+- [RAPID: Robot Agentic Programming from Demonstrations](items/RAPID%20Robot%20Agentic%20Programming%20from%20Demonstrations.md) · 智能体 Agent 世界模型 机器人学习 具身智能评测与基准
+- [WorldTS: World Modeling for Multimodal Covariate-aware Time Series Forecasting](items/WorldTS%20World%20Modeling%20for%20Multimodal%20Covariate-aware%20Time%20Series%20Forecasting.md) · 多模态基础模型 世界模型
+- [The Linear Representation Hypothesis for Vision-Language-Action Models](items/The%20Linear%20Representation%20Hypothesis%20for%20Vision-Language-Action%20Models.md) · 多模态基础模型 世界模型 视觉语言动作模型 VLA
+- [VisTacAlign: Co-Training Dexterous Policies on Tactile Human and Robot Demonstrations](items/VisTacAlign%20Co-Training%20Dexterous%20Policies%20on%20Tactile%20Human%20and%20Robot%20Demonstrat.md) · 多模态基础模型 机器人学习
+- [Fast Plans, Faithful Actions: Closing the Planning-Execution Gap in Hierarchical Vision-Language-Action Models](items/Fast%20Plans%2C%20Faithful%20Actions%20Closing%20the%20Planning-Execution%20Gap%20in%20Hierarchical.md) · 多模态基础模型 智能体 Agent 视觉语言动作模型 VLA 具身智能评测与基准
+- [Skip the Talk, Re-Focus on Vision: Latent Reasoning for Reasoning Segmentation in Multimodal Large Language Models](items/Skip%20the%20Talk%2C%20Re-Focus%20on%20Vision%20Latent%20Reasoning%20for%20Reasoning%20Segmentation%20in.md) · 多模态基础模型 智能体 Agent 具身智能评测与基准
+- [NavGen: Visual Generative Models as a Scalable Data Engine for Embodied 3D Navigation](items/NavGen%20Visual%20Generative%20Models%20as%20a%20Scalable%20Data%20Engine%20for%20Embodied%203D%20Naviga.md) · 多模态基础模型 Sim2Real 具身智能评测与基准
+- [Rolling-WAM: World Action Models with Rolling Imagination](items/Rolling-WAM%20World%20Action%20Models%20with%20Rolling%20Imagination.md) · 智能体 Agent 视觉语言动作模型 VLA 具身智能评测与基准
 
 <details>
 <summary>运行信息与信息源状态</summary>

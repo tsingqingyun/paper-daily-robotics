@@ -20,19 +20,29 @@ concepts: ["多模态基础模型"]
 > [!summary] 一句话结论（基于摘要）
 > To bridge this gap, we propose VICX (Video generation and In-Context eXecution), a decoupled closed-loop manipulation framework.
 
-## 关键点
+## 问题
 
-- **问题**：Generalizable robot manipulation requires not only task-level reasoning over unseen scenes, but also reliable grounding of visual plans into embodiment-specific execution.
-- **创新点 / 方法**：To bridge this gap, we propose VICX (Video generation and In-Context eXecution), a decoupled closed-loop manipulation framework.
-- **证据**：摘要未报告明确实验结论；需阅读全文核查。
-- **局限**：摘要未明确说明；需阅读全文核查。
+Generalizable robot manipulation requires not only task-level reasoning over unseen scenes, but also reliable grounding of visual plans into embodiment-specific execution.
+
+## 创新点或方法
+
+To bridge this gap, we propose VICX (Video generation and In-Context eXecution), a decoupled closed-loop manipulation framework.
+
+## 证据
+
+摘要未报告明确实验结论；需阅读全文核查。
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]]
+- **概念**：多模态基础模型
 - **筛选分数**：31
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-12/VICX Generalizable Robot Manipulation via Video Generation and In-Context Operat.md" --level full`
 

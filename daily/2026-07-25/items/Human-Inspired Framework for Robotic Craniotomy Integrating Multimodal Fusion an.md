@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "智能体 Agent", "具身智能评测与基
 > [!summary] 一句话结论（基于摘要）
 > Experiments on bovine ribs show a breakthrough prediction accuracy of 97%, a detection latency of 0.048 +/- 0.097 s, and a maximum overshoot of 0.29 mm.
 
-## 关键点
+## 问题
 
-- **问题**：Manual craniotomy is a high-risk, skill-dependent procedure associated with surgeon fatigue and potential dural injury.
-- **创新点 / 方法**：To address this, we propose a human-inspired closed-loop robotic craniotomy framework that intelligently integrates preoperative planning with intraoperative execution.
-- **证据**：Experiments on bovine ribs show a breakthrough prediction accuracy of 97%, a detection latency of 0.048 +/- 0.097 s, and a maximum overshoot of 0.29 mm.
-- **局限**：While robotic approaches have improved safety, existing open-loop systems rely solely on preoperative images and cannot compensate for intraoperative registration errors or tissue deformation.
+Manual craniotomy is a high-risk, skill-dependent procedure associated with surgeon fatigue and potential dural injury.
+
+## 创新点或方法
+
+To address this, we propose a human-inspired closed-loop robotic craniotomy framework that intelligently integrates preoperative planning with intraoperative execution.
+
+## 证据
+
+Experiments on bovine ribs show a breakthrough prediction accuracy of 97%, a detection latency of 0.048 +/- 0.097 s, and a maximum overshoot of 0.29 mm.
+
+## 局限
+
+While robotic approaches have improved safety, existing open-loop systems rely solely on preoperative images and cannot compensate for intraoperative registration errors or tissue deformation.
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 智能体 Agent 具身智能评测与基准
 - **筛选分数**：23
 - **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-07-25/Human-Inspired Framework for Robotic Craniotomy Integrating Multimodal Fusion an.md" --level full`
 

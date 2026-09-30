@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "视觉语言动作模型 VLA", "具身智�
 > [!summary] 一句话结论（基于摘要）
 > Pointing-VLA achieves SOTA performance on Bridge/WidowX, averaging 72.9\% across the evaluated four-task set without Bridge-specific finetuning under collision-enabled CuRobo execution.
 
-## 关键点
+## 问题
 
-- **问题**：Vision-language-action (VLA) models often expose spatial grounding through autoregressive text coordinates or opaque action tokens, creating brittle interfaces between multimodal reasoning and robot execution.
-- **创新点 / 方法**：We present Pointing-VLA, a typed hidden-state spatial readout built on Embodied-R1.
-- **证据**：Pointing-VLA achieves SOTA performance on Bridge/WidowX, averaging 72.9\% across the evaluated four-task set without Bridge-specific finetuning under collision-enabled CuRobo execution.
-- **局限**：摘要未明确说明；需阅读全文核查。
+Vision-language-action (VLA) models often expose spatial grounding through autoregressive text coordinates or opaque action tokens, creating brittle interfaces between multimodal reasoning and robot execution.
+
+## 创新点或方法
+
+We present Pointing-VLA, a typed hidden-state spatial readout built on Embodied-R1.
+
+## 证据
+
+Pointing-VLA achieves SOTA performance on Bridge/WidowX, averaging 72.9\% across the evaluated four-task set without Bridge-specific finetuning under collision-enabled CuRobo execution.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 视觉语言动作模型 VLA 具身智能评测与基准
 - **筛选分数**：43
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-26/Pointing-VLA Typed Spatial Grounding Interfaces for Vision-Language-Action Manip.md" --level full`
 

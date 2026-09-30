@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "世界模型", "具身智能评测与基准
 > [!summary] 一句话结论（基于摘要）
 > Evaluations were conducted on the uHumans2 and ScanNet indoor dataset, validating the accuracy and relevance of the generated relationships.
 
-## 关键点
+## 问题
 
-- **问题**：Hierarchical 3D scene graphs address this challenge by integrating geometric, semantic, and relational data within a unified spatial framework.
-- **创新点 / 方法**：We propose a method where instance-specific concept-nodes and relationships are first identified by a VLM and extended upon by a LLM, inferring broader, more abstract concept-nodes and relationships through reasoning.
-- **证据**：Evaluations were conducted on the uHumans2 and ScanNet indoor dataset, validating the accuracy and relevance of the generated relationships.
-- **局限**：摘要未明确说明；需阅读全文核查。
+Hierarchical 3D scene graphs address this challenge by integrating geometric, semantic, and relational data within a unified spatial framework.
+
+## 创新点或方法
+
+We propose a method where instance-specific concept-nodes and relationships are first identified by a VLM and extended upon by a LLM, inferring broader, more abstract concept-nodes and relationships through reasoning.
+
+## 证据
+
+Evaluations were conducted on the uHumans2 and ScanNet indoor dataset, validating the accuracy and relevance of the generated relationships.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[世界模型]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 世界模型 具身智能评测与基准
 - **筛选分数**：38
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-24/From Pixels to Concepts Growing Rich 3D Semantic Scene Graph Forests utilizing F.md" --level full`
 

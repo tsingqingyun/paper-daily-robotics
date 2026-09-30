@@ -20,19 +20,29 @@ concepts: ["智能体 Agent", "世界模型", "具身智能评测与基准"]
 > [!summary] 一句话结论（基于摘要）
 > Experiments across four benchmarks and an online guardrail evaluation show that DreamGuard outperforms generic, reactive, and proactive guardrail baselines, achieves the best safety-utility trade-off among evaluated guardrails, and maintains an average end-to…
 
-## 关键点
+## 问题
 
-- **问题**：Recent runtime guardrails mitigate such risks by checking proposed actions before execution, but many remain reactive: they primarily assess the apparent safety of the current action, lacking an explicit model of how risk evolves across the trajectory.
-- **创新点 / 方法**：In response, we propose DreamGuard, a proactive guardrail for LLM agents built around a risk-aware world model.
-- **证据**：Experiments across four benchmarks and an online guardrail evaluation show that DreamGuard outperforms generic, reactive, and proactive guardrail baselines, achieves the best safety-utility trade-off among evaluated guardrails, and maintains an average end-to-end latency of 25 ms per call.
-- **局限**：This limitation creates a critical blind spot for long-horizon risks, where individually benign-looking actions can gradually drift the agent toward hazardous states.
+Recent runtime guardrails mitigate such risks by checking proposed actions before execution, but many remain reactive: they primarily assess the apparent safety of the current action, lacking an explicit model of how risk evolves across the trajectory.
+
+## 创新点或方法
+
+In response, we propose DreamGuard, a proactive guardrail for LLM agents built around a risk-aware world model.
+
+## 证据
+
+Experiments across four benchmarks and an online guardrail evaluation show that DreamGuard outperforms generic, reactive, and proactive guardrail baselines, achieves the best safety-utility trade-off among evaluated guardrails, and maintains an average end-to-end latency of 25 ms per call.
+
+## 局限
+
+This limitation creates a critical blind spot for long-horizon risks, where individually benign-looking actions can gradually drift the agent toward hazardous states.
+
 
 ## 研究关联
 
-- **概念**：[[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
+- **概念**：智能体 Agent 世界模型 具身智能评测与基准
 - **筛选分数**：27
 - **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-10/DreamGuard Efficient Runtime Guardrail for LLM Agents via Risk-Aware World Model.md" --level full`
 

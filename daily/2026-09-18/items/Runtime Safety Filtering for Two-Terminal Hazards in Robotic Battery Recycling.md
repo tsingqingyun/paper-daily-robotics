@@ -42,10 +42,10 @@ concepts: ["视觉语言动作模型 VLA", "具身智能评测与基准"]
 
 对VLA安全评测，直接提示应把拒绝后的行为与阈值调节纳入比较，而不能只比较危险条件表达形式。
 
-- **概念**：[[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
+- **概念**：视觉语言动作模型 VLA 具身智能评测与基准
 - **筛选分数**：29
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-18/Runtime Safety Filtering for Two-Terminal Hazards in Robotic Battery Recycling.md" --level full`
 

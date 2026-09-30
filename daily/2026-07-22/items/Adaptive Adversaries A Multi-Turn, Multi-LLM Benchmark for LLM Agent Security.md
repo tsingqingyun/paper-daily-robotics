@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "智能体 Agent", "具身智能评测与基
 > [!summary] 一句话结论（基于摘要）
 > Holding the 21 scenarios, attackers, defenders, and structured-output scoring fixed, restricting scoring to the first attacker turn yields $0$-$1\%$ attack success rate (ASR); allowing 15 rounds of adaptive attack yields $5.4$-$14.0\%$.
 
-## 关键点
+## 问题
 
-- **问题**：LLM-based agents process external content, exposing them to prompt injection and multi- turn manipulation.
-- **创新点 / 方法**：We present a 21-scenario benchmark for \emph{adaptive multi-round attacks against memoryless LLM defenders}: an autonomous LLM attacker observes prior defender responses and pivots across rounds, while each defender response is evaluated as a fresh interaction.
-- **证据**：Holding the 21 scenarios, attackers, defenders, and structured-output scoring fixed, restricting scoring to the first attacker turn yields $0$-$1\%$ attack success rate (ASR); allowing 15 rounds of adaptive attack yields $5.4$-$14.0\%$.
-- **局限**：摘要未明确说明；需阅读全文核查。
+LLM-based agents process external content, exposing them to prompt injection and multi- turn manipulation.
+
+## 创新点或方法
+
+We present a 21-scenario benchmark for \emph{adaptive multi-round attacks against memoryless LLM defenders}: an autonomous LLM attacker observes prior defender responses and pivots across rounds, while each defender response is evaluated as a fresh interaction.
+
+## 证据
+
+Holding the 21 scenarios, attackers, defenders, and structured-output scoring fixed, restricting scoring to the first attacker turn yields $0$-$1\%$ attack success rate (ASR); allowing 15 rounds of adaptive attack yields $5.4$-$14.0\%$.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 智能体 Agent 具身智能评测与基准
 - **筛选分数**：29
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-07-22/Adaptive Adversaries A Multi-Turn, Multi-LLM Benchmark for LLM Agent Security.md" --level full`
 

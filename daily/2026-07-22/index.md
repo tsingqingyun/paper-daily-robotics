@@ -14,7 +14,7 @@ created: 2026-07-22
 - **规模**：150 个候选 → 24 篇入选；回填 0 篇
 - **主题**：具身智能评测与基准 16、智能体 Agent 16、多模态基础模型 13、视觉语言动作模型 VLA 8、机器人学习 6、世界模型 4、AI 核心知识地图 1
 - **源异常**：5
-- **需要更高精度**：从“必读”选择论文，进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **需要更高精度**：从“必读”选择论文，进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -55,18 +55,18 @@ created: 2026-07-22
 
 ## 其余存档 12 篇
 
-- [Athena-Brain Technical Report: An Efficient Robot Brain for General Intelligence and Embodied Interactio](items/Athena-Brain%20Technical%20Report%20An%20Efficient%20Robot%20Brain%20for%20General%20Intelligence.md) · [[多模态基础模型]] [[智能体 Agent]] [[机器人学习]] [[具身智能评测与基准]]
-- [Engineering Trustworthy Agentic AI for Critical Systems](items/Engineering%20Trustworthy%20Agentic%20AI%20for%20Critical%20Systems.md) · [[智能体 Agent]] [[具身智能评测与基准]]
-- [MEVION: Low-Cost Open-Source Data Collection System for Powerful and High-Speed Dual-Arm Manipulation](items/MEVION%20Low-Cost%20Open-Source%20Data%20Collection%20System%20for%20Powerful%20and%20High-Speed%20D.md) · [[多模态基础模型]] [[机器人学习]]
-- [COLIP-2: Olfaction-Vision-Language Embeddings](items/COLIP-2%20Olfaction-Vision-Language%20Embeddings.md) · [[多模态基础模型]]
-- [Adaptive Adversaries: A Multi-Turn, Multi-LLM Benchmark for LLM Agent Security](items/Adaptive%20Adversaries%20A%20Multi-Turn%2C%20Multi-LLM%20Benchmark%20for%20LLM%20Agent%20Security.md) · [[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
-- [RoboHarness: Memory-Driven Orchestration of Heterogeneous Robot Policies for Long-Horizon Planning](items/RoboHarness%20Memory-Driven%20Orchestration%20of%20Heterogeneous%20Robot%20Policies%20for%20Long.md) · [[智能体 Agent]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [Data Leakage Prevention in Agentic Applications via Preemptive Hardening](items/Data%20Leakage%20Prevention%20in%20Agentic%20Applications%20via%20Preemptive%20Hardening.md) · [[智能体 Agent]] [[具身智能评测与基准]]
-- [Do AI-Native Biotechs Need Departments? Benchmarking Company World Models for AI-Driven Drug Development](items/Do%20AI-Native%20Biotechs%20Need%20Departments%20Benchmarking%20Company%20World%20Models%20for%20AI-.md) · [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
-- [Two-Stage Extrinsic Calibration of a Static Line-Scanning Lidar with a Rotary Platform](items/Two-Stage%20Extrinsic%20Calibration%20of%20a%20Static%20Line-Scanning%20Lidar%20with%20a%20Rotary%20Pl.md) · [[AI 核心知识地图]]
-- [UniETP: Unifying Environments for Generalizable Embodied Task Planning](items/UniETP%20Unifying%20Environments%20for%20Generalizable%20Embodied%20Task%20Planning.md) · [[智能体 Agent]] [[具身智能评测与基准]]
-- [PGN: Design and Implementation of a Vision-Language Navigation System Based on Pangu Multimodal Foundation Model](items/PGN%20Design%20and%20Implementation%20of%20a%20Vision-Language%20Navigation%20System%20Based%20on%20Pa.md) · [[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
-- [SLAM in Low-Light Environments: Project Report](items/SLAM%20in%20Low-Light%20Environments%20Project%20Report.md) · [[具身智能评测与基准]]
+- [Athena-Brain Technical Report: An Efficient Robot Brain for General Intelligence and Embodied Interactio](items/Athena-Brain%20Technical%20Report%20An%20Efficient%20Robot%20Brain%20for%20General%20Intelligence.md) · 多模态基础模型 智能体 Agent 机器人学习 具身智能评测与基准
+- [Engineering Trustworthy Agentic AI for Critical Systems](items/Engineering%20Trustworthy%20Agentic%20AI%20for%20Critical%20Systems.md) · 智能体 Agent 具身智能评测与基准
+- [MEVION: Low-Cost Open-Source Data Collection System for Powerful and High-Speed Dual-Arm Manipulation](items/MEVION%20Low-Cost%20Open-Source%20Data%20Collection%20System%20for%20Powerful%20and%20High-Speed%20D.md) · 多模态基础模型 机器人学习
+- [COLIP-2: Olfaction-Vision-Language Embeddings](items/COLIP-2%20Olfaction-Vision-Language%20Embeddings.md) · 多模态基础模型
+- [Adaptive Adversaries: A Multi-Turn, Multi-LLM Benchmark for LLM Agent Security](items/Adaptive%20Adversaries%20A%20Multi-Turn%2C%20Multi-LLM%20Benchmark%20for%20LLM%20Agent%20Security.md) · 多模态基础模型 智能体 Agent 具身智能评测与基准
+- [RoboHarness: Memory-Driven Orchestration of Heterogeneous Robot Policies for Long-Horizon Planning](items/RoboHarness%20Memory-Driven%20Orchestration%20of%20Heterogeneous%20Robot%20Policies%20for%20Long.md) · 智能体 Agent 视觉语言动作模型 VLA 具身智能评测与基准
+- [Data Leakage Prevention in Agentic Applications via Preemptive Hardening](items/Data%20Leakage%20Prevention%20in%20Agentic%20Applications%20via%20Preemptive%20Hardening.md) · 智能体 Agent 具身智能评测与基准
+- [Do AI-Native Biotechs Need Departments? Benchmarking Company World Models for AI-Driven Drug Development](items/Do%20AI-Native%20Biotechs%20Need%20Departments%20Benchmarking%20Company%20World%20Models%20for%20AI-.md) · 智能体 Agent 世界模型 具身智能评测与基准
+- [Two-Stage Extrinsic Calibration of a Static Line-Scanning Lidar with a Rotary Platform](items/Two-Stage%20Extrinsic%20Calibration%20of%20a%20Static%20Line-Scanning%20Lidar%20with%20a%20Rotary%20Pl.md) · AI 核心知识地图
+- [UniETP: Unifying Environments for Generalizable Embodied Task Planning](items/UniETP%20Unifying%20Environments%20for%20Generalizable%20Embodied%20Task%20Planning.md) · 智能体 Agent 具身智能评测与基准
+- [PGN: Design and Implementation of a Vision-Language Navigation System Based on Pangu Multimodal Foundation Model](items/PGN%20Design%20and%20Implementation%20of%20a%20Vision-Language%20Navigation%20System%20Based%20on%20Pa.md) · 多模态基础模型 智能体 Agent 具身智能评测与基准
+- [SLAM in Low-Light Environments: Project Report](items/SLAM%20in%20Low-Light%20Environments%20Project%20Report.md) · 具身智能评测与基准
 
 <details>
 <summary>运行信息与信息源错误</summary>

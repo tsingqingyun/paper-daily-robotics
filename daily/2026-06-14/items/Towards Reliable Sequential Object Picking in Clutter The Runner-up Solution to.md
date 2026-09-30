@@ -20,19 +20,29 @@ concepts: ["具身智能评测与基准"]
 > [!summary] 一句话结论（基于摘要）
 > While recent studies have achieved relatively high success rates in grasping from clutter, there remain few mature solutions for more demanding tasks such as sequential object search and sorting.
 
-## 关键点
+## 问题
 
-- **问题**：As a long-standing challenge in robotic manipulation, stable and efficient grasping in cluttered environments is of great importance in industrial settings.
-- **创新点 / 方法**：To address the above challenges, we design an integrated hardware-software pipeline that combines object recognition, decluttering, and multi- modal grasping.
-- **证据**：While recent studies have achieved relatively high success rates in grasping from clutter, there remain few mature solutions for more demanding tasks such as sequential object search and sorting.
-- **局限**：摘要未明确说明；需阅读全文核查。
+As a long-standing challenge in robotic manipulation, stable and efficient grasping in cluttered environments is of great importance in industrial settings.
+
+## 创新点或方法
+
+To address the above challenges, we design an integrated hardware-software pipeline that combines object recognition, decluttering, and multi- modal grasping.
+
+## 证据
+
+While recent studies have achieved relatively high success rates in grasping from clutter, there remain few mature solutions for more demanding tasks such as sequential object search and sorting.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[具身智能评测与基准]]
+- **概念**：具身智能评测与基准
 - **筛选分数**：25
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-14/Towards Reliable Sequential Object Picking in Clutter The Runner-up Solution to.md" --level full`
 

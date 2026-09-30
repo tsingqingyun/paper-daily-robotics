@@ -14,7 +14,7 @@ created: 2026-06-08
 - **规模**：2056 个候选 → 24 篇入选；回填 0 篇
 - **主题**：多模态基础模型 20、世界模型 14、视觉语言动作模型 VLA 14、智能体 Agent 13、具身智能评测与基准 11、机器人学习 9、Sim2Real 3
 - **源异常**：0
-- **需要更高精度**：从“必读”选择论文，进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **需要更高精度**：从“必读”选择论文，进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -55,18 +55,18 @@ created: 2026-06-08
 
 ## 其余存档 12 篇
 
-- [Robotic Policy Adaptation via Weight-Space Meta-Learning](items/Robotic%20Policy%20Adaptation%20via%20Weight-Space%20Meta-Learning.md) · [[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]] [[机器人学习]]
-- [The Sim-to-Real Gap of Foundation Model Agents: A Unified MDP Perspective](items/The%20Sim-to-Real%20Gap%20of%20Foundation%20Model%20Agents%20A%20Unified%20MDP%20Perspective.md) · [[多模态基础模型]] [[智能体 Agent]] [[Sim2Real]] [[具身智能评测与基准]]
-- [Think Like a Pilot: Fine-Grained Long-Horizon UAV Navigation](items/Think%20Like%20a%20Pilot%20Fine-Grained%20Long-Horizon%20UAV%20Navigation.md) · [[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [Coarse-to-Control: Action-Token Planning for Vision-Language-Action Models](items/Coarse-to-Control%20Action-Token%20Planning%20for%20Vision-Language-Action%20Models.md) · [[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]]
-- [PhyRoGen: Synthetic Generation of Physical Robot Manipulation Puzzles Using Procedural Content Generation](items/PhyRoGen%20Synthetic%20Generation%20of%20Physical%20Robot%20Manipulation%20Puzzles%20Using%20Proce.md) · [[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
-- [Simulation-Driven Imitation Learning for Biosignals-Free Shared-Autonomy Prosthetic Grasping](items/Simulation-Driven%20Imitation%20Learning%20for%20Biosignals-Free%20Shared-Autonomy%20Prosthe.md) · [[世界模型]] [[机器人学习]] [[Sim2Real]] [[具身智能评测与基准]]
-- [GenPO++: Generative Policy Optimization with Jacobian-free Likelihood Ratios](items/GenPO%2B%2B%20Generative%20Policy%20Optimization%20with%20Jacobian-free%20Likelihood%20Ratios.md) · [[多模态基础模型]] [[机器人学习]]
-- [HANDOFF: Humanoid Agentic Task-Space Whole-Body Control via Distilled Complementary Teachers](items/HANDOFF%20Humanoid%20Agentic%20Task-Space%20Whole-Body%20Control%20via%20Distilled%20Complementa.md) · [[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
-- [CAPE: Contrastive Action-conditioned Parallel Encoding for Embodied Planning](items/CAPE%20Contrastive%20Action-conditioned%20Parallel%20Encoding%20for%20Embodied%20Planning.md) · [[智能体 Agent]] [[世界模型]]
-- [Dreaming when Necessary: Advancing World Action Models with Adaptive Multi-Modal Reasoning](items/Dreaming%20when%20Necessary%20Advancing%20World%20Action%20Models%20with%20Adaptive%20Multi-Modal.md) · [[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]]
-- [Spline Policy: A Structured Representation for Robot Policies](items/Spline%20Policy%20A%20Structured%20Representation%20for%20Robot%20Policies.md) · [[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [SCOUT: Semantic scene COverage via Uncertainty-guided Traversal](items/SCOUT%20Semantic%20scene%20COverage%20via%20Uncertainty-guided%20Traversal.md) · [[智能体 Agent]]
+- [Robotic Policy Adaptation via Weight-Space Meta-Learning](items/Robotic%20Policy%20Adaptation%20via%20Weight-Space%20Meta-Learning.md) · 多模态基础模型 世界模型 视觉语言动作模型 VLA 机器人学习
+- [The Sim-to-Real Gap of Foundation Model Agents: A Unified MDP Perspective](items/The%20Sim-to-Real%20Gap%20of%20Foundation%20Model%20Agents%20A%20Unified%20MDP%20Perspective.md) · 多模态基础模型 智能体 Agent Sim2Real 具身智能评测与基准
+- [Think Like a Pilot: Fine-Grained Long-Horizon UAV Navigation](items/Think%20Like%20a%20Pilot%20Fine-Grained%20Long-Horizon%20UAV%20Navigation.md) · 多模态基础模型 智能体 Agent 视觉语言动作模型 VLA 具身智能评测与基准
+- [Coarse-to-Control: Action-Token Planning for Vision-Language-Action Models](items/Coarse-to-Control%20Action-Token%20Planning%20for%20Vision-Language-Action%20Models.md) · 多模态基础模型 智能体 Agent 视觉语言动作模型 VLA
+- [PhyRoGen: Synthetic Generation of Physical Robot Manipulation Puzzles Using Procedural Content Generation](items/PhyRoGen%20Synthetic%20Generation%20of%20Physical%20Robot%20Manipulation%20Puzzles%20Using%20Proce.md) · 多模态基础模型 智能体 Agent 世界模型 具身智能评测与基准
+- [Simulation-Driven Imitation Learning for Biosignals-Free Shared-Autonomy Prosthetic Grasping](items/Simulation-Driven%20Imitation%20Learning%20for%20Biosignals-Free%20Shared-Autonomy%20Prosthe.md) · 世界模型 机器人学习 Sim2Real 具身智能评测与基准
+- [GenPO++: Generative Policy Optimization with Jacobian-free Likelihood Ratios](items/GenPO%2B%2B%20Generative%20Policy%20Optimization%20with%20Jacobian-free%20Likelihood%20Ratios.md) · 多模态基础模型 机器人学习
+- [HANDOFF: Humanoid Agentic Task-Space Whole-Body Control via Distilled Complementary Teachers](items/HANDOFF%20Humanoid%20Agentic%20Task-Space%20Whole-Body%20Control%20via%20Distilled%20Complementa.md) · 多模态基础模型 智能体 Agent 具身智能评测与基准
+- [CAPE: Contrastive Action-conditioned Parallel Encoding for Embodied Planning](items/CAPE%20Contrastive%20Action-conditioned%20Parallel%20Encoding%20for%20Embodied%20Planning.md) · 智能体 Agent 世界模型
+- [Dreaming when Necessary: Advancing World Action Models with Adaptive Multi-Modal Reasoning](items/Dreaming%20when%20Necessary%20Advancing%20World%20Action%20Models%20with%20Adaptive%20Multi-Modal.md) · 多模态基础模型 智能体 Agent 视觉语言动作模型 VLA
+- [Spline Policy: A Structured Representation for Robot Policies](items/Spline%20Policy%20A%20Structured%20Representation%20for%20Robot%20Policies.md) · 多模态基础模型 世界模型 视觉语言动作模型 VLA 具身智能评测与基准
+- [SCOUT: Semantic scene COverage via Uncertainty-guided Traversal](items/SCOUT%20Semantic%20scene%20COverage%20via%20Uncertainty-guided%20Traversal.md) · 智能体 Agent
 
 <details>
 <summary>运行信息与信息源错误</summary>

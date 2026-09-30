@@ -42,10 +42,10 @@ concepts: ["智能体 Agent"]
 
 对机器人学习工程实践，可能提供串联数据采集、训练与部署的参考；对 Agent 研究，尚无信息证明存在新的规划机制或可量化的编排收益。
 
-- **概念**：[[智能体 Agent]]
+- **概念**：智能体 Agent
 - **筛选分数**：9
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-20/Record, train, and deploy from one place with Strands Agents, LeRobot, and Huggi.md" --level full`
 

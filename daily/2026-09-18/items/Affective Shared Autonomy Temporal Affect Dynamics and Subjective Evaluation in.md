@@ -42,10 +42,10 @@ concepts: ["多模态基础模型", "世界模型", "机器人学习", "具身�
 
 对机器人学习和具身评测，价值在于把操作者状态纳入交互系统评价；对世界模型研究的直接贡献不明确。
 
-- **概念**：[[多模态基础模型]] [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 世界模型 机器人学习 具身智能评测与基准
 - **筛选分数**：31
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-18/Affective Shared Autonomy Temporal Affect Dynamics and Subjective Evaluation in.md" --level full`
 

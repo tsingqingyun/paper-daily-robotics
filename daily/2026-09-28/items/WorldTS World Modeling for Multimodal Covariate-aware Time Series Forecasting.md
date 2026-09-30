@@ -42,10 +42,10 @@ concepts: ["多模态基础模型", "世界模型"]
 
 对世界模型研究者，协变量如何进入潜在状态演化值得参考；但摘要没有机器人动作、规划或闭环控制实验，对具身研究的价值主要是方法启发。
 
-- **概念**：[[多模态基础模型]] [[世界模型]]
+- **概念**：多模态基础模型 世界模型
 - **筛选分数**：28
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-28/WorldTS World Modeling for Multimodal Covariate-aware Time Series Forecasting.md" --level full`
 

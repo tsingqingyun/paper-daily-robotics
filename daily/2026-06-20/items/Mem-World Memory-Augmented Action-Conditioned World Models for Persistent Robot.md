@@ -20,19 +20,29 @@ concepts: ["智能体 Agent", "世界模型", "机器人学习", "具身智能�
 > [!summary] 一句话结论（基于摘要）
 > Extensive experiments show that Mem-World generates persistent rollouts in complex manipulation scenarios, enables more reliable policy evaluation than Ctrl-World, improving the Pearson correlation with real-world performance by 14.5\%, and supports effective…
 
-## 关键点
+## 问题
 
-- **问题**：However, persistent world modeling remains challenging in manipulation: frequent end-effector occlusions and rapid wrist-camera motion make the current observation insufficient for predicting future views, causing models to forget or hallucinate scene details seen in earlier frames.
-- **创新点 / 方法**：To address this limitation, we propose Mem-World, a memory-augmented multi-view action- conditioned world model.
-- **证据**：Extensive experiments show that Mem-World generates persistent rollouts in complex manipulation scenarios, enables more reliable policy evaluation than Ctrl-World, improving the Pearson correlation with real-world performance by 14.5\%, and supports effective policy improvement through synthetic data generation, incre…
-- **局限**：However, persistent world modeling remains challenging in manipulation: frequent end-effector occlusions and rapid wrist-camera motion make the current observation insufficient for predicting future views, causing models to forget or hallucinate scene details seen in earlier frames.
+However, persistent world modeling remains challenging in manipulation: frequent end-effector occlusions and rapid wrist-camera motion make the current observation insufficient for predicting future views, causing models to forget or hallucinate scene details seen in earlier frames.
+
+## 创新点或方法
+
+To address this limitation, we propose Mem-World, a memory-augmented multi-view action- conditioned world model.
+
+## 证据
+
+Extensive experiments show that Mem-World generates persistent rollouts in complex manipulation scenarios, enables more reliable policy evaluation than Ctrl-World, improving the Pearson correlation with real-world performance by 14.5\%, and supports effective policy improvement through synthetic data generation, incre…
+
+## 局限
+
+However, persistent world modeling remains challenging in manipulation: frequent end-effector occlusions and rapid wrist-camera motion make the current observation insufficient for predicting future views, causing models to forget or hallucinate scene details seen in earlier frames.
+
 
 ## 研究关联
 
-- **概念**：[[智能体 Agent]] [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
+- **概念**：智能体 Agent 世界模型 机器人学习 具身智能评测与基准
 - **筛选分数**：29
 - **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-20/Mem-World Memory-Augmented Action-Conditioned World Models for Persistent Robot.md" --level full`
 

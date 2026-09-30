@@ -42,10 +42,10 @@ RoboTwin 2.0上比π₀高14.0个百分点；真实实验比Spatial Forcing高11
 
 适合希望保留预训练二维VLA、逐步加入三维能力的研究者，提供了分别作用于感知端和动作端的改造路径。
 
-- **概念**：[[多模态基础模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 视觉语言动作模型 VLA 具身智能评测与基准
 - **筛选分数**：44
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-23/Bridge3D Enabling Vision-Language-Action Models to See and Act in 3D.md" --level full`
 

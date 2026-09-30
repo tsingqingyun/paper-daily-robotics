@@ -20,19 +20,29 @@ concepts: ["具身智能评测与基准"]
 > [!summary] 一句话结论（基于摘要）
 > DA-Fusion effectively combines the strengths of both RGB and depth data, enhancing segmentation accuracy in cluttered and multi-layered object environments.
 
-## 关键点
+## 问题
 
-- **问题**：In logistics automation, precise segmentation of unseen objects is crucial for efficient robotic manipulation in cluttered environments.
-- **创新点 / 方法**：To address these limitations, we propose DA- Fusion, a deformable attention-based RGB-D fusion Transformer designed for unseen object instance segmentation.
-- **证据**：DA-Fusion effectively combines the strengths of both RGB and depth data, enhancing segmentation accuracy in cluttered and multi-layered object environments.
-- **局限**：摘要未明确说明；需阅读全文核查。
+In logistics automation, precise segmentation of unseen objects is crucial for efficient robotic manipulation in cluttered environments.
+
+## 创新点或方法
+
+To address these limitations, we propose DA- Fusion, a deformable attention-based RGB-D fusion Transformer designed for unseen object instance segmentation.
+
+## 证据
+
+DA-Fusion effectively combines the strengths of both RGB and depth data, enhancing segmentation accuracy in cluttered and multi-layered object environments.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[具身智能评测与基准]]
+- **概念**：具身智能评测与基准
 - **筛选分数**：31
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-07-22/DA-Fusion Deformable Attention-Based RGB-D Fusion Transformer for Unseen Object.md" --level full`
 

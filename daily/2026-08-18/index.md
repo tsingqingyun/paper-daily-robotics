@@ -14,7 +14,7 @@ created: 2026-08-18
 - **规模**：2245 个候选 → 24 篇入选；回填 0 篇
 - **主题**：多模态基础模型 22、具身智能评测与基准 17、视觉语言动作模型 VLA 16、智能体 Agent 9、机器人学习 8、世界模型 7、Sim2Real 2
 - **源异常**：0
-- **需要更高精度**：从“必读”选择论文，进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **需要更高精度**：从“必读”选择论文，进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -55,18 +55,18 @@ created: 2026-08-18
 
 ## 其余存档 12 篇
 
-- [ForceU-VLA: A Force-Aware Vision-Language-Action Model for Embodied Ultrasound Scanning](items/ForceU-VLA%20A%20Force-Aware%20Vision-Language-Action%20Model%20for%20Embodied%20Ultrasound%20Sc.md) · [[多模态基础模型]] [[视觉语言动作模型 VLA]]
-- [Bit-Flip Attacks on Vision-Language-Action Models: Action-Decoding Architecture Shapes the Vulnerability](items/Bit-Flip%20Attacks%20on%20Vision-Language-Action%20Models%20Action-Decoding%20Architecture%20S.md) · [[多模态基础模型]] [[视觉语言动作模型 VLA]]
-- [When State Becomes an Attack Surface: State-Semantic Injection in LLM-Driven Embodied Agents](items/When%20State%20Becomes%20an%20Attack%20Surface%20State-Semantic%20Injection%20in%20LLM-Driven%20Embo.md) · [[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]]
-- [Security of Foundation-Model-Powered Embodied Agents: Attack Surfaces, Attacks, Defenses, and Evaluation](items/Security%20of%20Foundation-Model-Powered%20Embodied%20Agents%20Attack%20Surfaces%2C%20Attacks%2C%20D.md) · [[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
-- [DeepInsight II: One Trace from Benchmark to Robot](items/DeepInsight%20II%20One%20Trace%20from%20Benchmark%20to%20Robot.md) · [[多模态基础模型]] [[世界模型]] [[Sim2Real]] [[具身智能评测与基准]]
-- [GaussianDWM++: Language-Grounded 3D Gaussian Driving World Model for Unified Scene Understanding, Editing, and Multi-Modal Generation](items/GaussianDWM%2B%2B%20Language-Grounded%203D%20Gaussian%20Driving%20World%20Model%20for%20Unified%20Scen.md) · [[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
-- [SparkVLA: Stop-Aware Hierarchical VLA with Adaptive Action Chunking for Long-Horizon Manipulation](items/SparkVLA%20Stop-Aware%20Hierarchical%20VLA%20with%20Adaptive%20Action%20Chunking%20for%20Long-Hori.md) · [[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [Revisiting Open-Loop Execution in Robotics: Toward Reactive, Higher-Performing Policies](items/Revisiting%20Open-Loop%20Execution%20in%20Robotics%20Toward%20Reactive%2C%20Higher-Performing%20Po.md) · [[世界模型]] [[机器人学习]]
-- [EcoVLA: Energy-Efficient Device-Edge Co-Inference for Vision-Language-Action Models under Real-Time Constraints](items/EcoVLA%20Energy-Efficient%20Device-Edge%20Co-Inference%20for%20Vision-Language-Action%20Mode.md) · [[多模态基础模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [MatchingPolicy: Correspondence-Aware Policy Enables Cross-Object In-Context Learning](items/MatchingPolicy%20Correspondence-Aware%20Policy%20Enables%20Cross-Object%20In-Context%20Learn.md) · [[多模态基础模型]] [[机器人学习]] [[具身智能评测与基准]]
-- [CrossView: Can Vision-Language Models Reason Across Cameras?](items/CrossView%20Can%20Vision-Language%20Models%20Reason%20Across%20Cameras.md) · [[多模态基础模型]] [[具身智能评测与基准]]
-- [EgoTac: In-the-wild Tactile Prediction from Egocentric Vision](items/EgoTac%20In-the-wild%20Tactile%20Prediction%20from%20Egocentric%20Vision.md) · [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
+- [ForceU-VLA: A Force-Aware Vision-Language-Action Model for Embodied Ultrasound Scanning](items/ForceU-VLA%20A%20Force-Aware%20Vision-Language-Action%20Model%20for%20Embodied%20Ultrasound%20Sc.md) · 多模态基础模型 视觉语言动作模型 VLA
+- [Bit-Flip Attacks on Vision-Language-Action Models: Action-Decoding Architecture Shapes the Vulnerability](items/Bit-Flip%20Attacks%20on%20Vision-Language-Action%20Models%20Action-Decoding%20Architecture%20S.md) · 多模态基础模型 视觉语言动作模型 VLA
+- [When State Becomes an Attack Surface: State-Semantic Injection in LLM-Driven Embodied Agents](items/When%20State%20Becomes%20an%20Attack%20Surface%20State-Semantic%20Injection%20in%20LLM-Driven%20Embo.md) · 多模态基础模型 智能体 Agent 视觉语言动作模型 VLA
+- [Security of Foundation-Model-Powered Embodied Agents: Attack Surfaces, Attacks, Defenses, and Evaluation](items/Security%20of%20Foundation-Model-Powered%20Embodied%20Agents%20Attack%20Surfaces%2C%20Attacks%2C%20D.md) · 多模态基础模型 智能体 Agent 具身智能评测与基准
+- [DeepInsight II: One Trace from Benchmark to Robot](items/DeepInsight%20II%20One%20Trace%20from%20Benchmark%20to%20Robot.md) · 多模态基础模型 世界模型 Sim2Real 具身智能评测与基准
+- [GaussianDWM++: Language-Grounded 3D Gaussian Driving World Model for Unified Scene Understanding, Editing, and Multi-Modal Generation](items/GaussianDWM%2B%2B%20Language-Grounded%203D%20Gaussian%20Driving%20World%20Model%20for%20Unified%20Scen.md) · 多模态基础模型 智能体 Agent 世界模型 具身智能评测与基准
+- [SparkVLA: Stop-Aware Hierarchical VLA with Adaptive Action Chunking for Long-Horizon Manipulation](items/SparkVLA%20Stop-Aware%20Hierarchical%20VLA%20with%20Adaptive%20Action%20Chunking%20for%20Long-Hori.md) · 多模态基础模型 智能体 Agent 视觉语言动作模型 VLA 具身智能评测与基准
+- [Revisiting Open-Loop Execution in Robotics: Toward Reactive, Higher-Performing Policies](items/Revisiting%20Open-Loop%20Execution%20in%20Robotics%20Toward%20Reactive%2C%20Higher-Performing%20Po.md) · 世界模型 机器人学习
+- [EcoVLA: Energy-Efficient Device-Edge Co-Inference for Vision-Language-Action Models under Real-Time Constraints](items/EcoVLA%20Energy-Efficient%20Device-Edge%20Co-Inference%20for%20Vision-Language-Action%20Mode.md) · 多模态基础模型 视觉语言动作模型 VLA 具身智能评测与基准
+- [MatchingPolicy: Correspondence-Aware Policy Enables Cross-Object In-Context Learning](items/MatchingPolicy%20Correspondence-Aware%20Policy%20Enables%20Cross-Object%20In-Context%20Learn.md) · 多模态基础模型 机器人学习 具身智能评测与基准
+- [CrossView: Can Vision-Language Models Reason Across Cameras?](items/CrossView%20Can%20Vision-Language%20Models%20Reason%20Across%20Cameras.md) · 多模态基础模型 具身智能评测与基准
+- [EgoTac: In-the-wild Tactile Prediction from Egocentric Vision](items/EgoTac%20In-the-wild%20Tactile%20Prediction%20from%20Egocentric%20Vision.md) · 世界模型 机器人学习 具身智能评测与基准
 
 <details>
 <summary>运行信息与信息源状态</summary>

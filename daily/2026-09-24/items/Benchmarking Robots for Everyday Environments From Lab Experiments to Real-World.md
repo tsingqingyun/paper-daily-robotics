@@ -42,10 +42,10 @@ concepts: ["具身智能评测与基准"]
 
 对具身评测研究者，它提醒基准需要覆盖运营中的多方目标，适合补充只测任务成功率的研究评估。
 
-- **概念**：[[具身智能评测与基准]]
+- **概念**：具身智能评测与基准
 - **筛选分数**：30
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-24/Benchmarking Robots for Everyday Environments From Lab Experiments to Real-World.md" --level full`
 

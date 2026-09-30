@@ -42,10 +42,10 @@ concepts: ["视觉语言动作模型 VLA", "机器人学习", "具身智能评�
 
 对跨本体VLA与机器人学习，提供了重新利用既有动作标签的方法：监督共享运动关系，同时减少对具体控制接口的绑定。
 
-- **概念**：[[视觉语言动作模型 VLA]] [[机器人学习]] [[具身智能评测与基准]]
+- **概念**：视觉语言动作模型 VLA 机器人学习 具身智能评测与基准
 - **筛选分数**：32
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-18/Improving Cross-embodiment Transfer in Latent Action Models with Action-Similari.md" --level full`
 

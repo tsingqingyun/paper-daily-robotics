@@ -42,10 +42,10 @@ Qwen3.8-27B 在编码智能体运行环境中驱动 UR3e，自行生成并执行
 
 对具身智能体研究者，它提供了用程序生成连接本地多模态推理与机器人服务的实机案例，适合探索少数据任务适配。
 
-- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 智能体 Agent 具身智能评测与基准
 - **筛选分数**：31
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-24/Generalizing Manipulation Skills with a Local Coding Agent.md" --level full`
 

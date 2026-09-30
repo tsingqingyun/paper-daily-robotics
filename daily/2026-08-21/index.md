@@ -14,7 +14,7 @@ created: 2026-08-21
 - **规模**：2258 个候选 → 24 篇入选；回填 0 篇
 - **主题**：具身智能评测与基准 18、多模态基础模型 13、世界模型 11、智能体 Agent 11、机器人学习 7、视觉语言动作模型 VLA 7、Sim2Real 1
 - **源异常**：0
-- **需要更高精度**：从“必读”选择论文，进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **需要更高精度**：从“必读”选择论文，进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -55,18 +55,18 @@ created: 2026-08-21
 
 ## 其余存档 12 篇
 
-- [GigaBrain-WBC-0.5: A Behavior World Model for Robust Whole-Body Control with Environment Interaction](items/GigaBrain-WBC-0.5%20A%20Behavior%20World%20Model%20for%20Robust%20Whole-Body%20Control%20with%20Envi.md) · [[世界模型]] [[具身智能评测与基准]]
-- [OVIP-SG: Open-Vocabulary Instance-Preserving Scene Graphs for Mapping and Retrieval of Small, Fine-Grained Objects](items/OVIP-SG%20Open-Vocabulary%20Instance-Preserving%20Scene%20Graphs%20for%20Mapping%20and%20Retriev.md) · [[多模态基础模型]] [[具身智能评测与基准]]
-- [GS-VLA: Plug-and-Play Viewpoint Canonicalization for Frozen VLA Policies via Gaussian Splatting](items/GS-VLA%20Plug-and-Play%20Viewpoint%20Canonicalization%20for%20Frozen%20VLA%20Policies%20via%20Gaus.md) · [[多模态基础模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [SoftVTBench: A Deformation-Aware Visuo-Tactile Dataset and Benchmark for Deformable-Object Manipulation](items/SoftVTBench%20A%20Deformation-Aware%20Visuo-Tactile%20Dataset%20and%20Benchmark%20for%20Deformab.md) · [[多模态基础模型]] [[机器人学习]] [[具身智能评测与基准]]
-- [Role-Conditioned Sub-Token Routing for Efficient Vision-Language-Action Policies](items/Role-Conditioned%20Sub-Token%20Routing%20for%20Efficient%20Vision-Language-Action%20Policies.md) · [[多模态基础模型]] [[视觉语言动作模型 VLA]]
-- [Iterative Grasp Pose Refinement: A Deep Reinforcement Learning Approach for 2D Vision](items/Iterative%20Grasp%20Pose%20Refinement%20A%20Deep%20Reinforcement%20Learning%20Approach%20for%202D%20Vi.md) · [[机器人学习]] [[Sim2Real]] [[具身智能评测与基准]]
-- [Beyond the Transcript: Detecting Covert Co ordination in Latent Multi-Agent Communication](items/Beyond%20the%20Transcript%20Detecting%20Covert%20Co%20ordination%20in%20Latent%20Multi-Agent%20Commu.md) · [[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [Dream2Reward: Transition-Alignment Reward Models from Positive Demonstrations for Robotic Manipulation](items/Dream2Reward%20Transition-Alignment%20Reward%20Models%20from%20Positive%20Demonstrations%20for.md) · [[机器人学习]] [[具身智能评测与基准]]
-- [Reinforced Planning with Latent World Models](items/Reinforced%20Planning%20with%20Latent%20World%20Models.md) · [[智能体 Agent]] [[世界模型]]
-- [HarnessEval-W: Agentifying the Evaluation of Visual Worlds](items/HarnessEval-W%20Agentifying%20the%20Evaluation%20of%20Visual%20Worlds.md) · [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
-- [Hydra-0: Action Flow for Generalist World Modeling and Control](items/Hydra-0%20Action%20Flow%20for%20Generalist%20World%20Modeling%20and%20Control.md) · [[世界模型]] [[视觉语言动作模型 VLA]] [[机器人学习]] [[具身智能评测与基准]]
-- [Beyond Instrument Motion: Recognizing Tissue Tension Toward Surgical Skill Assessment](items/Beyond%20Instrument%20Motion%20Recognizing%20Tissue%20Tension%20Toward%20Surgical%20Skill%20Assess.md) · [[具身智能评测与基准]]
+- [GigaBrain-WBC-0.5: A Behavior World Model for Robust Whole-Body Control with Environment Interaction](items/GigaBrain-WBC-0.5%20A%20Behavior%20World%20Model%20for%20Robust%20Whole-Body%20Control%20with%20Envi.md) · 世界模型 具身智能评测与基准
+- [OVIP-SG: Open-Vocabulary Instance-Preserving Scene Graphs for Mapping and Retrieval of Small, Fine-Grained Objects](items/OVIP-SG%20Open-Vocabulary%20Instance-Preserving%20Scene%20Graphs%20for%20Mapping%20and%20Retriev.md) · 多模态基础模型 具身智能评测与基准
+- [GS-VLA: Plug-and-Play Viewpoint Canonicalization for Frozen VLA Policies via Gaussian Splatting](items/GS-VLA%20Plug-and-Play%20Viewpoint%20Canonicalization%20for%20Frozen%20VLA%20Policies%20via%20Gaus.md) · 多模态基础模型 视觉语言动作模型 VLA 具身智能评测与基准
+- [SoftVTBench: A Deformation-Aware Visuo-Tactile Dataset and Benchmark for Deformable-Object Manipulation](items/SoftVTBench%20A%20Deformation-Aware%20Visuo-Tactile%20Dataset%20and%20Benchmark%20for%20Deformab.md) · 多模态基础模型 机器人学习 具身智能评测与基准
+- [Role-Conditioned Sub-Token Routing for Efficient Vision-Language-Action Policies](items/Role-Conditioned%20Sub-Token%20Routing%20for%20Efficient%20Vision-Language-Action%20Policies.md) · 多模态基础模型 视觉语言动作模型 VLA
+- [Iterative Grasp Pose Refinement: A Deep Reinforcement Learning Approach for 2D Vision](items/Iterative%20Grasp%20Pose%20Refinement%20A%20Deep%20Reinforcement%20Learning%20Approach%20for%202D%20Vi.md) · 机器人学习 Sim2Real 具身智能评测与基准
+- [Beyond the Transcript: Detecting Covert Co ordination in Latent Multi-Agent Communication](items/Beyond%20the%20Transcript%20Detecting%20Covert%20Co%20ordination%20in%20Latent%20Multi-Agent%20Commu.md) · 多模态基础模型 智能体 Agent 视觉语言动作模型 VLA 具身智能评测与基准
+- [Dream2Reward: Transition-Alignment Reward Models from Positive Demonstrations for Robotic Manipulation](items/Dream2Reward%20Transition-Alignment%20Reward%20Models%20from%20Positive%20Demonstrations%20for.md) · 机器人学习 具身智能评测与基准
+- [Reinforced Planning with Latent World Models](items/Reinforced%20Planning%20with%20Latent%20World%20Models.md) · 智能体 Agent 世界模型
+- [HarnessEval-W: Agentifying the Evaluation of Visual Worlds](items/HarnessEval-W%20Agentifying%20the%20Evaluation%20of%20Visual%20Worlds.md) · 智能体 Agent 世界模型 具身智能评测与基准
+- [Hydra-0: Action Flow for Generalist World Modeling and Control](items/Hydra-0%20Action%20Flow%20for%20Generalist%20World%20Modeling%20and%20Control.md) · 世界模型 视觉语言动作模型 VLA 机器人学习 具身智能评测与基准
+- [Beyond Instrument Motion: Recognizing Tissue Tension Toward Surgical Skill Assessment](items/Beyond%20Instrument%20Motion%20Recognizing%20Tissue%20Tension%20Toward%20Surgical%20Skill%20Assess.md) · 具身智能评测与基准
 
 <details>
 <summary>运行信息与信息源状态</summary>

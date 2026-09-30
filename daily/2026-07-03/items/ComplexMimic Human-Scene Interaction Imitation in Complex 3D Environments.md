@@ -20,19 +20,29 @@ concepts: ["世界模型", "机器人学习", "具身智能评测与基准"]
 > [!summary] 一句话结论（基于摘要）
 > Extensive experiments on three benchmark datasets demonstrate that our approach outperforms current state-of-the-art methods.
 
-## 关键点
+## 问题
 
-- **问题**：However, most existing methods focus on simplified scene settings, leaving complex environments largely unexplored, which limits their applicability in real-world scenarios.
-- **创新点 / 方法**：To address this challenge, we propose ComplexMimic, a framework that reconstructs diverse HSI by interpreting imperfect MoCap data.
-- **证据**：Extensive experiments on three benchmark datasets demonstrate that our approach outperforms current state-of-the-art methods.
-- **局限**：摘要未明确说明；需阅读全文核查。
+However, most existing methods focus on simplified scene settings, leaving complex environments largely unexplored, which limits their applicability in real-world scenarios.
+
+## 创新点或方法
+
+To address this challenge, we propose ComplexMimic, a framework that reconstructs diverse HSI by interpreting imperfect MoCap data.
+
+## 证据
+
+Extensive experiments on three benchmark datasets demonstrate that our approach outperforms current state-of-the-art methods.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
+- **概念**：世界模型 机器人学习 具身智能评测与基准
 - **筛选分数**：30
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-07-03/ComplexMimic Human-Scene Interaction Imitation in Complex 3D Environments.md" --level full`
 

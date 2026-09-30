@@ -20,19 +20,29 @@ concepts: ["智能体 Agent", "世界模型", "机器人学习"]
 > [!summary] 一句话结论（基于摘要）
 > Numerical results demonstrate that an agent that is able to sense and remember a set number of flow velocity measures achieves the highest performance.
 
-## 关键点
+## 问题
 
-- **问题**：Autonomous robotic navigation in nonstationary time-varying fluid flows remains a fundamental challenge due to partial observability and the unpredictability of realistic environments.
-- **创新点 / 方法**：In this work we present a reinforcement learning approach using the TD3 algorithm to train autonomous agents to reach arbitrary targets within a parametric, chaotic double-gyre flow.
-- **证据**：Numerical results demonstrate that an agent that is able to sense and remember a set number of flow velocity measures achieves the highest performance.
-- **局限**：摘要未明确说明；需阅读全文核查。
+Autonomous robotic navigation in nonstationary time-varying fluid flows remains a fundamental challenge due to partial observability and the unpredictability of realistic environments.
+
+## 创新点或方法
+
+In this work we present a reinforcement learning approach using the TD3 algorithm to train autonomous agents to reach arbitrary targets within a parametric, chaotic double-gyre flow.
+
+## 证据
+
+Numerical results demonstrate that an agent that is able to sense and remember a set number of flow velocity measures achieves the highest performance.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[智能体 Agent]] [[世界模型]] [[机器人学习]]
+- **概念**：智能体 Agent 世界模型 机器人学习
 - **筛选分数**：30
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-07-17/Flow-aware Optimal Navigation in Unsteady Flows through Reinforcement Learning.md" --level full`
 

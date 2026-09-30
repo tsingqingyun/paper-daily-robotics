@@ -1,7 +1,7 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
-format_version: 3
+format_version: 2
 evidence_level: abstract
 reading_status: skimmed
 needs_fulltext: true
@@ -20,24 +20,33 @@ concepts: ["多模态基础模型", "视觉语言动作模型 VLA"]
 > [!summary] 先说人话（基于摘要）
 > Across LIBERO, LIBERO-Plus, and VLA-Arena, FreqFM consistently improves performance, including a 9.3-point gain on LIBERO-Plus, and further demonstrates its effectiveness on six real-robot tasks.
 
-## 这篇到底在做什么
+## 问题
 
-- **卡在哪里**：Robot actions are temporally correlated trajectories whose frequency components encode motion at different scales with highly non-uniform energy distributions.
-- **关键解法**：We introduce \emph{FreqFM}, a frequency-conditioned Flow Matching framework for VLA models.
-- **拿什么证明**：Across LIBERO, LIBERO-Plus, and VLA-Arena, FreqFM consistently improves performance, including a 9.3-point gain on LIBERO-Plus, and further demonstrates its effectiveness on six real-robot tasks.
+Robot actions are temporally correlated trajectories whose frequency components encode motion at different scales with highly non-uniform energy distributions.
 
-## 值不值得读
+## 创新点或方法
 
-- **和你的研究有什么关系**：需结合研究方向判断；规则式回退未做语义评审。
-- **先别急着信**：摘要未明确说明；需阅读全文核查。
+We introduce \emph{FreqFM}, a frequency-conditioned Flow Matching framework for VLA models.
+
+## 证据
+
+Across LIBERO, LIBERO-Plus, and VLA-Arena, FreqFM consistently improves performance, including a 9.3-point gain on LIBERO-Plus, and further demonstrates its effectiveness on six real-robot tasks.
+
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 - **判断**：仅完成摘要摘取，建议等待语义讲解或阅读全文。
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[视觉语言动作模型 VLA]]
+需结合研究方向判断；规则式回退未做语义评审。
+
+- **概念**：多模态基础模型 视觉语言动作模型 VLA
 - **筛选分数**：29
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-11/Frequency-Conditioned Flow Matching for Vision-Language-Action Models.md" --level full`
 

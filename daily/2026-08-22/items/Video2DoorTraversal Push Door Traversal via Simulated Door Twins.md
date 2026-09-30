@@ -20,19 +20,29 @@ concepts: ["智能体 Agent", "世界模型", "机器人学习", "Sim2Real", "�
 > [!summary] 一句话结论（基于摘要）
 > With all perception and policy inference running onboard, the system achieves a 96.57% average success rate across five real doors and an 80.95% zero-shot success rate on structurally similar unseen doors, while completing the full approach, opening, and trav…
 
-## 关键点
+## 问题
 
-- **问题**：Door opening and traversal is a long-horizon loco-manipulation task that requires precise handle interaction and coordinated base-arm control.
-- **创新点 / 方法**：We present Video2DoorTraversal, a single-video real-to-sim-to-real framework for wheel-legged mobile manipulators.
-- **证据**：With all perception and policy inference running onboard, the system achieves a 96.57% average success rate across five real doors and an 80.95% zero-shot success rate on structurally similar unseen doors, while completing the full approach, opening, and traversal sequence in approximately 13s on average.
-- **局限**：摘要未明确说明；需阅读全文核查。
+Door opening and traversal is a long-horizon loco-manipulation task that requires precise handle interaction and coordinated base-arm control.
+
+## 创新点或方法
+
+We present Video2DoorTraversal, a single-video real-to-sim-to-real framework for wheel-legged mobile manipulators.
+
+## 证据
+
+With all perception and policy inference running onboard, the system achieves a 96.57% average success rate across five real doors and an 80.95% zero-shot success rate on structurally similar unseen doors, while completing the full approach, opening, and traversal sequence in approximately 13s on average.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[智能体 Agent]] [[世界模型]] [[机器人学习]] [[Sim2Real]] [[具身智能评测与基准]]
+- **概念**：智能体 Agent 世界模型 机器人学习 Sim2Real 具身智能评测与基准
 - **筛选分数**：25
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-22/Video2DoorTraversal Push Door Traversal via Simulated Door Twins.md" --level full`
 

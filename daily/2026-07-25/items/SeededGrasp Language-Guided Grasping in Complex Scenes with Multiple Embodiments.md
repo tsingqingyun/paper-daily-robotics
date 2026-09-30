@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "世界模型"]
 > [!summary] 一句话结论（基于摘要）
 > Experimental results demonstrate that our approach outperforms existing baselines, achieving 72% success in simulation and 78% in real- world grasping experiments.
 
-## 关键点
+## 问题
 
-- **问题**：Vision-language models (VLMs) offer a natural way to specify these requirements using language, but existing approaches either use a VLM to predict the grasp directly with limited spatial awareness, or train the VLM together with the grasping model, which requires significantly more data and compute.
-- **创新点 / 方法**：Experimental results demonstrate that our approach outperforms existing baselines, achieving 72% success in simulation and 78% in real- world grasping experiments.
-- **证据**：摘要未报告明确实验结论；需阅读全文核查。
-- **局限**：These limitations impede performance and have prevented scaling to multiple embodiments in complex scenes.
+Vision-language models (VLMs) offer a natural way to specify these requirements using language, but existing approaches either use a VLM to predict the grasp directly with limited spatial awareness, or train the VLM together with the grasping model, which requires significantly more data and compute.
+
+## 创新点或方法
+
+Experimental results demonstrate that our approach outperforms existing baselines, achieving 72% success in simulation and 78% in real- world grasping experiments.
+
+## 证据
+
+摘要未报告明确实验结论；需阅读全文核查。
+
+## 局限
+
+These limitations impede performance and have prevented scaling to multiple embodiments in complex scenes.
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[世界模型]]
+- **概念**：多模态基础模型 世界模型
 - **筛选分数**：25
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-07-25/SeededGrasp Language-Guided Grasping in Complex Scenes with Multiple Embodiments.md" --level full`
 

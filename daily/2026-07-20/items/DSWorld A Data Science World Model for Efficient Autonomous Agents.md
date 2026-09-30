@@ -20,19 +20,29 @@ concepts: ["智能体 Agent", "世界模型", "机器人学习"]
 > [!summary] 一句话结论（基于摘要）
 > Experiments show that DSWorld accelerates RL-based agent training by approximately $14\times$ and search-based inference by approximately $3$-$6\times$ while maintaining competitive performance, and outperforms the strongest LLM baseline by 35.6% on transitio…
 
-## 关键点
+## 问题
 
-- **问题**：This bottleneck motivates models that can anticipate the effects of data science operations before real execution.
-- **创新点 / 方法**：In this paper, we introduce the concept of Data Science World Model, which model the data science execution environment by predicting environment state transitions conditioned on current workflow states and candidate operations.
-- **证据**：Experiments show that DSWorld accelerates RL-based agent training by approximately $14\times$ and search-based inference by approximately $3$-$6\times$ while maintaining competitive performance, and outperforms the strongest LLM baseline by 35.6% on transition prediction tasks.
-- **局限**：摘要未明确说明；需阅读全文核查。
+This bottleneck motivates models that can anticipate the effects of data science operations before real execution.
+
+## 创新点或方法
+
+In this paper, we introduce the concept of Data Science World Model, which model the data science execution environment by predicting environment state transitions conditioned on current workflow states and candidate operations.
+
+## 证据
+
+Experiments show that DSWorld accelerates RL-based agent training by approximately $14\times$ and search-based inference by approximately $3$-$6\times$ while maintaining competitive performance, and outperforms the strongest LLM baseline by 35.6% on transition prediction tasks.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[智能体 Agent]] [[世界模型]] [[机器人学习]]
+- **概念**：智能体 Agent 世界模型 机器人学习
 - **筛选分数**：27
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-07-20/DSWorld A Data Science World Model for Efficient Autonomous Agents.md" --level full`
 

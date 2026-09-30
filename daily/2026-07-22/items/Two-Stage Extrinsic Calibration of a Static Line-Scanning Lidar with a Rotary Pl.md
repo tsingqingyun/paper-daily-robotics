@@ -20,19 +20,29 @@ concepts: ["AI 核心知识地图"]
 > [!summary] 一句话结论（基于摘要）
 > Any inaccuracy in this transformation directly affects the quality of the reconstructed point cloud, leading to misrepresentation of the object of interest.
 
-## 关键点
+## 问题
 
-- **问题**：However, this setup gives rise to the following problem: how can the axis of rotation of the platform be accurately identified with respect to the lidar coordinate system?
-- **创新点 / 方法**：A line-scanning lidar yields range and azimuth values in a fixed plane.
-- **证据**：Any inaccuracy in this transformation directly affects the quality of the reconstructed point cloud, leading to misrepresentation of the object of interest.
-- **局限**：摘要未明确说明；需阅读全文核查。
+However, this setup gives rise to the following problem: how can the axis of rotation of the platform be accurately identified with respect to the lidar coordinate system?
+
+## 创新点或方法
+
+A line-scanning lidar yields range and azimuth values in a fixed plane.
+
+## 证据
+
+Any inaccuracy in this transformation directly affects the quality of the reconstructed point cloud, leading to misrepresentation of the object of interest.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[AI 核心知识地图]]
+- **概念**：AI 核心知识地图
 - **筛选分数**：28
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-07-22/Two-Stage Extrinsic Calibration of a Static Line-Scanning Lidar with a Rotary Pl.md" --level full`
 

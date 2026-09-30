@@ -20,19 +20,29 @@ concepts: ["视觉语言动作模型 VLA", "具身智能评测与基准"]
 > [!summary] 一句话结论（基于摘要）
 > The experimental results show that our approach outperforms state-of-the-art models in reconstruction accuracy and achieves a computation speed-up of at least 12 times over recent baselines.
 
-## 关键点
+## 问题
 
-- **问题**：Despite significant progress in network architectures to improve the results or optimize models' parameters for fast inference speed, the efficient representation of contact between humans and their environments remains an open challenge.
-- **创新点 / 方法**：In this paper, we propose a new efficient human- contact representation for human-scene interaction.
-- **证据**：The experimental results show that our approach outperforms state-of-the-art models in reconstruction accuracy and achieves a computation speed-up of at least 12 times over recent baselines.
-- **局限**：摘要未明确说明；需阅读全文核查。
+Despite significant progress in network architectures to improve the results or optimize models' parameters for fast inference speed, the efficient representation of contact between humans and their environments remains an open challenge.
+
+## 创新点或方法
+
+In this paper, we propose a new efficient human- contact representation for human-scene interaction.
+
+## 证据
+
+The experimental results show that our approach outperforms state-of-the-art models in reconstruction accuracy and achieves a computation speed-up of at least 12 times over recent baselines.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
+- **概念**：视觉语言动作模型 VLA 具身智能评测与基准
 - **筛选分数**：28
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-11/Efficient Human-Contact Representation for Human-Scene Interaction.md" --level full`
 

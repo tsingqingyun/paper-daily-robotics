@@ -20,19 +20,29 @@ concepts: ["世界模型", "具身智能评测与基准"]
 > [!summary] 一句话结论（基于摘要）
 > Evaluated on eight benchmarks under a unified experimental protocol, SpikF-GO achieves the best average rank among all SNN methods and outperforms its ANN counterpart, FourierGNN, at reduced energy cost.
 
-## 关键点
+## 问题
 
-- **问题**：However, existing SNN forecasting approaches process variables independently, lacking explicit mechanisms for modeling inter-variable dependencies.
-- **创新点 / 方法**：We propose Spiking Fourier Graph Operators (SpikF-GO), which addresses this gap by combining a hypervariate graph formulation in which every scalar observation becomes a graph node with spike-driven spectral processing.
-- **证据**：Evaluated on eight benchmarks under a unified experimental protocol, SpikF-GO achieves the best average rank among all SNN methods and outperforms its ANN counterpart, FourierGNN, at reduced energy cost.
-- **局限**：This is a critical limitation in multivariate settings, where cross-variable correlations carry substantial predictive information.
+However, existing SNN forecasting approaches process variables independently, lacking explicit mechanisms for modeling inter-variable dependencies.
+
+## 创新点或方法
+
+We propose Spiking Fourier Graph Operators (SpikF-GO), which addresses this gap by combining a hypervariate graph formulation in which every scalar observation becomes a graph node with spike-driven spectral processing.
+
+## 证据
+
+Evaluated on eight benchmarks under a unified experimental protocol, SpikF-GO achieves the best average rank among all SNN methods and outperforms its ANN counterpart, FourierGNN, at reduced energy cost.
+
+## 局限
+
+This is a critical limitation in multivariate settings, where cross-variable correlations carry substantial predictive information.
+
 
 ## 研究关联
 
-- **概念**：[[世界模型]] [[具身智能评测与基准]]
+- **概念**：世界模型 具身智能评测与基准
 - **筛选分数**：23
 - **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-16/SpikF-GO Spiking Fourier Graph Operators for Multivariate Time Series Forecastin.md" --level full`
 

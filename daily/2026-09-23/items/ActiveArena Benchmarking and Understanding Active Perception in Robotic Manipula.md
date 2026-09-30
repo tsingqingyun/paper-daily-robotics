@@ -42,10 +42,10 @@ concepts: ["多模态基础模型", "智能体 Agent", "视觉语言动作模型
 
 为VLA记忆与Agent主动感知提供受控实验平台，能检验收益究竟来自存得更多、写得更好，还是主动获取了关键证据。
 
-- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 智能体 Agent 视觉语言动作模型 VLA 具身智能评测与基准
 - **筛选分数**：35
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-23/ActiveArena Benchmarking and Understanding Active Perception in Robotic Manipula.md" --level full`
 

@@ -1,21 +1,21 @@
 ---
 type: daily-update
 tags: [update, ai, embodied-ai]
-format_version: 3
+format_version: 2
 evidence_level: abstract
 created: 2026-09-07
 ---
 
 # 2026-09-07 AI Embodied Intelligence Update
 
-> [!summary] 今日判断
+> [!summary] 30 秒结论
 > 今天最值得看的是三类工作：一类用选择性想象、物理状态对齐和风险导向设计，让世界模型真正服务决策；一类重新审视 VLA 的训练与评测，暴露 LIBERO 容量需求、多模态纠缠和 VLM 裁判可靠性等基础问题；另一类从大规模双臂示范、互联网视频检索与合成视频生产补齐数据供给。若只精读少数论文，优先看 WISE、MINERVA、GIFT、FailBench，以及与自身方向最接近的数据或世界模型论文。
 > **趋势**：共同趋势是从“模型更大、视频更像”转向“监督是否对控制有用、想象是否可信、评测是否稳定、部署是否高效”。同时，感知—动作—预测的融合正在加速，但物理接触、分布外鲁棒性、长时风险和可靠评价仍是明显短板。
 
 - **规模**：2291 个候选 → 24 篇入选；回填 0 篇
 - **主题**：多模态基础模型 17、具身智能评测与基准 14、世界模型 13、视觉语言动作模型 VLA 9、智能体 Agent 8、机器人学习 8、AI 核心知识地图 1
 - **源异常**：1
-- **阅读方式**：先看 5 篇必读的“为什么值得读”，有用再进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **阅读方式**：先看 5 篇必读的“为什么值得读”，有用再进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -71,18 +71,18 @@ created: 2026-09-07
 
 ## 其余存档 12 篇
 
-- [Rethinking 3D Noise: Learning 3D-Aware Video Priors via Optimization-Free Morphological Perturbations](items/Rethinking%203D%20Noise%20Learning%203D-Aware%20Video%20Priors%20via%20Optimization-Free%20Morphol.md) · [[具身智能评测与基准]]
-- [WorldReward: Reward Modeling for Camera-Conditioned World Models](items/WorldReward%20Reward%20Modeling%20for%20Camera-Conditioned%20World%20Models.md) · [[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
-- [Establishing a Dynamic Multimodal HRI Dataset for Engagement Analysis with a Humanoid Robot](items/Establishing%20a%20Dynamic%20Multimodal%20HRI%20Dataset%20for%20Engagement%20Analysis%20with%20a%20Hum.md) · [[多模态基础模型]]
-- [RoboTok: An Internet-Scale Data Engine for Human Demonstration Retrieval and Dexterous Manipulation Learning](items/RoboTok%20An%20Internet-Scale%20Data%20Engine%20for%20Human%20Demonstration%20Retrieval%20and%20Dext.md) · [[机器人学习]] [[具身智能评测与基准]]
-- [Revisiting Topological Graphs for Macro Action based Closed-loop Reinforcement Learning of Vision Language Navigation in Continuous Environment](items/Revisiting%20Topological%20Graphs%20for%20Macro%20Action%20based%20Closed-loop%20Reinforcement%20L.md) · [[多模态基础模型]] [[智能体 Agent]] [[机器人学习]] [[具身智能评测与基准]]
-- [DropClick: Semi-Automated One-Click Segmentation for Agricultural Robotic Data](items/DropClick%20Semi-Automated%20One-Click%20Segmentation%20for%20Agricultural%20Robotic%20Data.md) · [[AI 核心知识地图]]
-- [Toward Physically Grounded JEPA World Models for Goal-Conditioned Robotic Planning](items/Toward%20Physically%20Grounded%20JEPA%20World%20Models%20for%20Goal-Conditioned%20Robotic%20Planni.md) · [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
-- [Adaptive Vision-Language Grasping via Composable Foundation Priors and Generalizable Grasp Synthesis](items/Adaptive%20Vision-Language%20Grasping%20via%20Composable%20Foundation%20Priors%20and%20Generaliz.md) · [[多模态基础模型]] [[世界模型]]
-- [IRWOZ 2.0: A Large Language Model-driven Dialogue Dataset for Industrial Robot Conversations](items/IRWOZ%202.0%20A%20Large%20Language%20Model-driven%20Dialogue%20Dataset%20for%20Industrial%20Robot%20Co.md) · [[多模态基础模型]] [[具身智能评测与基准]]
-- [Semantic Bayesian World Models](items/Semantic%20Bayesian%20World%20Models.md) · [[多模态基础模型]] [[智能体 Agent]] [[世界模型]]
-- [Rethinking World Models for Safety-Critical Embodied Systems](items/Rethinking%20World%20Models%20for%20Safety-Critical%20Embodied%20Systems.md) · [[世界模型]] [[具身智能评测与基准]]
-- [Building Pretraining Data for World Models: An Unreal Engine-Based Pipeline for Action-Conditioned Video Generation](items/Building%20Pretraining%20Data%20for%20World%20Models%20An%20Unreal%20Engine-Based%20Pipeline%20for%20A.md) · [[世界模型]]
+- [Rethinking 3D Noise: Learning 3D-Aware Video Priors via Optimization-Free Morphological Perturbations](items/Rethinking%203D%20Noise%20Learning%203D-Aware%20Video%20Priors%20via%20Optimization-Free%20Morphol.md) · 具身智能评测与基准
+- [WorldReward: Reward Modeling for Camera-Conditioned World Models](items/WorldReward%20Reward%20Modeling%20for%20Camera-Conditioned%20World%20Models.md) · 多模态基础模型 智能体 Agent 世界模型 具身智能评测与基准
+- [Establishing a Dynamic Multimodal HRI Dataset for Engagement Analysis with a Humanoid Robot](items/Establishing%20a%20Dynamic%20Multimodal%20HRI%20Dataset%20for%20Engagement%20Analysis%20with%20a%20Hum.md) · 多模态基础模型
+- [RoboTok: An Internet-Scale Data Engine for Human Demonstration Retrieval and Dexterous Manipulation Learning](items/RoboTok%20An%20Internet-Scale%20Data%20Engine%20for%20Human%20Demonstration%20Retrieval%20and%20Dext.md) · 机器人学习 具身智能评测与基准
+- [Revisiting Topological Graphs for Macro Action based Closed-loop Reinforcement Learning of Vision Language Navigation in Continuous Environment](items/Revisiting%20Topological%20Graphs%20for%20Macro%20Action%20based%20Closed-loop%20Reinforcement%20L.md) · 多模态基础模型 智能体 Agent 机器人学习 具身智能评测与基准
+- [DropClick: Semi-Automated One-Click Segmentation for Agricultural Robotic Data](items/DropClick%20Semi-Automated%20One-Click%20Segmentation%20for%20Agricultural%20Robotic%20Data.md) · AI 核心知识地图
+- [Toward Physically Grounded JEPA World Models for Goal-Conditioned Robotic Planning](items/Toward%20Physically%20Grounded%20JEPA%20World%20Models%20for%20Goal-Conditioned%20Robotic%20Planni.md) · 智能体 Agent 世界模型 具身智能评测与基准
+- [Adaptive Vision-Language Grasping via Composable Foundation Priors and Generalizable Grasp Synthesis](items/Adaptive%20Vision-Language%20Grasping%20via%20Composable%20Foundation%20Priors%20and%20Generaliz.md) · 多模态基础模型 世界模型
+- [IRWOZ 2.0: A Large Language Model-driven Dialogue Dataset for Industrial Robot Conversations](items/IRWOZ%202.0%20A%20Large%20Language%20Model-driven%20Dialogue%20Dataset%20for%20Industrial%20Robot%20Co.md) · 多模态基础模型 具身智能评测与基准
+- [Semantic Bayesian World Models](items/Semantic%20Bayesian%20World%20Models.md) · 多模态基础模型 智能体 Agent 世界模型
+- [Rethinking World Models for Safety-Critical Embodied Systems](items/Rethinking%20World%20Models%20for%20Safety-Critical%20Embodied%20Systems.md) · 世界模型 具身智能评测与基准
+- [Building Pretraining Data for World Models: An Unreal Engine-Based Pipeline for Action-Conditioned Video Generation](items/Building%20Pretraining%20Data%20for%20World%20Models%20An%20Unreal%20Engine-Based%20Pipeline%20for%20A.md) · 世界模型
 
 <details>
 <summary>运行信息与信息源状态</summary>

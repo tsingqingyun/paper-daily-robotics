@@ -14,7 +14,7 @@ created: 2026-06-20
 - **规模**：2085 个候选 → 24 篇入选；回填 0 篇
 - **主题**：具身智能评测与基准 16、多模态基础模型 14、世界模型 12、智能体 Agent 10、机器人学习 10、视觉语言动作模型 VLA 10、AI 核心知识地图 1、Sim2Real 1
 - **源异常**：0
-- **需要更高精度**：从“必读”选择论文，进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **需要更高精度**：从“必读”选择论文，进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -55,18 +55,18 @@ created: 2026-06-20
 
 ## 其余存档 12 篇
 
-- [MemoryWAM: Efficient World Action Modeling with Persistent Memory](items/MemoryWAM%20Efficient%20World%20Action%20Modeling%20with%20Persistent%20Memory.md) · [[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[视觉语言动作模型 VLA]]
-- [Frequency-Aware Flow Matching for Continuous and Consistent Robotic Action Generation](items/Frequency-Aware%20Flow%20Matching%20for%20Continuous%20and%20Consistent%20Robotic%20Action%20Gener.md) · [[多模态基础模型]] [[视觉语言动作模型 VLA]] [[机器人学习]] [[具身智能评测与基准]]
-- [TaCauchy: An Extensible FEM Framework for Vision-Based Tactile Simulation](items/TaCauchy%20An%20Extensible%20FEM%20Framework%20for%20Vision-Based%20Tactile%20Simulation.md) · [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
-- [Lagrange: An Open-Vocabulary, Energy-Based Sparse Framework for Generalized End-to-End Driving](items/Lagrange%20An%20Open-Vocabulary%2C%20Energy-Based%20Sparse%20Framework%20for%20Generalized%20End-t.md) · [[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [Start Right, Arrive Right: Asynchronous Execution via Initial Noise Selection](items/Start%20Right%2C%20Arrive%20Right%20Asynchronous%20Execution%20via%20Initial%20Noise%20Selection.md) · [[具身智能评测与基准]]
-- [ImageWAM: Do World Action Models Really Need Video Generation, or Just Image Editing?](items/ImageWAM%20Do%20World%20Action%20Models%20Really%20Need%20Video%20Generation%2C%20or%20Just%20Image%20Edit.md) · [[智能体 Agent]] [[世界模型]] [[视觉语言动作模型 VLA]]
-- [Tri-Info: Generalizable, Interpretable Failure Prediction for VLA Models via Information Theory](items/Tri-Info%20Generalizable%2C%20Interpretable%20Failure%20Prediction%20for%20VLA%20Models%20via%20Info.md) · [[多模态基础模型]] [[视觉语言动作模型 VLA]] [[Sim2Real]] [[具身智能评测与基准]]
-- [DF-ExpEnse: Diffusion Filtered Exploration for Sample Efficient Finetuning](items/DF-ExpEnse%20Diffusion%20Filtered%20Exploration%20for%20Sample%20Efficient%20Finetuning.md) · [[多模态基础模型]] [[智能体 Agent]] [[机器人学习]]
-- [3D-DLP: Self-Supervised 3D Object-Centric Scene Representation Learning](items/3D-DLP%20Self-Supervised%203D%20Object-Centric%20Scene%20Representation%20Learning.md) · [[AI 核心知识地图]]
-- [Mem-World: Memory-Augmented Action-Conditioned World Models for Persistent Robot Manipulation](items/Mem-World%20Memory-Augmented%20Action-Conditioned%20World%20Models%20for%20Persistent%20Robot.md) · [[智能体 Agent]] [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
-- [FlowMaps: Modeling Long-Term Multimodal Object Dynamics with Flow Matching](items/FlowMaps%20Modeling%20Long-Term%20Multimodal%20Object%20Dynamics%20with%20Flow%20Matching.md) · [[多模态基础模型]] [[智能体 Agent]] [[世界模型]]
-- [See-and-Reach: Precise Vision-Language Navigation for UAVs within the Field of View](items/See-and-Reach%20Precise%20Vision-Language%20Navigation%20for%20UAVs%20within%20the%20Field%20of%20Vi.md) · [[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
+- [MemoryWAM: Efficient World Action Modeling with Persistent Memory](items/MemoryWAM%20Efficient%20World%20Action%20Modeling%20with%20Persistent%20Memory.md) · 多模态基础模型 智能体 Agent 世界模型 视觉语言动作模型 VLA
+- [Frequency-Aware Flow Matching for Continuous and Consistent Robotic Action Generation](items/Frequency-Aware%20Flow%20Matching%20for%20Continuous%20and%20Consistent%20Robotic%20Action%20Gener.md) · 多模态基础模型 视觉语言动作模型 VLA 机器人学习 具身智能评测与基准
+- [TaCauchy: An Extensible FEM Framework for Vision-Based Tactile Simulation](items/TaCauchy%20An%20Extensible%20FEM%20Framework%20for%20Vision-Based%20Tactile%20Simulation.md) · 世界模型 机器人学习 具身智能评测与基准
+- [Lagrange: An Open-Vocabulary, Energy-Based Sparse Framework for Generalized End-to-End Driving](items/Lagrange%20An%20Open-Vocabulary%2C%20Energy-Based%20Sparse%20Framework%20for%20Generalized%20End-t.md) · 多模态基础模型 世界模型 视觉语言动作模型 VLA 具身智能评测与基准
+- [Start Right, Arrive Right: Asynchronous Execution via Initial Noise Selection](items/Start%20Right%2C%20Arrive%20Right%20Asynchronous%20Execution%20via%20Initial%20Noise%20Selection.md) · 具身智能评测与基准
+- [ImageWAM: Do World Action Models Really Need Video Generation, or Just Image Editing?](items/ImageWAM%20Do%20World%20Action%20Models%20Really%20Need%20Video%20Generation%2C%20or%20Just%20Image%20Edit.md) · 智能体 Agent 世界模型 视觉语言动作模型 VLA
+- [Tri-Info: Generalizable, Interpretable Failure Prediction for VLA Models via Information Theory](items/Tri-Info%20Generalizable%2C%20Interpretable%20Failure%20Prediction%20for%20VLA%20Models%20via%20Info.md) · 多模态基础模型 视觉语言动作模型 VLA Sim2Real 具身智能评测与基准
+- [DF-ExpEnse: Diffusion Filtered Exploration for Sample Efficient Finetuning](items/DF-ExpEnse%20Diffusion%20Filtered%20Exploration%20for%20Sample%20Efficient%20Finetuning.md) · 多模态基础模型 智能体 Agent 机器人学习
+- [3D-DLP: Self-Supervised 3D Object-Centric Scene Representation Learning](items/3D-DLP%20Self-Supervised%203D%20Object-Centric%20Scene%20Representation%20Learning.md) · AI 核心知识地图
+- [Mem-World: Memory-Augmented Action-Conditioned World Models for Persistent Robot Manipulation](items/Mem-World%20Memory-Augmented%20Action-Conditioned%20World%20Models%20for%20Persistent%20Robot.md) · 智能体 Agent 世界模型 机器人学习 具身智能评测与基准
+- [FlowMaps: Modeling Long-Term Multimodal Object Dynamics with Flow Matching](items/FlowMaps%20Modeling%20Long-Term%20Multimodal%20Object%20Dynamics%20with%20Flow%20Matching.md) · 多模态基础模型 智能体 Agent 世界模型
+- [See-and-Reach: Precise Vision-Language Navigation for UAVs within the Field of View](items/See-and-Reach%20Precise%20Vision-Language%20Navigation%20for%20UAVs%20within%20the%20Field%20of%20Vi.md) · 多模态基础模型 智能体 Agent 具身智能评测与基准
 
 <details>
 <summary>运行信息与信息源错误</summary>

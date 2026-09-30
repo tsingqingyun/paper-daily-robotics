@@ -20,19 +20,29 @@ concepts: ["智能体 Agent", "世界模型", "具身智能评测与基准"]
 > [!summary] 一句话结论（基于摘要）
 > Hence, we propose a hardware-enforced semantic coordination architecture in which selected coordination semantics are implemented directly at the hardware level via field-programmable gate arrays (FPGAs).
 
-## 关键点
+## 问题
 
-- **问题**：Software-mediated coordination presents fundamental limitations in domains where bounded latency, deterministic coordination, and enforceable safety guarantees are essential.
-- **创新点 / 方法**：Hence, we propose a hardware-enforced semantic coordination architecture in which selected coordination semantics are implemented directly at the hardware level via field-programmable gate arrays (FPGAs).
-- **证据**：摘要未报告明确实验结论；需阅读全文核查。
-- **局限**：Software-mediated coordination presents fundamental limitations in domains where bounded latency, deterministic coordination, and enforceable safety guarantees are essential.
+Software-mediated coordination presents fundamental limitations in domains where bounded latency, deterministic coordination, and enforceable safety guarantees are essential.
+
+## 创新点或方法
+
+Hence, we propose a hardware-enforced semantic coordination architecture in which selected coordination semantics are implemented directly at the hardware level via field-programmable gate arrays (FPGAs).
+
+## 证据
+
+摘要未报告明确实验结论；需阅读全文核查。
+
+## 局限
+
+Software-mediated coordination presents fundamental limitations in domains where bounded latency, deterministic coordination, and enforceable safety guarantees are essential.
+
 
 ## 研究关联
 
-- **概念**：[[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
+- **概念**：智能体 Agent 世界模型 具身智能评测与基准
 - **筛选分数**：23
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-07-06/Hardware-Enforced Semantic Coordination for Safety-Critical Real-Time Autonomous.md" --level full`
 

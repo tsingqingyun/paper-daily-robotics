@@ -14,7 +14,7 @@ created: 2026-08-24
 - **规模**：2259 个候选 → 24 篇入选；回填 0 篇
 - **主题**：具身智能评测与基准 15、多模态基础模型 12、机器人学习 11、智能体 Agent 10、视觉语言动作模型 VLA 9、世界模型 8、Sim2Real 1
 - **源异常**：0
-- **需要更高精度**：从“必读”选择论文，进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **需要更高精度**：从“必读”选择论文，进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -55,18 +55,18 @@ created: 2026-08-24
 
 ## 其余存档 12 篇
 
-- [Rethinking Demonstration Unlearning in Imitation Learning for Robotics](items/Rethinking%20Demonstration%20Unlearning%20in%20Imitation%20Learning%20for%20Robotics.md) · [[世界模型]] [[机器人学习]]
-- [Beyond Imitation: Self-Improving Robot Policies via Off-Policy Q-Planning](items/Beyond%20Imitation%20Self-Improving%20Robot%20Policies%20via%20Off-Policy%20Q-Planning.md) · [[智能体 Agent]] [[机器人学习]] [[具身智能评测与基准]]
-- [Belief Without Behavior: Measuring the Translation of Theory of Mind into Coordinated Social Action in Vision-Language Models](items/Belief%20Without%20Behavior%20Measuring%20the%20Translation%20of%20Theory%20of%20Mind%20into%20Coordin.md) · [[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
-- [Neural-Primitive: An Efficient End-to-end Local Planner with Primitive-based Imitation Learning for Autonomous Flight](items/Neural-Primitive%20An%20Efficient%20End-to-end%20Local%20Planner%20with%20Primitive-based%20Imit.md) · [[智能体 Agent]] [[世界模型]] [[机器人学习]] [[Sim2Real]] [[具身智能评测与基准]]
-- [GhostTac: Manipulating Tactile Sensors without Physical Contact](items/GhostTac%20Manipulating%20Tactile%20Sensors%20without%20Physical%20Contact.md) · [[具身智能评测与基准]]
-- [AudioWorldSim: Realistic Binaural Audio Datasets For World Models](items/AudioWorldSim%20Realistic%20Binaural%20Audio%20Datasets%20For%20World%20Models.md) · [[智能体 Agent]] [[世界模型]]
-- [Koala Gripper: Co-designing Robotic Grippers and Data-Capture Devices for Scaling Dexterous Manipulation Learning](items/Koala%20Gripper%20Co-designing%20Robotic%20Grippers%20and%20Data-Capture%20Devices%20for%20Scaling.md) · [[智能体 Agent]] [[机器人学习]]
-- [DECOWAM: Decoupled Whole-Body World-Action Model for Legged Mobile Manipulation](items/DECOWAM%20Decoupled%20Whole-Body%20World-Action%20Model%20for%20Legged%20Mobile%20Manipulation.md) · [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [CertVLA: Certified Defense against Physical Visual Attacks for Vision-Language-Action Models](items/CertVLA%20Certified%20Defense%20against%20Physical%20Visual%20Attacks%20for%20Vision-Language-Ac.md) · [[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]]
-- [SRL-MPC: Shape-Aware Reinforcement Learned Model Predictive Control](items/SRL-MPC%20Shape-Aware%20Reinforcement%20Learned%20Model%20Predictive%20Control.md) · [[机器人学习]] [[具身智能评测与基准]]
-- [Teaching is a Process: The TOSS Framework for Modeling Human Teaching Decisions in Human-Interactive Robot Learning](items/Teaching%20is%20a%20Process%20The%20TOSS%20Framework%20for%20Modeling%20Human%20Teaching%20Decisions%20i.md) · [[机器人学习]]
-- [Natural Sit-to-Stand Motion Synthesis For Humanoids via Guided Assistance Curricula and Staged Rewards](items/Natural%20Sit-to-Stand%20Motion%20Synthesis%20For%20Humanoids%20via%20Guided%20Assistance%20Curric.md) · [[机器人学习]] [[具身智能评测与基准]]
+- [Rethinking Demonstration Unlearning in Imitation Learning for Robotics](items/Rethinking%20Demonstration%20Unlearning%20in%20Imitation%20Learning%20for%20Robotics.md) · 世界模型 机器人学习
+- [Beyond Imitation: Self-Improving Robot Policies via Off-Policy Q-Planning](items/Beyond%20Imitation%20Self-Improving%20Robot%20Policies%20via%20Off-Policy%20Q-Planning.md) · 智能体 Agent 机器人学习 具身智能评测与基准
+- [Belief Without Behavior: Measuring the Translation of Theory of Mind into Coordinated Social Action in Vision-Language Models](items/Belief%20Without%20Behavior%20Measuring%20the%20Translation%20of%20Theory%20of%20Mind%20into%20Coordin.md) · 多模态基础模型 智能体 Agent 具身智能评测与基准
+- [Neural-Primitive: An Efficient End-to-end Local Planner with Primitive-based Imitation Learning for Autonomous Flight](items/Neural-Primitive%20An%20Efficient%20End-to-end%20Local%20Planner%20with%20Primitive-based%20Imit.md) · 智能体 Agent 世界模型 机器人学习 Sim2Real 具身智能评测与基准
+- [GhostTac: Manipulating Tactile Sensors without Physical Contact](items/GhostTac%20Manipulating%20Tactile%20Sensors%20without%20Physical%20Contact.md) · 具身智能评测与基准
+- [AudioWorldSim: Realistic Binaural Audio Datasets For World Models](items/AudioWorldSim%20Realistic%20Binaural%20Audio%20Datasets%20For%20World%20Models.md) · 智能体 Agent 世界模型
+- [Koala Gripper: Co-designing Robotic Grippers and Data-Capture Devices for Scaling Dexterous Manipulation Learning](items/Koala%20Gripper%20Co-designing%20Robotic%20Grippers%20and%20Data-Capture%20Devices%20for%20Scaling.md) · 智能体 Agent 机器人学习
+- [DECOWAM: Decoupled Whole-Body World-Action Model for Legged Mobile Manipulation](items/DECOWAM%20Decoupled%20Whole-Body%20World-Action%20Model%20for%20Legged%20Mobile%20Manipulation.md) · 视觉语言动作模型 VLA 具身智能评测与基准
+- [CertVLA: Certified Defense against Physical Visual Attacks for Vision-Language-Action Models](items/CertVLA%20Certified%20Defense%20against%20Physical%20Visual%20Attacks%20for%20Vision-Language-Ac.md) · 多模态基础模型 世界模型 视觉语言动作模型 VLA
+- [SRL-MPC: Shape-Aware Reinforcement Learned Model Predictive Control](items/SRL-MPC%20Shape-Aware%20Reinforcement%20Learned%20Model%20Predictive%20Control.md) · 机器人学习 具身智能评测与基准
+- [Teaching is a Process: The TOSS Framework for Modeling Human Teaching Decisions in Human-Interactive Robot Learning](items/Teaching%20is%20a%20Process%20The%20TOSS%20Framework%20for%20Modeling%20Human%20Teaching%20Decisions%20i.md) · 机器人学习
+- [Natural Sit-to-Stand Motion Synthesis For Humanoids via Guided Assistance Curricula and Staged Rewards](items/Natural%20Sit-to-Stand%20Motion%20Synthesis%20For%20Humanoids%20via%20Guided%20Assistance%20Curric.md) · 机器人学习 具身智能评测与基准
 
 <details>
 <summary>运行信息与信息源状态</summary>

@@ -20,19 +20,29 @@ concepts: ["具身智能评测与基准"]
 > [!summary] 一句话结论（基于摘要）
 > These findings suggest that cross-lingual inconsistency is at least partly a selection problem, and that simple contextual interventions may outperform more invasive methods for robust, transferable alignment.
 
-## 关键点
+## 问题
 
-- **问题**：Although Large Language Models (LLMs) demonstrate remarkable multilingual fluency, their internal knowledge representations remain disproportionately biased toward high-resource languages.
-- **创新点 / 方法**：This leads to cross-lingual factual inconsistency, where they shift their empirical answer distributions based solely on the prompt language.
-- **证据**：These findings suggest that cross-lingual inconsistency is at least partly a selection problem, and that simple contextual interventions may outperform more invasive methods for robust, transferable alignment.
-- **局限**：摘要未明确说明；需阅读全文核查。
+Although Large Language Models (LLMs) demonstrate remarkable multilingual fluency, their internal knowledge representations remain disproportionately biased toward high-resource languages.
+
+## 创新点或方法
+
+This leads to cross-lingual factual inconsistency, where they shift their empirical answer distributions based solely on the prompt language.
+
+## 证据
+
+These findings suggest that cross-lingual inconsistency is at least partly a selection problem, and that simple contextual interventions may outperform more invasive methods for robust, transferable alignment.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[具身智能评测与基准]]
+- **概念**：具身智能评测与基准
 - **筛选分数**：26
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-07-25/Inference-Time Steering for Cross-Lingual Factual Consistency in LLMs.md" --level full`
 

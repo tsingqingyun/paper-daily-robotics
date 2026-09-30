@@ -42,10 +42,10 @@ concepts: ["AI 核心知识地图"]
 
 对具身智能研究者，实际价值来自硬件设计如何简化动作空间和操作程序；与多模态基础模型或学习算法的直接联系在摘要中较弱。
 
-- **概念**：[[AI 核心知识地图]]
+- **概念**：AI 核心知识地图
 - **筛选分数**：31
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-24/The Cartesian Hand In-Hand Manipulation with All-Linear Fingers.md" --level full`
 

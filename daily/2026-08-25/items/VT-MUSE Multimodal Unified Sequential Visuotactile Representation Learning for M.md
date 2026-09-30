@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "世界模型", "具身智能评测与基准
 > [!summary] 一句话结论（基于摘要）
 > On the simulation benchmark, VT-MUSE outperforms the strongest baseline evaluated on all tasks by 11 percentage points and also achieves substantial improvements in real-world experiments.
 
-## 关键点
+## 问题
 
-- **问题**：VT-MUSE addresses both limitations through a two-stage representation learning framework.
-- **创新点 / 方法**：arXiv:2608.21290v1 Announce Type: new Abstract: We propose VT-MUSE, a Multimodal Unified SEquential representation learning framework for visuotactilemanipulation.
-- **证据**：On the simulation benchmark, VT-MUSE outperforms the strongest baseline evaluated on all tasks by 11 percentage points and also achieves substantial improvements in real-world experiments.
-- **局限**：VT-MUSE addresses both limitations through a two-stage representation learning framework.
+VT-MUSE addresses both limitations through a two-stage representation learning framework.
+
+## 创新点或方法
+
+arXiv:2608.21290v1 Announce Type: new Abstract: We propose VT-MUSE, a Multimodal Unified SEquential representation learning framework for visuotactilemanipulation.
+
+## 证据
+
+On the simulation benchmark, VT-MUSE outperforms the strongest baseline evaluated on all tasks by 11 percentage points and also achieves substantial improvements in real-world experiments.
+
+## 局限
+
+VT-MUSE addresses both limitations through a two-stage representation learning framework.
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[世界模型]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 世界模型 具身智能评测与基准
 - **筛选分数**：28
 - **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-25/VT-MUSE Multimodal Unified Sequential Visuotactile Representation Learning for M.md" --level full`
 

@@ -51,6 +51,11 @@ def first_key_point(body: str, *labels: str) -> str:
         value = key_point(body, label)
         if value != "待从全文核验。":
             return value
+    for label in labels:
+        heading = "创新点或方法" if label == "创新点 / 方法" else label
+        match = re.search(rf"(?ms)^## {re.escape(heading)}\s*\n(.*?)(?=^## |\Z)", body)
+        if match:
+            return match.group(1).strip()
     return "待从全文核验。"
 
 

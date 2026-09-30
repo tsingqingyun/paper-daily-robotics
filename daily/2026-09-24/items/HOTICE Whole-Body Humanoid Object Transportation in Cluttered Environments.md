@@ -42,10 +42,10 @@ Humanoid-Object Decoupled Potential Fields 分别表达身体与载荷的避碰�
 
 对全身机器人学习与 Sim2Real 研究者，价值在于把载荷几何纳入控制目标，并提供高维控制的分解方法。这里的双智能体指控制分工，摘要未体现世界模型贡献。
 
-- **概念**：[[智能体 Agent]] [[世界模型]] [[机器人学习]] [[Sim2Real]]
+- **概念**：智能体 Agent 世界模型 机器人学习 Sim2Real
 - **筛选分数**：38
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-24/HOTICE Whole-Body Humanoid Object Transportation in Cluttered Environments.md" --level full`
 

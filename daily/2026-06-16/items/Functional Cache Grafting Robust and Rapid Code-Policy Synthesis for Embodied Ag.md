@@ -20,19 +20,29 @@ concepts: ["智能体 Agent", "具身智能评测与基准"]
 > [!summary] 一句话结论（基于摘要）
 > By eliminating redundant prefill computation, this approach reduces generation latency, while reusing validated control structures improves robustness over prompt-level caching methods RAGCache, achieving 18.31% higher task success rate and 2.3x faster policy…
 
-## 关键点
+## 问题
 
-- **问题**：However, policy generation in open-domain embodied environments suffers from two fundamental limitations: (i) delayed decoding caused by repetitive prefill computation over long prompts, and (ii) limited robustness due to fully generative decoding, which often produces API mismatches, missing safety guards, and unstab…
-- **创新点 / 方法**：To address these limitations, we present FCGraft, a Functional Cache Grafting framework.
-- **证据**：By eliminating redundant prefill computation, this approach reduces generation latency, while reusing validated control structures improves robustness over prompt-level caching methods RAGCache, achieving 18.31% higher task success rate and 2.3x faster policy synthesis.
-- **局限**：However, policy generation in open-domain embodied environments suffers from two fundamental limitations: (i) delayed decoding caused by repetitive prefill computation over long prompts, and (ii) limited robustness due to fully generative decoding, which often produces API mismatches, missing safety guards, and unstab…
+However, policy generation in open-domain embodied environments suffers from two fundamental limitations: (i) delayed decoding caused by repetitive prefill computation over long prompts, and (ii) limited robustness due to fully generative decoding, which often produces API mismatches, missing safety guards, and unstab…
+
+## 创新点或方法
+
+To address these limitations, we present FCGraft, a Functional Cache Grafting framework.
+
+## 证据
+
+By eliminating redundant prefill computation, this approach reduces generation latency, while reusing validated control structures improves robustness over prompt-level caching methods RAGCache, achieving 18.31% higher task success rate and 2.3x faster policy synthesis.
+
+## 局限
+
+However, policy generation in open-domain embodied environments suffers from two fundamental limitations: (i) delayed decoding caused by repetitive prefill computation over long prompts, and (ii) limited robustness due to fully generative decoding, which often produces API mismatches, missing safety guards, and unstab…
+
 
 ## 研究关联
 
-- **概念**：[[智能体 Agent]] [[具身智能评测与基准]]
+- **概念**：智能体 Agent 具身智能评测与基准
 - **筛选分数**：22
 - **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-16/Functional Cache Grafting Robust and Rapid Code-Policy Synthesis for Embodied Ag.md" --level full`
 

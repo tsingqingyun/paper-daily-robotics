@@ -20,19 +20,29 @@ concepts: ["智能体 Agent", "机器人学习", "具身智能评测与基准"]
 > [!summary] 一句话结论（基于摘要）
 > Experiments demonstrate that SJRL achieves significant improvements over the strong search-based planner, Causal-PIBT, across multiple high- density maps.
 
-## 关键点
+## 问题
 
-- **问题**：These constraints substantially increase coordination difficulty, particularly in highly constrained spaces.
-- **创新点 / 方法**：To address these challenges, we propose Search-Aided Joint Reinforcement Learning (SJRL).
-- **证据**：Experiments demonstrate that SJRL achieves significant improvements over the strong search-based planner, Causal-PIBT, across multiple high- density maps.
-- **局限**：摘要未明确说明；需阅读全文核查。
+These constraints substantially increase coordination difficulty, particularly in highly constrained spaces.
+
+## 创新点或方法
+
+To address these challenges, we propose Search-Aided Joint Reinforcement Learning (SJRL).
+
+## 证据
+
+Experiments demonstrate that SJRL achieves significant improvements over the strong search-based planner, Causal-PIBT, across multiple high- density maps.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[智能体 Agent]] [[机器人学习]] [[具身智能评测与基准]]
+- **概念**：智能体 Agent 机器人学习 具身智能评测与基准
 - **筛选分数**：26
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-10/Search-Aided Joint Agent-Environment Reinforcement Learning for Robust Lifelong.md" --level full`
 

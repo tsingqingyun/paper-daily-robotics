@@ -42,10 +42,10 @@ concepts: ["世界模型", "视觉语言动作模型 VLA", "机器人学习", "�
 
 对世界模型、VLA 和机器人学习研究者，这能区分视觉泛化与交互动力学泛化，并为物理条件建模提供明确监督。
 
-- **概念**：[[世界模型]] [[视觉语言动作模型 VLA]] [[机器人学习]] [[具身智能评测与基准]]
+- **概念**：世界模型 视觉语言动作模型 VLA 机器人学习 具身智能评测与基准
 - **筛选分数**：33
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-24/RoboTwin-Phys Do WAMs and VLAs Understand the Physical World.md" --level full`
 

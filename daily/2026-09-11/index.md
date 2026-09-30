@@ -1,21 +1,21 @@
 ---
 type: daily-update
 tags: [update, ai, embodied-ai]
-format_version: 3
+format_version: 2
 evidence_level: abstract
 created: 2026-09-11
 ---
 
 # 2026-09-11 AI Embodied Intelligence Update
 
-> [!summary] 今日判断
+> [!summary] 30 秒结论
 > On the LIBERO benchmark, HaWMPO achieves the best average success rate, with gains of 15.0% over the base model and 2.8% over the strongest baseline; real-world experiments on a G1 robot further validate its effectiveness, raising the average success rate on…
 > **趋势**：暂无可判断趋势。
 
 - **规模**：2310 个候选 → 24 篇入选；回填 0 篇
 - **主题**：世界模型 14、具身智能评测与基准 14、智能体 Agent 12、视觉语言动作模型 VLA 10、机器人学习 9、多模态基础模型 8、Sim2Real 4、AI 核心知识地图 1
 - **源异常**：1
-- **阅读方式**：先看 5 篇必读的“为什么值得读”，有用再进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **阅读方式**：先看 5 篇必读的“为什么值得读”，有用再进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -71,18 +71,18 @@ created: 2026-09-11
 
 ## 其余存档 12 篇
 
-- [A Decade of Bayesian Optimization for Controller Tuning and Robot Learning: Tutorial, Review, and Future Prospects](items/A%20Decade%20of%20Bayesian%20Optimization%20for%20Controller%20Tuning%20and%20Robot%20Learning%20Tutor.md) · [[机器人学习]] [[具身智能评测与基准]]
-- [Semigroup-JEPA: Latent Dynamics Consistency for Zero-Shot Physics Generalization](items/Semigroup-JEPA%20Latent%20Dynamics%20Consistency%20for%20Zero-Shot%20Physics%20Generalization.md) · [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
-- [RoboDrop: Curating VLA Post-Training Data via Local Gradient Compatibility](items/RoboDrop%20Curating%20VLA%20Post-Training%20Data%20via%20Local%20Gradient%20Compatibility.md) · [[世界模型]] [[视觉语言动作模型 VLA]] [[机器人学习]]
-- [Compact Visuotactile World Models for Lifting: Prediction, Reward Alignment, and Force Constraints](items/Compact%20Visuotactile%20World%20Models%20for%20Lifting%20Prediction%2C%20Reward%20Alignment%2C%20and.md) · [[世界模型]]
-- [Automatic Reproducible Camera Intrinsic Calibration](items/Automatic%20Reproducible%20Camera%20Intrinsic%20Calibration.md) · [[AI 核心知识地图]]
-- [ViBe: Visual Behavior Adaptation for Perceptive Humanoid Whole-Body Control](items/ViBe%20Visual%20Behavior%20Adaptation%20for%20Perceptive%20Humanoid%20Whole-Body%20Control.md) · [[Sim2Real]]
-- [PccDiffuser: Multi-solution Motion Planning for Continuum Robots](items/PccDiffuser%20Multi-solution%20Motion%20Planning%20for%20Continuum%20Robots.md) · [[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
-- [MuJoCable: Reduced-Order Surface-Routed Cable Transmission for Tendon-Driven Robots](items/MuJoCable%20Reduced-Order%20Surface-Routed%20Cable%20Transmission%20for%20Tendon-Driven%20Robo.md) · [[世界模型]] [[Sim2Real]] [[具身智能评测与基准]]
-- [PGMT: Perceptive General Motion Tracking for Humanoid Robots](items/PGMT%20Perceptive%20General%20Motion%20Tracking%20for%20Humanoid%20Robots.md) · [[机器人学习]]
-- [Programmable World Model](items/Programmable%20World%20Model.md) · [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
-- [Adaptive Shared Control with Online Bounded-Rational Human Behavior Estimation](items/Adaptive%20Shared%20Control%20with%20Online%20Bounded-Rational%20Human%20Behavior%20Estimation.md) · [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
-- [Assembling Two Parts in One Hand](items/Assembling%20Two%20Parts%20in%20One%20Hand.md) · [[世界模型]] [[机器人学习]] [[Sim2Real]] [[具身智能评测与基准]]
+- [A Decade of Bayesian Optimization for Controller Tuning and Robot Learning: Tutorial, Review, and Future Prospects](items/A%20Decade%20of%20Bayesian%20Optimization%20for%20Controller%20Tuning%20and%20Robot%20Learning%20Tutor.md) · 机器人学习 具身智能评测与基准
+- [Semigroup-JEPA: Latent Dynamics Consistency for Zero-Shot Physics Generalization](items/Semigroup-JEPA%20Latent%20Dynamics%20Consistency%20for%20Zero-Shot%20Physics%20Generalization.md) · 智能体 Agent 世界模型 具身智能评测与基准
+- [RoboDrop: Curating VLA Post-Training Data via Local Gradient Compatibility](items/RoboDrop%20Curating%20VLA%20Post-Training%20Data%20via%20Local%20Gradient%20Compatibility.md) · 世界模型 视觉语言动作模型 VLA 机器人学习
+- [Compact Visuotactile World Models for Lifting: Prediction, Reward Alignment, and Force Constraints](items/Compact%20Visuotactile%20World%20Models%20for%20Lifting%20Prediction%2C%20Reward%20Alignment%2C%20and.md) · 世界模型
+- [Automatic Reproducible Camera Intrinsic Calibration](items/Automatic%20Reproducible%20Camera%20Intrinsic%20Calibration.md) · AI 核心知识地图
+- [ViBe: Visual Behavior Adaptation for Perceptive Humanoid Whole-Body Control](items/ViBe%20Visual%20Behavior%20Adaptation%20for%20Perceptive%20Humanoid%20Whole-Body%20Control.md) · Sim2Real
+- [PccDiffuser: Multi-solution Motion Planning for Continuum Robots](items/PccDiffuser%20Multi-solution%20Motion%20Planning%20for%20Continuum%20Robots.md) · 多模态基础模型 智能体 Agent 具身智能评测与基准
+- [MuJoCable: Reduced-Order Surface-Routed Cable Transmission for Tendon-Driven Robots](items/MuJoCable%20Reduced-Order%20Surface-Routed%20Cable%20Transmission%20for%20Tendon-Driven%20Robo.md) · 世界模型 Sim2Real 具身智能评测与基准
+- [PGMT: Perceptive General Motion Tracking for Humanoid Robots](items/PGMT%20Perceptive%20General%20Motion%20Tracking%20for%20Humanoid%20Robots.md) · 机器人学习
+- [Programmable World Model](items/Programmable%20World%20Model.md) · 智能体 Agent 世界模型 具身智能评测与基准
+- [Adaptive Shared Control with Online Bounded-Rational Human Behavior Estimation](items/Adaptive%20Shared%20Control%20with%20Online%20Bounded-Rational%20Human%20Behavior%20Estimation.md) · 智能体 Agent 世界模型 具身智能评测与基准
+- [Assembling Two Parts in One Hand](items/Assembling%20Two%20Parts%20in%20One%20Hand.md) · 世界模型 机器人学习 Sim2Real 具身智能评测与基准
 
 <details>
 <summary>运行信息与信息源状态</summary>

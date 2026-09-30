@@ -20,19 +20,29 @@ concepts: ["机器人学习", "Sim2Real"]
 > [!summary] 一句话结论（基于摘要）
 > Notably, it outperforms existing co-training baselines by up to 33% when scaled to Open X-Embodiment - a large dataset with heterogeneous data quality and unstructured distribution shifts.
 
-## 关键点
+## 问题
 
-- **问题**：We propose Ambient Diffusion Policy, a simple and principled method for imitation learning from suboptimal data in robotics.
-- **创新点 / 方法**：We propose Ambient Diffusion Policy, a simple and principled method for imitation learning from suboptimal data in robotics.
-- **证据**：Notably, it outperforms existing co-training baselines by up to 33% when scaled to Open X-Embodiment - a large dataset with heterogeneous data quality and unstructured distribution shifts.
-- **局限**：摘要未明确说明；需阅读全文核查。
+We propose Ambient Diffusion Policy, a simple and principled method for imitation learning from suboptimal data in robotics.
+
+## 创新点或方法
+
+We propose Ambient Diffusion Policy, a simple and principled method for imitation learning from suboptimal data in robotics.
+
+## 证据
+
+Notably, it outperforms existing co-training baselines by up to 33% when scaled to Open X-Embodiment - a large dataset with heterogeneous data quality and unstructured distribution shifts.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[机器人学习]] [[Sim2Real]]
+- **概念**：机器人学习 Sim2Real
 - **筛选分数**：28
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-14/Ambient Diffusion Policy Imitation Learning from Suboptimal Data in Robotics.md" --level full`
 

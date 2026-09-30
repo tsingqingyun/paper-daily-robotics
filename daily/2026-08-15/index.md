@@ -14,7 +14,7 @@ created: 2026-08-15
 - **规模**：2241 个候选 → 24 篇入选；回填 0 篇
 - **主题**：具身智能评测与基准 17、智能体 Agent 15、多模态基础模型 14、世界模型 11、视觉语言动作模型 VLA 11、机器人学习 8、Sim2Real 2
 - **源异常**：0
-- **需要更高精度**：从“必读”选择论文，进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **需要更高精度**：从“必读”选择论文，进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -55,18 +55,18 @@ created: 2026-08-15
 
 ## 其余存档 12 篇
 
-- [HUI360: A 360° Egocentric Dataset and Baselines for Human-Robot Interaction Anticipation](items/HUI360%20A%20360%C2%B0%20Egocentric%20Dataset%20and%20Baselines%20for%20Human-Robot%20Interaction%20Antic.md) · [[智能体 Agent]] [[具身智能评测与基准]]
-- [StellaVLA: In-Context Structured Demonstration for Generalizable Vision-Language-Action Models](items/StellaVLA%20In-Context%20Structured%20Demonstration%20for%20Generalizable%20Vision-Language-.md) · [[多模态基础模型]] [[视觉语言动作模型 VLA]] [[机器人学习]] [[具身智能评测与基准]]
-- [Temporal GRPO: Beyond Trajectory-Level Credit in Vision-Language-Action Reinforcement Learning](items/Temporal%20GRPO%20Beyond%20Trajectory-Level%20Credit%20in%20Vision-Language-Action%20Reinforce.md) · [[多模态基础模型]] [[视觉语言动作模型 VLA]] [[机器人学习]]
-- [HumanoidVLN: A Physics-Grounded Simulator and Benchmark for Vision-Language Navigation Across Diverse Humanoid Embodiments](items/HumanoidVLN%20A%20Physics-Grounded%20Simulator%20and%20Benchmark%20for%20Vision-Language%20Navig.md) · [[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[机器人学习]] [[Sim2Real]] [[具身智能评测与基准]]
-- [ContactGuard: Pre-Contact Execution Monitoring with Action-Conditioned Latent World Models](items/ContactGuard%20Pre-Contact%20Execution%20Monitoring%20with%20Action-Conditioned%20Latent%20Wor.md) · [[世界模型]]
-- [S2-HWM: Sparse Event-Structured Hierarchical World Model for Long-Horizon Surgical Robot Manipulation](items/S2-HWM%20Sparse%20Event-Structured%20Hierarchical%20World%20Model%20for%20Long-Horizon%20Surgica.md) · [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
-- [DreamFly: Causal Memory and Receding-Horizon Diffusion Planning for Aerial Vision-Language Navigation](items/DreamFly%20Causal%20Memory%20and%20Receding-Horizon%20Diffusion%20Planning%20for%20Aerial%20Vision.md) · [[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [D3D-GEN: Robot-Aware Domain-Grounded Interactive 3D World Generation for Social Robotics](items/D3D-GEN%20Robot-Aware%20Domain-Grounded%20Interactive%203D%20World%20Generation%20for%20Social%20R.md) · [[智能体 Agent]] [[世界模型]]
-- [BrainWAM: Action-Space Coordination of Semantic Priors and Predictive Dynamics for Autonomous Driving](items/BrainWAM%20Action-Space%20Coordination%20of%20Semantic%20Priors%20and%20Predictive%20Dynamics%20fo.md) · [[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[视觉语言动作模型 VLA]]
-- [SAP-Nav: Spatial Semantic Representation Meets Active Perception for Hierarchical Open-Vocabulary Object Navigation](items/SAP-Nav%20Spatial%20Semantic%20Representation%20Meets%20Active%20Perception%20for%20Hierarchical.md) · [[智能体 Agent]]
-- [AVA-Encoder: Towards Agent-Native Video Representation Learning](items/AVA-Encoder%20Towards%20Agent-Native%20Video%20Representation%20Learning.md) · [[智能体 Agent]] [[具身智能评测与基准]]
-- [Autonomous Telerehabilitation via Skeletal Motion Prediction and Joint-Level Performance Assessment](items/Autonomous%20Telerehabilitation%20via%20Skeletal%20Motion%20Prediction%20and%20Joint-Level%20Per.md) · [[具身智能评测与基准]]
+- [HUI360: A 360° Egocentric Dataset and Baselines for Human-Robot Interaction Anticipation](items/HUI360%20A%20360%C2%B0%20Egocentric%20Dataset%20and%20Baselines%20for%20Human-Robot%20Interaction%20Antic.md) · 智能体 Agent 具身智能评测与基准
+- [StellaVLA: In-Context Structured Demonstration for Generalizable Vision-Language-Action Models](items/StellaVLA%20In-Context%20Structured%20Demonstration%20for%20Generalizable%20Vision-Language-.md) · 多模态基础模型 视觉语言动作模型 VLA 机器人学习 具身智能评测与基准
+- [Temporal GRPO: Beyond Trajectory-Level Credit in Vision-Language-Action Reinforcement Learning](items/Temporal%20GRPO%20Beyond%20Trajectory-Level%20Credit%20in%20Vision-Language-Action%20Reinforce.md) · 多模态基础模型 视觉语言动作模型 VLA 机器人学习
+- [HumanoidVLN: A Physics-Grounded Simulator and Benchmark for Vision-Language Navigation Across Diverse Humanoid Embodiments](items/HumanoidVLN%20A%20Physics-Grounded%20Simulator%20and%20Benchmark%20for%20Vision-Language%20Navig.md) · 多模态基础模型 智能体 Agent 世界模型 机器人学习 Sim2Real 具身智能评测与基准
+- [ContactGuard: Pre-Contact Execution Monitoring with Action-Conditioned Latent World Models](items/ContactGuard%20Pre-Contact%20Execution%20Monitoring%20with%20Action-Conditioned%20Latent%20Wor.md) · 世界模型
+- [S2-HWM: Sparse Event-Structured Hierarchical World Model for Long-Horizon Surgical Robot Manipulation](items/S2-HWM%20Sparse%20Event-Structured%20Hierarchical%20World%20Model%20for%20Long-Horizon%20Surgica.md) · 智能体 Agent 世界模型 具身智能评测与基准
+- [DreamFly: Causal Memory and Receding-Horizon Diffusion Planning for Aerial Vision-Language Navigation](items/DreamFly%20Causal%20Memory%20and%20Receding-Horizon%20Diffusion%20Planning%20for%20Aerial%20Vision.md) · 多模态基础模型 智能体 Agent 视觉语言动作模型 VLA 具身智能评测与基准
+- [D3D-GEN: Robot-Aware Domain-Grounded Interactive 3D World Generation for Social Robotics](items/D3D-GEN%20Robot-Aware%20Domain-Grounded%20Interactive%203D%20World%20Generation%20for%20Social%20R.md) · 智能体 Agent 世界模型
+- [BrainWAM: Action-Space Coordination of Semantic Priors and Predictive Dynamics for Autonomous Driving](items/BrainWAM%20Action-Space%20Coordination%20of%20Semantic%20Priors%20and%20Predictive%20Dynamics%20fo.md) · 多模态基础模型 智能体 Agent 世界模型 视觉语言动作模型 VLA
+- [SAP-Nav: Spatial Semantic Representation Meets Active Perception for Hierarchical Open-Vocabulary Object Navigation](items/SAP-Nav%20Spatial%20Semantic%20Representation%20Meets%20Active%20Perception%20for%20Hierarchical.md) · 智能体 Agent
+- [AVA-Encoder: Towards Agent-Native Video Representation Learning](items/AVA-Encoder%20Towards%20Agent-Native%20Video%20Representation%20Learning.md) · 智能体 Agent 具身智能评测与基准
+- [Autonomous Telerehabilitation via Skeletal Motion Prediction and Joint-Level Performance Assessment](items/Autonomous%20Telerehabilitation%20via%20Skeletal%20Motion%20Prediction%20and%20Joint-Level%20Per.md) · 具身智能评测与基准
 
 <details>
 <summary>运行信息与信息源错误</summary>

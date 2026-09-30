@@ -20,19 +20,29 @@ concepts: ["世界模型", "具身智能评测与基准"]
 > [!summary] 一句话结论（基于摘要）
 > Scale buys interpolation; structure buys a certified horizon.
 
-## 关键点
+## 问题
 
-- **问题**：The horizon is two-sided -- a matching lower bound makes approximate equivariance provably horizon-limited -- and the certificate is exclusive to structure: orbit-constant error characterizes equivariance, so no non- equivariant model has it at any scale.
-- **创新点 / 方法**：Scale buys interpolation; structure buys a certified horizon.
-- **证据**：摘要未报告明确实验结论；需阅读全文核查。
-- **局限**：Because the spectrum is faithful, the certificate acts, a priori: under a fixed sensing budget a $c\times$-inflated certificate provably needs $c\times$ the budget, and the equivariant certificate meets a budget its inflated dense counterpart cannot -- with zero calibration data.
+The horizon is two-sided -- a matching lower bound makes approximate equivariance provably horizon-limited -- and the certificate is exclusive to structure: orbit-constant error characterizes equivariance, so no non- equivariant model has it at any scale.
+
+## 创新点或方法
+
+Scale buys interpolation; structure buys a certified horizon.
+
+## 证据
+
+摘要未报告明确实验结论；需阅读全文核查。
+
+## 局限
+
+Because the spectrum is faithful, the certificate acts, a priori: under a fixed sensing budget a $c\times$-inflated certificate provably needs $c\times$ the budget, and the equivariant certificate meets a budget its inflated dense counterpart cannot -- with zero calibration data.
+
 
 ## 研究关联
 
-- **概念**：[[世界模型]] [[具身智能评测与基准]]
+- **概念**：世界模型 具身智能评测与基准
 - **筛选分数**：27
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-14/Scale Buys Interpolation, Structure Buys a Horizon Certified Predictability for.md" --level full`
 

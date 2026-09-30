@@ -20,19 +20,29 @@ concepts: ["具身智能评测与基准"]
 > [!summary] 一句话结论（基于摘要）
 > Experimental results show that the proposed method reliably infers placement locations from language instructions with an average success rate of 87\% on the test-set and transfers effectively to real-world aerial manipulation with an average success rate of…
 
-## 关键点
+## 问题
 
-- **问题**：Such interfaces are not intuitive and require users to reason about coordinate frames and scene geometry, making them difficult to use in practical deployments.
-- **创新点 / 方法**：Inspired by this observation, we present AERMANI- PLACE, a framework for language-guided object placement with aerial manipulators.
-- **证据**：Experimental results show that the proposed method reliably infers placement locations from language instructions with an average success rate of 87\% on the test-set and transfers effectively to real-world aerial manipulation with an average success rate of 72\%.
-- **局限**：摘要未明确说明；需阅读全文核查。
+Such interfaces are not intuitive and require users to reason about coordinate frames and scene geometry, making them difficult to use in practical deployments.
+
+## 创新点或方法
+
+Inspired by this observation, we present AERMANI- PLACE, a framework for language-guided object placement with aerial manipulators.
+
+## 证据
+
+Experimental results show that the proposed method reliably infers placement locations from language instructions with an average success rate of 87\% on the test-set and transfers effectively to real-world aerial manipulation with an average success rate of 72\%.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[具身智能评测与基准]]
+- **概念**：具身智能评测与基准
 - **筛选分数**：21
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-16/AERMANI-PLACE Language Guided Object Placement with Aerial Manipulators.md" --level full`
 

@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "视觉语言动作模型 VLA", "机器人�
 > [!summary] 一句话结论（基于摘要）
 > Evaluated on the LIBERO-plus benchmark, our framework acts as18 a universal safety net, improving the success rate of the OpenVLA-OFT model19 from 69.6% to 74.1%, while demonstrating broad applicability to both base and20 fine-tuned VLA policies.
 
-## 关键点
+## 问题
 
-- **问题**：Vision-Language-Action (VLA) models demonstrate strong perfor-1 mance on language- conditioned robotic manipulation within their training dis-2 tribution, yet their generalization capabilities remain fundamentally limited.
-- **创新点 / 方法**：We propose PROBEACT, a training-free runtime intervention frame-6 work that detects and recovers from grasping and placement failures in pre-7 trained VLA policies without modifying their weights or requiring additional8 demonstrations.
-- **证据**：Evaluated on the LIBERO-plus benchmark, our framework acts as18 a universal safety net, improving the success rate of the OpenVLA-OFT model19 from 69.6% to 74.1%, while demonstrating broad applicability to both base and20 fine-tuned VLA policies.
-- **局限**：摘要未明确说明；需阅读全文核查。
+Vision-Language-Action (VLA) models demonstrate strong perfor-1 mance on language- conditioned robotic manipulation within their training dis-2 tribution, yet their generalization capabilities remain fundamentally limited.
+
+## 创新点或方法
+
+We propose PROBEACT, a training-free runtime intervention frame-6 work that detects and recovers from grasping and placement failures in pre-7 trained VLA policies without modifying their weights or requiring additional8 demonstrations.
+
+## 证据
+
+Evaluated on the LIBERO-plus benchmark, our framework acts as18 a universal safety net, improving the success rate of the OpenVLA-OFT model19 from 69.6% to 74.1%, while demonstrating broad applicability to both base and20 fine-tuned VLA policies.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[视觉语言动作模型 VLA]] [[机器人学习]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 视觉语言动作模型 VLA 机器人学习 具身智能评测与基准
 - **筛选分数**：42
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-10/ProbeAct Probe-Guided Training-Free Failure Recovery in Vision-Language-Action M.md" --level full`
 

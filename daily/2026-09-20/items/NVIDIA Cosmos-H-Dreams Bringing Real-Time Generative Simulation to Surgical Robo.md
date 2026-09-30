@@ -42,10 +42,10 @@ concepts: ["世界模型"]
 
 对世界模型研究者，值得核查生成结果能否支持动作条件下的交互和策略评估；现有材料尚不能提供训练或评测上的实际依据。
 
-- **概念**：[[世界模型]]
+- **概念**：世界模型
 - **筛选分数**：10
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-20/NVIDIA Cosmos-H-Dreams Bringing Real-Time Generative Simulation to Surgical Robo.md" --level full`
 

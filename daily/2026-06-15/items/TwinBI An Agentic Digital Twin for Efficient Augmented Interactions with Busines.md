@@ -20,19 +20,29 @@ concepts: ["智能体 Agent", "世界模型", "具身智能评测与基准"]
 > [!summary] 一句话结论（基于摘要）
 > In a controlled A/B benchmark with the same backbone agent, TwinBI improves exact-match accuracy from 43.3% to 63.3%, partial-credit accuracy from 48.3% to 70.8%, and substantially reduces timeout rate from 40.0% to 10.0% relative to Dashboard alone.
 
-## 关键点
+## 问题
 
-- **问题**：As users switch between direct dashboard manipulation and natural-language queries, it becomes difficult to preserve a consistent analytical state across filters, hierarchies, metrics, and chart context.
-- **创新点 / 方法**：We present TwinBI, an agentic digital-twin framework that couples an LLM-based agent system with an executable BI dashboard state.
-- **证据**：In a controlled A/B benchmark with the same backbone agent, TwinBI improves exact-match accuracy from 43.3% to 63.3%, partial-credit accuracy from 48.3% to 70.8%, and substantially reduces timeout rate from 40.0% to 10.0% relative to Dashboard alone.
-- **局限**：摘要未明确说明；需阅读全文核查。
+As users switch between direct dashboard manipulation and natural-language queries, it becomes difficult to preserve a consistent analytical state across filters, hierarchies, metrics, and chart context.
+
+## 创新点或方法
+
+We present TwinBI, an agentic digital-twin framework that couples an LLM-based agent system with an executable BI dashboard state.
+
+## 证据
+
+In a controlled A/B benchmark with the same backbone agent, TwinBI improves exact-match accuracy from 43.3% to 63.3%, partial-credit accuracy from 48.3% to 70.8%, and substantially reduces timeout rate from 40.0% to 10.0% relative to Dashboard alone.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
+- **概念**：智能体 Agent 世界模型 具身智能评测与基准
 - **筛选分数**：28
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-15/TwinBI An Agentic Digital Twin for Efficient Augmented Interactions with Busines.md" --level full`
 

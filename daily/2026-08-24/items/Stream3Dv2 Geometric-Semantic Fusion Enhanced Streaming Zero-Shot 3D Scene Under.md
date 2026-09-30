@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "智能体 Agent"]
 > [!summary] 一句话结论（基于摘要）
 > Extensive experiments on public datasets demonstrate that Stream3Dv2 consistently outperforms existing baselines in foundational open-vocabulary streaming 3D segmentation and detection.
 
-## 关键点
+## 问题
 
-- **问题**：However, deploying these models in real-world scenarios is severely hindered by their inability to efficiently handle streaming RGB-D inputs and their inherent vulnerability to noise 2D segmentation masks.
-- **创新点 / 方法**：To address these critical limitations, we propose Stream3Dv2, a novel training-free framework designed for robust streaming 3D perception.
-- **证据**：Extensive experiments on public datasets demonstrate that Stream3Dv2 consistently outperforms existing baselines in foundational open-vocabulary streaming 3D segmentation and detection.
-- **局限**：摘要未明确说明；需阅读全文核查。
+However, deploying these models in real-world scenarios is severely hindered by their inability to efficiently handle streaming RGB-D inputs and their inherent vulnerability to noise 2D segmentation masks.
+
+## 创新点或方法
+
+To address these critical limitations, we propose Stream3Dv2, a novel training-free framework designed for robust streaming 3D perception.
+
+## 证据
+
+Extensive experiments on public datasets demonstrate that Stream3Dv2 consistently outperforms existing baselines in foundational open-vocabulary streaming 3D segmentation and detection.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[智能体 Agent]]
+- **概念**：多模态基础模型 智能体 Agent
 - **筛选分数**：34
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-24/Stream3Dv2 Geometric-Semantic Fusion Enhanced Streaming Zero-Shot 3D Scene Under.md" --level full`
 

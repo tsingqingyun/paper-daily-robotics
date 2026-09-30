@@ -2,10 +2,22 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
   "additionalProperties": false,
-  "required": ["daily_take", "trend", "papers"],
+  "required": [
+    "daily_take",
+    "trend",
+    "papers"
+  ],
   "properties": {
-    "daily_take": {"type": "string", "minLength": 1, "maxLength": 600},
-    "trend": {"type": "string", "minLength": 1, "maxLength": 400},
+    "daily_take": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 600
+    },
+    "trend": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 400
+    },
     "papers": {
       "type": "array",
       "items": {
@@ -19,17 +31,82 @@
           "evidence",
           "why_it_matters",
           "caveat",
-          "verdict"
+          "verdict",
+          "example",
+          "steps",
+          "terms",
+          "reading_guide"
         ],
         "properties": {
-          "id": {"type": "string", "minLength": 1},
-          "tldr": {"type": "string", "minLength": 1, "maxLength": 500},
-          "problem": {"type": "string", "minLength": 1, "maxLength": 500},
-          "method": {"type": "string", "minLength": 1, "maxLength": 700},
-          "evidence": {"type": "string", "minLength": 1, "maxLength": 500},
-          "why_it_matters": {"type": "string", "minLength": 1, "maxLength": 500},
-          "caveat": {"type": "string", "minLength": 1, "maxLength": 500},
-          "verdict": {"type": "string", "minLength": 1, "maxLength": 400}
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "tldr": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 500
+          },
+          "problem": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1400
+          },
+          "method": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1400
+          },
+          "evidence": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1400
+          },
+          "why_it_matters": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1400
+          },
+          "caveat": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1400
+          },
+          "verdict": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 400
+          },
+          "example": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1000
+          },
+          "reading_guide": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1000
+          },
+          "steps": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 5,
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 600
+            }
+          },
+          "terms": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 5,
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 600
+            }
+          }
         }
       }
     }

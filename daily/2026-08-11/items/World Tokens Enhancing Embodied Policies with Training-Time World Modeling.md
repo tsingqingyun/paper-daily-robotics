@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "世界模型", "视觉语言动作模型 VL
 > [!summary] 一句话结论（基于摘要）
 > With a 2B backbone and no embodied action pretraining, World Tokens is highly competitive on LIBERO, attains the best reported averages on SIMPLER, substantially improves real-world R1 Pro success over a matched action-only baseline, and generates each action…
 
-## 关键点
+## 问题
 
-- **问题**：Vision-language-action (VLA) models are a widely adopted paradigm for embodied policies.
-- **创新点 / 方法**：We introduce World Tokens, an embodied policy architecture built around a World Adapter that bridges visual-language understanding, world-dynamics modeling, and action generation.
-- **证据**：With a 2B backbone and no embodied action pretraining, World Tokens is highly competitive on LIBERO, attains the best reported averages on SIMPLER, substantially improves real-world R1 Pro success over a matched action-only baseline, and generates each action chunk at VLA-level latency.
-- **局限**：摘要未明确说明；需阅读全文核查。
+Vision-language-action (VLA) models are a widely adopted paradigm for embodied policies.
+
+## 创新点或方法
+
+We introduce World Tokens, an embodied policy architecture built around a World Adapter that bridges visual-language understanding, world-dynamics modeling, and action generation.
+
+## 证据
+
+With a 2B backbone and no embodied action pretraining, World Tokens is highly competitive on LIBERO, attains the best reported averages on SIMPLER, substantially improves real-world R1 Pro success over a matched action-only baseline, and generates each action chunk at VLA-level latency.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]]
+- **概念**：多模态基础模型 世界模型 视觉语言动作模型 VLA
 - **筛选分数**：35
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-11/World Tokens Enhancing Embodied Policies with Training-Time World Modeling.md" --level full`
 

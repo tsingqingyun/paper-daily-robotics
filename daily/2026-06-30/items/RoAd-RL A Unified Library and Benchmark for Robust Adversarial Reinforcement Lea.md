@@ -20,19 +20,29 @@ concepts: ["智能体 Agent", "机器人学习", "具身智能评测与基准"]
 > [!summary] 一句话结论（基于摘要）
 > Results reveal substantial variations in robustness across environments and show that some commonly used defenses can be more detrimental than the attacks they aim to mitigate, while temporal smoothing consistently achieves strong performance.
 
-## 关键点
+## 问题
 
-- **问题**：Deep Reinforcement Learning (DRL) has achieved significant success in robotics and autonomous systems, yet remains vulnerable to adversarial perturbations that can severely degrade performance.
-- **创新点 / 方法**：To address these challenges, we present \textbf{RoAd-RL}, an open- source benchmarking framework that provides unified abstractions for policies, attacks, defenses, and robustness metrics, together with reproducible evaluation pipelines and seamless integration with Stable-Baselines3 and Gymnasium.
-- **证据**：Results reveal substantial variations in robustness across environments and show that some commonly used defenses can be more detrimental than the attacks they aim to mitigate, while temporal smoothing consistently achieves strong performance.
-- **局限**：摘要未明确说明；需阅读全文核查。
+Deep Reinforcement Learning (DRL) has achieved significant success in robotics and autonomous systems, yet remains vulnerable to adversarial perturbations that can severely degrade performance.
+
+## 创新点或方法
+
+To address these challenges, we present \textbf{RoAd-RL}, an open- source benchmarking framework that provides unified abstractions for policies, attacks, defenses, and robustness metrics, together with reproducible evaluation pipelines and seamless integration with Stable-Baselines3 and Gymnasium.
+
+## 证据
+
+Results reveal substantial variations in robustness across environments and show that some commonly used defenses can be more detrimental than the attacks they aim to mitigate, while temporal smoothing consistently achieves strong performance.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[智能体 Agent]] [[机器人学习]] [[具身智能评测与基准]]
+- **概念**：智能体 Agent 机器人学习 具身智能评测与基准
 - **筛选分数**：32
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-30/RoAd-RL A Unified Library and Benchmark for Robust Adversarial Reinforcement Lea.md" --level full`
 

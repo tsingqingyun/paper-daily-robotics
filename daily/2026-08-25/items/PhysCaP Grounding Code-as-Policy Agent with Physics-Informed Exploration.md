@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "智能体 Agent", "视觉语言动作模型
 > [!summary] 一句话结论（基于摘要）
 > The results show that existing passive and naive interactive baselines either fail when physical properties are hidden or over-explore, whereas PhysCaP achieves comparable performance with fewer interactions and reduced execution time.
 
-## 关键点
+## 问题
 
-- **问题**：To balance exploration costs and the efficiency of information obtained, PhysCaP employs a dual-agent design: a Planner that decides when to explore and when to stop, and a Prioritizer that filters implausible interactions and ranks the remainder using a heuristic priority score, enabling efficient, targeted explorati…
-- **创新点 / 方法**：arXiv:2608.21031v1 Announce Type: new Abstract: We present PhysCaP, a Physics-Informed Code-as-Policy agent for active perception in robotic manipulation.
-- **证据**：The results show that existing passive and naive interactive baselines either fail when physical properties are hidden or over-explore, whereas PhysCaP achieves comparable performance with fewer interactions and reduced execution time.
-- **局限**：摘要未明确说明；需阅读全文核查。
+To balance exploration costs and the efficiency of information obtained, PhysCaP employs a dual-agent design: a Planner that decides when to explore and when to stop, and a Prioritizer that filters implausible interactions and ranks the remainder using a heuristic priority score, enabling efficient, targeted explorati…
+
+## 创新点或方法
+
+arXiv:2608.21031v1 Announce Type: new Abstract: We present PhysCaP, a Physics-Informed Code-as-Policy agent for active perception in robotic manipulation.
+
+## 证据
+
+The results show that existing passive and naive interactive baselines either fail when physical properties are hidden or over-explore, whereas PhysCaP achieves comparable performance with fewer interactions and reduced execution time.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]] [[机器人学习]]
+- **概念**：多模态基础模型 智能体 Agent 视觉语言动作模型 VLA 机器人学习
 - **筛选分数**：34
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-25/PhysCaP Grounding Code-as-Policy Agent with Physics-Informed Exploration.md" --level full`
 

@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "智能体 Agent", "世界模型", "具身�
 > [!summary] 一句话结论（基于摘要）
 > We show that our approach reaches near-expert level performance on Apple Silicon with 0.97x speedup compared to the native MLX Attention kernel, and up to a 20x prefill speedup over the community mlx-lm implementation on the Mamba SSM kernel; we report the nu…
 
-## 关键点
+## 问题
 
-- **问题**：Newer hardware ecosystems (Apple Silicon, custom AI accelerators, and others) are growing fast but lack this depth.
-- **创新点 / 方法**：We developed a novel structured CUDA-to-MLX translation layer that lets K-Search take existing CUDA kernels as a knowledge base and adapt them into high-quality GPU kernels for Apple Silicon, rather than rebuilding from scratch.
-- **证据**：We show that our approach reaches near-expert level performance on Apple Silicon with 0.97x speedup compared to the native MLX Attention kernel, and up to a 20x prefill speedup over the community mlx-lm implementation on the Mamba SSM kernel; we report the numbers, and how much of the gain comes from the translation l…
-- **局限**：The ~20× prefill speedup over mlx-lm comes down to one difference: mlx-lm does not implement a parallel scan for the SSM.
+Newer hardware ecosystems (Apple Silicon, custom AI accelerators, and others) are growing fast but lack this depth.
+
+## 创新点或方法
+
+We developed a novel structured CUDA-to-MLX translation layer that lets K-Search take existing CUDA kernels as a knowledge base and adapt them into high-quality GPU kernels for Apple Silicon, rather than rebuilding from scratch.
+
+## 证据
+
+We show that our approach reaches near-expert level performance on Apple Silicon with 0.97x speedup compared to the native MLX Attention kernel, and up to a 20x prefill speedup over the community mlx-lm implementation on the Mamba SSM kernel; we report the numbers, and how much of the gain comes from the translation l…
+
+## 局限
+
+The ~20× prefill speedup over mlx-lm comes down to one difference: mlx-lm does not implement a parallel scan for the SSM.
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 智能体 Agent 世界模型 具身智能评测与基准
 - **筛选分数**：14
 - **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-17/From CUDA to MLX How K-Search Brings Decades of Kernel Expertise to Apple Silico.md" --level full`
 

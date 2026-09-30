@@ -20,19 +20,29 @@ concepts: ["机器人学习"]
 > [!summary] 一句话结论（基于摘要）
 > By providing robust and task-relevant skill representations, QDOS significantly improves the quality of the embedded skill space used by the low-level policy.
 
-## 关键点
+## 问题
 
-- **问题**：However, a limitation of this approach is that the quality of the low-level policy highly depends on the quality of the dataset.
-- **创新点 / 方法**：To address this issue, we introduce QDOS (Quality-Diversity Offline Skill learning), a unified pipeline for robust offline-to-online learning.
-- **证据**：By providing robust and task-relevant skill representations, QDOS significantly improves the quality of the embedded skill space used by the low-level policy.
-- **局限**：However, a limitation of this approach is that the quality of the low-level policy highly depends on the quality of the dataset.
+However, a limitation of this approach is that the quality of the low-level policy highly depends on the quality of the dataset.
+
+## 创新点或方法
+
+To address this issue, we introduce QDOS (Quality-Diversity Offline Skill learning), a unified pipeline for robust offline-to-online learning.
+
+## 证据
+
+By providing robust and task-relevant skill representations, QDOS significantly improves the quality of the embedded skill space used by the low-level policy.
+
+## 局限
+
+However, a limitation of this approach is that the quality of the low-level policy highly depends on the quality of the dataset.
+
 
 ## 研究关联
 
-- **概念**：[[机器人学习]]
+- **概念**：机器人学习
 - **筛选分数**：23
 - **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-23/Learning Hierarchical Skill Policies with Offline Quality-Diversity Reinforcemen.md" --level full`
 

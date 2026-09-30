@@ -1,21 +1,21 @@
 ---
 type: daily-update
 tags: [update, ai, embodied-ai]
-format_version: 3
+format_version: 2
 evidence_level: abstract
 created: 2026-08-30
 ---
 
 # 2026-08-30 AI Embodied Intelligence Update
 
-> [!summary] 今日判断
+> [!summary] 30 秒结论
 > 今天最值得看的，是机器人研究正在同时压缩“规模、延迟和数据”三类成本：PredVLA用不足百万参数挑战大模型控制，FlashVLA把流匹配 VLA 推到实时异步执行，CLAP、Zero-WAM 和 Riemann-1.0 则探索跨本体、跨任务的大规模经验迁移。另一条同样重要的主线是可靠性：历史建模、失败恢复、后门攻击、持续学习和更严格的评测边界，开始从附加功能变成系统设计的核心。
 > **趋势**：共同趋势是把策略与世界动态放进更统一、因果且可流式执行的模型，同时用结构化中间量——预测误差、时间流、进度、事件、几何代理或记忆锚点——弥补纯动作预测的盲区。研究重点正从“离线成功率更高”转向实时性、长时程稳定性、跨本体泛化和失败可控性。
 
 - **规模**：2269 个候选 → 24 篇入选；回填 0 篇
 - **主题**：具身智能评测与基准 15、智能体 Agent 14、多模态基础模型 11、世界模型 10、视觉语言动作模型 VLA 10、机器人学习 8、Sim2Real 1
 - **源异常**：1
-- **阅读方式**：先看 5 篇必读的“为什么值得读”，有用再进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **阅读方式**：先看 5 篇必读的“为什么值得读”，有用再进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -71,18 +71,18 @@ created: 2026-08-30
 
 ## 其余存档 12 篇
 
-- [Reconstructing Humans and Objects in Interaction using Large Reconstruction Models](items/Reconstructing%20Humans%20and%20Objects%20in%20Interaction%20using%20Large%20Reconstruction%20Mode.md) · [[具身智能评测与基准]]
-- [Tensegrity Continuum Robots Enable Task-Adaptive Morphologies for Cooperative Behaviors](items/Tensegrity%20Continuum%20Robots%20Enable%20Task-Adaptive%20Morphologies%20for%20Cooperative%20Be.md) · [[多模态基础模型]]
-- [Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization](items/Zero-WAM%20In-Context%20World-Action%20Modeling%20from%20Human%20Videos%20for%20Open-Ended%20Task.md) · [[智能体 Agent]] [[世界模型]] [[视觉语言动作模型 VLA]] [[机器人学习]] [[具身智能评测与基准]]
-- [Surgical Video Generation From Diffusion to World Models: A Survey](items/Surgical%20Video%20Generation%20From%20Diffusion%20to%20World%20Models%20A%20Survey.md) · [[智能体 Agent]] [[世界模型]]
-- [Diffusion Policies for Short-Horizon Planning in Robot Crowd Navigation](items/Diffusion%20Policies%20for%20Short-Horizon%20Planning%20in%20Robot%20Crowd%20Navigation.md) · [[多模态基础模型]] [[智能体 Agent]] [[机器人学习]] [[具身智能评测与基准]]
-- [Active sensing to characterize the heterogeneity of plant stress](items/Active%20sensing%20to%20characterize%20the%20heterogeneity%20of%20plant%20stress.md) · [[智能体 Agent]]
-- [Decoupling Planning and Control for Instructable Agents](items/Decoupling%20Planning%20and%20Control%20for%20Instructable%20Agents.md) · [[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]]
-- [Memory Anchors for Continual Robot Learning](items/Memory%20Anchors%20for%20Continual%20Robot%20Learning.md) · [[机器人学习]] [[具身智能评测与基准]]
-- [WALL-SS: Scaling Long-horizon World Models via Next-Scale Autoregression](items/WALL-SS%20Scaling%20Long-horizon%20World%20Models%20via%20Next-Scale%20Autoregression.md) · [[智能体 Agent]] [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
-- [4DStreamCtrl: Interactive Video Generation with Online 4D Control](items/4DStreamCtrl%20Interactive%20Video%20Generation%20with%20Online%204D%20Control.md) · [[智能体 Agent]] [[世界模型]]
-- [DINOcular: Self-Supervised Visuospatial Representations](items/DINOcular%20Self-Supervised%20Visuospatial%20Representations.md) · [[多模态基础模型]] [[具身智能评测与基准]]
-- [Cross-Platform Benchmark of Neural 3D Reconstruction for Autonomous Laboratory Robots](items/Cross-Platform%20Benchmark%20of%20Neural%203D%20Reconstruction%20for%20Autonomous%20Laboratory%20R.md) · [[具身智能评测与基准]]
+- [Reconstructing Humans and Objects in Interaction using Large Reconstruction Models](items/Reconstructing%20Humans%20and%20Objects%20in%20Interaction%20using%20Large%20Reconstruction%20Mode.md) · 具身智能评测与基准
+- [Tensegrity Continuum Robots Enable Task-Adaptive Morphologies for Cooperative Behaviors](items/Tensegrity%20Continuum%20Robots%20Enable%20Task-Adaptive%20Morphologies%20for%20Cooperative%20Be.md) · 多模态基础模型
+- [Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization](items/Zero-WAM%20In-Context%20World-Action%20Modeling%20from%20Human%20Videos%20for%20Open-Ended%20Task.md) · 智能体 Agent 世界模型 视觉语言动作模型 VLA 机器人学习 具身智能评测与基准
+- [Surgical Video Generation From Diffusion to World Models: A Survey](items/Surgical%20Video%20Generation%20From%20Diffusion%20to%20World%20Models%20A%20Survey.md) · 智能体 Agent 世界模型
+- [Diffusion Policies for Short-Horizon Planning in Robot Crowd Navigation](items/Diffusion%20Policies%20for%20Short-Horizon%20Planning%20in%20Robot%20Crowd%20Navigation.md) · 多模态基础模型 智能体 Agent 机器人学习 具身智能评测与基准
+- [Active sensing to characterize the heterogeneity of plant stress](items/Active%20sensing%20to%20characterize%20the%20heterogeneity%20of%20plant%20stress.md) · 智能体 Agent
+- [Decoupling Planning and Control for Instructable Agents](items/Decoupling%20Planning%20and%20Control%20for%20Instructable%20Agents.md) · 多模态基础模型 智能体 Agent 视觉语言动作模型 VLA
+- [Memory Anchors for Continual Robot Learning](items/Memory%20Anchors%20for%20Continual%20Robot%20Learning.md) · 机器人学习 具身智能评测与基准
+- [WALL-SS: Scaling Long-horizon World Models via Next-Scale Autoregression](items/WALL-SS%20Scaling%20Long-horizon%20World%20Models%20via%20Next-Scale%20Autoregression.md) · 智能体 Agent 世界模型 机器人学习 具身智能评测与基准
+- [4DStreamCtrl: Interactive Video Generation with Online 4D Control](items/4DStreamCtrl%20Interactive%20Video%20Generation%20with%20Online%204D%20Control.md) · 智能体 Agent 世界模型
+- [DINOcular: Self-Supervised Visuospatial Representations](items/DINOcular%20Self-Supervised%20Visuospatial%20Representations.md) · 多模态基础模型 具身智能评测与基准
+- [Cross-Platform Benchmark of Neural 3D Reconstruction for Autonomous Laboratory Robots](items/Cross-Platform%20Benchmark%20of%20Neural%203D%20Reconstruction%20for%20Autonomous%20Laboratory%20R.md) · 具身智能评测与基准
 
 <details>
 <summary>运行信息与信息源状态</summary>

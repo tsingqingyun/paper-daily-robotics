@@ -15,7 +15,7 @@ created: 2026-09-24
 - **规模**：2365 个候选 → 24 篇入选；回填 0 篇
 - **主题**：具身智能评测与基准 18、多模态基础模型 16、视觉语言动作模型 VLA 13、世界模型 10、智能体 Agent 9、机器人学习 8、Sim2Real 2、AI 核心知识地图 1
 - **源异常**：0
-- **阅读方式**：先看 5 篇必读的“为什么值得读”，有用再进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **阅读方式**：先看 5 篇必读的“为什么值得读”，有用再进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -71,18 +71,18 @@ created: 2026-09-24
 
 ## 其余存档 12 篇
 
-- [Metric-Bench: Exploring In-context Spatial Metric Reasoning in VLMs for Indoor Scenes](items/Metric-Bench%20Exploring%20In-context%20Spatial%20Metric%20Reasoning%20in%20VLMs%20for%20Indoor%20Sc.md) · [[多模态基础模型]] [[具身智能评测与基准]]
-- [VisForce: Visual Grounding of Current and Desired Forces for Goal-Conditioned Dexterous Manipulation](items/VisForce%20Visual%20Grounding%20of%20Current%20and%20Desired%20Forces%20for%20Goal-Conditioned%20Dex.md) · [[多模态基础模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [CableVLA: Simulation-Privileged Global-Local Representation Learning for Cable Routing](items/CableVLA%20Simulation-Privileged%20Global-Local%20Representation%20Learning%20for%20Cable%20Ro.md) · [[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [VLAQuantBench: Closed-Loop Evaluation of Post-Training Quantization for Vision-Language-Action Models](items/VLAQuantBench%20Closed-Loop%20Evaluation%20of%20Post-Training%20Quantization%20for%20Vision-La.md) · [[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [Generalizing Manipulation Skills with a Local Coding Agent](items/Generalizing%20Manipulation%20Skills%20with%20a%20Local%20Coding%20Agent.md) · [[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
-- [Hierarchical Floorplan-Guided Vision-Language Exploration for Embodied Question Answering](items/Hierarchical%20Floorplan-Guided%20Vision-Language%20Exploration%20for%20Embodied%20Question.md) · [[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
-- [The Cartesian Hand: In-Hand Manipulation with All-Linear Fingers](items/The%20Cartesian%20Hand%20In-Hand%20Manipulation%20with%20All-Linear%20Fingers.md) · [[AI 核心知识地图]]
-- [Norm2Tex: Augmenting Visuo-Tactile Simulations with Texture](items/Norm2Tex%20Augmenting%20Visuo-Tactile%20Simulations%20with%20Texture.md) · [[世界模型]] [[机器人学习]] [[Sim2Real]]
-- [Benchmarking Robots for Everyday Environments: From Lab Experiments to Real-World Operations](items/Benchmarking%20Robots%20for%20Everyday%20Environments%20From%20Lab%20Experiments%20to%20Real-World.md) · [[具身智能评测与基准]]
-- [PAKT: Physically-Aligned Kinesthetic Teaching for Reinforcement Learning](items/PAKT%20Physically-Aligned%20Kinesthetic%20Teaching%20for%20Reinforcement%20Learning.md) · [[机器人学习]] [[具身智能评测与基准]]
-- [MotionForge: A Data Generation Pipeline and Large-Scale Benchmark for Long-Horizon Manipulation of Dynamic Objects with Domain Shifts](items/MotionForge%20A%20Data%20Generation%20Pipeline%20and%20Large-Scale%20Benchmark%20for%20Long-Horizo.md) · [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
-- [SAM-V: Geometry-Aware Segment Anything for Multi-View Instance Segmentation](items/SAM-V%20Geometry-Aware%20Segment%20Anything%20for%20Multi-View%20Instance%20Segmentation.md) · [[多模态基础模型]] [[具身智能评测与基准]]
+- [Metric-Bench: Exploring In-context Spatial Metric Reasoning in VLMs for Indoor Scenes](items/Metric-Bench%20Exploring%20In-context%20Spatial%20Metric%20Reasoning%20in%20VLMs%20for%20Indoor%20Sc.md) · 多模态基础模型 具身智能评测与基准
+- [VisForce: Visual Grounding of Current and Desired Forces for Goal-Conditioned Dexterous Manipulation](items/VisForce%20Visual%20Grounding%20of%20Current%20and%20Desired%20Forces%20for%20Goal-Conditioned%20Dex.md) · 多模态基础模型 视觉语言动作模型 VLA 具身智能评测与基准
+- [CableVLA: Simulation-Privileged Global-Local Representation Learning for Cable Routing](items/CableVLA%20Simulation-Privileged%20Global-Local%20Representation%20Learning%20for%20Cable%20Ro.md) · 多模态基础模型 世界模型 视觉语言动作模型 VLA 具身智能评测与基准
+- [VLAQuantBench: Closed-Loop Evaluation of Post-Training Quantization for Vision-Language-Action Models](items/VLAQuantBench%20Closed-Loop%20Evaluation%20of%20Post-Training%20Quantization%20for%20Vision-La.md) · 多模态基础模型 世界模型 视觉语言动作模型 VLA 具身智能评测与基准
+- [Generalizing Manipulation Skills with a Local Coding Agent](items/Generalizing%20Manipulation%20Skills%20with%20a%20Local%20Coding%20Agent.md) · 多模态基础模型 智能体 Agent 具身智能评测与基准
+- [Hierarchical Floorplan-Guided Vision-Language Exploration for Embodied Question Answering](items/Hierarchical%20Floorplan-Guided%20Vision-Language%20Exploration%20for%20Embodied%20Question.md) · 多模态基础模型 智能体 Agent 具身智能评测与基准
+- [The Cartesian Hand: In-Hand Manipulation with All-Linear Fingers](items/The%20Cartesian%20Hand%20In-Hand%20Manipulation%20with%20All-Linear%20Fingers.md) · AI 核心知识地图
+- [Norm2Tex: Augmenting Visuo-Tactile Simulations with Texture](items/Norm2Tex%20Augmenting%20Visuo-Tactile%20Simulations%20with%20Texture.md) · 世界模型 机器人学习 Sim2Real
+- [Benchmarking Robots for Everyday Environments: From Lab Experiments to Real-World Operations](items/Benchmarking%20Robots%20for%20Everyday%20Environments%20From%20Lab%20Experiments%20to%20Real-World.md) · 具身智能评测与基准
+- [PAKT: Physically-Aligned Kinesthetic Teaching for Reinforcement Learning](items/PAKT%20Physically-Aligned%20Kinesthetic%20Teaching%20for%20Reinforcement%20Learning.md) · 机器人学习 具身智能评测与基准
+- [MotionForge: A Data Generation Pipeline and Large-Scale Benchmark for Long-Horizon Manipulation of Dynamic Objects with Domain Shifts](items/MotionForge%20A%20Data%20Generation%20Pipeline%20and%20Large-Scale%20Benchmark%20for%20Long-Horizo.md) · 智能体 Agent 世界模型 具身智能评测与基准
+- [SAM-V: Geometry-Aware Segment Anything for Multi-View Instance Segmentation](items/SAM-V%20Geometry-Aware%20Segment%20Anything%20for%20Multi-View%20Instance%20Segmentation.md) · 多模态基础模型 具身智能评测与基准
 
 <details>
 <summary>运行信息与信息源状态</summary>

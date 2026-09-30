@@ -20,19 +20,29 @@ concepts: ["具身智能评测与基准"]
 > [!summary] 一句话结论（基于摘要）
 > Using a compact trajectory encoder, TensionTRAC achieves competitive performance against strong pretrained video backbones.
 
-## 关键点
+## 问题
 
-- **问题**：Surgical performance assessment in minimally invasive surgery largely relies on manual expert review, making it time-consuming, subjective, and difficult to scale.
-- **创新点 / 方法**：To address this gap, we introduce tissue tension recognition, a new clinically motivated video understanding task for laparoscopic and robot-assisted rectal cancer surgery.
-- **证据**：Using a compact trajectory encoder, TensionTRAC achieves competitive performance against strong pretrained video backbones.
-- **局限**：摘要未明确说明；需阅读全文核查。
+Surgical performance assessment in minimally invasive surgery largely relies on manual expert review, making it time-consuming, subjective, and difficult to scale.
+
+## 创新点或方法
+
+To address this gap, we introduce tissue tension recognition, a new clinically motivated video understanding task for laparoscopic and robot-assisted rectal cancer surgery.
+
+## 证据
+
+Using a compact trajectory encoder, TensionTRAC achieves competitive performance against strong pretrained video backbones.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[具身智能评测与基准]]
+- **概念**：具身智能评测与基准
 - **筛选分数**：25
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-21/Beyond Instrument Motion Recognizing Tissue Tension Toward Surgical Skill Assess.md" --level full`
 

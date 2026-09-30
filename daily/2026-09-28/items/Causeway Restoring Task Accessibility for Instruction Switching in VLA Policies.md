@@ -42,10 +42,10 @@ concepts: ["多模态基础模型", "世界模型", "视觉语言动作模型 VL
 
 对 VLA 研究者，它提出了比标准初始状态成功率更接近连续使用的评测问题，并给出通过内部表示恢复任务可达性的推理期干预。
 
-- **概念**：[[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]]
+- **概念**：多模态基础模型 世界模型 视觉语言动作模型 VLA
 - **筛选分数**：29
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-28/Causeway Restoring Task Accessibility for Instruction Switching in VLA Policies.md" --level full`
 

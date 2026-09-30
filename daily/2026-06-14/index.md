@@ -14,7 +14,7 @@ created: 2026-06-14
 - **规模**：2073 个候选 → 24 篇入选；回填 0 篇
 - **主题**：具身智能评测与基准 16、世界模型 13、智能体 Agent 10、机器人学习 9、多模态基础模型 6、视觉语言动作模型 VLA 5、Sim2Real 1
 - **源异常**：0
-- **需要更高精度**：从“必读”选择论文，进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **需要更高精度**：从“必读”选择论文，进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -55,18 +55,18 @@ created: 2026-06-14
 
 ## 其余存档 12 篇
 
-- [Traceable Virtual Sea Trials in the Marine Robotics Unity Simulator for Manoeuvring Assessment of Unmanned Surface Vehicles](items/Traceable%20Virtual%20Sea%20Trials%20in%20the%20Marine%20Robotics%20Unity%20Simulator%20for%20Manoeuvr.md) · [[智能体 Agent]] [[具身智能评测与基准]]
-- [Critic Architecture Matters: Dual vs. Unified Critics for Humanoid Loco-Manipulation](items/Critic%20Architecture%20Matters%20Dual%20vs.%20Unified%20Critics%20for%20Humanoid%20Loco-Manipulat.md) · [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
-- [EmbodiSteer: Steering Embodiment-Agnostic Visuomotor Policies with Joint-Space Guidance for Zero-Shot Cross-Embodiment Deployment](items/EmbodiSteer%20Steering%20Embodiment-Agnostic%20Visuomotor%20Policies%20with%20Joint-Space%20Gu.md) · [[机器人学习]] [[具身智能评测与基准]]
-- [MAStrike: Shapley-Guided Collusive Red-Teaming on Multi-Agent Systems](items/MAStrike%20Shapley-Guided%20Collusive%20Red-Teaming%20on%20Multi-Agent%20Systems.md) · [[智能体 Agent]] [[具身智能评测与基准]]
-- [Action-Effect Memory Pretraining for Robot Manipulation](items/Action-Effect%20Memory%20Pretraining%20for%20Robot%20Manipulation.md) · [[世界模型]] [[机器人学习]]
-- [NavWAM: A Navigation World Action Model for Goal-Conditioned Visual Navigation](items/NavWAM%20A%20Navigation%20World%20Action%20Model%20for%20Goal-Conditioned%20Visual%20Navigation.md) · [[智能体 Agent]] [[世界模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [WT-UMI: Tactile-based Whole-Body Manipulation via Force-Supervised Contact-Aware Planning](items/WT-UMI%20Tactile-based%20Whole-Body%20Manipulation%20via%20Force-Supervised%20Contact-Aware.md) · [[智能体 Agent]] [[机器人学习]] [[具身智能评测与基准]]
-- [RoboProcessBench: Benchmarking Process-Aware Understanding in Vision-Language Robotic Manipulation](items/RoboProcessBench%20Benchmarking%20Process-Aware%20Understanding%20in%20Vision-Language%20Rob.md) · [[多模态基础模型]] [[具身智能评测与基准]]
-- [GenHOI: Contact-Aware Humanoid-Object Interaction by Imitating Generated Videos without Task-Specific Training](items/GenHOI%20Contact-Aware%20Humanoid-Object%20Interaction%20by%20Imitating%20Generated%20Videos%20w.md) · [[世界模型]] [[机器人学习]]
-- [Diffusion Transformer World-Action Model for AV Scene Prediction](items/Diffusion%20Transformer%20World-Action%20Model%20for%20AV%20Scene%20Prediction.md) · [[智能体 Agent]] [[世界模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [Towards Reliable Sequential Object Picking in Clutter: The Runner-up Solution to RGMC 2025](items/Towards%20Reliable%20Sequential%20Object%20Picking%20in%20Clutter%20The%20Runner-up%20Solution%20to.md) · [[具身智能评测与基准]]
-- [ProPlay: Procedural World Models for Self-Evolving LLM Agents](items/ProPlay%20Procedural%20World%20Models%20for%20Self-Evolving%20LLM%20Agents.md) · [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
+- [Traceable Virtual Sea Trials in the Marine Robotics Unity Simulator for Manoeuvring Assessment of Unmanned Surface Vehicles](items/Traceable%20Virtual%20Sea%20Trials%20in%20the%20Marine%20Robotics%20Unity%20Simulator%20for%20Manoeuvr.md) · 智能体 Agent 具身智能评测与基准
+- [Critic Architecture Matters: Dual vs. Unified Critics for Humanoid Loco-Manipulation](items/Critic%20Architecture%20Matters%20Dual%20vs.%20Unified%20Critics%20for%20Humanoid%20Loco-Manipulat.md) · 世界模型 机器人学习 具身智能评测与基准
+- [EmbodiSteer: Steering Embodiment-Agnostic Visuomotor Policies with Joint-Space Guidance for Zero-Shot Cross-Embodiment Deployment](items/EmbodiSteer%20Steering%20Embodiment-Agnostic%20Visuomotor%20Policies%20with%20Joint-Space%20Gu.md) · 机器人学习 具身智能评测与基准
+- [MAStrike: Shapley-Guided Collusive Red-Teaming on Multi-Agent Systems](items/MAStrike%20Shapley-Guided%20Collusive%20Red-Teaming%20on%20Multi-Agent%20Systems.md) · 智能体 Agent 具身智能评测与基准
+- [Action-Effect Memory Pretraining for Robot Manipulation](items/Action-Effect%20Memory%20Pretraining%20for%20Robot%20Manipulation.md) · 世界模型 机器人学习
+- [NavWAM: A Navigation World Action Model for Goal-Conditioned Visual Navigation](items/NavWAM%20A%20Navigation%20World%20Action%20Model%20for%20Goal-Conditioned%20Visual%20Navigation.md) · 智能体 Agent 世界模型 视觉语言动作模型 VLA 具身智能评测与基准
+- [WT-UMI: Tactile-based Whole-Body Manipulation via Force-Supervised Contact-Aware Planning](items/WT-UMI%20Tactile-based%20Whole-Body%20Manipulation%20via%20Force-Supervised%20Contact-Aware.md) · 智能体 Agent 机器人学习 具身智能评测与基准
+- [RoboProcessBench: Benchmarking Process-Aware Understanding in Vision-Language Robotic Manipulation](items/RoboProcessBench%20Benchmarking%20Process-Aware%20Understanding%20in%20Vision-Language%20Rob.md) · 多模态基础模型 具身智能评测与基准
+- [GenHOI: Contact-Aware Humanoid-Object Interaction by Imitating Generated Videos without Task-Specific Training](items/GenHOI%20Contact-Aware%20Humanoid-Object%20Interaction%20by%20Imitating%20Generated%20Videos%20w.md) · 世界模型 机器人学习
+- [Diffusion Transformer World-Action Model for AV Scene Prediction](items/Diffusion%20Transformer%20World-Action%20Model%20for%20AV%20Scene%20Prediction.md) · 智能体 Agent 世界模型 视觉语言动作模型 VLA 具身智能评测与基准
+- [Towards Reliable Sequential Object Picking in Clutter: The Runner-up Solution to RGMC 2025](items/Towards%20Reliable%20Sequential%20Object%20Picking%20in%20Clutter%20The%20Runner-up%20Solution%20to.md) · 具身智能评测与基准
+- [ProPlay: Procedural World Models for Self-Evolving LLM Agents](items/ProPlay%20Procedural%20World%20Models%20for%20Self-Evolving%20LLM%20Agents.md) · 智能体 Agent 世界模型 具身智能评测与基准
 
 <details>
 <summary>运行信息与信息源错误</summary>

@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "世界模型"]
 > [!summary] 一句话结论（基于摘要）
 > Understanding instrument-tissue interactions is essential for context-aware surgical AI and autonomous robotic surgery.
 
-## 关键点
+## 问题
 
-- **问题**：However, adapting them to fine-grained surgical interactions remains challenging: (1) freezing the vision encoder depends entirely on pretrained representations that may retain noise and provide weak spatial localization, while (2) full fine-tuning can improve global semantic alignment without ensuring that the encode…
-- **创新点 / 方法**：Understanding instrument-tissue interactions is essential for context-aware surgical AI and autonomous robotic surgery.
-- **证据**：摘要未报告明确实验结论；需阅读全文核查。
-- **局限**：However, adapting them to fine-grained surgical interactions remains challenging: (1) freezing the vision encoder depends entirely on pretrained representations that may retain noise and provide weak spatial localization, while (2) full fine-tuning can improve global semantic alignment without ensuring that the encode…
+However, adapting them to fine-grained surgical interactions remains challenging: (1) freezing the vision encoder depends entirely on pretrained representations that may retain noise and provide weak spatial localization, while (2) full fine-tuning can improve global semantic alignment without ensuring that the encode…
+
+## 创新点或方法
+
+Understanding instrument-tissue interactions is essential for context-aware surgical AI and autonomous robotic surgery.
+
+## 证据
+
+摘要未报告明确实验结论；需阅读全文核查。
+
+## 局限
+
+However, adapting them to fine-grained surgical interactions remains challenging: (1) freezing the vision encoder depends entirely on pretrained representations that may retain noise and provide weak spatial localization, while (2) full fine-tuning can improve global semantic alignment without ensuring that the encode…
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[世界模型]]
+- **概念**：多模态基础模型 世界模型
 - **筛选分数**：26
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-07-25/LAVIFT Latent-Action-Guided Vision Fine-Tuning for Surgical Interaction Recognit.md" --level full`
 

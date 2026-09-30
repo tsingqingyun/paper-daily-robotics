@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "智能体 Agent", "世界模型", "机器�
 > [!summary] 一句话结论（基于摘要）
 > Looking for: Research scientist / Research Engineer Vongani Maluleke Email: vongani_maluleke@berkeley.edu Website: https://people.eecs.berkeley.edu/~vongani_maluleke/ Advisor(s): Jitendra Malik and Angjoo Kanazawa Research Blurb: Vongani Maluleke is a PhD can…
 
-## 关键点
+## 问题
 
-- **问题**：Finally, I work on core technical failures of LLMs, like miscalibrated confidence, to reduce downstream risks when models are deployed to users with different needs.
-- **创新点 / 方法**：I believe bridging the gap between these methods of scaling computation, presents a key open challenge in the field: how can we develop methods which turn the inferences drawn at test-time back into learned representations that the model can hold onto across interactions.
-- **证据**：Looking for: Research scientist / Research Engineer Vongani Maluleke Email: vongani_maluleke@berkeley.edu Website: https://people.eecs.berkeley.edu/~vongani_maluleke/ Advisor(s): Jitendra Malik and Angjoo Kanazawa Research Blurb: Vongani Maluleke is a PhD candidate at UC Berkeley (BAIR, advised by Jitendra Malik and A…
-- **局限**：However, most action chunking policies are trained via supervised imitation learning, because efficient online self-improvement with reinforcement learning (RL) remains challenging—limiting real-world applicability.
+Finally, I work on core technical failures of LLMs, like miscalibrated confidence, to reduce downstream risks when models are deployed to users with different needs.
+
+## 创新点或方法
+
+I believe bridging the gap between these methods of scaling computation, presents a key open challenge in the field: how can we develop methods which turn the inferences drawn at test-time back into learned representations that the model can hold onto across interactions.
+
+## 证据
+
+Looking for: Research scientist / Research Engineer Vongani Maluleke Email: vongani_maluleke@berkeley.edu Website: https://people.eecs.berkeley.edu/~vongani_maluleke/ Advisor(s): Jitendra Malik and Angjoo Kanazawa Research Blurb: Vongani Maluleke is a PhD candidate at UC Berkeley (BAIR, advised by Jitendra Malik and A…
+
+## 局限
+
+However, most action chunking policies are trained via supervised imitation learning, because efficient online self-improvement with reinforcement learning (RL) remains challenging—limiting real-world applicability.
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 智能体 Agent 世界模型 机器人学习 具身智能评测与基准
 - **筛选分数**：58
 - **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-07-03/2026 BAIR Graduate Showcase.md" --level full`
 

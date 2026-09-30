@@ -20,19 +20,29 @@ concepts: ["智能体 Agent", "机器人学习", "具身智能评测与基准"]
 > [!summary] 一句话结论（基于摘要）
 > On two contact-rich bimanual real-robot tasks, the same loop (BC frozen, no human intervention) improves purely from its own deployment rollouts: stack-cups 40% to 90% and insert-wallet 25% to 80% in five iterations, whereas SFT on successful rollouts alone s…
 
-## 关键点
+## 问题
 
-- **问题**：arXiv:2608.21204v1 Announce Type: new Abstract: Behaviour Cloning (BC) has driven remarkable progress in robot manipulation, yet it is fundamentally limited by its inability to self-improve: a policy that fails cannot learn from that failure without additional human demonstrations.
-- **创新点 / 方法**：We propose Q-Planning, which equips a large visuomotor BC policy with a small off-policy Q-function.
-- **证据**：On two contact-rich bimanual real-robot tasks, the same loop (BC frozen, no human intervention) improves purely from its own deployment rollouts: stack-cups 40% to 90% and insert-wallet 25% to 80% in five iterations, whereas SFT on successful rollouts alone stalls at 55% and 30%.
-- **局限**：arXiv:2608.21204v1 Announce Type: new Abstract: Behaviour Cloning (BC) has driven remarkable progress in robot manipulation, yet it is fundamentally limited by its inability to self-improve: a policy that fails cannot learn from that failure without additional human demonstrations.
+arXiv:2608.21204v1 Announce Type: new Abstract: Behaviour Cloning (BC) has driven remarkable progress in robot manipulation, yet it is fundamentally limited by its inability to self-improve: a policy that fails cannot learn from that failure without additional human demonstrations.
+
+## 创新点或方法
+
+We propose Q-Planning, which equips a large visuomotor BC policy with a small off-policy Q-function.
+
+## 证据
+
+On two contact-rich bimanual real-robot tasks, the same loop (BC frozen, no human intervention) improves purely from its own deployment rollouts: stack-cups 40% to 90% and insert-wallet 25% to 80% in five iterations, whereas SFT on successful rollouts alone stalls at 55% and 30%.
+
+## 局限
+
+arXiv:2608.21204v1 Announce Type: new Abstract: Behaviour Cloning (BC) has driven remarkable progress in robot manipulation, yet it is fundamentally limited by its inability to self-improve: a policy that fails cannot learn from that failure without additional human demonstrations.
+
 
 ## 研究关联
 
-- **概念**：[[智能体 Agent]] [[机器人学习]] [[具身智能评测与基准]]
+- **概念**：智能体 Agent 机器人学习 具身智能评测与基准
 - **筛选分数**：27
 - **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-25/Beyond Imitation Self-Improving Robot Policies via Off-Policy Q-Planning.md" --level full`
 

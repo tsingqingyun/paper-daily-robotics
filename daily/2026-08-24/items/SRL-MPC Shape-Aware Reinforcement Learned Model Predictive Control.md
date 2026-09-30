@@ -20,19 +20,29 @@ concepts: ["机器人学习", "具身智能评测与基准"]
 > [!summary] 一句话结论（基于摘要）
 > The results show that SRL-MPC substantially outperforms representative baselines in safety and adaptability.
 
-## 关键点
+## 问题
 
-- **问题**：Safe and efficient shape-aware navigation in heterogeneous crowds and robot fleets remains challenging.
-- **创新点 / 方法**：Toward this end, we propose Shape-Aware Reinforcement Learned Model Predictive Control (SRL-MPC), a method for safe, efficient, and adaptive navigation in crowds with heterogeneous shapes without geometry simplification.
-- **证据**：The results show that SRL-MPC substantially outperforms representative baselines in safety and adaptability.
-- **局限**：Safe and efficient shape-aware navigation in heterogeneous crowds and robot fleets remains challenging.
+Safe and efficient shape-aware navigation in heterogeneous crowds and robot fleets remains challenging.
+
+## 创新点或方法
+
+Toward this end, we propose Shape-Aware Reinforcement Learned Model Predictive Control (SRL-MPC), a method for safe, efficient, and adaptive navigation in crowds with heterogeneous shapes without geometry simplification.
+
+## 证据
+
+The results show that SRL-MPC substantially outperforms representative baselines in safety and adaptability.
+
+## 局限
+
+Safe and efficient shape-aware navigation in heterogeneous crowds and robot fleets remains challenging.
+
 
 ## 研究关联
 
-- **概念**：[[机器人学习]] [[具身智能评测与基准]]
+- **概念**：机器人学习 具身智能评测与基准
 - **筛选分数**：23
 - **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-24/SRL-MPC Shape-Aware Reinforcement Learned Model Predictive Control.md" --level full`
 

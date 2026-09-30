@@ -42,10 +42,10 @@ concepts: ["多模态基础模型", "视觉语言动作模型 VLA", "具身智�
 
 对接触型VLA，提供了把柔顺性作为策略输出直接学习的方案，有助于研究视觉和任务语义如何影响物理交互。
 
-- **概念**：[[多模态基础模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 视觉语言动作模型 VLA 具身智能评测与基准
 - **筛选分数**：35
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-23/CompVLA A Variable Compliance Vision-Language-Action Model for Contact-rich Mani.md" --level full`
 

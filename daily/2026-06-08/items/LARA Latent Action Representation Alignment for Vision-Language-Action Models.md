@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "世界模型", "视觉语言动作模型 VL
 > [!summary] 一句话结论（基于摘要）
 > We demonstrate LARA versatility and effectiveness for pre-training, post- training enhancement of pre-trained VLA models, and LAM refinement, achieving an average of ~10%, ~5%, and ~15% improvement over 3 simulation and 1 meticulously designed real- world rob…
 
-## 关键点
+## 问题
 
-- **问题**：Visual-language action (VLA) models enable robots to predict actions directly from observations and language instructions, but their performance depends on large-scale, high-quality data and is limited by the scarcity of real-world robot action datasets.
-- **创新点 / 方法**：To address these issues, we propose Latent Action Representation Alignment (LARA), a plug-and-play framework that jointly optimizes LAM and VLA via representation alignment.
-- **证据**：We demonstrate LARA versatility and effectiveness for pre-training, post- training enhancement of pre-trained VLA models, and LAM refinement, achieving an average of ~10%, ~5%, and ~15% improvement over 3 simulation and 1 meticulously designed real- world robotic manipulation benchmarks.
-- **局限**：摘要未明确说明；需阅读全文核查。
+Visual-language action (VLA) models enable robots to predict actions directly from observations and language instructions, but their performance depends on large-scale, high-quality data and is limited by the scarcity of real-world robot action datasets.
+
+## 创新点或方法
+
+To address these issues, we propose Latent Action Representation Alignment (LARA), a plug-and-play framework that jointly optimizes LAM and VLA via representation alignment.
+
+## 证据
+
+We demonstrate LARA versatility and effectiveness for pre-training, post- training enhancement of pre-trained VLA models, and LAM refinement, achieving an average of ~10%, ~5%, and ~15% improvement over 3 simulation and 1 meticulously designed real- world robotic manipulation benchmarks.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 世界模型 视觉语言动作模型 VLA 具身智能评测与基准
 - **筛选分数**：41
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-08/LARA Latent Action Representation Alignment for Vision-Language-Action Models.md" --level full`
 

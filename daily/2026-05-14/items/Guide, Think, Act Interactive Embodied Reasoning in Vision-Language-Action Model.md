@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "智能体 Agent", "视觉语言动作模型
 > [!summary] 一句话结论（基于摘要）
 > On the in-domain SimplerEnv WidowX benchmark, our framework achieves a state- of-the-art 81.2% success rate.
 
-## 关键点
+## 问题
 
-- **问题**：While effective within the training distribution, such tightly coupled policies are brittle under out-of-domain (OOD) shifts and difficult to correct when failures occur.
-- **创新点 / 方法**：In this paper, we propose GTA-VLA(Guide, Think, Act), an interactive Vision-Language- Action (VLA) framework that enables spatially steerable embodied reasoning by allowing users to guide robot policies with explicit visual cues.
-- **证据**：On the in-domain SimplerEnv WidowX benchmark, our framework achieves a state- of-the-art 81.2% success rate.
-- **局限**：摘要未明确说明；需阅读全文核查。
+While effective within the training distribution, such tightly coupled policies are brittle under out-of-domain (OOD) shifts and difficult to correct when failures occur.
+
+## 创新点或方法
+
+In this paper, we propose GTA-VLA(Guide, Think, Act), an interactive Vision-Language- Action (VLA) framework that enables spatially steerable embodied reasoning by allowing users to guide robot policies with explicit visual cues.
+
+## 证据
+
+On the in-domain SimplerEnv WidowX benchmark, our framework achieves a state- of-the-art 81.2% success rate.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 智能体 Agent 视觉语言动作模型 VLA 具身智能评测与基准
 - **筛选分数**：38
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-05-14/Guide, Think, Act Interactive Embodied Reasoning in Vision-Language-Action Model.md" --level full`
 

@@ -1,21 +1,21 @@
 ---
 type: daily-update
 tags: [update, ai, embodied-ai]
-format_version: 3
+format_version: 2
 evidence_level: abstract
 created: 2026-09-04
 ---
 
 # 2026-09-04 AI Embodied Intelligence Update
 
-> [!summary] 今日判断
+> [!summary] 30 秒结论
 > 今天最值得看的主线，是把 VLA 的泛化问题拆成可操作的机制：FineVLA补足“怎么做”的细粒度语言，ZETA厘清跨本体迁移的有效因素，Harness VLA与HINT则通过规划、记忆和意图跟踪增强冻结策略。世界模型方向也更务实：几何深度、稀疏变化建模、判别式训练目标和潜空间规划组件都开始直接接受下游控制成败的检验；同时，多项新基准提醒我们，标准榜单与真实部署能力仍有明显距离。
 > **趋势**：共同趋势是从单纯扩大模型或数据，转向显式注入结构：动作细节、局部坐标、几何信息、对象变化、意图状态及候选动作间的判别性。评测也在从平均性能走向受控变量、跨域扰动、硬件时延和严格零样本定义。
 
 - **规模**：3002 个候选 → 24 篇入选；回填 0 篇
 - **主题**：具身智能评测与基准 18、多模态基础模型 13、世界模型 12、智能体 Agent 8、视觉语言动作模型 VLA 8、机器人学习 2、Sim2Real 1
 - **源异常**：2
-- **阅读方式**：先看 5 篇必读的“为什么值得读”，有用再进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **阅读方式**：先看 5 篇必读的“为什么值得读”，有用再进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -71,18 +71,18 @@ created: 2026-09-04
 
 ## 其余存档 12 篇
 
-- [Exploring Collaboration between a language and a non-language agent](items/Exploring%20Collaboration%20between%20a%20language%20and%20a%20non-language%20agent.md) · [[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
-- [A Survey on Self-Improving Test-Time Intelligence: Feedback-Driven Adapting, Learning, and Scaling at Inference](items/A%20Survey%20on%20Self-Improving%20Test-Time%20Intelligence%20Feedback-Driven%20Adapting%2C%20Lear.md) · [[多模态基础模型]] [[智能体 Agent]]
-- [TAPVid-MV: A Benchmark for Tracking Any Point in 3D Across Multiple Views](items/TAPVid-MV%20A%20Benchmark%20for%20Tracking%20Any%20Point%20in%203D%20Across%20Multiple%20Views.md) · [[世界模型]] [[具身智能评测与基准]]
-- [Minimal Solvers for Full-DoF Motion Estimation from Asynchronous Differential SfM](items/Minimal%20Solvers%20for%20Full-DoF%20Motion%20Estimation%20from%20Asynchronous%20Differential%20Sf.md) · [[世界模型]] [[具身智能评测与基准]]
-- [Real-Time Dynamics-Based Torque-Sampling MPPI for Compliant and Force Aware Manipulation](items/Real-Time%20Dynamics-Based%20Torque-Sampling%20MPPI%20for%20Compliant%20and%20Force%20Aware%20Mani.md) · [[世界模型]] [[具身智能评测与基准]]
-- [MV-dVRK: A Multi-Viewpoint Benchmark for Spatial Surgical Perception](items/MV-dVRK%20A%20Multi-Viewpoint%20Benchmark%20for%20Spatial%20Surgical%20Perception.md) · [[多模态基础模型]] [[具身智能评测与基准]]
-- [MultiGraspNet: A Multitask 3D Vision Model for Multi-gripper Robotic Grasping](items/MultiGraspNet%20A%20Multitask%203D%20Vision%20Model%20for%20Multi-gripper%20Robotic%20Grasping.md) · [[具身智能评测与基准]]
-- [Discriminative World Models for Web Agents](items/Discriminative%20World%20Models%20for%20Web%20Agents.md) · [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
-- [A Data-Driven Multimodal Method for Early Detection of Coordinated Abnormal Behaviors in Live-Streaming Platforms](items/A%20Data-Driven%20Multimodal%20Method%20for%20Early%20Detection%20of%20Coordinated%20Abnormal%20Beha.md) · [[多模态基础模型]]
-- [Mol-JEPA: A multimodal Joint Embedding Predictive Architecture for Molecules](items/Mol-JEPA%20A%20multimodal%20Joint%20Embedding%20Predictive%20Architecture%20for%20Molecules.md) · [[多模态基础模型]] [[世界模型]] [[具身智能评测与基准]]
-- [Sim2Signal: Sim-to-Real Benchmarks for Traffic Signal Control](items/Sim2Signal%20Sim-to-Real%20Benchmarks%20for%20Traffic%20Signal%20Control.md) · [[世界模型]] [[机器人学习]] [[Sim2Real]] [[具身智能评测与基准]]
-- [Modeling What Changes: Sparse, Residual World Models for Object-Centric Manipulation](items/Modeling%20What%20Changes%20Sparse%2C%20Residual%20World%20Models%20for%20Object-Centric%20Manipulat.md) · [[世界模型]] [[具身智能评测与基准]]
+- [Exploring Collaboration between a language and a non-language agent](items/Exploring%20Collaboration%20between%20a%20language%20and%20a%20non-language%20agent.md) · 多模态基础模型 智能体 Agent 具身智能评测与基准
+- [A Survey on Self-Improving Test-Time Intelligence: Feedback-Driven Adapting, Learning, and Scaling at Inference](items/A%20Survey%20on%20Self-Improving%20Test-Time%20Intelligence%20Feedback-Driven%20Adapting%2C%20Lear.md) · 多模态基础模型 智能体 Agent
+- [TAPVid-MV: A Benchmark for Tracking Any Point in 3D Across Multiple Views](items/TAPVid-MV%20A%20Benchmark%20for%20Tracking%20Any%20Point%20in%203D%20Across%20Multiple%20Views.md) · 世界模型 具身智能评测与基准
+- [Minimal Solvers for Full-DoF Motion Estimation from Asynchronous Differential SfM](items/Minimal%20Solvers%20for%20Full-DoF%20Motion%20Estimation%20from%20Asynchronous%20Differential%20Sf.md) · 世界模型 具身智能评测与基准
+- [Real-Time Dynamics-Based Torque-Sampling MPPI for Compliant and Force Aware Manipulation](items/Real-Time%20Dynamics-Based%20Torque-Sampling%20MPPI%20for%20Compliant%20and%20Force%20Aware%20Mani.md) · 世界模型 具身智能评测与基准
+- [MV-dVRK: A Multi-Viewpoint Benchmark for Spatial Surgical Perception](items/MV-dVRK%20A%20Multi-Viewpoint%20Benchmark%20for%20Spatial%20Surgical%20Perception.md) · 多模态基础模型 具身智能评测与基准
+- [MultiGraspNet: A Multitask 3D Vision Model for Multi-gripper Robotic Grasping](items/MultiGraspNet%20A%20Multitask%203D%20Vision%20Model%20for%20Multi-gripper%20Robotic%20Grasping.md) · 具身智能评测与基准
+- [Discriminative World Models for Web Agents](items/Discriminative%20World%20Models%20for%20Web%20Agents.md) · 智能体 Agent 世界模型 具身智能评测与基准
+- [A Data-Driven Multimodal Method for Early Detection of Coordinated Abnormal Behaviors in Live-Streaming Platforms](items/A%20Data-Driven%20Multimodal%20Method%20for%20Early%20Detection%20of%20Coordinated%20Abnormal%20Beha.md) · 多模态基础模型
+- [Mol-JEPA: A multimodal Joint Embedding Predictive Architecture for Molecules](items/Mol-JEPA%20A%20multimodal%20Joint%20Embedding%20Predictive%20Architecture%20for%20Molecules.md) · 多模态基础模型 世界模型 具身智能评测与基准
+- [Sim2Signal: Sim-to-Real Benchmarks for Traffic Signal Control](items/Sim2Signal%20Sim-to-Real%20Benchmarks%20for%20Traffic%20Signal%20Control.md) · 世界模型 机器人学习 Sim2Real 具身智能评测与基准
+- [Modeling What Changes: Sparse, Residual World Models for Object-Centric Manipulation](items/Modeling%20What%20Changes%20Sparse%2C%20Residual%20World%20Models%20for%20Object-Centric%20Manipulat.md) · 世界模型 具身智能评测与基准
 
 <details>
 <summary>运行信息与信息源状态</summary>

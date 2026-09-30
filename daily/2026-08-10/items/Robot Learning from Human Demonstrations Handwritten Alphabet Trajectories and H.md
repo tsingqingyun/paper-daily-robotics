@@ -20,19 +20,29 @@ concepts: ["世界模型", "机器人学习", "具身智能评测与基准"]
 > [!summary] 一句话结论（基于摘要）
 > The resulting human-like robot motion is recognised as a key factor in building trust and enabling natural collaboration in human-robot interaction.
 
-## 关键点
+## 问题
 
-- **问题**：Learning from demonstration (LfD) provides a developmental framework through which robots can develop motor skills by observing and imitating human dynamics, reducing reliance on explicit programming to teach a skill to a robot.
-- **创新点 / 方法**：The resulting human-like robot motion is recognised as a key factor in building trust and enabling natural collaboration in human-robot interaction.
-- **证据**：摘要未报告明确实验结论；需阅读全文核查。
-- **局限**：摘要未明确说明；需阅读全文核查。
+Learning from demonstration (LfD) provides a developmental framework through which robots can develop motor skills by observing and imitating human dynamics, reducing reliance on explicit programming to teach a skill to a robot.
+
+## 创新点或方法
+
+The resulting human-like robot motion is recognised as a key factor in building trust and enabling natural collaboration in human-robot interaction.
+
+## 证据
+
+摘要未报告明确实验结论；需阅读全文核查。
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
+- **概念**：世界模型 机器人学习 具身智能评测与基准
 - **筛选分数**：26
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-10/Robot Learning from Human Demonstrations Handwritten Alphabet Trajectories and H.md" --level full`
 

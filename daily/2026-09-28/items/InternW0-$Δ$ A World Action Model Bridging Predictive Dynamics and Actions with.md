@@ -42,10 +42,10 @@ MoT 框架连接预训练视频专家与动作专家，由冻结 VLM 提供语�
 
 对世界模型与 VLA 研究者，价值在于多种预训练先验如何进入同一动作模型，以及如何用训练期未来监督减少部署时的视频展开需求。统一异构数据的流程也值得关注。
 
-- **概念**：[[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]] [[机器人学习]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 世界模型 视觉语言动作模型 VLA 机器人学习 具身智能评测与基准
 - **筛选分数**：40
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-28/InternW0-$Δ$ A World Action Model Bridging Predictive Dynamics and Actions with.md" --level full`
 

@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "智能体 Agent"]
 > [!summary] 一句话结论（基于摘要）
 > We introduce AgentCanvas, a typed-graph runtime that hosts embodied executors as editable node-and-wire programs with simulator- aware execution and episode-level logs, and KDLoop, a coding-agent search procedure that cycles through proposal, critique, experi…
 
-## 关键点
+## 问题
 
-- **问题**：Embodied agents are typically built as hand-designed compositions of perception, memory, planning, and action modules.
-- **创新点 / 方法**：We introduce AgentCanvas, a typed-graph runtime that hosts embodied executors as editable node-and-wire programs with simulator- aware execution and episode-level logs, and KDLoop, a coding-agent search procedure that cycles through proposal, critique, experiment, and distillation, with triggered reflection after stal…
-- **证据**：摘要未报告明确实验结论；需阅读全文核查。
-- **局限**：摘要未明确说明；需阅读全文核查。
+Embodied agents are typically built as hand-designed compositions of perception, memory, planning, and action modules.
+
+## 创新点或方法
+
+We introduce AgentCanvas, a typed-graph runtime that hosts embodied executors as editable node-and-wire programs with simulator- aware execution and episode-level logs, and KDLoop, a coding-agent search procedure that cycles through proposal, critique, experiment, and distillation, with triggered reflection after stal…
+
+## 证据
+
+摘要未报告明确实验结论；需阅读全文核查。
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[智能体 Agent]]
+- **概念**：多模态基础模型 智能体 Agent
 - **筛选分数**：29
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-30/Automating the Design of Embodied AgentArchitectures.md" --level full`
 

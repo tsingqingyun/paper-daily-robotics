@@ -42,10 +42,10 @@ VLA 依赖大量高质量模仿数据，且缺少显式世界模型。真正待�
 
 对 VLA 与世界模型研究者，其价值是提出一个可检验的接口问题：策略已有的视觉表示能否兼任动力学状态。尚不能据此认定它能减少机器人示范需求。
 
-- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[视觉语言动作模型 VLA]] [[机器人学习]]
+- **概念**：多模态基础模型 智能体 Agent 世界模型 视觉语言动作模型 VLA 机器人学习
 - **筛选分数**：39
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-28/Towards VLA-Dreamer Refining VLA Behavior Using World Models.md" --level full`
 

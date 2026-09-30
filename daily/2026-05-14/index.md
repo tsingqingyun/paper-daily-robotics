@@ -14,7 +14,7 @@ created: 2026-05-14
 - **规模**：2003 个候选 → 24 篇入选；回填 0 篇
 - **主题**：多模态基础模型 17、视觉语言动作模型 VLA 17、具身智能评测与基准 16、智能体 Agent 13、世界模型 11、机器人学习 9
 - **源异常**：0
-- **需要更高精度**：从“必读”选择论文，进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **需要更高精度**：从“必读”选择论文，进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -55,18 +55,18 @@ created: 2026-05-14
 
 ## 其余存档 12 篇
 
-- [What Limits Vision-and-Language Navigation ?](items/What%20Limits%20Vision-and-Language%20Navigation.md) · [[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[视觉语言动作模型 VLA]]
-- [Reinforcing VLAs in Task-Agnostic World Models](items/Reinforcing%20VLAs%20in%20Task-Agnostic%20World%20Models.md) · [[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]] [[机器人学习]]
-- [TouchAnything: A Dataset and Framework for Bimanual Tactile Estimation from Egocentric Video](items/TouchAnything%20A%20Dataset%20and%20Framework%20for%20Bimanual%20Tactile%20Estimation%20from%20Egoce.md) · [[世界模型]] [[具身智能评测与基准]]
-- [SafeManip: A Property-Driven Benchmark for Temporal Safety Evaluation in Robotic Manipulation](items/SafeManip%20A%20Property-Driven%20Benchmark%20for%20Temporal%20Safety%20Evaluation%20in%20Robotic.md) · [[多模态基础模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [EgoEV-HandPose: Egocentric 3D Hand Pose Estimation and Gesture Recognition with Stereo Event Cameras](items/EgoEV-HandPose%20Egocentric%203D%20Hand%20Pose%20Estimation%20and%20Gesture%20Recognition%20with%20S.md) · [[具身智能评测与基准]]
-- [Realtime-VLA FLASH: Speculative Inference Framework for Diffusion-based VLAs](items/Realtime-VLA%20FLASH%20Speculative%20Inference%20Framework%20for%20Diffusion-based%20VLAs.md) · [[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]]
-- [Think Twice, Act Once: Verifier-Guided Action Selection For Embodied Agents](items/Think%20Twice%2C%20Act%20Once%20Verifier-Guided%20Action%20Selection%20For%20Embodied%20Agents.md) · [[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
-- [Premover: Fast Vision-Language-Action Control by Acting Before Instructions Are Complete](items/Premover%20Fast%20Vision-Language-Action%20Control%20by%20Acting%20Before%20Instructions%20Are%20C.md) · [[多模态基础模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [Learning POMDP World Models from Observations with Language-Model Priors](items/Learning%20POMDP%20World%20Models%20from%20Observations%20with%20Language-Model%20Priors.md) · [[智能体 Agent]] [[世界模型]]
-- [GuidedVLA: Specifying Task-Relevant Factors via Plug-and-Play Action Attention Specialization](items/GuidedVLA%20Specifying%20Task-Relevant%20Factors%20via%20Plug-and-Play%20Action%20Attention%20Sp.md) · [[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]] [[机器人学习]] [[具身智能评测与基准]]
-- [From Imagined Futures to Executable Actions: Mixture of Latent Actions for Robot Manipulation](items/From%20Imagined%20Futures%20to%20Executable%20Actions%20Mixture%20of%20Latent%20Actions%20for%20Robot.md) · [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
-- [X-Imitator: Spatial-Aware Imitation Learning via Bidirectional Action-Pose Interaction](items/X-Imitator%20Spatial-Aware%20Imitation%20Learning%20via%20Bidirectional%20Action-Pose%20Intera.md) · [[机器人学习]]
+- [What Limits Vision-and-Language Navigation ?](items/What%20Limits%20Vision-and-Language%20Navigation.md) · 多模态基础模型 智能体 Agent 世界模型 视觉语言动作模型 VLA
+- [Reinforcing VLAs in Task-Agnostic World Models](items/Reinforcing%20VLAs%20in%20Task-Agnostic%20World%20Models.md) · 多模态基础模型 世界模型 视觉语言动作模型 VLA 机器人学习
+- [TouchAnything: A Dataset and Framework for Bimanual Tactile Estimation from Egocentric Video](items/TouchAnything%20A%20Dataset%20and%20Framework%20for%20Bimanual%20Tactile%20Estimation%20from%20Egoce.md) · 世界模型 具身智能评测与基准
+- [SafeManip: A Property-Driven Benchmark for Temporal Safety Evaluation in Robotic Manipulation](items/SafeManip%20A%20Property-Driven%20Benchmark%20for%20Temporal%20Safety%20Evaluation%20in%20Robotic.md) · 多模态基础模型 视觉语言动作模型 VLA 具身智能评测与基准
+- [EgoEV-HandPose: Egocentric 3D Hand Pose Estimation and Gesture Recognition with Stereo Event Cameras](items/EgoEV-HandPose%20Egocentric%203D%20Hand%20Pose%20Estimation%20and%20Gesture%20Recognition%20with%20S.md) · 具身智能评测与基准
+- [Realtime-VLA FLASH: Speculative Inference Framework for Diffusion-based VLAs](items/Realtime-VLA%20FLASH%20Speculative%20Inference%20Framework%20for%20Diffusion-based%20VLAs.md) · 多模态基础模型 智能体 Agent 视觉语言动作模型 VLA
+- [Think Twice, Act Once: Verifier-Guided Action Selection For Embodied Agents](items/Think%20Twice%2C%20Act%20Once%20Verifier-Guided%20Action%20Selection%20For%20Embodied%20Agents.md) · 多模态基础模型 智能体 Agent 具身智能评测与基准
+- [Premover: Fast Vision-Language-Action Control by Acting Before Instructions Are Complete](items/Premover%20Fast%20Vision-Language-Action%20Control%20by%20Acting%20Before%20Instructions%20Are%20C.md) · 多模态基础模型 视觉语言动作模型 VLA 具身智能评测与基准
+- [Learning POMDP World Models from Observations with Language-Model Priors](items/Learning%20POMDP%20World%20Models%20from%20Observations%20with%20Language-Model%20Priors.md) · 智能体 Agent 世界模型
+- [GuidedVLA: Specifying Task-Relevant Factors via Plug-and-Play Action Attention Specialization](items/GuidedVLA%20Specifying%20Task-Relevant%20Factors%20via%20Plug-and-Play%20Action%20Attention%20Sp.md) · 多模态基础模型 世界模型 视觉语言动作模型 VLA 机器人学习 具身智能评测与基准
+- [From Imagined Futures to Executable Actions: Mixture of Latent Actions for Robot Manipulation](items/From%20Imagined%20Futures%20to%20Executable%20Actions%20Mixture%20of%20Latent%20Actions%20for%20Robot.md) · 智能体 Agent 世界模型 具身智能评测与基准
+- [X-Imitator: Spatial-Aware Imitation Learning via Bidirectional Action-Pose Interaction](items/X-Imitator%20Spatial-Aware%20Imitation%20Learning%20via%20Bidirectional%20Action-Pose%20Intera.md) · 机器人学习
 
 <details>
 <summary>运行信息与信息源错误</summary>

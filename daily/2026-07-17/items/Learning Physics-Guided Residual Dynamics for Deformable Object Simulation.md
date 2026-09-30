@@ -20,19 +20,29 @@ concepts: ["智能体 Agent", "世界模型"]
 > [!summary] 一句话结论（基于摘要）
 > We show that PGRD produces more accurate results than both purely physics-based and learning-based methods on a set of diverse real-world deformable objects.
 
-## 关键点
+## 问题
 
-- **问题**：Simulating deformable objects is essential for a wide range of robotic manipulation applications, yet accurately predicting their dynamics remains challenging.
-- **创新点 / 方法**：We propose Physics-Guided Residual Dynamics (PGRD), a hybrid simulation framework that combines the advantages of physics-based and learning-based approaches.
-- **证据**：We show that PGRD produces more accurate results than both purely physics-based and learning-based methods on a set of diverse real-world deformable objects.
-- **局限**：Simulating deformable objects is essential for a wide range of robotic manipulation applications, yet accurately predicting their dynamics remains challenging.
+Simulating deformable objects is essential for a wide range of robotic manipulation applications, yet accurately predicting their dynamics remains challenging.
+
+## 创新点或方法
+
+We propose Physics-Guided Residual Dynamics (PGRD), a hybrid simulation framework that combines the advantages of physics-based and learning-based approaches.
+
+## 证据
+
+We show that PGRD produces more accurate results than both purely physics-based and learning-based methods on a set of diverse real-world deformable objects.
+
+## 局限
+
+Simulating deformable objects is essential for a wide range of robotic manipulation applications, yet accurately predicting their dynamics remains challenging.
+
 
 ## 研究关联
 
-- **概念**：[[智能体 Agent]] [[世界模型]]
+- **概念**：智能体 Agent 世界模型
 - **筛选分数**：29
 - **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-07-17/Learning Physics-Guided Residual Dynamics for Deformable Object Simulation.md" --level full`
 

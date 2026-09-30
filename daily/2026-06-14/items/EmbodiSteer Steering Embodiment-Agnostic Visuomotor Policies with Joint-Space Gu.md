@@ -20,19 +20,29 @@ concepts: ["机器人学习", "具身智能评测与基准"]
 > [!summary] 一句话结论（基于摘要）
 > Compared with Cartesian-only execution, EmbodiSteer reduces collision rate by 46.1% and improves task success rate by 28.5% across 9 simulated robots, and further achieves 90.0% collision rate reduction and 36.7% success rate increase on two physical robots i…
 
-## 关键点
+## 问题
 
-- **问题**：However, end-effector-only abstraction leaves Cartesian policies unaware of the deployed robot body, making them brittle under robot- specific constraints such as whole-body collision avoidance.
-- **创新点 / 方法**：To overcome this limitation, we present EmbodiSteer, a training-free framework that steers embodiment- agnostic visuomotor policies toward zero-shot, embodiment-aware deployment.
-- **证据**：Compared with Cartesian-only execution, EmbodiSteer reduces collision rate by 46.1% and improves task success rate by 28.5% across 9 simulated robots, and further achieves 90.0% collision rate reduction and 36.7% success rate increase on two physical robots in highly constrained scenarios.
-- **局限**：摘要未明确说明；需阅读全文核查。
+However, end-effector-only abstraction leaves Cartesian policies unaware of the deployed robot body, making them brittle under robot- specific constraints such as whole-body collision avoidance.
+
+## 创新点或方法
+
+To overcome this limitation, we present EmbodiSteer, a training-free framework that steers embodiment- agnostic visuomotor policies toward zero-shot, embodiment-aware deployment.
+
+## 证据
+
+Compared with Cartesian-only execution, EmbodiSteer reduces collision rate by 46.1% and improves task success rate by 28.5% across 9 simulated robots, and further achieves 90.0% collision rate reduction and 36.7% success rate increase on two physical robots in highly constrained scenarios.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[机器人学习]] [[具身智能评测与基准]]
+- **概念**：机器人学习 具身智能评测与基准
 - **筛选分数**：26
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-14/EmbodiSteer Steering Embodiment-Agnostic Visuomotor Policies with Joint-Space Gu.md" --level full`
 

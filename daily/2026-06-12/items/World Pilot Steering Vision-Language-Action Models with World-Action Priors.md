@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "世界模型", "视觉语言动作模型 VL
 > [!summary] 一句话结论（基于摘要）
 > World Pilot attains a state-of-the-art Total success rate of 84.7% on the LIBERO-Plus zero-shot OOD benchmark and the highest success rate on every real-robot setting across four manipulation tasks, with the largest margins under shifts in viewpoint, geometry…
 
-## 关键点
+## 问题
 
-- **问题**：This grounding, however, is built on static image-text pairs, whereas manipulation is a continuous, contact-rich process whose dynamics this pretraining cannot capture.
-- **创新点 / 方法**：We present World Pilot, a VLA framework that augments the policy with priors from a World- Action Model (WAM), routed into the decision chain through two complementary pathways.
-- **证据**：World Pilot attains a state-of-the-art Total success rate of 84.7% on the LIBERO-Plus zero-shot OOD benchmark and the highest success rate on every real-robot setting across four manipulation tasks, with the largest margins under shifts in viewpoint, geometry, deformable state, and pose.
-- **局限**：This grounding, however, is built on static image-text pairs, whereas manipulation is a continuous, contact-rich process whose dynamics this pretraining cannot capture.
+This grounding, however, is built on static image-text pairs, whereas manipulation is a continuous, contact-rich process whose dynamics this pretraining cannot capture.
+
+## 创新点或方法
+
+We present World Pilot, a VLA framework that augments the policy with priors from a World- Action Model (WAM), routed into the decision chain through two complementary pathways.
+
+## 证据
+
+World Pilot attains a state-of-the-art Total success rate of 84.7% on the LIBERO-Plus zero-shot OOD benchmark and the highest success rate on every real-robot setting across four manipulation tasks, with the largest margins under shifts in viewpoint, geometry, deformable state, and pose.
+
+## 局限
+
+This grounding, however, is built on static image-text pairs, whereas manipulation is a continuous, contact-rich process whose dynamics this pretraining cannot capture.
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 世界模型 视觉语言动作模型 VLA 具身智能评测与基准
 - **筛选分数**：39
 - **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-12/World Pilot Steering Vision-Language-Action Models with World-Action Priors.md" --level full`
 

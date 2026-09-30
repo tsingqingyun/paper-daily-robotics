@@ -20,19 +20,29 @@ concepts: ["智能体 Agent", "具身智能评测与基准"]
 > [!summary] 一句话结论（基于摘要）
 > Results show that unsafe information can turn into unsafe actions across all three architectures: DMAS reaches a 96.7\% entry endorsement rate and a 100\% post endorsement activation rate, HMAS-1 reaches a 97.8\% unsafe action success rate, and HMAS-2 trigger…
 
-## 关键点
+## 问题
 
-- **问题**：Prior work has focused mainly on individual robots, while communication risks in multi-robot collaboration remain insufficiently understood.
-- **创新点 / 方法**：To mitigate risks from trusted information flow, we introduce the Claim Provenance and Verification (CPV) Gate, which verifies communicated claims before downstream reuse and reduces the violation rate from 70.0\% to 36.6\%.
-- **证据**：Results show that unsafe information can turn into unsafe actions across all three architectures: DMAS reaches a 96.7\% entry endorsement rate and a 100\% post endorsement activation rate, HMAS-1 reaches a 97.8\% unsafe action success rate, and HMAS-2 triggers 88.3\% of task defined unsafe action slots.
-- **局限**：Existing multi-robot studies are further limited to preliminary analysis under the Decentralized Multi-agent System (DMAS) architecture, so it remains unclear whether these risks persist across other common communication architectures and how attacker access settings shape their propagation.
+Prior work has focused mainly on individual robots, while communication risks in multi-robot collaboration remain insufficiently understood.
+
+## 创新点或方法
+
+To mitigate risks from trusted information flow, we introduce the Claim Provenance and Verification (CPV) Gate, which verifies communicated claims before downstream reuse and reduces the violation rate from 70.0\% to 36.6\%.
+
+## 证据
+
+Results show that unsafe information can turn into unsafe actions across all three architectures: DMAS reaches a 96.7\% entry endorsement rate and a 100\% post endorsement activation rate, HMAS-1 reaches a 97.8\% unsafe action success rate, and HMAS-2 triggers 88.3\% of task defined unsafe action slots.
+
+## 局限
+
+Existing multi-robot studies are further limited to preliminary analysis under the Decentralized Multi-agent System (DMAS) architecture, so it remains unclear whether these risks persist across other common communication architectures and how attacker access settings shape their propagation.
+
 
 ## 研究关联
 
-- **概念**：[[智能体 Agent]] [[具身智能评测与基准]]
+- **概念**：智能体 Agent 具身智能评测与基准
 - **筛选分数**：25
 - **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-10/When Coordination Becomes a Threat Communication Attacks in LLM-Controlled Multi.md" --level full`
 

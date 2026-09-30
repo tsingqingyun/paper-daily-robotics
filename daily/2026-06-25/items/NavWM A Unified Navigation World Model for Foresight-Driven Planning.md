@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "智能体 Agent", "世界模型"]
 > [!summary] 一句话结论（基于摘要）
 > In this paper, we propose NavWM, a unified navigation world model that seamlessly integrates latent world reasoning, multimodal action prediction, and controllable visual generation.
 
-## 关键点
+## 问题
 
-- **问题**：Conventional visual navigation policies often struggle with myopic decision-making and mode collapse in complex environments.
-- **创新点 / 方法**：In this paper, we propose NavWM, a unified navigation world model that seamlessly integrates latent world reasoning, multimodal action prediction, and controllable visual generation.
-- **证据**：摘要未报告明确实验结论；需阅读全文核查。
-- **局限**：To overcome the limitations of deterministic policies, we introduce an anchor-based multimodal trajectory forecasting framework that generates a diverse action space.
+Conventional visual navigation policies often struggle with myopic decision-making and mode collapse in complex environments.
+
+## 创新点或方法
+
+In this paper, we propose NavWM, a unified navigation world model that seamlessly integrates latent world reasoning, multimodal action prediction, and controllable visual generation.
+
+## 证据
+
+摘要未报告明确实验结论；需阅读全文核查。
+
+## 局限
+
+To overcome the limitations of deterministic policies, we introduce an anchor-based multimodal trajectory forecasting framework that generates a diverse action space.
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[世界模型]]
+- **概念**：多模态基础模型 智能体 Agent 世界模型
 - **筛选分数**：35
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-25/NavWM A Unified Navigation World Model for Foresight-Driven Planning.md" --level full`
 

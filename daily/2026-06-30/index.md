@@ -14,7 +14,7 @@ created: 2026-06-30
 - **规模**：2105 个候选 → 24 篇入选；回填 0 篇
 - **主题**：具身智能评测与基准 17、多模态基础模型 15、智能体 Agent 12、视觉语言动作模型 VLA 10、机器人学习 9、世界模型 8、Sim2Real 2
 - **源异常**：0
-- **需要更高精度**：从“必读”选择论文，进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **需要更高精度**：从“必读”选择论文，进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -55,18 +55,18 @@ created: 2026-06-30
 
 ## 其余存档 12 篇
 
-- [Learning Transferable Dynamics Priors from Action to World Modeling](items/Learning%20Transferable%20Dynamics%20Priors%20from%20Action%20to%20World%20Modeling.md) · [[智能体 Agent]] [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
-- [Enhancing Part-Level Point Grounding for Any Open-Source MLLMs](items/Enhancing%20Part-Level%20Point%20Grounding%20for%20Any%20Open-Source%20MLLMs.md) · [[多模态基础模型]]
-- [Goku: A Million-Scale Universal Dataset and Benchmark for Instruction-Based Video Editing](items/Goku%20A%20Million-Scale%20Universal%20Dataset%20and%20Benchmark%20for%20Instruction-Based%20Video.md) · [[具身智能评测与基准]]
-- [UnfoldArt: Zero-Shot Recovery of Full Articulated 3D Objects from Text or Image](items/UnfoldArt%20Zero-Shot%20Recovery%20of%20Full%20Articulated%203D%20Objects%20from%20Text%20or%20Image.md) · [[多模态基础模型]] [[智能体 Agent]]
-- [Grasp-Oriented Non-Prehensile Manipulation via Learning a Graspability Field](items/Grasp-Oriented%20Non-Prehensile%20Manipulation%20via%20Learning%20a%20Graspability%20Field.md) · [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
-- [HUMEMBR: Learning Human Routines for Predictive Embodied Navigation](items/HUMEMBR%20Learning%20Human%20Routines%20for%20Predictive%20Embodied%20Navigation.md) · [[智能体 Agent]]
-- [Automating the Design of Embodied AgentArchitectures](items/Automating%20the%20Design%20of%20Embodied%20AgentArchitectures.md) · [[多模态基础模型]] [[智能体 Agent]]
-- [CORE: Common Outcome Regularities from Action-Free Visual Demonstrations for Robot Manipulation](items/CORE%20Common%20Outcome%20Regularities%20from%20Action-Free%20Visual%20Demonstrations%20for%20Robo.md) · [[机器人学习]] [[具身智能评测与基准]]
-- [Behavior Uncloning: Distilling Mode Redirection into Policy Weights without Inference-Time Steering](items/Behavior%20Uncloning%20Distilling%20Mode%20Redirection%20into%20Policy%20Weights%20without%20Infer.md) · [[视觉语言动作模型 VLA]] [[机器人学习]] [[具身智能评测与基准]]
-- [Analytic Concept-Centric Memory for Agentic Embodied Manipulation](items/Analytic%20Concept-Centric%20Memory%20for%20Agentic%20Embodied%20Manipulation.md) · [[智能体 Agent]] [[具身智能评测与基准]]
-- [GROW$^2$: Grounding Which and Where for Robot Tool Use](items/GROW%24%202%24%20Grounding%20Which%20and%20Where%20for%20Robot%20Tool%20Use.md) · [[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
-- [OmniCoT: A Benchmark for Global and Multi-Step Panoramic Reasoning](items/OmniCoT%20A%20Benchmark%20for%20Global%20and%20Multi-Step%20Panoramic%20Reasoning.md) · [[多模态基础模型]] [[Sim2Real]] [[具身智能评测与基准]]
+- [Learning Transferable Dynamics Priors from Action to World Modeling](items/Learning%20Transferable%20Dynamics%20Priors%20from%20Action%20to%20World%20Modeling.md) · 智能体 Agent 世界模型 机器人学习 具身智能评测与基准
+- [Enhancing Part-Level Point Grounding for Any Open-Source MLLMs](items/Enhancing%20Part-Level%20Point%20Grounding%20for%20Any%20Open-Source%20MLLMs.md) · 多模态基础模型
+- [Goku: A Million-Scale Universal Dataset and Benchmark for Instruction-Based Video Editing](items/Goku%20A%20Million-Scale%20Universal%20Dataset%20and%20Benchmark%20for%20Instruction-Based%20Video.md) · 具身智能评测与基准
+- [UnfoldArt: Zero-Shot Recovery of Full Articulated 3D Objects from Text or Image](items/UnfoldArt%20Zero-Shot%20Recovery%20of%20Full%20Articulated%203D%20Objects%20from%20Text%20or%20Image.md) · 多模态基础模型 智能体 Agent
+- [Grasp-Oriented Non-Prehensile Manipulation via Learning a Graspability Field](items/Grasp-Oriented%20Non-Prehensile%20Manipulation%20via%20Learning%20a%20Graspability%20Field.md) · 世界模型 机器人学习 具身智能评测与基准
+- [HUMEMBR: Learning Human Routines for Predictive Embodied Navigation](items/HUMEMBR%20Learning%20Human%20Routines%20for%20Predictive%20Embodied%20Navigation.md) · 智能体 Agent
+- [Automating the Design of Embodied AgentArchitectures](items/Automating%20the%20Design%20of%20Embodied%20AgentArchitectures.md) · 多模态基础模型 智能体 Agent
+- [CORE: Common Outcome Regularities from Action-Free Visual Demonstrations for Robot Manipulation](items/CORE%20Common%20Outcome%20Regularities%20from%20Action-Free%20Visual%20Demonstrations%20for%20Robo.md) · 机器人学习 具身智能评测与基准
+- [Behavior Uncloning: Distilling Mode Redirection into Policy Weights without Inference-Time Steering](items/Behavior%20Uncloning%20Distilling%20Mode%20Redirection%20into%20Policy%20Weights%20without%20Infer.md) · 视觉语言动作模型 VLA 机器人学习 具身智能评测与基准
+- [Analytic Concept-Centric Memory for Agentic Embodied Manipulation](items/Analytic%20Concept-Centric%20Memory%20for%20Agentic%20Embodied%20Manipulation.md) · 智能体 Agent 具身智能评测与基准
+- [GROW$^2$: Grounding Which and Where for Robot Tool Use](items/GROW%24%202%24%20Grounding%20Which%20and%20Where%20for%20Robot%20Tool%20Use.md) · 多模态基础模型 智能体 Agent 具身智能评测与基准
+- [OmniCoT: A Benchmark for Global and Multi-Step Panoramic Reasoning](items/OmniCoT%20A%20Benchmark%20for%20Global%20and%20Multi-Step%20Panoramic%20Reasoning.md) · 多模态基础模型 Sim2Real 具身智能评测与基准
 
 <details>
 <summary>运行信息与信息源错误</summary>

@@ -20,19 +20,29 @@ concepts: ["智能体 Agent", "世界模型", "机器人学习"]
 > [!summary] 一句话结论（基于摘要）
 > We demonstrate our approach across simulated planetary traversal, orbital navigation, and precision assembly tasks subjected to severe morphological failures.
 
-## 关键点
+## 问题
 
-- **问题**：However, precise reward computation in space is often infeasible due to the lack of external tracking systems and the overall complexity of the environment.
-- **创新点 / 方法**：To address the challenge of unobservable rewards, we introduce a reward-free continual learning framework that leverages latent-state world models.
-- **证据**：We demonstrate our approach across simulated planetary traversal, orbital navigation, and precision assembly tasks subjected to severe morphological failures.
-- **局限**：摘要未明确说明；需阅读全文核查。
+However, precise reward computation in space is often infeasible due to the lack of external tracking systems and the overall complexity of the environment.
+
+## 创新点或方法
+
+To address the challenge of unobservable rewards, we introduce a reward-free continual learning framework that leverages latent-state world models.
+
+## 证据
+
+We demonstrate our approach across simulated planetary traversal, orbital navigation, and precision assembly tasks subjected to severe morphological failures.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[智能体 Agent]] [[世界模型]] [[机器人学习]]
+- **概念**：智能体 Agent 世界模型 机器人学习
 - **筛选分数**：28
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-26/Reward-Free Continual Adaptation for Resilient Space Robots.md" --level full`
 

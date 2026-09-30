@@ -20,19 +20,29 @@ concepts: ["世界模型", "机器人学习"]
 > [!summary] 一句话结论（基于摘要）
 > In this work, we present \textit{GenHOI}, a simple yet effective framework that enables humanoid robots to perform diverse object- interaction tasks in a zero-shot manner by directly imitating a single generated video, without task-specific training or physic…
 
-## 关键点
+## 问题
 
-- **问题**：Humanoid-Object Interaction (HOI) is a fundamental capability for humanoid robots, yet it remains challenging due to the tight coupling between dynamic balance and stable interaction with diverse objects.
-- **创新点 / 方法**：In this work, we present \textit{GenHOI}, a simple yet effective framework that enables humanoid robots to perform diverse object- interaction tasks in a zero-shot manner by directly imitating a single generated video, without task-specific training or physical demonstration data.
-- **证据**：摘要未报告明确实验结论；需阅读全文核查。
-- **局限**：Humanoid-Object Interaction (HOI) is a fundamental capability for humanoid robots, yet it remains challenging due to the tight coupling between dynamic balance and stable interaction with diverse objects.
+Humanoid-Object Interaction (HOI) is a fundamental capability for humanoid robots, yet it remains challenging due to the tight coupling between dynamic balance and stable interaction with diverse objects.
+
+## 创新点或方法
+
+In this work, we present \textit{GenHOI}, a simple yet effective framework that enables humanoid robots to perform diverse object- interaction tasks in a zero-shot manner by directly imitating a single generated video, without task-specific training or physical demonstration data.
+
+## 证据
+
+摘要未报告明确实验结论；需阅读全文核查。
+
+## 局限
+
+Humanoid-Object Interaction (HOI) is a fundamental capability for humanoid robots, yet it remains challenging due to the tight coupling between dynamic balance and stable interaction with diverse objects.
+
 
 ## 研究关联
 
-- **概念**：[[世界模型]] [[机器人学习]]
+- **概念**：世界模型 机器人学习
 - **筛选分数**：25
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-14/GenHOI Contact-Aware Humanoid-Object Interaction by Imitating Generated Videos w.md" --level full`
 

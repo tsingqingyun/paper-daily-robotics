@@ -42,10 +42,10 @@ concepts: ["AI 核心知识地图"]
 
 在AI核心知识地图中，可将其放在对象中心表示、自监督学习与三维场景重建的交叉处；对机器人学习的价值是提供结构化空间输入。
 
-- **概念**：[[AI 核心知识地图]]
+- **概念**：AI 核心知识地图
 - **筛选分数**：29
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-18/ParticleSplat Self-supervised Object-centric Latent Particle Splatting.md" --level full`
 

@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "世界模型", "具身智能评测与基准
 > [!summary] 一句话结论（基于摘要）
 > To address global consistency, we introduce a local-to-global loop closure framework leveraging the foundation model for high-performance global descriptor extraction, significantly enhancing relocalization accuracy under varying viewpoints.
 
-## 关键点
+## 问题
 
-- **问题**：Neural Radiance Fields (NeRF)-based SLAM has demonstrated impressive results in small- scale scene reconstruction, yet scaling these methods to extensive, complex environments remains challenging due to catastrophic forgetting and accumulated trajectory drift.
-- **创新点 / 方法**：Specifically, we propose a progressive mapping strategy that dynamically allocates neural submaps to maintain high- fidelity representations without memory explosion.
-- **证据**：To address global consistency, we introduce a local-to-global loop closure framework leveraging the foundation model for high-performance global descriptor extraction, significantly enhancing relocalization accuracy under varying viewpoints.
-- **局限**：Neural Radiance Fields (NeRF)-based SLAM has demonstrated impressive results in small- scale scene reconstruction, yet scaling these methods to extensive, complex environments remains challenging due to catastrophic forgetting and accumulated trajectory drift.
+Neural Radiance Fields (NeRF)-based SLAM has demonstrated impressive results in small- scale scene reconstruction, yet scaling these methods to extensive, complex environments remains challenging due to catastrophic forgetting and accumulated trajectory drift.
+
+## 创新点或方法
+
+Specifically, we propose a progressive mapping strategy that dynamically allocates neural submaps to maintain high- fidelity representations without memory explosion.
+
+## 证据
+
+To address global consistency, we introduce a local-to-global loop closure framework leveraging the foundation model for high-performance global descriptor extraction, significantly enhancing relocalization accuracy under varying viewpoints.
+
+## 局限
+
+Neural Radiance Fields (NeRF)-based SLAM has demonstrated impressive results in small- scale scene reconstruction, yet scaling these methods to extensive, complex environments remains challenging due to catastrophic forgetting and accumulated trajectory drift.
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[世界模型]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 世界模型 具身智能评测与基准
 - **筛选分数**：31
 - **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-11/Multi-Submap Implicit Neural SLAM with Local-to-Global Loop Closure for Large-Sc.md" --level full`
 

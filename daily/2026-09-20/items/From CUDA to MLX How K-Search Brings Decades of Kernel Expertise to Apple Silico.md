@@ -42,10 +42,10 @@ concepts: ["多模态基础模型", "智能体 Agent", "世界模型", "具身�
 
 对多模态或机器人模型研究者，价值在于为 Apple Silicon 本地推理提供内核优化思路，是否改善具体模型仍需另行验证。对 Agent 研究者，决策树维护假设、实测反馈驱动搜索的机制值得参考。这里的“世界模型”是优化搜索的推理状态，不是机器人环境动力学模型；结果也不是具身任务基准。
 
-- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 智能体 Agent 世界模型 具身智能评测与基准
 - **筛选分数**：12
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-20/From CUDA to MLX How K-Search Brings Decades of Kernel Expertise to Apple Silico.md" --level full`
 

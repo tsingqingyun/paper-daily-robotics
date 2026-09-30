@@ -42,10 +42,10 @@ concepts: ["多模态基础模型", "世界模型", "视觉语言动作模型 VL
 
 对 VLA 和 Sim2Real 研究者，这是保留基础策略能力、通过仿真补足接触控制精度的具体路径；其直接贡献是控制迁移接口，而非世界模型预测。
 
-- **概念**：[[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]] [[机器人学习]] [[Sim2Real]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 世界模型 视觉语言动作模型 VLA 机器人学习 Sim2Real 具身智能评测与基准
 - **筛选分数**：44
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-28/VLaRL Augmenting Vision-Language-Action Models with Simulation-Trained Latent-Co.md" --level full`
 

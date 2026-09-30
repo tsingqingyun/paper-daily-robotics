@@ -14,7 +14,7 @@ created: 2026-08-22
 - **规模**：2259 个候选 → 24 篇入选；回填 0 篇
 - **主题**：具身智能评测与基准 16、世界模型 9、多模态基础模型 9、智能体 Agent 9、机器人学习 9、视觉语言动作模型 VLA 8、AI 核心知识地图 3、Sim2Real 2
 - **源异常**：0
-- **需要更高精度**：从“必读”选择论文，进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **需要更高精度**：从“必读”选择论文，进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -55,18 +55,18 @@ created: 2026-08-22
 
 ## 其余存档 12 篇
 
-- [Towards general embodied intelligence: integrating large language models, knowledge bases, and reasoning capabilities to build the next generation of AI agents](items/Towards%20general%20embodied%20intelligence%20integrating%20large%20language%20models%2C%20knowled.md) · [[多模态基础模型]] [[智能体 Agent]]
-- [When Automata Meet Streams: Temporal Logic Compilation for Stream-Based Robotics Task and Motion Planning](items/When%20Automata%20Meet%20Streams%20Temporal%20Logic%20Compilation%20for%20Stream-Based%20Robotics.md) · [[智能体 Agent]] [[机器人学习]] [[具身智能评测与基准]]
-- [Video2DoorTraversal: Push Door Traversal via Simulated Door Twins](items/Video2DoorTraversal%20Push%20Door%20Traversal%20via%20Simulated%20Door%20Twins.md) · [[智能体 Agent]] [[世界模型]] [[机器人学习]] [[Sim2Real]] [[具身智能评测与基准]]
-- [DECOWAM: Decoupled Whole-Body World-Action Model for Legged Mobile Manipulation](items/DECOWAM%20Decoupled%20Whole-Body%20World-Action%20Model%20for%20Legged%20Mobile%20Manipulation.md) · [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [PVRA: A Pointwise Key-point Voting Framework for Robotic Assembly](items/PVRA%20A%20Pointwise%20Key-point%20Voting%20Framework%20for%20Robotic%20Assembly.md) · [[AI 核心知识地图]]
-- [Keeping the Franka Emika Panda alive: a ROS 2 stack with a reliable position interface](items/Keeping%20the%20Franka%20Emika%20Panda%20alive%20a%20ROS%202%20stack%20with%20a%20reliable%20position%20inte.md) · [[智能体 Agent]] [[机器人学习]]
-- [World-Model-Grounded LLM Planning for AUV and ASV Navigation Near Offshore Wind Farms](items/World-Model-Grounded%20LLM%20Planning%20for%20AUV%20and%20ASV%20Navigation%20Near%20Offshore%20Wind.md) · [[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
-- [Effector-Centric NMPC of Tiltable-Multirotors for Offset-Free Omnidirectional Aerial Manipulation](items/Effector-Centric%20NMPC%20of%20Tiltable-Multirotors%20for%20Offset-Free%20Omnidirectional%20Ae.md) · [[AI 核心知识地图]]
-- [An Irreducible Quantum Advantage in Aligning World Models with Reality](items/An%20Irreducible%20Quantum%20Advantage%20in%20Aligning%20World%20Models%20with%20Reality.md) · [[智能体 Agent]] [[世界模型]]
-- [Learning the Right Abstraction: Neural Reduced Dynamics for Complex Robot Control](items/Learning%20the%20Right%20Abstraction%20Neural%20Reduced%20Dynamics%20for%20Complex%20Robot%20Control.md) · [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
-- [DyG$^2$T: Modeling Object Dynamics with 3D Gaussian Temporal-Spatial Particle Graph Transformer](items/DyG%24%202%24T%20Modeling%20Object%20Dynamics%20with%203D%20Gaussian%20Temporal-Spatial%20Particle%20Gra.md) · [[世界模型]] [[视觉语言动作模型 VLA]]
-- [Multimodal Rapport Estimation in Real-World HRI](items/Multimodal%20Rapport%20Estimation%20in%20Real-World%20HRI.md) · [[多模态基础模型]] [[具身智能评测与基准]]
+- [Towards general embodied intelligence: integrating large language models, knowledge bases, and reasoning capabilities to build the next generation of AI agents](items/Towards%20general%20embodied%20intelligence%20integrating%20large%20language%20models%2C%20knowled.md) · 多模态基础模型 智能体 Agent
+- [When Automata Meet Streams: Temporal Logic Compilation for Stream-Based Robotics Task and Motion Planning](items/When%20Automata%20Meet%20Streams%20Temporal%20Logic%20Compilation%20for%20Stream-Based%20Robotics.md) · 智能体 Agent 机器人学习 具身智能评测与基准
+- [Video2DoorTraversal: Push Door Traversal via Simulated Door Twins](items/Video2DoorTraversal%20Push%20Door%20Traversal%20via%20Simulated%20Door%20Twins.md) · 智能体 Agent 世界模型 机器人学习 Sim2Real 具身智能评测与基准
+- [DECOWAM: Decoupled Whole-Body World-Action Model for Legged Mobile Manipulation](items/DECOWAM%20Decoupled%20Whole-Body%20World-Action%20Model%20for%20Legged%20Mobile%20Manipulation.md) · 视觉语言动作模型 VLA 具身智能评测与基准
+- [PVRA: A Pointwise Key-point Voting Framework for Robotic Assembly](items/PVRA%20A%20Pointwise%20Key-point%20Voting%20Framework%20for%20Robotic%20Assembly.md) · AI 核心知识地图
+- [Keeping the Franka Emika Panda alive: a ROS 2 stack with a reliable position interface](items/Keeping%20the%20Franka%20Emika%20Panda%20alive%20a%20ROS%202%20stack%20with%20a%20reliable%20position%20inte.md) · 智能体 Agent 机器人学习
+- [World-Model-Grounded LLM Planning for AUV and ASV Navigation Near Offshore Wind Farms](items/World-Model-Grounded%20LLM%20Planning%20for%20AUV%20and%20ASV%20Navigation%20Near%20Offshore%20Wind.md) · 多模态基础模型 智能体 Agent 世界模型 具身智能评测与基准
+- [Effector-Centric NMPC of Tiltable-Multirotors for Offset-Free Omnidirectional Aerial Manipulation](items/Effector-Centric%20NMPC%20of%20Tiltable-Multirotors%20for%20Offset-Free%20Omnidirectional%20Ae.md) · AI 核心知识地图
+- [An Irreducible Quantum Advantage in Aligning World Models with Reality](items/An%20Irreducible%20Quantum%20Advantage%20in%20Aligning%20World%20Models%20with%20Reality.md) · 智能体 Agent 世界模型
+- [Learning the Right Abstraction: Neural Reduced Dynamics for Complex Robot Control](items/Learning%20the%20Right%20Abstraction%20Neural%20Reduced%20Dynamics%20for%20Complex%20Robot%20Control.md) · 世界模型 机器人学习 具身智能评测与基准
+- [DyG$^2$T: Modeling Object Dynamics with 3D Gaussian Temporal-Spatial Particle Graph Transformer](items/DyG%24%202%24T%20Modeling%20Object%20Dynamics%20with%203D%20Gaussian%20Temporal-Spatial%20Particle%20Gra.md) · 世界模型 视觉语言动作模型 VLA
+- [Multimodal Rapport Estimation in Real-World HRI](items/Multimodal%20Rapport%20Estimation%20in%20Real-World%20HRI.md) · 多模态基础模型 具身智能评测与基准
 
 <details>
 <summary>运行信息与信息源状态</summary>

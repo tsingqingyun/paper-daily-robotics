@@ -20,19 +20,29 @@ concepts: ["世界模型", "机器人学习"]
 > [!summary] 一句话结论（基于摘要）
 > We further leverage TSD to develop a dataset compression method that reduces training costs and a dataset expansion strategy that improves data collection efficiency.
 
-## 关键点
+## 问题
 
-- **问题**：In this paper, we leverage the inherent heterogeneity of trajectories to address this challenge.
-- **创新点 / 方法**：Therefore, we propose the Trajectory Saliency Detector (TSD), a training-free and plug-and-play framework to identify trajectory saliency.
-- **证据**：We further leverage TSD to develop a dataset compression method that reduces training costs and a dataset expansion strategy that improves data collection efficiency.
-- **局限**：摘要未明确说明；需阅读全文核查。
+In this paper, we leverage the inherent heterogeneity of trajectories to address this challenge.
+
+## 创新点或方法
+
+Therefore, we propose the Trajectory Saliency Detector (TSD), a training-free and plug-and-play framework to identify trajectory saliency.
+
+## 证据
+
+We further leverage TSD to develop a dataset compression method that reduces training costs and a dataset expansion strategy that improves data collection efficiency.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[世界模型]] [[机器人学习]]
+- **概念**：世界模型 机器人学习
 - **筛选分数**：31
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-25/TSD A Physics-Inspired Trajectory Saliency Detector for Efficient Imitation Lear.md" --level full`
 

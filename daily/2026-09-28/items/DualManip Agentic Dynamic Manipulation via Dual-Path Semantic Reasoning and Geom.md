@@ -42,10 +42,10 @@ VLM 支持开放词汇操作推理，但推理延迟使动态场景中的响应�
 
 对机器人智能体研究者，它提供了按变化类型分配计算的具体架构，适合研究语义规划与实时感知控制之间的职责划分。
 
-- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 智能体 Agent 具身智能评测与基准
 - **筛选分数**：31
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-28/DualManip Agentic Dynamic Manipulation via Dual-Path Semantic Reasoning and Geom.md" --level full`
 

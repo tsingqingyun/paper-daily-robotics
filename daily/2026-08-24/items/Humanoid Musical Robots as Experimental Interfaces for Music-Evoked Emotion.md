@@ -20,19 +20,29 @@ concepts: ["多模态基础模型"]
 > [!summary] 一句话结论（基于摘要）
 > We show that humanoid robots are well-suited as they enable parametric control of performance variables, reproducibility across trials, and the decoupling and recombination of auditory, visual, and interactive components.
 
-## 关键点
+## 问题
 
-- **问题**：However, their use has largely been limited to performance and related research in human-robot interaction.
-- **创新点 / 方法**：In this position paper, we propose a novel perspective: musical humanoid robots as experimental interfaces for investigating music-evoked emotions.
-- **证据**：We show that humanoid robots are well-suited as they enable parametric control of performance variables, reproducibility across trials, and the decoupling and recombination of auditory, visual, and interactive components.
-- **局限**：However, their use has largely been limited to performance and related research in human-robot interaction.
+However, their use has largely been limited to performance and related research in human-robot interaction.
+
+## 创新点或方法
+
+In this position paper, we propose a novel perspective: musical humanoid robots as experimental interfaces for investigating music-evoked emotions.
+
+## 证据
+
+We show that humanoid robots are well-suited as they enable parametric control of performance variables, reproducibility across trials, and the decoupling and recombination of auditory, visual, and interactive components.
+
+## 局限
+
+However, their use has largely been limited to performance and related research in human-robot interaction.
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]]
+- **概念**：多模态基础模型
 - **筛选分数**：33
 - **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-24/Humanoid Musical Robots as Experimental Interfaces for Music-Evoked Emotion.md" --level full`
 

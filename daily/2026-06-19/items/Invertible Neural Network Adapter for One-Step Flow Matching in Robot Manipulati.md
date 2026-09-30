@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "世界模型", "视觉语言动作模型 VL
 > [!summary] 一句话结论（基于摘要）
 > Compared with conventional iterative flow- matching policies, the proposed framework substantially reduces inference complexity while maintaining strong action prediction accuracy and stability.
 
-## 关键点
+## 问题
 
-- **问题**：This paper presents an invertible neural network adapter for general robotic manipulation, designed to generate precise high-dimensional actions conditioned on multimodal observations, including visual, linguistic, and proprioceptive inputs, through a one-step denoising process.
-- **创新点 / 方法**：Built upon a flow-matching formulation, the proposed adapter effectively constrains the action generation trajectory within an invertible latent space, thereby enabling efficient and high-quality dexterous action synthesis with only a single inference step.
-- **证据**：Compared with conventional iterative flow- matching policies, the proposed framework substantially reduces inference complexity while maintaining strong action prediction accuracy and stability.
-- **局限**：摘要未明确说明；需阅读全文核查。
+This paper presents an invertible neural network adapter for general robotic manipulation, designed to generate precise high-dimensional actions conditioned on multimodal observations, including visual, linguistic, and proprioceptive inputs, through a one-step denoising process.
+
+## 创新点或方法
+
+Built upon a flow-matching formulation, the proposed adapter effectively constrains the action generation trajectory within an invertible latent space, thereby enabling efficient and high-quality dexterous action synthesis with only a single inference step.
+
+## 证据
+
+Compared with conventional iterative flow- matching policies, the proposed framework substantially reduces inference complexity while maintaining strong action prediction accuracy and stability.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 世界模型 视觉语言动作模型 VLA 具身智能评测与基准
 - **筛选分数**：41
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-19/Invertible Neural Network Adapter for One-Step Flow Matching in Robot Manipulati.md" --level full`
 

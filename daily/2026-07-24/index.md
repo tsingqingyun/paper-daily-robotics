@@ -14,7 +14,7 @@ created: 2026-07-24
 - **规模**：2141 个候选 → 24 篇入选；回填 0 篇
 - **主题**：具身智能评测与基准 17、多模态基础模型 14、智能体 Agent 13、世界模型 12、机器人学习 8、视觉语言动作模型 VLA 7、Sim2Real 1
 - **源异常**：1
-- **需要更高精度**：从“必读”选择论文，进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **需要更高精度**：从“必读”选择论文，进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -55,18 +55,18 @@ created: 2026-07-24
 
 ## 其余存档 12 篇
 
-- [Expert Behavior Prior Reinforcement Learning](items/Expert%20Behavior%20Prior%20Reinforcement%20Learning.md) · [[智能体 Agent]] [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
-- [Clinical Pathways as Safety Specifications for Physical AI in Hospital Wards](items/Clinical%20Pathways%20as%20Safety%20Specifications%20for%20Physical%20AI%20in%20Hospital%20Wards.md) · [[多模态基础模型]] [[具身智能评测与基准]]
-- [LENS: LLM-guided Environment Simplification for Planning and Control in Clutter](items/LENS%20LLM-guided%20Environment%20Simplification%20for%20Planning%20and%20Control%20in%20Clutter.md) · [[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[视觉语言动作模型 VLA]]
-- [DocOps: A Verifiable Benchmark for Autonomous Agents in Complex Document Operations](items/DocOps%20A%20Verifiable%20Benchmark%20for%20Autonomous%20Agents%20in%20Complex%20Document%20Operatio.md) · [[智能体 Agent]] [[具身智能评测与基准]]
-- [Masked Visual Actions for Unified World Modeling](items/Masked%20Visual%20Actions%20for%20Unified%20World%20Modeling.md) · [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
-- [ExpertVerse: A General-Purpose Benchmark for Expert-Level Reasoning in Knowledge-Intensive Visual Synthesis](items/ExpertVerse%20A%20General-Purpose%20Benchmark%20for%20Expert-Level%20Reasoning%20in%20Knowledge-.md) · [[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
-- [Beyond Episodic Evaluation: Memory Architectural Bottlenecks in Sequential Embodied Question Answering](items/Beyond%20Episodic%20Evaluation%20Memory%20Architectural%20Bottlenecks%20in%20Sequential%20Embodi.md) · [[智能体 Agent]] [[具身智能评测与基准]]
-- [TableVerse: A Large-scale Tabletop Dataset with Real-world Grounded Layouts for Generalizable Manipulation](items/TableVerse%20A%20Large-scale%20Tabletop%20Dataset%20with%20Real-world%20Grounded%20Layouts%20for%20G.md) · [[世界模型]] [[机器人学习]]
-- [Scale Up Strategically: Learning Compositional Generalization via Bias-Aware Evaluation and Data Collection for Robotic Manipulation](items/Scale%20Up%20Strategically%20Learning%20Compositional%20Generalization%20via%20Bias-Aware%20Eval.md) · [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
-- [URF: A Unified Robot Control-Policy Framework for Stable Contact Aware Manipulation](items/URF%20A%20Unified%20Robot%20Control-Policy%20Framework%20for%20Stable%20Contact%20Aware%20Manipulati.md) · [[多模态基础模型]] [[机器人学习]] [[具身智能评测与基准]]
-- [ODeform: Learning Continuous 4D Motion for Shape Deformation with Neural ODEs](items/ODeform%20Learning%20Continuous%204D%20Motion%20for%20Shape%20Deformation%20with%20Neural%20ODEs.md) · [[世界模型]]
-- [Towards Miniature Humanoid Tele-Loco-Manipulation Using Virtual Reality and Reinforcement Learning](items/Towards%20Miniature%20Humanoid%20Tele-Loco-Manipulation%20Using%20Virtual%20Reality%20and%20Rein.md) · [[机器人学习]]
+- [Expert Behavior Prior Reinforcement Learning](items/Expert%20Behavior%20Prior%20Reinforcement%20Learning.md) · 智能体 Agent 世界模型 机器人学习 具身智能评测与基准
+- [Clinical Pathways as Safety Specifications for Physical AI in Hospital Wards](items/Clinical%20Pathways%20as%20Safety%20Specifications%20for%20Physical%20AI%20in%20Hospital%20Wards.md) · 多模态基础模型 具身智能评测与基准
+- [LENS: LLM-guided Environment Simplification for Planning and Control in Clutter](items/LENS%20LLM-guided%20Environment%20Simplification%20for%20Planning%20and%20Control%20in%20Clutter.md) · 多模态基础模型 智能体 Agent 世界模型 视觉语言动作模型 VLA
+- [DocOps: A Verifiable Benchmark for Autonomous Agents in Complex Document Operations](items/DocOps%20A%20Verifiable%20Benchmark%20for%20Autonomous%20Agents%20in%20Complex%20Document%20Operatio.md) · 智能体 Agent 具身智能评测与基准
+- [Masked Visual Actions for Unified World Modeling](items/Masked%20Visual%20Actions%20for%20Unified%20World%20Modeling.md) · 智能体 Agent 世界模型 具身智能评测与基准
+- [ExpertVerse: A General-Purpose Benchmark for Expert-Level Reasoning in Knowledge-Intensive Visual Synthesis](items/ExpertVerse%20A%20General-Purpose%20Benchmark%20for%20Expert-Level%20Reasoning%20in%20Knowledge-.md) · 多模态基础模型 智能体 Agent 具身智能评测与基准
+- [Beyond Episodic Evaluation: Memory Architectural Bottlenecks in Sequential Embodied Question Answering](items/Beyond%20Episodic%20Evaluation%20Memory%20Architectural%20Bottlenecks%20in%20Sequential%20Embodi.md) · 智能体 Agent 具身智能评测与基准
+- [TableVerse: A Large-scale Tabletop Dataset with Real-world Grounded Layouts for Generalizable Manipulation](items/TableVerse%20A%20Large-scale%20Tabletop%20Dataset%20with%20Real-world%20Grounded%20Layouts%20for%20G.md) · 世界模型 机器人学习
+- [Scale Up Strategically: Learning Compositional Generalization via Bias-Aware Evaluation and Data Collection for Robotic Manipulation](items/Scale%20Up%20Strategically%20Learning%20Compositional%20Generalization%20via%20Bias-Aware%20Eval.md) · 世界模型 机器人学习 具身智能评测与基准
+- [URF: A Unified Robot Control-Policy Framework for Stable Contact Aware Manipulation](items/URF%20A%20Unified%20Robot%20Control-Policy%20Framework%20for%20Stable%20Contact%20Aware%20Manipulati.md) · 多模态基础模型 机器人学习 具身智能评测与基准
+- [ODeform: Learning Continuous 4D Motion for Shape Deformation with Neural ODEs](items/ODeform%20Learning%20Continuous%204D%20Motion%20for%20Shape%20Deformation%20with%20Neural%20ODEs.md) · 世界模型
+- [Towards Miniature Humanoid Tele-Loco-Manipulation Using Virtual Reality and Reinforcement Learning](items/Towards%20Miniature%20Humanoid%20Tele-Loco-Manipulation%20Using%20Virtual%20Reality%20and%20Rein.md) · 机器人学习
 
 <details>
 <summary>运行信息与信息源错误</summary>

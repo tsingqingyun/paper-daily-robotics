@@ -14,7 +14,7 @@ created: 2026-07-20
 - **规模**：2138 个候选 → 24 篇入选；回填 0 篇
 - **主题**：具身智能评测与基准 16、多模态基础模型 12、智能体 Agent 12、机器人学习 11、世界模型 10、视觉语言动作模型 VLA 6、Sim2Real 1
 - **源异常**：0
-- **需要更高精度**：从“必读”选择论文，进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **需要更高精度**：从“必读”选择论文，进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -55,18 +55,18 @@ created: 2026-07-20
 
 ## 其余存档 12 篇
 
-- [RAVEN: Reinforcement-Adaptive Visibility-Graph Planning for Robust Humanoid Navigation with Collision-Free MPC](items/RAVEN%20Reinforcement-Adaptive%20Visibility-Graph%20Planning%20for%20Robust%20Humanoid%20Navig.md) · [[智能体 Agent]] [[机器人学习]] [[具身智能评测与基准]]
-- [PACE: Persona Adaptation through Conversational Elicitation in Human-Robot Interaction](items/PACE%20Persona%20Adaptation%20through%20Conversational%20Elicitation%20in%20Human-Robot%20Intera.md) · [[多模态基础模型]] [[具身智能评测与基准]]
-- [VTLoc: Learning-based Tactile Contact Localization in Visual Point Clouds](items/VTLoc%20Learning-based%20Tactile%20Contact%20Localization%20in%20Visual%20Point%20Clouds.md) · [[具身智能评测与基准]]
-- [AEGIS: Assay-Aware Protocol Validation and Runtime Monitoring for Open-Source Liquid Handling Robots](items/AEGIS%20Assay-Aware%20Protocol%20Validation%20and%20Runtime%20Monitoring%20for%20Open-Source%20Liq.md) · [[多模态基础模型]] [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
-- [Recursive Harness Self-Improvement](items/Recursive%20Harness%20Self-Improvement.md) · [[多模态基础模型]] [[智能体 Agent]]
-- [Robust Silicone Pour Casting and Sensor Embedding Procedures for Soft Robotic Actuators](items/Robust%20Silicone%20Pour%20Casting%20and%20Sensor%20Embedding%20Procedures%20for%20Soft%20Robotic%20Ac.md) · [[世界模型]] [[具身智能评测与基准]]
-- [DPNeXt: A Lightweight Multi-Scale Feature Fusion Framework for Efficient ViT-Based Multi-Task Dense Prediction](items/DPNeXt%20A%20Lightweight%20Multi-Scale%20Feature%20Fusion%20Framework%20for%20Efficient%20ViT-Base.md) · [[多模态基础模型]]
-- [DSWorld: A Data Science World Model for Efficient Autonomous Agents](items/DSWorld%20A%20Data%20Science%20World%20Model%20for%20Efficient%20Autonomous%20Agents.md) · [[智能体 Agent]] [[世界模型]] [[机器人学习]]
-- [An Intelligent-Cloud Edge Multimodal Interaction System for Robots](items/An%20Intelligent-Cloud%20Edge%20Multimodal%20Interaction%20System%20for%20Robots.md) · [[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
-- [Action QFormer: Structured Representation Shaping under Action Supervision in Vision-Language-Action Models](items/Action%20QFormer%20Structured%20Representation%20Shaping%20under%20Action%20Supervision%20in%20Vis.md) · [[多模态基础模型]] [[视觉语言动作模型 VLA]] [[Sim2Real]]
-- [Data and Learning Where it Matters for Contact-Rich Manipulation](items/Data%20and%20Learning%20Where%20it%20Matters%20for%20Contact-Rich%20Manipulation.md) · [[智能体 Agent]] [[机器人学习]] [[具身智能评测与基准]]
-- [NeuroCommitSSM: Decision-Centric Shared Autonomy for Safe Assistive Manipulation via EEG-EMG-ET Commit Readiness](items/NeuroCommitSSM%20Decision-Centric%20Shared%20Autonomy%20for%20Safe%20Assistive%20Manipulation.md) · [[智能体 Agent]]
+- [RAVEN: Reinforcement-Adaptive Visibility-Graph Planning for Robust Humanoid Navigation with Collision-Free MPC](items/RAVEN%20Reinforcement-Adaptive%20Visibility-Graph%20Planning%20for%20Robust%20Humanoid%20Navig.md) · 智能体 Agent 机器人学习 具身智能评测与基准
+- [PACE: Persona Adaptation through Conversational Elicitation in Human-Robot Interaction](items/PACE%20Persona%20Adaptation%20through%20Conversational%20Elicitation%20in%20Human-Robot%20Intera.md) · 多模态基础模型 具身智能评测与基准
+- [VTLoc: Learning-based Tactile Contact Localization in Visual Point Clouds](items/VTLoc%20Learning-based%20Tactile%20Contact%20Localization%20in%20Visual%20Point%20Clouds.md) · 具身智能评测与基准
+- [AEGIS: Assay-Aware Protocol Validation and Runtime Monitoring for Open-Source Liquid Handling Robots](items/AEGIS%20Assay-Aware%20Protocol%20Validation%20and%20Runtime%20Monitoring%20for%20Open-Source%20Liq.md) · 多模态基础模型 世界模型 机器人学习 具身智能评测与基准
+- [Recursive Harness Self-Improvement](items/Recursive%20Harness%20Self-Improvement.md) · 多模态基础模型 智能体 Agent
+- [Robust Silicone Pour Casting and Sensor Embedding Procedures for Soft Robotic Actuators](items/Robust%20Silicone%20Pour%20Casting%20and%20Sensor%20Embedding%20Procedures%20for%20Soft%20Robotic%20Ac.md) · 世界模型 具身智能评测与基准
+- [DPNeXt: A Lightweight Multi-Scale Feature Fusion Framework for Efficient ViT-Based Multi-Task Dense Prediction](items/DPNeXt%20A%20Lightweight%20Multi-Scale%20Feature%20Fusion%20Framework%20for%20Efficient%20ViT-Base.md) · 多模态基础模型
+- [DSWorld: A Data Science World Model for Efficient Autonomous Agents](items/DSWorld%20A%20Data%20Science%20World%20Model%20for%20Efficient%20Autonomous%20Agents.md) · 智能体 Agent 世界模型 机器人学习
+- [An Intelligent-Cloud Edge Multimodal Interaction System for Robots](items/An%20Intelligent-Cloud%20Edge%20Multimodal%20Interaction%20System%20for%20Robots.md) · 多模态基础模型 智能体 Agent 具身智能评测与基准
+- [Action QFormer: Structured Representation Shaping under Action Supervision in Vision-Language-Action Models](items/Action%20QFormer%20Structured%20Representation%20Shaping%20under%20Action%20Supervision%20in%20Vis.md) · 多模态基础模型 视觉语言动作模型 VLA Sim2Real
+- [Data and Learning Where it Matters for Contact-Rich Manipulation](items/Data%20and%20Learning%20Where%20it%20Matters%20for%20Contact-Rich%20Manipulation.md) · 智能体 Agent 机器人学习 具身智能评测与基准
+- [NeuroCommitSSM: Decision-Centric Shared Autonomy for Safe Assistive Manipulation via EEG-EMG-ET Commit Readiness](items/NeuroCommitSSM%20Decision-Centric%20Shared%20Autonomy%20for%20Safe%20Assistive%20Manipulation.md) · 智能体 Agent
 
 <details>
 <summary>运行信息与信息源错误</summary>

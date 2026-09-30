@@ -185,8 +185,15 @@ def migrate(vault: Path, dry_run: bool = False) -> dict[str, int]:
     for digest in digests:
         run_date = digest.name[:10]
         old_digest = digest.read_text(encoding="utf-8")
+        references = digest_references(vault, old_digest, run_date)
+        detail_paths.update(path for _, _, path in references)
+        required = ("format_version: 2", "## 问题", "## 创新点或方法", "## 证据", "## 局限", "## 研究关联", "<summary>原始摘要与来源</summary>")
+        if (references and all(marker in old_digest for marker in ("format_version: 2", "30 秒结论", "## 必读", "## 扫读", "## 其余存档"))
+                and all(all(marker in path.read_text(encoding="utf-8") for marker in required) for _, _, path in references)):
+            # A structural migration must not overwrite reviewed explanations with extraction.
+            continue
         items: list[dict[str, Any]] = []
-        for link_path, label, detail_path in digest_references(vault, old_digest, run_date):
+        for link_path, label, detail_path in references:
             detail_paths.add(detail_path)
             item = parse_detail(detail_path, run_date, link_path, label)
             new_detail = flow.note_body(item, item["concepts"], item["score"], run_date)

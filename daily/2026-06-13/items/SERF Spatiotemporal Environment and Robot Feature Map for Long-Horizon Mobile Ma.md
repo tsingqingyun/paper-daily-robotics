@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "智能体 Agent", "视觉语言动作模型
 > [!summary] 一句话结论（基于摘要）
 > We demonstrate SERF on BEHAVIOR-1K, a benchmark for long-horizon mobile manipulation in household environments.
 
-## 关键点
+## 问题
 
-- **问题**：Experiments show that the SERF VLA policy outperforms image-only baselines, reaches subgoals faster by following more direct trajectories, improves robustness to scene-configuration shifts, and recovers from object-drop failures.
-- **创新点 / 方法**：Long-horizon robot mobile manipulation requires continual reasoning about localization, environment changes, and task progress, all of which are challenging to infer from image observations alone.
-- **证据**：We demonstrate SERF on BEHAVIOR-1K, a benchmark for long-horizon mobile manipulation in household environments.
-- **局限**：摘要未明确说明；需阅读全文核查。
+Experiments show that the SERF VLA policy outperforms image-only baselines, reaches subgoals faster by following more direct trajectories, improves robustness to scene-configuration shifts, and recovers from object-drop failures.
+
+## 创新点或方法
+
+Long-horizon robot mobile manipulation requires continual reasoning about localization, environment changes, and task progress, all of which are challenging to infer from image observations alone.
+
+## 证据
+
+We demonstrate SERF on BEHAVIOR-1K, a benchmark for long-horizon mobile manipulation in household environments.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 智能体 Agent 视觉语言动作模型 VLA 具身智能评测与基准
 - **筛选分数**：35
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-13/SERF Spatiotemporal Environment and Robot Feature Map for Long-Horizon Mobile Ma.md" --level full`
 

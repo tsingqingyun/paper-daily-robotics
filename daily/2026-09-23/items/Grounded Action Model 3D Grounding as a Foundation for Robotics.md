@@ -42,10 +42,10 @@ RoboTwin 2.0 的50项任务平均成功率55.3%，Spatial Forcing为52.0%；场�
 
 对VLA和分层机器人系统研究者，价值在于把目标定位变成明确的策略接口，既便于研究空间泛化，也方便Agent通过点、框等方式指定操作对象。
 
-- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]] [[机器人学习]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 智能体 Agent 视觉语言动作模型 VLA 机器人学习 具身智能评测与基准
 - **筛选分数**：49
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-23/Grounded Action Model 3D Grounding as a Foundation for Robotics.md" --level full`
 

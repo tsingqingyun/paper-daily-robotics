@@ -42,10 +42,10 @@ concepts: ["视觉语言动作模型 VLA", "机器人学习"]
 
 对VLA与机器人学习，提供在单相机部署条件下利用训练期多视角监督和历史记忆的具体路径。
 
-- **概念**：[[视觉语言动作模型 VLA]] [[机器人学习]]
+- **概念**：视觉语言动作模型 VLA 机器人学习
 - **筛选分数**：27
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-18/LIFD Anchored Diffusion for 3D-Aware Scene Memory in Robotic Manipulation.md" --level full`
 

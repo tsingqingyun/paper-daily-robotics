@@ -1,21 +1,21 @@
 ---
 type: daily-update
 tags: [update, ai, embodied-ai]
-format_version: 3
+format_version: 2
 evidence_level: abstract
 created: 2026-09-09
 ---
 
 # 2026-09-09 AI Embodied Intelligence Update
 
-> [!summary] 今日判断
+> [!summary] 30 秒结论
 > 今天最值得精读的是三类工作：揭示机器人评测如何给出假阳性的语言迁移研究、通过测试时更新或示例检索实现适配的方法，以及拆解世界模型与动作学习关系的受控实验。硬件与系统侧也有扎实结果：相机可动性、通信预算和触觉传感器差异都会直接影响能力，不能只看模型成功率。
 > **趋势**：共同趋势是把部署过程纳入方法设计：策略开始利用探索、检索、记忆修正和执行反馈持续调整行为。与此同时，研究越来越重视语言、视觉、动力学与硬件约束之间的接口，但不少摘要仍缺少足以判断收益来源的定量对照。
 
 - **规模**：2300 个候选 → 24 篇入选；回填 0 篇
 - **主题**：具身智能评测与基准 20、多模态基础模型 14、世界模型 12、智能体 Agent 11、视觉语言动作模型 VLA 11、机器人学习 7
 - **源异常**：1
-- **阅读方式**：先看 5 篇必读的“为什么值得读”，有用再进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **阅读方式**：先看 5 篇必读的“为什么值得读”，有用再进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -71,18 +71,18 @@ created: 2026-09-09
 
 ## 其余存档 12 篇
 
-- [Safe Task Planning with Long-Term Graph Memory for Embodied Agents](items/Safe%20Task%20Planning%20with%20Long-Term%20Graph%20Memory%20for%20Embodied%20Agents.md) · [[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
-- [Bridging Language and Physics: Automated Design of Continuum Robots with Large Language Models](items/Bridging%20Language%20and%20Physics%20Automated%20Design%20of%20Continuum%20Robots%20with%20Large%20La.md) · [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
-- [Proxy Policy Steering](items/Proxy%20Policy%20Steering.md) · [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
-- [Observe Before You Alert: Adaptive Driver Alerting with Vision-Language Models](items/Observe%20Before%20You%20Alert%20Adaptive%20Driver%20Alerting%20with%20Vision-Language%20Models.md) · [[多模态基础模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [A Multimodal Label Forecasting Method for Aperiodic Visuo-Motor Time Series](items/A%20Multimodal%20Label%20Forecasting%20Method%20for%20Aperiodic%20Visuo-Motor%20Time%20Series.md) · [[多模态基础模型]] [[世界模型]] [[具身智能评测与基准]]
-- [MemForest: Efficient Agent Memory Management via EventTree Partitioning and Progressive Merging](items/MemForest%20Efficient%20Agent%20Memory%20Management%20via%20EventTree%20Partitioning%20and%20Progr.md) · [[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
-- [3DWay: Generalizing Robot Manipulation via 3D Consistent Waypoints](items/3DWay%20Generalizing%20Robot%20Manipulation%20via%203D%20Consistent%20Waypoints.md) · [[多模态基础模型]] [[视觉语言动作模型 VLA]]
-- [OmniNav: Robust Long-Horizon Target Navigation in Dynamic Environments](items/OmniNav%20Robust%20Long-Horizon%20Target%20Navigation%20in%20Dynamic%20Environments.md) · [[智能体 Agent]] [[具身智能评测与基准]]
-- [CosmoH2G: A Hand-to-Gripper Transfer Dataset and Baseline Method for Object Manipulation with Complex Spatial Movements](items/CosmoH2G%20A%20Hand-to-Gripper%20Transfer%20Dataset%20and%20Baseline%20Method%20for%20Object%20Manip.md) · [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
-- [CAST: Alternating State-Value Targets and Expanded Policy Gradients for Model-Based Reinforcement Learning](items/CAST%20Alternating%20State-Value%20Targets%20and%20Expanded%20Policy%20Gradients%20for%20Model-Bas.md) · [[智能体 Agent]] [[世界模型]] [[机器人学习]]
-- [Towards Embodied Air-Ground Cooperative Object Search: Benchmark, Dataset and Agentic Method](items/Towards%20Embodied%20Air-Ground%20Cooperative%20Object%20Search%20Benchmark%2C%20Dataset%20and%20Age.md) · [[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
-- [VeriScene: Reconstructing Crime Scenes from Legal Evidence via World-Model Agent](items/VeriScene%20Reconstructing%20Crime%20Scenes%20from%20Legal%20Evidence%20via%20World-Model%20Agent.md) · [[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
+- [Safe Task Planning with Long-Term Graph Memory for Embodied Agents](items/Safe%20Task%20Planning%20with%20Long-Term%20Graph%20Memory%20for%20Embodied%20Agents.md) · 多模态基础模型 智能体 Agent 具身智能评测与基准
+- [Bridging Language and Physics: Automated Design of Continuum Robots with Large Language Models](items/Bridging%20Language%20and%20Physics%20Automated%20Design%20of%20Continuum%20Robots%20with%20Large%20La.md) · 世界模型 机器人学习 具身智能评测与基准
+- [Proxy Policy Steering](items/Proxy%20Policy%20Steering.md) · 世界模型 机器人学习 具身智能评测与基准
+- [Observe Before You Alert: Adaptive Driver Alerting with Vision-Language Models](items/Observe%20Before%20You%20Alert%20Adaptive%20Driver%20Alerting%20with%20Vision-Language%20Models.md) · 多模态基础模型 视觉语言动作模型 VLA 具身智能评测与基准
+- [A Multimodal Label Forecasting Method for Aperiodic Visuo-Motor Time Series](items/A%20Multimodal%20Label%20Forecasting%20Method%20for%20Aperiodic%20Visuo-Motor%20Time%20Series.md) · 多模态基础模型 世界模型 具身智能评测与基准
+- [MemForest: Efficient Agent Memory Management via EventTree Partitioning and Progressive Merging](items/MemForest%20Efficient%20Agent%20Memory%20Management%20via%20EventTree%20Partitioning%20and%20Progr.md) · 多模态基础模型 智能体 Agent 具身智能评测与基准
+- [3DWay: Generalizing Robot Manipulation via 3D Consistent Waypoints](items/3DWay%20Generalizing%20Robot%20Manipulation%20via%203D%20Consistent%20Waypoints.md) · 多模态基础模型 视觉语言动作模型 VLA
+- [OmniNav: Robust Long-Horizon Target Navigation in Dynamic Environments](items/OmniNav%20Robust%20Long-Horizon%20Target%20Navigation%20in%20Dynamic%20Environments.md) · 智能体 Agent 具身智能评测与基准
+- [CosmoH2G: A Hand-to-Gripper Transfer Dataset and Baseline Method for Object Manipulation with Complex Spatial Movements](items/CosmoH2G%20A%20Hand-to-Gripper%20Transfer%20Dataset%20and%20Baseline%20Method%20for%20Object%20Manip.md) · 世界模型 机器人学习 具身智能评测与基准
+- [CAST: Alternating State-Value Targets and Expanded Policy Gradients for Model-Based Reinforcement Learning](items/CAST%20Alternating%20State-Value%20Targets%20and%20Expanded%20Policy%20Gradients%20for%20Model-Bas.md) · 智能体 Agent 世界模型 机器人学习
+- [Towards Embodied Air-Ground Cooperative Object Search: Benchmark, Dataset and Agentic Method](items/Towards%20Embodied%20Air-Ground%20Cooperative%20Object%20Search%20Benchmark%2C%20Dataset%20and%20Age.md) · 多模态基础模型 智能体 Agent 具身智能评测与基准
+- [VeriScene: Reconstructing Crime Scenes from Legal Evidence via World-Model Agent](items/VeriScene%20Reconstructing%20Crime%20Scenes%20from%20Legal%20Evidence%20via%20World-Model%20Agent.md) · 多模态基础模型 智能体 Agent 世界模型 具身智能评测与基准
 
 <details>
 <summary>运行信息与信息源状态</summary>

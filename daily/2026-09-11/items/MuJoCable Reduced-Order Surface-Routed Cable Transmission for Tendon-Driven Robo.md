@@ -1,7 +1,7 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
-format_version: 3
+format_version: 2
 evidence_level: abstract
 reading_status: skimmed
 needs_fulltext: true
@@ -20,24 +20,33 @@ concepts: ["世界模型", "Sim2Real", "具身智能评测与基准"]
 > [!summary] 先说人话（基于摘要）
 > We present MuJoCable, which adds a reduced-order, configuration-dependent cable transmission to MuJoCo.
 
-## 这篇到底在做什么
+## 问题
 
-- **卡在哪里**：Tendon transmissions reduce distal inertia and add compliance, yet routing, slack, and friction govern motion and force transfer.
-- **关键解法**：We present MuJoCable, which adds a reduced-order, configuration-dependent cable transmission to MuJoCo.
-- **拿什么证明**：摘要未报告明确实验结论；需阅读全文核查。
+Tendon transmissions reduce distal inertia and add compliance, yet routing, slack, and friction govern motion and force transfer.
 
-## 值不值得读
+## 创新点或方法
 
-- **和你的研究有什么关系**：需结合研究方向判断；规则式回退未做语义评审。
-- **先别急着信**：On the underactuated 18-joint SpiRobs, MuJoCable reveals friction-driven load growth and proximal redistribution of joint rotation that the native tendon does not represent.
+We present MuJoCable, which adds a reduced-order, configuration-dependent cable transmission to MuJoCo.
+
+## 证据
+
+摘要未报告明确实验结论；需阅读全文核查。
+
+
+## 局限
+
+On the underactuated 18-joint SpiRobs, MuJoCable reveals friction-driven load growth and proximal redistribution of joint rotation that the native tendon does not represent.
+
 - **判断**：仅完成摘要摘取，建议等待语义讲解或阅读全文。
 
 ## 研究关联
 
-- **概念**：[[世界模型]] [[Sim2Real]] [[具身智能评测与基准]]
+需结合研究方向判断；规则式回退未做语义评审。
+
+- **概念**：世界模型 Sim2Real 具身智能评测与基准
 - **筛选分数**：25
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-11/MuJoCable Reduced-Order Surface-Routed Cable Transmission for Tendon-Driven Robo.md" --level full`
 

@@ -20,19 +20,29 @@ concepts: ["智能体 Agent", "具身智能评测与基准"]
 > [!summary] 一句话结论（基于摘要）
 > Embodied AI systems are increasingly expected to reason and act over extended horizons in physical environments.
 
-## 关键点
+## 问题
 
-- **问题**：This growing capability brings safety to the foreground, because failures in the physical world can harm people, damage objects, and disrupt workplaces.
-- **创新点 / 方法**：Embodied AI systems are increasingly expected to reason and act over extended horizons in physical environments.
-- **证据**：摘要未报告明确实验结论；需阅读全文核查。
-- **局限**：摘要未明确说明；需阅读全文核查。
+This growing capability brings safety to the foreground, because failures in the physical world can harm people, damage objects, and disrupt workplaces.
+
+## 创新点或方法
+
+Embodied AI systems are increasingly expected to reason and act over extended horizons in physical environments.
+
+## 证据
+
+摘要未报告明确实验结论；需阅读全文核查。
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[智能体 Agent]] [[具身智能评测与基准]]
+- **概念**：智能体 Agent 具身智能评测与基准
 - **筛选分数**：40
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-08/Safe Embodied AI for Long-horizon Tasks A Cross-layer Analysis of Robotic Manipu.md" --level full`
 

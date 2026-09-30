@@ -20,19 +20,29 @@ concepts: ["智能体 Agent"]
 > [!summary] 一句话结论（基于摘要）
 > Experiments on LangMap and HM3D-OVON show that SAP-Nav achieves the overall best performance, including a 12.2% improvement in SR over training-based methods on region-level navigation.
 
-## 关键点
+## 问题
 
-- **问题**：Although recent work LangMap has formalized this setting, reliably solving it under partial observations remains challenging: spatial grounding requires persistent environment-level evidence, whereas target verification requires clear and discriminative candidate views.
-- **创新点 / 方法**：We present SAP-Nav, a fully online, zero-shot framework that addresses both requirements through active perception.
-- **证据**：Experiments on LangMap and HM3D-OVON show that SAP-Nav achieves the overall best performance, including a 12.2% improvement in SR over training-based methods on region-level navigation.
-- **局限**：Although recent work LangMap has formalized this setting, reliably solving it under partial observations remains challenging: spatial grounding requires persistent environment-level evidence, whereas target verification requires clear and discriminative candidate views.
+Although recent work LangMap has formalized this setting, reliably solving it under partial observations remains challenging: spatial grounding requires persistent environment-level evidence, whereas target verification requires clear and discriminative candidate views.
+
+## 创新点或方法
+
+We present SAP-Nav, a fully online, zero-shot framework that addresses both requirements through active perception.
+
+## 证据
+
+Experiments on LangMap and HM3D-OVON show that SAP-Nav achieves the overall best performance, including a 12.2% improvement in SR over training-based methods on region-level navigation.
+
+## 局限
+
+Although recent work LangMap has formalized this setting, reliably solving it under partial observations remains challenging: spatial grounding requires persistent environment-level evidence, whereas target verification requires clear and discriminative candidate views.
+
 
 ## 研究关联
 
-- **概念**：[[智能体 Agent]]
+- **概念**：智能体 Agent
 - **筛选分数**：28
 - **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-15/SAP-Nav Spatial Semantic Representation Meets Active Perception for Hierarchical.md" --level full`
 

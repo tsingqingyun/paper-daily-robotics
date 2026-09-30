@@ -42,10 +42,10 @@ Action-Centric Encoder将视频中的视觉转变转为VLA中期训练监督；I
 
 对VLA和机器人学习，分别回答人类视频如何补充机器人数据、部署交互如何提供适应信号，且提供了数据规模与收益的具体参照。
 
-- **概念**：[[视觉语言动作模型 VLA]] [[机器人学习]]
+- **概念**：视觉语言动作模型 VLA 机器人学习
 - **筛选分数**：32
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-23/Zeva-Ego Egocentric Mid-Training with In-Context Causal Learning for Robot Manip.md" --level full`
 

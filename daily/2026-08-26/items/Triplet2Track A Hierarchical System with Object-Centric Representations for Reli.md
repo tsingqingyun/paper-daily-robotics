@@ -20,19 +20,29 @@ concepts: ["智能体 Agent", "视觉语言动作模型 VLA", "机器人学习",
 > [!summary] 一句话结论（基于摘要）
 > Across diverse real-world long-horizon tasks, TTS achieves a 74.8\% average success rate and supports object-level and compositional generalization.
 
-## 关键点
+## 问题
 
-- **问题**：Ensuring reliability in uncertain environments remains difficult for long-horizon robotic manipulation.
-- **创新点 / 方法**：To address these issues, we introduce the Triplet-to-Track System (TTS), a closed-loop long-horizon imitation learning system that uses human videos to reduce reliance on robot-collected data.
-- **证据**：Across diverse real-world long-horizon tasks, TTS achieves a 74.8\% average success rate and supports object-level and compositional generalization.
-- **局限**：摘要未明确说明；需阅读全文核查。
+Ensuring reliability in uncertain environments remains difficult for long-horizon robotic manipulation.
+
+## 创新点或方法
+
+To address these issues, we introduce the Triplet-to-Track System (TTS), a closed-loop long-horizon imitation learning system that uses human videos to reduce reliance on robot-collected data.
+
+## 证据
+
+Across diverse real-world long-horizon tasks, TTS achieves a 74.8\% average success rate and supports object-level and compositional generalization.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[智能体 Agent]] [[视觉语言动作模型 VLA]] [[机器人学习]] [[具身智能评测与基准]]
+- **概念**：智能体 Agent 视觉语言动作模型 VLA 机器人学习 具身智能评测与基准
 - **筛选分数**：33
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-26/Triplet2Track A Hierarchical System with Object-Centric Representations for Reli.md" --level full`
 

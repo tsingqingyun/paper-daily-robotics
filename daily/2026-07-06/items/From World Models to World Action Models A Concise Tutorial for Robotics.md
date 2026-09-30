@@ -20,19 +20,29 @@ concepts: ["世界模型", "视觉语言动作模型 VLA"]
 > [!summary] 一句话结论（基于摘要）
 > This tutorial presents a design- space view of world models as action-conditioned predictive models that estimate the future evolution of task-relevant observations or states.
 
-## 关键点
+## 问题
 
-- **问题**：World models are increasingly used in embodied intelligence and generative simulation, yet their scope remains ambiguous across communities.
-- **创新点 / 方法**：This tutorial presents a design- space view of world models as action-conditioned predictive models that estimate the future evolution of task-relevant observations or states.
-- **证据**：摘要未报告明确实验结论；需阅读全文核查。
-- **局限**：摘要未明确说明；需阅读全文核查。
+World models are increasingly used in embodied intelligence and generative simulation, yet their scope remains ambiguous across communities.
+
+## 创新点或方法
+
+This tutorial presents a design- space view of world models as action-conditioned predictive models that estimate the future evolution of task-relevant observations or states.
+
+## 证据
+
+摘要未报告明确实验结论；需阅读全文核查。
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[世界模型]] [[视觉语言动作模型 VLA]]
+- **概念**：世界模型 视觉语言动作模型 VLA
 - **筛选分数**：28
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-07-06/From World Models to World Action Models A Concise Tutorial for Robotics.md" --level full`
 

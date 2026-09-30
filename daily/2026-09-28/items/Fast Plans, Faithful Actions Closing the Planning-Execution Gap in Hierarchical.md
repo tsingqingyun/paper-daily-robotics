@@ -42,10 +42,10 @@ LIBERO 上最多 VLM 前向次数从 57 降至 8，含一次前缀预填充；�
 
 对分层 VLA 与机器人智能体研究者，最有价值的是同时检查规划成本和规划的实际控制作用。擦除规划的干预也提供了检验模块是否被使用的直接思路。
 
-- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 智能体 Agent 视觉语言动作模型 VLA 具身智能评测与基准
 - **筛选分数**：28
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-28/Fast Plans, Faithful Actions Closing the Planning-Execution Gap in Hierarchical.md" --level full`
 

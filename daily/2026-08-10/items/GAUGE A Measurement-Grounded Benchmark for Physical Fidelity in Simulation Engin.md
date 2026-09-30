@@ -22,19 +22,29 @@ concepts: ["世界模型", "具身智能评测与基准"]
 > [!summary] 一句话结论（基于摘要）
 > We introduce GAUGE, a real-world-grounded diagnostic benchmark for jointly evaluating how numerical simulators and generative video world models reproduce or deviate from real-world physics.
 
-## 关键点
+## 问题
 
-- **问题**：However, existing evaluations of physical fidelity are often conducted in isolation and rely heavily on perceptual similarity or human judgments, providing limited insight into which physical principles or parameters are violated.
-- **创新点 / 方法**：We introduce GAUGE, a real-world-grounded diagnostic benchmark for jointly evaluating how numerical simulators and generative video world models reproduce or deviate from real-world physics.
-- **证据**：摘要未报告明确实验结论；需阅读全文核查。
-- **局限**：摘要未明确说明；需阅读全文核查。
+However, existing evaluations of physical fidelity are often conducted in isolation and rely heavily on perceptual similarity or human judgments, providing limited insight into which physical principles or parameters are violated.
+
+## 创新点或方法
+
+We introduce GAUGE, a real-world-grounded diagnostic benchmark for jointly evaluating how numerical simulators and generative video world models reproduce or deviate from real-world physics.
+
+## 证据
+
+摘要未报告明确实验结论；需阅读全文核查。
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[世界模型]] [[具身智能评测与基准]]
+- **概念**：世界模型 具身智能评测与基准
 - **筛选分数**：28
 - **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
-- **L2 精读**：[[50_Papers/Deep Reads/GAUGE 2608.05948v1/README|已完成精读报告]]
+- **L2 精读**：[已完成精读报告](../../../deep-reads/GAUGE%202608.05948v1/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-10/GAUGE A Measurement-Grounded Benchmark for Physical Fidelity in Simulation Engin.md" --level full`
 

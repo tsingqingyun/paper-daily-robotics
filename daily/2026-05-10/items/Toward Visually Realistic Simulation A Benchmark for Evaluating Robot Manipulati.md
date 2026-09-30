@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "智能体 Agent", "世界模型", "视觉�
 > [!summary] 一句话结论（基于摘要）
 > Our results show that these factors play a critical role in geometric reasoning and spatial grounding, yet are largely overlooked in existing benchmarks.
 
-## 关键点
+## 问题
 
-- **问题**：Although existing benchmarks cover a wide range of task categories, they lack visual realism, creating a large domain gap between simulation and reality.
-- **创新点 / 方法**：Motivated by the analysis, we propose VISER, a visually realistic benchmark for evaluating robot manipulation in simulation.
-- **证据**：Our results show that these factors play a critical role in geometric reasoning and spatial grounding, yet are largely overlooked in existing benchmarks.
-- **局限**：摘要未明确说明；需阅读全文核查。
+Although existing benchmarks cover a wide range of task categories, they lack visual realism, creating a large domain gap between simulation and reality.
+
+## 创新点或方法
+
+Motivated by the analysis, we propose VISER, a visually realistic benchmark for evaluating robot manipulation in simulation.
+
+## 证据
+
+Our results show that these factors play a critical role in geometric reasoning and spatial grounding, yet are largely overlooked in existing benchmarks.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[视觉语言动作模型 VLA]] [[Sim2Real]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 智能体 Agent 世界模型 视觉语言动作模型 VLA Sim2Real 具身智能评测与基准
 - **筛选分数**：30
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-05-10/Toward Visually Realistic Simulation A Benchmark for Evaluating Robot Manipulati.md" --level full`
 

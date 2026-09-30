@@ -1,21 +1,21 @@
 ---
 type: daily-update
 tags: [update, ai, embodied-ai]
-format_version: 3
+format_version: 2
 evidence_level: abstract
 created: 2026-09-10
 ---
 
 # 2026-09-10 AI Embodied Intelligence Update
 
-> [!summary] 今日判断
+> [!summary] 30 秒结论
 > 今天最值得深读的是两类工作：一类追问评测是否真的测到了物理推断、持续记忆和安全决策，另一类通过视觉校准、交互抽象和模拟触觉补全改善机器人学习。CALIPER 的评测反例尤其有辨识力；SyncWorld、FOCI Policy 和 DEX-X 的机制值得跟进，但需分别核查泛化范围、数据效率和重建依赖。工程方向则可优先关注地形适应、双臂仿真数据扩展与遥操作采集。
 > **趋势**：共同趋势是把交互历史、持续状态、相对几何和物理约束显式放进系统，以减少单帧感知或直接动作预测的负担。评测也开始主动引入环境变化、视觉干扰和长时上下文，检查模型成绩究竟来自目标能力还是场景捷径。
 
 - **规模**：2303 个候选 → 24 篇入选；回填 0 篇
 - **主题**：具身智能评测与基准 12、世界模型 11、机器人学习 9、智能体 Agent 8、多模态基础模型 5、AI 核心知识地图 3、Sim2Real 2
 - **源异常**：1
-- **阅读方式**：先看 5 篇必读的“为什么值得读”，有用再进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **阅读方式**：先看 5 篇必读的“为什么值得读”，有用再进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -71,18 +71,18 @@ created: 2026-09-10
 
 ## 其余存档 12 篇
 
-- [From Where to How: Continuous 4D Interaction Forecasting from Egocentric Video](items/From%20Where%20to%20How%20Continuous%204D%20Interaction%20Forecasting%20from%20Egocentric%20Video.md) · [[世界模型]] [[具身智能评测与基准]]
-- [PGMT: Perceptive General Motion Tracking for Humanoid Robots](items/PGMT%20Perceptive%20General%20Motion%20Tracking%20for%20Humanoid%20Robots.md) · [[机器人学习]]
-- [RoboCousin: Build Your Own Simulation Playground for Robust Bimanual Robotic Manipulation](items/RoboCousin%20Build%20Your%20Own%20Simulation%20Playground%20for%20Robust%20Bimanual%20Robotic%20Mani.md) · [[世界模型]] [[机器人学习]] [[Sim2Real]]
-- [SPOT: Spatial Perception-Oriented Long-Horizon Humanoid Teleoperation](items/SPOT%20Spatial%20Perception-Oriented%20Long-Horizon%20Humanoid%20Teleoperation.md) · [[智能体 Agent]] [[机器人学习]]
-- [Dex-X: Learning Visual-Tactile Dexterous Manipulation From Human Videos with Simulated Interaction](items/Dex-X%20Learning%20Visual-Tactile%20Dexterous%20Manipulation%20From%20Human%20Videos%20with%20Simu.md) · [[世界模型]] [[机器人学习]] [[Sim2Real]]
-- [Decentralized Safe Multi-Agent Reinforcement Learning via Predictive Shielding](items/Decentralized%20Safe%20Multi-Agent%20Reinforcement%20Learning%20via%20Predictive%20Shielding.md) · [[智能体 Agent]] [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
-- [D3ARC: Time-Critical Distributed Disaster Detection for Asynchronous Cooperative Multi-Robot Systems](items/D3ARC%20Time-Critical%20Distributed%20Disaster%20Detection%20for%20Asynchronous%20Cooperative.md) · [[智能体 Agent]] [[世界模型]]
-- [DYAD: A Multimodal Dataset of Co-Located Human Assistance](items/DYAD%20A%20Multimodal%20Dataset%20of%20Co-Located%20Human%20Assistance.md) · [[多模态基础模型]]
-- [HiBRIDGE: A Hierarchical Bayesian Neural Network Framework for Interpretable Dialogue Management in Group-Robot Interaction](items/HiBRIDGE%20A%20Hierarchical%20Bayesian%20Neural%20Network%20Framework%20for%20Interpretable%20Dial.md) · [[AI 核心知识地图]]
-- [AgentIdeaBench: Benchmarking Scientific Ideation in the Agent Era](items/AgentIdeaBench%20Benchmarking%20Scientific%20Ideation%20in%20the%20Agent%20Era.md) · [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
-- [Social Intuition vs. Machine Reasoning: Anticipating Human-Robot Interaction from multiple modalities](items/Social%20Intuition%20vs.%20Machine%20Reasoning%20Anticipating%20Human-Robot%20Interaction%20from.md) · [[多模态基础模型]] [[具身智能评测与基准]]
-- [LightSplat: Real-Time High-Fidelity 3D Gaussian SLAM with Loop Closure](items/LightSplat%20Real-Time%20High-Fidelity%203D%20Gaussian%20SLAM%20with%20Loop%20Closure.md) · [[AI 核心知识地图]]
+- [From Where to How: Continuous 4D Interaction Forecasting from Egocentric Video](items/From%20Where%20to%20How%20Continuous%204D%20Interaction%20Forecasting%20from%20Egocentric%20Video.md) · 世界模型 具身智能评测与基准
+- [PGMT: Perceptive General Motion Tracking for Humanoid Robots](items/PGMT%20Perceptive%20General%20Motion%20Tracking%20for%20Humanoid%20Robots.md) · 机器人学习
+- [RoboCousin: Build Your Own Simulation Playground for Robust Bimanual Robotic Manipulation](items/RoboCousin%20Build%20Your%20Own%20Simulation%20Playground%20for%20Robust%20Bimanual%20Robotic%20Mani.md) · 世界模型 机器人学习 Sim2Real
+- [SPOT: Spatial Perception-Oriented Long-Horizon Humanoid Teleoperation](items/SPOT%20Spatial%20Perception-Oriented%20Long-Horizon%20Humanoid%20Teleoperation.md) · 智能体 Agent 机器人学习
+- [Dex-X: Learning Visual-Tactile Dexterous Manipulation From Human Videos with Simulated Interaction](items/Dex-X%20Learning%20Visual-Tactile%20Dexterous%20Manipulation%20From%20Human%20Videos%20with%20Simu.md) · 世界模型 机器人学习 Sim2Real
+- [Decentralized Safe Multi-Agent Reinforcement Learning via Predictive Shielding](items/Decentralized%20Safe%20Multi-Agent%20Reinforcement%20Learning%20via%20Predictive%20Shielding.md) · 智能体 Agent 世界模型 机器人学习 具身智能评测与基准
+- [D3ARC: Time-Critical Distributed Disaster Detection for Asynchronous Cooperative Multi-Robot Systems](items/D3ARC%20Time-Critical%20Distributed%20Disaster%20Detection%20for%20Asynchronous%20Cooperative.md) · 智能体 Agent 世界模型
+- [DYAD: A Multimodal Dataset of Co-Located Human Assistance](items/DYAD%20A%20Multimodal%20Dataset%20of%20Co-Located%20Human%20Assistance.md) · 多模态基础模型
+- [HiBRIDGE: A Hierarchical Bayesian Neural Network Framework for Interpretable Dialogue Management in Group-Robot Interaction](items/HiBRIDGE%20A%20Hierarchical%20Bayesian%20Neural%20Network%20Framework%20for%20Interpretable%20Dial.md) · AI 核心知识地图
+- [AgentIdeaBench: Benchmarking Scientific Ideation in the Agent Era](items/AgentIdeaBench%20Benchmarking%20Scientific%20Ideation%20in%20the%20Agent%20Era.md) · 智能体 Agent 世界模型 具身智能评测与基准
+- [Social Intuition vs. Machine Reasoning: Anticipating Human-Robot Interaction from multiple modalities](items/Social%20Intuition%20vs.%20Machine%20Reasoning%20Anticipating%20Human-Robot%20Interaction%20from.md) · 多模态基础模型 具身智能评测与基准
+- [LightSplat: Real-Time High-Fidelity 3D Gaussian SLAM with Loop Closure](items/LightSplat%20Real-Time%20High-Fidelity%203D%20Gaussian%20SLAM%20with%20Loop%20Closure.md) · AI 核心知识地图
 
 <details>
 <summary>运行信息与信息源状态</summary>

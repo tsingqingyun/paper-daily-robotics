@@ -20,19 +20,29 @@ concepts: ["智能体 Agent", "机器人学习"]
 > [!summary] 一句话结论（基于摘要）
 > T2RD achieves State-Of-The-Art (SOTA) generalization performance and sample efficiency in the DeepMind Control Suite and Robotic Manipulation tasks.
 
-## 关键点
+## 问题
 
-- **问题**：However, generalizing learned policies to new environments remains a major challenge, as agents often overfit to task-irrelevant features in the training environment.
-- **创新点 / 方法**：To solve this problem, we introduce the concept of decoupling observations into task-relevant and task-irrelevant representations.
-- **证据**：T2RD achieves State-Of-The-Art (SOTA) generalization performance and sample efficiency in the DeepMind Control Suite and Robotic Manipulation tasks.
-- **局限**：摘要未明确说明；需阅读全文核查。
+However, generalizing learned policies to new environments remains a major challenge, as agents often overfit to task-irrelevant features in the training environment.
+
+## 创新点或方法
+
+To solve this problem, we introduce the concept of decoupling observations into task-relevant and task-irrelevant representations.
+
+## 证据
+
+T2RD achieves State-Of-The-Art (SOTA) generalization performance and sample efficiency in the DeepMind Control Suite and Robotic Manipulation tasks.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[智能体 Agent]] [[机器人学习]]
+- **概念**：智能体 Agent 机器人学习
 - **筛选分数**：26
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-07-06/Task-Relevant Representation Decoupling for Visual Reinforcement Learning Genera.md" --level full`
 

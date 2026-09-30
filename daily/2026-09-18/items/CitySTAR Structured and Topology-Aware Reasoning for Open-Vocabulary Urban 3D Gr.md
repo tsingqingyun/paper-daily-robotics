@@ -42,10 +42,10 @@ concepts: ["多模态基础模型", "具身智能评测与基准"]
 
 对多模态空间推理与具身评测，提供从相似度检索转向关系约束验证的路线；与桌面机器人动作学习的联系较间接。
 
-- **概念**：[[多模态基础模型]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 具身智能评测与基准
 - **筛选分数**：28
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-18/CitySTAR Structured and Topology-Aware Reasoning for Open-Vocabulary Urban 3D Gr.md" --level full`
 

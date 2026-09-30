@@ -1,7 +1,7 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
-format_version: 3
+format_version: 2
 evidence_level: abstract
 reading_status: skimmed
 needs_fulltext: true
@@ -20,24 +20,33 @@ concepts: ["智能体 Agent", "世界模型", "具身智能评测与基准"]
 > [!summary] 先说人话（基于摘要）
 > 论文认为 Web Agent 的世界模型不应只逼真预测下一状态，还应让不同候选动作的后果彼此可区分。Predicted-state matching 直接训练预测表征识别真实后继状态，从而改善 PRM 排序与最终任务成功。
 
-## 这篇到底在做什么
+## 问题
 
-- **卡在哪里**：传统监督式下一状态预测生成 HTML 或 AXTree，却与下游 ranker 的需求错位：即便预测看似合理，只要不同候选动作的状态缺乏判别性，测试时选择仍会失败。
-- **关键解法**：作者从 WebArena Go-Browse 轨迹构造分支数据，每个决策点包含多个备选动作及真实结果；世界模型学习让正确后继状态区别于替代动作状态，再把预测状态交给 PRM 式排序器。
-- **拿什么证明**：在留出的 predicted-state matching 基准上优于监督下一状态模型；在 WebPRMBench 上优于纯动作 PRM 和加入监督世界模型的 PRM；在 WebArena-Lite 上提高端到端成功率。摘要未给数字。
+传统监督式下一状态预测生成 HTML 或 AXTree，却与下游 ranker 的需求错位：即便预测看似合理，只要不同候选动作的状态缺乏判别性，测试时选择仍会失败。
 
-## 值不值得读
+## 创新点或方法
 
-- **和你的研究有什么关系**：它对世界模型和 Agent 的实际启示是：训练目标应服务于行动选择，而非单独追求状态重建；这一原则也可能迁移到机器人候选动作评估。
-- **先别急着信**：摘要没有说明判别性提升是否牺牲状态校准或跨网站泛化，也无法判断端到端收益大小。
+作者从 WebArena Go-Browse 轨迹构造分支数据，每个决策点包含多个备选动作及真实结果；世界模型学习让正确后继状态区别于替代动作状态，再把预测状态交给 PRM 式排序器。
+
+## 证据
+
+在留出的 predicted-state matching 基准上优于监督下一状态模型；在 WebPRMBench 上优于纯动作 PRM 和加入监督世界模型的 PRM；在 WebArena-Lite 上提高端到端成功率。摘要未给数字。
+
+
+## 局限
+
+摘要没有说明判别性提升是否牺牲状态校准或跨网站泛化，也无法判断端到端收益大小。
+
 - **判断**：值得精读目标函数和分支数据构造；这是对“预测得像”与“预测得有决策价值”之间差异的清晰论证。
 
 ## 研究关联
 
-- **概念**：[[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
+它对世界模型和 Agent 的实际启示是：训练目标应服务于行动选择，而非单独追求状态重建；这一原则也可能迁移到机器人候选动作评估。
+
+- **概念**：智能体 Agent 世界模型 具身智能评测与基准
 - **筛选分数**：27
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-03/Discriminative World Models for Web Agents.md" --level full`
 

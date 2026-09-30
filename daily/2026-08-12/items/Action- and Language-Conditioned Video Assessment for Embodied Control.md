@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "智能体 Agent"]
 > [!summary] 一句话结论（基于摘要）
 > We propose ALVA (Action- and Language-Conditioned Video Assessment), a trajectory evaluator that conditions its assessment on visual observations, the executed action sequence, and the natural language instruction.
 
-## 关键点
+## 问题
 
-- **问题**：Vision-based embodied agents executing multi-step natural language instructions require feedback mechanisms that assess task progress over complete trajectories.
-- **创新点 / 方法**：We propose ALVA (Action- and Language-Conditioned Video Assessment), a trajectory evaluator that conditions its assessment on visual observations, the executed action sequence, and the natural language instruction.
-- **证据**：摘要未报告明确实验结论；需阅读全文核查。
-- **局限**：摘要未明确说明；需阅读全文核查。
+Vision-based embodied agents executing multi-step natural language instructions require feedback mechanisms that assess task progress over complete trajectories.
+
+## 创新点或方法
+
+We propose ALVA (Action- and Language-Conditioned Video Assessment), a trajectory evaluator that conditions its assessment on visual observations, the executed action sequence, and the natural language instruction.
+
+## 证据
+
+摘要未报告明确实验结论；需阅读全文核查。
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[智能体 Agent]]
+- **概念**：多模态基础模型 智能体 Agent
 - **筛选分数**：25
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-12/Action- and Language-Conditioned Video Assessment for Embodied Control.md" --level full`
 

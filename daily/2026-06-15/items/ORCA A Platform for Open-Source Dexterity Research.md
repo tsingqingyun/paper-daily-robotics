@@ -20,19 +20,29 @@ concepts: ["智能体 Agent", "世界模型", "机器人学习", "具身智能�
 > [!summary] 一句话结论（基于摘要）
 > We demonstrate a complete end-to-end workflow, collecting expert demonstrations of an in- hand reorientation task by teleoperation with a consumer-grade VR headset, training an autonomous policy with \lerobot, and evaluating the learned policy in a fully repr…
 
-## 关键点
+## 问题
 
-- **问题**：Grippers are nonetheless limited by their form factor, often requiring bimanual setups even for simple reorientation tasks.
-- **创新点 / 方法**：In this work, we introduce the \orca~learning stack, an open-source research stack for dexterity as a first-class robot learning domain.
-- **证据**：We demonstrate a complete end-to-end workflow, collecting expert demonstrations of an in- hand reorientation task by teleoperation with a consumer-grade VR headset, training an autonomous policy with \lerobot, and evaluating the learned policy in a fully reproducible and observable setup.
-- **局限**：摘要未明确说明；需阅读全文核查。
+Grippers are nonetheless limited by their form factor, often requiring bimanual setups even for simple reorientation tasks.
+
+## 创新点或方法
+
+In this work, we introduce the \orca~learning stack, an open-source research stack for dexterity as a first-class robot learning domain.
+
+## 证据
+
+We demonstrate a complete end-to-end workflow, collecting expert demonstrations of an in- hand reorientation task by teleoperation with a consumer-grade VR headset, training an autonomous policy with \lerobot, and evaluating the learned policy in a fully reproducible and observable setup.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[智能体 Agent]] [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
+- **概念**：智能体 Agent 世界模型 机器人学习 具身智能评测与基准
 - **筛选分数**：29
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-15/ORCA A Platform for Open-Source Dexterity Research.md" --level full`
 

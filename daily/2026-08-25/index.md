@@ -14,7 +14,7 @@ created: 2026-08-25
 - **规模**：2823 个候选 → 24 篇入选；回填 0 篇
 - **主题**：具身智能评测与基准 14、多模态基础模型 14、智能体 Agent 13、机器人学习 10、世界模型 9、视觉语言动作模型 VLA 7、Sim2Real 1
 - **源异常**：1
-- **需要更高精度**：从“必读”选择论文，进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **需要更高精度**：从“必读”选择论文，进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -55,18 +55,18 @@ created: 2026-08-25
 
 ## 其余存档 12 篇
 
-- [VT-MUSE: Multimodal Unified Sequential Visuotactile Representation Learning for Manipulation](items/VT-MUSE%20Multimodal%20Unified%20Sequential%20Visuotactile%20Representation%20Learning%20for%20M.md) · [[多模态基础模型]] [[世界模型]] [[具身智能评测与基准]]
-- [ViTacPhys: Physical Property-Aware Grasping from Human Visual-Tactile Demonstrations](items/ViTacPhys%20Physical%20Property-Aware%20Grasping%20from%20Human%20Visual-Tactile%20Demonstrati.md) · [[多模态基础模型]] [[视觉语言动作模型 VLA]] [[机器人学习]] [[具身智能评测与基准]]
-- [Mining beyond Earth with Space Robots: Exploration, Sampling, and Extraction](items/Mining%20beyond%20Earth%20with%20Space%20Robots%20Exploration%2C%20Sampling%2C%20and%20Extraction.md) · [[世界模型]]
-- [Neural-Primitive: An Efficient End-to-end Local Planner with Primitive-based Imitation Learning for Autonomous Flight](items/Neural-Primitive%20An%20Efficient%20End-to-end%20Local%20Planner%20with%20Primitive-based%20Imit.md) · [[智能体 Agent]] [[世界模型]] [[机器人学习]] [[Sim2Real]] [[具身智能评测与基准]]
-- [Beyond Imitation: Self-Improving Robot Policies via Off-Policy Q-Planning](items/Beyond%20Imitation%20Self-Improving%20Robot%20Policies%20via%20Off-Policy%20Q-Planning.md) · [[智能体 Agent]] [[机器人学习]] [[具身智能评测与基准]]
-- [GhostTac: Manipulating Tactile Sensors without Physical Contact](items/GhostTac%20Manipulating%20Tactile%20Sensors%20without%20Physical%20Contact.md) · [[具身智能评测与基准]]
-- [Can you see how I learn? Human observers' inferences about Reinforcement Learning agents' learning processes](items/Can%20you%20see%20how%20I%20learn%20Human%20observers%27%20inferences%20about%20Reinforcement%20Learning.md) · [[智能体 Agent]] [[机器人学习]]
-- [Belief Without Behavior: Measuring the Translation of Theory of Mind into Coordinated Social Action in Vision-Language Models](items/Belief%20Without%20Behavior%20Measuring%20the%20Translation%20of%20Theory%20of%20Mind%20into%20Coordin.md) · [[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
-- [Future Dynamic 3D Reconstruction: Toward 3D World Modeling with Disentangled Ego-Motion](items/Future%20Dynamic%203D%20Reconstruction%20Toward%203D%20World%20Modeling%20with%20Disentangled%20Ego-.md) · [[多模态基础模型]] [[智能体 Agent]] [[世界模型]]
-- [AudioWorldSim: Realistic Binaural Audio Datasets For World Models](items/AudioWorldSim%20Realistic%20Binaural%20Audio%20Datasets%20For%20World%20Models.md) · [[智能体 Agent]] [[世界模型]]
-- [Koala Gripper: Co-designing Robotic Grippers and Data-Capture Devices for Scaling Dexterous Manipulation Learning](items/Koala%20Gripper%20Co-designing%20Robotic%20Grippers%20and%20Data-Capture%20Devices%20for%20Scaling.md) · [[智能体 Agent]] [[机器人学习]]
-- [Update-Free On-Policy Steering via Verifiers](items/Update-Free%20On-Policy%20Steering%20via%20Verifiers.md) · [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
+- [VT-MUSE: Multimodal Unified Sequential Visuotactile Representation Learning for Manipulation](items/VT-MUSE%20Multimodal%20Unified%20Sequential%20Visuotactile%20Representation%20Learning%20for%20M.md) · 多模态基础模型 世界模型 具身智能评测与基准
+- [ViTacPhys: Physical Property-Aware Grasping from Human Visual-Tactile Demonstrations](items/ViTacPhys%20Physical%20Property-Aware%20Grasping%20from%20Human%20Visual-Tactile%20Demonstrati.md) · 多模态基础模型 视觉语言动作模型 VLA 机器人学习 具身智能评测与基准
+- [Mining beyond Earth with Space Robots: Exploration, Sampling, and Extraction](items/Mining%20beyond%20Earth%20with%20Space%20Robots%20Exploration%2C%20Sampling%2C%20and%20Extraction.md) · 世界模型
+- [Neural-Primitive: An Efficient End-to-end Local Planner with Primitive-based Imitation Learning for Autonomous Flight](items/Neural-Primitive%20An%20Efficient%20End-to-end%20Local%20Planner%20with%20Primitive-based%20Imit.md) · 智能体 Agent 世界模型 机器人学习 Sim2Real 具身智能评测与基准
+- [Beyond Imitation: Self-Improving Robot Policies via Off-Policy Q-Planning](items/Beyond%20Imitation%20Self-Improving%20Robot%20Policies%20via%20Off-Policy%20Q-Planning.md) · 智能体 Agent 机器人学习 具身智能评测与基准
+- [GhostTac: Manipulating Tactile Sensors without Physical Contact](items/GhostTac%20Manipulating%20Tactile%20Sensors%20without%20Physical%20Contact.md) · 具身智能评测与基准
+- [Can you see how I learn? Human observers' inferences about Reinforcement Learning agents' learning processes](items/Can%20you%20see%20how%20I%20learn%20Human%20observers%27%20inferences%20about%20Reinforcement%20Learning.md) · 智能体 Agent 机器人学习
+- [Belief Without Behavior: Measuring the Translation of Theory of Mind into Coordinated Social Action in Vision-Language Models](items/Belief%20Without%20Behavior%20Measuring%20the%20Translation%20of%20Theory%20of%20Mind%20into%20Coordin.md) · 多模态基础模型 智能体 Agent 具身智能评测与基准
+- [Future Dynamic 3D Reconstruction: Toward 3D World Modeling with Disentangled Ego-Motion](items/Future%20Dynamic%203D%20Reconstruction%20Toward%203D%20World%20Modeling%20with%20Disentangled%20Ego-.md) · 多模态基础模型 智能体 Agent 世界模型
+- [AudioWorldSim: Realistic Binaural Audio Datasets For World Models](items/AudioWorldSim%20Realistic%20Binaural%20Audio%20Datasets%20For%20World%20Models.md) · 智能体 Agent 世界模型
+- [Koala Gripper: Co-designing Robotic Grippers and Data-Capture Devices for Scaling Dexterous Manipulation Learning](items/Koala%20Gripper%20Co-designing%20Robotic%20Grippers%20and%20Data-Capture%20Devices%20for%20Scaling.md) · 智能体 Agent 机器人学习
+- [Update-Free On-Policy Steering via Verifiers](items/Update-Free%20On-Policy%20Steering%20via%20Verifiers.md) · 世界模型 机器人学习 具身智能评测与基准
 
 <details>
 <summary>运行信息与信息源状态</summary>

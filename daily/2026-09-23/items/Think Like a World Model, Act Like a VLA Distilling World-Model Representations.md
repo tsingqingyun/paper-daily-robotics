@@ -42,10 +42,10 @@ LIBERO未给出对应基线，真实机器人未给出量化增益；部署结�
 
 为世界模型研究者提供脱离在线生成的价值验证方式，也为VLA研究者提供不增加部署结构的表征增强手段。
 
-- **概念**：[[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 世界模型 视觉语言动作模型 VLA 具身智能评测与基准
 - **筛选分数**：39
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-23/Think Like a World Model, Act Like a VLA Distilling World-Model Representations.md" --level full`
 

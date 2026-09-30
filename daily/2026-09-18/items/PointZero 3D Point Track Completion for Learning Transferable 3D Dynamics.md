@@ -42,10 +42,10 @@ concepts: ["世界模型", "机器人学习", "具身智能评测与基准"]
 
 对世界模型与机器人学习，价值是把动力学预训练从特定机器人的动作接口中解耦，同时用下游动力学和控制两类任务检验迁移。
 
-- **概念**：[[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
+- **概念**：世界模型 机器人学习 具身智能评测与基准
 - **筛选分数**：38
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-18/PointZero 3D Point Track Completion for Learning Transferable 3D Dynamics.md" --level full`
 

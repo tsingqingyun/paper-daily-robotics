@@ -20,19 +20,29 @@ concepts: ["智能体 Agent", "机器人学习", "具身智能评测与基准"]
 > [!summary] 一句话结论（基于摘要）
 > Whether wear-aware placement improves task value remains open -- $χ$ is measured against a value proxy, and the non- monotone optimum, while proven, is not yet observed in data.
 
-## 关键点
+## 问题
 
-- **问题**：Whether wear-aware placement improves task value remains open -- $χ$ is measured against a value proxy, and the non- monotone optimum, while proven, is not yet observed in data.
-- **创新点 / 方法**：A robot's flash endurance is a non-renewable stock: every persisted write spends one of a few thousand program/erase cycles and never refills, yet no fielded robot memory system prices which memories are worth an erase cycle.
-- **证据**：Whether wear-aware placement improves task value remains open -- $χ$ is measured against a value proxy, and the non- monotone optimum, while proven, is not yet observed in data.
-- **局限**：摘要未明确说明；需阅读全文核查。
+Whether wear-aware placement improves task value remains open -- $χ$ is measured against a value proxy, and the non- monotone optimum, while proven, is not yet observed in data.
+
+## 创新点或方法
+
+A robot's flash endurance is a non-renewable stock: every persisted write spends one of a few thousand program/erase cycles and never refills, yet no fielded robot memory system prices which memories are worth an erase cycle.
+
+## 证据
+
+Whether wear-aware placement improves task value remains open -- $χ$ is measured against a value proxy, and the non- monotone optimum, while proven, is not yet observed in data.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[智能体 Agent]] [[机器人学习]] [[具身智能评测与基准]]
+- **概念**：智能体 Agent 机器人学习 具身智能评测与基准
 - **筛选分数**：34
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-18/Memory as a Wasting Asset Pricing Flash Endurance for Embodied Agents, and the L.md" --level full`
 

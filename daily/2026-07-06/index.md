@@ -14,7 +14,7 @@ created: 2026-07-06
 - **规模**：2113 个候选 → 24 篇入选；回填 0 篇
 - **主题**：世界模型 13、具身智能评测与基准 12、智能体 Agent 11、多模态基础模型 8、机器人学习 8、视觉语言动作模型 VLA 3、Sim2Real 2、AI 核心知识地图 1
 - **源异常**：0
-- **需要更高精度**：从“必读”选择论文，进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **需要更高精度**：从“必读”选择论文，进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -55,18 +55,18 @@ created: 2026-07-06
 
 ## 其余存档 12 篇
 
-- [DL-VINS-Factory: A Modular Framework for Learned Visual Front-Ends in Visual-Inertial SLAM](items/DL-VINS-Factory%20A%20Modular%20Framework%20for%20Learned%20Visual%20Front-Ends%20in%20Visual-Iner.md) · [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [CoRe: Combined Rewards with Vision-Language Model Feedback for Preference-Aligned Reinforcement Learning](items/CoRe%20Combined%20Rewards%20with%20Vision-Language%20Model%20Feedback%20for%20Preference-Aligned.md) · [[多模态基础模型]] [[世界模型]] [[机器人学习]]
-- [BIFROST: Bridging Invariant Feature Representation for Observation-space Sim2Real Transfer](items/BIFROST%20Bridging%20Invariant%20Feature%20Representation%20for%20Observation-space%20Sim2Real.md) · [[世界模型]] [[Sim2Real]]
-- [GEAR-Seg: A Grounded Explainable Agent for Reasoning Segmentation and Data Engine](items/GEAR-Seg%20A%20Grounded%20Explainable%20Agent%20for%20Reasoning%20Segmentation%20and%20Data%20Engine.md) · [[智能体 Agent]] [[具身智能评测与基准]]
-- [EAGLE-360: Embodied Active Global-to-Local Exploration in 360$^\circ$](items/EAGLE-360%20Embodied%20Active%20Global-to-Local%20Exploration%20in%20360%24%20circ%24.md) · [[多模态基础模型]]
-- [PWM-ArtGen: Part World Model for Articulated Object Generation](items/PWM-ArtGen%20Part%20World%20Model%20for%20Articulated%20Object%20Generation.md) · [[世界模型]]
-- [SPLC: Social Preference Learning for Crowd Robot Navigation](items/SPLC%20Social%20Preference%20Learning%20for%20Crowd%20Robot%20Navigation.md) · [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
-- [Robust Image Processing Techniques for Construction Environment Monitoring Using Underwater Robots](items/Robust%20Image%20Processing%20Techniques%20for%20Construction%20Environment%20Monitoring%20Using.md) · [[具身智能评测与基准]]
-- [Safe and Adaptive Cloud Healing: Verifying LLM-Generated Recovery Plans with a Neural-Symbolic World Model](items/Safe%20and%20Adaptive%20Cloud%20Healing%20Verifying%20LLM-Generated%20Recovery%20Plans%20with%20a%20Ne.md) · [[智能体 Agent]] [[世界模型]] [[机器人学习]]
-- [Hardware-Enforced Semantic Coordination for Safety-Critical Real-Time Autonomous Systems](items/Hardware-Enforced%20Semantic%20Coordination%20for%20Safety-Critical%20Real-Time%20Autonomous.md) · [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
-- [Real-Time Visual Intelligence on Low-Cost UAVs: A Modular Approach for Tracking, Scanning, and Navigation](items/Real-Time%20Visual%20Intelligence%20on%20Low-Cost%20UAVs%20A%20Modular%20Approach%20for%20Tracking%2C.md) · [[AI 核心知识地图]]
-- [SpaceEra++: A Unified Framework Towards 3D Spatial Reasoning in Video](items/SpaceEra%2B%2B%20A%20Unified%20Framework%20Towards%203D%20Spatial%20Reasoning%20in%20Video.md) · [[多模态基础模型]] [[具身智能评测与基准]]
+- [DL-VINS-Factory: A Modular Framework for Learned Visual Front-Ends in Visual-Inertial SLAM](items/DL-VINS-Factory%20A%20Modular%20Framework%20for%20Learned%20Visual%20Front-Ends%20in%20Visual-Iner.md) · 视觉语言动作模型 VLA 具身智能评测与基准
+- [CoRe: Combined Rewards with Vision-Language Model Feedback for Preference-Aligned Reinforcement Learning](items/CoRe%20Combined%20Rewards%20with%20Vision-Language%20Model%20Feedback%20for%20Preference-Aligned.md) · 多模态基础模型 世界模型 机器人学习
+- [BIFROST: Bridging Invariant Feature Representation for Observation-space Sim2Real Transfer](items/BIFROST%20Bridging%20Invariant%20Feature%20Representation%20for%20Observation-space%20Sim2Real.md) · 世界模型 Sim2Real
+- [GEAR-Seg: A Grounded Explainable Agent for Reasoning Segmentation and Data Engine](items/GEAR-Seg%20A%20Grounded%20Explainable%20Agent%20for%20Reasoning%20Segmentation%20and%20Data%20Engine.md) · 智能体 Agent 具身智能评测与基准
+- [EAGLE-360: Embodied Active Global-to-Local Exploration in 360$^\circ$](items/EAGLE-360%20Embodied%20Active%20Global-to-Local%20Exploration%20in%20360%24%20circ%24.md) · 多模态基础模型
+- [PWM-ArtGen: Part World Model for Articulated Object Generation](items/PWM-ArtGen%20Part%20World%20Model%20for%20Articulated%20Object%20Generation.md) · 世界模型
+- [SPLC: Social Preference Learning for Crowd Robot Navigation](items/SPLC%20Social%20Preference%20Learning%20for%20Crowd%20Robot%20Navigation.md) · 世界模型 机器人学习 具身智能评测与基准
+- [Robust Image Processing Techniques for Construction Environment Monitoring Using Underwater Robots](items/Robust%20Image%20Processing%20Techniques%20for%20Construction%20Environment%20Monitoring%20Using.md) · 具身智能评测与基准
+- [Safe and Adaptive Cloud Healing: Verifying LLM-Generated Recovery Plans with a Neural-Symbolic World Model](items/Safe%20and%20Adaptive%20Cloud%20Healing%20Verifying%20LLM-Generated%20Recovery%20Plans%20with%20a%20Ne.md) · 智能体 Agent 世界模型 机器人学习
+- [Hardware-Enforced Semantic Coordination for Safety-Critical Real-Time Autonomous Systems](items/Hardware-Enforced%20Semantic%20Coordination%20for%20Safety-Critical%20Real-Time%20Autonomous.md) · 智能体 Agent 世界模型 具身智能评测与基准
+- [Real-Time Visual Intelligence on Low-Cost UAVs: A Modular Approach for Tracking, Scanning, and Navigation](items/Real-Time%20Visual%20Intelligence%20on%20Low-Cost%20UAVs%20A%20Modular%20Approach%20for%20Tracking%2C.md) · AI 核心知识地图
+- [SpaceEra++: A Unified Framework Towards 3D Spatial Reasoning in Video](items/SpaceEra%2B%2B%20A%20Unified%20Framework%20Towards%203D%20Spatial%20Reasoning%20in%20Video.md) · 多模态基础模型 具身智能评测与基准
 
 <details>
 <summary>运行信息与信息源错误</summary>

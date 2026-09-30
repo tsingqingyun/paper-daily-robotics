@@ -42,10 +42,10 @@ concepts: ["智能体 Agent", "世界模型", "机器人学习", "具身智能�
 
 对具身评测与机器人学习研究者，价值是把任务定义、成功判据和示范生成纳入同一流水线，有利于研究实验规程执行与人机协作。
 
-- **概念**：[[智能体 Agent]] [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
+- **概念**：智能体 Agent 世界模型 机器人学习 具身智能评测与基准
 - **筛选分数**：29
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-28/SciHorizon-eLab An Agentic Protocol-to-Task Compiler for Scalable Benchmarking o.md" --level full`
 

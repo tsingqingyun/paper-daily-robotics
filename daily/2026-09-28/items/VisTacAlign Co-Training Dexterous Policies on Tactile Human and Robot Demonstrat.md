@@ -42,10 +42,10 @@ concepts: ["多模态基础模型", "机器人学习"]
 
 对多模态机器人学习研究者，它提醒跨本体数据复用需要对齐传感器观测特性，而不仅是理想几何或动作坐标，并给出视觉触觉联合处理流程。
 
-- **概念**：[[多模态基础模型]] [[机器人学习]]
+- **概念**：多模态基础模型 机器人学习
 - **筛选分数**：28
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-28/VisTacAlign Co-Training Dexterous Policies on Tactile Human and Robot Demonstrat.md" --level full`
 

@@ -14,7 +14,7 @@ created: 2026-06-18
 - **规模**：2069 个候选 → 24 篇入选；回填 0 篇
 - **主题**：多模态基础模型 18、具身智能评测与基准 16、智能体 Agent 12、机器人学习 12、视觉语言动作模型 VLA 12、世界模型 11、AI 核心知识地图 1、Sim2Real 1
 - **源异常**：1
-- **需要更高精度**：从“必读”选择论文，进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **需要更高精度**：从“必读”选择论文，进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -55,18 +55,18 @@ created: 2026-06-18
 
 ## 其余存档 12 篇
 
-- [PearlVLA: Progressive Embodied Action-Plan Refinement in Latent Space](items/PearlVLA%20Progressive%20Embodied%20Action-Plan%20Refinement%20in%20Latent%20Space.md) · [[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [T-Rex: Tactile-Reactive Dexterous Manipulation](items/T-Rex%20Tactile-Reactive%20Dexterous%20Manipulation.md) · [[多模态基础模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [EgoCS-400K: An Egocentric Gameplay Dataset for World Models](items/EgoCS-400K%20An%20Egocentric%20Gameplay%20Dataset%20for%20World%20Models.md) · [[智能体 Agent]] [[世界模型]]
-- [VENOM: Versatile Embodied Network for Omni-bodied Motion tracking](items/VENOM%20Versatile%20Embodied%20Network%20for%20Omni-bodied%20Motion%20tracking.md) · [[多模态基础模型]] [[世界模型]] [[机器人学习]]
-- [Memory as a Wasting Asset: Pricing Flash Endurance for Embodied Agents, and the Limits of Doing So](items/Memory%20as%20a%20Wasting%20Asset%20Pricing%20Flash%20Endurance%20for%20Embodied%20Agents%2C%20and%20the%20L.md) · [[智能体 Agent]] [[机器人学习]] [[具身智能评测与基准]]
-- [GASE: Gaussian Splatting-Based Automated System for Reconstructing Embodied-Simulation Environments](items/GASE%20Gaussian%20Splatting-Based%20Automated%20System%20for%20Reconstructing%20Embodied-Simul.md) · [[智能体 Agent]] [[世界模型]] [[机器人学习]] [[Sim2Real]]
-- [GeneralVLA-2: Geometry-Aware Reconstruction and Governed Memory for Robot Planning](items/GeneralVLA-2%20Geometry-Aware%20Reconstruction%20and%20Governed%20Memory%20for%20Robot%20Plannin.md) · [[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]]
-- [Contrastive Action-Image Pre-training for Visuomotor Control](items/Contrastive%20Action-Image%20Pre-training%20for%20Visuomotor%20Control.md) · [[AI 核心知识地图]]
-- [WeaveLA: Event Driven Cross-Subtask Latent Memory Weaving for Repetitive Robot Manipulation](items/WeaveLA%20Event%20Driven%20Cross-Subtask%20Latent%20Memory%20Weaving%20for%20Repetitive%20Robot%20Ma.md) · [[多模态基础模型]] [[视觉语言动作模型 VLA]] [[机器人学习]] [[具身智能评测与基准]]
-- [SoK: Security and Privacy of Foundation-Model-Powered Robots](items/SoK%20Security%20and%20Privacy%20of%20Foundation-Model-Powered%20Robots.md) · [[多模态基础模型]] [[具身智能评测与基准]]
-- [ERQA-Plus: A Diagnostic Benchmark for Reasoning in Embodied AI](items/ERQA-Plus%20A%20Diagnostic%20Benchmark%20for%20Reasoning%20in%20Embodied%20AI.md) · [[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
-- [MagicSim: A Unified Infrastructure for Executable Embodied Interaction](items/MagicSim%20A%20Unified%20Infrastructure%20for%20Executable%20Embodied%20Interaction.md) · [[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
+- [PearlVLA: Progressive Embodied Action-Plan Refinement in Latent Space](items/PearlVLA%20Progressive%20Embodied%20Action-Plan%20Refinement%20in%20Latent%20Space.md) · 多模态基础模型 智能体 Agent 世界模型 视觉语言动作模型 VLA 具身智能评测与基准
+- [T-Rex: Tactile-Reactive Dexterous Manipulation](items/T-Rex%20Tactile-Reactive%20Dexterous%20Manipulation.md) · 多模态基础模型 视觉语言动作模型 VLA 具身智能评测与基准
+- [EgoCS-400K: An Egocentric Gameplay Dataset for World Models](items/EgoCS-400K%20An%20Egocentric%20Gameplay%20Dataset%20for%20World%20Models.md) · 智能体 Agent 世界模型
+- [VENOM: Versatile Embodied Network for Omni-bodied Motion tracking](items/VENOM%20Versatile%20Embodied%20Network%20for%20Omni-bodied%20Motion%20tracking.md) · 多模态基础模型 世界模型 机器人学习
+- [Memory as a Wasting Asset: Pricing Flash Endurance for Embodied Agents, and the Limits of Doing So](items/Memory%20as%20a%20Wasting%20Asset%20Pricing%20Flash%20Endurance%20for%20Embodied%20Agents%2C%20and%20the%20L.md) · 智能体 Agent 机器人学习 具身智能评测与基准
+- [GASE: Gaussian Splatting-Based Automated System for Reconstructing Embodied-Simulation Environments](items/GASE%20Gaussian%20Splatting-Based%20Automated%20System%20for%20Reconstructing%20Embodied-Simul.md) · 智能体 Agent 世界模型 机器人学习 Sim2Real
+- [GeneralVLA-2: Geometry-Aware Reconstruction and Governed Memory for Robot Planning](items/GeneralVLA-2%20Geometry-Aware%20Reconstruction%20and%20Governed%20Memory%20for%20Robot%20Plannin.md) · 多模态基础模型 智能体 Agent 视觉语言动作模型 VLA
+- [Contrastive Action-Image Pre-training for Visuomotor Control](items/Contrastive%20Action-Image%20Pre-training%20for%20Visuomotor%20Control.md) · AI 核心知识地图
+- [WeaveLA: Event Driven Cross-Subtask Latent Memory Weaving for Repetitive Robot Manipulation](items/WeaveLA%20Event%20Driven%20Cross-Subtask%20Latent%20Memory%20Weaving%20for%20Repetitive%20Robot%20Ma.md) · 多模态基础模型 视觉语言动作模型 VLA 机器人学习 具身智能评测与基准
+- [SoK: Security and Privacy of Foundation-Model-Powered Robots](items/SoK%20Security%20and%20Privacy%20of%20Foundation-Model-Powered%20Robots.md) · 多模态基础模型 具身智能评测与基准
+- [ERQA-Plus: A Diagnostic Benchmark for Reasoning in Embodied AI](items/ERQA-Plus%20A%20Diagnostic%20Benchmark%20for%20Reasoning%20in%20Embodied%20AI.md) · 多模态基础模型 智能体 Agent 具身智能评测与基准
+- [MagicSim: A Unified Infrastructure for Executable Embodied Interaction](items/MagicSim%20A%20Unified%20Infrastructure%20for%20Executable%20Embodied%20Interaction.md) · 多模态基础模型 智能体 Agent 世界模型 机器人学习 具身智能评测与基准
 
 <details>
 <summary>运行信息与信息源错误</summary>

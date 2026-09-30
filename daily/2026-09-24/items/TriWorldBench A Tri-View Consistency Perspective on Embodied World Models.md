@@ -42,10 +42,10 @@ concepts: ["智能体 Agent", "世界模型", "具身智能评测与基准"]
 
 对具身世界模型研究者，它补上多相机预测能否构成统一状态描述的评测维度，比单独检查视频观感更贴近多视角机器人输入。
 
-- **概念**：[[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
+- **概念**：智能体 Agent 世界模型 具身智能评测与基准
 - **筛选分数**：34
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-24/TriWorldBench A Tri-View Consistency Perspective on Embodied World Models.md" --level full`
 

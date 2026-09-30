@@ -42,10 +42,10 @@ concepts: ["多模态基础模型", "视觉语言动作模型 VLA", "具身智�
 
 对多模态 VLA 研究者，它提供了将力反馈接入视觉表示的直接方案，适合研究接触位置与力目标如何共同影响动作。
 
-- **概念**：[[多模态基础模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 视觉语言动作模型 VLA 具身智能评测与基准
 - **筛选分数**：32
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-24/VisForce Visual Grounding of Current and Desired Forces for Goal-Conditioned Dex.md" --level full`
 

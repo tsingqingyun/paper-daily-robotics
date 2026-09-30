@@ -115,7 +115,7 @@ run_update() {
     --retry-backoff 2 \
     --explainer codex \
     --codex-bin "${AI_DAILY_CODEX:-$CODEX}" \
-    --explain-timeout 420
+    --explain-timeout 900
 }
 
 current_state_is_today() {

@@ -14,7 +14,7 @@ created: 2026-06-24
 - **规模**：2097 个候选 → 24 篇入选；回填 0 篇
 - **主题**：具身智能评测与基准 19、多模态基础模型 15、视觉语言动作模型 VLA 14、机器人学习 12、世界模型 11、智能体 Agent 7、Sim2Real 3、AI 核心知识地图 1
 - **源异常**：0
-- **需要更高精度**：从“必读”选择论文，进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **需要更高精度**：从“必读”选择论文，进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -55,18 +55,18 @@ created: 2026-06-24
 
 ## 其余存档 12 篇
 
-- [Flow as Flow: Modeling Robot Velocity Fields as Probability Velocity Fields for Flow-Based Object Manipulation](items/Flow%20as%20Flow%20Modeling%20Robot%20Velocity%20Fields%20as%20Probability%20Velocity%20Fields%20for%20F.md) · [[多模态基础模型]] [[具身智能评测与基准]]
-- [Improving Robotic Imitation Learning via Trajectory Standardization](items/Improving%20Robotic%20Imitation%20Learning%20via%20Trajectory%20Standardization.md) · [[机器人学习]] [[具身智能评测与基准]]
-- [BiliVLA: Scene-Aware Vision-Language-Action Model with Reinforcement Learning for Autonomous Biliary Endoscopic Navigation](items/BiliVLA%20Scene-Aware%20Vision-Language-Action%20Model%20with%20Reinforcement%20Learning%20for.md) · [[多模态基础模型]] [[视觉语言动作模型 VLA]] [[机器人学习]] [[具身智能评测与基准]]
-- [IOI: Decoupling Kinematics and Physics for Interactive World Models](items/IOI%20Decoupling%20Kinematics%20and%20Physics%20for%20Interactive%20World%20Models.md) · [[智能体 Agent]] [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
-- [Gold Points Sniper: Self-guided Visual Reasoning in VLM for Fine-grained Action Understanding](items/Gold%20Points%20Sniper%20Self-guided%20Visual%20Reasoning%20in%20VLM%20for%20Fine-grained%20Action%20U.md) · [[多模态基础模型]] [[具身智能评测与基准]]
-- [IMAGIN-4D: Image-Guided Controllable Interaction Generation](items/IMAGIN-4D%20Image-Guided%20Controllable%20Interaction%20Generation.md) · [[AI 核心知识地图]]
-- [Flatness Preserves Instruction Following in Vision-Language-Action Models](items/Flatness%20Preserves%20Instruction%20Following%20in%20Vision-Language-Action%20Models.md) · [[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [HERCULES: An Open-Source Simulation Framework for Heterogeneous Multi-Robot SLAM, Collaborative Perception, and Exploration](items/HERCULES%20An%20Open-Source%20Simulation%20Framework%20for%20Heterogeneous%20Multi-Robot%20SLAM%2C.md) · [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
-- [Flowing With Purpose: Latent Action Guided Flow Matching Policies For Robotic Manipulation](items/Flowing%20With%20Purpose%20Latent%20Action%20Guided%20Flow%20Matching%20Policies%20For%20Robotic%20Man.md) · [[多模态基础模型]] [[视觉语言动作模型 VLA]] [[机器人学习]] [[具身智能评测与基准]]
-- [UniFS: Unified Fast-to-Slow Hierarchical Architecture for Vision-Language-Action Models](items/UniFS%20Unified%20Fast-to-Slow%20Hierarchical%20Architecture%20for%20Vision-Language-Action.md) · [[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [Pose Anything Anywhere:Model-free Object Poses from Arbitrary References](items/Pose%20Anything%20Anywhere%20Model-free%20Object%20Poses%20from%20Arbitrary%20References.md) · [[世界模型]] [[具身智能评测与基准]]
-- [Assistron: Bayesian Shared Autonomy with Off-the-shelf Vision-Language-Action Models](items/Assistron%20Bayesian%20Shared%20Autonomy%20with%20Off-the-shelf%20Vision-Language-Action%20Mod.md) · [[多模态基础模型]] [[视觉语言动作模型 VLA]] [[机器人学习]] [[具身智能评测与基准]]
+- [Flow as Flow: Modeling Robot Velocity Fields as Probability Velocity Fields for Flow-Based Object Manipulation](items/Flow%20as%20Flow%20Modeling%20Robot%20Velocity%20Fields%20as%20Probability%20Velocity%20Fields%20for%20F.md) · 多模态基础模型 具身智能评测与基准
+- [Improving Robotic Imitation Learning via Trajectory Standardization](items/Improving%20Robotic%20Imitation%20Learning%20via%20Trajectory%20Standardization.md) · 机器人学习 具身智能评测与基准
+- [BiliVLA: Scene-Aware Vision-Language-Action Model with Reinforcement Learning for Autonomous Biliary Endoscopic Navigation](items/BiliVLA%20Scene-Aware%20Vision-Language-Action%20Model%20with%20Reinforcement%20Learning%20for.md) · 多模态基础模型 视觉语言动作模型 VLA 机器人学习 具身智能评测与基准
+- [IOI: Decoupling Kinematics and Physics for Interactive World Models](items/IOI%20Decoupling%20Kinematics%20and%20Physics%20for%20Interactive%20World%20Models.md) · 智能体 Agent 世界模型 机器人学习 具身智能评测与基准
+- [Gold Points Sniper: Self-guided Visual Reasoning in VLM for Fine-grained Action Understanding](items/Gold%20Points%20Sniper%20Self-guided%20Visual%20Reasoning%20in%20VLM%20for%20Fine-grained%20Action%20U.md) · 多模态基础模型 具身智能评测与基准
+- [IMAGIN-4D: Image-Guided Controllable Interaction Generation](items/IMAGIN-4D%20Image-Guided%20Controllable%20Interaction%20Generation.md) · AI 核心知识地图
+- [Flatness Preserves Instruction Following in Vision-Language-Action Models](items/Flatness%20Preserves%20Instruction%20Following%20in%20Vision-Language-Action%20Models.md) · 多模态基础模型 世界模型 视觉语言动作模型 VLA 具身智能评测与基准
+- [HERCULES: An Open-Source Simulation Framework for Heterogeneous Multi-Robot SLAM, Collaborative Perception, and Exploration](items/HERCULES%20An%20Open-Source%20Simulation%20Framework%20for%20Heterogeneous%20Multi-Robot%20SLAM%2C.md) · 智能体 Agent 世界模型 具身智能评测与基准
+- [Flowing With Purpose: Latent Action Guided Flow Matching Policies For Robotic Manipulation](items/Flowing%20With%20Purpose%20Latent%20Action%20Guided%20Flow%20Matching%20Policies%20For%20Robotic%20Man.md) · 多模态基础模型 视觉语言动作模型 VLA 机器人学习 具身智能评测与基准
+- [UniFS: Unified Fast-to-Slow Hierarchical Architecture for Vision-Language-Action Models](items/UniFS%20Unified%20Fast-to-Slow%20Hierarchical%20Architecture%20for%20Vision-Language-Action.md) · 多模态基础模型 智能体 Agent 世界模型 视觉语言动作模型 VLA 具身智能评测与基准
+- [Pose Anything Anywhere:Model-free Object Poses from Arbitrary References](items/Pose%20Anything%20Anywhere%20Model-free%20Object%20Poses%20from%20Arbitrary%20References.md) · 世界模型 具身智能评测与基准
+- [Assistron: Bayesian Shared Autonomy with Off-the-shelf Vision-Language-Action Models](items/Assistron%20Bayesian%20Shared%20Autonomy%20with%20Off-the-shelf%20Vision-Language-Action%20Mod.md) · 多模态基础模型 视觉语言动作模型 VLA 机器人学习 具身智能评测与基准
 
 <details>
 <summary>运行信息与信息源错误</summary>

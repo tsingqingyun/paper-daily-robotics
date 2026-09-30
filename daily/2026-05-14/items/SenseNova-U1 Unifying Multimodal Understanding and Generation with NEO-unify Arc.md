@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "智能体 Agent", "世界模型", "视觉�
 > [!summary] 一句话结论（基于摘要）
 > Beyond performance, we show detailed model design, data preprocessing, pre-/post-training, and inference strategies to support community research.
 
-## 关键点
+## 问题
 
-- **问题**：Recent large vision-language models (VLMs) remain fundamentally constrained by a persistent dichotomy: understanding and generation are treated as distinct problems, leading to fragmented architectures, cascaded pipelines, and misaligned representation spaces.
-- **创新点 / 方法**：Hence, we introduce SenseNova-U1, a native unified multimodal paradigm built upon NEO- unify, in which understanding and generation evolve as synergistic views of a single underlying process.
-- **证据**：Beyond performance, we show detailed model design, data preprocessing, pre-/post-training, and inference strategies to support community research.
-- **局限**：We argue that this divide is not merely an engineering artifact, but a structural limitation that hinders the emergence of native multimodal intelligence.
+Recent large vision-language models (VLMs) remain fundamentally constrained by a persistent dichotomy: understanding and generation are treated as distinct problems, leading to fragmented architectures, cascaded pipelines, and misaligned representation spaces.
+
+## 创新点或方法
+
+Hence, we introduce SenseNova-U1, a native unified multimodal paradigm built upon NEO- unify, in which understanding and generation evolve as synergistic views of a single underlying process.
+
+## 证据
+
+Beyond performance, we show detailed model design, data preprocessing, pre-/post-training, and inference strategies to support community research.
+
+## 局限
+
+We argue that this divide is not merely an engineering artifact, but a structural limitation that hinders the emergence of native multimodal intelligence.
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[视觉语言动作模型 VLA]]
+- **概念**：多模态基础模型 智能体 Agent 世界模型 视觉语言动作模型 VLA
 - **筛选分数**：34
 - **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-05-14/SenseNova-U1 Unifying Multimodal Understanding and Generation with NEO-unify Arc.md" --level full`
 

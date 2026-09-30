@@ -20,19 +20,29 @@ concepts: ["世界模型", "具身智能评测与基准"]
 > [!summary] 一句话结论（基于摘要）
 > Extensive experiments demonstrate that PartialVisGraph consistently achieves state-of-the-art accuracy under partial visibility, with gains of up to 68.8\% on subsets with severe FoV restrictions compared to recent strong baselines, while remaining superior o…
 
-## 关键点
+## 问题
 
-- **问题**：In real-world deployments, such as egocentric vision, crowded surveillance, wearable devices, or edge robotics, limited field-of-view (FoV) frequently causes substantial joint visibility dropout, leading to severe performance degradation that existing models are largely unprepared to handle.
-- **创新点 / 方法**：To bridge this critical yet underexplored gap, we introduce PartialVisGraph, a novel hypergraph framework tailored for robust skeleton action recognition under constrained FoV.
-- **证据**：Extensive experiments demonstrate that PartialVisGraph consistently achieves state-of-the-art accuracy under partial visibility, with gains of up to 68.8\% on subsets with severe FoV restrictions compared to recent strong baselines, while remaining superior on full-visibility settings.
-- **局限**：摘要未明确说明；需阅读全文核查。
+In real-world deployments, such as egocentric vision, crowded surveillance, wearable devices, or edge robotics, limited field-of-view (FoV) frequently causes substantial joint visibility dropout, leading to severe performance degradation that existing models are largely unprepared to handle.
+
+## 创新点或方法
+
+To bridge this critical yet underexplored gap, we introduce PartialVisGraph, a novel hypergraph framework tailored for robust skeleton action recognition under constrained FoV.
+
+## 证据
+
+Extensive experiments demonstrate that PartialVisGraph consistently achieves state-of-the-art accuracy under partial visibility, with gains of up to 68.8\% on subsets with severe FoV restrictions compared to recent strong baselines, while remaining superior on full-visibility settings.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[世界模型]] [[具身智能评测与基准]]
+- **概念**：世界模型 具身智能评测与基准
 - **筛选分数**：26
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-07-06/Partial Skeleton Visibility for Action Recognition A Constrained Field-of-View A.md" --level full`
 

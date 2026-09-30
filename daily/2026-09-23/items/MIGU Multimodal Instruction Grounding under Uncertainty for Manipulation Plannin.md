@@ -42,10 +42,10 @@ concepts: ["多模态基础模型", "智能体 Agent", "具身智能评测与基
 
 对人机交互与具身Agent，提供了将目标理解置信度连接到澄清行为的路径，可用于移动操作和桌面任务—运动规划。
 
-- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 智能体 Agent 具身智能评测与基准
 - **筛选分数**：31
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-23/MIGU Multimodal Instruction Grounding under Uncertainty for Manipulation Plannin.md" --level full`
 

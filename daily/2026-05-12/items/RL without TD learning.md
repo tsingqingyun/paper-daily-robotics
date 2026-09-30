@@ -20,19 +20,29 @@ concepts: ["智能体 Agent", "世界模型", "机器人学习", "具身智能�
 > [!summary] 一句话结论（基于摘要）
 > TRL achieves the best performance on highly challenging, long-horizon tasks.
 
-## 关键点
+## 问题
 
-- **问题**：Unlike traditional methods, this algorithm is not based on temporal difference (TD) learning (which has scalability challenges ), and scales well to long-horizon tasks.
-- **创新点 / 方法**：puzzle To see whether our method scales well to complex tasks, we directly evaluated TRL on some of the most challenging tasks in OGBench , a benchmark for offline goal-conditioned RL.
-- **证据**：TRL achieves the best performance on highly challenging, long-horizon tasks.
-- **局限**：Your browser does not support the video tag.
+Unlike traditional methods, this algorithm is not based on temporal difference (TD) learning (which has scalability challenges ), and scales well to long-horizon tasks.
+
+## 创新点或方法
+
+puzzle To see whether our method scales well to complex tasks, we directly evaluated TRL on some of the most challenging tasks in OGBench , a benchmark for offline goal-conditioned RL.
+
+## 证据
+
+TRL achieves the best performance on highly challenging, long-horizon tasks.
+
+## 局限
+
+Your browser does not support the video tag.
+
 
 ## 研究关联
 
-- **概念**：[[智能体 Agent]] [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
+- **概念**：智能体 Agent 世界模型 机器人学习 具身智能评测与基准
 - **筛选分数**：24
 - **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-05-12/RL without TD learning.md" --level full`
 

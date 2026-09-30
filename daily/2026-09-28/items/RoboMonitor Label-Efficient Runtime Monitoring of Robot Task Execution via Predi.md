@@ -42,10 +42,10 @@ concepts: ["多模态基础模型", "世界模型", "具身智能评测与基准
 
 对具身评测与世界模型表示研究者，它展示了预测预训练如何服务于执行监控，而不只是动作生成。少标注监控和闭环恢复接口具有直接系统价值。
 
-- **概念**：[[多模态基础模型]] [[世界模型]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 世界模型 具身智能评测与基准
 - **筛选分数**：32
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-28/RoboMonitor Label-Efficient Runtime Monitoring of Robot Task Execution via Predi.md" --level full`
 

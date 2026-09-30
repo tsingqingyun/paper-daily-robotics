@@ -20,19 +20,29 @@ concepts: ["世界模型", "Sim2Real"]
 > [!summary] 一句话结论（基于摘要）
 > Extensive experiments show that Humanoid-OmniOcc consistently outperforms monocular baselines and generalizes well to both unseen simulated test scenes and real-world environments, validating the effectiveness of the Real2Sim2Real design.
 
-## 关键点
+## 问题
 
-- **问题**：Existing occupancy datasets, however, are predominantly designed for autonomous driving with vehicle-centric biases -- forward- facing cameras, far-field geometry, and static road priors -- limiting their applicability to embodied humanoid perception.
-- **创新点 / 方法**：We present Humanoid-OmniOcc, a large- scale panoramic stereo-based occupancy dataset tailored for humanoid robots.
-- **证据**：Extensive experiments show that Humanoid-OmniOcc consistently outperforms monocular baselines and generalizes well to both unseen simulated test scenes and real-world environments, validating the effectiveness of the Real2Sim2Real design.
-- **局限**：摘要未明确说明；需阅读全文核查。
+Existing occupancy datasets, however, are predominantly designed for autonomous driving with vehicle-centric biases -- forward- facing cameras, far-field geometry, and static road priors -- limiting their applicability to embodied humanoid perception.
+
+## 创新点或方法
+
+We present Humanoid-OmniOcc, a large- scale panoramic stereo-based occupancy dataset tailored for humanoid robots.
+
+## 证据
+
+Extensive experiments show that Humanoid-OmniOcc consistently outperforms monocular baselines and generalizes well to both unseen simulated test scenes and real-world environments, validating the effectiveness of the Real2Sim2Real design.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[世界模型]] [[Sim2Real]]
+- **概念**：世界模型 Sim2Real
 - **筛选分数**：40
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-24/Humanoid-OmniOcc Stereo-Based Full-View Occupancy Dataset for Embodied AI.md" --level full`
 

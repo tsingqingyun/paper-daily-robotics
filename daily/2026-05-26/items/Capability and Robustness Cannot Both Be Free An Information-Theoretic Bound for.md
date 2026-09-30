@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "视觉语言动作模型 VLA", "具身智�
 > [!summary] 一句话结论（基于摘要）
 > They reach high success rates on clean inputs but collapse under small adversarial perturbations.
 
-## 关键点
+## 问题
 
-- **问题**：Vision-Language-Action (VLA) models are increasingly deployed on real robots, where each predicted action is executed and each failure carries a safety cost.
-- **创新点 / 方法**：We propose encoder- specific slack as a normalized comparison axis for defense papers, and release all code, manifests, and results.
-- **证据**：They reach high success rates on clean inputs but collapse under small adversarial perturbations.
-- **局限**：Empirical defenses recover some robustness at a cost in clean accuracy, but the literature does not say whether the trade-off has a theoretical floor.
+Vision-Language-Action (VLA) models are increasingly deployed on real robots, where each predicted action is executed and each failure carries a safety cost.
+
+## 创新点或方法
+
+We propose encoder- specific slack as a normalized comparison axis for defense papers, and release all code, manifests, and results.
+
+## 证据
+
+They reach high success rates on clean inputs but collapse under small adversarial perturbations.
+
+## 局限
+
+Empirical defenses recover some robustness at a cost in clean accuracy, but the literature does not say whether the trade-off has a theoretical floor.
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 视觉语言动作模型 VLA 具身智能评测与基准
 - **筛选分数**：36
 - **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-05-26/Capability and Robustness Cannot Both Be Free An Information-Theoretic Bound for.md" --level full`
 

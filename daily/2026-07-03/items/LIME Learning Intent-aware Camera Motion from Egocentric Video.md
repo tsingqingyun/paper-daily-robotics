@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "视觉语言动作模型 VLA"]
 > [!summary] 一句话结论（基于摘要）
 > Across experiments and downstream robotic tasks, we show that LIME can learn to actively choose camera poses from passive human video, turning ordinary egocentric recordings into supervision for intent-aware active perception.
 
-## 关键点
+## 问题
 
-- **问题**：While vision-language navigation translates instructions to base motion and vision- language-action policies map instructions to manipulation actions, language-conditioned camera motion remains comparatively underexplored as a first-class action.
-- **创新点 / 方法**：We propose LIME, a vision-language camera-motion generator that combines an auto-regressive observation-gain output with a continuous flow-matching pose head.
-- **证据**：Across experiments and downstream robotic tasks, we show that LIME can learn to actively choose camera poses from passive human video, turning ordinary egocentric recordings into supervision for intent-aware active perception.
-- **局限**：摘要未明确说明；需阅读全文核查。
+While vision-language navigation translates instructions to base motion and vision- language-action policies map instructions to manipulation actions, language-conditioned camera motion remains comparatively underexplored as a first-class action.
+
+## 创新点或方法
+
+We propose LIME, a vision-language camera-motion generator that combines an auto-regressive observation-gain output with a continuous flow-matching pose head.
+
+## 证据
+
+Across experiments and downstream robotic tasks, we show that LIME can learn to actively choose camera poses from passive human video, turning ordinary egocentric recordings into supervision for intent-aware active perception.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[视觉语言动作模型 VLA]]
+- **概念**：多模态基础模型 视觉语言动作模型 VLA
 - **筛选分数**：31
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-07-03/LIME Learning Intent-aware Camera Motion from Egocentric Video.md" --level full`
 

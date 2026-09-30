@@ -42,10 +42,10 @@ concepts: ["多模态基础模型", "具身智能评测与基准"]
 
 对多模态基础模型研究者，共享低层证据以协调解释和定位值得参考。但摘要没有机器人任务、VLA 或具身基准验证，不能直接作为具身能力提升证据。
 
-- **概念**：[[多模态基础模型]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 具身智能评测与基准
 - **筛选分数**：30
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-28/ManiVid Unified and Explainable Forensic Analysis of Manipulated Videos.md" --level full`
 

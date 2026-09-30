@@ -1,21 +1,21 @@
 ---
 type: daily-update
 tags: [update, ai, embodied-ai]
-format_version: 3
+format_version: 2
 evidence_level: abstract
 created: 2026-09-03
 ---
 
 # 2026-09-03 AI Embodied Intelligence Update
 
-> [!summary] 今日判断
+> [!summary] 30 秒结论
 > 今天最值得看的是三条互补路线：用受控实验厘清跨本体 VLA 的有效因素，用视频规模化与接触预测增强机器人策略，以及把长程执行改造成带前置检查、结果验证和恢复的闭环。与此同时，多篇基准论文共同提醒：标准榜单上的高分不等于部署能力，几何恢复、终止协议、安全探索和恶劣条件鲁棒性仍是明显短板。
 > **趋势**：共同趋势是从单次动作预测转向“可验证、可适应、可部署”的闭环系统，并把世界模型、几何表征和内部信号引入决策。评测也正从干净单域成功率扩展到跨本体、跨域、长程状态、接触、安全与真实硬件约束。
 
 - **规模**：2279 个候选 → 24 篇入选；回填 0 篇
 - **主题**：具身智能评测与基准 20、多模态基础模型 14、智能体 Agent 12、世界模型 11、视觉语言动作模型 VLA 10、机器人学习 4、Sim2Real 1
 - **源异常**：1
-- **阅读方式**：先看 5 篇必读的“为什么值得读”，有用再进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **阅读方式**：先看 5 篇必读的“为什么值得读”，有用再进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -71,18 +71,18 @@ created: 2026-09-03
 
 ## 其余存档 12 篇
 
-- [Towards Generalizable Visually Grounded Exploration of Household Devices](items/Towards%20Generalizable%20Visually%20Grounded%20Exploration%20of%20Household%20Devices.md) · [[多模态基础模型]] [[智能体 Agent]] [[机器人学习]] [[具身智能评测与基准]]
-- [Toward Robust LiDAR Semantic Segmentation for Real-World Deployment: Evaluation under Coarse Labels, Adverse Conditions, and Domain Shifts](items/Toward%20Robust%20LiDAR%20Semantic%20Segmentation%20for%20Real-World%20Deployment%20Evaluation%20u.md) · [[具身智能评测与基准]]
-- [Spatially Aware World Action Model via Geometric Latent Diffusion](items/Spatially%20Aware%20World%20Action%20Model%20via%20Geometric%20Latent%20Diffusion.md) · [[世界模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [TAPVid-MV: A Benchmark for Tracking Any Point in 3D Across Multiple Views](items/TAPVid-MV%20A%20Benchmark%20for%20Tracking%20Any%20Point%20in%203D%20Across%20Multiple%20Views.md) · [[世界模型]] [[具身智能评测与基准]]
-- [A Survey on Self-Improving Test-Time Intelligence: Feedback-Driven Adapting, Learning, and Scaling at Inference](items/A%20Survey%20on%20Self-Improving%20Test-Time%20Intelligence%20Feedback-Driven%20Adapting%2C%20Lear.md) · [[多模态基础模型]] [[智能体 Agent]]
-- [Adaptive Depth-Map-Guided Bundle Adjustment for Correspondence-Free Multi-View Point Cloud Registration](items/Adaptive%20Depth-Map-Guided%20Bundle%20Adjustment%20for%20Correspondence-Free%20Multi-View%20P.md) · [[智能体 Agent]] [[具身智能评测与基准]]
-- [AM-Bench: A Modular Simulation Suite and Benchmark for Aerial Manipulation Policy Learning](items/AM-Bench%20A%20Modular%20Simulation%20Suite%20and%20Benchmark%20for%20Aerial%20Manipulation%20Policy.md) · [[世界模型]] [[具身智能评测与基准]]
-- [Beyond Object Selection:Markerless Gaze-based Robot Placement at Arbitrary Position](items/Beyond%20Object%20Selection%20Markerless%20Gaze-based%20Robot%20Placement%20at%20Arbitrary%20Posit.md) · [[具身智能评测与基准]]
-- [Exploring Collaboration between a language and a non-language agent](items/Exploring%20Collaboration%20between%20a%20language%20and%20a%20non-language%20agent.md) · [[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
-- [Discriminative World Models for Web Agents](items/Discriminative%20World%20Models%20for%20Web%20Agents.md) · [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
-- [MV-dVRK: A Multi-Viewpoint Benchmark for Spatial Surgical Perception](items/MV-dVRK%20A%20Multi-Viewpoint%20Benchmark%20for%20Spatial%20Surgical%20Perception.md) · [[多模态基础模型]] [[具身智能评测与基准]]
-- [Real-Time Dynamics-Based Torque-Sampling MPPI for Compliant and Force Aware Manipulation](items/Real-Time%20Dynamics-Based%20Torque-Sampling%20MPPI%20for%20Compliant%20and%20Force%20Aware%20Mani.md) · [[世界模型]] [[具身智能评测与基准]]
+- [Towards Generalizable Visually Grounded Exploration of Household Devices](items/Towards%20Generalizable%20Visually%20Grounded%20Exploration%20of%20Household%20Devices.md) · 多模态基础模型 智能体 Agent 机器人学习 具身智能评测与基准
+- [Toward Robust LiDAR Semantic Segmentation for Real-World Deployment: Evaluation under Coarse Labels, Adverse Conditions, and Domain Shifts](items/Toward%20Robust%20LiDAR%20Semantic%20Segmentation%20for%20Real-World%20Deployment%20Evaluation%20u.md) · 具身智能评测与基准
+- [Spatially Aware World Action Model via Geometric Latent Diffusion](items/Spatially%20Aware%20World%20Action%20Model%20via%20Geometric%20Latent%20Diffusion.md) · 世界模型 视觉语言动作模型 VLA 具身智能评测与基准
+- [TAPVid-MV: A Benchmark for Tracking Any Point in 3D Across Multiple Views](items/TAPVid-MV%20A%20Benchmark%20for%20Tracking%20Any%20Point%20in%203D%20Across%20Multiple%20Views.md) · 世界模型 具身智能评测与基准
+- [A Survey on Self-Improving Test-Time Intelligence: Feedback-Driven Adapting, Learning, and Scaling at Inference](items/A%20Survey%20on%20Self-Improving%20Test-Time%20Intelligence%20Feedback-Driven%20Adapting%2C%20Lear.md) · 多模态基础模型 智能体 Agent
+- [Adaptive Depth-Map-Guided Bundle Adjustment for Correspondence-Free Multi-View Point Cloud Registration](items/Adaptive%20Depth-Map-Guided%20Bundle%20Adjustment%20for%20Correspondence-Free%20Multi-View%20P.md) · 智能体 Agent 具身智能评测与基准
+- [AM-Bench: A Modular Simulation Suite and Benchmark for Aerial Manipulation Policy Learning](items/AM-Bench%20A%20Modular%20Simulation%20Suite%20and%20Benchmark%20for%20Aerial%20Manipulation%20Policy.md) · 世界模型 具身智能评测与基准
+- [Beyond Object Selection:Markerless Gaze-based Robot Placement at Arbitrary Position](items/Beyond%20Object%20Selection%20Markerless%20Gaze-based%20Robot%20Placement%20at%20Arbitrary%20Posit.md) · 具身智能评测与基准
+- [Exploring Collaboration between a language and a non-language agent](items/Exploring%20Collaboration%20between%20a%20language%20and%20a%20non-language%20agent.md) · 多模态基础模型 智能体 Agent 具身智能评测与基准
+- [Discriminative World Models for Web Agents](items/Discriminative%20World%20Models%20for%20Web%20Agents.md) · 智能体 Agent 世界模型 具身智能评测与基准
+- [MV-dVRK: A Multi-Viewpoint Benchmark for Spatial Surgical Perception](items/MV-dVRK%20A%20Multi-Viewpoint%20Benchmark%20for%20Spatial%20Surgical%20Perception.md) · 多模态基础模型 具身智能评测与基准
+- [Real-Time Dynamics-Based Torque-Sampling MPPI for Compliant and Force Aware Manipulation](items/Real-Time%20Dynamics-Based%20Torque-Sampling%20MPPI%20for%20Compliant%20and%20Force%20Aware%20Mani.md) · 世界模型 具身智能评测与基准
 
 <details>
 <summary>运行信息与信息源状态</summary>

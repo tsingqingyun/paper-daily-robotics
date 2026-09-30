@@ -1,21 +1,21 @@
 ---
 type: daily-update
 tags: [update, ai, embodied-ai]
-format_version: 3
+format_version: 2
 evidence_level: abstract
 created: 2026-09-06
 ---
 
 # 2026-09-06 AI Embodied Intelligence Update
 
-> [!summary] 今日判断
+> [!summary] 30 秒结论
 > 今天最值得细读的是三条能直接改变系统设计的路线：用物理状态对齐增强 JEPA 规划表征、用共享鸟瞰地图实现空地协同导航，以及把任务理解先验与跨机械手抓取策略解耦。安全导向世界模型、因果世界模型和可计算实验室则提供了重要的方法论框架，但目前更多是研究议程或形式化工作，证据成熟度不能与已有闭环实验的系统论文等量齐观。
 > **趋势**：共同趋势是把“预测得像”转向“对决策有用”：显式注入物理状态、风险、因果结构、几何关系或可执行约束。同时，模块化解耦和开放测试平台正在成为连接基础模型、机器人控制与可复现实验的主要工程路径。
 
 - **规模**：2438 个候选 → 17 篇入选；回填 0 篇
 - **主题**：世界模型 9、智能体 Agent 9、具身智能评测与基准 6、多模态基础模型 4、AI 核心知识地图 2、机器人学习 2、Sim2Real 1、视觉语言动作模型 VLA 1
 - **源异常**：2
-- **阅读方式**：先看 5 篇必读的“为什么值得读”，有用再进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **阅读方式**：先看 5 篇必读的“为什么值得读”，有用再进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -71,11 +71,11 @@ created: 2026-09-06
 
 ## 其余存档 5 篇
 
-- [Towards a Foundational Ontology for Identifying and Resolving Contradictions in Dialogue-based Human-Robot Interactions](items/Towards%20a%20Foundational%20Ontology%20for%20Identifying%20and%20Resolving%20Contradictions%20in.md) · [[智能体 Agent]]
-- [Artificial Intelligence for Energy Optimization in Data Centers](items/Artificial%20Intelligence%20for%20Energy%20Optimization%20in%20Data%20Centers.md) · [[世界模型]]
-- [Complete Identification of Deep ReLU Networks through {\L}ukasiewicz Logic](items/Complete%20Identification%20of%20Deep%20ReLU%20Networks%20through%20%7B%20L%7Dukasiewicz%20Logic.md) · [[AI 核心知识地图]]
-- [EasySteer: A Unified Framework for High-Performance and Extensible LLM Steering](items/EasySteer%20A%20Unified%20Framework%20for%20High-Performance%20and%20Extensible%20LLM%20Steering.md) · [[机器人学习]]
-- [A Low-Cost, Open Platform for End-to-End Autonomous Driving on a Miniature Ackermann Vehicle](items/A%20Low-Cost%2C%20Open%20Platform%20for%20End-to-End%20Autonomous%20Driving%20on%20a%20Miniature%20Acker.md) · [[世界模型]] [[机器人学习]] [[Sim2Real]]
+- [Towards a Foundational Ontology for Identifying and Resolving Contradictions in Dialogue-based Human-Robot Interactions](items/Towards%20a%20Foundational%20Ontology%20for%20Identifying%20and%20Resolving%20Contradictions%20in.md) · 智能体 Agent
+- [Artificial Intelligence for Energy Optimization in Data Centers](items/Artificial%20Intelligence%20for%20Energy%20Optimization%20in%20Data%20Centers.md) · 世界模型
+- [Complete Identification of Deep ReLU Networks through {\L}ukasiewicz Logic](items/Complete%20Identification%20of%20Deep%20ReLU%20Networks%20through%20%7B%20L%7Dukasiewicz%20Logic.md) · AI 核心知识地图
+- [EasySteer: A Unified Framework for High-Performance and Extensible LLM Steering](items/EasySteer%20A%20Unified%20Framework%20for%20High-Performance%20and%20Extensible%20LLM%20Steering.md) · 机器人学习
+- [A Low-Cost, Open Platform for End-to-End Autonomous Driving on a Miniature Ackermann Vehicle](items/A%20Low-Cost%2C%20Open%20Platform%20for%20End-to-End%20Autonomous%20Driving%20on%20a%20Miniature%20Acker.md) · 世界模型 机器人学习 Sim2Real
 
 <details>
 <summary>运行信息与信息源状态</summary>

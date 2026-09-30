@@ -20,19 +20,29 @@ concepts: ["机器人学习"]
 > [!summary] 一句话结论（基于摘要）
 > Extensive experiments across 24 simulated and 3 real-world tasks demonstrate that our framework significantly outperforms both vanilla policies and prior methods utilizing explicit pose guidance.
 
-## 关键点
+## 问题
 
-- **问题**：Effectively handling the interplay between spatial perception and action generation remains a critical bottleneck in robotic manipulation.
-- **创新点 / 方法**：To address this, we propose X-Imitator, a versatile dual-path framework that models spatial perception and action execution as a tightly coupled bidirectional loop.
-- **证据**：Extensive experiments across 24 simulated and 3 real-world tasks demonstrate that our framework significantly outperforms both vanilla policies and prior methods utilizing explicit pose guidance.
-- **局限**：摘要未明确说明；需阅读全文核查。
+Effectively handling the interplay between spatial perception and action generation remains a critical bottleneck in robotic manipulation.
+
+## 创新点或方法
+
+To address this, we propose X-Imitator, a versatile dual-path framework that models spatial perception and action execution as a tightly coupled bidirectional loop.
+
+## 证据
+
+Extensive experiments across 24 simulated and 3 real-world tasks demonstrate that our framework significantly outperforms both vanilla policies and prior methods utilizing explicit pose guidance.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[机器人学习]]
+- **概念**：机器人学习
 - **筛选分数**：29
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-05-14/X-Imitator Spatial-Aware Imitation Learning via Bidirectional Action-Pose Intera.md" --level full`
 

@@ -42,10 +42,10 @@ concepts: ["多模态基础模型", "智能体 Agent", "视觉语言动作模型
 
 对VLA和机器人学习研究者，实际价值在于把动作接口、人工纠错质量和实机探索放在同一适配流程中处理。
 
-- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]] [[机器人学习]]
+- **概念**：多模态基础模型 智能体 Agent 视觉语言动作模型 VLA 机器人学习
 - **筛选分数**：38
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-18/Towards High-DoF Dexterous Manipulation through VLA Post-Training.md" --level full`
 

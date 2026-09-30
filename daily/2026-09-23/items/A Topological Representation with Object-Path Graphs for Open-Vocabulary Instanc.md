@@ -42,10 +42,10 @@ HM3D和Replica实验报告开放词汇物体定位具有竞争力、导航有效
 
 对具身Agent和导航研究，提供了让语义记忆直接服务移动执行的表示方案；对操作型VLA的直接价值较弱。
 
-- **概念**：[[多模态基础模型]] [[智能体 Agent]]
+- **概念**：多模态基础模型 智能体 Agent
 - **筛选分数**：31
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-23/A Topological Representation with Object-Path Graphs for Open-Vocabulary Instanc.md" --level full`
 

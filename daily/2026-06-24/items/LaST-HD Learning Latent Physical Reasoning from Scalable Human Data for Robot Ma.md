@@ -20,19 +20,29 @@ concepts: ["世界模型", "视觉语言动作模型 VLA", "机器人学习"]
 > [!summary] 一句话结论（基于摘要）
 > With online correction, LaST-HD further adapts to novel environments and achieves over 90\% accuracy using only 20 minutes of OOL glove data.
 
-## 关键点
+## 问题
 
-- **问题**：Human-hand demonstrations provide a direct and scalable source of physical interaction data for robot learning.
-- **创新点 / 方法**：To address this, we introduce LaST-HD, a novel human-to- robot action learning paradigm that extends reasoning-before-acting VLA by aligning human-hand and robot demonstrations in a shared latent reasoning space.
-- **证据**：With online correction, LaST-HD further adapts to novel environments and achieves over 90\% accuracy using only 20 minutes of OOL glove data.
-- **局限**：摘要未明确说明；需阅读全文核查。
+Human-hand demonstrations provide a direct and scalable source of physical interaction data for robot learning.
+
+## 创新点或方法
+
+To address this, we introduce LaST-HD, a novel human-to- robot action learning paradigm that extends reasoning-before-acting VLA by aligning human-hand and robot demonstrations in a shared latent reasoning space.
+
+## 证据
+
+With online correction, LaST-HD further adapts to novel environments and achieves over 90\% accuracy using only 20 minutes of OOL glove data.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[世界模型]] [[视觉语言动作模型 VLA]] [[机器人学习]]
+- **概念**：世界模型 视觉语言动作模型 VLA 机器人学习
 - **筛选分数**：36
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-24/LaST-HD Learning Latent Physical Reasoning from Scalable Human Data for Robot Ma.md" --level full`
 

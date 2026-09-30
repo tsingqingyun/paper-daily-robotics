@@ -20,19 +20,29 @@ concepts: ["视觉语言动作模型 VLA", "机器人学习", "具身智能评�
 > [!summary] 一句话结论（基于摘要）
 > Offline reinforcement learning improves robotic policies using previously collected data without further environment interaction.
 
-## 关键点
+## 问题
 
-- **问题**：Yet prevalent diffusion- and flow-matching robot policies lack tractable likelihoods, limiting their use in likelihood-based offline RL post-training.
-- **创新点 / 方法**：We present RoMAN-Flow (Robotic Manipulation with Autoregressive Normalizing Flows), an offline reinforcement learning framework that makes AR-NF policies practical for robotic manipulation by addressing this sampling bottleneck in both stages.
-- **证据**：Offline reinforcement learning improves robotic policies using previously collected data without further environment interaction.
-- **局限**：摘要未明确说明；需阅读全文核查。
+Yet prevalent diffusion- and flow-matching robot policies lack tractable likelihoods, limiting their use in likelihood-based offline RL post-training.
+
+## 创新点或方法
+
+We present RoMAN-Flow (Robotic Manipulation with Autoregressive Normalizing Flows), an offline reinforcement learning framework that makes AR-NF policies practical for robotic manipulation by addressing this sampling bottleneck in both stages.
+
+## 证据
+
+Offline reinforcement learning improves robotic policies using previously collected data without further environment interaction.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[视觉语言动作模型 VLA]] [[机器人学习]] [[具身智能评测与基准]]
+- **概念**：视觉语言动作模型 VLA 机器人学习 具身智能评测与基准
 - **筛选分数**：34
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-22/RoMAN-Flow Taming Autoregressive Normalizing Flows for Offline Reinforcement Lea.md" --level full`
 

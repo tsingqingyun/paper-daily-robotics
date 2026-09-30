@@ -42,10 +42,10 @@ PHASE 将柔顺接触、多模态接触表示学习、基于触觉的变长阶�
 
 对机器人学习研究者，它把触觉从策略输入扩展为数据组织与检索依据；共享策略架构的比较有助于评估检索机制本身的价值。
 
-- **概念**：[[多模态基础模型]] [[机器人学习]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 机器人学习 具身智能评测与基准
 - **筛选分数**：31
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-28/PHASE Compliance-Enabled Tactile Phase Retrieval for Few-Shot Insertion Learning.md" --level full`
 

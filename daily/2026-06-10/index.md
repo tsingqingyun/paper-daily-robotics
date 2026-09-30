@@ -14,7 +14,7 @@ created: 2026-06-10
 - **规模**：2063 个候选 → 24 篇入选；回填 0 篇
 - **主题**：具身智能评测与基准 22、多模态基础模型 21、视觉语言动作模型 VLA 16、智能体 Agent 13、世界模型 10、机器人学习 9、Sim2Real 1
 - **源异常**：0
-- **需要更高精度**：从“必读”选择论文，进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **需要更高精度**：从“必读”选择论文，进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -55,18 +55,18 @@ created: 2026-06-10
 
 ## 其余存档 12 篇
 
-- [Act on What You See: Unlocking Safe Social Navigation in Vision-Language-Action Models](items/Act%20on%20What%20You%20See%20Unlocking%20Safe%20Social%20Navigation%20in%20Vision-Language-Action%20M.md) · [[多模态基础模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [A Practical Recipe Towards Improving Sim-and-Real Correlation for VLA Evaluation](items/A%20Practical%20Recipe%20Towards%20Improving%20Sim-and-Real%20Correlation%20for%20VLA%20Evaluation.md) · [[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [TORL-VLA: Tactile Guided Online Reinforcement Learning for Contact-Rich Manipulation](items/TORL-VLA%20Tactile%20Guided%20Online%20Reinforcement%20Learning%20for%20Contact-Rich%20Manipulat.md) · [[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]] [[机器人学习]] [[具身智能评测与基准]]
-- [Task Robustness via Re-Labelling Vision-Action Robot Data](items/Task%20Robustness%20via%20Re-Labelling%20Vision-Action%20Robot%20Data.md) · [[多模态基础模型]] [[智能体 Agent]] [[机器人学习]] [[具身智能评测与基准]]
-- [CT-VAM: A Cerebello-Thalamic-Inspired Vision-Action Model for Efficient Visuomotor Control](items/CT-VAM%20A%20Cerebello-Thalamic-Inspired%20Vision-Action%20Model%20for%20Efficient%20Visuomoto.md) · [[多模态基础模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [LIBERO-Occ: Evaluating and Improving Vision-Language-Action Models under Scene-Induced Occlusion via Viewpoint Imagination](items/LIBERO-Occ%20Evaluating%20and%20Improving%20Vision-Language-Action%20Models%20under%20Scene-In.md) · [[多模态基础模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [ReCoVLA: VLM-Guided Reward Compilation for Failure Recovery in Vision-Language-Action Policies](items/ReCoVLA%20VLM-Guided%20Reward%20Compilation%20for%20Failure%20Recovery%20in%20Vision-Language-Ac.md) · [[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[视觉语言动作模型 VLA]] [[Sim2Real]]
-- [Safe-RULE: Safe Reinforcement UnLEarning](items/Safe-RULE%20Safe%20Reinforcement%20UnLEarning.md) · [[机器人学习]] [[具身智能评测与基准]]
-- [Beyond APIs: Probing the Limits of MLLMs in Physical Tool Use](items/Beyond%20APIs%20Probing%20the%20Limits%20of%20MLLMs%20in%20Physical%20Tool%20Use.md) · [[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
-- [Exploration of Foundation Model-Based Robots in Patient and Elderly Care](items/Exploration%20of%20Foundation%20Model-Based%20Robots%20in%20Patient%20and%20Elderly%20Care.md) · [[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
-- [IMPACT: Learning Internal-Model Predictive Control for Forceful Robotic Manipulation](items/IMPACT%20Learning%20Internal-Model%20Predictive%20Control%20for%20Forceful%20Robotic%20Manipulat.md) · [[智能体 Agent]] [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
-- [Rethinking Embodied Navigation via Relational Inductive Bias](items/Rethinking%20Embodied%20Navigation%20via%20Relational%20Inductive%20Bias.md) · [[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
+- [Act on What You See: Unlocking Safe Social Navigation in Vision-Language-Action Models](items/Act%20on%20What%20You%20See%20Unlocking%20Safe%20Social%20Navigation%20in%20Vision-Language-Action%20M.md) · 多模态基础模型 视觉语言动作模型 VLA 具身智能评测与基准
+- [A Practical Recipe Towards Improving Sim-and-Real Correlation for VLA Evaluation](items/A%20Practical%20Recipe%20Towards%20Improving%20Sim-and-Real%20Correlation%20for%20VLA%20Evaluation.md) · 多模态基础模型 世界模型 视觉语言动作模型 VLA 具身智能评测与基准
+- [TORL-VLA: Tactile Guided Online Reinforcement Learning for Contact-Rich Manipulation](items/TORL-VLA%20Tactile%20Guided%20Online%20Reinforcement%20Learning%20for%20Contact-Rich%20Manipulat.md) · 多模态基础模型 智能体 Agent 视觉语言动作模型 VLA 机器人学习 具身智能评测与基准
+- [Task Robustness via Re-Labelling Vision-Action Robot Data](items/Task%20Robustness%20via%20Re-Labelling%20Vision-Action%20Robot%20Data.md) · 多模态基础模型 智能体 Agent 机器人学习 具身智能评测与基准
+- [CT-VAM: A Cerebello-Thalamic-Inspired Vision-Action Model for Efficient Visuomotor Control](items/CT-VAM%20A%20Cerebello-Thalamic-Inspired%20Vision-Action%20Model%20for%20Efficient%20Visuomoto.md) · 多模态基础模型 视觉语言动作模型 VLA 具身智能评测与基准
+- [LIBERO-Occ: Evaluating and Improving Vision-Language-Action Models under Scene-Induced Occlusion via Viewpoint Imagination](items/LIBERO-Occ%20Evaluating%20and%20Improving%20Vision-Language-Action%20Models%20under%20Scene-In.md) · 多模态基础模型 视觉语言动作模型 VLA 具身智能评测与基准
+- [ReCoVLA: VLM-Guided Reward Compilation for Failure Recovery in Vision-Language-Action Policies](items/ReCoVLA%20VLM-Guided%20Reward%20Compilation%20for%20Failure%20Recovery%20in%20Vision-Language-Ac.md) · 多模态基础模型 智能体 Agent 世界模型 视觉语言动作模型 VLA Sim2Real
+- [Safe-RULE: Safe Reinforcement UnLEarning](items/Safe-RULE%20Safe%20Reinforcement%20UnLEarning.md) · 机器人学习 具身智能评测与基准
+- [Beyond APIs: Probing the Limits of MLLMs in Physical Tool Use](items/Beyond%20APIs%20Probing%20the%20Limits%20of%20MLLMs%20in%20Physical%20Tool%20Use.md) · 多模态基础模型 智能体 Agent 具身智能评测与基准
+- [Exploration of Foundation Model-Based Robots in Patient and Elderly Care](items/Exploration%20of%20Foundation%20Model-Based%20Robots%20in%20Patient%20and%20Elderly%20Care.md) · 多模态基础模型 智能体 Agent 世界模型 具身智能评测与基准
+- [IMPACT: Learning Internal-Model Predictive Control for Forceful Robotic Manipulation](items/IMPACT%20Learning%20Internal-Model%20Predictive%20Control%20for%20Forceful%20Robotic%20Manipulat.md) · 智能体 Agent 世界模型 机器人学习 具身智能评测与基准
+- [Rethinking Embodied Navigation via Relational Inductive Bias](items/Rethinking%20Embodied%20Navigation%20via%20Relational%20Inductive%20Bias.md) · 多模态基础模型 智能体 Agent 具身智能评测与基准
 
 <details>
 <summary>运行信息与信息源错误</summary>

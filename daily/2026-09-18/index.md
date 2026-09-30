@@ -15,7 +15,7 @@ created: 2026-09-18
 - **规模**：2340 个候选 → 24 篇入选；回填 0 篇
 - **主题**：具身智能评测与基准 15、多模态基础模型 14、视觉语言动作模型 VLA 13、机器人学习 12、世界模型 7、智能体 Agent 5、AI 核心知识地图 1、Sim2Real 1
 - **源异常**：0
-- **阅读方式**：先看 5 篇必读的“为什么值得读”，有用再进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **阅读方式**：先看 5 篇必读的“为什么值得读”，有用再进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -71,18 +71,18 @@ created: 2026-09-18
 
 ## 其余存档 12 篇
 
-- [Runtime Safety Filtering for Two-Terminal Hazards in Robotic Battery Recycling](items/Runtime%20Safety%20Filtering%20for%20Two-Terminal%20Hazards%20in%20Robotic%20Battery%20Recycling.md) · [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [EmbodiedMind: Adaptive Data Curation and Prefix-Tree Reinforcement Learning for Efficient Embodied Intelligence](items/EmbodiedMind%20Adaptive%20Data%20Curation%20and%20Prefix-Tree%20Reinforcement%20Learning%20for%20E.md) · [[多模态基础模型]] [[智能体 Agent]] [[机器人学习]] [[具身智能评测与基准]]
-- [Quantifying Mechanical Intelligence in Legged Robots with Information Theory](items/Quantifying%20Mechanical%20Intelligence%20in%20Legged%20Robots%20with%20Information%20Theory.md) · [[世界模型]] [[具身智能评测与基准]]
-- [ParticleSplat: Self-supervised Object-centric Latent Particle Splatting](items/ParticleSplat%20Self-supervised%20Object-centric%20Latent%20Particle%20Splatting.md) · [[AI 核心知识地图]]
-- [Compliance for Free: Learning Identifiable Impedance via Bilateral Teleoperation](items/Compliance%20for%20Free%20Learning%20Identifiable%20Impedance%20via%20Bilateral%20Teleoperation.md) · [[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]] [[机器人学习]]
-- [CitySTAR: Structured and Topology-Aware Reasoning for Open-Vocabulary Urban 3D Grounding](items/CitySTAR%20Structured%20and%20Topology-Aware%20Reasoning%20for%20Open-Vocabulary%20Urban%203D%20Gr.md) · [[多模态基础模型]] [[具身智能评测与基准]]
-- [WeaveRL: Weaving Reconstruction into Scene-Aware Fabrics for Perceptive Reinforcement Learning](items/WeaveRL%20Weaving%20Reconstruction%20into%20Scene-Aware%20Fabrics%20for%20Perceptive%20Reinforce.md) · [[世界模型]] [[机器人学习]] [[Sim2Real]]
-- [MAGMA-GEN: Validated Recovery Supervision from Ambiguous Failures via Counterfactual Re-Execution](items/MAGMA-GEN%20Validated%20Recovery%20Supervision%20from%20Ambiguous%20Failures%20via%20Counterfact.md) · [[智能体 Agent]] [[世界模型]] [[机器人学习]]
-- [MaskHarness-WAM: Instance-Grounded Harnessing for Long-Horizon Robot Manipulation](items/MaskHarness-WAM%20Instance-Grounded%20Harnessing%20for%20Long-Horizon%20Robot%20Manipulation.md) · [[智能体 Agent]] [[具身智能评测与基准]]
-- [BinoGen: Scaling egocentric binocular data for embodied visual perception and learning](items/BinoGen%20Scaling%20egocentric%20binocular%20data%20for%20embodied%20visual%20perception%20and%20lea.md) · [[多模态基础模型]]
-- [LIFD: Anchored Diffusion for 3D-Aware Scene Memory in Robotic Manipulation](items/LIFD%20Anchored%20Diffusion%20for%203D-Aware%20Scene%20Memory%20in%20Robotic%20Manipulation.md) · [[视觉语言动作模型 VLA]] [[机器人学习]]
-- [Predict Before You Deploy: Offline Prediction of Quantization-Induced Task Degradation for World Action Models](items/Predict%20Before%20You%20Deploy%20Offline%20Prediction%20of%20Quantization-Induced%20Task%20Degrad.md) · [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
+- [Runtime Safety Filtering for Two-Terminal Hazards in Robotic Battery Recycling](items/Runtime%20Safety%20Filtering%20for%20Two-Terminal%20Hazards%20in%20Robotic%20Battery%20Recycling.md) · 视觉语言动作模型 VLA 具身智能评测与基准
+- [EmbodiedMind: Adaptive Data Curation and Prefix-Tree Reinforcement Learning for Efficient Embodied Intelligence](items/EmbodiedMind%20Adaptive%20Data%20Curation%20and%20Prefix-Tree%20Reinforcement%20Learning%20for%20E.md) · 多模态基础模型 智能体 Agent 机器人学习 具身智能评测与基准
+- [Quantifying Mechanical Intelligence in Legged Robots with Information Theory](items/Quantifying%20Mechanical%20Intelligence%20in%20Legged%20Robots%20with%20Information%20Theory.md) · 世界模型 具身智能评测与基准
+- [ParticleSplat: Self-supervised Object-centric Latent Particle Splatting](items/ParticleSplat%20Self-supervised%20Object-centric%20Latent%20Particle%20Splatting.md) · AI 核心知识地图
+- [Compliance for Free: Learning Identifiable Impedance via Bilateral Teleoperation](items/Compliance%20for%20Free%20Learning%20Identifiable%20Impedance%20via%20Bilateral%20Teleoperation.md) · 多模态基础模型 世界模型 视觉语言动作模型 VLA 机器人学习
+- [CitySTAR: Structured and Topology-Aware Reasoning for Open-Vocabulary Urban 3D Grounding](items/CitySTAR%20Structured%20and%20Topology-Aware%20Reasoning%20for%20Open-Vocabulary%20Urban%203D%20Gr.md) · 多模态基础模型 具身智能评测与基准
+- [WeaveRL: Weaving Reconstruction into Scene-Aware Fabrics for Perceptive Reinforcement Learning](items/WeaveRL%20Weaving%20Reconstruction%20into%20Scene-Aware%20Fabrics%20for%20Perceptive%20Reinforce.md) · 世界模型 机器人学习 Sim2Real
+- [MAGMA-GEN: Validated Recovery Supervision from Ambiguous Failures via Counterfactual Re-Execution](items/MAGMA-GEN%20Validated%20Recovery%20Supervision%20from%20Ambiguous%20Failures%20via%20Counterfact.md) · 智能体 Agent 世界模型 机器人学习
+- [MaskHarness-WAM: Instance-Grounded Harnessing for Long-Horizon Robot Manipulation](items/MaskHarness-WAM%20Instance-Grounded%20Harnessing%20for%20Long-Horizon%20Robot%20Manipulation.md) · 智能体 Agent 具身智能评测与基准
+- [BinoGen: Scaling egocentric binocular data for embodied visual perception and learning](items/BinoGen%20Scaling%20egocentric%20binocular%20data%20for%20embodied%20visual%20perception%20and%20lea.md) · 多模态基础模型
+- [LIFD: Anchored Diffusion for 3D-Aware Scene Memory in Robotic Manipulation](items/LIFD%20Anchored%20Diffusion%20for%203D-Aware%20Scene%20Memory%20in%20Robotic%20Manipulation.md) · 视觉语言动作模型 VLA 机器人学习
+- [Predict Before You Deploy: Offline Prediction of Quantization-Induced Task Degradation for World Action Models](items/Predict%20Before%20You%20Deploy%20Offline%20Prediction%20of%20Quantization-Induced%20Task%20Degrad.md) · 视觉语言动作模型 VLA 具身智能评测与基准
 
 <details>
 <summary>运行信息与信息源状态</summary>

@@ -14,7 +14,7 @@ created: 2026-06-25
 - **规模**：2100 个候选 → 24 篇入选；回填 0 篇
 - **主题**：多模态基础模型 15、智能体 Agent 13、具身智能评测与基准 12、世界模型 11、机器人学习 10、视觉语言动作模型 VLA 8、AI 核心知识地图 1
 - **源异常**：0
-- **需要更高精度**：从“必读”选择论文，进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **需要更高精度**：从“必读”选择论文，进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -55,18 +55,18 @@ created: 2026-06-25
 
 ## 其余存档 12 篇
 
-- [TSD: A Physics-Inspired Trajectory Saliency Detector for Efficient Imitation Learning](items/TSD%20A%20Physics-Inspired%20Trajectory%20Saliency%20Detector%20for%20Efficient%20Imitation%20Lear.md) · [[世界模型]] [[机器人学习]]
-- [TEXEDO : Test Time Scaling for Controller-aware Language-conditioned Humanoid Motion Generation](items/TEXEDO%20Test%20Time%20Scaling%20for%20Controller-aware%20Language-conditioned%20Humanoid%20Moti.md) · [[世界模型]]
-- [ReMMD: Realistic Multilingual Multi-Image Agentic Verification for Multimodal Misinformation Detection](items/ReMMD%20Realistic%20Multilingual%20Multi-Image%20Agentic%20Verification%20for%20Multimodal%20Mis.md) · [[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
-- [DriveStack-VLA: Render-Teacher Alignment for BEV-Based DeepStack Vision-Language-Action Model](items/DriveStack-VLA%20Render-Teacher%20Alignment%20for%20BEV-Based%20DeepStack%20Vision-Language-.md) · [[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]] [[机器人学习]] [[具身智能评测与基准]]
-- [AIR: Adaptive Interleaved Reasoning with Code in MLLMs](items/AIR%20Adaptive%20Interleaved%20Reasoning%20with%20Code%20in%20MLLMs.md) · [[多模态基础模型]] [[机器人学习]] [[具身智能评测与基准]]
-- [Attacking the Trusted Imagination: Oracle-Level Integrity Attacks on Imagine-then-Act World Models](items/Attacking%20the%20Trusted%20Imagination%20Oracle-Level%20Integrity%20Attacks%20on%20Imagine-then.md) · [[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [Intend, Reflect, Refine: An Adaptive Multimodal Reflection Framework for Autonomous Driving](items/Intend%2C%20Reflect%2C%20Refine%20An%20Adaptive%20Multimodal%20Reflection%20Framework%20for%20Autonomo.md) · [[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [ArtiTwinSplat: Interactable Digital Twin Reconstruction via Gaussian Splatting from RGB-D videos](items/ArtiTwinSplat%20Interactable%20Digital%20Twin%20Reconstruction%20via%20Gaussian%20Splatting%20fr.md) · [[智能体 Agent]] [[世界模型]]
-- [DexTeleop-0: Force-Aware Bimanual Dexterous Teleoperation with Ego-Centric Perception towards Shared Autonomy](items/DexTeleop-0%20Force-Aware%20Bimanual%20Dexterous%20Teleoperation%20with%20Ego-Centric%20Percep.md) · [[机器人学习]] [[具身智能评测与基准]]
-- [Flow6D: Discrete-to-Continuous Flow Matching for Efficient and Accurate Category-Level 6D Pose Estimation](items/Flow6D%20Discrete-to-Continuous%20Flow%20Matching%20for%20Efficient%20and%20Accurate%20Category-.md) · [[AI 核心知识地图]]
-- [AdaReP:Adaptive Re-Planning under Model Mismatch for Neural World-Model Predictive Control](items/AdaReP%20Adaptive%20Re-Planning%20under%20Model%20Mismatch%20for%20Neural%20World-Model%20Predicti.md) · [[智能体 Agent]] [[世界模型]]
-- [Compact Object-Level Representations with Open-Vocabulary Understanding for Indoor Visual Relocalization](items/Compact%20Object-Level%20Representations%20with%20Open-Vocabulary%20Understanding%20for%20Indo.md) · [[多模态基础模型]]
+- [TSD: A Physics-Inspired Trajectory Saliency Detector for Efficient Imitation Learning](items/TSD%20A%20Physics-Inspired%20Trajectory%20Saliency%20Detector%20for%20Efficient%20Imitation%20Lear.md) · 世界模型 机器人学习
+- [TEXEDO : Test Time Scaling for Controller-aware Language-conditioned Humanoid Motion Generation](items/TEXEDO%20Test%20Time%20Scaling%20for%20Controller-aware%20Language-conditioned%20Humanoid%20Moti.md) · 世界模型
+- [ReMMD: Realistic Multilingual Multi-Image Agentic Verification for Multimodal Misinformation Detection](items/ReMMD%20Realistic%20Multilingual%20Multi-Image%20Agentic%20Verification%20for%20Multimodal%20Mis.md) · 多模态基础模型 智能体 Agent 具身智能评测与基准
+- [DriveStack-VLA: Render-Teacher Alignment for BEV-Based DeepStack Vision-Language-Action Model](items/DriveStack-VLA%20Render-Teacher%20Alignment%20for%20BEV-Based%20DeepStack%20Vision-Language-.md) · 多模态基础模型 智能体 Agent 视觉语言动作模型 VLA 机器人学习 具身智能评测与基准
+- [AIR: Adaptive Interleaved Reasoning with Code in MLLMs](items/AIR%20Adaptive%20Interleaved%20Reasoning%20with%20Code%20in%20MLLMs.md) · 多模态基础模型 机器人学习 具身智能评测与基准
+- [Attacking the Trusted Imagination: Oracle-Level Integrity Attacks on Imagine-then-Act World Models](items/Attacking%20the%20Trusted%20Imagination%20Oracle-Level%20Integrity%20Attacks%20on%20Imagine-then.md) · 多模态基础模型 世界模型 视觉语言动作模型 VLA 具身智能评测与基准
+- [Intend, Reflect, Refine: An Adaptive Multimodal Reflection Framework for Autonomous Driving](items/Intend%2C%20Reflect%2C%20Refine%20An%20Adaptive%20Multimodal%20Reflection%20Framework%20for%20Autonomo.md) · 多模态基础模型 智能体 Agent 视觉语言动作模型 VLA 具身智能评测与基准
+- [ArtiTwinSplat: Interactable Digital Twin Reconstruction via Gaussian Splatting from RGB-D videos](items/ArtiTwinSplat%20Interactable%20Digital%20Twin%20Reconstruction%20via%20Gaussian%20Splatting%20fr.md) · 智能体 Agent 世界模型
+- [DexTeleop-0: Force-Aware Bimanual Dexterous Teleoperation with Ego-Centric Perception towards Shared Autonomy](items/DexTeleop-0%20Force-Aware%20Bimanual%20Dexterous%20Teleoperation%20with%20Ego-Centric%20Percep.md) · 机器人学习 具身智能评测与基准
+- [Flow6D: Discrete-to-Continuous Flow Matching for Efficient and Accurate Category-Level 6D Pose Estimation](items/Flow6D%20Discrete-to-Continuous%20Flow%20Matching%20for%20Efficient%20and%20Accurate%20Category-.md) · AI 核心知识地图
+- [AdaReP:Adaptive Re-Planning under Model Mismatch for Neural World-Model Predictive Control](items/AdaReP%20Adaptive%20Re-Planning%20under%20Model%20Mismatch%20for%20Neural%20World-Model%20Predicti.md) · 智能体 Agent 世界模型
+- [Compact Object-Level Representations with Open-Vocabulary Understanding for Indoor Visual Relocalization](items/Compact%20Object-Level%20Representations%20with%20Open-Vocabulary%20Understanding%20for%20Indo.md) · 多模态基础模型
 
 <details>
 <summary>运行信息与信息源错误</summary>

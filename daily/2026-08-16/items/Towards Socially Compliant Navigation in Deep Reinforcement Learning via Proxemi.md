@@ -20,19 +20,29 @@ concepts: ["世界模型", "机器人学习"]
 > [!summary] 一句话结论（基于摘要）
 > Results show that the proposed reward consistently improves social metrics in simulation while maintaining competitive navigation performance relative to the compared reward models.
 
-## 关键点
+## 问题
 
-- **问题**：Developing effective robot navigation methods in crowded environments is essential for real-world applications.
-- **创新点 / 方法**：In this paper, we introduce a novel proxemics-based reward formulation for DRL social navigation that provides a dense, interpretable social learning signal while maintaining navigation efficiency.
-- **证据**：Results show that the proposed reward consistently improves social metrics in simulation while maintaining competitive navigation performance relative to the compared reward models.
-- **局限**：摘要未明确说明；需阅读全文核查。
+Developing effective robot navigation methods in crowded environments is essential for real-world applications.
+
+## 创新点或方法
+
+In this paper, we introduce a novel proxemics-based reward formulation for DRL social navigation that provides a dense, interpretable social learning signal while maintaining navigation efficiency.
+
+## 证据
+
+Results show that the proposed reward consistently improves social metrics in simulation while maintaining competitive navigation performance relative to the compared reward models.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[世界模型]] [[机器人学习]]
+- **概念**：世界模型 机器人学习
 - **筛选分数**：23
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-16/Towards Socially Compliant Navigation in Deep Reinforcement Learning via Proxemi.md" --level full`
 

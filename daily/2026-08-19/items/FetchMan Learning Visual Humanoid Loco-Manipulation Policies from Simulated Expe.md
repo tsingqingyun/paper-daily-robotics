@@ -20,19 +20,29 @@ concepts: ["世界模型", "机器人学习", "Sim2Real", "具身智能评测与
 > [!summary] 一句话结论（基于摘要）
 > Visual loco-manipulation policies that can generalize to novel scenes and objects have long been a goal of robotics research.
 
-## 关键点
+## 问题
 
-- **问题**：However, today's data-hungry algorithms make collecting sufficient demonstrations a struggle for tabletop manipulation, and even more so for humanoids that must also walk and balance.
-- **创新点 / 方法**：Visual loco-manipulation policies that can generalize to novel scenes and objects have long been a goal of robotics research.
-- **证据**：摘要未报告明确实验结论；需阅读全文核查。
-- **局限**：Reinforcement learning breaks through it, and refining the cloned policy with Flow-GRPO on a single sparse reward yields performance that synthetic behavior cloning cannot match.
+However, today's data-hungry algorithms make collecting sufficient demonstrations a struggle for tabletop manipulation, and even more so for humanoids that must also walk and balance.
+
+## 创新点或方法
+
+Visual loco-manipulation policies that can generalize to novel scenes and objects have long been a goal of robotics research.
+
+## 证据
+
+摘要未报告明确实验结论；需阅读全文核查。
+
+## 局限
+
+Reinforcement learning breaks through it, and refining the cloned policy with Flow-GRPO on a single sparse reward yields performance that synthetic behavior cloning cannot match.
+
 
 ## 研究关联
 
-- **概念**：[[世界模型]] [[机器人学习]] [[Sim2Real]] [[具身智能评测与基准]]
+- **概念**：世界模型 机器人学习 Sim2Real 具身智能评测与基准
 - **筛选分数**：34
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-19/FetchMan Learning Visual Humanoid Loco-Manipulation Policies from Simulated Expe.md" --level full`
 

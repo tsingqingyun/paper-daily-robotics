@@ -42,10 +42,10 @@ concepts: ["多模态基础模型", "世界模型", "视觉语言动作模型 VL
 
 对 VLA、WAM 和基准研究者，实际价值是把模型选择从单一成功率扩展到稳定性、语言适应和运行代价，并明确哪些结果允许严格比较。
 
-- **概念**：[[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 世界模型 视觉语言动作模型 VLA 具身智能评测与基准
 - **筛选分数**：33
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-24/IndustrialVLA-Bench A Traceable Multi-Axis Evaluation of Open Robot Policy Model.md" --level full`
 

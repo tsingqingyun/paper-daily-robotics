@@ -20,19 +20,29 @@ concepts: ["智能体 Agent", "世界模型", "视觉语言动作模型 VLA", "�
 > [!summary] 一句话结论（基于摘要）
 > Moreover, our post-trained 4B and 9B agents outperform much larger open-weight agents of 48B and 120B on held-out benchmarks.
 
-## 关键点
+## 问题
 
-- **问题**：As a result, the environment execution dominates the training cost and becomes the bottleneck as trajectories grow.
-- **创新点 / 方法**：To resolve this tension, we propose World Model RL (WMRL), which replaces environment execution with a world model to remove this bottleneck.
-- **证据**：Moreover, our post-trained 4B and 9B agents outperform much larger open-weight agents of 48B and 120B on held-out benchmarks.
-- **局限**：摘要未明确说明；需阅读全文核查。
+As a result, the environment execution dominates the training cost and becomes the bottleneck as trajectories grow.
+
+## 创新点或方法
+
+To resolve this tension, we propose World Model RL (WMRL), which replaces environment execution with a world model to remove this bottleneck.
+
+## 证据
+
+Moreover, our post-trained 4B and 9B agents outperform much larger open-weight agents of 48B and 120B on held-out benchmarks.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[智能体 Agent]] [[世界模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
+- **概念**：智能体 Agent 世界模型 视觉语言动作模型 VLA 具身智能评测与基准
 - **筛选分数**：33
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-15/Scaling Automatic Research Agents via World Models.md" --level full`
 

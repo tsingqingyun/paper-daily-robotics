@@ -14,7 +14,7 @@ created: 2026-08-10
 - **规模**：2222 个候选 → 24 篇入选；回填 0 篇
 - **主题**：具身智能评测与基准 17、智能体 Agent 16、世界模型 12、多模态基础模型 7、机器人学习 4、AI 核心知识地图 1、Sim2Real 1、视觉语言动作模型 VLA 1
 - **源异常**：0
-- **需要更高精度**：从“必读”选择论文，进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **需要更高精度**：从“必读”选择论文，进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -55,18 +55,18 @@ created: 2026-08-10
 
 ## 其余存档 12 篇
 
-- [Search-Aided Joint Agent-Environment Reinforcement Learning for Robust Lifelong Multi-Agent Path Finding with Rotations](items/Search-Aided%20Joint%20Agent-Environment%20Reinforcement%20Learning%20for%20Robust%20Lifelong.md) · [[智能体 Agent]] [[机器人学习]] [[具身智能评测与基准]]
-- [Depth-Wise Probing and Pruning of the Planning Token in a Driving Vision-Language-Action Model](items/Depth-Wise%20Probing%20and%20Pruning%20of%20the%20Planning%20Token%20in%20a%20Driving%20Vision-Languag.md) · [[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]]
-- [ReGraph: Learning to Generate Recipe Graphs from Food Images](items/ReGraph%20Learning%20to%20Generate%20Recipe%20Graphs%20from%20Food%20Images.md) · [[多模态基础模型]] [[智能体 Agent]]
-- [When Coordination Becomes a Threat: Communication Attacks in LLM-Controlled Multi-Robot Systems](items/When%20Coordination%20Becomes%20a%20Threat%20Communication%20Attacks%20in%20LLM-Controlled%20Multi.md) · [[智能体 Agent]] [[具身智能评测与基准]]
-- [GST-Bench: Can VLMs Develop Global Spatial Awareness from Video?](items/GST-Bench%20Can%20VLMs%20Develop%20Global%20Spatial%20Awareness%20from%20Video.md) · [[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
-- [PathCover: A Fast Convex Decomposition along a Path via Randomized Iterative Space Partitioning (RISP) on Point Clouds](items/PathCover%20A%20Fast%20Convex%20Decomposition%20along%20a%20Path%20via%20Randomized%20Iterative%20Spac.md) · [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
-- [MemWM: Memory-Augmented Text-Based World Model](items/MemWM%20Memory-Augmented%20Text-Based%20World%20Model.md) · [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
-- [C2Dex: Contact-Consistent Reconstruction and Retargeting for Dexterous Manipulation from Monocular Video](items/C2Dex%20Contact-Consistent%20Reconstruction%20and%20Retargeting%20for%20Dexterous%20Manipulati.md) · [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
-- [Real-time Whole-Body Motion Planning for Mobile Manipulators Carrying Arbitrarily Shaped Payloads via Kinematically-Coupled SVSDF](items/Real-time%20Whole-Body%20Motion%20Planning%20for%20Mobile%20Manipulators%20Carrying%20Arbitraril.md) · [[智能体 Agent]] [[具身智能评测与基准]]
-- [Surg-UniWorld: A Unified Surgical World Model with Multimodal Control Experts](items/Surg-UniWorld%20A%20Unified%20Surgical%20World%20Model%20with%20Multimodal%20Control%20Experts.md) · [[多模态基础模型]] [[世界模型]] [[具身智能评测与基准]]
-- [MemPrism: Task-Conditioned Relational Memory Views for Long-Horizon Agents](items/MemPrism%20Task-Conditioned%20Relational%20Memory%20Views%20for%20Long-Horizon%20Agents.md) · [[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
-- [SoRoMoX: Fast, Differentiable, and Parallelizable Soft Robot Models](items/SoRoMoX%20Fast%2C%20Differentiable%2C%20and%20Parallelizable%20Soft%20Robot%20Models.md) · [[智能体 Agent]] [[具身智能评测与基准]]
+- [Search-Aided Joint Agent-Environment Reinforcement Learning for Robust Lifelong Multi-Agent Path Finding with Rotations](items/Search-Aided%20Joint%20Agent-Environment%20Reinforcement%20Learning%20for%20Robust%20Lifelong.md) · 智能体 Agent 机器人学习 具身智能评测与基准
+- [Depth-Wise Probing and Pruning of the Planning Token in a Driving Vision-Language-Action Model](items/Depth-Wise%20Probing%20and%20Pruning%20of%20the%20Planning%20Token%20in%20a%20Driving%20Vision-Languag.md) · 多模态基础模型 智能体 Agent 视觉语言动作模型 VLA
+- [ReGraph: Learning to Generate Recipe Graphs from Food Images](items/ReGraph%20Learning%20to%20Generate%20Recipe%20Graphs%20from%20Food%20Images.md) · 多模态基础模型 智能体 Agent
+- [When Coordination Becomes a Threat: Communication Attacks in LLM-Controlled Multi-Robot Systems](items/When%20Coordination%20Becomes%20a%20Threat%20Communication%20Attacks%20in%20LLM-Controlled%20Multi.md) · 智能体 Agent 具身智能评测与基准
+- [GST-Bench: Can VLMs Develop Global Spatial Awareness from Video?](items/GST-Bench%20Can%20VLMs%20Develop%20Global%20Spatial%20Awareness%20from%20Video.md) · 多模态基础模型 智能体 Agent 具身智能评测与基准
+- [PathCover: A Fast Convex Decomposition along a Path via Randomized Iterative Space Partitioning (RISP) on Point Clouds](items/PathCover%20A%20Fast%20Convex%20Decomposition%20along%20a%20Path%20via%20Randomized%20Iterative%20Spac.md) · 智能体 Agent 世界模型 具身智能评测与基准
+- [MemWM: Memory-Augmented Text-Based World Model](items/MemWM%20Memory-Augmented%20Text-Based%20World%20Model.md) · 智能体 Agent 世界模型 具身智能评测与基准
+- [C2Dex: Contact-Consistent Reconstruction and Retargeting for Dexterous Manipulation from Monocular Video](items/C2Dex%20Contact-Consistent%20Reconstruction%20and%20Retargeting%20for%20Dexterous%20Manipulati.md) · 世界模型 机器人学习 具身智能评测与基准
+- [Real-time Whole-Body Motion Planning for Mobile Manipulators Carrying Arbitrarily Shaped Payloads via Kinematically-Coupled SVSDF](items/Real-time%20Whole-Body%20Motion%20Planning%20for%20Mobile%20Manipulators%20Carrying%20Arbitraril.md) · 智能体 Agent 具身智能评测与基准
+- [Surg-UniWorld: A Unified Surgical World Model with Multimodal Control Experts](items/Surg-UniWorld%20A%20Unified%20Surgical%20World%20Model%20with%20Multimodal%20Control%20Experts.md) · 多模态基础模型 世界模型 具身智能评测与基准
+- [MemPrism: Task-Conditioned Relational Memory Views for Long-Horizon Agents](items/MemPrism%20Task-Conditioned%20Relational%20Memory%20Views%20for%20Long-Horizon%20Agents.md) · 多模态基础模型 智能体 Agent 具身智能评测与基准
+- [SoRoMoX: Fast, Differentiable, and Parallelizable Soft Robot Models](items/SoRoMoX%20Fast%2C%20Differentiable%2C%20and%20Parallelizable%20Soft%20Robot%20Models.md) · 智能体 Agent 具身智能评测与基准
 
 <details>
 <summary>运行信息与信息源错误</summary>

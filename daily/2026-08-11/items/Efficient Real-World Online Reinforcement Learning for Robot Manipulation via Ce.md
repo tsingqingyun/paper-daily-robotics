@@ -20,19 +20,29 @@ concepts: ["智能体 Agent", "机器人学习", "Sim2Real", "具身智能评测
 > [!summary] 一句话结论（基于摘要）
 > Compared with a state-of-the-art baseline, our method improves the success rate from 60% to 80% on tennis ball pick-and-place, from 60% to 90% on banana pick-and-place, and from 25% to 95% on simulated block relocation, while also successfully accomplishing a…
 
-## 关键点
+## 问题
 
-- **问题**：Recent methods have demonstrated sample-efficient learning through human intervention but remain limited to small randomization ranges and encounter challenges with the non- stationarity induced by concurrently training multiple agents.
-- **创新点 / 方法**：To address these limitations, we introduce a unified framework that combines centralized training with decentralized execution (CTDE) and a Hybrid Reward Architecture (HRA).
-- **证据**：Compared with a state-of-the-art baseline, our method improves the success rate from 60% to 80% on tennis ball pick-and-place, from 60% to 90% on banana pick-and-place, and from 25% to 95% on simulated block relocation, while also successfully accomplishing a task where the baseline consistently fails.
-- **局限**：Recent methods have demonstrated sample-efficient learning through human intervention but remain limited to small randomization ranges and encounter challenges with the non- stationarity induced by concurrently training multiple agents.
+Recent methods have demonstrated sample-efficient learning through human intervention but remain limited to small randomization ranges and encounter challenges with the non- stationarity induced by concurrently training multiple agents.
+
+## 创新点或方法
+
+To address these limitations, we introduce a unified framework that combines centralized training with decentralized execution (CTDE) and a Hybrid Reward Architecture (HRA).
+
+## 证据
+
+Compared with a state-of-the-art baseline, our method improves the success rate from 60% to 80% on tennis ball pick-and-place, from 60% to 90% on banana pick-and-place, and from 25% to 95% on simulated block relocation, while also successfully accomplishing a task where the baseline consistently fails.
+
+## 局限
+
+Recent methods have demonstrated sample-efficient learning through human intervention but remain limited to small randomization ranges and encounter challenges with the non- stationarity induced by concurrently training multiple agents.
+
 
 ## 研究关联
 
-- **概念**：[[智能体 Agent]] [[机器人学习]] [[Sim2Real]] [[具身智能评测与基准]]
+- **概念**：智能体 Agent 机器人学习 Sim2Real 具身智能评测与基准
 - **筛选分数**：33
 - **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-11/Efficient Real-World Online Reinforcement Learning for Robot Manipulation via Ce.md" --level full`
 

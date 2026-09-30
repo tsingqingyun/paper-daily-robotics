@@ -20,19 +20,29 @@ concepts: ["世界模型", "具身智能评测与基准"]
 > [!summary] 一句话结论（基于摘要）
 > Experiments on simulations and real-world benchmarks show that EA-RAM is robust to the Dual Error and achieves a better cost--performance Pareto frontier than centralized baselines, with additional gains when providers contribute local information, validating…
 
-## 关键点
+## 问题
 
-- **问题**：Routing each query to a cost-effective large language model (LLM) is critical for balancing quality and cost, yet most routers rely on a centralized task center to predict model performance, creating an information-risk mismatch and a scalability bottleneck as the model pool grows.
-- **创新点 / 方法**：We propose a market-based routing paradigm that shifts ex-ante prediction to LLM providers via a reverse auction, where providers bid with self-predicted success probabilities and execution costs.
-- **证据**：Experiments on simulations and real-world benchmarks show that EA-RAM is robust to the Dual Error and achieves a better cost--performance Pareto frontier than centralized baselines, with additional gains when providers contribute local information, validating its practical effectiveness.
-- **局限**：摘要未明确说明；需阅读全文核查。
+Routing each query to a cost-effective large language model (LLM) is critical for balancing quality and cost, yet most routers rely on a centralized task center to predict model performance, creating an information-risk mismatch and a scalability bottleneck as the model pool grows.
+
+## 创新点或方法
+
+We propose a market-based routing paradigm that shifts ex-ante prediction to LLM providers via a reverse auction, where providers bid with self-predicted success probabilities and execution costs.
+
+## 证据
+
+Experiments on simulations and real-world benchmarks show that EA-RAM is robust to the Dual Error and achieves a better cost--performance Pareto frontier than centralized baselines, with additional gains when providers contribute local information, validating its practical effectiveness.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[世界模型]] [[具身智能评测与基准]]
+- **概念**：世界模型 具身智能评测与基准
 - **筛选分数**：24
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-16/Error-Aware Reverse Auction Mechanism for Large Language Model Routing.md" --level full`
 

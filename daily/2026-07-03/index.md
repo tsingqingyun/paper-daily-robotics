@@ -14,7 +14,7 @@ created: 2026-07-03
 - **规模**：2112 个候选 → 24 篇入选；回填 0 篇
 - **主题**：具身智能评测与基准 18、多模态基础模型 18、视觉语言动作模型 VLA 15、世界模型 12、机器人学习 9、智能体 Agent 6
 - **源异常**：0
-- **需要更高精度**：从“必读”选择论文，进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **需要更高精度**：从“必读”选择论文，进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -55,18 +55,18 @@ created: 2026-07-03
 
 ## 其余存档 12 篇
 
-- [Coachable agents for interactive gameplay](items/Coachable%20agents%20for%20interactive%20gameplay.md) · [[多模态基础模型]] [[智能体 Agent]] [[机器人学习]]
-- [CoFL-S: Spatially Queryable Sector Flow Fields for Local Language-Conditioned Navigation](items/CoFL-S%20Spatially%20Queryable%20Sector%20Flow%20Fields%20for%20Local%20Language-Conditioned%20Nav.md) · [[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [One Demonstration Is Enough for Real-World Robotic Reinforcement Learning](items/One%20Demonstration%20Is%20Enough%20for%20Real-World%20Robotic%20Reinforcement%20Learning.md) · [[机器人学习]] [[具身智能评测与基准]]
-- [From Forgeries to Foundation Models: A Systematic Survey of Identity Document Attack and Detection](items/From%20Forgeries%20to%20Foundation%20Models%20A%20Systematic%20Survey%20of%20Identity%20Document%20Att.md) · [[多模态基础模型]] [[具身智能评测与基准]]
-- [DeWorldSG: Depth-Aware 3D Semantic Scene Graph Generation via World-Model Priors](items/DeWorldSG%20Depth-Aware%203D%20Semantic%20Scene%20Graph%20Generation%20via%20World-Model%20Priors.md) · [[世界模型]]
-- [Cross4D-JEPA: Dense Cross-modal Correspondence Distillation for 4D Point Cloud Representation Learning](items/Cross4D-JEPA%20Dense%20Cross-modal%20Correspondence%20Distillation%20for%204D%20Point%20Cloud%20Re.md) · [[多模态基础模型]] [[具身智能评测与基准]]
-- [The Moving Eye: Enhancing VLA Spatial Generalization via Hybrid Dynamic Data Collection](items/The%20Moving%20Eye%20Enhancing%20VLA%20Spatial%20Generalization%20via%20Hybrid%20Dynamic%20Data%20Coll.md) · [[多模态基础模型]] [[视觉语言动作模型 VLA]]
-- [Guided Action Flow: Q-Guided Inference for Flow-Matching Vision-Language-Action Policies](items/Guided%20Action%20Flow%20Q-Guided%20Inference%20for%20Flow-Matching%20Vision-Language-Action%20P.md) · [[多模态基础模型]] [[视觉语言动作模型 VLA]]
-- [Domain Arithmetic: One-Shot VLA Adaptation under Environmental Shifts](items/Domain%20Arithmetic%20One-Shot%20VLA%20Adaptation%20under%20Environmental%20Shifts.md) · [[多模态基础模型]] [[视觉语言动作模型 VLA]] [[机器人学习]]
-- [LIME: Learning Intent-aware Camera Motion from Egocentric Video](items/LIME%20Learning%20Intent-aware%20Camera%20Motion%20from%20Egocentric%20Video.md) · [[多模态基础模型]] [[视觉语言动作模型 VLA]]
-- [From Technical Metrics to User Perception: A User Study of a Multimodal Human-Robot Interaction System for Object Detection and Grasping](items/From%20Technical%20Metrics%20to%20User%20Perception%20A%20User%20Study%20of%20a%20Multimodal%20Human-Rob.md) · [[多模态基础模型]] [[具身智能评测与基准]]
-- [ComplexMimic: Human-Scene Interaction Imitation in Complex 3D Environments](items/ComplexMimic%20Human-Scene%20Interaction%20Imitation%20in%20Complex%203D%20Environments.md) · [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
+- [Coachable agents for interactive gameplay](items/Coachable%20agents%20for%20interactive%20gameplay.md) · 多模态基础模型 智能体 Agent 机器人学习
+- [CoFL-S: Spatially Queryable Sector Flow Fields for Local Language-Conditioned Navigation](items/CoFL-S%20Spatially%20Queryable%20Sector%20Flow%20Fields%20for%20Local%20Language-Conditioned%20Nav.md) · 多模态基础模型 世界模型 视觉语言动作模型 VLA 具身智能评测与基准
+- [One Demonstration Is Enough for Real-World Robotic Reinforcement Learning](items/One%20Demonstration%20Is%20Enough%20for%20Real-World%20Robotic%20Reinforcement%20Learning.md) · 机器人学习 具身智能评测与基准
+- [From Forgeries to Foundation Models: A Systematic Survey of Identity Document Attack and Detection](items/From%20Forgeries%20to%20Foundation%20Models%20A%20Systematic%20Survey%20of%20Identity%20Document%20Att.md) · 多模态基础模型 具身智能评测与基准
+- [DeWorldSG: Depth-Aware 3D Semantic Scene Graph Generation via World-Model Priors](items/DeWorldSG%20Depth-Aware%203D%20Semantic%20Scene%20Graph%20Generation%20via%20World-Model%20Priors.md) · 世界模型
+- [Cross4D-JEPA: Dense Cross-modal Correspondence Distillation for 4D Point Cloud Representation Learning](items/Cross4D-JEPA%20Dense%20Cross-modal%20Correspondence%20Distillation%20for%204D%20Point%20Cloud%20Re.md) · 多模态基础模型 具身智能评测与基准
+- [The Moving Eye: Enhancing VLA Spatial Generalization via Hybrid Dynamic Data Collection](items/The%20Moving%20Eye%20Enhancing%20VLA%20Spatial%20Generalization%20via%20Hybrid%20Dynamic%20Data%20Coll.md) · 多模态基础模型 视觉语言动作模型 VLA
+- [Guided Action Flow: Q-Guided Inference for Flow-Matching Vision-Language-Action Policies](items/Guided%20Action%20Flow%20Q-Guided%20Inference%20for%20Flow-Matching%20Vision-Language-Action%20P.md) · 多模态基础模型 视觉语言动作模型 VLA
+- [Domain Arithmetic: One-Shot VLA Adaptation under Environmental Shifts](items/Domain%20Arithmetic%20One-Shot%20VLA%20Adaptation%20under%20Environmental%20Shifts.md) · 多模态基础模型 视觉语言动作模型 VLA 机器人学习
+- [LIME: Learning Intent-aware Camera Motion from Egocentric Video](items/LIME%20Learning%20Intent-aware%20Camera%20Motion%20from%20Egocentric%20Video.md) · 多模态基础模型 视觉语言动作模型 VLA
+- [From Technical Metrics to User Perception: A User Study of a Multimodal Human-Robot Interaction System for Object Detection and Grasping](items/From%20Technical%20Metrics%20to%20User%20Perception%20A%20User%20Study%20of%20a%20Multimodal%20Human-Rob.md) · 多模态基础模型 具身智能评测与基准
+- [ComplexMimic: Human-Scene Interaction Imitation in Complex 3D Environments](items/ComplexMimic%20Human-Scene%20Interaction%20Imitation%20in%20Complex%203D%20Environments.md) · 世界模型 机器人学习 具身智能评测与基准
 
 <details>
 <summary>运行信息与信息源错误</summary>

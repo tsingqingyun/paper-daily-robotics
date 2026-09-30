@@ -42,10 +42,10 @@ LIBERO成功率来自独立GPU评测，不能直接代表树莓派闭环表现�
 
 对VLA部署与评测，价值是同时报告计算速度和执行时间覆盖，避免用动作吞吐量替代闭环响应能力。
 
-- **概念**：[[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
+- **概念**：视觉语言动作模型 VLA 具身智能评测与基准
 - **筛选分数**：31
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-23/vla.simd Efficient CPU Inference for Language-Conditioned Manipulation.md" --level full`
 

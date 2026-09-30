@@ -20,19 +20,29 @@ concepts: ["智能体 Agent", "机器人学习"]
 > [!summary] 一句话结论（基于摘要）
 > Through this workflow, we present the Koala Gripper system, a data capture device and robotic gripper platform that improves dexterity and grasp capability compared to parallel jaw grippers while preserving scalability and ease-of-use.
 
-## 关键点
+## 问题
 
-- **问题**：As the demand for larger manipulation datasets grows, handheld robotic gripper data collection and the associated gripper designs become more vital.
-- **创新点 / 方法**：In this paper, we propose a co-design framework that guides the simultaneous development of both data collection and robotic execution devices by weaving both platform constraints into the design process.
-- **证据**：Through this workflow, we present the Koala Gripper system, a data capture device and robotic gripper platform that improves dexterity and grasp capability compared to parallel jaw grippers while preserving scalability and ease-of-use.
-- **局限**：摘要未明确说明；需阅读全文核查。
+As the demand for larger manipulation datasets grows, handheld robotic gripper data collection and the associated gripper designs become more vital.
+
+## 创新点或方法
+
+In this paper, we propose a co-design framework that guides the simultaneous development of both data collection and robotic execution devices by weaving both platform constraints into the design process.
+
+## 证据
+
+Through this workflow, we present the Koala Gripper system, a data capture device and robotic gripper platform that improves dexterity and grasp capability compared to parallel jaw grippers while preserving scalability and ease-of-use.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[智能体 Agent]] [[机器人学习]]
+- **概念**：智能体 Agent 机器人学习
 - **筛选分数**：25
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-24/Koala Gripper Co-designing Robotic Grippers and Data-Capture Devices for Scaling.md" --level full`
 

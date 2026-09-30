@@ -20,19 +20,29 @@ concepts: ["世界模型", "视觉语言动作模型 VLA", "具身智能评测�
 > [!summary] 一句话结论（基于摘要）
 > We introduce PhysMani-Bench, a dynamic manipulation benchmark with 16 tasks, and demonstrate a superior success rate over strong baselines in both simulation and real-world robot experiments.
 
-## 关键点
+## 问题
 
-- **问题**：Manipulating fast and dynamically moving targets in unstructured 3D environments remains challenging for embodied AI.
-- **创新点 / 方法**：We propose PhysMani, a framework that couples a physics-principled 3D Gaussian world model with a future-aware action policy model.
-- **证据**：We introduce PhysMani-Bench, a dynamic manipulation benchmark with 16 tasks, and demonstrate a superior success rate over strong baselines in both simulation and real-world robot experiments.
-- **局限**：Manipulating fast and dynamically moving targets in unstructured 3D environments remains challenging for embodied AI.
+Manipulating fast and dynamically moving targets in unstructured 3D environments remains challenging for embodied AI.
+
+## 创新点或方法
+
+We propose PhysMani, a framework that couples a physics-principled 3D Gaussian world model with a future-aware action policy model.
+
+## 证据
+
+We introduce PhysMani-Bench, a dynamic manipulation benchmark with 16 tasks, and demonstrate a superior success rate over strong baselines in both simulation and real-world robot experiments.
+
+## 局限
+
+Manipulating fast and dynamically moving targets in unstructured 3D environments remains challenging for embodied AI.
+
 
 ## 研究关联
 
-- **概念**：[[世界模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
+- **概念**：世界模型 视觉语言动作模型 VLA 具身智能评测与基准
 - **筛选分数**：36
 - **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-07-03/PhysMani Physics-principled 3D World Model for Dynamic Object Manipulation.md" --level full`
 

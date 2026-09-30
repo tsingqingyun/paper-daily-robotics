@@ -1,7 +1,7 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
-format_version: 3
+format_version: 2
 evidence_level: abstract
 reading_status: skimmed
 needs_fulltext: true
@@ -20,24 +20,33 @@ concepts: ["智能体 Agent", "世界模型", "具身智能评测与基准"]
 > [!summary] 先说人话（基于摘要）
 > 该JEPA世界模型在潜在未来预测之外加入逆动力学和状态对齐，让隐表示既能反映动作，也锚定机器人的物理构型与运动，从而改善目标条件规划。
 
-## 这篇到底在做什么
+## 问题
 
-- **卡在哪里**：动作条件JEPA无需重建像素即可规划，但只预测潜变量并不保证表示保留控制所需信息，可能发生坍塌或学到与物理状态脱节的变化。
-- **关键解法**：模型端到端预测动作条件潜在转移；IDM要求表示能解释产生转移的动作，SA则把相邻表示与对应物理配置和运动对齐。与只加IDM或纯潜预测相比，它显式注入动作可辨识性和物理落地约束。
-- **拿什么证明**：四项任务中TwoRoom成功率100%、PushT 98%、OGBench-Cube 87%，Reacher与LeWorldModel相当。SA相对仅IDM在四项任务上均提高规划成功率；其有效转移维度高于LeWorldModel，但后者在OGBench-Cube平均straightening指标更高。
+动作条件JEPA无需重建像素即可规划，但只预测潜变量并不保证表示保留控制所需信息，可能发生坍塌或学到与物理状态脱节的变化。
 
-## 值不值得读
+## 创新点或方法
 
-- **和你的研究有什么关系**：对机器人世界模型研究者，它给出一种不回到像素重建、又能增强控制相关物理信息的JEPA训练办法，并配有规划和表示空间证据。
-- **先别急着信**：更高有效转移维度并不自动等于更好的因果或物理表征；且在一项指标上主基线仍占优，需要核查评价权重和状态监督需求。
+模型端到端预测动作条件潜在转移；IDM要求表示能解释产生转移的动作，SA则把相邻表示与对应物理配置和运动对齐。与只加IDM或纯潜预测相比，它显式注入动作可辨识性和物理落地约束。
+
+## 证据
+
+四项任务中TwoRoom成功率100%、PushT 98%、OGBench-Cube 87%，Reacher与LeWorldModel相当。SA相对仅IDM在四项任务上均提高规划成功率；其有效转移维度高于LeWorldModel，但后者在OGBench-Cube平均straightening指标更高。
+
+
+## 局限
+
+更高有效转移维度并不自动等于更好的因果或物理表征；且在一项指标上主基线仍占优，需要核查评价权重和状态监督需求。
+
 - **判断**：值得精读损失设计与转移子空间分析；这是把JEPA从预测表征推向可规划物理表征的扎实工作。
 
 ## 研究关联
 
-- **概念**：[[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
+对机器人世界模型研究者，它给出一种不回到像素重建、又能增强控制相关物理信息的JEPA训练办法，并配有规划和表示空间证据。
+
+- **概念**：智能体 Agent 世界模型 具身智能评测与基准
 - **筛选分数**：25
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-07/Toward Physically Grounded JEPA World Models for Goal-Conditioned Robotic Planni.md" --level full`
 

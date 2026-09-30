@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "智能体 Agent", "世界模型", "具身�
 > [!summary] 一句话结论（基于摘要）
 > The same experiments show task success rates significantly increasing with more agentic attempts—so the redundancy is actually helpful.
 
-## 关键点
+## 问题
 
-- **问题**：We believe three new challenges—and opportunities—stem from near- zero inference costs: Data Systems For Agents.
-- **创新点 / 方法**：...
-- **证据**：The same experiments show task success rates significantly increasing with more agentic attempts—so the redundancy is actually helpful.
-- **局限**：Data Systems As A Substrate for Multi-Agent Swarms One could use a knowledge graph representation , but knowledge graphs suffer from the same limitations as unstructured MD-based memory due to their lack of structured search.
+We believe three new challenges—and opportunities—stem from near- zero inference costs: Data Systems For Agents.
+
+## 创新点或方法
+
+...
+
+## 证据
+
+The same experiments show task success rates significantly increasing with more agentic attempts—so the redundancy is actually helpful.
+
+## 局限
+
+Data Systems As A Substrate for Multi-Agent Swarms One could use a knowledge graph representation , but knowledge graphs suffer from the same limitations as unstructured MD-based memory due to their lack of structured search.
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 智能体 Agent 世界模型 具身智能评测与基准
 - **筛选分数**：22
 - **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-07-21/Intelligence is Free, Now What Data Systems for, of, and by Agents.md" --level full`
 

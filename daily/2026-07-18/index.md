@@ -14,7 +14,7 @@ created: 2026-07-18
 - **规模**：2138 个候选 → 24 篇入选；回填 0 篇
 - **主题**：多模态基础模型 20、智能体 Agent 13、具身智能评测与基准 12、视觉语言动作模型 VLA 10、世界模型 8、机器人学习 6、Sim2Real 1
 - **源异常**：0
-- **需要更高精度**：从“必读”选择论文，进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **需要更高精度**：从“必读”选择论文，进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -55,18 +55,18 @@ created: 2026-07-18
 
 ## 其余存档 12 篇
 
-- [DriftWorld: Fast World Modeling through Drifting](items/DriftWorld%20Fast%20World%20Modeling%20through%20Drifting.md) · [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
-- [SUFLECA: Scaling Up Feature Learning for CAD-to-image Alignment](items/SUFLECA%20Scaling%20Up%20Feature%20Learning%20for%20CAD-to-image%20Alignment.md) · [[多模态基础模型]] [[Sim2Real]] [[具身智能评测与基准]]
-- [Hierarchical Denoising For Multi-Step Visual Reasoning](items/Hierarchical%20Denoising%20For%20Multi-Step%20Visual%20Reasoning.md) · [[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
-- [SafeRelBench: A Spatial-Relation-Aware Benchmark for Process-Level Safety in VLM-Driven Embodied Agents](items/SafeRelBench%20A%20Spatial-Relation-Aware%20Benchmark%20for%20Process-Level%20Safety%20in%20VLM-.md) · [[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
-- [VTM-Nav: Hierarchical Visual-Topological Memory for Cross-Episode Object-Goal Navigation](items/VTM-Nav%20Hierarchical%20Visual-Topological%20Memory%20for%20Cross-Episode%20Object-Goal%20Nav.md) · [[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
-- [Safe Execution of RL Policies Via Acceleration-Based CBF-QP Constraint Enforcement for Real-World Robotic Deployments](items/Safe%20Execution%20of%20RL%20Policies%20Via%20Acceleration-Based%20CBF-QP%20Constraint%20Enforceme.md) · [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
-- [SoftNav: Injecting 3D Scene Tokens into VLMs for Embodied Navigation](items/SoftNav%20Injecting%203D%20Scene%20Tokens%20into%20VLMs%20for%20Embodied%20Navigation.md) · [[多模态基础模型]] [[智能体 Agent]]
-- [HyMobileAgent: Data-Environment Co-Scaling for Efficient GUI Agents](items/HyMobileAgent%20Data-Environment%20Co-Scaling%20for%20Efficient%20GUI%20Agents.md) · [[多模态基础模型]] [[智能体 Agent]] [[机器人学习]]
-- [Zero2Skill: Bootstrapping Robot Skills through Autonomous Data Collection, Training, and Deployment](items/Zero2Skill%20Bootstrapping%20Robot%20Skills%20through%20Autonomous%20Data%20Collection%2C%20Traini.md) · [[多模态基础模型]] [[智能体 Agent]] [[机器人学习]]
-- [S-squared-VLA: Decoupling Semantic and Spatial Streams in Vision-Language-Action Models for Autonomous Driving](items/S-squared-VLA%20Decoupling%20Semantic%20and%20Spatial%20Streams%20in%20Vision-Language-Action.md) · [[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [AeroAct: Action-Centered World-Action Models for Language-Conditioned Quadrotor Flight](items/AeroAct%20Action-Centered%20World-Action%20Models%20for%20Language-Conditioned%20Quadrotor%20F.md) · [[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]]
-- [Multimodality as Supervision: Self-Supervised Specialization to the Test Environment via Multimodality](items/Multimodality%20as%20Supervision%20Self-Supervised%20Specialization%20to%20the%20Test%20Environm.md) · [[多模态基础模型]] [[智能体 Agent]]
+- [DriftWorld: Fast World Modeling through Drifting](items/DriftWorld%20Fast%20World%20Modeling%20through%20Drifting.md) · 智能体 Agent 世界模型 具身智能评测与基准
+- [SUFLECA: Scaling Up Feature Learning for CAD-to-image Alignment](items/SUFLECA%20Scaling%20Up%20Feature%20Learning%20for%20CAD-to-image%20Alignment.md) · 多模态基础模型 Sim2Real 具身智能评测与基准
+- [Hierarchical Denoising For Multi-Step Visual Reasoning](items/Hierarchical%20Denoising%20For%20Multi-Step%20Visual%20Reasoning.md) · 多模态基础模型 智能体 Agent 世界模型 具身智能评测与基准
+- [SafeRelBench: A Spatial-Relation-Aware Benchmark for Process-Level Safety in VLM-Driven Embodied Agents](items/SafeRelBench%20A%20Spatial-Relation-Aware%20Benchmark%20for%20Process-Level%20Safety%20in%20VLM-.md) · 多模态基础模型 智能体 Agent 具身智能评测与基准
+- [VTM-Nav: Hierarchical Visual-Topological Memory for Cross-Episode Object-Goal Navigation](items/VTM-Nav%20Hierarchical%20Visual-Topological%20Memory%20for%20Cross-Episode%20Object-Goal%20Nav.md) · 多模态基础模型 智能体 Agent 具身智能评测与基准
+- [Safe Execution of RL Policies Via Acceleration-Based CBF-QP Constraint Enforcement for Real-World Robotic Deployments](items/Safe%20Execution%20of%20RL%20Policies%20Via%20Acceleration-Based%20CBF-QP%20Constraint%20Enforceme.md) · 世界模型 机器人学习 具身智能评测与基准
+- [SoftNav: Injecting 3D Scene Tokens into VLMs for Embodied Navigation](items/SoftNav%20Injecting%203D%20Scene%20Tokens%20into%20VLMs%20for%20Embodied%20Navigation.md) · 多模态基础模型 智能体 Agent
+- [HyMobileAgent: Data-Environment Co-Scaling for Efficient GUI Agents](items/HyMobileAgent%20Data-Environment%20Co-Scaling%20for%20Efficient%20GUI%20Agents.md) · 多模态基础模型 智能体 Agent 机器人学习
+- [Zero2Skill: Bootstrapping Robot Skills through Autonomous Data Collection, Training, and Deployment](items/Zero2Skill%20Bootstrapping%20Robot%20Skills%20through%20Autonomous%20Data%20Collection%2C%20Traini.md) · 多模态基础模型 智能体 Agent 机器人学习
+- [S-squared-VLA: Decoupling Semantic and Spatial Streams in Vision-Language-Action Models for Autonomous Driving](items/S-squared-VLA%20Decoupling%20Semantic%20and%20Spatial%20Streams%20in%20Vision-Language-Action.md) · 多模态基础模型 智能体 Agent 视觉语言动作模型 VLA 具身智能评测与基准
+- [AeroAct: Action-Centered World-Action Models for Language-Conditioned Quadrotor Flight](items/AeroAct%20Action-Centered%20World-Action%20Models%20for%20Language-Conditioned%20Quadrotor%20F.md) · 多模态基础模型 世界模型 视觉语言动作模型 VLA
+- [Multimodality as Supervision: Self-Supervised Specialization to the Test Environment via Multimodality](items/Multimodality%20as%20Supervision%20Self-Supervised%20Specialization%20to%20the%20Test%20Environm.md) · 多模态基础模型 智能体 Agent
 
 <details>
 <summary>运行信息与信息源错误</summary>

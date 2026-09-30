@@ -42,10 +42,10 @@ concepts: ["机器人学习", "具身智能评测与基准"]
 
 对机器人学习研究者，它把示教质量明确关联到执行可复现性，也提供了人类指导与 RL 控制接口共同设计的实机证据。
 
-- **概念**：[[机器人学习]] [[具身智能评测与基准]]
+- **概念**：机器人学习 具身智能评测与基准
 - **筛选分数**：30
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-24/PAKT Physically-Aligned Kinesthetic Teaching for Reinforcement Learning.md" --level full`
 

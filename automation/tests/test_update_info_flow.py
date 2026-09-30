@@ -112,6 +112,10 @@ class UpdateInfoFlowTests(unittest.TestCase):
                     "why_it_matters": "它直接处理真实机器人部署中的时延。",
                     "caveat": "摘要没有说明不同延迟强度下是否稳定。",
                     "verdict": "值得定向核查延迟建模与真实机实验。",
+                    "example": "理解用例（非论文实验）：机器人等待模型输出时继续控制。",
+                    "steps": ["接收观测", "异步计算策略", "控制器持续输出动作"],
+                    "terms": ["异步：计算与控制不相互阻塞", "延迟：从观测到动作的等待时间"],
+                    "reading_guide": "检查控制频率和实验延迟设置。",
                 }
             ],
         }
@@ -136,6 +140,11 @@ class UpdateInfoFlowTests(unittest.TestCase):
                     codex_bin=str(codex),
                     timeout=30,
                 )
+                response["papers"][0]["evidence"] += " [S99]"
+                untouched = {"id": "paper-1", "title": "Unchanged", "summary": "original"}
+                with self.assertRaises(MODULE.ExplanationError):
+                    MODULE.codex_explain_papers([untouched], vault=vault, run_date="2026-08-27", codex_bin=str(codex), timeout=30)
+                self.assertNotIn("compact_summary", untouched)
         self.assertIn("推理延迟", briefing["daily_take"])
         self.assertEqual(item["summary_method"], "codex-abstract-explanatory")
         self.assertIn("持续行动", item["compact_summary"]["tldr"])

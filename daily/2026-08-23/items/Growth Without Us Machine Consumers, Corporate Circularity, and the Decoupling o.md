@@ -20,19 +20,29 @@ concepts: ["智能体 Agent"]
 > [!summary] 一句话结论（基于摘要）
 > The standard objection to full automation is demand-side: if humans earn nothing, who buys the output?
 
-## 关键点
+## 问题
 
-- **问题**：(ii) Bottleneck removal: once economic agents are manufactured rather than reared, the binding constraint on growth shifts from human demography (a ~20-year, non-parallelizable reproduction technology capped at a few percent per year) to fabrication throughput and energy capture, permitting growth one to two orders of…
-- **创新点 / 方法**：The standard objection to full automation is demand-side: if humans earn nothing, who buys the output?
-- **证据**：摘要未报告明确实验结论；需阅读全文核查。
-- **局限**：摘要未明确说明；需阅读全文核查。
+(ii) Bottleneck removal: once economic agents are manufactured rather than reared, the binding constraint on growth shifts from human demography (a ~20-year, non-parallelizable reproduction technology capped at a few percent per year) to fabrication throughput and energy capture, permitting growth one to two orders of…
+
+## 创新点或方法
+
+The standard objection to full automation is demand-side: if humans earn nothing, who buys the output?
+
+## 证据
+
+摘要未报告明确实验结论；需阅读全文核查。
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[智能体 Agent]]
+- **概念**：智能体 Agent
 - **筛选分数**：21
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-23/Growth Without Us Machine Consumers, Corporate Circularity, and the Decoupling o.md" --level full`
 

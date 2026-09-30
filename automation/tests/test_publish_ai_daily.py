@@ -18,6 +18,12 @@ SPEC.loader.exec_module(MODULE)
 
 
 class PublishAiDailyTests(unittest.TestCase):
+    def test_public_paper_has_working_reading_links(self):
+        rendered = MODULE.github_paper_note('[[AI 论文深读工作流|L1/L2]] [[50_Papers/Deep Reads/Test Paper/README|报告]] [[世界模型]]')
+        self.assertIn('[L1/L2](../../../deep-reading/README.md)', rendered)
+        self.assertIn('[报告](../../../deep-reads/Test%20Paper/README.md)', rendered)
+        self.assertNotIn('[[', rendered)
+
     def test_publish_exports_only_digest_references(self):
         with tempfile.TemporaryDirectory() as temp_dir:
             root = Path(temp_dir)
@@ -144,6 +150,10 @@ class PublishAiDailyTests(unittest.TestCase):
             ).stdout
             self.assertIn(f"../../daily/{run_date}/items/Included%20paper.md", published_deep_read)
             self.assertIn("https://arxiv.org/pdf/2608.00001v1", published_deep_read)
+            (mirror / "unrelated-secret.txt").write_text("local only")
+            subprocess.run(["git", "-C", str(mirror), "add", "unrelated-secret.txt"], check=True)
+            with self.assertRaisesRegex(MODULE.PublishError, "pre-existing staged"):
+                MODULE.publish(args)
 
 
 if __name__ == "__main__":

@@ -42,10 +42,10 @@ GC-VLA 在 LIBERO 上成功率为 95.20%，加入 GCRF 后为 99.55%。推理仅
 
 对多模态模型与 VLA 研究者，几何变化提供了连接视觉预训练和机器人动作的候选接口，残差阶段则展示如何在冻结基础策略后补强闭环控制。
 
-- **概念**：[[多模态基础模型]] [[视觉语言动作模型 VLA]]
+- **概念**：多模态基础模型 视觉语言动作模型 VLA
 - **筛选分数**：33
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-24/HABILIS Brain 0 Geometry-Change Supervision for Vision-Language-Action and Resid.md" --level full`
 

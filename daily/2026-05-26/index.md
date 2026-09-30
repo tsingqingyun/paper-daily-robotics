@@ -14,7 +14,7 @@ created: 2026-05-26
 - **规模**：250 个候选 → 24 篇入选；回填 0 篇
 - **主题**：具身智能评测与基准 18、多模态基础模型 15、智能体 Agent 11、世界模型 8、机器人学习 8、视觉语言动作模型 VLA 8、AI 核心知识地图 1、Sim2Real 1
 - **源异常**：4
-- **需要更高精度**：从“必读”选择论文，进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **需要更高精度**：从“必读”选择论文，进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -55,18 +55,18 @@ created: 2026-05-26
 
 ## 其余存档 12 篇
 
-- [Towards Active Real-to-Twin Inspection: A New Paradigm for Zero-Shot Anomaly Detection](items/Towards%20Active%20Real-to-Twin%20Inspection%20A%20New%20Paradigm%20for%20Zero-Shot%20Anomaly%20Dete.md) · [[世界模型]] [[Sim2Real]] [[具身智能评测与基准]]
-- [Fishbone: From One 3D Asset to a Million Controllable Edits](items/Fishbone%20From%20One%203D%20Asset%20to%20a%20Million%20Controllable%20Edits.md) · [[智能体 Agent]] [[世界模型]] [[机器人学习]]
-- [AgentGrounder: Zero-Shot 3D Visual Pointcloud Grounding using Multimodal Language Models](items/AgentGrounder%20Zero-Shot%203D%20Visual%20Pointcloud%20Grounding%20using%20Multimodal%20Language.md) · [[多模态基础模型]] [[智能体 Agent]]
-- [RepSAM: Bridging Foundation Models to Robotic Vision via Representation-Guided Adaptation](items/RepSAM%20Bridging%20Foundation%20Models%20to%20Robotic%20Vision%20via%20Representation-Guided%20Ad.md) · [[多模态基础模型]] [[具身智能评测与基准]]
-- [How to Mitigate the Distribution Shift Problem in Robotics Control: A Robust and Adaptive Approach Based on Offline to Online Imitation Learning](items/How%20to%20Mitigate%20the%20Distribution%20Shift%20Problem%20in%20Robotics%20Control%20A%20Robust%20and.md) · [[智能体 Agent]] [[机器人学习]] [[具身智能评测与基准]]
-- [InvariantCloud: A Globally Invariant, Uniquely Indexed Point Cloud Framework for Robust 6-DoF Tactile Pose Tracking](items/InvariantCloud%20A%20Globally%20Invariant%2C%20Uniquely%20Indexed%20Point%20Cloud%20Framework%20for.md) · [[多模态基础模型]] [[机器人学习]] [[具身智能评测与基准]]
-- [Security in the Fine-Tuning Lifecycle of Large Language Models: Threats, Defenses,Evaluation, and Future Directions](items/Security%20in%20the%20Fine-Tuning%20Lifecycle%20of%20Large%20Language%20Models%20Threats%2C%20Defenses.md) · [[智能体 Agent]] [[具身智能评测与基准]]
-- [Stabilizing Streaming Video Geometry via Dynamic Feature Normalization](items/Stabilizing%20Streaming%20Video%20Geometry%20via%20Dynamic%20Feature%20Normalization.md) · [[多模态基础模型]] [[具身智能评测与基准]]
-- [Understanding the Impact of Geometric Foundation Models on Vision-Language-Action Models](items/Understanding%20the%20Impact%20of%20Geometric%20Foundation%20Models%20on%20Vision-Language-Actio.md) · [[多模态基础模型]] [[视觉语言动作模型 VLA]]
-- [ParkourFormer: Integrating Predictive Supervision and Sequence Modeling into Parkour Locomotion](items/ParkourFormer%20Integrating%20Predictive%20Supervision%20and%20Sequence%20Modeling%20into%20Park.md) · [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
-- [Security of OpenClaw Agents: Fundamentals, Attacks, and Countermeasures](items/Security%20of%20OpenClaw%20Agents%20Fundamentals%2C%20Attacks%2C%20and%20Countermeasures.md) · [[智能体 Agent]]
-- [Prior Policy Guided Dual-Agent Coordinated Manipulation Planning of Spacecraft-Manipulator System](items/Prior%20Policy%20Guided%20Dual-Agent%20Coordinated%20Manipulation%20Planning%20of%20Spacecraft-M.md) · [[智能体 Agent]] [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
+- [Towards Active Real-to-Twin Inspection: A New Paradigm for Zero-Shot Anomaly Detection](items/Towards%20Active%20Real-to-Twin%20Inspection%20A%20New%20Paradigm%20for%20Zero-Shot%20Anomaly%20Dete.md) · 世界模型 Sim2Real 具身智能评测与基准
+- [Fishbone: From One 3D Asset to a Million Controllable Edits](items/Fishbone%20From%20One%203D%20Asset%20to%20a%20Million%20Controllable%20Edits.md) · 智能体 Agent 世界模型 机器人学习
+- [AgentGrounder: Zero-Shot 3D Visual Pointcloud Grounding using Multimodal Language Models](items/AgentGrounder%20Zero-Shot%203D%20Visual%20Pointcloud%20Grounding%20using%20Multimodal%20Language.md) · 多模态基础模型 智能体 Agent
+- [RepSAM: Bridging Foundation Models to Robotic Vision via Representation-Guided Adaptation](items/RepSAM%20Bridging%20Foundation%20Models%20to%20Robotic%20Vision%20via%20Representation-Guided%20Ad.md) · 多模态基础模型 具身智能评测与基准
+- [How to Mitigate the Distribution Shift Problem in Robotics Control: A Robust and Adaptive Approach Based on Offline to Online Imitation Learning](items/How%20to%20Mitigate%20the%20Distribution%20Shift%20Problem%20in%20Robotics%20Control%20A%20Robust%20and.md) · 智能体 Agent 机器人学习 具身智能评测与基准
+- [InvariantCloud: A Globally Invariant, Uniquely Indexed Point Cloud Framework for Robust 6-DoF Tactile Pose Tracking](items/InvariantCloud%20A%20Globally%20Invariant%2C%20Uniquely%20Indexed%20Point%20Cloud%20Framework%20for.md) · 多模态基础模型 机器人学习 具身智能评测与基准
+- [Security in the Fine-Tuning Lifecycle of Large Language Models: Threats, Defenses,Evaluation, and Future Directions](items/Security%20in%20the%20Fine-Tuning%20Lifecycle%20of%20Large%20Language%20Models%20Threats%2C%20Defenses.md) · 智能体 Agent 具身智能评测与基准
+- [Stabilizing Streaming Video Geometry via Dynamic Feature Normalization](items/Stabilizing%20Streaming%20Video%20Geometry%20via%20Dynamic%20Feature%20Normalization.md) · 多模态基础模型 具身智能评测与基准
+- [Understanding the Impact of Geometric Foundation Models on Vision-Language-Action Models](items/Understanding%20the%20Impact%20of%20Geometric%20Foundation%20Models%20on%20Vision-Language-Actio.md) · 多模态基础模型 视觉语言动作模型 VLA
+- [ParkourFormer: Integrating Predictive Supervision and Sequence Modeling into Parkour Locomotion](items/ParkourFormer%20Integrating%20Predictive%20Supervision%20and%20Sequence%20Modeling%20into%20Park.md) · 世界模型 机器人学习 具身智能评测与基准
+- [Security of OpenClaw Agents: Fundamentals, Attacks, and Countermeasures](items/Security%20of%20OpenClaw%20Agents%20Fundamentals%2C%20Attacks%2C%20and%20Countermeasures.md) · 智能体 Agent
+- [Prior Policy Guided Dual-Agent Coordinated Manipulation Planning of Spacecraft-Manipulator System](items/Prior%20Policy%20Guided%20Dual-Agent%20Coordinated%20Manipulation%20Planning%20of%20Spacecraft-M.md) · 智能体 Agent 世界模型 机器人学习 具身智能评测与基准
 
 <details>
 <summary>运行信息与信息源错误</summary>

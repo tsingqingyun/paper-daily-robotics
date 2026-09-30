@@ -20,19 +20,29 @@ concepts: ["世界模型", "视觉语言动作模型 VLA"]
 > [!summary] 一句话结论（基于摘要）
 > Experiments show that AGRA makes world model representations more action-grounded: by focusing the action decoder on the correct interaction regions, it improves object localization accuracy and affordance understanding, and makes the policy more robust to pe…
 
-## 关键点
+## 问题
 
-- **问题**：However, our empirical observations reveal a phenomenon: generating plausible visual futures does not always guarantee the extraction of accurate actions.
-- **创新点 / 方法**：In this paper, we propose AGRA, an Action-Grounded Representation Alignment objective that regularizes the world-action interface by aligning intermediate video diffusion features with spatially coherent semantic representations from a foundation visual encoder.
-- **证据**：Experiments show that AGRA makes world model representations more action-grounded: by focusing the action decoder on the correct interaction regions, it improves object localization accuracy and affordance understanding, and makes the policy more robust to perturbations in task-irrelevant regions.
-- **局限**：However, our empirical observations reveal a phenomenon: generating plausible visual futures does not always guarantee the extraction of accurate actions.
+However, our empirical observations reveal a phenomenon: generating plausible visual futures does not always guarantee the extraction of accurate actions.
+
+## 创新点或方法
+
+In this paper, we propose AGRA, an Action-Grounded Representation Alignment objective that regularizes the world-action interface by aligning intermediate video diffusion features with spatially coherent semantic representations from a foundation visual encoder.
+
+## 证据
+
+Experiments show that AGRA makes world model representations more action-grounded: by focusing the action decoder on the correct interaction regions, it improves object localization accuracy and affordance understanding, and makes the policy more robust to perturbations in task-irrelevant regions.
+
+## 局限
+
+However, our empirical observations reveal a phenomenon: generating plausible visual futures does not always guarantee the extraction of accurate actions.
+
 
 ## 研究关联
 
-- **概念**：[[世界模型]] [[视觉语言动作模型 VLA]]
+- **概念**：世界模型 视觉语言动作模型 VLA
 - **筛选分数**：30
 - **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-13/Making Foresight Actionable Repurposing Representation Alignment in World Action.md" --level full`
 

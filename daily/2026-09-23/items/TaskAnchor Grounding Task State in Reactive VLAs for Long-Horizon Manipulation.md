@@ -42,10 +42,10 @@ RMBench平均成功率约为已发表π₀.₅和X-VLA基线的4.9–5.5倍；Ro
 
 为长程VLA提供较小的结构改造，也方便研究者把历史理解不足与动作生成不足分开分析。
 
-- **概念**：[[智能体 Agent]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
+- **概念**：智能体 Agent 视觉语言动作模型 VLA 具身智能评测与基准
 - **筛选分数**：32
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-23/TaskAnchor Grounding Task State in Reactive VLAs for Long-Horizon Manipulation.md" --level full`
 

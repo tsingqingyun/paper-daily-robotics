@@ -20,19 +20,29 @@ concepts: ["世界模型", "机器人学习", "Sim2Real", "具身智能评测与
 > [!summary] 一句话结论（基于摘要）
 > We validate the approach on a single-joint high- gear-ratio servo under external loads and a 7-DOF robotic arm reaching task, where actuator reality shaping substantially reduces sim-to-real tracking error and improves zero-shot task performance compared with…
 
-## 关键点
+## 问题
 
-- **问题**：Sim-to-real transfer in robot learning is often limited by discrepancies between the ideal actuator dynamics assumed during policy training and the nonlinear, hardware- dependent behavior of physical motors.
-- **创新点 / 方法**：While conventional approaches attempt to bridge this gap by increasing simulator fidelity through system identification, domain randomization, or learned actuator models, we introduce an alternative paradigm: actuator reality shaping.
-- **证据**：We validate the approach on a single-joint high- gear-ratio servo under external loads and a 7-DOF robotic arm reaching task, where actuator reality shaping substantially reduces sim-to-real tracking error and improves zero-shot task performance compared with standard servo-control and representative real- to-sim-to-r…
-- **局限**：摘要未明确说明；需阅读全文核查。
+Sim-to-real transfer in robot learning is often limited by discrepancies between the ideal actuator dynamics assumed during policy training and the nonlinear, hardware- dependent behavior of physical motors.
+
+## 创新点或方法
+
+While conventional approaches attempt to bridge this gap by increasing simulator fidelity through system identification, domain randomization, or learned actuator models, we introduce an alternative paradigm: actuator reality shaping.
+
+## 证据
+
+We validate the approach on a single-joint high- gear-ratio servo under external loads and a 7-DOF robotic arm reaching task, where actuator reality shaping substantially reduces sim-to-real tracking error and improves zero-shot task performance compared with standard servo-control and representative real- to-sim-to-r…
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[世界模型]] [[机器人学习]] [[Sim2Real]] [[具身智能评测与基准]]
+- **概念**：世界模型 机器人学习 Sim2Real 具身智能评测与基准
 - **筛选分数**：28
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-07-06/Actuator Reality Shaping for Zero-Shot Sim-to-Real Robot Learning.md" --level full`
 

@@ -42,10 +42,10 @@ concepts: ["多模态基础模型", "智能体 Agent", "世界模型", "视觉�
 
 对VLA与机器人规划，价值是把几何规划中的路径结构知识转换为策略可读取的视觉提示。
 
-- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[视觉语言动作模型 VLA]] [[机器人学习]]
+- **概念**：多模态基础模型 智能体 Agent 世界模型 视觉语言动作模型 VLA 机器人学习
 - **筛选分数**：38
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-23/Topology-Informed Visual Prompting For Vision Language Action Policies.md" --level full`
 

@@ -20,19 +20,29 @@ concepts: ["世界模型", "机器人学习"]
 > [!summary] 一句话结论（基于摘要）
 > AEM consistently improves manipulation performance in both simulation and real-world settings, outperforming baselines across clean scenes, cluttered and random scenes, and non-Markovian tasks.
 
-## 关键点
+## 问题
 
-- **问题**：This design preserves a single-vector temporal bottleneck while keeping inference efficient.
-- **创新点 / 方法**：We present AEM, an Action-Effect Memory pretraining framework for robot manipulation that learns compact temporal representations from vision-action history.
-- **证据**：AEM consistently improves manipulation performance in both simulation and real-world settings, outperforming baselines across clean scenes, cluttered and random scenes, and non-Markovian tasks.
-- **局限**：摘要未明确说明；需阅读全文核查。
+This design preserves a single-vector temporal bottleneck while keeping inference efficient.
+
+## 创新点或方法
+
+We present AEM, an Action-Effect Memory pretraining framework for robot manipulation that learns compact temporal representations from vision-action history.
+
+## 证据
+
+AEM consistently improves manipulation performance in both simulation and real-world settings, outperforming baselines across clean scenes, cluttered and random scenes, and non-Markovian tasks.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[世界模型]] [[机器人学习]]
+- **概念**：世界模型 机器人学习
 - **筛选分数**：26
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-14/Action-Effect Memory Pretraining for Robot Manipulation.md" --level full`
 

@@ -14,7 +14,7 @@ created: 2026-05-20
 - **规模**：2019 个候选 → 24 篇入选；回填 0 篇
 - **主题**：具身智能评测与基准 19、多模态基础模型 18、智能体 Agent 15、世界模型 11、机器人学习 7、视觉语言动作模型 VLA 6、Sim2Real 2
 - **源异常**：0
-- **需要更高精度**：从“必读”选择论文，进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **需要更高精度**：从“必读”选择论文，进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -55,18 +55,18 @@ created: 2026-05-20
 
 ## 其余存档 12 篇
 
-- [Qumus: Realization of An Embodied AI Quantum Material Experimentalist](items/Qumus%20Realization%20of%20An%20Embodied%20AI%20Quantum%20Material%20Experimentalist.md) · [[多模态基础模型]] [[智能体 Agent]]
-- [On Improving Multimodal Pedestrian Trajectory Prediction with CVAE: A Study on Benchmark and Robot Data](items/On%20Improving%20Multimodal%20Pedestrian%20Trajectory%20Prediction%20with%20CVAE%20A%20Study%20on%20Be.md) · [[多模态基础模型]] [[具身智能评测与基准]]
-- [Non-Colliding Biometric Identities for Digital Entities: Geometry, Capacity, and Million-Scale Virtual Identity Provisioning](items/Non-Colliding%20Biometric%20Identities%20for%20Digital%20Entities%20Geometry%2C%20Capacity%2C%20and.md) · [[智能体 Agent]]
-- [SceneCode: Executable World Programs for Editable Indoor Scenes with Articulated Objects](items/SceneCode%20Executable%20World%20Programs%20for%20Editable%20Indoor%20Scenes%20with%20Articulated.md) · [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
-- [Sampling-Based Safe Reinforcement Learning](items/Sampling-Based%20Safe%20Reinforcement%20Learning.md) · [[智能体 Agent]] [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
-- [SWEET: Sparse World Modeling with Image Editing for Embodied Task Execution](items/SWEET%20Sparse%20World%20Modeling%20with%20Image%20Editing%20for%20Embodied%20Task%20Execution.md) · [[智能体 Agent]] [[世界模型]]
-- [Rethinking Muon Beyond Pretraining: Spectral Failures and High-Pass Remedies for VLA and RLVR](items/Rethinking%20Muon%20Beyond%20Pretraining%20Spectral%20Failures%20and%20High-Pass%20Remedies%20for.md) · [[多模态基础模型]] [[视觉语言动作模型 VLA]] [[机器人学习]] [[具身智能评测与基准]]
-- [EgoBabyVLM: Benchmarking Cross-Modal Learning from Naturalistic Egocentric Video Data](items/EgoBabyVLM%20Benchmarking%20Cross-Modal%20Learning%20from%20Naturalistic%20Egocentric%20Video.md) · [[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
-- [Code as Agent Harness](items/Code%20as%20Agent%20Harness.md) · [[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
-- [StableVLA: Towards Robust Vision-Language-Action Models without Extra Data](items/StableVLA%20Towards%20Robust%20Vision-Language-Action%20Models%20without%20Extra%20Data.md) · [[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [Beyond Waypoints: Dual-Heatmap Grounding for Cross-Embodiment Semantic Navigation](items/Beyond%20Waypoints%20Dual-Heatmap%20Grounding%20for%20Cross-Embodiment%20Semantic%20Navigation.md) · [[多模态基础模型]] [[世界模型]] [[具身智能评测与基准]]
-- [Domain-Adaptive Communication-Rate Optimization for Sim-to-Real Humanoid-Robot Wireless XR Teleoperation](items/Domain-Adaptive%20Communication-Rate%20Optimization%20for%20Sim-to-Real%20Humanoid-Robot%20W.md) · [[机器人学习]] [[Sim2Real]]
+- [Qumus: Realization of An Embodied AI Quantum Material Experimentalist](items/Qumus%20Realization%20of%20An%20Embodied%20AI%20Quantum%20Material%20Experimentalist.md) · 多模态基础模型 智能体 Agent
+- [On Improving Multimodal Pedestrian Trajectory Prediction with CVAE: A Study on Benchmark and Robot Data](items/On%20Improving%20Multimodal%20Pedestrian%20Trajectory%20Prediction%20with%20CVAE%20A%20Study%20on%20Be.md) · 多模态基础模型 具身智能评测与基准
+- [Non-Colliding Biometric Identities for Digital Entities: Geometry, Capacity, and Million-Scale Virtual Identity Provisioning](items/Non-Colliding%20Biometric%20Identities%20for%20Digital%20Entities%20Geometry%2C%20Capacity%2C%20and.md) · 智能体 Agent
+- [SceneCode: Executable World Programs for Editable Indoor Scenes with Articulated Objects](items/SceneCode%20Executable%20World%20Programs%20for%20Editable%20Indoor%20Scenes%20with%20Articulated.md) · 智能体 Agent 世界模型 具身智能评测与基准
+- [Sampling-Based Safe Reinforcement Learning](items/Sampling-Based%20Safe%20Reinforcement%20Learning.md) · 智能体 Agent 世界模型 机器人学习 具身智能评测与基准
+- [SWEET: Sparse World Modeling with Image Editing for Embodied Task Execution](items/SWEET%20Sparse%20World%20Modeling%20with%20Image%20Editing%20for%20Embodied%20Task%20Execution.md) · 智能体 Agent 世界模型
+- [Rethinking Muon Beyond Pretraining: Spectral Failures and High-Pass Remedies for VLA and RLVR](items/Rethinking%20Muon%20Beyond%20Pretraining%20Spectral%20Failures%20and%20High-Pass%20Remedies%20for.md) · 多模态基础模型 视觉语言动作模型 VLA 机器人学习 具身智能评测与基准
+- [EgoBabyVLM: Benchmarking Cross-Modal Learning from Naturalistic Egocentric Video Data](items/EgoBabyVLM%20Benchmarking%20Cross-Modal%20Learning%20from%20Naturalistic%20Egocentric%20Video.md) · 多模态基础模型 智能体 Agent 具身智能评测与基准
+- [Code as Agent Harness](items/Code%20as%20Agent%20Harness.md) · 多模态基础模型 智能体 Agent 具身智能评测与基准
+- [StableVLA: Towards Robust Vision-Language-Action Models without Extra Data](items/StableVLA%20Towards%20Robust%20Vision-Language-Action%20Models%20without%20Extra%20Data.md) · 多模态基础模型 智能体 Agent 视觉语言动作模型 VLA 具身智能评测与基准
+- [Beyond Waypoints: Dual-Heatmap Grounding for Cross-Embodiment Semantic Navigation](items/Beyond%20Waypoints%20Dual-Heatmap%20Grounding%20for%20Cross-Embodiment%20Semantic%20Navigation.md) · 多模态基础模型 世界模型 具身智能评测与基准
+- [Domain-Adaptive Communication-Rate Optimization for Sim-to-Real Humanoid-Robot Wireless XR Teleoperation](items/Domain-Adaptive%20Communication-Rate%20Optimization%20for%20Sim-to-Real%20Humanoid-Robot%20W.md) · 机器人学习 Sim2Real
 
 <details>
 <summary>运行信息与信息源错误</summary>

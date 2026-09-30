@@ -42,10 +42,10 @@ concepts: ["多模态基础模型", "世界模型", "视觉语言动作模型 VL
 
 对世界模型与 VLA 研究者，它提供了将任务理解、几何运动预测和动作学习放进同一模型的具体架构，并展示这些中间能力可以单独迁移。
 
-- **概念**：[[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]] [[机器人学习]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 世界模型 视觉语言动作模型 VLA 机器人学习 具身智能评测与基准
 - **筛选分数**：43
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-24/MachEmbodied-U0 Unified Understanding and Generation Model for Embodied Intellig.md" --level full`
 

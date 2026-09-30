@@ -42,10 +42,10 @@ EgoWild含538.9小时、179,049段、125,961种任务描述和1,282类物体；�
 
 对机器人学习，提供了利用自然人类视频扩展技能与物体覆盖的路径，并明确把视角对齐作为数据迁移中的核心问题。
 
-- **概念**：[[智能体 Agent]] [[机器人学习]] [[具身智能评测与基准]]
+- **概念**：智能体 Agent 机器人学习 具身智能评测与基准
 - **筛选分数**：34
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-23/EgoWild2Dex Learning Dexterous Robotic Manipulation from In-the-Wild Human Exper.md" --level full`
 

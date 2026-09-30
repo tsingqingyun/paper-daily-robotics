@@ -14,7 +14,7 @@ created: 2026-06-13
 - **规模**：2063 个候选 → 24 篇入选；回填 0 篇
 - **主题**：具身智能评测与基准 16、智能体 Agent 16、世界模型 15、多模态基础模型 15、视觉语言动作模型 VLA 12、机器人学习 9、Sim2Real 2
 - **源异常**：1
-- **需要更高精度**：从“必读”选择论文，进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **需要更高精度**：从“必读”选择论文，进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -55,18 +55,18 @@ created: 2026-06-13
 
 ## 其余存档 12 篇
 
-- [LabVLA: Grounding Vision-Language-Action Models in Scientific Laboratories](items/LabVLA%20Grounding%20Vision-Language-Action%20Models%20in%20Scientific%20Laboratories.md) · [[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[视觉语言动作模型 VLA]] [[机器人学习]] [[具身智能评测与基准]]
-- [FTP-1: A Generalist Foundation Tactile Policy Across Tactile Sensors for Contact-Rich Manipulation](items/FTP-1%20A%20Generalist%20Foundation%20Tactile%20Policy%20Across%20Tactile%20Sensors%20for%20Contact-.md) · [[机器人学习]] [[具身智能评测与基准]]
-- [Y-BotFrame: An Extensible Embodied Agent Framework for Quadruped Robot Assistants](items/Y-BotFrame%20An%20Extensible%20Embodied%20Agent%20Framework%20for%20Quadruped%20Robot%20Assistants.md) · [[多模态基础模型]] [[智能体 Agent]]
-- [AIR-VLA+: Decoupling Movement and Manipulation via Cascaded Dual-Action Decoders with Asymmetric MoE for Aerial Robots](items/AIR-VLA%2B%20Decoupling%20Movement%20and%20Manipulation%20via%20Cascaded%20Dual-Action%20Decoders.md) · [[智能体 Agent]] [[世界模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [M*: A Modular, Extensible, Serving System for Multimodal Models](items/M%20A%20Modular%2C%20Extensible%2C%20Serving%20System%20for%20Multimodal%20Models.md) · [[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[视觉语言动作模型 VLA]]
-- [PersonaDrive: Human-Style Retrieval-Augmented VLA Agents for Closed-Loop Driving Simulation](items/PersonaDrive%20Human-Style%20Retrieval-Augmented%20VLA%20Agents%20for%20Closed-Loop%20Driving.md) · [[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[视觉语言动作模型 VLA]] [[机器人学习]]
-- [Improving Robotic Generalist Policies via Flow Reversal Steering](items/Improving%20Robotic%20Generalist%20Policies%20via%20Flow%20Reversal%20Steering.md) · [[多模态基础模型]] [[机器人学习]] [[具身智能评测与基准]]
-- [UniIntervene: Agentic Intervention for Efficient Real-World Reinforcement Learning](items/UniIntervene%20Agentic%20Intervention%20for%20Efficient%20Real-World%20Reinforcement%20Learnin.md) · [[智能体 Agent]] [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
-- [Making Foresight Actionable: Repurposing Representation Alignment in World Action Models](items/Making%20Foresight%20Actionable%20Repurposing%20Representation%20Alignment%20in%20World%20Action.md) · [[世界模型]] [[视觉语言动作模型 VLA]]
-- [Sparse2Act: Learning Action-Aligned Sparse 3D Representations for Cross-Domain Robot Manipulation](items/Sparse2Act%20Learning%20Action-Aligned%20Sparse%203D%20Representations%20for%20Cross-Domain%20Ro.md) · [[世界模型]] [[Sim2Real]] [[具身智能评测与基准]]
-- [Mana: Dexterous Manipulation of Articulated Tools](items/Mana%20Dexterous%20Manipulation%20of%20Articulated%20Tools.md) · [[智能体 Agent]] [[机器人学习]] [[Sim2Real]]
-- [GeoHAT: Geometry-Adaptive Hybrid Action Transformer for Mobile Manipulation](items/GeoHAT%20Geometry-Adaptive%20Hybrid%20Action%20Transformer%20for%20Mobile%20Manipulation.md) · [[多模态基础模型]] [[世界模型]] [[具身智能评测与基准]]
+- [LabVLA: Grounding Vision-Language-Action Models in Scientific Laboratories](items/LabVLA%20Grounding%20Vision-Language-Action%20Models%20in%20Scientific%20Laboratories.md) · 多模态基础模型 智能体 Agent 世界模型 视觉语言动作模型 VLA 机器人学习 具身智能评测与基准
+- [FTP-1: A Generalist Foundation Tactile Policy Across Tactile Sensors for Contact-Rich Manipulation](items/FTP-1%20A%20Generalist%20Foundation%20Tactile%20Policy%20Across%20Tactile%20Sensors%20for%20Contact-.md) · 机器人学习 具身智能评测与基准
+- [Y-BotFrame: An Extensible Embodied Agent Framework for Quadruped Robot Assistants](items/Y-BotFrame%20An%20Extensible%20Embodied%20Agent%20Framework%20for%20Quadruped%20Robot%20Assistants.md) · 多模态基础模型 智能体 Agent
+- [AIR-VLA+: Decoupling Movement and Manipulation via Cascaded Dual-Action Decoders with Asymmetric MoE for Aerial Robots](items/AIR-VLA%2B%20Decoupling%20Movement%20and%20Manipulation%20via%20Cascaded%20Dual-Action%20Decoders.md) · 智能体 Agent 世界模型 视觉语言动作模型 VLA 具身智能评测与基准
+- [M*: A Modular, Extensible, Serving System for Multimodal Models](items/M%20A%20Modular%2C%20Extensible%2C%20Serving%20System%20for%20Multimodal%20Models.md) · 多模态基础模型 智能体 Agent 世界模型 视觉语言动作模型 VLA
+- [PersonaDrive: Human-Style Retrieval-Augmented VLA Agents for Closed-Loop Driving Simulation](items/PersonaDrive%20Human-Style%20Retrieval-Augmented%20VLA%20Agents%20for%20Closed-Loop%20Driving.md) · 多模态基础模型 智能体 Agent 世界模型 视觉语言动作模型 VLA 机器人学习
+- [Improving Robotic Generalist Policies via Flow Reversal Steering](items/Improving%20Robotic%20Generalist%20Policies%20via%20Flow%20Reversal%20Steering.md) · 多模态基础模型 机器人学习 具身智能评测与基准
+- [UniIntervene: Agentic Intervention for Efficient Real-World Reinforcement Learning](items/UniIntervene%20Agentic%20Intervention%20for%20Efficient%20Real-World%20Reinforcement%20Learnin.md) · 智能体 Agent 世界模型 机器人学习 具身智能评测与基准
+- [Making Foresight Actionable: Repurposing Representation Alignment in World Action Models](items/Making%20Foresight%20Actionable%20Repurposing%20Representation%20Alignment%20in%20World%20Action.md) · 世界模型 视觉语言动作模型 VLA
+- [Sparse2Act: Learning Action-Aligned Sparse 3D Representations for Cross-Domain Robot Manipulation](items/Sparse2Act%20Learning%20Action-Aligned%20Sparse%203D%20Representations%20for%20Cross-Domain%20Ro.md) · 世界模型 Sim2Real 具身智能评测与基准
+- [Mana: Dexterous Manipulation of Articulated Tools](items/Mana%20Dexterous%20Manipulation%20of%20Articulated%20Tools.md) · 智能体 Agent 机器人学习 Sim2Real
+- [GeoHAT: Geometry-Adaptive Hybrid Action Transformer for Mobile Manipulation](items/GeoHAT%20Geometry-Adaptive%20Hybrid%20Action%20Transformer%20for%20Mobile%20Manipulation.md) · 多模态基础模型 世界模型 具身智能评测与基准
 
 <details>
 <summary>运行信息与信息源错误</summary>

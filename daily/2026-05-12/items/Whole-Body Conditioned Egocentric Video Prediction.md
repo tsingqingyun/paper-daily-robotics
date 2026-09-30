@@ -20,19 +20,29 @@ concepts: ["智能体 Agent", "世界模型", "具身智能评测与基准"]
 > [!summary] 一句话结论（基于摘要）
 > We demonstrate some samples of PEVA generating coherent 16-second rollouts conditioned on full-body motion.
 
-## 关键点
+## 问题
 
-- **问题**：Design of PEVA: Autoregressive Conditional Diffusion Transformer While the Conditional Diffusion Transformer (CDiT) from Navigation World Models uses simple control signals like velocity and rotation, modeling whole-body human motion presents greater challenges.
-- **创新点 / 方法**：To develop a World Model for Embodied Agents, we must ground our approach in agents that meet these criteria.
-- **证据**：We demonstrate some samples of PEVA generating coherent 16-second rollouts conditioned on full-body motion.
-- **局限**：We see a limitation with our method as we only predict the right arm so we do not predict to move the left arm down accordingly.
+Design of PEVA: Autoregressive Conditional Diffusion Transformer While the Conditional Diffusion Transformer (CDiT) from Navigation World Models uses simple control signals like velocity and rotation, modeling whole-body human motion presents greater challenges.
+
+## 创新点或方法
+
+To develop a World Model for Embodied Agents, we must ground our approach in agents that meet these criteria.
+
+## 证据
+
+We demonstrate some samples of PEVA generating coherent 16-second rollouts conditioned on full-body motion.
+
+## 局限
+
+We see a limitation with our method as we only predict the right arm so we do not predict to move the left arm down accordingly.
+
 
 ## 研究关联
 
-- **概念**：[[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
+- **概念**：智能体 Agent 世界模型 具身智能评测与基准
 - **筛选分数**：24
 - **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-05-12/Whole-Body Conditioned Egocentric Video Prediction.md" --level full`
 

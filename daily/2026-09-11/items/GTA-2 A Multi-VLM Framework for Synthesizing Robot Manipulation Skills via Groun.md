@@ -1,7 +1,7 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
-format_version: 3
+format_version: 2
 evidence_level: abstract
 reading_status: skimmed
 needs_fulltext: true
@@ -20,24 +20,33 @@ concepts: ["多模态基础模型", "智能体 Agent", "视觉语言动作模型
 > [!summary] 先说人话（基于摘要）
 > GTA-2 achieves an average zero-shot success rate of 73.9%, exceeding the strongest baseline by 31.4 percentage points, while targeted refinement raises GTA-2's average success rate to 90.7%.
 
-## 这篇到底在做什么
+## 问题
 
-- **卡在哪里**：However, one often needs to predefine these behaviors for specific tasks or try to cover a wide range of tasks using generic skills.
-- **关键解法**：We introduce Grounded Task Axes v2 (GTA-2), a modular multi-VLM framework that constructs executable, task-bespoke manipulation skills from reusable object-centric task-axis components.
-- **拿什么证明**：GTA-2 achieves an average zero-shot success rate of 73.9%, exceeding the strongest baseline by 31.4 percentage points, while targeted refinement raises GTA-2's average success rate to 90.7%.
+However, one often needs to predefine these behaviors for specific tasks or try to cover a wide range of tasks using generic skills.
 
-## 值不值得读
+## 创新点或方法
 
-- **和你的研究有什么关系**：需结合研究方向判断；规则式回退未做语义评审。
-- **先别急着信**：摘要未明确说明；需阅读全文核查。
+We introduce Grounded Task Axes v2 (GTA-2), a modular multi-VLM framework that constructs executable, task-bespoke manipulation skills from reusable object-centric task-axis components.
+
+## 证据
+
+GTA-2 achieves an average zero-shot success rate of 73.9%, exceeding the strongest baseline by 31.4 percentage points, while targeted refinement raises GTA-2's average success rate to 90.7%.
+
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 - **判断**：仅完成摘要摘取，建议等待语义讲解或阅读全文。
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]] [[机器人学习]] [[具身智能评测与基准]]
+需结合研究方向判断；规则式回退未做语义评审。
+
+- **概念**：多模态基础模型 智能体 Agent 视觉语言动作模型 VLA 机器人学习 具身智能评测与基准
 - **筛选分数**：31
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-11/GTA-2 A Multi-VLM Framework for Synthesizing Robot Manipulation Skills via Groun.md" --level full`
 

@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "视觉语言动作模型 VLA", "机器人�
 > [!summary] 一句话结论（基于摘要）
 > Qwen-RobotManip substantially outperforms prior state-of-the-art models, including $π$0.5, across all OOD settings, ranks 1st in RoboChallenge with a 20% relative improvement, and is validated on real- robot platforms including AgileX ALOHA, Franka, UR, and A…
 
-## 关键点
+## 问题
 
-- **问题**：This is challenging because, unlike text, manipulation data is heterogeneous by nature, expensive to collect, and narrow in diversity, making alignment and scale simultaneously difficult.
-- **创新点 / 方法**：We present Qwen- RobotManip, a generalizable Vision-Language-Action foundation model built on Qwen-VL.
-- **证据**：Qwen-RobotManip substantially outperforms prior state-of-the-art models, including $π$0.5, across all OOD settings, ranks 1st in RoboChallenge with a 20% relative improvement, and is validated on real- robot platforms including AgileX ALOHA, Franka, UR, and ARX.
-- **局限**：摘要未明确说明；需阅读全文核查。
+This is challenging because, unlike text, manipulation data is heterogeneous by nature, expensive to collect, and narrow in diversity, making alignment and scale simultaneously difficult.
+
+## 创新点或方法
+
+We present Qwen- RobotManip, a generalizable Vision-Language-Action foundation model built on Qwen-VL.
+
+## 证据
+
+Qwen-RobotManip substantially outperforms prior state-of-the-art models, including $π$0.5, across all OOD settings, ranks 1st in RoboChallenge with a 20% relative improvement, and is validated on real- robot platforms including AgileX ALOHA, Franka, UR, and ARX.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[视觉语言动作模型 VLA]] [[机器人学习]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 视觉语言动作模型 VLA 机器人学习 具身智能评测与基准
 - **筛选分数**：46
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-18/Qwen-RobotManip Technical Report Alignment Unlocks Scale for Robotic Manipulatio.md" --level full`
 

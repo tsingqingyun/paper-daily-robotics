@@ -42,10 +42,10 @@ concepts: ["智能体 Agent", "具身智能评测与基准"]
 
 对具身Agent，提供通过执行管理层延长已有局部技能适用时域的方案；对评测，凸显同外观实例身份和阶段完成判断的重要性。
 
-- **概念**：[[智能体 Agent]] [[具身智能评测与基准]]
+- **概念**：智能体 Agent 具身智能评测与基准
 - **筛选分数**：27
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-18/MaskHarness-WAM Instance-Grounded Harnessing for Long-Horizon Robot Manipulation.md" --level full`
 

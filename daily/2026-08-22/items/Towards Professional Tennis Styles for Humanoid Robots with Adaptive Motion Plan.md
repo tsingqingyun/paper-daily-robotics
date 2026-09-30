@@ -20,19 +20,29 @@ concepts: ["智能体 Agent", "世界模型", "Sim2Real", "具身智能评测与
 > [!summary] 一句话结论（基于摘要）
 > To address these issues, our adaptation mechanism improves tracking robustness by learning to track randomized execution speeds, while conditioning the planner on a learned motion-speed adapter to mitigate compounding errors.
 
-## 关键点
+## 问题
 
-- **问题**：However, achieving professional motion styles while maintaining strong task performance remains challenging.
-- **创新点 / 方法**：In this work, we propose AdaPT, an Adaptive Motion Planning and Tracking framework that learns professional tennis serving and rally styles directly from broadcast videos.
-- **证据**：To address these issues, our adaptation mechanism improves tracking robustness by learning to track randomized execution speeds, while conditioning the planner on a learned motion-speed adapter to mitigate compounding errors.
-- **局限**：However, achieving professional motion styles while maintaining strong task performance remains challenging.
+However, achieving professional motion styles while maintaining strong task performance remains challenging.
+
+## 创新点或方法
+
+In this work, we propose AdaPT, an Adaptive Motion Planning and Tracking framework that learns professional tennis serving and rally styles directly from broadcast videos.
+
+## 证据
+
+To address these issues, our adaptation mechanism improves tracking robustness by learning to track randomized execution speeds, while conditioning the planner on a learned motion-speed adapter to mitigate compounding errors.
+
+## 局限
+
+However, achieving professional motion styles while maintaining strong task performance remains challenging.
+
 
 ## 研究关联
 
-- **概念**：[[智能体 Agent]] [[世界模型]] [[Sim2Real]] [[具身智能评测与基准]]
+- **概念**：智能体 Agent 世界模型 Sim2Real 具身智能评测与基准
 - **筛选分数**：30
 - **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-22/Towards Professional Tennis Styles for Humanoid Robots with Adaptive Motion Plan.md" --level full`
 

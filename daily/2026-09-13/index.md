@@ -1,21 +1,21 @@
 ---
 type: daily-update
 tags: [update, ai, embodied-ai]
-format_version: 3
+format_version: 2
 evidence_level: abstract
 created: 2026-09-13
 ---
 
 # 2026-09-13 AI Embodied Intelligence Update
 
-> [!summary] 今日判断
+> [!summary] 30 秒结论
 > 今天最值得精读的是把机器人能力拆成可检验机制的工作：2AM检验记忆与执行的接口，ActSafeGuard把动作约束纳入训练，Wiggle and Go!用短暂交互辨识支撑真实绳索操作。评测方面，突发危险反应、视角变化下的场景一致性，以及触觉预测与控制收益之间的落差，都提醒我们不能用模型规模、画面质量或预测精度替代闭环表现。Motus2的统一闭环值得关注，但摘要没有结果数字，暂不足以判断其自我改进成效。
 > **趋势**：共同趋势是把研究重点从单个模型的输出质量推进到接口、约束和闭环决策，并检验这些设计是否真正改善执行结果。另一条清晰信号是：更大的模型、更准的预测或更严格的验证，都不自动带来更好的具身表现。
 
 - **规模**：2466 个候选 → 19 篇入选；回填 0 篇
 - **主题**：智能体 Agent 10、具身智能评测与基准 7、世界模型 6、多模态基础模型 5、视觉语言动作模型 VLA 5、AI 核心知识地图 3、机器人学习 3
 - **源异常**：2
-- **阅读方式**：先看 5 篇必读的“为什么值得读”，有用再进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **阅读方式**：先看 5 篇必读的“为什么值得读”，有用再进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -71,13 +71,13 @@ created: 2026-09-13
 
 ## 其余存档 7 篇
 
-- [Beyond Visual Quality: Evaluating Physical Consistency under Ego-Motion with EgoGenEval](items/Beyond%20Visual%20Quality%20Evaluating%20Physical%20Consistency%20under%20Ego-Motion%20with%20EgoG.md) · [[智能体 Agent]] [[具身智能评测与基准]]
-- [ORCH: Organizational Principles Enable Collective Intelligence in Embodied AI](items/ORCH%20Organizational%20Principles%20Enable%20Collective%20Intelligence%20in%20Embodied%20AI.md) · [[智能体 Agent]]
-- [Exploring Multimodal Prompt for Visualization Authoring with Large Language Models](items/Exploring%20Multimodal%20Prompt%20for%20Visualization%20Authoring%20with%20Large%20Language%20Mode.md) · [[多模态基础模型]] [[具身智能评测与基准]]
-- [PACE: Perceived-Latency-Aware Cascading Service Routing and Filler Control for QoE-Efficient Retrieval-Augmented Dialogue Serving](items/PACE%20Perceived-Latency-Aware%20Cascading%20Service%20Routing%20and%20Filler%20Control%20for%20Qo.md) · [[AI 核心知识地图]]
-- [A Mathematical Theory of Pragmatic Information](items/A%20Mathematical%20Theory%20of%20Pragmatic%20Information.md) · [[AI 核心知识地图]]
-- [DeFiFusion: Combining Transaction Events with Smart Contracts to Detect Price Manipulation Attacks](items/DeFiFusion%20Combining%20Transaction%20Events%20with%20Smart%20Contracts%20to%20Detect%20Price%20Man.md) · [[世界模型]]
-- [The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement](items/The%20Last%20AI%20Built%20by%20Humans%20Toward%20Genuine%20Recursive%20Self-Improvement.md) · [[AI 核心知识地图]]
+- [Beyond Visual Quality: Evaluating Physical Consistency under Ego-Motion with EgoGenEval](items/Beyond%20Visual%20Quality%20Evaluating%20Physical%20Consistency%20under%20Ego-Motion%20with%20EgoG.md) · 智能体 Agent 具身智能评测与基准
+- [ORCH: Organizational Principles Enable Collective Intelligence in Embodied AI](items/ORCH%20Organizational%20Principles%20Enable%20Collective%20Intelligence%20in%20Embodied%20AI.md) · 智能体 Agent
+- [Exploring Multimodal Prompt for Visualization Authoring with Large Language Models](items/Exploring%20Multimodal%20Prompt%20for%20Visualization%20Authoring%20with%20Large%20Language%20Mode.md) · 多模态基础模型 具身智能评测与基准
+- [PACE: Perceived-Latency-Aware Cascading Service Routing and Filler Control for QoE-Efficient Retrieval-Augmented Dialogue Serving](items/PACE%20Perceived-Latency-Aware%20Cascading%20Service%20Routing%20and%20Filler%20Control%20for%20Qo.md) · AI 核心知识地图
+- [A Mathematical Theory of Pragmatic Information](items/A%20Mathematical%20Theory%20of%20Pragmatic%20Information.md) · AI 核心知识地图
+- [DeFiFusion: Combining Transaction Events with Smart Contracts to Detect Price Manipulation Attacks](items/DeFiFusion%20Combining%20Transaction%20Events%20with%20Smart%20Contracts%20to%20Detect%20Price%20Man.md) · 世界模型
+- [The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement](items/The%20Last%20AI%20Built%20by%20Humans%20Toward%20Genuine%20Recursive%20Self-Improvement.md) · AI 核心知识地图
 
 <details>
 <summary>运行信息与信息源状态</summary>

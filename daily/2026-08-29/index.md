@@ -1,21 +1,21 @@
 ---
 type: daily-update
 tags: [update, ai, embodied-ai]
-format_version: 3
+format_version: 2
 evidence_level: abstract
 created: 2026-08-29
 ---
 
 # 2026-08-29 AI Embodied Intelligence Update
 
-> [!summary] 今日判断
+> [!summary] 30 秒结论
 > 今天最值得看的是三条线：跨本体或人类视频驱动的机器人世界—动作建模、把视频生成器变成可交互且具有空间记忆的模拟器，以及更严格地区分“画得像”与“真的学到动力学”的评测。CLAP、Zero-WAM、4DStreamCtrl、Mirage代表能力推进，R2M-Bench与PAWBench则提醒研究者：长期一致、运动丰富和概率正确是不同问题。少数医疗、通信与通用视觉论文和具身研究关联较弱，适合按具体需求选读。
 > **趋势**：共同趋势是将显式几何、持久记忆和动作条件引入生成模型，并从单一平台、单条轨迹扩展到跨本体与分布级世界建模。与此同时，评测开始针对慢动作捷径、概率失配和可复现失败，而不再满足于像素质量或单次任务成功。
 
 - **规模**：2333 个候选 → 24 篇入选；回填 0 篇
 - **主题**：世界模型 14、具身智能评测与基准 13、智能体 Agent 10、多模态基础模型 5、AI 核心知识地图 3、视觉语言动作模型 VLA 3、机器人学习 2
 - **源异常**：2
-- **阅读方式**：先看 5 篇必读的“为什么值得读”，有用再进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **阅读方式**：先看 5 篇必读的“为什么值得读”，有用再进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -71,18 +71,18 @@ created: 2026-08-29
 
 ## 其余存档 12 篇
 
-- [Think3D: Thinking with Space for Spatial Reasoning](items/Think3D%20Thinking%20with%20Space%20for%20Spatial%20Reasoning.md) · [[多模态基础模型]] [[智能体 Agent]]
-- [4DSynth: Controllable Procedural World Synthesis for Dynamic Embodied Simulation](items/4DSynth%20Controllable%20Procedural%20World%20Synthesis%20for%20Dynamic%20Embodied%20Simulation.md) · [[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
-- [Parameter Efficient Continual Learning for Sparse Event-Based Transformers](items/Parameter%20Efficient%20Continual%20Learning%20for%20Sparse%20Event-Based%20Transformers.md) · [[AI 核心知识地图]]
-- [R2M-Bench: Evaluating Revisit Memory via Relative Consistency in Interactive Video World Models](items/R2M-Bench%20Evaluating%20Revisit%20Memory%20via%20Relative%20Consistency%20in%20Interactive%20Vide.md) · [[世界模型]] [[具身智能评测与基准]]
-- [PAWBench: How Far Are We from Probabilistically Aligned World Modeling?](items/PAWBench%20How%20Far%20Are%20We%20from%20Probabilistically%20Aligned%20World%20Modeling.md) · [[世界模型]] [[具身智能评测与基准]]
-- [GameWAM: A World Action Model for Video Games](items/GameWAM%20A%20World%20Action%20Model%20for%20Video%20Games.md) · [[智能体 Agent]] [[世界模型]] [[视觉语言动作模型 VLA]]
-- [I spent a day at a robot “carnival” in Shanghai. Here’s what I saw.](items/I%20spent%20a%20day%20at%20a%20robot%20%E2%80%9Ccarnival%E2%80%9D%20in%20Shanghai.%20Here%E2%80%99s%20what%20I%20saw..md) · [[AI 核心知识地图]]
-- [Successive Capacity Growth: Task-Complexity-Driven Width and Depth Expansion for Vision Transformer Encoders in JEPA World Models](items/Successive%20Capacity%20Growth%20Task-Complexity-Driven%20Width%20and%20Depth%20Expansion%20for.md) · [[世界模型]]
-- [High-Fidelity Face Content Recovery via Tamper-Resilient Versatile Watermarking](items/High-Fidelity%20Face%20Content%20Recovery%20via%20Tamper-Resilient%20Versatile%20Watermarking.md) · [[具身智能评测与基准]]
-- [DALE-CT: Depth-Aware 2D Slice Encoders Learn an Anatomical World Model of Chest CT](items/DALE-CT%20Depth-Aware%202D%20Slice%20Encoders%20Learn%20an%20Anatomical%20World%20Model%20of%20Chest%20C.md) · [[世界模型]] [[具身智能评测与基准]]
-- [Knowledge Distillation Driven Semantic NOMA with GAN Refinement for 6G Robotic Vehicle Networks](items/Knowledge%20Distillation%20Driven%20Semantic%20NOMA%20with%20GAN%20Refinement%20for%206G%20Robotic%20V.md) · [[AI 核心知识地图]]
-- [Latent Spatial Memory for Video World Models](items/Latent%20Spatial%20Memory%20for%20Video%20World%20Models.md) · [[世界模型]]
+- [Think3D: Thinking with Space for Spatial Reasoning](items/Think3D%20Thinking%20with%20Space%20for%20Spatial%20Reasoning.md) · 多模态基础模型 智能体 Agent
+- [4DSynth: Controllable Procedural World Synthesis for Dynamic Embodied Simulation](items/4DSynth%20Controllable%20Procedural%20World%20Synthesis%20for%20Dynamic%20Embodied%20Simulation.md) · 多模态基础模型 智能体 Agent 世界模型 具身智能评测与基准
+- [Parameter Efficient Continual Learning for Sparse Event-Based Transformers](items/Parameter%20Efficient%20Continual%20Learning%20for%20Sparse%20Event-Based%20Transformers.md) · AI 核心知识地图
+- [R2M-Bench: Evaluating Revisit Memory via Relative Consistency in Interactive Video World Models](items/R2M-Bench%20Evaluating%20Revisit%20Memory%20via%20Relative%20Consistency%20in%20Interactive%20Vide.md) · 世界模型 具身智能评测与基准
+- [PAWBench: How Far Are We from Probabilistically Aligned World Modeling?](items/PAWBench%20How%20Far%20Are%20We%20from%20Probabilistically%20Aligned%20World%20Modeling.md) · 世界模型 具身智能评测与基准
+- [GameWAM: A World Action Model for Video Games](items/GameWAM%20A%20World%20Action%20Model%20for%20Video%20Games.md) · 智能体 Agent 世界模型 视觉语言动作模型 VLA
+- [I spent a day at a robot “carnival” in Shanghai. Here’s what I saw.](items/I%20spent%20a%20day%20at%20a%20robot%20%E2%80%9Ccarnival%E2%80%9D%20in%20Shanghai.%20Here%E2%80%99s%20what%20I%20saw..md) · AI 核心知识地图
+- [Successive Capacity Growth: Task-Complexity-Driven Width and Depth Expansion for Vision Transformer Encoders in JEPA World Models](items/Successive%20Capacity%20Growth%20Task-Complexity-Driven%20Width%20and%20Depth%20Expansion%20for.md) · 世界模型
+- [High-Fidelity Face Content Recovery via Tamper-Resilient Versatile Watermarking](items/High-Fidelity%20Face%20Content%20Recovery%20via%20Tamper-Resilient%20Versatile%20Watermarking.md) · 具身智能评测与基准
+- [DALE-CT: Depth-Aware 2D Slice Encoders Learn an Anatomical World Model of Chest CT](items/DALE-CT%20Depth-Aware%202D%20Slice%20Encoders%20Learn%20an%20Anatomical%20World%20Model%20of%20Chest%20C.md) · 世界模型 具身智能评测与基准
+- [Knowledge Distillation Driven Semantic NOMA with GAN Refinement for 6G Robotic Vehicle Networks](items/Knowledge%20Distillation%20Driven%20Semantic%20NOMA%20with%20GAN%20Refinement%20for%206G%20Robotic%20V.md) · AI 核心知识地图
+- [Latent Spatial Memory for Video World Models](items/Latent%20Spatial%20Memory%20for%20Video%20World%20Models.md) · 世界模型
 
 <details>
 <summary>运行信息与信息源状态</summary>

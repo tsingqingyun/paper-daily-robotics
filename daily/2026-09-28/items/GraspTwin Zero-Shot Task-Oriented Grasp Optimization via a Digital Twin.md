@@ -42,10 +42,10 @@ concepts: ["多模态基础模型", "世界模型", "Sim2Real", "具身智能评
 
 对 Sim2Real 与机器人基础模型研究者，展示了如何把语义先验接到可测量的物理验证上。数字孪生在这里承担候选抓取评估，而非仅用于生成训练数据。
 
-- **概念**：[[多模态基础模型]] [[世界模型]] [[Sim2Real]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 世界模型 Sim2Real 具身智能评测与基准
 - **筛选分数**：30
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-28/GraspTwin Zero-Shot Task-Oriented Grasp Optimization via a Digital Twin.md" --level full`
 

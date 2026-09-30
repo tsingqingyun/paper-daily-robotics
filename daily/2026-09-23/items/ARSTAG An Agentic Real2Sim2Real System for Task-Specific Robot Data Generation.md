@@ -42,10 +42,10 @@ concepts: ["智能体 Agent", "世界模型", "机器人学习", "Sim2Real", "�
 
 对Sim2Real与机器人学习，实际价值是降低任务数据生成中的工程负担，并把Agent用于训练流程自动化。
 
-- **概念**：[[智能体 Agent]] [[世界模型]] [[机器人学习]] [[Sim2Real]] [[具身智能评测与基准]]
+- **概念**：智能体 Agent 世界模型 机器人学习 Sim2Real 具身智能评测与基准
 - **筛选分数**：35
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-23/ARSTAG An Agentic Real2Sim2Real System for Task-Specific Robot Data Generation.md" --level full`
 

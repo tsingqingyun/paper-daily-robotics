@@ -42,10 +42,10 @@ concepts: ["智能体 Agent", "世界模型", "具身智能评测与基准"]
 
 对世界模型与智能体研究者，它把压缩评价从视觉观感推进到交互运动和下游规划，直接回应快速预测是否仍对行动有用。
 
-- **概念**：[[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
+- **概念**：智能体 Agent 世界模型 具身智能评测与基准
 - **筛选分数**：29
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-28/DyMD Preserving Interaction Dynamics through Distribution Matching Distillation.md" --level full`
 

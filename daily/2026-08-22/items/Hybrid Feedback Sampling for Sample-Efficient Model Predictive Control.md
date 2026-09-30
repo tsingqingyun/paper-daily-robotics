@@ -20,19 +20,29 @@ concepts: ["AI 核心知识地图"]
 > [!summary] 一句话结论（基于摘要）
 > Our theoretical analysis shows that our hybrid sampling approach achieves faster convergence than standard MPPI and better optimality than standard feedback sampling.
 
-## 关键点
+## 问题
 
-- **问题**：However, for high-dimensional and open-loop unstable dynamical systems, the required number of samples to improve the control sequence will grow exponentially with the horizon, leading to poor sample efficiency and numerical instability.
-- **创新点 / 方法**：Finally, we validate our method on humanoid robot locomotion and manipulation tasks in the real world.
-- **证据**：Our theoretical analysis shows that our hybrid sampling approach achieves faster convergence than standard MPPI and better optimality than standard feedback sampling.
-- **局限**：摘要未明确说明；需阅读全文核查。
+However, for high-dimensional and open-loop unstable dynamical systems, the required number of samples to improve the control sequence will grow exponentially with the horizon, leading to poor sample efficiency and numerical instability.
+
+## 创新点或方法
+
+Finally, we validate our method on humanoid robot locomotion and manipulation tasks in the real world.
+
+## 证据
+
+Our theoretical analysis shows that our hybrid sampling approach achieves faster convergence than standard MPPI and better optimality than standard feedback sampling.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[AI 核心知识地图]]
+- **概念**：AI 核心知识地图
 - **筛选分数**：28
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-22/Hybrid Feedback Sampling for Sample-Efficient Model Predictive Control.md" --level full`
 

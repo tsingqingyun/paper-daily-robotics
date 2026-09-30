@@ -1,7 +1,7 @@
 ---
 type: update-item
 tags: [update, ai, embodied-ai]
-format_version: 3
+format_version: 2
 evidence_level: abstract
 reading_status: skimmed
 needs_fulltext: true
@@ -20,24 +20,33 @@ concepts: ["多模态基础模型", "智能体 Agent"]
 > [!summary] 先说人话（基于摘要）
 > Think3D让VLM Agent主动调用三维操作工具观察和操纵空间，而不是只在二维图像上推理；Think3D-RL再用最终答案奖励教小型开放模型自主学会这种探索。
 
-## 这篇到底在做什么
+## 问题
 
-- **卡在哪里**：VLM擅长二维理解，却受二维中心范式限制，难以进行真正的三维空间推理。简单提供工具也不保证小模型会有效探索，甚至可能因错误调用而降分。
-- **关键解法**：Think3D把一组3D操作工具接入VLM，使感知过程变成主动空间探索。Think3D-RL仅凭最终答案奖励训练Qwen3-VL-4B，不提供过程监督或人工探索轨迹，输出答案以及自主形成的工具使用策略。
-- **拿什么证明**：摘要称GPT-4.1和Gemini 2.5 Pro在BLINK Multi-view、MindCube-1K及VSI-Bench-Tiny上持续提升；Qwen3-VL-4B训练后在MindCube-1K上把3D工具从负作用变成显著增益，但没有具体分数。
+VLM擅长二维理解，却受二维中心范式限制，难以进行真正的三维空间推理。简单提供工具也不保证小模型会有效探索，甚至可能因错误调用而降分。
 
-## 值不值得读
+## 创新点或方法
 
-- **和你的研究有什么关系**：对多模态Agent，这说明空间推理可以从静态视觉问答转为工具驱动的主动探索；对具身智能具有规划接口启发，但摘要未涉及真实机器人或动作控制。
-- **先别急着信**：需核查工具是否隐含提供了额外标注或答案线索，以及提升来自真正空间推理还是基准特定的交互流程。
+Think3D把一组3D操作工具接入VLM，使感知过程变成主动空间探索。Think3D-RL仅凭最终答案奖励训练Qwen3-VL-4B，不提供过程监督或人工探索轨迹，输出答案以及自主形成的工具使用策略。
+
+## 证据
+
+摘要称GPT-4.1和Gemini 2.5 Pro在BLINK Multi-view、MindCube-1K及VSI-Bench-Tiny上持续提升；Qwen3-VL-4B训练后在MindCube-1K上把3D工具从负作用变成显著增益，但没有具体分数。
+
+
+## 局限
+
+需核查工具是否隐含提供了额外标注或答案线索，以及提升来自真正空间推理还是基准特定的交互流程。
+
 - **判断**：空间Agent研究者值得精读工具接口和RL训练；具身控制研究者可把它视为推理模块证据，而非机器人能力证明。
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[智能体 Agent]]
+对多模态Agent，这说明空间推理可以从静态视觉问答转为工具驱动的主动探索；对具身智能具有规划接口启发，但摘要未涉及真实机器人或动作控制。
+
+- **概念**：多模态基础模型 智能体 Agent
 - **筛选分数**：25
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-29/Think3D Thinking with Space for Spatial Reasoning.md" --level full`
 

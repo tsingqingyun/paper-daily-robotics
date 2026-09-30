@@ -20,19 +20,29 @@ concepts: ["世界模型", "具身智能评测与基准"]
 > [!summary] 一句话结论（基于摘要）
 > Behavior Trees (BTs) are widely adopted for complex task execution in robotics, providing modular, reactive control but lacking formal guarantees.
 
-## 关键点
+## 问题
 
-- **问题**：However, existing correct-by-construction synthesis from Linear Temporal Logic (LTL) cannot express quantitative timing constraints.
-- **创新点 / 方法**：Behavior Trees (BTs) are widely adopted for complex task execution in robotics, providing modular, reactive control but lacking formal guarantees.
-- **证据**：摘要未报告明确实验结论；需阅读全文核查。
-- **局限**：However, existing correct-by-construction synthesis from Linear Temporal Logic (LTL) cannot express quantitative timing constraints.
+However, existing correct-by-construction synthesis from Linear Temporal Logic (LTL) cannot express quantitative timing constraints.
+
+## 创新点或方法
+
+Behavior Trees (BTs) are widely adopted for complex task execution in robotics, providing modular, reactive control but lacking formal guarantees.
+
+## 证据
+
+摘要未报告明确实验结论；需阅读全文核查。
+
+## 局限
+
+However, existing correct-by-construction synthesis from Linear Temporal Logic (LTL) cannot express quantitative timing constraints.
+
 
 ## 研究关联
 
-- **概念**：[[世界模型]] [[具身智能评测与基准]]
+- **概念**：世界模型 具身智能评测与基准
 - **筛选分数**：24
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-07-25/Correct-by-Construction Behavior Tree Synthesis from Signal Temporal Logic Speci.md" --level full`
 

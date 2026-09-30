@@ -1,21 +1,21 @@
 ---
 type: daily-update
 tags: [update, ai, embodied-ai]
-format_version: 3
+format_version: 2
 evidence_level: abstract
 created: 2026-09-08
 ---
 
 # 2026-09-08 AI Embodied Intelligence Update
 
-> [!summary] 今日判断
+> [!summary] 30 秒结论
 > 今天最值得看的是三类具体进展：把 VLA 评测从任务成功推进到复杂推理、失败恢复和执行质量；通过在线学习与执行机制提升可靠性；降低训练和动作生成的时间成本。优先精读有明确数字支撑的 VLA-Precision、CF-VLA 和机器人杂耍工作，同时用恢复、故障检测与风险评测论文检查这些改进覆盖了哪些失效情形。部分摘要只有定性结论，MINT 甚至保留结果占位符，阅读优先级应与证据完整度挂钩。
 > **趋势**：共同趋势是把机器人能力拆到执行过程里：何时重新观察、如何发现失败、怎样恢复、如何保留经验，都开始成为独立研究对象。另一条路线是在训练或系统结构中加入先验、记忆与分工，以减少部署时的推理负担和交互成本。
 
 - **规模**：2937 个候选 → 24 篇入选；回填 0 篇
 - **主题**：多模态基础模型 18、具身智能评测与基准 17、视觉语言动作模型 VLA 14、智能体 Agent 10、机器人学习 9、世界模型 7、Sim2Real 2
 - **源异常**：2
-- **阅读方式**：先看 5 篇必读的“为什么值得读”，有用再进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **阅读方式**：先看 5 篇必读的“为什么值得读”，有用再进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -71,18 +71,18 @@ created: 2026-09-08
 
 ## 其余存档 12 篇
 
-- [FailureSpot: Label-Efficient Timestamp-Level Failure Detection for Vision-Language-Action Models](items/FailureSpot%20Label-Efficient%20Timestamp-Level%20Failure%20Detection%20for%20Vision-Languag.md) · [[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]]
-- [Reasoning Without Inference Cost: Latent Semantic Scaffolding for Robot VLA Policies](items/Reasoning%20Without%20Inference%20Cost%20Latent%20Semantic%20Scaffolding%20for%20Robot%20VLA%20Polic.md) · [[多模态基础模型]] [[视觉语言动作模型 VLA]] [[机器人学习]]
-- [Development of a Humanoid Robot Prototype for Multimodal Human-Robot Interaction](items/Development%20of%20a%20Humanoid%20Robot%20Prototype%20for%20Multimodal%20Human-Robot%20Interaction.md) · [[多模态基础模型]]
-- [Rapid On-Robot Learning for Dynamic Manipulation Skills: Robot Juggling](items/Rapid%20On-Robot%20Learning%20for%20Dynamic%20Manipulation%20Skills%20Robot%20Juggling.md) · [[机器人学习]] [[Sim2Real]] [[具身智能评测与基准]]
-- [MINT: A Unified Model for World-Space Camera and Hand Motion Estimation from Scalable Egocentric Pipeline Supervision](items/MINT%20A%20Unified%20Model%20for%20World-Space%20Camera%20and%20Hand%20Motion%20Estimation%20from%20Scal.md) · [[多模态基础模型]] [[机器人学习]] [[具身智能评测与基准]]
-- [RedVLA: Physical Red Teaming for Vision-Language-Action Models](items/RedVLA%20Physical%20Red%20Teaming%20for%20Vision-Language-Action%20Models.md) · [[多模态基础模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [SCRIPT: Scalable Diffusion Policy with Multi-stage Training for Language-driven Physics-Based Humanoid Control](items/SCRIPT%20Scalable%20Diffusion%20Policy%20with%20Multi-stage%20Training%20for%20Language-driven%20P.md) · [[智能体 Agent]] [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
-- [One Word, Different Action: A Real-Robot Benchmark for Language-Conditioned Embodied Reasoning](items/One%20Word%2C%20Different%20Action%20A%20Real-Robot%20Benchmark%20for%20Language-Conditioned%20Embod.md) · [[具身智能评测与基准]]
-- [From Language Models to World-Acting Systems: Progress and Limits of Agentic AI across Digital, Social, Virtual, and Physical Environments](items/From%20Language%20Models%20to%20World-Acting%20Systems%20Progress%20and%20Limits%20of%20Agentic%20AI%20a.md) · [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
-- [HiSfM: Disambiguating Structure-from-Motion via Scaffold-Anchored Hierarchical Reconstruction](items/HiSfM%20Disambiguating%20Structure-from-Motion%20via%20Scaffold-Anchored%20Hierarchical%20Re.md) · [[具身智能评测与基准]]
-- [Continual Field-Adaptive Models (CFAMs) for Post-Deployment Physical AI](items/Continual%20Field-Adaptive%20Models%20%28CFAMs%29%20for%20Post-Deployment%20Physical%20AI.md) · [[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]]
-- [Open-Set 3D Scene Graphs for Field Robotics: An Outdoor Case Study](items/Open-Set%203D%20Scene%20Graphs%20for%20Field%20Robotics%20An%20Outdoor%20Case%20Study.md) · [[多模态基础模型]] [[具身智能评测与基准]]
+- [FailureSpot: Label-Efficient Timestamp-Level Failure Detection for Vision-Language-Action Models](items/FailureSpot%20Label-Efficient%20Timestamp-Level%20Failure%20Detection%20for%20Vision-Languag.md) · 多模态基础模型 智能体 Agent 视觉语言动作模型 VLA
+- [Reasoning Without Inference Cost: Latent Semantic Scaffolding for Robot VLA Policies](items/Reasoning%20Without%20Inference%20Cost%20Latent%20Semantic%20Scaffolding%20for%20Robot%20VLA%20Polic.md) · 多模态基础模型 视觉语言动作模型 VLA 机器人学习
+- [Development of a Humanoid Robot Prototype for Multimodal Human-Robot Interaction](items/Development%20of%20a%20Humanoid%20Robot%20Prototype%20for%20Multimodal%20Human-Robot%20Interaction.md) · 多模态基础模型
+- [Rapid On-Robot Learning for Dynamic Manipulation Skills: Robot Juggling](items/Rapid%20On-Robot%20Learning%20for%20Dynamic%20Manipulation%20Skills%20Robot%20Juggling.md) · 机器人学习 Sim2Real 具身智能评测与基准
+- [MINT: A Unified Model for World-Space Camera and Hand Motion Estimation from Scalable Egocentric Pipeline Supervision](items/MINT%20A%20Unified%20Model%20for%20World-Space%20Camera%20and%20Hand%20Motion%20Estimation%20from%20Scal.md) · 多模态基础模型 机器人学习 具身智能评测与基准
+- [RedVLA: Physical Red Teaming for Vision-Language-Action Models](items/RedVLA%20Physical%20Red%20Teaming%20for%20Vision-Language-Action%20Models.md) · 多模态基础模型 视觉语言动作模型 VLA 具身智能评测与基准
+- [SCRIPT: Scalable Diffusion Policy with Multi-stage Training for Language-driven Physics-Based Humanoid Control](items/SCRIPT%20Scalable%20Diffusion%20Policy%20with%20Multi-stage%20Training%20for%20Language-driven%20P.md) · 智能体 Agent 世界模型 机器人学习 具身智能评测与基准
+- [One Word, Different Action: A Real-Robot Benchmark for Language-Conditioned Embodied Reasoning](items/One%20Word%2C%20Different%20Action%20A%20Real-Robot%20Benchmark%20for%20Language-Conditioned%20Embod.md) · 具身智能评测与基准
+- [From Language Models to World-Acting Systems: Progress and Limits of Agentic AI across Digital, Social, Virtual, and Physical Environments](items/From%20Language%20Models%20to%20World-Acting%20Systems%20Progress%20and%20Limits%20of%20Agentic%20AI%20a.md) · 智能体 Agent 世界模型 具身智能评测与基准
+- [HiSfM: Disambiguating Structure-from-Motion via Scaffold-Anchored Hierarchical Reconstruction](items/HiSfM%20Disambiguating%20Structure-from-Motion%20via%20Scaffold-Anchored%20Hierarchical%20Re.md) · 具身智能评测与基准
+- [Continual Field-Adaptive Models (CFAMs) for Post-Deployment Physical AI](items/Continual%20Field-Adaptive%20Models%20%28CFAMs%29%20for%20Post-Deployment%20Physical%20AI.md) · 多模态基础模型 世界模型 视觉语言动作模型 VLA
+- [Open-Set 3D Scene Graphs for Field Robotics: An Outdoor Case Study](items/Open-Set%203D%20Scene%20Graphs%20for%20Field%20Robotics%20An%20Outdoor%20Case%20Study.md) · 多模态基础模型 具身智能评测与基准
 
 <details>
 <summary>运行信息与信息源状态</summary>

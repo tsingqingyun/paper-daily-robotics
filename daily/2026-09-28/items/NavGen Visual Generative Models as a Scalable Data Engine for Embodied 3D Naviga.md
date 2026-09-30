@@ -42,10 +42,10 @@ concepts: ["多模态基础模型", "Sim2Real", "具身智能评测与基准"]
 
 对具身数据生成和 Sim2Real 研究者，它提供了生成式视觉数据服务真实导航的案例，值得检查生成规模能否转化为控制收益。
 
-- **概念**：[[多模态基础模型]] [[Sim2Real]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 Sim2Real 具身智能评测与基准
 - **筛选分数**：28
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-28/NavGen Visual Generative Models as a Scalable Data Engine for Embodied 3D Naviga.md" --level full`
 

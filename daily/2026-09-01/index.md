@@ -1,21 +1,21 @@
 ---
 type: daily-update
 tags: [update, ai, embodied-ai]
-format_version: 3
+format_version: 2
 evidence_level: abstract
 created: 2026-09-01
 ---
 
 # 2026-09-01 AI Embodied Intelligence Update
 
-> [!summary] 今日判断
+> [!summary] 30 秒结论
 > 今天最值得关注的不是单纯扩大模型，而是把机器人系统缺失的闭环补齐：验证后再更新记忆、根据推演结果选动作、在部署中积累因果经验，以及只在真正受动作影响的位置学习。另一条很实用的主线是降低落地成本，包括一步式或自适应 VLA 推理、仿真生成部署数据，以及把长任务拆成可独立诊断的技能。触觉数据基础设施与跨形态世界模型则代表更长期、但潜在影响更大的投入。
 > **趋势**：共同趋势是从“离线训练一个大策略”转向执行—验证—记忆—改进的系统闭环，同时用结构化分解降低数据、推理和评测成本。具身研究也越来越重视接触信息、时序状态、跨形态数据和安全边界，而不再只看视觉输入下的最终任务成功率。
 
 - **规模**：2271 个候选 → 24 篇入选；回填 0 篇
 - **主题**：具身智能评测与基准 18、智能体 Agent 14、世界模型 12、多模态基础模型 11、机器人学习 11、视觉语言动作模型 VLA 10、Sim2Real 1
 - **源异常**：1
-- **阅读方式**：先看 5 篇必读的“为什么值得读”，有用再进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **阅读方式**：先看 5 篇必读的“为什么值得读”，有用再进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -71,18 +71,18 @@ created: 2026-09-01
 
 ## 其余存档 12 篇
 
-- [Towards a Systems Foundation for Agentic Skills: Architecture, Lifecycle, and Security](items/Towards%20a%20Systems%20Foundation%20for%20Agentic%20Skills%20Architecture%2C%20Lifecycle%2C%20and%20Sec.md) · [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
-- [Behavior-Skill: A Fine-Grained Benchmark for Evaluating Vision-Language-Action Policies in Long-Horizon Tasks](items/Behavior-Skill%20A%20Fine-Grained%20Benchmark%20for%20Evaluating%20Vision-Language-Action%20Po.md) · [[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]] [[机器人学习]] [[具身智能评测与基准]]
-- [SmoothRL: Online Reinforcement Learning During Asynchronous Execution](items/SmoothRL%20Online%20Reinforcement%20Learning%20During%20Asynchronous%20Execution.md) · [[多模态基础模型]] [[视觉语言动作模型 VLA]] [[机器人学习]] [[具身智能评测与基准]]
-- [DriftingVLA: Native One-Step Vision-Language-Action Generation via Per-Dimension Temporal Drifting](items/DriftingVLA%20Native%20One-Step%20Vision-Language-Action%20Generation%20via%20Per-Dimension.md) · [[多模态基础模型]] [[视觉语言动作模型 VLA]]
-- [Agri-Sim: Agricultural Simulation Platform for Embodied Intelligence Evaluation in Greenhouse Robotics](items/Agri-Sim%20Agricultural%20Simulation%20Platform%20for%20Embodied%20Intelligence%20Evaluation%20i.md) · [[智能体 Agent]] [[世界模型]] [[Sim2Real]] [[具身智能评测与基准]]
-- [Brain-Language-Action (BLA) Models: Language-Conditioned EEG for Robotics Control](items/Brain-Language-Action%20%28BLA%29%20Models%20Language-Conditioned%20EEG%20for%20Robotics%20Control.md) · [[机器人学习]] [[具身智能评测与基准]]
-- [When Robots Mishear Us: Mapping the Safety Risks of Voice-Controlled Embodied AI](items/When%20Robots%20Mishear%20Us%20Mapping%20the%20Safety%20Risks%20of%20Voice-Controlled%20Embodied%20AI.md) · [[智能体 Agent]] [[具身智能评测与基准]]
-- [EMERGE-Policy: A Robot Mind Emerges Beyond a Single Policy](items/EMERGE-Policy%20A%20Robot%20Mind%20Emerges%20Beyond%20a%20Single%20Policy.md) · [[智能体 Agent]] [[具身智能评测与基准]]
-- [Toward Trustworthy Robot-Assisted Sliding Palpation for Shallow Vessel Localisation with a Calibrated Digital Twin](items/Toward%20Trustworthy%20Robot-Assisted%20Sliding%20Palpation%20for%20Shallow%20Vessel%20Localisat.md) · [[世界模型]] [[具身智能评测与基准]]
-- [Adversarial Calibration Attack on Autonomous Vehicles](items/Adversarial%20Calibration%20Attack%20on%20Autonomous%20Vehicles.md) · [[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
-- [CAER: Causal Action Effect Reweighting for World Model Training](items/CAER%20Causal%20Action%20Effect%20Reweighting%20for%20World%20Model%20Training.md) · [[智能体 Agent]] [[世界模型]]
-- [T3S: Improving Multi-Task Reinforcement Learning with Task-Specific Feature Selector and Scheduler](items/T3S%20Improving%20Multi-Task%20Reinforcement%20Learning%20with%20Task-Specific%20Feature%20Selec.md) · [[机器人学习]] [[具身智能评测与基准]]
+- [Towards a Systems Foundation for Agentic Skills: Architecture, Lifecycle, and Security](items/Towards%20a%20Systems%20Foundation%20for%20Agentic%20Skills%20Architecture%2C%20Lifecycle%2C%20and%20Sec.md) · 智能体 Agent 世界模型 具身智能评测与基准
+- [Behavior-Skill: A Fine-Grained Benchmark for Evaluating Vision-Language-Action Policies in Long-Horizon Tasks](items/Behavior-Skill%20A%20Fine-Grained%20Benchmark%20for%20Evaluating%20Vision-Language-Action%20Po.md) · 多模态基础模型 智能体 Agent 视觉语言动作模型 VLA 机器人学习 具身智能评测与基准
+- [SmoothRL: Online Reinforcement Learning During Asynchronous Execution](items/SmoothRL%20Online%20Reinforcement%20Learning%20During%20Asynchronous%20Execution.md) · 多模态基础模型 视觉语言动作模型 VLA 机器人学习 具身智能评测与基准
+- [DriftingVLA: Native One-Step Vision-Language-Action Generation via Per-Dimension Temporal Drifting](items/DriftingVLA%20Native%20One-Step%20Vision-Language-Action%20Generation%20via%20Per-Dimension.md) · 多模态基础模型 视觉语言动作模型 VLA
+- [Agri-Sim: Agricultural Simulation Platform for Embodied Intelligence Evaluation in Greenhouse Robotics](items/Agri-Sim%20Agricultural%20Simulation%20Platform%20for%20Embodied%20Intelligence%20Evaluation%20i.md) · 智能体 Agent 世界模型 Sim2Real 具身智能评测与基准
+- [Brain-Language-Action (BLA) Models: Language-Conditioned EEG for Robotics Control](items/Brain-Language-Action%20%28BLA%29%20Models%20Language-Conditioned%20EEG%20for%20Robotics%20Control.md) · 机器人学习 具身智能评测与基准
+- [When Robots Mishear Us: Mapping the Safety Risks of Voice-Controlled Embodied AI](items/When%20Robots%20Mishear%20Us%20Mapping%20the%20Safety%20Risks%20of%20Voice-Controlled%20Embodied%20AI.md) · 智能体 Agent 具身智能评测与基准
+- [EMERGE-Policy: A Robot Mind Emerges Beyond a Single Policy](items/EMERGE-Policy%20A%20Robot%20Mind%20Emerges%20Beyond%20a%20Single%20Policy.md) · 智能体 Agent 具身智能评测与基准
+- [Toward Trustworthy Robot-Assisted Sliding Palpation for Shallow Vessel Localisation with a Calibrated Digital Twin](items/Toward%20Trustworthy%20Robot-Assisted%20Sliding%20Palpation%20for%20Shallow%20Vessel%20Localisat.md) · 世界模型 具身智能评测与基准
+- [Adversarial Calibration Attack on Autonomous Vehicles](items/Adversarial%20Calibration%20Attack%20on%20Autonomous%20Vehicles.md) · 多模态基础模型 智能体 Agent 世界模型 具身智能评测与基准
+- [CAER: Causal Action Effect Reweighting for World Model Training](items/CAER%20Causal%20Action%20Effect%20Reweighting%20for%20World%20Model%20Training.md) · 智能体 Agent 世界模型
+- [T3S: Improving Multi-Task Reinforcement Learning with Task-Specific Feature Selector and Scheduler](items/T3S%20Improving%20Multi-Task%20Reinforcement%20Learning%20with%20Task-Specific%20Feature%20Selec.md) · 机器人学习 具身智能评测与基准
 
 <details>
 <summary>运行信息与信息源状态</summary>

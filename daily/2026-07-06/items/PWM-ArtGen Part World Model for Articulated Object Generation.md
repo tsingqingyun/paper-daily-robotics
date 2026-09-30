@@ -20,19 +20,29 @@ concepts: ["世界模型"]
 > [!summary] 一句话结论（基于摘要）
 > Experiments demonstrate that PWM- ArtGen substantially outperforms existing baselines in the resting state and exhibits strong zero-shot generalization to out-of-distribution objects.
 
-## 关键点
+## 问题
 
-- **问题**：The key challenge in articulated 3D object generation from a single image is accurately predicting the underlying kinematic structure.
-- **创新点 / 方法**：To overcome these limitations, we propose to learn the joint distribution of visual dynamics and kinematic parameters.
-- **证据**：Experiments demonstrate that PWM- ArtGen substantially outperforms existing baselines in the resting state and exhibits strong zero-shot generalization to out-of-distribution objects.
-- **局限**：摘要未明确说明；需阅读全文核查。
+The key challenge in articulated 3D object generation from a single image is accurately predicting the underlying kinematic structure.
+
+## 创新点或方法
+
+To overcome these limitations, we propose to learn the joint distribution of visual dynamics and kinematic parameters.
+
+## 证据
+
+Experiments demonstrate that PWM- ArtGen substantially outperforms existing baselines in the resting state and exhibits strong zero-shot generalization to out-of-distribution objects.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[世界模型]]
+- **概念**：世界模型
 - **筛选分数**：24
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-07-06/PWM-ArtGen Part World Model for Articulated Object Generation.md" --level full`
 

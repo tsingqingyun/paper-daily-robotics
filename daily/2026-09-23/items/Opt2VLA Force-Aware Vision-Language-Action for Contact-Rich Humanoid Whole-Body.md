@@ -42,10 +42,10 @@ concepts: ["多模态基础模型", "智能体 Agent", "世界模型", "视觉�
 
 对接触型VLA和机器人学习，核心价值是明确语义策略与物理控制之间的力接口；摘要没有提供直接的世界模型贡献。
 
-- **概念**：[[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[视觉语言动作模型 VLA]] [[机器人学习]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 智能体 Agent 世界模型 视觉语言动作模型 VLA 机器人学习 具身智能评测与基准
 - **筛选分数**：41
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-23/Opt2VLA Force-Aware Vision-Language-Action for Contact-Rich Humanoid Whole-Body.md" --level full`
 

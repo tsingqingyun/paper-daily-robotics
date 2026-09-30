@@ -1,21 +1,21 @@
 ---
 type: daily-update
 tags: [update, ai, embodied-ai]
-format_version: 3
+format_version: 2
 evidence_level: abstract
 created: 2026-09-05
 ---
 
 # 2026-09-05 AI Embodied Intelligence Update
 
-> [!summary] 今日判断
+> [!summary] 30 秒结论
 > 今天最值得细读的是三条互相呼应的路线：用视觉轨迹、受控想象和策略感知训练，让世界模型真正服务于决策；用力觉、地形与模态证据补足 VLA 的物理 grounding；以及用更严格的基准检验评测器和模型到底学到了什么。MINERVA 对 LIBERO 容量需求的质疑尤其醒目：高分可能来自任务记忆，而非大模型所暗示的泛化能力。
 > **趋势**：共同趋势是从“更大、更准的模型”转向“更合适的接口、训练信号与评测”：中间表征要与动作相关，想象要按可靠性调度，评测也要覆盖分布偏移和行为质量。另一条明显趋势是把语义决策与接触力、地形、连续动力学等物理约束直接接起来。
 
 - **规模**：2959 个候选 → 24 篇入选；回填 0 篇
 - **主题**：具身智能评测与基准 17、多模态基础模型 17、世界模型 13、视觉语言动作模型 VLA 11、智能体 Agent 9、机器人学习 9
 - **源异常**：2
-- **阅读方式**：先看 5 篇必读的“为什么值得读”，有用再进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **阅读方式**：先看 5 篇必读的“为什么值得读”，有用再进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -71,18 +71,18 @@ created: 2026-09-05
 
 ## 其余存档 12 篇
 
-- [MulDP: Multimodal Diffusion Policy for Autonomous Quadruped Parkour Navigation across Complex Terrains](items/MulDP%20Multimodal%20Diffusion%20Policy%20for%20Autonomous%20Quadruped%20Parkour%20Navigation%20ac.md) · [[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[机器人学习]]
-- [Continuous Actions from Discrete Minds: Latent-Aligned Planning for End-to-End Autonomous Driving](items/Continuous%20Actions%20from%20Discrete%20Minds%20Latent-Aligned%20Planning%20for%20End-to-End%20Au.md) · [[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [CoMAP: Co-Evolving World Models and Agent Policies for LLM Agents](items/CoMAP%20Co-Evolving%20World%20Models%20and%20Agent%20Policies%20for%20LLM%20Agents.md) · [[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
-- [Rethinking 3D Noise: Learning 3D-Aware Video Priors via Optimization-Free Morphological Perturbations](items/Rethinking%203D%20Noise%20Learning%203D-Aware%20Video%20Priors%20via%20Optimization-Free%20Morphol.md) · [[具身智能评测与基准]]
-- [RoboTok: An Internet-Scale Data Engine for Human Demonstration Retrieval and Dexterous Manipulation Learning](items/RoboTok%20An%20Internet-Scale%20Data%20Engine%20for%20Human%20Demonstration%20Retrieval%20and%20Dext.md) · [[机器人学习]] [[具身智能评测与基准]]
-- [AnyBox: Efficient Zero-Shot 9DoF Pose Estimation of Boxes for Robotic Manipulation](items/AnyBox%20Efficient%20Zero-Shot%209DoF%20Pose%20Estimation%20of%20Boxes%20for%20Robotic%20Manipulatio.md) · [[世界模型]] [[具身智能评测与基准]]
-- [Establishing a Dynamic Multimodal HRI Dataset for Engagement Analysis with a Humanoid Robot](items/Establishing%20a%20Dynamic%20Multimodal%20HRI%20Dataset%20for%20Engagement%20Analysis%20with%20a%20Hum.md) · [[多模态基础模型]]
-- [Decentralized Vision-Based Autonomous Aerial Wildlife Monitoring](items/Decentralized%20Vision-Based%20Autonomous%20Aerial%20Wildlife%20Monitoring.md) · [[具身智能评测与基准]]
-- [WorldReward: Reward Modeling for Camera-Conditioned World Models](items/WorldReward%20Reward%20Modeling%20for%20Camera-Conditioned%20World%20Models.md) · [[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
-- [Learning Terrain-Aware Whole-Body Control for Perceptive Legged Loco-Manipulation](items/Learning%20Terrain-Aware%20Whole-Body%20Control%20for%20Perceptive%20Legged%20Loco-Manipulatio.md) · [[世界模型]] [[具身智能评测与基准]]
-- [A Taxonomy of Construction Task Activities for Robot Workers](items/A%20Taxonomy%20of%20Construction%20Task%20Activities%20for%20Robot%20Workers.md) · [[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]] [[机器人学习]]
-- [Theoretical Foundations and Effective Algorithms for Policy-Aware Simulator Learning](items/Theoretical%20Foundations%20and%20Effective%20Algorithms%20for%20Policy-Aware%20Simulator%20Lear.md) · [[智能体 Agent]] [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
+- [MulDP: Multimodal Diffusion Policy for Autonomous Quadruped Parkour Navigation across Complex Terrains](items/MulDP%20Multimodal%20Diffusion%20Policy%20for%20Autonomous%20Quadruped%20Parkour%20Navigation%20ac.md) · 多模态基础模型 智能体 Agent 世界模型 机器人学习
+- [Continuous Actions from Discrete Minds: Latent-Aligned Planning for End-to-End Autonomous Driving](items/Continuous%20Actions%20from%20Discrete%20Minds%20Latent-Aligned%20Planning%20for%20End-to-End%20Au.md) · 多模态基础模型 智能体 Agent 视觉语言动作模型 VLA 具身智能评测与基准
+- [CoMAP: Co-Evolving World Models and Agent Policies for LLM Agents](items/CoMAP%20Co-Evolving%20World%20Models%20and%20Agent%20Policies%20for%20LLM%20Agents.md) · 多模态基础模型 智能体 Agent 世界模型 具身智能评测与基准
+- [Rethinking 3D Noise: Learning 3D-Aware Video Priors via Optimization-Free Morphological Perturbations](items/Rethinking%203D%20Noise%20Learning%203D-Aware%20Video%20Priors%20via%20Optimization-Free%20Morphol.md) · 具身智能评测与基准
+- [RoboTok: An Internet-Scale Data Engine for Human Demonstration Retrieval and Dexterous Manipulation Learning](items/RoboTok%20An%20Internet-Scale%20Data%20Engine%20for%20Human%20Demonstration%20Retrieval%20and%20Dext.md) · 机器人学习 具身智能评测与基准
+- [AnyBox: Efficient Zero-Shot 9DoF Pose Estimation of Boxes for Robotic Manipulation](items/AnyBox%20Efficient%20Zero-Shot%209DoF%20Pose%20Estimation%20of%20Boxes%20for%20Robotic%20Manipulatio.md) · 世界模型 具身智能评测与基准
+- [Establishing a Dynamic Multimodal HRI Dataset for Engagement Analysis with a Humanoid Robot](items/Establishing%20a%20Dynamic%20Multimodal%20HRI%20Dataset%20for%20Engagement%20Analysis%20with%20a%20Hum.md) · 多模态基础模型
+- [Decentralized Vision-Based Autonomous Aerial Wildlife Monitoring](items/Decentralized%20Vision-Based%20Autonomous%20Aerial%20Wildlife%20Monitoring.md) · 具身智能评测与基准
+- [WorldReward: Reward Modeling for Camera-Conditioned World Models](items/WorldReward%20Reward%20Modeling%20for%20Camera-Conditioned%20World%20Models.md) · 多模态基础模型 智能体 Agent 世界模型 具身智能评测与基准
+- [Learning Terrain-Aware Whole-Body Control for Perceptive Legged Loco-Manipulation](items/Learning%20Terrain-Aware%20Whole-Body%20Control%20for%20Perceptive%20Legged%20Loco-Manipulatio.md) · 世界模型 具身智能评测与基准
+- [A Taxonomy of Construction Task Activities for Robot Workers](items/A%20Taxonomy%20of%20Construction%20Task%20Activities%20for%20Robot%20Workers.md) · 多模态基础模型 智能体 Agent 视觉语言动作模型 VLA 机器人学习
+- [Theoretical Foundations and Effective Algorithms for Policy-Aware Simulator Learning](items/Theoretical%20Foundations%20and%20Effective%20Algorithms%20for%20Policy-Aware%20Simulator%20Lear.md) · 智能体 Agent 世界模型 机器人学习 具身智能评测与基准
 
 <details>
 <summary>运行信息与信息源状态</summary>

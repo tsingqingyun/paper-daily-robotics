@@ -20,19 +20,29 @@ concepts: ["机器人学习", "具身智能评测与基准"]
 > [!summary] 一句话结论（基于摘要）
 > Consequently, data collection efficiency for high-precision tasks remains prohibitively low.
 
-## 关键点
+## 问题
 
-- **问题**：Fine-grained, bimanual dexterous manipulation remains a foundational challenge in robotics.
-- **创新点 / 方法**：To address these limitations, we propose a tactile-driven adaptation strategy designed to enable fine-grained manipulation on top of teleoperation pipelines.
-- **证据**：Consequently, data collection efficiency for high-precision tasks remains prohibitively low.
-- **局限**：摘要未明确说明；需阅读全文核查。
+Fine-grained, bimanual dexterous manipulation remains a foundational challenge in robotics.
+
+## 创新点或方法
+
+To address these limitations, we propose a tactile-driven adaptation strategy designed to enable fine-grained manipulation on top of teleoperation pipelines.
+
+## 证据
+
+Consequently, data collection efficiency for high-precision tasks remains prohibitively low.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[机器人学习]] [[具身智能评测与基准]]
+- **概念**：机器人学习 具身智能评测与基准
 - **筛选分数**：29
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-25/DexTeleop-0 Force-Aware Bimanual Dexterous Teleoperation with Ego-Centric Percep.md" --level full`
 

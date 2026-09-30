@@ -42,10 +42,10 @@ concepts: ["多模态基础模型", "世界模型", "视觉语言动作模型 VL
 
 对 VLA 表示与世界模型研究者，它帮助区分“读出物理信息”和“控制未来物理量”两个问题，为内部表示干预提供明确的理论目标。
 
-- **概念**：[[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]]
+- **概念**：多模态基础模型 世界模型 视觉语言动作模型 VLA
 - **筛选分数**：28
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-28/The Linear Representation Hypothesis for Vision-Language-Action Models.md" --level full`
 

@@ -14,7 +14,7 @@ created: 2026-07-17
 - **规模**：270 个候选 → 24 篇入选；回填 0 篇
 - **主题**：具身智能评测与基准 20、多模态基础模型 15、智能体 Agent 14、机器人学习 13、世界模型 11、视觉语言动作模型 VLA 8、Sim2Real 1
 - **源异常**：2
-- **需要更高精度**：从“必读”选择论文，进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **需要更高精度**：从“必读”选择论文，进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -55,18 +55,18 @@ created: 2026-07-17
 
 ## 其余存档 12 篇
 
-- [Breaking Déjà Vu: Independent Auditing of Visual Place Recognition through Vision-Language Reasoning](items/Breaking%20D%C3%A9j%C3%A0%20Vu%20Independent%20Auditing%20of%20Visual%20Place%20Recognition%20through%20Vision.md) · [[多模态基础模型]] [[具身智能评测与基准]]
-- [Joint On-and-Off Policy Learning for Vision-and-Language Navigation](items/Joint%20On-and-Off%20Policy%20Learning%20for%20Vision-and-Language%20Navigation.md) · [[多模态基础模型]] [[智能体 Agent]] [[机器人学习]] [[具身智能评测与基准]]
-- [Vision-Based Dribbling for Humanoid Soccer via Privileged Representation Learning](items/Vision-Based%20Dribbling%20for%20Humanoid%20Soccer%20via%20Privileged%20Representation%20Learnin.md) · [[机器人学习]]
-- [Learning Safe Agent Behaviour from Human Preferences and Justifications via World Models](items/Learning%20Safe%20Agent%20Behaviour%20from%20Human%20Preferences%20and%20Justifications%20via%20Worl.md) · [[智能体 Agent]] [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
-- [Hy-Embodied-VLM-1.0: Efficient Physical-World Agents](items/Hy-Embodied-VLM-1.0%20Efficient%20Physical-World%20Agents.md) · [[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
-- [Towards Spatial Supersensing in the Wild](items/Towards%20Spatial%20Supersensing%20in%20the%20Wild.md) · [[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
-- [Flow-aware Optimal Navigation in Unsteady Flows through Reinforcement Learning](items/Flow-aware%20Optimal%20Navigation%20in%20Unsteady%20Flows%20through%20Reinforcement%20Learning.md) · [[智能体 Agent]] [[世界模型]] [[机器人学习]]
-- [Worlds in One Demo: A Synthetic Data Engine for Learning Open-World Mobile Manipulation](items/Worlds%20in%20One%20Demo%20A%20Synthetic%20Data%20Engine%20for%20Learning%20Open-World%20Mobile%20Manipu.md) · [[智能体 Agent]] [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
-- [Self in Space: Benchmarking Self-Awareness and Spatial Cognition in UAV Embodied Intelligence](items/Self%20in%20Space%20Benchmarking%20Self-Awareness%20and%20Spatial%20Cognition%20in%20UAV%20Embodied.md) · [[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
-- [UniPhysGen: Unified Physical Grounding for Simulation-Ready 3D Assets](items/UniPhysGen%20Unified%20Physical%20Grounding%20for%20Simulation-Ready%203D%20Assets.md) · [[世界模型]] [[具身智能评测与基准]]
-- [Learning Physics-Guided Residual Dynamics for Deformable Object Simulation](items/Learning%20Physics-Guided%20Residual%20Dynamics%20for%20Deformable%20Object%20Simulation.md) · [[智能体 Agent]] [[世界模型]]
-- [Just-In-Time Scene Graph Growth: Combating Perceptual Saturation in Long-Horizon Robotics](items/Just-In-Time%20Scene%20Graph%20Growth%20Combating%20Perceptual%20Saturation%20in%20Long-Horizon.md) · [[智能体 Agent]]
+- [Breaking Déjà Vu: Independent Auditing of Visual Place Recognition through Vision-Language Reasoning](items/Breaking%20D%C3%A9j%C3%A0%20Vu%20Independent%20Auditing%20of%20Visual%20Place%20Recognition%20through%20Vision.md) · 多模态基础模型 具身智能评测与基准
+- [Joint On-and-Off Policy Learning for Vision-and-Language Navigation](items/Joint%20On-and-Off%20Policy%20Learning%20for%20Vision-and-Language%20Navigation.md) · 多模态基础模型 智能体 Agent 机器人学习 具身智能评测与基准
+- [Vision-Based Dribbling for Humanoid Soccer via Privileged Representation Learning](items/Vision-Based%20Dribbling%20for%20Humanoid%20Soccer%20via%20Privileged%20Representation%20Learnin.md) · 机器人学习
+- [Learning Safe Agent Behaviour from Human Preferences and Justifications via World Models](items/Learning%20Safe%20Agent%20Behaviour%20from%20Human%20Preferences%20and%20Justifications%20via%20Worl.md) · 智能体 Agent 世界模型 机器人学习 具身智能评测与基准
+- [Hy-Embodied-VLM-1.0: Efficient Physical-World Agents](items/Hy-Embodied-VLM-1.0%20Efficient%20Physical-World%20Agents.md) · 多模态基础模型 智能体 Agent 具身智能评测与基准
+- [Towards Spatial Supersensing in the Wild](items/Towards%20Spatial%20Supersensing%20in%20the%20Wild.md) · 多模态基础模型 智能体 Agent 世界模型 具身智能评测与基准
+- [Flow-aware Optimal Navigation in Unsteady Flows through Reinforcement Learning](items/Flow-aware%20Optimal%20Navigation%20in%20Unsteady%20Flows%20through%20Reinforcement%20Learning.md) · 智能体 Agent 世界模型 机器人学习
+- [Worlds in One Demo: A Synthetic Data Engine for Learning Open-World Mobile Manipulation](items/Worlds%20in%20One%20Demo%20A%20Synthetic%20Data%20Engine%20for%20Learning%20Open-World%20Mobile%20Manipu.md) · 智能体 Agent 世界模型 机器人学习 具身智能评测与基准
+- [Self in Space: Benchmarking Self-Awareness and Spatial Cognition in UAV Embodied Intelligence](items/Self%20in%20Space%20Benchmarking%20Self-Awareness%20and%20Spatial%20Cognition%20in%20UAV%20Embodied.md) · 多模态基础模型 智能体 Agent 世界模型 具身智能评测与基准
+- [UniPhysGen: Unified Physical Grounding for Simulation-Ready 3D Assets](items/UniPhysGen%20Unified%20Physical%20Grounding%20for%20Simulation-Ready%203D%20Assets.md) · 世界模型 具身智能评测与基准
+- [Learning Physics-Guided Residual Dynamics for Deformable Object Simulation](items/Learning%20Physics-Guided%20Residual%20Dynamics%20for%20Deformable%20Object%20Simulation.md) · 智能体 Agent 世界模型
+- [Just-In-Time Scene Graph Growth: Combating Perceptual Saturation in Long-Horizon Robotics](items/Just-In-Time%20Scene%20Graph%20Growth%20Combating%20Perceptual%20Saturation%20in%20Long-Horizon.md) · 智能体 Agent
 
 <details>
 <summary>运行信息与信息源错误</summary>

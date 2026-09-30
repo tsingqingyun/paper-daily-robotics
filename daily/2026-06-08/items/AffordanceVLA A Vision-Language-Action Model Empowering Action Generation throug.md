@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "世界模型", "视觉语言动作模型 VL
 > [!summary] 一句话结论（基于摘要）
 > Extensive experiments on simulation and real-world demonstrate that AffordanceVLA achieves strong performance across diverse manipulation scenarios.
 
-## 关键点
+## 问题
 
-- **问题**：However, the structural mismatch between VLM semantic spaces and embodied control policies often hinders the learning of precise perception--action mappings.
-- **创新点 / 方法**：To address this challenge, we propose \textbf{AffordanceVLA}, a unified framework that introduces structured affordance forecasting as a task-oriented intermediate representation to establish a more precise and robust perception--action mapping.
-- **证据**：Extensive experiments on simulation and real-world demonstrate that AffordanceVLA achieves strong performance across diverse manipulation scenarios.
-- **局限**：摘要未明确说明；需阅读全文核查。
+However, the structural mismatch between VLM semantic spaces and embodied control policies often hinders the learning of precise perception--action mappings.
+
+## 创新点或方法
+
+To address this challenge, we propose \textbf{AffordanceVLA}, a unified framework that introduces structured affordance forecasting as a task-oriented intermediate representation to establish a more precise and robust perception--action mapping.
+
+## 证据
+
+Extensive experiments on simulation and real-world demonstrate that AffordanceVLA achieves strong performance across diverse manipulation scenarios.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]]
+- **概念**：多模态基础模型 世界模型 视觉语言动作模型 VLA
 - **筛选分数**：42
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-08/AffordanceVLA A Vision-Language-Action Model Empowering Action Generation throug.md" --level full`
 

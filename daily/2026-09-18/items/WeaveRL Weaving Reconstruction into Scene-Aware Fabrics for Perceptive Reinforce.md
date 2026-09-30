@@ -42,10 +42,10 @@ GPU加速重建在交互过程中把场景表示为表面元，并将该几何�
 
 对机器人学习与Sim2Real，直接价值是缩小训练控制器所用几何与部署感知所得几何之间的差异；核心贡献是感知与控制集成。
 
-- **概念**：[[世界模型]] [[机器人学习]] [[Sim2Real]]
+- **概念**：世界模型 机器人学习 Sim2Real
 - **筛选分数**：28
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-18/WeaveRL Weaving Reconstruction into Scene-Aware Fabrics for Perceptive Reinforce.md" --level full`
 

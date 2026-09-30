@@ -14,7 +14,7 @@ created: 2026-08-16
 - **规模**：2241 个候选 → 24 篇入选；回填 0 篇
 - **主题**：具身智能评测与基准 18、智能体 Agent 10、世界模型 9、多模态基础模型 9、机器人学习 5、视觉语言动作模型 VLA 5、Sim2Real 2
 - **源异常**：0
-- **需要更高精度**：从“必读”选择论文，进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **需要更高精度**：从“必读”选择论文，进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -55,18 +55,18 @@ created: 2026-08-16
 
 ## 其余存档 12 篇
 
-- [Redistribution-based Cost Inference Improves Sparse Safe Offline RL](items/Redistribution-based%20Cost%20Inference%20Improves%20Sparse%20Safe%20Offline%20RL.md) · [[具身智能评测与基准]]
-- [Map-Det3D: Metric Feed-Forward 3D Reconstruction Prior for Multi-view 3D Object Detection from Streaming Inputs](items/Map-Det3D%20Metric%20Feed-Forward%203D%20Reconstruction%20Prior%20for%20Multi-view%203D%20Object%20D.md) · [[智能体 Agent]] [[具身智能评测与基准]]
-- [Attention from Action, for Action: Emergent Visual Bottlenecks for Policy Learning](items/Attention%20from%20Action%2C%20for%20Action%20Emergent%20Visual%20Bottlenecks%20for%20Policy%20Learnin.md) · [[世界模型]] [[具身智能评测与基准]]
-- [FlashDrive: Flash Vision-Language-Action Inference for Autonomous Driving](items/FlashDrive%20Flash%20Vision-Language-Action%20Inference%20for%20Autonomous%20Driving.md) · [[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]]
-- [HounsWorld: A Multimodal World Model for Hidden Patient-State Readout, Reconstruction, and Simulation](items/HounsWorld%20A%20Multimodal%20World%20Model%20for%20Hidden%20Patient-State%20Readout%2C%20Reconstruc.md) · [[多模态基础模型]] [[世界模型]] [[具身智能评测与基准]]
-- [Error-Aware Reverse Auction Mechanism for Large Language Model Routing](items/Error-Aware%20Reverse%20Auction%20Mechanism%20for%20Large%20Language%20Model%20Routing.md) · [[世界模型]] [[具身智能评测与基准]]
-- [FUSE: Active Functional Affordance Grounding through Adaptive Semantic-Geometric Evidence Acquisition](items/FUSE%20Active%20Functional%20Affordance%20Grounding%20through%20Adaptive%20Semantic-Geometric.md) · [[智能体 Agent]] [[具身智能评测与基准]]
-- [Can Vision-Language Models Assess Proxemic Risk from Egocentric Robot Images?](items/Can%20Vision-Language%20Models%20Assess%20Proxemic%20Risk%20from%20Egocentric%20Robot%20Images.md) · [[多模态基础模型]] [[具身智能评测与基准]]
-- [Surgical WAM: A World-Action Model for Data-Efficient Surgical Robot Learning](items/Surgical%20WAM%20A%20World-Action%20Model%20for%20Data-Efficient%20Surgical%20Robot%20Learning.md) · [[智能体 Agent]] [[世界模型]] [[视觉语言动作模型 VLA]] [[机器人学习]] [[具身智能评测与基准]]
-- [EgoPHI: Estimating Contact and Force from Egocentric Vision](items/EgoPHI%20Estimating%20Contact%20and%20Force%20from%20Egocentric%20Vision.md) · [[世界模型]] [[Sim2Real]] [[具身智能评测与基准]]
-- [Towards Socially Compliant Navigation in Deep Reinforcement Learning via Proxemics-Based Reward Modeling](items/Towards%20Socially%20Compliant%20Navigation%20in%20Deep%20Reinforcement%20Learning%20via%20Proxemi.md) · [[世界模型]] [[机器人学习]]
-- [Convergent Detour Hijacking: Task-Preserving Resource Amplification in Skill-Based LLM Agents](items/Convergent%20Detour%20Hijacking%20Task-Preserving%20Resource%20Amplification%20in%20Skill-Base.md) · [[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
+- [Redistribution-based Cost Inference Improves Sparse Safe Offline RL](items/Redistribution-based%20Cost%20Inference%20Improves%20Sparse%20Safe%20Offline%20RL.md) · 具身智能评测与基准
+- [Map-Det3D: Metric Feed-Forward 3D Reconstruction Prior for Multi-view 3D Object Detection from Streaming Inputs](items/Map-Det3D%20Metric%20Feed-Forward%203D%20Reconstruction%20Prior%20for%20Multi-view%203D%20Object%20D.md) · 智能体 Agent 具身智能评测与基准
+- [Attention from Action, for Action: Emergent Visual Bottlenecks for Policy Learning](items/Attention%20from%20Action%2C%20for%20Action%20Emergent%20Visual%20Bottlenecks%20for%20Policy%20Learnin.md) · 世界模型 具身智能评测与基准
+- [FlashDrive: Flash Vision-Language-Action Inference for Autonomous Driving](items/FlashDrive%20Flash%20Vision-Language-Action%20Inference%20for%20Autonomous%20Driving.md) · 多模态基础模型 世界模型 视觉语言动作模型 VLA
+- [HounsWorld: A Multimodal World Model for Hidden Patient-State Readout, Reconstruction, and Simulation](items/HounsWorld%20A%20Multimodal%20World%20Model%20for%20Hidden%20Patient-State%20Readout%2C%20Reconstruc.md) · 多模态基础模型 世界模型 具身智能评测与基准
+- [Error-Aware Reverse Auction Mechanism for Large Language Model Routing](items/Error-Aware%20Reverse%20Auction%20Mechanism%20for%20Large%20Language%20Model%20Routing.md) · 世界模型 具身智能评测与基准
+- [FUSE: Active Functional Affordance Grounding through Adaptive Semantic-Geometric Evidence Acquisition](items/FUSE%20Active%20Functional%20Affordance%20Grounding%20through%20Adaptive%20Semantic-Geometric.md) · 智能体 Agent 具身智能评测与基准
+- [Can Vision-Language Models Assess Proxemic Risk from Egocentric Robot Images?](items/Can%20Vision-Language%20Models%20Assess%20Proxemic%20Risk%20from%20Egocentric%20Robot%20Images.md) · 多模态基础模型 具身智能评测与基准
+- [Surgical WAM: A World-Action Model for Data-Efficient Surgical Robot Learning](items/Surgical%20WAM%20A%20World-Action%20Model%20for%20Data-Efficient%20Surgical%20Robot%20Learning.md) · 智能体 Agent 世界模型 视觉语言动作模型 VLA 机器人学习 具身智能评测与基准
+- [EgoPHI: Estimating Contact and Force from Egocentric Vision](items/EgoPHI%20Estimating%20Contact%20and%20Force%20from%20Egocentric%20Vision.md) · 世界模型 Sim2Real 具身智能评测与基准
+- [Towards Socially Compliant Navigation in Deep Reinforcement Learning via Proxemics-Based Reward Modeling](items/Towards%20Socially%20Compliant%20Navigation%20in%20Deep%20Reinforcement%20Learning%20via%20Proxemi.md) · 世界模型 机器人学习
+- [Convergent Detour Hijacking: Task-Preserving Resource Amplification in Skill-Based LLM Agents](items/Convergent%20Detour%20Hijacking%20Task-Preserving%20Resource%20Amplification%20in%20Skill-Base.md) · 多模态基础模型 智能体 Agent 具身智能评测与基准
 
 <details>
 <summary>运行信息与信息源错误</summary>

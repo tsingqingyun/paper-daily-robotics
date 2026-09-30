@@ -15,7 +15,7 @@ created: 2026-09-23
 - **规模**：2355 个候选 → 24 篇入选；回填 0 篇
 - **主题**：具身智能评测与基准 21、多模态基础模型 17、视觉语言动作模型 VLA 17、智能体 Agent 13、机器人学习 11、世界模型 8、Sim2Real 1
 - **源异常**：0
-- **阅读方式**：先看 5 篇必读的“为什么值得读”，有用再进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **阅读方式**：先看 5 篇必读的“为什么值得读”，有用再进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -71,18 +71,18 @@ created: 2026-09-23
 
 ## 其余存档 12 篇
 
-- [ActiveArena: Benchmarking and Understanding Active Perception in Robotic Manipulation](items/ActiveArena%20Benchmarking%20and%20Understanding%20Active%20Perception%20in%20Robotic%20Manipula.md) · [[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [Beyond Appearance Shifts: Task-Semantic Action Calibration for VLA Models](items/Beyond%20Appearance%20Shifts%20Task-Semantic%20Action%20Calibration%20for%20VLA%20Models.md) · [[多模态基础模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [CompVLA: A Variable Compliance Vision-Language-Action Model for Contact-rich Manipulation](items/CompVLA%20A%20Variable%20Compliance%20Vision-Language-Action%20Model%20for%20Contact-rich%20Mani.md) · [[多模态基础模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [ReVeal: A Reconstruction-Aware Real-to-Sim Framework for VLA Policy Evaluation](items/ReVeal%20A%20Reconstruction-Aware%20Real-to-Sim%20Framework%20for%20VLA%20Policy%20Evaluation.md) · [[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [EgoWild2Dex: Learning Dexterous Robotic Manipulation from In-the-Wild Human Experience](items/EgoWild2Dex%20Learning%20Dexterous%20Robotic%20Manipulation%20from%20In-the-Wild%20Human%20Exper.md) · [[智能体 Agent]] [[机器人学习]] [[具身智能评测与基准]]
-- [ME-VLM:A Unified VLM for Embodied Cognition and Agent Coordination](items/ME-VLM%20A%20Unified%20VLM%20for%20Embodied%20Cognition%20and%20Agent%20Coordination.md) · [[多模态基础模型]] [[智能体 Agent]] [[机器人学习]] [[具身智能评测与基准]]
-- [InsertAnything: Generalizable Contact-Rich Precision Insertion from Simulation to Reality](items/InsertAnything%20Generalizable%20Contact-Rich%20Precision%20Insertion%20from%20Simulation%20to.md) · [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
-- [Zeva-Ego: Egocentric Mid-Training with In-Context Causal Learning for Robot Manipulation](items/Zeva-Ego%20Egocentric%20Mid-Training%20with%20In-Context%20Causal%20Learning%20for%20Robot%20Manip.md) · [[视觉语言动作模型 VLA]] [[机器人学习]]
-- [TaskAnchor: Grounding Task State in Reactive VLAs for Long-Horizon Manipulation](items/TaskAnchor%20Grounding%20Task%20State%20in%20Reactive%20VLAs%20for%20Long-Horizon%20Manipulation.md) · [[智能体 Agent]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [MIGU: Multimodal Instruction Grounding under Uncertainty for Manipulation Planning](items/MIGU%20Multimodal%20Instruction%20Grounding%20under%20Uncertainty%20for%20Manipulation%20Plannin.md) · [[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
-- [vla.simd: Efficient CPU Inference for Language-Conditioned Manipulation](items/vla.simd%20Efficient%20CPU%20Inference%20for%20Language-Conditioned%20Manipulation.md) · [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [A Topological Representation with Object-Path Graphs for Open-Vocabulary Instance Navigation](items/A%20Topological%20Representation%20with%20Object-Path%20Graphs%20for%20Open-Vocabulary%20Instanc.md) · [[多模态基础模型]] [[智能体 Agent]]
+- [ActiveArena: Benchmarking and Understanding Active Perception in Robotic Manipulation](items/ActiveArena%20Benchmarking%20and%20Understanding%20Active%20Perception%20in%20Robotic%20Manipula.md) · 多模态基础模型 智能体 Agent 视觉语言动作模型 VLA 具身智能评测与基准
+- [Beyond Appearance Shifts: Task-Semantic Action Calibration for VLA Models](items/Beyond%20Appearance%20Shifts%20Task-Semantic%20Action%20Calibration%20for%20VLA%20Models.md) · 多模态基础模型 视觉语言动作模型 VLA 具身智能评测与基准
+- [CompVLA: A Variable Compliance Vision-Language-Action Model for Contact-rich Manipulation](items/CompVLA%20A%20Variable%20Compliance%20Vision-Language-Action%20Model%20for%20Contact-rich%20Mani.md) · 多模态基础模型 视觉语言动作模型 VLA 具身智能评测与基准
+- [ReVeal: A Reconstruction-Aware Real-to-Sim Framework for VLA Policy Evaluation](items/ReVeal%20A%20Reconstruction-Aware%20Real-to-Sim%20Framework%20for%20VLA%20Policy%20Evaluation.md) · 多模态基础模型 世界模型 视觉语言动作模型 VLA 具身智能评测与基准
+- [EgoWild2Dex: Learning Dexterous Robotic Manipulation from In-the-Wild Human Experience](items/EgoWild2Dex%20Learning%20Dexterous%20Robotic%20Manipulation%20from%20In-the-Wild%20Human%20Exper.md) · 智能体 Agent 机器人学习 具身智能评测与基准
+- [ME-VLM:A Unified VLM for Embodied Cognition and Agent Coordination](items/ME-VLM%20A%20Unified%20VLM%20for%20Embodied%20Cognition%20and%20Agent%20Coordination.md) · 多模态基础模型 智能体 Agent 机器人学习 具身智能评测与基准
+- [InsertAnything: Generalizable Contact-Rich Precision Insertion from Simulation to Reality](items/InsertAnything%20Generalizable%20Contact-Rich%20Precision%20Insertion%20from%20Simulation%20to.md) · 世界模型 机器人学习 具身智能评测与基准
+- [Zeva-Ego: Egocentric Mid-Training with In-Context Causal Learning for Robot Manipulation](items/Zeva-Ego%20Egocentric%20Mid-Training%20with%20In-Context%20Causal%20Learning%20for%20Robot%20Manip.md) · 视觉语言动作模型 VLA 机器人学习
+- [TaskAnchor: Grounding Task State in Reactive VLAs for Long-Horizon Manipulation](items/TaskAnchor%20Grounding%20Task%20State%20in%20Reactive%20VLAs%20for%20Long-Horizon%20Manipulation.md) · 智能体 Agent 视觉语言动作模型 VLA 具身智能评测与基准
+- [MIGU: Multimodal Instruction Grounding under Uncertainty for Manipulation Planning](items/MIGU%20Multimodal%20Instruction%20Grounding%20under%20Uncertainty%20for%20Manipulation%20Plannin.md) · 多模态基础模型 智能体 Agent 具身智能评测与基准
+- [vla.simd: Efficient CPU Inference for Language-Conditioned Manipulation](items/vla.simd%20Efficient%20CPU%20Inference%20for%20Language-Conditioned%20Manipulation.md) · 视觉语言动作模型 VLA 具身智能评测与基准
+- [A Topological Representation with Object-Path Graphs for Open-Vocabulary Instance Navigation](items/A%20Topological%20Representation%20with%20Object-Path%20Graphs%20for%20Open-Vocabulary%20Instanc.md) · 多模态基础模型 智能体 Agent
 
 <details>
 <summary>运行信息与信息源状态</summary>

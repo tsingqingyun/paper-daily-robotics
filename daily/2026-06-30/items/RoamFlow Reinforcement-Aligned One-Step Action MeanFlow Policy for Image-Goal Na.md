@@ -20,19 +20,29 @@ concepts: ["智能体 Agent", "世界模型", "机器人学习"]
 > [!summary] 一句话结论（基于摘要）
 > Extensive experiments in both Habitat simulation and real-world robotic platforms demonstrate that RoamFlow achieves efficient inference while maintaining strong navigation performance under real- time constraints.
 
-## 关键点
+## 问题
 
-- **问题**：Image-goal navigation is a key challenge in embodied robotics, where an agent must reach a target specified solely by a goal image.
-- **创新点 / 方法**：To address this limitation, we propose RoamFlow, a generative navigation framework that leverages MeanFlow to predict the average velocity field for trajectory synthesis, enabling efficient few-step generation and reducing inference latency.
-- **证据**：Extensive experiments in both Habitat simulation and real-world robotic platforms demonstrate that RoamFlow achieves efficient inference while maintaining strong navigation performance under real- time constraints.
-- **局限**：摘要未明确说明；需阅读全文核查。
+Image-goal navigation is a key challenge in embodied robotics, where an agent must reach a target specified solely by a goal image.
+
+## 创新点或方法
+
+To address this limitation, we propose RoamFlow, a generative navigation framework that leverages MeanFlow to predict the average velocity field for trajectory synthesis, enabling efficient few-step generation and reducing inference latency.
+
+## 证据
+
+Extensive experiments in both Habitat simulation and real-world robotic platforms demonstrate that RoamFlow achieves efficient inference while maintaining strong navigation performance under real- time constraints.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[智能体 Agent]] [[世界模型]] [[机器人学习]]
+- **概念**：智能体 Agent 世界模型 机器人学习
 - **筛选分数**：34
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-30/RoamFlow Reinforcement-Aligned One-Step Action MeanFlow Policy for Image-Goal Na.md" --level full`
 

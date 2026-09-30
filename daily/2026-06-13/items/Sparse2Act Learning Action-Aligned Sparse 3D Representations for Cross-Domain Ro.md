@@ -20,19 +20,29 @@ concepts: ["世界模型", "Sim2Real", "具身智能评测与基准"]
 > [!summary] 一句话结论（基于摘要）
 > On the LIBERO-10 benchmark, our method achieves 86.9% average success after 500 fine-tuning steps.
 
-## 关键点
+## 问题
 
-- **问题**：However, sparse 3D encoders are often learned through downstream task objectives, tying the representation to a particular data distribution, policy architecture, and action parameterization.
-- **创新点 / 方法**：We introduce Sparse2Act, an observation-action alignment framework for pretraining sparse point-cloud encoders.
-- **证据**：On the LIBERO-10 benchmark, our method achieves 86.9% average success after 500 fine-tuning steps.
-- **局限**：摘要未明确说明；需阅读全文核查。
+However, sparse 3D encoders are often learned through downstream task objectives, tying the representation to a particular data distribution, policy architecture, and action parameterization.
+
+## 创新点或方法
+
+We introduce Sparse2Act, an observation-action alignment framework for pretraining sparse point-cloud encoders.
+
+## 证据
+
+On the LIBERO-10 benchmark, our method achieves 86.9% average success after 500 fine-tuning steps.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[世界模型]] [[Sim2Real]] [[具身智能评测与基准]]
+- **概念**：世界模型 Sim2Real 具身智能评测与基准
 - **筛选分数**：29
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-13/Sparse2Act Learning Action-Aligned Sparse 3D Representations for Cross-Domain Ro.md" --level full`
 

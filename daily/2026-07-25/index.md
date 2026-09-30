@@ -14,7 +14,7 @@ created: 2026-07-25
 - **规模**：2151 个候选 → 24 篇入选；回填 0 篇
 - **主题**：具身智能评测与基准 18、世界模型 10、智能体 Agent 9、多模态基础模型 8、机器人学习 5、视觉语言动作模型 VLA 1
 - **源异常**：0
-- **需要更高精度**：从“必读”选择论文，进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **需要更高精度**：从“必读”选择论文，进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -55,18 +55,18 @@ created: 2026-07-25
 
 ## 其余存档 12 篇
 
-- [Bayesian Retraction Optimization for Tissue Attachment Mapping in Surgical Dissection](items/Bayesian%20Retraction%20Optimization%20for%20Tissue%20Attachment%20Mapping%20in%20Surgical%20Disse.md) · [[世界模型]] [[具身智能评测与基准]]
-- [Factorized Spatio-Temporal Convolutions for Human Pose Estimation from Planar Lidar](items/Factorized%20Spatio-Temporal%20Convolutions%20for%20Human%20Pose%20Estimation%20from%20Planar%20Li.md) · [[机器人学习]] [[具身智能评测与基准]]
-- [ZONDA: Zero-shot Object Navigation with Dynamic Avoidance in Multi-floor Environments](items/ZONDA%20Zero-shot%20Object%20Navigation%20with%20Dynamic%20Avoidance%20in%20Multi-floor%20Environm.md) · [[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
-- [SOPD-SocialNav: Selective On-Policy Distillation for Vision-Language Social Navigation](items/SOPD-SocialNav%20Selective%20On-Policy%20Distillation%20for%20Vision-Language%20Social%20Navig.md) · [[多模态基础模型]] [[具身智能评测与基准]]
-- [FilmWorld: Agentic Novel-to-Film Generation through Dynamic Cinematic World Modeling](items/FilmWorld%20Agentic%20Novel-to-Film%20Generation%20through%20Dynamic%20Cinematic%20World%20Model.md) · [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
-- [Correct-by-Construction Behavior Tree Synthesis from Signal Temporal Logic Specifications with Application to Robotic Missions](items/Correct-by-Construction%20Behavior%20Tree%20Synthesis%20from%20Signal%20Temporal%20Logic%20Speci.md) · [[世界模型]] [[具身智能评测与基准]]
-- [DWM: Separating World Effects from Actions in Latent World Models](items/DWM%20Separating%20World%20Effects%20from%20Actions%20in%20Latent%20World%20Models.md) · [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
-- [Same Dangerous Objective, Opposite Advice: Direct Exposure versus Multi-Agent Mediation](items/Same%20Dangerous%20Objective%2C%20Opposite%20Advice%20Direct%20Exposure%20versus%20Multi-Agent%20Med.md) · [[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
-- [RL-MACRO: A Cybernetic Closed-Loop Intelligence Framework for Multimodal Adaptive Robotic Craniotomy](items/RL-MACRO%20A%20Cybernetic%20Closed-Loop%20Intelligence%20Framework%20for%20Multimodal%20Adaptive.md) · [[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
-- [Human-Inspired Framework for Robotic Craniotomy: Integrating Multimodal Fusion and Adaptive Trajectory Adjustment](items/Human-Inspired%20Framework%20for%20Robotic%20Craniotomy%20Integrating%20Multimodal%20Fusion%20an.md) · [[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
-- [Emergent Compositional Skills in Mixture-of-Experts VLAs](items/Emergent%20Compositional%20Skills%20in%20Mixture-of-Experts%20VLAs.md) · [[视觉语言动作模型 VLA]] [[机器人学习]]
-- [Decentralized UAV Swarms for Ground Target Protection in GPS- and Communication-Denied Environments](items/Decentralized%20UAV%20Swarms%20for%20Ground%20Target%20Protection%20in%20GPS-%20and%20Communication-.md) · [[具身智能评测与基准]]
+- [Bayesian Retraction Optimization for Tissue Attachment Mapping in Surgical Dissection](items/Bayesian%20Retraction%20Optimization%20for%20Tissue%20Attachment%20Mapping%20in%20Surgical%20Disse.md) · 世界模型 具身智能评测与基准
+- [Factorized Spatio-Temporal Convolutions for Human Pose Estimation from Planar Lidar](items/Factorized%20Spatio-Temporal%20Convolutions%20for%20Human%20Pose%20Estimation%20from%20Planar%20Li.md) · 机器人学习 具身智能评测与基准
+- [ZONDA: Zero-shot Object Navigation with Dynamic Avoidance in Multi-floor Environments](items/ZONDA%20Zero-shot%20Object%20Navigation%20with%20Dynamic%20Avoidance%20in%20Multi-floor%20Environm.md) · 多模态基础模型 智能体 Agent 世界模型 具身智能评测与基准
+- [SOPD-SocialNav: Selective On-Policy Distillation for Vision-Language Social Navigation](items/SOPD-SocialNav%20Selective%20On-Policy%20Distillation%20for%20Vision-Language%20Social%20Navig.md) · 多模态基础模型 具身智能评测与基准
+- [FilmWorld: Agentic Novel-to-Film Generation through Dynamic Cinematic World Modeling](items/FilmWorld%20Agentic%20Novel-to-Film%20Generation%20through%20Dynamic%20Cinematic%20World%20Model.md) · 智能体 Agent 世界模型 具身智能评测与基准
+- [Correct-by-Construction Behavior Tree Synthesis from Signal Temporal Logic Specifications with Application to Robotic Missions](items/Correct-by-Construction%20Behavior%20Tree%20Synthesis%20from%20Signal%20Temporal%20Logic%20Speci.md) · 世界模型 具身智能评测与基准
+- [DWM: Separating World Effects from Actions in Latent World Models](items/DWM%20Separating%20World%20Effects%20from%20Actions%20in%20Latent%20World%20Models.md) · 智能体 Agent 世界模型 具身智能评测与基准
+- [Same Dangerous Objective, Opposite Advice: Direct Exposure versus Multi-Agent Mediation](items/Same%20Dangerous%20Objective%2C%20Opposite%20Advice%20Direct%20Exposure%20versus%20Multi-Agent%20Med.md) · 多模态基础模型 智能体 Agent 具身智能评测与基准
+- [RL-MACRO: A Cybernetic Closed-Loop Intelligence Framework for Multimodal Adaptive Robotic Craniotomy](items/RL-MACRO%20A%20Cybernetic%20Closed-Loop%20Intelligence%20Framework%20for%20Multimodal%20Adaptive.md) · 多模态基础模型 智能体 Agent 具身智能评测与基准
+- [Human-Inspired Framework for Robotic Craniotomy: Integrating Multimodal Fusion and Adaptive Trajectory Adjustment](items/Human-Inspired%20Framework%20for%20Robotic%20Craniotomy%20Integrating%20Multimodal%20Fusion%20an.md) · 多模态基础模型 智能体 Agent 具身智能评测与基准
+- [Emergent Compositional Skills in Mixture-of-Experts VLAs](items/Emergent%20Compositional%20Skills%20in%20Mixture-of-Experts%20VLAs.md) · 视觉语言动作模型 VLA 机器人学习
+- [Decentralized UAV Swarms for Ground Target Protection in GPS- and Communication-Denied Environments](items/Decentralized%20UAV%20Swarms%20for%20Ground%20Target%20Protection%20in%20GPS-%20and%20Communication-.md) · 具身智能评测与基准
 
 <details>
 <summary>运行信息与信息源错误</summary>

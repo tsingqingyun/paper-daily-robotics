@@ -20,19 +20,29 @@ concepts: ["机器人学习"]
 > [!summary] 一句话结论（基于摘要）
 > In this work, we show that egocentric human data capturing failure recovery processes provides a scalable alternative.
 
-## 关键点
+## 问题
 
-- **问题**：Robust embodied robots should be able to recover from failures and retry tasks in order to operate reliably in unstructured and noisy real-world environments.
-- **创新点 / 方法**：To address the embodiment gap between human and robot, we propose EgoRecovery, a co-training framework for learning recovery behavior, where human recovery demonstrations are aligned to a compact corrective-intent space shared with robot data, which captures the timing and magnitude of correction.
-- **证据**：In this work, we show that egocentric human data capturing failure recovery processes provides a scalable alternative.
-- **局限**：摘要未明确说明；需阅读全文核查。
+Robust embodied robots should be able to recover from failures and retry tasks in order to operate reliably in unstructured and noisy real-world environments.
+
+## 创新点或方法
+
+To address the embodiment gap between human and robot, we propose EgoRecovery, a co-training framework for learning recovery behavior, where human recovery demonstrations are aligned to a compact corrective-intent space shared with robot data, which captures the timing and magnitude of correction.
+
+## 证据
+
+In this work, we show that egocentric human data capturing failure recovery processes provides a scalable alternative.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[机器人学习]]
+- **概念**：机器人学习
 - **筛选分数**：25
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-07-25/EgoRecovery Acquiring Failure Recovery Ability Through Human Recovery Demonstrat.md" --level full`
 

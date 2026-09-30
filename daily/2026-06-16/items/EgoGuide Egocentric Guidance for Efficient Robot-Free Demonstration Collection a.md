@@ -20,19 +20,29 @@ concepts: ["机器人学习", "具身智能评测与基准"]
 > [!summary] 一句话结论（基于摘要）
 > Real-world experiments show that EgoGuide reduces the required number of data episodes and improves data efficiency.
 
-## 关键点
+## 问题
 
-- **问题**：Universal Manipulation Interface (UMI) provides an efficient robot-free data collection interface, yet current UMI-style pipelines often collect redundant demonstrations and lack global scene context.
-- **创新点 / 方法**：To improve data efficiency, we present EgoGuide, a collection interface that records synchronized wrist and head/egocentric observations and couples them with online visual-geometric data quality guidance.
-- **证据**：Real-world experiments show that EgoGuide reduces the required number of data episodes and improves data efficiency.
-- **局限**：摘要未明确说明；需阅读全文核查。
+Universal Manipulation Interface (UMI) provides an efficient robot-free data collection interface, yet current UMI-style pipelines often collect redundant demonstrations and lack global scene context.
+
+## 创新点或方法
+
+To improve data efficiency, we present EgoGuide, a collection interface that records synchronized wrist and head/egocentric observations and couples them with online visual-geometric data quality guidance.
+
+## 证据
+
+Real-world experiments show that EgoGuide reduces the required number of data episodes and improves data efficiency.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[机器人学习]] [[具身智能评测与基准]]
+- **概念**：机器人学习 具身智能评测与基准
 - **筛选分数**：25
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-16/EgoGuide Egocentric Guidance for Efficient Robot-Free Demonstration Collection a.md" --level full`
 

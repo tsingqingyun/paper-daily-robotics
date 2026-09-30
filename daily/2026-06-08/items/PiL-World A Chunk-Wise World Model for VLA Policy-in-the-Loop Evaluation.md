@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "世界模型", "视觉语言动作模型 VL
 > [!summary] 一句话结论（基于摘要）
 > More importantly, compared with the baseline, it reduces the error between VLA success rates measured in real-world rollouts and those estimated through closed-loop world-model evaluation from 63.2% to 12.0%.
 
-## 关键点
+## 问题
 
-- **问题**：However, most existing world models for robot action evaluation are limited to open-loop prediction along pre-collected action trajectories.
-- **创新点 / 方法**：To address this gap, we propose PiL-World, a chunk-wise world model designed for policy- in-the-loop VLA evaluation.
-- **证据**：More importantly, compared with the baseline, it reduces the error between VLA success rates measured in real-world rollouts and those estimated through closed-loop world-model evaluation from 63.2% to 12.0%.
-- **局限**：However, most existing world models for robot action evaluation are limited to open-loop prediction along pre-collected action trajectories.
+However, most existing world models for robot action evaluation are limited to open-loop prediction along pre-collected action trajectories.
+
+## 创新点或方法
+
+To address this gap, we propose PiL-World, a chunk-wise world model designed for policy- in-the-loop VLA evaluation.
+
+## 证据
+
+More importantly, compared with the baseline, it reduces the error between VLA success rates measured in real-world rollouts and those estimated through closed-loop world-model evaluation from 63.2% to 12.0%.
+
+## 局限
+
+However, most existing world models for robot action evaluation are limited to open-loop prediction along pre-collected action trajectories.
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]] [[机器人学习]] [[具身智能评测与基准]]
+- **概念**：多模态基础模型 世界模型 视觉语言动作模型 VLA 机器人学习 具身智能评测与基准
 - **筛选分数**：45
 - **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-08/PiL-World A Chunk-Wise World Model for VLA Policy-in-the-Loop Evaluation.md" --level full`
 

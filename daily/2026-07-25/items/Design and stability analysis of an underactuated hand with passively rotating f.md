@@ -20,19 +20,29 @@ concepts: ["具身智能评测与基准"]
 > [!summary] 一句话结论（基于摘要）
 > With only two phalanges per finger, the design simplifies kinematic complexity while supporting precision and enveloping grasps.
 
-## 关键点
+## 问题
 
-- **问题**：This paper presents an innovative design and stability analysis of an underactuated robotic finger with spatial mobility, designed to enhance gripping dexterity in robotic hands.
-- **创新点 / 方法**：The finger architecture incorporates a revolute joint at its base, enabling passive spatial rotation that facilitates both cylindrical and spherical grasping.
-- **证据**：With only two phalanges per finger, the design simplifies kinematic complexity while supporting precision and enveloping grasps.
-- **局限**：摘要未明确说明；需阅读全文核查。
+This paper presents an innovative design and stability analysis of an underactuated robotic finger with spatial mobility, designed to enhance gripping dexterity in robotic hands.
+
+## 创新点或方法
+
+The finger architecture incorporates a revolute joint at its base, enabling passive spatial rotation that facilitates both cylindrical and spherical grasping.
+
+## 证据
+
+With only two phalanges per finger, the design simplifies kinematic complexity while supporting precision and enveloping grasps.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[具身智能评测与基准]]
+- **概念**：具身智能评测与基准
 - **筛选分数**：26
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-07-25/Design and stability analysis of an underactuated hand with passively rotating f.md" --level full`
 

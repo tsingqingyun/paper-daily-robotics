@@ -42,10 +42,10 @@ concepts: ["智能体 Agent", "具身智能评测与基准"]
 
 对具身系统和评测有价值：把动作成功进一步约束为接触时序与声学结果，可借鉴其多模态监测设计；对通用VLA训练的直接贡献有限。
 
-- **概念**：[[智能体 Agent]] [[具身智能评测与基准]]
+- **概念**：智能体 Agent 具身智能评测与基准
 - **筛选分数**：39
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-23/Phrase-Level Robotic Guqin Performance Bimanual Motion Planning and Audio-Tactil.md" --level full`
 

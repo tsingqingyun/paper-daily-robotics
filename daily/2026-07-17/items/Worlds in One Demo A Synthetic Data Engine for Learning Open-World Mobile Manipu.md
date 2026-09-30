@@ -20,19 +20,29 @@ concepts: ["智能体 Agent", "世界模型", "机器人学习", "具身智能�
 > [!summary] 一句话结论（基于摘要）
 > Experiments show that policies trained with WANDA achieve long-horizon robustness, broad spatial generalization and cross- environment generalization from one real demonstration.
 
-## 关键点
+## 问题
 
-- **问题**：Learning open-world mobile manipulation policies requires vast data to achieve spatial generalization, long-horizon robustness, and scene generalization.
-- **创新点 / 方法**：To this end, we introduce WANDA: learning open-World mobile mANipulation from one demonstration via a synthetic DAta engine.
-- **证据**：Experiments show that policies trained with WANDA achieve long-horizon robustness, broad spatial generalization and cross- environment generalization from one real demonstration.
-- **局限**：摘要未明确说明；需阅读全文核查。
+Learning open-world mobile manipulation policies requires vast data to achieve spatial generalization, long-horizon robustness, and scene generalization.
+
+## 创新点或方法
+
+To this end, we introduce WANDA: learning open-World mobile mANipulation from one demonstration via a synthetic DAta engine.
+
+## 证据
+
+Experiments show that policies trained with WANDA achieve long-horizon robustness, broad spatial generalization and cross- environment generalization from one real demonstration.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[智能体 Agent]] [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
+- **概念**：智能体 Agent 世界模型 机器人学习 具身智能评测与基准
 - **筛选分数**：30
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-07-17/Worlds in One Demo A Synthetic Data Engine for Learning Open-World Mobile Manipu.md" --level full`
 

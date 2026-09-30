@@ -20,19 +20,29 @@ concepts: ["世界模型", "机器人学习", "具身智能评测与基准"]
 > [!summary] 一句话结论（基于摘要）
 > Extensive simulation experiments show that SCDP consistently outperforms strong single-view baselines and achieves performance comparable to multi- camera baselines.
 
-## 关键点
+## 问题
 
-- **问题**：However, manipulation from a single global view remains challenging, as the policy should capture fine-grained interaction details and identify task-relevant regions without local wrist views.
-- **创新点 / 方法**：To address this challenge, we present Spatially Conditioned Diffusion Policy (SCDP), a diffusion-based visuomotor policy that achieves precise and robust manipulation in a single-camera setting.
-- **证据**：Extensive simulation experiments show that SCDP consistently outperforms strong single-view baselines and achieves performance comparable to multi- camera baselines.
-- **局限**：However, manipulation from a single global view remains challenging, as the policy should capture fine-grained interaction details and identify task-relevant regions without local wrist views.
+However, manipulation from a single global view remains challenging, as the policy should capture fine-grained interaction details and identify task-relevant regions without local wrist views.
+
+## 创新点或方法
+
+To address this challenge, we present Spatially Conditioned Diffusion Policy (SCDP), a diffusion-based visuomotor policy that achieves precise and robust manipulation in a single-camera setting.
+
+## 证据
+
+Extensive simulation experiments show that SCDP consistently outperforms strong single-view baselines and achieves performance comparable to multi- camera baselines.
+
+## 局限
+
+However, manipulation from a single global view remains challenging, as the policy should capture fine-grained interaction details and identify task-relevant regions without local wrist views.
+
 
 ## 研究关联
 
-- **概念**：[[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
+- **概念**：世界模型 机器人学习 具身智能评测与基准
 - **筛选分数**：25
 - **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-16/Spatially Conditioned Diffusion Policy Learning Precise and Robust Manipulation.md" --level full`
 

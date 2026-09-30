@@ -20,19 +20,29 @@ concepts: ["多模态基础模型", "智能体 Agent"]
 > [!summary] 一句话结论（基于摘要）
 > Results showed no significant overall preference for the 30B model over the smaller variants, including no significant advantage over the 4B model in perceived naturalness or intelligence.
 
-## 关键点
+## 问题
 
-- **问题**：Large Language Models (LLMs) are increasingly used to drive embodied social agents, yet it remains unclear whether larger models improve user perception during brief human- robot encounters.
-- **创新点 / 方法**：This paper examines the effect of LLM parameter size on short- duration, open-ended social interactions with a robot interface.
-- **证据**：Results showed no significant overall preference for the 30B model over the smaller variants, including no significant advantage over the 4B model in perceived naturalness or intelligence.
-- **局限**：摘要未明确说明；需阅读全文核查。
+Large Language Models (LLMs) are increasingly used to drive embodied social agents, yet it remains unclear whether larger models improve user perception during brief human- robot encounters.
+
+## 创新点或方法
+
+This paper examines the effect of LLM parameter size on short- duration, open-ended social interactions with a robot interface.
+
+## 证据
+
+Results showed no significant overall preference for the 30B model over the smaller variants, including no significant advantage over the 4B model in perceived naturalness or intelligence.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[多模态基础模型]] [[智能体 Agent]]
+- **概念**：多模态基础模型 智能体 Agent
 - **筛选分数**：25
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-12/Diminishing Returns of Intelligence The Non-Linear Relationship Between LLM Scal.md" --level full`
 

@@ -14,7 +14,7 @@ created: 2026-06-12
 - **规模**：2070 个候选 → 24 篇入选；回填 0 篇
 - **主题**：具身智能评测与基准 17、多模态基础模型 14、世界模型 11、智能体 Agent 11、机器人学习 10、视觉语言动作模型 VLA 10、Sim2Real 3
 - **源异常**：0
-- **需要更高精度**：从“必读”选择论文，进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **需要更高精度**：从“必读”选择论文，进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -55,18 +55,18 @@ created: 2026-06-12
 
 ## 其余存档 12 篇
 
-- [APT: Action Expert Pretraining Improves Instruction Generalization of Vision-Language-Action Policies](items/APT%20Action%20Expert%20Pretraining%20Improves%20Instruction%20Generalization%20of%20Vision-Lang.md) · [[多模态基础模型]] [[视觉语言动作模型 VLA]]
-- [Implicit Neural Representations of Individual Behavior](items/Implicit%20Neural%20Representations%20of%20Individual%20Behavior.md) · [[智能体 Agent]] [[机器人学习]]
-- [Embodied-BenchClaw: An Autonomous Multi-Agent System for Embodied Spatial Intelligence Benchmark Construction](items/Embodied-BenchClaw%20An%20Autonomous%20Multi-Agent%20System%20for%20Embodied%20Spatial%20Intelli.md) · [[智能体 Agent]] [[具身智能评测与基准]]
-- [SG2Loc: Sequential Visual Localization on 3D Scene Graphs](items/SG2Loc%20Sequential%20Visual%20Localization%20on%203D%20Scene%20Graphs.md) · [[智能体 Agent]]
-- [Cross-Modal Benchmarking for Robotic Perception in Natural Environments](items/Cross-Modal%20Benchmarking%20for%20Robotic%20Perception%20in%20Natural%20Environments.md) · [[多模态基础模型]] [[具身智能评测与基准]]
-- [TacForeSight: Force-Guided Tactile World Model for Contact-Rich Manipulation](items/TacForeSight%20Force-Guided%20Tactile%20World%20Model%20for%20Contact-Rich%20Manipulation.md) · [[世界模型]] [[机器人学习]]
-- [CHORUS: Decentralized Multi-Embodiment Collaboration with One VLA Policy](items/CHORUS%20Decentralized%20Multi-Embodiment%20Collaboration%20with%20One%20VLA%20Policy.md) · [[多模态基础模型]] [[视觉语言动作模型 VLA]]
-- [World Model Self-Distillation: Training World Models to Solve General Tasks](items/World%20Model%20Self-Distillation%20Training%20World%20Models%20to%20Solve%20General%20Tasks.md) · [[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
-- [VICX: Generalizable Robot Manipulation via Video Generation and In-Context Operator Network](items/VICX%20Generalizable%20Robot%20Manipulation%20via%20Video%20Generation%20and%20In-Context%20Operat.md) · [[多模态基础模型]]
-- [Bridging the sim2real gap in the table tennis robot with a transformer-based ball states predictor](items/Bridging%20the%20sim2real%20gap%20in%20the%20table%20tennis%20robot%20with%20a%20transformer-based%20bal.md) · [[智能体 Agent]] [[世界模型]] [[Sim2Real]] [[具身智能评测与基准]]
-- [Test-Time Gradient Guidance of Flow Policies in Reinforcement Learning](items/Test-Time%20Gradient%20Guidance%20of%20Flow%20Policies%20in%20Reinforcement%20Learning.md) · [[机器人学习]] [[具身智能评测与基准]]
-- [VLGA: Vision-Language-Geometry-Action Models for Autonomous Driving](items/VLGA%20Vision-Language-Geometry-Action%20Models%20for%20Autonomous%20Driving.md) · [[多模态基础模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
+- [APT: Action Expert Pretraining Improves Instruction Generalization of Vision-Language-Action Policies](items/APT%20Action%20Expert%20Pretraining%20Improves%20Instruction%20Generalization%20of%20Vision-Lang.md) · 多模态基础模型 视觉语言动作模型 VLA
+- [Implicit Neural Representations of Individual Behavior](items/Implicit%20Neural%20Representations%20of%20Individual%20Behavior.md) · 智能体 Agent 机器人学习
+- [Embodied-BenchClaw: An Autonomous Multi-Agent System for Embodied Spatial Intelligence Benchmark Construction](items/Embodied-BenchClaw%20An%20Autonomous%20Multi-Agent%20System%20for%20Embodied%20Spatial%20Intelli.md) · 智能体 Agent 具身智能评测与基准
+- [SG2Loc: Sequential Visual Localization on 3D Scene Graphs](items/SG2Loc%20Sequential%20Visual%20Localization%20on%203D%20Scene%20Graphs.md) · 智能体 Agent
+- [Cross-Modal Benchmarking for Robotic Perception in Natural Environments](items/Cross-Modal%20Benchmarking%20for%20Robotic%20Perception%20in%20Natural%20Environments.md) · 多模态基础模型 具身智能评测与基准
+- [TacForeSight: Force-Guided Tactile World Model for Contact-Rich Manipulation](items/TacForeSight%20Force-Guided%20Tactile%20World%20Model%20for%20Contact-Rich%20Manipulation.md) · 世界模型 机器人学习
+- [CHORUS: Decentralized Multi-Embodiment Collaboration with One VLA Policy](items/CHORUS%20Decentralized%20Multi-Embodiment%20Collaboration%20with%20One%20VLA%20Policy.md) · 多模态基础模型 视觉语言动作模型 VLA
+- [World Model Self-Distillation: Training World Models to Solve General Tasks](items/World%20Model%20Self-Distillation%20Training%20World%20Models%20to%20Solve%20General%20Tasks.md) · 多模态基础模型 智能体 Agent 世界模型 机器人学习 具身智能评测与基准
+- [VICX: Generalizable Robot Manipulation via Video Generation and In-Context Operator Network](items/VICX%20Generalizable%20Robot%20Manipulation%20via%20Video%20Generation%20and%20In-Context%20Operat.md) · 多模态基础模型
+- [Bridging the sim2real gap in the table tennis robot with a transformer-based ball states predictor](items/Bridging%20the%20sim2real%20gap%20in%20the%20table%20tennis%20robot%20with%20a%20transformer-based%20bal.md) · 智能体 Agent 世界模型 Sim2Real 具身智能评测与基准
+- [Test-Time Gradient Guidance of Flow Policies in Reinforcement Learning](items/Test-Time%20Gradient%20Guidance%20of%20Flow%20Policies%20in%20Reinforcement%20Learning.md) · 机器人学习 具身智能评测与基准
+- [VLGA: Vision-Language-Geometry-Action Models for Autonomous Driving](items/VLGA%20Vision-Language-Geometry-Action%20Models%20for%20Autonomous%20Driving.md) · 多模态基础模型 视觉语言动作模型 VLA 具身智能评测与基准
 
 <details>
 <summary>运行信息与信息源错误</summary>

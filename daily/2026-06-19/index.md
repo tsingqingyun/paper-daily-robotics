@@ -14,7 +14,7 @@ created: 2026-06-19
 - **规模**：2085 个候选 → 24 篇入选；回填 0 篇
 - **主题**：具身智能评测与基准 20、多模态基础模型 16、世界模型 12、智能体 Agent 11、视觉语言动作模型 VLA 10、机器人学习 6、Sim2Real 3
 - **源异常**：0
-- **需要更高精度**：从“必读”选择论文，进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **需要更高精度**：从“必读”选择论文，进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -55,18 +55,18 @@ created: 2026-06-19
 
 ## 其余存档 12 篇
 
-- [Benchmarking Action Spaces in Reinforcement Learning for Vision-based Robotic Manipulation](items/Benchmarking%20Action%20Spaces%20in%20Reinforcement%20Learning%20for%20Vision-based%20Robotic%20Ma.md) · [[世界模型]] [[机器人学习]] [[Sim2Real]] [[具身智能评测与基准]]
-- [ERQA-Plus: A Diagnostic Benchmark for Reasoning in Embodied AI](items/ERQA-Plus%20A%20Diagnostic%20Benchmark%20for%20Reasoning%20in%20Embodied%20AI.md) · [[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
-- [Monocular 3D Occupancy Perception for Robots on Sidewalks via Hybrid 2D-3D Learning](items/Monocular%203D%20Occupancy%20Perception%20for%20Robots%20on%20Sidewalks%20via%20Hybrid%202D-3D%20Learn.md) · [[具身智能评测与基准]]
-- [VEGA: Learning Navigation VLAs from In-the-Wild Egocentric Video with Geometric Trajectory Supervision](items/VEGA%20Learning%20Navigation%20VLAs%20from%20In-the-Wild%20Egocentric%20Video%20with%20Geometric%20T.md) · [[智能体 Agent]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [A Mixed-Reality Testbed for Autonomous Vehicles](items/A%20Mixed-Reality%20Testbed%20for%20Autonomous%20Vehicles.md) · [[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
-- [HT-Bench: Benchmarking and Learning Dexterous Full-Hand Tactile Representations with Egocentric Vision](items/HT-Bench%20Benchmarking%20and%20Learning%20Dexterous%20Full-Hand%20Tactile%20Representations%20w.md) · [[多模态基础模型]] [[具身智能评测与基准]]
-- [ReSiReg: Towards Spatially Consistent Semantics in Language-Conditioned Robotic Tasks](items/ReSiReg%20Towards%20Spatially%20Consistent%20Semantics%20in%20Language-Conditioned%20Robotic%20T.md) · [[多模态基础模型]]
-- [Mem-World: Memory-Augmented Action-Conditioned World Models for Persistent Robot Manipulation](items/Mem-World%20Memory-Augmented%20Action-Conditioned%20World%20Models%20for%20Persistent%20Robot.md) · [[智能体 Agent]] [[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
-- [MoonSplat: Monocular Online Gaussian Splatting with Sim(3) Global Optimization](items/MoonSplat%20Monocular%20Online%20Gaussian%20Splatting%20with%20Sim%283%29%20Global%20Optimization.md) · [[具身智能评测与基准]]
-- [HALOMI: Learning Humanoid Loco-Manipulation with Active Perception from Human Demonstrations](items/HALOMI%20Learning%20Humanoid%20Loco-Manipulation%20with%20Active%20Perception%20from%20Human%20Dem.md) · [[机器人学习]] [[具身智能评测与基准]]
-- [MolmoMotion: Forecasting Point Trajectories in 3D with Language Instruction](items/MolmoMotion%20Forecasting%20Point%20Trajectories%20in%203D%20with%20Language%20Instruction.md) · [[智能体 Agent]] [[具身智能评测与基准]]
-- [Qwen-RobotNav Technical Report: A Scalable Navigation Model Designed for an Agentic Navigation System](items/Qwen-RobotNav%20Technical%20Report%20A%20Scalable%20Navigation%20Model%20Designed%20for%20an%20Agent.md) · [[多模态基础模型]] [[智能体 Agent]] [[具身智能评测与基准]]
+- [Benchmarking Action Spaces in Reinforcement Learning for Vision-based Robotic Manipulation](items/Benchmarking%20Action%20Spaces%20in%20Reinforcement%20Learning%20for%20Vision-based%20Robotic%20Ma.md) · 世界模型 机器人学习 Sim2Real 具身智能评测与基准
+- [ERQA-Plus: A Diagnostic Benchmark for Reasoning in Embodied AI](items/ERQA-Plus%20A%20Diagnostic%20Benchmark%20for%20Reasoning%20in%20Embodied%20AI.md) · 多模态基础模型 智能体 Agent 具身智能评测与基准
+- [Monocular 3D Occupancy Perception for Robots on Sidewalks via Hybrid 2D-3D Learning](items/Monocular%203D%20Occupancy%20Perception%20for%20Robots%20on%20Sidewalks%20via%20Hybrid%202D-3D%20Learn.md) · 具身智能评测与基准
+- [VEGA: Learning Navigation VLAs from In-the-Wild Egocentric Video with Geometric Trajectory Supervision](items/VEGA%20Learning%20Navigation%20VLAs%20from%20In-the-Wild%20Egocentric%20Video%20with%20Geometric%20T.md) · 智能体 Agent 视觉语言动作模型 VLA 具身智能评测与基准
+- [A Mixed-Reality Testbed for Autonomous Vehicles](items/A%20Mixed-Reality%20Testbed%20for%20Autonomous%20Vehicles.md) · 多模态基础模型 智能体 Agent 世界模型 具身智能评测与基准
+- [HT-Bench: Benchmarking and Learning Dexterous Full-Hand Tactile Representations with Egocentric Vision](items/HT-Bench%20Benchmarking%20and%20Learning%20Dexterous%20Full-Hand%20Tactile%20Representations%20w.md) · 多模态基础模型 具身智能评测与基准
+- [ReSiReg: Towards Spatially Consistent Semantics in Language-Conditioned Robotic Tasks](items/ReSiReg%20Towards%20Spatially%20Consistent%20Semantics%20in%20Language-Conditioned%20Robotic%20T.md) · 多模态基础模型
+- [Mem-World: Memory-Augmented Action-Conditioned World Models for Persistent Robot Manipulation](items/Mem-World%20Memory-Augmented%20Action-Conditioned%20World%20Models%20for%20Persistent%20Robot.md) · 智能体 Agent 世界模型 机器人学习 具身智能评测与基准
+- [MoonSplat: Monocular Online Gaussian Splatting with Sim(3) Global Optimization](items/MoonSplat%20Monocular%20Online%20Gaussian%20Splatting%20with%20Sim%283%29%20Global%20Optimization.md) · 具身智能评测与基准
+- [HALOMI: Learning Humanoid Loco-Manipulation with Active Perception from Human Demonstrations](items/HALOMI%20Learning%20Humanoid%20Loco-Manipulation%20with%20Active%20Perception%20from%20Human%20Dem.md) · 机器人学习 具身智能评测与基准
+- [MolmoMotion: Forecasting Point Trajectories in 3D with Language Instruction](items/MolmoMotion%20Forecasting%20Point%20Trajectories%20in%203D%20with%20Language%20Instruction.md) · 智能体 Agent 具身智能评测与基准
+- [Qwen-RobotNav Technical Report: A Scalable Navigation Model Designed for an Agentic Navigation System](items/Qwen-RobotNav%20Technical%20Report%20A%20Scalable%20Navigation%20Model%20Designed%20for%20an%20Agent.md) · 多模态基础模型 智能体 Agent 具身智能评测与基准
 
 <details>
 <summary>运行信息与信息源错误</summary>

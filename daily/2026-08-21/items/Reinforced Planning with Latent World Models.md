@@ -20,19 +20,29 @@ concepts: ["智能体 Agent", "世界模型"]
 > [!summary] 一句话结论（基于摘要）
 > Across visual navigation, arm reaching, and robotic manipulation on two world-model backbones, RP1 substantially outperforms hand-designed search algorithms, reaching near-perfect success in several settings while using $1,000 \times$ less world-model rollout…
 
-## 关键点
+## 问题
 
-- **问题**：Humans solve complex problems by constructing plans and mentally simulating their outcomes with an internal model of the world.
-- **创新点 / 方法**：We introduce the Reinforced Planning, a method based on the idea that search can be learned by reinforcing good search rules into a neural planner.
-- **证据**：Across visual navigation, arm reaching, and robotic manipulation on two world-model backbones, RP1 substantially outperforms hand-designed search algorithms, reaching near-perfect success in several settings while using $1,000 \times$ less world-model rollouts and being up to $67 \times$ faster than the strongest alte…
-- **局限**：摘要未明确说明；需阅读全文核查。
+Humans solve complex problems by constructing plans and mentally simulating their outcomes with an internal model of the world.
+
+## 创新点或方法
+
+We introduce the Reinforced Planning, a method based on the idea that search can be learned by reinforcing good search rules into a neural planner.
+
+## 证据
+
+Across visual navigation, arm reaching, and robotic manipulation on two world-model backbones, RP1 substantially outperforms hand-designed search algorithms, reaching near-perfect success in several settings while using $1,000 \times$ less world-model rollouts and being up to $67 \times$ faster than the strongest alte…
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[智能体 Agent]] [[世界模型]]
+- **概念**：智能体 Agent 世界模型
 - **筛选分数**：26
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-21/Reinforced Planning with Latent World Models.md" --level full`
 

@@ -20,19 +20,29 @@ concepts: ["具身智能评测与基准"]
 > [!summary] 一句话结论（基于摘要）
 > The results indicate that explicitly modeling forward scattering and realistic particle effects effectively reduces the synthetic-to-real gap and improves practical applicability in real-world underwater robotic operations.
 
-## 关键点
+## 问题
 
-- **问题**：This paper proposes a robust image processing framework for underwater robot-based construction environment monitoring, targeting complex degradations observed in real marine environments.
-- **创新点 / 方法**：This paper proposes a robust image processing framework for underwater robot-based construction environment monitoring, targeting complex degradations observed in real marine environments.
-- **证据**：The results indicate that explicitly modeling forward scattering and realistic particle effects effectively reduces the synthetic-to-real gap and improves practical applicability in real-world underwater robotic operations.
-- **局限**：摘要未明确说明；需阅读全文核查。
+This paper proposes a robust image processing framework for underwater robot-based construction environment monitoring, targeting complex degradations observed in real marine environments.
+
+## 创新点或方法
+
+This paper proposes a robust image processing framework for underwater robot-based construction environment monitoring, targeting complex degradations observed in real marine environments.
+
+## 证据
+
+The results indicate that explicitly modeling forward scattering and realistic particle effects effectively reduces the synthetic-to-real gap and improves practical applicability in real-world underwater robotic operations.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[具身智能评测与基准]]
+- **概念**：具身智能评测与基准
 - **筛选分数**：24
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-07-06/Robust Image Processing Techniques for Construction Environment Monitoring Using.md" --level full`
 

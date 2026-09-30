@@ -20,19 +20,29 @@ concepts: ["世界模型", "机器人学习", "具身智能评测与基准"]
 > [!summary] 一句话结论（基于摘要）
 > We present results from both simulation and real-world data and achieve an average 49% improvement in success rate over the base policy across 5 real tasks.
 
-## 关键点
+## 问题
 
-- **问题**：Despite their successes, BC policies are often brittle and struggle with precise manipulation.
-- **创新点 / 方法**：To overcome these issues, we propose UF-OPS, an Update-Free On-Policy Steering method that enables the robot to predict the success likelihood of its actions and adapt its strategy at execution time.
-- **证据**：We present results from both simulation and real-world data and achieve an average 49% improvement in success rate over the base policy across 5 real tasks.
-- **局限**：摘要未明确说明；需阅读全文核查。
+Despite their successes, BC policies are often brittle and struggle with precise manipulation.
+
+## 创新点或方法
+
+To overcome these issues, we propose UF-OPS, an Update-Free On-Policy Steering method that enables the robot to predict the success likelihood of its actions and adapt its strategy at execution time.
+
+## 证据
+
+We present results from both simulation and real-world data and achieve an average 49% improvement in success rate over the base policy across 5 real tasks.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
+- **概念**：世界模型 机器人学习 具身智能评测与基准
 - **筛选分数**：25
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-25/Update-Free On-Policy Steering via Verifiers.md" --level full`
 

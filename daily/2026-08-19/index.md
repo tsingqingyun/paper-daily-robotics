@@ -14,7 +14,7 @@ created: 2026-08-19
 - **规模**：2252 个候选 → 24 篇入选；回填 0 篇
 - **主题**：具身智能评测与基准 20、多模态基础模型 16、机器人学习 12、视觉语言动作模型 VLA 12、智能体 Agent 9、世界模型 8、Sim2Real 2
 - **源异常**：0
-- **需要更高精度**：从“必读”选择论文，进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **需要更高精度**：从“必读”选择论文，进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -55,18 +55,18 @@ created: 2026-08-19
 
 ## 其余存档 12 篇
 
-- [Repetition as Reinforcement: Enhancing Sample Efficiency via Instant Episode Repetition in Reinforcement Learning](items/Repetition%20as%20Reinforcement%20Enhancing%20Sample%20Efficiency%20via%20Instant%20Episode%20Repe.md) · [[智能体 Agent]] [[机器人学习]] [[具身智能评测与基准]]
-- [HODAgent: Towards On-Demand, Responsive Humanoids for Physical World Human Interaction](items/HODAgent%20Towards%20On-Demand%2C%20Responsive%20Humanoids%20for%20Physical%20World%20Human%20Intera.md) · [[多模态基础模型]] [[智能体 Agent]] [[世界模型]] [[具身智能评测与基准]]
-- [Plug-and-Play Traffic Element Awareness for End-to-End Autonomous Driving](items/Plug-and-Play%20Traffic%20Element%20Awareness%20for%20End-to-End%20Autonomous%20Driving.md) · [[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [Calibrated Predictive Safety for Heterogeneous Robots: An Action-Conditioned JEPA Framework with Model-Based Safety Shields](items/Calibrated%20Predictive%20Safety%20for%20Heterogeneous%20Robots%20An%20Action-Conditioned%20JEPA.md) · [[多模态基础模型]] [[世界模型]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object-Interaction](items/HiPHI%20A%20Large-Scale%20Benchmark%20for%20High-Precision%20Human%20Motion%20and%20Object-Interac.md) · [[具身智能评测与基准]]
-- [RoboStriker: Latent-Space Strategic Games for Autonomous Humanoid Boxing](items/RoboStriker%20Latent-Space%20Strategic%20Games%20for%20Autonomous%20Humanoid%20Boxing.md) · [[智能体 Agent]] [[世界模型]] [[机器人学习]]
-- [OVIP-SG: Open-Vocabulary Instance-Preserving Scene Graphs for Mapping and Retrieval of Small, Fine-Grained Objects](items/OVIP-SG%20Open-Vocabulary%20Instance-Preserving%20Scene%20Graphs%20for%20Mapping%20and%20Retriev.md) · [[多模态基础模型]] [[具身智能评测与基准]]
-- [Scalix: Uncertainty-Aware Scale-Consistent Monocular SLAM](items/Scalix%20Uncertainty-Aware%20Scale-Consistent%20Monocular%20SLAM.md) · [[多模态基础模型]] [[具身智能评测与基准]]
-- [ORPA: Online Residual Policy Adaptation for Robot Manipulation Control with Human Feedback](items/ORPA%20Online%20Residual%20Policy%20Adaptation%20for%20Robot%20Manipulation%20Control%20with%20Human.md) · [[机器人学习]] [[具身智能评测与基准]]
-- [Exposing the Long-tail in Embodied Urban Navigation via Scalable Learning from In-the-Wild Videos](items/Exposing%20the%20Long-tail%20in%20Embodied%20Urban%20Navigation%20via%20Scalable%20Learning%20from%20I.md) · [[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [Beyond Similarity Matching: Structured Reasoning for Open-Vocabulary Referring Segmentation in 3DGS](items/Beyond%20Similarity%20Matching%20Structured%20Reasoning%20for%20Open-Vocabulary%20Referring%20Se.md) · [[具身智能评测与基准]]
-- [Pre-training Visual Dexterity in Simulation](items/Pre-training%20Visual%20Dexterity%20in%20Simulation.md) · [[世界模型]] [[机器人学习]]
+- [Repetition as Reinforcement: Enhancing Sample Efficiency via Instant Episode Repetition in Reinforcement Learning](items/Repetition%20as%20Reinforcement%20Enhancing%20Sample%20Efficiency%20via%20Instant%20Episode%20Repe.md) · 智能体 Agent 机器人学习 具身智能评测与基准
+- [HODAgent: Towards On-Demand, Responsive Humanoids for Physical World Human Interaction](items/HODAgent%20Towards%20On-Demand%2C%20Responsive%20Humanoids%20for%20Physical%20World%20Human%20Intera.md) · 多模态基础模型 智能体 Agent 世界模型 具身智能评测与基准
+- [Plug-and-Play Traffic Element Awareness for End-to-End Autonomous Driving](items/Plug-and-Play%20Traffic%20Element%20Awareness%20for%20End-to-End%20Autonomous%20Driving.md) · 多模态基础模型 智能体 Agent 视觉语言动作模型 VLA 具身智能评测与基准
+- [Calibrated Predictive Safety for Heterogeneous Robots: An Action-Conditioned JEPA Framework with Model-Based Safety Shields](items/Calibrated%20Predictive%20Safety%20for%20Heterogeneous%20Robots%20An%20Action-Conditioned%20JEPA.md) · 多模态基础模型 世界模型 视觉语言动作模型 VLA 具身智能评测与基准
+- [HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object-Interaction](items/HiPHI%20A%20Large-Scale%20Benchmark%20for%20High-Precision%20Human%20Motion%20and%20Object-Interac.md) · 具身智能评测与基准
+- [RoboStriker: Latent-Space Strategic Games for Autonomous Humanoid Boxing](items/RoboStriker%20Latent-Space%20Strategic%20Games%20for%20Autonomous%20Humanoid%20Boxing.md) · 智能体 Agent 世界模型 机器人学习
+- [OVIP-SG: Open-Vocabulary Instance-Preserving Scene Graphs for Mapping and Retrieval of Small, Fine-Grained Objects](items/OVIP-SG%20Open-Vocabulary%20Instance-Preserving%20Scene%20Graphs%20for%20Mapping%20and%20Retriev.md) · 多模态基础模型 具身智能评测与基准
+- [Scalix: Uncertainty-Aware Scale-Consistent Monocular SLAM](items/Scalix%20Uncertainty-Aware%20Scale-Consistent%20Monocular%20SLAM.md) · 多模态基础模型 具身智能评测与基准
+- [ORPA: Online Residual Policy Adaptation for Robot Manipulation Control with Human Feedback](items/ORPA%20Online%20Residual%20Policy%20Adaptation%20for%20Robot%20Manipulation%20Control%20with%20Human.md) · 机器人学习 具身智能评测与基准
+- [Exposing the Long-tail in Embodied Urban Navigation via Scalable Learning from In-the-Wild Videos](items/Exposing%20the%20Long-tail%20in%20Embodied%20Urban%20Navigation%20via%20Scalable%20Learning%20from%20I.md) · 多模态基础模型 智能体 Agent 视觉语言动作模型 VLA 具身智能评测与基准
+- [Beyond Similarity Matching: Structured Reasoning for Open-Vocabulary Referring Segmentation in 3DGS](items/Beyond%20Similarity%20Matching%20Structured%20Reasoning%20for%20Open-Vocabulary%20Referring%20Se.md) · 具身智能评测与基准
+- [Pre-training Visual Dexterity in Simulation](items/Pre-training%20Visual%20Dexterity%20in%20Simulation.md) · 世界模型 机器人学习
 
 <details>
 <summary>运行信息与信息源状态</summary>

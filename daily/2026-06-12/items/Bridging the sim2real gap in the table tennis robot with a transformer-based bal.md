@@ -20,19 +20,29 @@ concepts: ["智能体 Agent", "世界模型", "Sim2Real", "具身智能评测与
 > [!summary] 一句话结论（基于摘要）
 > We demonstrate that this simple substitution effectively narrows the sim-to-real gap while preserving the efficiency and scalability of simulation-based training.
 
-## 关键点
+## 问题
 
-- **问题**：Physics-based approaches rely heavily on accurate parameter identification and precise initial state, while learning-based methods often struggle to capture long-range temporal dependencies and are typically trained on limited or simulated data.
-- **创新点 / 方法**：We propose a transformer-based framework for table tennis ball state prediction that leverages attention mechanisms to model long-range temporal correlations directly from historical observations, without relying on explicit flight or bounce models.
-- **证据**：We demonstrate that this simple substitution effectively narrows the sim-to-real gap while preserving the efficiency and scalability of simulation-based training.
-- **局限**：摘要未明确说明；需阅读全文核查。
+Physics-based approaches rely heavily on accurate parameter identification and precise initial state, while learning-based methods often struggle to capture long-range temporal dependencies and are typically trained on limited or simulated data.
+
+## 创新点或方法
+
+We propose a transformer-based framework for table tennis ball state prediction that leverages attention mechanisms to model long-range temporal correlations directly from historical observations, without relying on explicit flight or bounce models.
+
+## 证据
+
+We demonstrate that this simple substitution effectively narrows the sim-to-real gap while preserving the efficiency and scalability of simulation-based training.
+
+## 局限
+
+摘要未明确说明；需阅读全文核查。
+
 
 ## 研究关联
 
-- **概念**：[[智能体 Agent]] [[世界模型]] [[Sim2Real]] [[具身智能评测与基准]]
+- **概念**：智能体 Agent 世界模型 Sim2Real 具身智能评测与基准
 - **筛选分数**：31
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-06-12/Bridging the sim2real gap in the table tennis robot with a transformer-based bal.md" --level full`
 

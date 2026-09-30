@@ -20,19 +20,29 @@ concepts: ["世界模型", "机器人学习", "具身智能评测与基准"]
 > [!summary] 一句话结论（基于摘要）
 > Experiments demonstrate strong performance: in-domain prediction achieves an average force error below 0.06N.
 
-## 关键点
+## 问题
 
-- **问题**：Directly collecting large-scale tactile data is challenging due to sensor limitations, while human video data is abundant, contact-rich, and easily scalable.
-- **创新点 / 方法**：To address this, we introduce EgoTac, a generalizable model that predicts rich tactile information directly from egocentric human videos.
-- **证据**：Experiments demonstrate strong performance: in-domain prediction achieves an average force error below 0.06N.
-- **局限**：Directly collecting large-scale tactile data is challenging due to sensor limitations, while human video data is abundant, contact-rich, and easily scalable.
+Directly collecting large-scale tactile data is challenging due to sensor limitations, while human video data is abundant, contact-rich, and easily scalable.
+
+## 创新点或方法
+
+To address this, we introduce EgoTac, a generalizable model that predicts rich tactile information directly from egocentric human videos.
+
+## 证据
+
+Experiments demonstrate strong performance: in-domain prediction achieves an average force error below 0.06N.
+
+## 局限
+
+Directly collecting large-scale tactile data is challenging due to sensor limitations, while human video data is abundant, contact-rich, and easily scalable.
+
 
 ## 研究关联
 
-- **概念**：[[世界模型]] [[机器人学习]] [[具身智能评测与基准]]
+- **概念**：世界模型 机器人学习 具身智能评测与基准
 - **筛选分数**：31
 - **阅读状态**：摘要级快读；摘要已提供证据与局限，仍建议按需核对全文
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-08-18/EgoTac In-the-wild Tactile Prediction from Egocentric Vision.md" --level full`
 

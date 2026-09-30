@@ -1,21 +1,21 @@
 ---
 type: daily-update
 tags: [update, ai, embodied-ai]
-format_version: 3
+format_version: 2
 evidence_level: abstract
 created: 2026-09-12
 ---
 
 # 2026-09-12 AI Embodied Intelligence Update
 
-> [!summary] 今日判断
+> [!summary] 30 秒结论
 > 今天优先看能改变机器人训练与执行方式的工作：HuRo扩大可用示教来源，IMLE-VLA减少动作生成延迟，2AM与MaP-WAM探索如何把长期记忆转成执行器可用的指令。安全方面，ReactHuman暴露突发危险响应的不足，ActSafeGuard和FARM分别切入动作约束与失败监测；三者证据边界不同，不能合并理解为部署安全已解决。
 > **趋势**：共同趋势是把复杂能力拆成可检验的接口：人类视频与机器人动作、历史记忆与当前计划、生成策略与可行约束。评审重点也随之转向这些接口是否真的改善闭环执行，以及收益能否跨任务、场景和机器人保持。
 
 - **规模**：2313 个候选 → 24 篇入选；回填 0 篇
 - **主题**：具身智能评测与基准 14、智能体 Agent 10、多模态基础模型 9、视觉语言动作模型 VLA 9、机器人学习 8、世界模型 7、Sim2Real 1
 - **源异常**：1
-- **阅读方式**：先看 5 篇必读的“为什么值得读”，有用再进入 [[AI 论文深读工作流|L1 / L2 精读]]
+- **阅读方式**：先看 5 篇必读的“为什么值得读”，有用再进入 [L1 / L2 精读](../../deep-reading/README.md)
 
 ## 必读 5 篇
 
@@ -71,18 +71,18 @@ created: 2026-09-12
 
 ## 其余存档 12 篇
 
-- [Morphology-Aware Human Motion Retargeting for Wheeled-Humanoid Loco-Manipulation](items/Morphology-Aware%20Human%20Motion%20Retargeting%20for%20Wheeled-Humanoid%20Loco-Manipulation.md) · [[智能体 Agent]]
-- [ObstaDiff: Generalizable Diffusion Policy Learning via Obstacle-aware Representations](items/ObstaDiff%20Generalizable%20Diffusion%20Policy%20Learning%20via%20Obstacle-aware%20Representat.md) · [[机器人学习]]
-- [Memory as Plans: World-Action Modeling with Memory-Grounded Planning](items/Memory%20as%20Plans%20World-Action%20Modeling%20with%20Memory-Grounded%20Planning.md) · [[多模态基础模型]] [[智能体 Agent]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
-- [SEED-UMI: Sharing the Exoskeleton between human and robot for onE-to-one Dexterous demonstration](items/SEED-UMI%20Sharing%20the%20Exoskeleton%20between%20human%20and%20robot%20for%20onE-to-one%20Dexterou.md) · [[机器人学习]] [[具身智能评测与基准]]
-- [LTLDiff: Finite Linear Temporal Logic-Guided Data Generation and Diffusion Policies for Multi-agent Robotic Manipulation](items/LTLDiff%20Finite%20Linear%20Temporal%20Logic-Guided%20Data%20Generation%20and%20Diffusion%20Polici.md) · [[智能体 Agent]] [[机器人学习]] [[具身智能评测与基准]]
-- [BridgeMatch: Conditional Transport Bridges in Matching Matrix Space for 3D Deformable Registration](items/BridgeMatch%20Conditional%20Transport%20Bridges%20in%20Matching%20Matrix%20Space%20for%203D%20Deform.md) · [[世界模型]]
-- [Beyond Noise Steering: Dual-Latent Space Reinforcement Learning for Generative Robot Policy](items/Beyond%20Noise%20Steering%20Dual-Latent%20Space%20Reinforcement%20Learning%20for%20Generative%20Ro.md) · [[机器人学习]]
-- [MuJoCable: Reduced-Order Surface-Routed Cable Transmission for Tendon-Driven Robots](items/MuJoCable%20Reduced-Order%20Surface-Routed%20Cable%20Transmission%20for%20Tendon-Driven%20Robo.md) · [[世界模型]] [[Sim2Real]] [[具身智能评测与基准]]
-- [Autonomy, Social Norms, and Alignment: Towards a Developmental Framework for Autonomous Artificial Agents](items/Autonomy%2C%20Social%20Norms%2C%20and%20Alignment%20Towards%20a%20Developmental%20Framework%20for%20Auto.md) · [[智能体 Agent]]
-- [Your Model Already Knows Don't Teach It, Learn to Ask It: Soft Prompting for Few-Shot Adaptation of Vision-Language Models](items/Your%20Model%20Already%20Knows%20Don%27t%20Teach%20It%2C%20Learn%20to%20Ask%20It%20Soft%20Prompting%20for%20Few-.md) · [[多模态基础模型]] [[视觉语言动作模型 VLA]]
-- [Topological Necessities: Mechanism-Invariant Strategic Subgoals for Cross-Embodiment Goal-Conditioned Control](items/Topological%20Necessities%20Mechanism-Invariant%20Strategic%20Subgoals%20for%20Cross-Embodim.md) · [[智能体 Agent]] [[机器人学习]]
-- [Adversarial Training for Tabular Credit Scoring: A Multi-Attack Robustness Evaluation in P2P Lending](items/Adversarial%20Training%20for%20Tabular%20Credit%20Scoring%20A%20Multi-Attack%20Robustness%20Evalua.md) · [[具身智能评测与基准]]
+- [Morphology-Aware Human Motion Retargeting for Wheeled-Humanoid Loco-Manipulation](items/Morphology-Aware%20Human%20Motion%20Retargeting%20for%20Wheeled-Humanoid%20Loco-Manipulation.md) · 智能体 Agent
+- [ObstaDiff: Generalizable Diffusion Policy Learning via Obstacle-aware Representations](items/ObstaDiff%20Generalizable%20Diffusion%20Policy%20Learning%20via%20Obstacle-aware%20Representat.md) · 机器人学习
+- [Memory as Plans: World-Action Modeling with Memory-Grounded Planning](items/Memory%20as%20Plans%20World-Action%20Modeling%20with%20Memory-Grounded%20Planning.md) · 多模态基础模型 智能体 Agent 视觉语言动作模型 VLA 具身智能评测与基准
+- [SEED-UMI: Sharing the Exoskeleton between human and robot for onE-to-one Dexterous demonstration](items/SEED-UMI%20Sharing%20the%20Exoskeleton%20between%20human%20and%20robot%20for%20onE-to-one%20Dexterou.md) · 机器人学习 具身智能评测与基准
+- [LTLDiff: Finite Linear Temporal Logic-Guided Data Generation and Diffusion Policies for Multi-agent Robotic Manipulation](items/LTLDiff%20Finite%20Linear%20Temporal%20Logic-Guided%20Data%20Generation%20and%20Diffusion%20Polici.md) · 智能体 Agent 机器人学习 具身智能评测与基准
+- [BridgeMatch: Conditional Transport Bridges in Matching Matrix Space for 3D Deformable Registration](items/BridgeMatch%20Conditional%20Transport%20Bridges%20in%20Matching%20Matrix%20Space%20for%203D%20Deform.md) · 世界模型
+- [Beyond Noise Steering: Dual-Latent Space Reinforcement Learning for Generative Robot Policy](items/Beyond%20Noise%20Steering%20Dual-Latent%20Space%20Reinforcement%20Learning%20for%20Generative%20Ro.md) · 机器人学习
+- [MuJoCable: Reduced-Order Surface-Routed Cable Transmission for Tendon-Driven Robots](items/MuJoCable%20Reduced-Order%20Surface-Routed%20Cable%20Transmission%20for%20Tendon-Driven%20Robo.md) · 世界模型 Sim2Real 具身智能评测与基准
+- [Autonomy, Social Norms, and Alignment: Towards a Developmental Framework for Autonomous Artificial Agents](items/Autonomy%2C%20Social%20Norms%2C%20and%20Alignment%20Towards%20a%20Developmental%20Framework%20for%20Auto.md) · 智能体 Agent
+- [Your Model Already Knows Don't Teach It, Learn to Ask It: Soft Prompting for Few-Shot Adaptation of Vision-Language Models](items/Your%20Model%20Already%20Knows%20Don%27t%20Teach%20It%2C%20Learn%20to%20Ask%20It%20Soft%20Prompting%20for%20Few-.md) · 多模态基础模型 视觉语言动作模型 VLA
+- [Topological Necessities: Mechanism-Invariant Strategic Subgoals for Cross-Embodiment Goal-Conditioned Control](items/Topological%20Necessities%20Mechanism-Invariant%20Strategic%20Subgoals%20for%20Cross-Embodim.md) · 智能体 Agent 机器人学习
+- [Adversarial Training for Tabular Credit Scoring: A Multi-Attack Robustness Evaluation in P2P Lending](items/Adversarial%20Training%20for%20Tabular%20Credit%20Scoring%20A%20Multi-Attack%20Robustness%20Evalua.md) · 具身智能评测与基准
 
 <details>
 <summary>运行信息与信息源状态</summary>

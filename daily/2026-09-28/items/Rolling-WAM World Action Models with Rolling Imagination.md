@@ -42,10 +42,10 @@ concepts: ["智能体 Agent", "视觉语言动作模型 VLA", "具身智能评�
 
 对世界动作模型和机器人智能体研究者，提供了直接改变推理调度、复用未来预测计算的机制，适合研究生成式策略的闭环响应效率。
 
-- **概念**：[[智能体 Agent]] [[视觉语言动作模型 VLA]] [[具身智能评测与基准]]
+- **概念**：智能体 Agent 视觉语言动作模型 VLA 具身智能评测与基准
 - **筛选分数**：28
 - **阅读状态**：摘要级快读；需要全文核查证据或局限
-- **精度升级**：[[AI 论文深读工作流|选择 L1 定向核查或 L2 完整精读]]
+- **精度升级**：[选择 L1 定向核查或 L2 完整精读](../../../deep-reading/README.md)
 
 `python3 scripts/start_ai_deep_read.py --vault "." --note "30_Updates/2026-09-28/Rolling-WAM World Action Models with Rolling Imagination.md" --level full`
 
