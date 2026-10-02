@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-02",
+  "source_digest": "30_Updates/2026-10-02 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "GroundingPI A Grounding Foundation Model towards Physical Intelligence with Visu.md",
+    "H-WM Robotic Task and Motion Planning Guided by Hierarchical World Model.md",
+    "SimEX Simulation-Integrated Robotics AutoResearch.md",
+    "Tactile Curiosity Drives Robot Interaction.md",
+    "Fiatlux A Long-Horizon Benchmark for Humanoid Ladder Climbing and Light-Bulb Rep.md",
+    "Exploiting Vulnerabilities Universal Adversarial Attacks on Vision-Language-Acti.md",
+    "DexHoldem An Agentic Robotics Benchmark for Dexterous Manipulation in Texas Hold.md",
+    "Bridge-WA Learning Action-Relevant World Dynamics for Robotic Manipulation.md",
+    "Don't Drop the BATON Long-Horizon Robot Manipulation via Agentic Subtask Explora.md",
+    "rMuscle Robotic Muscle Memory for Efficient Vision-Language-Action Model Inferen.md",
+    "CrossSafe Towards Cross-Embodiment Latent Safety Filters.md",
+    "RankQ Offline-to-Online Reinforcement Learning via Self-Supervised Action Rankin.md",
+    "Memorize, Adapt, Ignore Diagnosing Robot Learning Mechanisms under Training Data.md",
+    "DSDyn-VLA A Dual-Stream Dynamic Manipulation Framework with Motion Perception, F.md",
+    "Colosseum V2 Benchmarking Generalization for Vision-Language-Action Models.md",
+    "SafeVLA-Bench A Benchmark for the Success-Safety Gap in Vision-Language-Action M.md",
+    "Uni-VLaT Whole-Body Tactile Adaptation of VLA Policies for Humanoid Loco-Manipul.md",
+    "Language-Conditioned World Modeling for Visual Navigation.md",
+    "TALK-Dem Benchmarking Embodied Task Planning under Dementia-Associated Communica.md",
+    "Correcting WHERE, Preserving HOW Compositional Generalization for Vision-Languag.md",
+    "The Planning Limits of Latent World Models.md",
+    "Learning from Runtime Feedback through Failure-Bank Self-Evolution for Vision-La.md",
+    "EWAM Emergent Depth-Wise Specialization in a Unified Embodied Model -- From Sema.md",
+    "Scaling Sim-to-Real VLA Reinforcement Learning with Generative 3D Worlds.md"
+  ],
+  "published_item_count": 24
+}
