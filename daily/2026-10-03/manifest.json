@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-03",
+  "source_digest": "30_Updates/2026-10-03 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "DynamicVLA A Vision-Language-Action Model for Dynamic Object Manipulation.md",
+    "NarrativeFlow Flow-Based Vision-Language-Action Model Using Robot Velocity Field.md",
+    "MIKASA-Robo-VLA Benchmarking Memory in VLA Models for Long-Horizon Manipulation.md",
+    "BORA Bridging Offline Reinforcement Learning and Online Residual Adaptation for.md",
+    "FineART Fine-Grained Annotated Robotic Trajectory Dataset and Vision-Language-Ac.md",
+    "Token-World World Modeling in Vision-Language Model Token Space for Robot Manipu.md",
+    "Divide-and-Remember Recursive Action-Relevant Memory for Long-Horizon VLA Polici.md",
+    "DuoMind Enabling Distributed Multi-Robot Coordination with Semantic Communicatio.md",
+    "Guide, Think, Act Interactive Embodied Reasoning in Vision-Language-Action Model.md",
+    "DriftOPD Sequence-Level Reverse-KL Distillation for One-Step VLA Policies.md",
+    "Towards a General Humanoid Loco-Manipulation Model via Egocentric Whole-Body Hum.md",
+    "WBAG A Whole-Body and Attached-Geometry Safety Framework for Vision-Language-Act.md",
+    "HumanoidToolBench Benchmarking Humanoid Tool Use from Selection to Mobile Execut.md",
+    "Same Scene, Different Task Skill Alignment for Compositional Generalization in V.md",
+    "Bridging the Sim-to-Real Gap with multipanda_ros2 A Real-Time ROS2 Framework for.md",
+    "ATI-VLA Action-Centric Predictive Vision-Language-Action Models via Actionable A.md",
+    "eRLT Efficient VLA Reinforcement Learning via Action-Relevant Token Routing.md",
+    "Is Success All You Need Investigating the Impact of Input Perturbations on VLA B.md",
+    "Reconstruct, Practice, Go Real Guided Self-Improvement for Embodied Agents.md",
+    "Direct Action-Head Injection of A Grounded 3D Point Unlocks Spatial and Task Gen.md",
+    "WholeBodyWAM Learning Whole-Body World Action Models with Scalable Motion Priors.md",
+    "LangMap A Human-Verified Benchmark for Hierarchical Open-Vocabulary Goal Navigat.md",
+    "Devol-ONE One Autoregressive Mixture of Transformers to Unify Vision-Language-Ac.md",
+    "When Reasoning Helps Action Monitoring and Steering Chain-of-Thought in Vision-L.md"
+  ],
+  "published_item_count": 24
+}
