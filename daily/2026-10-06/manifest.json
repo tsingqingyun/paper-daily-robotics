@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-06",
+  "source_digest": "30_Updates/2026-10-06 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "FastOPD On-Policy Distillation for Lightweight VLA Deployment.md",
+    "SimpleTouch Can Vision-Language-Action Models Master Contact-Rich Manipulation W.md",
+    "DuoMind Enabling Distributed Multi-Robot Coordination with Semantic Communicatio.md",
+    "MixVLA Adaptive Mixing of Non-Invariant Information for Generalizable Vision-Lan.md",
+    "Skill2Real Agentic Skill Learning for Zero-Shot Sim-to-Real Robot Manipulation.md",
+    "RoboBridge A Self-Evolving Embodied Agent Framework for Sim-to-Real Transfer.md",
+    "RoboChemGym A Protocol-Driven Generative Simulation Framework for Long-Horizon C.md",
+    "Reconstruct, Practice, Go Real Guided Self-Improvement for Embodied Agents.md",
+    "PointWAM 3D World Action Modeling for Dexterous Robotic Manipulation.md",
+    "SARI Phase-Split Sim-Real Co-Training for Contact-Rich Manipulation.md",
+    "DeltaWorld Physically Consistent Interactive World Simulators via Action-Conditi.md",
+    "Imagine the Future, Internalize the Gist Efficient VLA Reasoning via Internalize.md",
+    "UniIntervene++ An Adaptive Intervention Agent for Efficient Real-World Reinforce.md",
+    "ManiPhysicsBench Physics-Based Assessment of Object Preservation in VLA Manipula.md",
+    "World Action Learning via Interaction-Centric Spectral Latent Guidance.md",
+    "EmbPASS Towards Cross-Embodiment Open Panoramic Segmentation.md",
+    "Co-design Gym A Unified Benchmark for Embodiment-Policy Co-optimization.md",
+    "SocialVLA A Social Perception Gateway for Human-Reaction-Based Failure Detection.md",
+    "Detect and Suppress A Mechanistic Defense against Adversarial Patches in VLA Mod.md",
+    "MobiAgent Dual-Loop Recursive Policy Self-Improvement for Long-Horizon Mobile Ma.md",
+    "DexJoCo-X Benchmarking Action Representations for Multi-Hand Dexterous Manipulat.md",
+    "Equivariant Visual-Tactile Diffusion Policy for Contact-Rich Manipulation.md",
+    "CHASE-VLA Post-Training Quantization Framework for Vision-Language-Action Models.md",
+    "EVOL Simulator-Guided Evolutionary Expert Synthesis for Deployment-Free Learning.md"
+  ],
+  "published_item_count": 24
+}
