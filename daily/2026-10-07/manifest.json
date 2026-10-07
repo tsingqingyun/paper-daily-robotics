@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-07",
+  "source_digest": "30_Updates/2026-10-07 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "WareFly-VLA A Vision-Language-Action Framework for UAV Navigation and Human Trac.md",
+    "SMART Zero-Shot Sim-to-Real Articulated Object Manipulation via Large-Scale Synt.md",
+    "BiGym 2.0 Benchmarking Learned and Agent-Developed Policies for Humanoid Househo.md",
+    "Seeing the Invisible Physics-Guided Visual Prompting for Temperature- and Radiat.md",
+    "ESP Energy-Score Policy for One-Step Multimodal Action Generation.md",
+    "VOMMI Collecting and Leveraging Portable Demonstrations for Mobile Manipulation.md",
+    "VLA-ACL Action-Consistent Visual Token Pruning for Efficient Vision-Language-Act.md",
+    "DepthWorld 3D World Model for Robot Manipulation.md",
+    "Fast Non-Parametric Heteroscedastic Imitation Learning With Geometric Priors.md",
+    "Adapting Vision-Language-Action Models to Unknown Visual Disruptions During Exec.md",
+    "MIM-VLA Learning Physical Interaction Representations from Gripper Motor Feedbac.md",
+    "ViDAL A Visual Dynamics-Grounded Action Latent Space for Vision-Language-Action.md",
+    "Commit While Futures Agree Consequence-Aware Adaptive Action Chunking for Robot.md",
+    "ActTune Action-Aware Precision and GPU Operating-Point Adaptation for Energy-Eff.md",
+    "EmbodiedSmith Scaling Embodied Data through Recursive Self-Improvement Flywheel.md",
+    "StairVLA Stage-Aware Hierarchical Action Generation for Vision-Language-Action M.md",
+    "OpenSplatGraph From Dense Semantic Maps to Structured Scene Graphs for Open-Voca.md",
+    "Towards Efficient Robotic Manipulation Models with Self-Recursive Pruning.md",
+    "Silicon Language A Robot-Native Knowledge Exchange Framework for Heterogeneous R.md",
+    "Task-Space Imitation Guidance for Efficient Reinforcement Learning.md",
+    "PEARS Physical-Prior-Guided Efficient Adaptation via Failure Reasoning and Diffu.md",
+    "Humanoid Horizon Extending Task Horizon in Whole-Body Loco-Manipulation via Para.md",
+    "Navigation with RF Cues Embodied Perception Action under Multipath Uncertainty.md",
+    "QF3 Fast Flow RL with Filtered Q-Gradients.md"
+  ],
+  "published_item_count": 24
+}
