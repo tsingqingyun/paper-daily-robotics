@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-08",
+  "source_digest": "30_Updates/2026-10-08 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "TempoBridge Language-Guided Tempo Control for Vision-Language-Action Policies.md",
+    "Co-Evolving Robot Orchestrators and Policies through Deployment.md",
+    "Juno Taming Predictive Latents for Vision-Language-Action Models.md",
+    "Beyond Reconstruction What Matters in Action Tokenization for Robot Policies.md",
+    "Sparse Feature Policy Unlearning Mitigates State Hallucination in Vision-Languag.md",
+    "Towards Accurate End-Effector Localization for UMI-Style Robotic Manipulation Te.md",
+    "RobotAPO Adversarial Physics Preference Optimization for Robotic Manipulation Vi.md",
+    "RoboPace Contact-Aware Time-Optimal Retiming for Action-Chunk Policies.md",
+    "Immiscible Diffusion Policy Preserving Multimodal Robot Actions through Label-Fr.md",
+    "YUBI-STAG Contact and Semantic-Rich Alignment for VLAs via Automated Video-Langu.md",
+    "PAIR Bridging Perception and Action in Vision-Language-Action Models.md",
+    "Beyond Policy Support Interaction Constrained Offline Reinforcement Learning for.md",
+    "RLHND Video Foundation Models as Physically Grounded Hand Trackers for Robot Lea.md",
+    "Many Ways to Succeed Diversity-Driven RL Fine-Tuning for VLA Generalization.md",
+    "Careful Judge Safe and Efficient Human-AI Collaborative Decision Making.md",
+    "STRIKE Learning Visual State Transitions for Physical World Modeling.md",
+    "Precise SE(3) End-Effector Tracking in Whole-Body Humanoid Control.md",
+    "Controllable Crowd Generation through World-Model Planning.md",
+    "LeCuration A Tiny World Model as a Data Curation Multi-Tool.md",
+    "PhysEvo Astra Can Act, Let It.md",
+    "End-to-End Autonomous Generation of Human Assembly Plans.md",
+    "Point It, Strike It Direction-Conditioned Dynamic Manipulation of Deformable Lin.md",
+    "DIVA Dual-Space Intent-Aware Visual Attenuation for Vision-Language-Action Polic.md",
+    "Humanity's Sixth Sense Benchmarking Intuitive Visual Reasoning in Multimodal Mod.md"
+  ],
+  "published_item_count": 24
+}
