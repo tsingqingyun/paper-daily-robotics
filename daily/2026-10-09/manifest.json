@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-09",
+  "source_digest": "30_Updates/2026-10-09 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "EmbodiedRSI Active Continual Robot Learning Through Hypothesis-Guided Co-Evoluti.md",
+    "OpenViTac Learning and Benchmarking Visuo-Tactile Policies in a Unified Sim-and-.md",
+    "Video Prediction Policy 2 Predict Better, Act Better.md",
+    "HuMBLE Human Motion-Driven Behavior Learning for Embodied Locomotion.md",
+    "TouchScale 500 Hours of Human Vision and Touch for Visual-Tactile Learning.md",
+    "Explicit Geometric Chain-of-Thought for Vision-Language-Action in Autonomous Dri.md",
+    "RoboJEPA Scaling Robotic Latent World Models.md",
+    "RoboQuest Generalist Physical Agents that Search, Inspect and Test.md",
+    "Argos Adapt Rich Geometric Priors for Generalizable Online Scene-Change-Detectio.md",
+    "Agentic RSR Real-to-Sim-to-Real through Scene Reconstruction and Execution-Groun.md",
+    "Temporal Visuo-Tactile Learning for Dexterous Grasp Stability.md",
+    "RobotWorld Benchmarking Multimodal Agents for Robot Use Across Diverse Tasks and.md",
+    "Benchmarking Behavioral Steerability in Behavior Foundation Models.md",
+    "Do Vision-Language-Action Models Understand Instructions A Mechanistic Interpret.md",
+    "Self-correction Optimization for Interleaved Multimodal Generation.md",
+    "NeRFifyMesh Optimizing Neural Radiance Fields from Textured Meshes for Robotics.md",
+    "Lifelong small-object navigation in changing object layouts a benchmark and meth.md",
+    "ECHO Embodied Camera Observations of Human Object Carrying.md",
+    "Decoding Neural Population Dynamics through Robotic Analog.md",
+    "ΔWAM Distilling Action Tangent Fields into World Action Models.md",
+    "Contact-Aware Imitation Learning Through Contact Factorization.md",
+    "Predicted Futures Are Not Enough Learning Executable Goals for Robot Manipulatio.md",
+    "Kuration SDK Addressing the Virtual2Real Gap via Data Curation.md",
+    "RT-Safe Benchmarking Agent Safety in Real-Time Embodied Environment.md"
+  ],
+  "published_item_count": 24
+}
