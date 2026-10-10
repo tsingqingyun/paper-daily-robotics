@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-10",
+  "source_digest": "30_Updates/2026-10-10 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "Rewiring Semantics, Dynamics, and Control A Simple yet Effective Action-Centric.md",
+    "ManiUnit A Manipulation Skill Dataset and Benchmark for Long-Horizon Tasks.md",
+    "Humanoid World Action Model With Joint State--Action Generation.md",
+    "REACT Rolling Denoising and Dual Decoupling for Reactive Robot Control with VLA.md",
+    "Tell Robot What Not to Do A Negation Understanding Perspective.md",
+    "SimVLA Zero-Shot Sim-to-Real VLA Learning for Mobile Manipulation.md",
+    "VioLA Learning Generalist Humanoid Control Policies from Human Data.md",
+    "ARC A Reasoning Recipe for Robot Foundation Models.md",
+    "WAM-Cache Staleness-Bounded KV Reuse for Efficient World Action Models.md",
+    "SpatialHarness Test-Time Spatial Scaffolding for Fine Robotic Manipulation.md",
+    "Recompose and Refine Latent Reasoning Flows for Vision-Language-Action Models.md",
+    "WARP-VLA Wrist-Camera Adaptation for View-Robust Policy Execution in Vision-Lang.md",
+    "DreamTrue Action-Faithful Robot World Model with Counterfactual Post-Training.md",
+    "RESETTLE Robotic Recovery through Disagreement-Triggered Retrieval and Efficient.md",
+    "USDCraft Geometrically Grounded Programmatic Modeling of Articulated 3D Assets f.md",
+    "VersaCamVLA Camera-Configurable VLA Policies for Robotic Manipulation.md",
+    "Control-Ready Uncertainty for Trajectory Diffusion.md",
+    "PLaW-VLA Predictive Latent World Modeling for Vision-Language-Action Policies.md",
+    "Residual Modeling Closes the Regression and Generative Policy Gap in Robot Learn.md",
+    "LIVIN Benchmarking Spatial and Embodied Intelligence in Digital Twins of Lived-I.md",
+    "RoboAware Learning to Coordinate Embodied Skills from Counterfactual Outcomes.md",
+    "Being-M0.7 A Latent World-Action Model for Humanoid Robots.md",
+    "PMTRM Pseudo-Memory Temporal Re-encoding Module for Embodied Policy Learning.md",
+    "Embodied Turing Machines Stateful Code for Robot Recursive Self-Improvement.md"
+  ],
+  "published_item_count": 24
+}
