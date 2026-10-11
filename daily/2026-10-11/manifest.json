@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-11",
+  "source_digest": "30_Updates/2026-10-11 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "Experience-Guided Initiation Search for Learned Skills in Skill Composition.md",
+    "What 30,000 Hours of Ego-centric Video Does Not Teach.md",
+    "RoboRSI Stable, efficient, and reusable robot self-evolution in complex real-wor.md",
+    "UNITAS A 3D-Native World Action Model for Embodied Manipulation.md",
+    "Higher-Order Action Supervision Makes A Strong Policy Class.md",
+    "WOVEN Weaving Visual World Modeling into Multimodal LLMs.md",
+    "DVD Dynamic Vector Decoding for Efficient MLLM-based Perception.md",
+    "Unifying Policy Learning and State Prediction through Spatial Language Modeling.md",
+    "Fast Pose Tracking of Rigid Objects with Compact Pose Graph Optimization.md",
+    "PathTime-VLA Path-Time Decoupling for Factorized Post-Training of Vision-Languag.md",
+    "Neural Networks for Temporal Pattern Recognition and Dynamic Arm Gesture Speed E.md",
+    "Generative Neural Retargeting for Human-to-Robot Dexterous Manipulation.md",
+    "ContourVLA A Closed-Loop Perception-Action Contour Policy for Generalized Referr.md",
+    "CAPABLE Capability-Aware Policy Adaptation via Behavioral Latent Encoding.md",
+    "TACROSS An Efficient and Low-Cost Scalable Human Touch System Across Heterogeneo.md",
+    "When to Intervene State-Aware Sparse Manipulation in Federated Reinforcement Lea.md",
+    "FloorSAV Elucidating Spatial Audio-Visual Context with 2D Floormap for AV-LLMs.md",
+    "OmniDex Scaling Dexterous Hand Grasping to Diverse Cluttered Scenes.md",
+    "MiniWAM Learning Compact Future Targets for Efficient World-Action Modeling.md",
+    "Leveraging Human-In-The-Loop Demonstrations in Reinforcement Learning for Digita.md",
+    "Acting from Belief, Looking When Needed A Bayesian Spatial World Model for Navig.md",
+    "DAMP Humanoid Locomotion via Denoised Belief Learning and Adversarial Motion Pri.md",
+    "GLIO2 A GPU-Parallelized Tightly-Coupled LiDAR-Inertial-GNSS System for Robust a.md",
+    "Multi-Agent Egocentric World Model with Fine-Grained Embodied Interaction.md"
+  ],
+  "published_item_count": 24
+}
