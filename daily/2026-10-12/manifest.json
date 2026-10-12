@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-12",
+  "source_digest": "30_Updates/2026-10-12 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "STAG A Sparse Traversability-Aware Graph Representation from Grid-Based Costmaps.md",
+    "Learning Language-Conditioned Traversability Representations for Adaptive Visual.md",
+    "Demonstrating Arena 5.0 A Photorealistic ROS2 Simulation Framework for Developin.md",
+    "Dex-One2Many Learning Dexterous Manipulation from a Single Human Demonstration.md",
+    "A Balanced Data Diet Addressing the Exploration Bottleneck in Mega-Scale RL for.md",
+    "FAITH Feasibility-Aware Safety-Filtered RL for High-Dimensional Systems.md",
+    "A Physics-Informed Collision Learning Framework for Collaborative Robot Motion G.md",
+    "RiCo Neural Simulation of Rigid-Body Interactions via Local Contact Reasoning.md",
+    "Instruction-Conditioned Electromagnetic Spectrum Understanding via Budget-Adapti.md",
+    "Q-Shaped Options for Hierarchical Reinforcement Learning.md",
+    "SuperNav An Agentic Navigation System for Any Task in Any Scene.md",
+    "PIER An Evidence-Gated Execution Interface for Robotic Manipulation.md",
+    "Right Screen, Wrong Transition World Models as Verifiers for GUI Agents.md",
+    "LLM-IDEA Identifiability-Driven Experimental Agent for Autonomous Discovery of M.md",
+    "How Firm Should a Grasp Be.md",
+    "IntactWorld Joint World Modeling with Intact Features.md",
+    "LeWAM A JEPA World Action Model with Diffusion-Steering-Based MPC.md",
+    "SplitJEPA Learning Invariant and Variant Latent Worlds without Reconstruction.md",
+    "Digital Twin for Pre-Deployment Validation of AI-Driven Safety-Critical Industri.md",
+    "UltraLight Luma A Novel Edge-Deployable Perception Network for Crop-Row Segmenta.md",
+    "VGGTWorld-VLA Intent-Conditioned 3D World Evolution for Autonomous Driving.md",
+    "LiteNWM Efficient Latent World Models for Onboard Visual Navigation in the Wild.md",
+    "Cited but Not Consulted A Counterfactual Audit of Legal Chain-of-Thought Faithfu.md",
+    "Walking on Roofs Exploring the Potential of Walking Robots for Construction Work.md"
+  ],
+  "published_item_count": 24
+}
