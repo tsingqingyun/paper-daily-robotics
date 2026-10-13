@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-13",
+  "source_digest": "30_Updates/2026-10-13 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "RARA Robust Policy Fine-Tuning through Retrieval-Anchored Representation Alignme.md",
+    "Spa-Bench A Real-Robot Benchmark for Spatial Grounding in Vision-Language-Action.md",
+    "JoyInside-VLM-Agent Product-Conditioned Multimodal Policy Learning for Embodied.md",
+    "LAPT-Scale Scaling Embodied Policies with Latent Action Pre-Training on Human Vi.md",
+    "Evo-World A Lightweight Vision-Language-Action Model with Future Motion Predicti.md",
+    "JitterVLA A Replay Benchmark for Motion Quality in VLA-Driven Human-Robot Manipu.md",
+    "Forward Dynamics Models.md",
+    "StereoEngine Scaling Stereo Bimanual Robot Data without Stereo Cameras.md",
+    "Noise Space Learning for VLA Adaptation.md",
+    "Beyond Successful Robot Demonstrations Learning from Human Interactions and Mode.md",
+    "OGPO Offline Goal-conditioned Policy Optimization for Recoverable Vision-Languag.md",
+    "Beyond Actions Learning Future Operation Targets for Vision-Language-Action Mode.md",
+    "Dream to Remember Continual Steering of Generalist Robot Policies with World Mod.md",
+    "AutoBio+ Benchmarking Dexterous Manipulation with Dynamic Experimental Phenomena.md",
+    "Evidence-Guided Counterfactual Learning for Long-Tailed Robotic Policies.md",
+    "VLMs are Native Action Models Unleashing the Manipulation Capabilities of VLMs w.md",
+    "Gamma Grounded Multi-Agent Memory with Mechanical Audit for Memory-Intensive Man.md",
+    "Evo-RL Iterative Robot Reinforcement Learning from Selective Experience.md",
+    "Mind the Spatial Gap A Benchmark for Geospatial Reasoning and Constrained Spatia.md",
+    "Visual-Wi-Fi Navigation to Signal-Emitting Devices.md",
+    "Sampling-based Kinodynamic Planning with World Models.md",
+    "Grounded-Dreamer Robot Learning from World Model Synthetic Data with Physical Gr.md",
+    "ReAT Residual Action Tokenization for Autoregressive Robot Policies.md",
+    "REMM Revisable Embodied Memory for Manipulation.md"
+  ],
+  "published_item_count": 24
+}
