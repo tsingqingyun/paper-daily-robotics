@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-15",
+  "source_digest": "30_Updates/2026-10-15 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "SIMPLE Simulation-Based Policy Learning and Evaluation for Humanoid Loco-manipul.md",
+    "UniLAP A Unified Latent Action Policy for Cross-Embodiment Manipulation.md",
+    "OxyGen Unified KV Cache Management for VLA Inference under Multi-Task Parallelis.md",
+    "PINT A Unified Model with Shared Predictive Intent for Robot Manipulation.md",
+    "WAVE-0 Bridging VLA Policies and WAMs with Lightweight Latent Future Prediction.md",
+    "UniT Toward a Unified Physical Language for Human-to-Humanoid Policy Learning an.md",
+    "MedVLA A Hierarchical Vision-Language-Action Framework for Closed-Loop Precision.md",
+    "METIS Multi-Source Egocentric Training for Integrated Dexterous Vision-Language-.md",
+    "SEAR Self-Evolving Agentic Robotics.md",
+    "AnolisVLA Lightweight Vision-Language-Action Model with Deep State Space Models.md",
+    "Towards Long-horizon Embodied Agents with Tool-Aligned Vision-Language-Action Mo.md",
+    "SeeTraceAct Visibility-Aware Latent Planning from Cross-Embodiment Demonstration.md",
+    "Flow-based Policy Adaptation without Policy Updates.md",
+    "Let the Mind Conceive, Let the Hand Achieve Following Multimodal Instructions fo.md",
+    "NeuroVLA A Brain-inspired Embodied Intelligence for Fluid and Fast Reflexive Rob.md",
+    "RoboHarness A Simple Harness Outperforms VLA and World Actions Models.md",
+    "Axiom-0 Hierarchical Self-Refinement for Vision-Language-Action Policies.md",
+    "Listen Before Act Audio-Conditioned Robot Manipulation with ListenVLA.md",
+    "World-Value-Action Model Implicit Planning for Vision-Language-Action Systems.md",
+    "WireCraft A Simulation Benchmark for Industrial DLO Manipulation.md",
+    "Agentic Real2Sim Physics-based World Modeling with Vision-Language Agents.md",
+    "Think Like a World Model, Act Like a VLA Distilling World-Model Representations.md",
+    "ASENA Self-evolving Agents for Embodied Navigation.md",
+    "Video Prediction Policy 2 Predict Better, Act Better.md"
+  ],
+  "published_item_count": 24
+}
