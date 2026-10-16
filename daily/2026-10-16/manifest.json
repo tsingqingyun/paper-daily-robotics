@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-16",
+  "source_digest": "30_Updates/2026-10-16 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "Towards a Data-Centric Understanding of Spatial Reasoning in Multimodal Large La.md",
+    "G$ 3$VLA Geometric Inductive Bias for Vision-Language-Action Models.md",
+    "FACT A Multimodal Force-Action-Track Foundation Model for Human-to-Robot Dexteri.md",
+    "LEGS Fine-Tuning Teleop-Free VLAs for Humanoid Loco-manipulation in an Embodied.md",
+    "SPARC Reliable Spatial Annotations from Robot Demonstrations at Scale.md",
+    "SnapFlow One-Step Action Generation for Flow-Matching VLAs via Progressive Self-.md",
+    "HERO Learning Humanoid End-Effector Control for Visual Whole-Body Open-Vocabular.md",
+    "ForceBench Benchmarking Force Integration for Robotic Manipulation.md",
+    "Accelerating VLA Inference with Perturbation Informed Execution.md",
+    "One-shot Human Video-Guided Adaptation for Vision-Language-Action Models.md",
+    "VLRLA Deployment-Time Adaptation of Vision-Language-Action Models through In-Con.md",
+    "Cracking Mobile Manipulation From Failure Diagnosis to Agentic Robot System.md",
+    "Coordi-pi Coordination-Aware Dual-Hand Action Representation for Bimanual Dexter.md",
+    "Tactile-Guided Robot Learning From Representation Learning to Foundation Models.md",
+    "ObjDream Guiding Vision-Language-Action Models with Object-Level Understanding a.md",
+    "Towards Agentic Robots Model, Data, Environment, and Harness.md",
+    "Interaction Latents as Actions for Contact-Rich Manipulation.md",
+    "DexMimic A Generalist Dexterous Hand-Object Tracking Policy via Value-Guided Res.md",
+    "AutoRSR Automated Real-to-Sim-to-Real Data Generation for Scalable Robot Learnin.md",
+    "Graph-Reweighted Behavior Cloning with Human Interventions for Precise Robotic M.md",
+    "$ lambda_0$ Scaling Open-World Egocentric Human Data for Humanoid Loco-Manipulat.md",
+    "Robota-Embed Unified VLA Embeddings for Robot In-Context Learning and Evolution.md",
+    "Don't Run with Scissors Pruning Breaks VLA Models but They Can Be Recovered.md",
+    "Immiscible Diffusion Policy Preserving Multimodal Robot Actions through Label-Fr.md"
+  ],
+  "published_item_count": 24
+}

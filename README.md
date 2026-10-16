@@ -14,6 +14,7 @@ Each digest, its explicitly referenced detail notes, and the allowlisted automat
 
 ## Daily updates
 
+- [2026-10-16](daily/2026-10-16/index.md)
 - [2026-10-15](daily/2026-10-15/index.md)
 - [2026-10-14](daily/2026-10-14/index.md)
 - [2026-10-13](daily/2026-10-13/index.md)
