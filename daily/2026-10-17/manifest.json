@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-17",
+  "source_digest": "30_Updates/2026-10-17 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "CarryOn A Dual-Loop Harness for Personalized and Reliable Robot Assistance.md",
+    "LIBERO-PeRM Benchmarking Personalized Robotic Manipulation.md",
+    "VeriVLA Adaptive Test-Time Verification for Flow-Based VLAs with Latent World Mo.md",
+    "Policy-Aligned Predictive Verification for Adaptive VLA Action-Chunk Execution.md",
+    "FastVLA Task-Conditioned and Temporally Adaptive Visual Token Compression for Ef.md",
+    "Spark-0 Scaling Spatially Aligned Tactile Pretraining for Robot Dexterous Manipu.md",
+    "MOSS Mode-Oriented Source Shaping for Robot Flow Matching Policies.md",
+    "Fast-VLA You Only Think Once for Robot Manipulation.md",
+    "VLA-$Δ$ Learning Physical State Transition for Vision-Language-Action Models.md",
+    "KODA Kinematics--Observation Data Alignment for Humanoid Learning from Human Ego.md",
+    "REKI Registering Knowledge in VLAs.md",
+    "EgoJEPA Beyond Retargeting for Dexterous Manipulation from Egocentric Videos.md",
+    "Trajectory-based Diffusion from One-shot Human Video for Generalizable Manipulat.md",
+    "Value as Memory Online Value-Guided Post-training for General Robot Policies.md",
+    "Sim-to-Real Reinforcement Learning for Path-Safe Target Reaching in Robotic Harv.md",
+    "Training-Free Target-Aware Refinement of 3D Gaussian Language Map.md",
+    "Whole-Body Dexterity.md",
+    "What Should Robot Policies Learn to Predict Rethinking Supervision Targets in Vi.md",
+    "MAIA Anticipating Interaction Anomalies in Contact-Rich Manipulation via Multimo.md",
+    "LTM Latent Transition Based In-Context Memory for Vision-Language-Action Models.md",
+    "DemoStream Batched Task-and-Motion-Plan Optimization for Automated Learning from.md",
+    "TS-WAM Temporal Latent Actions and World-Action Coupling for Vision-Language Rob.md",
+    "Sub-Millisecond Reflexes for Continuous Physical Human-Robot Interaction.md",
+    "Cross-Embodiment Causal Transfer from Human Videos to Robot Manipulation.md"
+  ],
+  "published_item_count": 24
+}
