@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-19",
+  "source_digest": "30_Updates/2026-10-19 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "Scaling Online Exploration for Robot Agents.md",
+    "From Sliding Windows to Self-evolving Lifelong Memory A Dual-perspective Survey.md",
+    "MambaAct Efficient Mamba Action Experts for Flow-Matching Vision-Language-Action.md",
+    "CoEvolve Self-Evolving Code Policies from Skills to Strategies for Humanoid Robo.md",
+    "VLA-Fabric Learning Interaction for Composable Multi-Arm VLA Agents.md",
+    "NestedVLA Learning to Consolidate and Generate Skills for Vision-Language-Action.md",
+    "Unifying Embodied Foundation Models via a Model-to-Policy Formulation.md",
+    "Has GPT-6-Astra Achieved Embodied Intelligence.md",
+    "LAW Unifying Language, Action, and World Modeling for Agentic Physical Intellige.md",
+    "Pedicel-Targeted Strawberry Harvesting via Imitation Learning on a Low-Cost Tele.md",
+    "Enhancing Visual Task-Redirection Attacks on Vision-Language-Action Models via C.md",
+    "Look Before You Act Bridging Active Perception and Vision-Language-Action Models.md",
+    "GRASP Global-Local Representation Alignment and Spatial-Physical Grounding for B.md",
+    "Sample-Efficient Reinforcement Learning for Policy Improvement via Flow-Reversed.md",
+    "Beyond Success Rate Interventional Evaluation of Memory in Vision-Language-Actio.md",
+    "InstAgent A Recursively Self-Improving Agent Operating System for Heterogeneous.md",
+    "No Eyes, No Problem What Does Touch Contribute to Blind Baoding Ball Manipulatio.md",
+    "AWAM Active Trajectory-Conditioned View Imagination for Robust Robot Manipulatio.md",
+    "ORD-WM Learning Object-Centric Rigid Dynamics for 3D World Modeling in Robotic M.md",
+    "Foundation Models for Autonomous Space Robotics Architectures, Physical Adaptati.md",
+    "When Plans Change, Remember Replanning-Guided Visual Memory for Vision-Language-.md",
+    "TriSAR-3D and PaintFusion A Novel Trimodal LiDAR-RGB-Thermal Dataset and Method.md",
+    "Not All Actions Contribute Equally Learning Precise Progress Estimation from Imp.md",
+    "MobileInject Evaluating Reasoning-to-Action Security of MLLM-Based Mobile Agents.md"
+  ],
+  "published_item_count": 24
+}
