@@ -17,6 +17,9 @@ created: 2026-10-20
 - **源异常**：2
 - **阅读方式**：先看 5 篇必读的结论与启发，点开单篇看方法和依据；需要进一步核查时进入 [L1 / L2 精读](../../deep-reading/README.md)
 
+> [!warning] 外链核验（2026-10-20）
+> 37 个外部链接中 36 个访问成功；ME-VLM 项目页出现 TLS/连接错误，详见单篇笔记。
+
 ## 必读 5 篇
 
 ### 1. [Scaling Online Exploration for Robot Agents](items/Scaling%20Online%20Exploration%20for%20Robot%20Agents.md)
