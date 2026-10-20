@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-20",
+  "source_digest": "30_Updates/2026-10-20 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "Scaling Online Exploration for Robot Agents.md",
+    "EmbodiedMidtrain Bridging the Gap between Vision-Language Models and Vision-Lang.md",
+    "MambaAct Efficient Mamba Action Experts for Flow-Matching Vision-Language-Action.md",
+    "From Sliding Windows to Self-evolving Lifelong Memory A Dual-perspective Survey.md",
+    "VLA-Fabric Learning Interaction for Composable Multi-Arm VLA Agents.md",
+    "CoEvolve Self-Evolving Code Policies from Skills to Strategies for Humanoid Robo.md",
+    "NestedVLA Learning to Consolidate and Generate Skills for Vision-Language-Action.md",
+    "Has GPT-6-Astra Achieved Embodied Intelligence.md",
+    "Unifying Embodied Foundation Models via a Model-to-Policy Formulation.md",
+    "NativeMEM Native Memory Compression for Long-Horizon Robotic Manipulation.md",
+    "Towards Unified World Models for Visual Navigation via Memory-Augmented Planning.md",
+    "Monkey See, Can Monkey Do A Benchmark for Evaluating Robot Skill Learning by Obs.md",
+    "Pedicel-Targeted Strawberry Harvesting via Imitation Learning on a Low-Cost Tele.md",
+    "LAW Unifying Language, Action, and World Modeling for Agentic Physical Intellige.md",
+    "ME-VLM A Unified VLM for Embodied Cognition and Agent Coordination.md",
+    "Sample-Efficient Reinforcement Learning for Policy Improvement via Flow-Reversed.md",
+    "GRASP Global-Local Representation Alignment and Spatial-Physical Grounding for B.md",
+    "Look Before You Act Bridging Active Perception and Vision-Language-Action Models.md",
+    "Enhancing Visual Task-Redirection Attacks on Vision-Language-Action Models via C.md",
+    "OpenDexGrasp Open-vocabulary Task-Oriented Dexterous Grasping.md",
+    "DexBioLab Benchmarking Dexterous Manipulation with Dynamic Experimental Phenomen.md",
+    "WorldOracle Benchmarking Action-Conditioned World Models against Real-World Exec.md",
+    "InstAgent A Recursively Self-Improving Agent Operating System for Heterogeneous.md",
+    "Beyond Success Rate Interventional Evaluation of Memory in Vision-Language-Actio.md"
+  ],
+  "published_item_count": 24
+}
