@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-21",
+  "source_digest": "30_Updates/2026-10-21 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "Ropedia W0 Scaling Loco-Manipulation World Models across Embodiments with Human.md",
+    "Robot Learning with Vision-Language-Action Models for Agricultural Manipulation.md",
+    "PaceVLA Adaptive Temporal Action Quantization in Vision-Language-Action Models.md",
+    "The Bitter Lesson Comes to Robotics.md",
+    "HAF-VLA Hierarchical Action Flow Framework for Humanoid Vision-Language-Action C.md",
+    "Vector-Quantized World Model Latent Feedback Motion Planning for Robot Manipulat.md",
+    "AQUAACT A Joystick-Level Underwater Teleoperation Dataset and Closed-Loop Benchm.md",
+    "Vision-Language-Delta-Action Learning Compact Deltas as Actionable Transition In.md",
+    "PVBench Quantifying Physical Plausibility in Video Generation with Object-Level.md",
+    "HandsOn A Large-Scale Simulation Benchmark for Generalizable Dexterous Manipulat.md",
+    "FR-VLA Implicit Force Reasoning VLA for Contact-Rich Manipulation.md",
+    "SPAR Structural Pruning and Action Recovery for Vision-Language-Action Models.md",
+    "Robotic Photography System based on Vision-Language-Action Model.md",
+    "ReDOA Real-World Distillation via Observation Alignment for Image-Based Manipula.md",
+    "ReInsVLN Revisiting Historical Evidence for Training-Free Vision-and-Language Na.md",
+    "TILDE Teacher-in-the-Loop Distillation from Embodied Foundation Models.md",
+    "Compile Once, Run Cheap Frozen, Portable Skills for Embodied Agents, and What Re.md",
+    "Physical Words A Vocabulary for Structuring Latent Reasoning in Robot Manipulati.md",
+    "GPT-6 Astra Is a Native Visuo-Tactile Policy for Contact-Rich Manipulation.md",
+    "RoboValue A Fine-Grained Sim-and-Real Benchmark for Unified Evaluation of Roboti.md",
+    "ForagerSim Evaluating Embodied Map-Based Reasoning in Large-Scale Dynamic Worlds.md",
+    "PhantomTac Hijacking Robotic Tactile Systems with Deploy-and-forget Tags.md",
+    "CondenseVLA Learnable History Condensation for Efficient Multi-Frame VLA.md",
+    "Think Densely, Act Sparsely Latent Expert Cognitive Chains for Vision-Language-A.md"
+  ],
+  "published_item_count": 24
+}
