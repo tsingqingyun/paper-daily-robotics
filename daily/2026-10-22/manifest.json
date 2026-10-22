@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-22",
+  "source_digest": "30_Updates/2026-10-22 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "Physical AI Concepts, Techniques, and Challenges.md",
+    "RARA Robust Policy Fine-Tuning through Retrieval-Anchored Representation Alignme.md",
+    "Large Multimodal Models for Direct Robot Control GPT-6 as a Beginning.md",
+    "WorldScape Policy 2.0 Empowering Steerable World Action Modeling with Reasoning-.md",
+    "Robotic Video World Models A Survey of Applications, Research Challenges, Future.md",
+    "Embodied Playground A Long-Horizon Agentic Robotics Benchmark for Physical, Stra.md",
+    "EMMA Enhancing Robotic Control Robustness through a Generative Visual Model.md",
+    "FIT-MAC A Closed-Loop Multi-Agent Framework for Robust Vision-Language-Action Mo.md",
+    "FastVLA Task-Conditioned and Temporally Adaptive Visual Token Compression for Ef.md",
+    "VLA-Retain Benchmarking Cross-Dimension Effects of Vision Tuning in VLAs.md",
+    "LayerRoute Action-Conditioned Mixture-of-Layers Routing for Vision-Language-Acti.md",
+    "Evaluating Social Reasoning in Embodied Vision-Language Models.md",
+    "AgenticRoboRL Bringing Coding-Agent Post-Training to Agentic Robotics.md",
+    "Frontier LLMs Enter the World of Robotics A Cross-Model Evaluation on RoboColise.md",
+    "ACE-Brain-0.6 Scaling Spatial Grounding for Physical Foundation Models.md",
+    "PLaCA Learning Patch-Level Future Latent Change for Action Generation.md",
+    "Plausible Future, Wrong Choice Steering World-Action Models toward Intended Futu.md",
+    "OPIS An Input-Grounded Benchmark for Multi-Object Memory in Video World Models.md",
+    "A Phenomenology of Neural Geometry in Vision-Language-Action Models.md",
+    "From Predictive Geometry to Action Learning Complementary Predictive Representat.md",
+    "UniWALM Unified World Action Language Model for Embodied Robot Control.md",
+    "MMTA Benchmarking Multimodal Temporal Analysis with Time Series, Text, and Visio.md",
+    "Automating the Design of Embodied Agent Architectures.md",
+    "EventSync Event-Driven Memory Updates for History-Dependent Manipulation.md"
+  ],
+  "published_item_count": 24
+}
