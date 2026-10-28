@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-28",
+  "source_digest": "30_Updates/2026-10-28 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "SO-101 Bench Accessible Spatial Manipulation.md",
+    "Profiling a Frontier Agent with EBench From Direct Control to Harness with Polic.md",
+    "JevVLA Jev-Inspired Energy-Based Adaptation for Vision-Language-Action Policies.md",
+    "RynnWorld-Latent A Cross-Embodiment World Model Conditioned on Universal Latent.md",
+    "E0.5 From Reconstructive to Future-Predictive 3D Foundations for Robotic World-A.md",
+    "EmbodiedLab Benchmarking Embodied Agents That Act to Know.md",
+    "Zero-HLM Generalizable Humanoid Loco-Manipulation without Real Robot Data.md",
+    "OmniBrain-0 A Unified Agentic Model for Embodied Intelligence.md",
+    "OpenJaws An Open Hardware UMI Framework with Stereo Localization for Generalist.md",
+    "HIDRA Hierarchical Dual-Routing Attention for Replay-Free Lifelong Imitation Lea.md",
+    "The Trinity Capability-Driven Recursive Self-Improvement for Multimodal Agents.md",
+    "Labference Benchmarking the Reasoning-Action Connection in Robotic Laboratories.md",
+    "RoboAuto Autonomous Robot Program Search through Multi-Level Physical Understand.md",
+    "Pretraining Knows What, Simulation Teaches How Compositional Generalization in a.md",
+    "TOPS Reshaping Flow Source and Transport for Multi-Task Robot Manipulation.md",
+    "Mimetic Embodiment Transfer of Human-Humanoid Interaction from In-the-Wild Video.md",
+    "ActiveAlign Aligning Egocentric Manipulation via Active Perception.md",
+    "VISTA Active Exploration for Self-Improvement in Embodied Agents.md",
+    "ASPEN Adaptive Semantic Reasoning via Command Persistence Prediction for Efficie.md",
+    "DriveUniTok A Unified Multimodal Tokenizer for Driving World-Action Models.md",
+    "Evolving Agent Teams.md",
+    "A fully articulated humanoid dexterous hand with human-level joint structure ena.md",
+    "Multi-Objective Reinforcement Learning Using Routed Ensembles and Trajectory Att.md",
+    "Making Self-Driving Laboratories Auditable A Unified Framework for Hybrid Action.md"
+  ],
+  "published_item_count": 24
+}
