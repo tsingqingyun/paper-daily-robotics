@@ -88,3 +88,6 @@ The rapid progress of software engineering agents drives interest in applying th
 - Age days: 0
 
 </details>
+
+> [!warning] 外链核验（2026-10-28）
+> Evolving Agent Teams 的代码仓库 https://github.com/caoshiyi/EAT 返回 `HTTP Error 404: Not Found`；论文来源可访问。代码公开状态待作者确认，后续重试。

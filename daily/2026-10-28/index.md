@@ -126,3 +126,6 @@ RoboTwin 2.0仅用每任务50条干净示范训练，每任务100次测试；无
 - Google DeepMind Blog: not well-formed (invalid token): line 1, column 0 (after 3 attempts)
 
 </details>
+
+> [!warning] 外链核验（2026-10-28）
+> Evolving Agent Teams 的代码仓库 https://github.com/caoshiyi/EAT 返回 `HTTP Error 404: Not Found`；论文来源可访问。代码公开状态待作者确认，后续重试。
