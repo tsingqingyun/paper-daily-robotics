@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-29",
+  "source_digest": "30_Updates/2026-10-29 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "ThinkWorld World Imagination Reinforces Chain-of-Dynamics Reasoning.md",
+    "PDRVLA A Vision-Language-Action Model with Physical Dynamics Representations.md",
+    "VLA-Stem A Lightweight Safety Mechanism for Vision-Language-Action Models via Re.md",
+    "Tokens of Motion Primitive Motion Learning for Human-Humanoid Skill Transfer.md",
+    "Retrieve to Act Motion Primitive Graph Retrieval for Robust VLA Execution.md",
+    "GAWM A Compact Latent World-Action Model for Multi-Task Robot Manipulation.md",
+    "Pushing Dexterity and Safety for In-Hand Object Pose Reaching That Works Remarka.md",
+    "Ego-CEVR Learning Cross-Embodiment Visual Representations from Human Egocentric.md",
+    "Generalizable Target-Less Joint Intrinsic-Extrinsic Camera-LiDAR Calibration usi.md",
+    "When, Where, and What to Correct Human-Guided Adaptive Residual Correction for R.md",
+    "World Dreamer v5-lite A Multi-Robot World Action Model with One Dreamer.md",
+    "Pretraining Knows What, Simulation Teaches How Compositional Generalization in a.md",
+    "Learning Quality-Controllable Robot Policies with Iterative Hindsight Relabeling.md",
+    "Vision-Language-Action or World-Action Just Action Models.md",
+    "Omni-IGN Onboard Image-Goal Navigation for Drones with Omnidirectional Vision.md",
+    "4D Reconstruction with Events & RGB.md",
+    "CARD Contact-Anchored Retargeting for Dexterous Manipulation.md",
+    "GRAFT Geometry-Aware Residual Adaptation for Foundation Trackers.md",
+    "SVIn+ Multi-Modal Framework for Robust Underwater State Estimation using 3D Sona.md",
+    "EgoThumb A Vision-Driven Supernumerary Robotic Thumb for Autonomous Grasp and Ho.md",
+    "Zooming without Zooming v2 From Seeing Details to Connecting Evidence for Genera.md",
+    "Remember Where You Walk Learning Spatial Memory for End-to-End Legged Robot Expl.md",
+    "When Black-Box Robot Policies Fail Online Sensor Diagnosis and Repair with a Tra.md",
+    "SWIM Learning What Matters from Behaviors for JEPA World Models.md"
+  ],
+  "published_item_count": 24
+}
