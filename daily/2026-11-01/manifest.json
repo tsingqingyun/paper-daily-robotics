@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-01",
+  "source_digest": "30_Updates/2026-11-01 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "BURGER Benchmarking and Understanding Robotic Generalization via Embodied Drawin.md",
+    "Gym-Anything for Robotics Scaling physical simulations with digital agents.md",
+    "PRIME W0 Physical Priors from World Models for Embodied Manipulation.md",
+    "HiFOR Hierarchical Foresight with Action-Guided World Grounding for Vision-Langu.md",
+    "TouchBridge Tactile-Conditioned Human-to-Robot Transfer for Dexterous Manipulati.md",
+    "From Reasoning to Action Consequence-Grounded Alignment for Vision-Language-Acti.md",
+    "ScheduleGen Demonstration Generation via Skill Scheduling for Multi-Arm Imitatio.md",
+    "LOGIV Graph-Verified Execution with Causal Local Repair for Long-Horizon Robot T.md",
+    "UMI-Live for In-The-Wild Bimanual Robotics Data Collection.md",
+    "OpenFlyV2 An onboard vision-language-action model for aerial perception and navi.md",
+    "Event2Reward Learning Robotic Rewards from Progress Relations.md",
+    "Quantize by Doing Task-Guided Mixed-Precision Quantization of Vision-Language-Ac.md",
+    "LucidLyra Feed-Forward Generative 3D Scene Reconstruction and Joint Understandin.md",
+    "Continuous-Action World Models Learning Cross-Embodiment Spatiotemporal Dynamics.md",
+    "Learning Safe Flow Matching Robot Policies from Binary Feasibility Oracles.md",
+    "Seeing and Imagining as One Unified Video Generation and 4D Perception for Embod.md",
+    "EgoContact Evaluating Physical Intelligence with Egocentric Video.md",
+    "Tracking Task Progress Through Errors and Recovery A Benchmark and Recurrent Dis.md",
+    "SwapBot Tool-Centric Robot Manipulation via Interchangeable End-Effectors and Ta.md",
+    "JEDI Joint-Embedding Demonstration Compression for In-Context Imitation Learning.md",
+    "RoboSeed Multidimensional Evaluation of Vision-Language-Action and World-Action.md",
+    "LiDAR-SHIELD A Fully Dockerized Adversarial Robustness Assessment Framework for.md",
+    "AegisFlow Training-Free Non-Myopic Path-Safe Guided Flow Matching.md",
+    "Smooth Action Chunking Via Movement-Primitive Representations for Imitation Lear.md"
+  ],
+  "published_item_count": 24
+}
