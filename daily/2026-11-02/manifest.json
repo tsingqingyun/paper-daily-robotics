@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-02",
+  "source_digest": "30_Updates/2026-11-02 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "WorldFlow Joint Video and 3D Motion Prediction via Large-Scale Pretraining.md",
+    "Coupled Guidance for Flow Matching.md",
+    "How Much Should a VLA Trust Its Reasoning Step-Level Guidance as a Measured Acti.md",
+    "PAPERBENCHX Can AI Reproduce Science Across Disciplines.md",
+    "WorldProbe When Video World Models Fall Apart under Long-Horizon Spatial Explora.md",
+    "Utility-WAM Correcting Future-Induced Action Changes.md",
+    "DAWN Diffusion-based Alignment and unfastening Workflow Network.md",
+    "Improving Fine-Grained Manipulation through Demonstration Expansion and Executio.md",
+    "LLM-guided Planar Loco-Manipulation for Quadruped Robots.md",
+    "Kinematic-Tactile Aligned Dexterous Retargeting with Contact Wrench Space Alignm.md",
+    "Ask to Evolve A Unified Harness for Lifelong Embodied Navigation with Hybrid Act.md",
+    "Cross-Controller Transfer via In-Context Behavior Adaptation.md",
+    "Tactus Tactile & Pose Sensing Glove for Natural Dexterity Data Collection.md",
+    "A Tutorial on Shape Servoing of Deformable Objects-Part I Fundamentals.md",
+    "AI for Science in Space Orbital Laboratories, Planetary Fieldwork, and Embodied.md",
+    "Language-Grounded Force Torque Pretraining for Extrinsic Contact Perception.md",
+    "Robotic Data Inoculation.md",
+    "Is It the Curriculum or Just the Easy Start Benchmarking Unsupervised Environmen.md",
+    "RFW-A Agentic Procedural Generation of 400K Articulated Assets over 500 Categori.md",
+    "SONIC-K1 Porting a Universal Humanoid Motion Tracker to a Small Humanoid on a Si.md",
+    "CuBot-STT Simultaneously Transport and Tighten for Lattice-type Modular Reconfig.md",
+    "V-CAPE Visual Consistency Assessment for Product Image Editing.md",
+    "Wizard Manipulate Any World in Real Time via Agentic Control.md",
+    "RoboAtom Large-scale Atomic-Action Supervision for Robot Learning.md"
+  ],
+  "published_item_count": 24
+}
