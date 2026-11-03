@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-03",
+  "source_digest": "30_Updates/2026-11-03 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "CaPtain A Pipeline for Post-Training Code-as-Policy Robot Agents.md",
+    "REA A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control.md",
+    "Nexus-VLA Bridging Human and Robot Experiences via a Shared Hierarchical Semanti.md",
+    "When the Past Shapes Action Understanding Embodied Memory.md",
+    "TRACE Target-State Risk-Aligned Conditional Execution for Embodied Tracking.md",
+    "STAR Steering Action Representations during Inference.md",
+    "From Teleoperation to Long-Horizon Dexterity Evaluating Visuomotor Skills and Of.md",
+    "Learning from Physical Experience Context-Space Adaptation for Robotic Manipulat.md",
+    "Sensorium An Open-Source Multimodal Data Collection and Curation Library for Emb.md",
+    "Movens-Zero Scaling Humanoid Motion Foundation Models with Large-Scale Human Vid.md",
+    "OpenVIO A Versatile Open-Source Visual-Inertial Odometry System.md",
+    "Hierarchical World Models with Implicit Dynamics.md",
+    "RoboArchitect Automating the Design of Robotic Agents with Persistent Memory.md",
+    "SACQ Structure-Aware Codebook Quantization for Ultra-Low-Bit Vision-Language-Act.md",
+    "MolmoSpaces-CommonSense Evaluating Commonsense in Robotic Manipulation Policies.md",
+    "HandMimicX Learning Human-Like Dexterous Manipulation via an Object-Centric Poli.md",
+    "VLA Policies Do Not Know When Not to Act Unintended Task Execution and Start Sup.md",
+    "TinyAstral Transferring Self-Evolving Harnesses to Tiny Generalist Manipulation.md",
+    "ROSTrans Empirically Benchmarking LLMs for ROS1-to-ROS2 Migration.md",
+    "Cross-Embodiment Motion Planning by Coupling Body-Agnostic World Model with Diff.md",
+    "FlapSim A Composable MuJoCo Simulation Platform and Reduced-Order Aerodynamic Mo.md",
+    "ROOF Learning Humanoid Fall Recovery under Overhead Constraints.md",
+    "META-Robot Self-Cognition and Capability Scaling in Agentic Robots.md",
+    "RTPolicy Real-Time (32.9 Hz) Multi-View Visuomotor Policy for Robotic Manipulati.md"
+  ],
+  "published_item_count": 24
+}
