@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-04",
+  "source_digest": "30_Updates/2026-11-04 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "SCOUT Planning under Occlusion via Object-Centric World Model Rollouts.md",
+    "MAESTRO Orchestrating Robotics Modules with Coding Agents for Zero-Shot Generali.md",
+    "OmniGuide Universal Spatial Guidance Fields for Enhancing Generalist Robot Polic.md",
+    "ODE Policy Robot Learning via Action Dynamics, Not Actions.md",
+    "GazeVLA Learning Human Intention for Robotic Manipulation.md",
+    "RynnVLA-Latent Scaling Robotic Manipulation Foundation Models with 3D-Grounded L.md",
+    "OmniPiano Diverse Dexterous Piano-Playing Challenges for Standard, Robust, Safe,.md",
+    "MOST Memory of Object States and Task Progress for Long-Horizon Mobile Manipulat.md",
+    "VLALagBench Understanding When and Why VLA Inference Latency Matters.md",
+    "ScheduleGen Demonstration Generation via Skill Scheduling for Multi-Arm Imitatio.md",
+    "OpenHLM An Empirical Recipe for Whole-Body Humanoid Loco-Manipulation.md",
+    "LOGIV Graph-Verified Execution with Causal Local Repair for Long-Horizon Robot T.md",
+    "When Delay Meets Drift Physical Safety of Robot Foundation Models Is a Cross-Lay.md",
+    "Tactile MNIST Benchmarking Active Tactile Perception.md",
+    "ActionFlow A Pipelined Action Acceleration for Vision Language Models on Edge.md",
+    "TouchScale 500 Hours of Human Vision and Touch for Visual-Tactile Learning.md",
+    "Auriga Technical Report A Task-Agnostic Agent Harness for Zero-Shot Embodied Man.md",
+    "Vision-Language Models Are Joint Denoisers in Robotic Action Generation.md",
+    "RoboColosseum Evaluating Physical Intelligence at Scale In-The-Wild.md",
+    "Beyond Policy Patches Distilling RL Specialists into Vision-Language-Action Poli.md",
+    "Route-Guided CBF-QP Repair for Safe Vision-Language-Action Models.md",
+    "Dynamics-Aware Meta-Imitation for Generalization to Unseen Robotic Manipulation.md",
+    "Labference Benchmarking the Reasoning-Action Connection in Robotic Laboratories.md",
+    "TRACE Target-State Risk-Aligned Conditional Execution for Embodied Tracking.md"
+  ],
+  "published_item_count": 24
+}
