@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-06",
+  "source_digest": "30_Updates/2026-11-06 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "MESA An Evaluation Framework for Compositional, Semantic, and Spatial Generaliza.md",
+    "$A 3$-VLA Automatic Perception-Guided Attention Alignment for Robot Manipulation.md",
+    "RoboTryOn Synthesizing Dexterous Robot Demonstrations from Human Videos via Virt.md",
+    "Learning Object-Centric Motion Priors from Human for Robotic Dexterous Manipulat.md",
+    "PyRUA-REAL Robot Exploration and Adaptive Learning through RSI in the Real World.md",
+    "Open-HumanScale An Open Recipe for Scaling Human and Robot Experience for Embodi.md",
+    "Compounding Physical RSI Turning Execution Failure into Inherited Capability.md",
+    "Correct Robots Before They Make Mistakes Proactive Human-in-the-Loop Interventio.md",
+    "VABAR A Variational Automation Benchmark for Agentic Robotics.md",
+    "From Pixels to Actions - Towards Native Vision-Language-Action Policies.md",
+    "Reinforcement Learning Enables Scaling Generalist Robot Policy Improvement.md",
+    "Interactive World Simulation with Cosmos for Physical AI.md",
+    "Robocasa-Mem Benchmarking Environment and Process Memory in Long-Horizon Mobile.md",
+    "STARE Scene Text-Aware multimodal Retrieval for Everyday objects.md",
+    "TwinBridge Digital Twin-Driven Policy and Reward Transfer for Real-World Reinfor.md",
+    "Playing Soccer Like Humans Do Learning Versatile and Agile Humanoid Soccer via L.md",
+    "Can Astra Solve RoboMME without Breaking the Bank.md",
+    "Dexterous Robotic Hands in the Foundation-Model Era A Full-Stack Survey of Hardw.md",
+    "MotoVerse A Benchmark for Predictive Perception of Motorized Two-Wheelers in Den.md",
+    "OdorSpaces Visual-Olfactory Embodied Navigation in 3D Environments.md",
+    "ELA End-to-End Latent Action Policy Learning from Video Demonstrations.md",
+    "From Autonomous Agents to Cognitive Symbionts Toward AI-Augmented Human Intellig.md",
+    "Reality and Perceptual Gaps in Expressive Swarm Robotics.md",
+    "Where Is VLA Inference Time Spent Bottlenecks and Optimization Interactions Acro.md"
+  ],
+  "published_item_count": 24
+}
