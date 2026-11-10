@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-10",
+  "source_digest": "30_Updates/2026-11-10 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "BAIR at CoRL 2026.md",
+    "Meituan-Robotics-0 A Vision-Language-Action Foundation Model for Desktop Manipul.md",
+    "DobotTrack Target-Grounded Vision-Language-Action Learning for Embodied Person T.md",
+    "VICTR Value-Informed In-Context Learning for Vision-Language-Action Models.md",
+    "On Agentic Manipulation Policies.md",
+    "Toward the Era of Agentic Embodied Intelligence.md",
+    "Q-OIL Optimistic Exploration in Learning from Human Interventions.md",
+    "ToolDex An Ego-Exo Human Demonstration Dataset for Creative Physical Tool Use.md",
+    "ODEAction From Predicting Chunks to Evolving Actions.md",
+    "PRISM Primitive Routing via In-context Skill Mixing for Retentive VLA Adaptation.md",
+    "HomeLoop A Simulation Framework and Benchmark for Robot-IoT Coordination in Ever.md",
+    "SURE Spatiotemporal Uncertainty Representation for Efficient Vision-Language-Act.md",
+    "ABHBench Evaluating Moral Decision-Making of Foundation Models from an Agentic P.md",
+    "A Controlled Study of Models, Skills, Feedback, and Curriculum in Agentic Roboti.md",
+    "ActPrune Action-Grounded Visual Token Pruning for Efficient Vision-Language-Acti.md",
+    "DexDICE Reconciling Safety and Performance via Dual-Expert Offline Imitation Lea.md",
+    "HiMEM Hippocampus-Inspired Memory Consolidation, Pruning, and Composition for Vi.md",
+    "Localizing and Editing the Goal Representation of a Vision-Language-Action Model.md",
+    "Grasp-TAGS Task-Aware Grasp Selection via Critic Distillation for Prehensile Loc.md",
+    "InstantHMR Real-Time Human Mesh Recovery on Your Phone.md",
+    "Augmentron Scalable Multi-View Visual Augmentation for Robot Learning.md",
+    "VLA Handover Failure-Prediction-Based Switching from On-Robot to Server VLA Mode.md",
+    "Flex-RSI Benchmarking Recursive Self-Improvement of Frontier Agents.md",
+    "Encoding Memory in World Models with Test-Time Model-Based Reinforcement Learnin.md"
+  ],
+  "published_item_count": 24
+}
