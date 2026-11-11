@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-11",
+  "source_digest": "30_Updates/2026-11-11 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "PAIR Proprioception-Aligned Image-Ray Representations for Viewpoint-Robust Manip.md",
+    "SurgTAP-3D A Large-Scale Cross-Surgery Video Dataset with Contact-Aware 3D Motio.md",
+    "VLA Adaptation with Real and Simulated Data A Case Study on Robotic Chess.md",
+    "Thermo-VLA A Thermal-Aware Vision-Language-Action Model with Gated Residual Modu.md",
+    "World In-Context Learning for Agentic Robot Manipulation.md",
+    "Learning Heterogeneous Tactile Representation for General Dexterous Manipulation.md",
+    "Compass 1 Towards Open-World and Persistent Embodied Navigation from Monocular R.md",
+    "Decoupled Asynchronous System for Humanoids (DASH) Latency-Agnostic Scaling of V.md",
+    "$Σ$-LeWM Learning World Models via S-Information for Robot Control.md",
+    "VLA-MOPD On-Policy Distillation for Multi-Task VLA Policy Consolidation.md",
+    "Embodied First Exam.md",
+    "SPARK Simple Post-training for Adapting pRetrained Knowledge to Robot Control.md",
+    "When Coding Agents Get Arms Safety Risks Across the Digital-Physical Boundary.md",
+    "Gemini Robotics 2.5 accelerates real-world general dexterity.md",
+    "An Evaluation of Tabular Foundation Models as Training-Free World Models.md",
+    "Kimodo-Policy Learning Kinematic Action Models for Humanoid Loco-Manipulation.md",
+    "Bridging Task Planning and Execution for Language-Conditioned Bimanual Manipulat.md",
+    "Be My Eye Learning to See Beyond a Robot's Own Perspective.md",
+    "GeoMind A Benchmark for Spatial Understanding in Robotic Manipulation.md",
+    "Benchmarking Real-World Robotic Manipulation through Stochastic Challenges.md",
+    "How Many Candidates Does a One-Step World Model Need A Random-Codebook Account o.md",
+    "Flip Anything with Agentic Robotics Self-Learning.md",
+    "ForeAct Geometry-Guided Action Learning from World Representations.md",
+    "LHNav Long-Horizon Humanoid Navigation via Multirate Coordination and Physics-Gr.md"
+  ],
+  "published_item_count": 24
+}
