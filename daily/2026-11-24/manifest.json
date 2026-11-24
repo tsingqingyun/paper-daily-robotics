@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-24",
+  "source_digest": "30_Updates/2026-11-24 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "Tripwire Robot Agents that Program Their Own Interrupts under Human Disturbance.md",
+    "Efficient VLA Reinforcement Learning via Subchunk Rollouts in Latent World Model.md",
+    "RoboColiseum Co-evolution of Simulation, Evaluation, and Models.md",
+    "FoRe A Force-Guided Framework for Autonomous Grasp Recovery in Vision-Language-A.md",
+    "Embodied-Harness Towards Recursive Self-Improvement for Robotic Manipulation.md",
+    "TrajRealm A Large-Scale Point Tracking Dataset with Diverse Dynamics.md",
+    "BeyondEgo Learning to Act Beyond Egocentric Perception via Humanoid Ego-Exo Fore.md",
+    "GenPA Image Generators as Efficient Robot Policies.md",
+    "$γ$-Scape An Agent-Centric World for Mobile Embodied Intelligence.md",
+    "RoboPRO A Perturbation-Resilient and Obstacle-Aware Benchmark for Robotic Manipu.md",
+    "NormFlowSDE Normalizing Flows for Amortized Bayesian State Estimation.md",
+    "HumanoidPose Monocular 3D Pose Estimation for Humanoid Robots.md",
+    "RoboDyna A Benchmark for Evaluating Robotic Manipulation under Physically Ground.md",
+    "NavTTT Adaptive Parametric Memory via Hierarchical Test-Time Training for Vision.md",
+    "Embodied Interaction Policy A Unified Model for Full-Duplex Human-Robot Interact.md",
+    "Beyond Future Views Exploring Future-State World Models for Vision-Language Navi.md",
+    "ManipScope A Diagnostic Benchmark for Instruction Following and Generalization i.md",
+    "Opto-Electronic Hybrid Reinforcement Learning Based on MZI for Robotic Manipulat.md",
+    "PACE Policy Augmentation and Compensation With Explicit Disturbance Estimation f.md",
+    "Ego4Gen Generating Geometry-Grounded Motion Tokens as a World-Action Interface.md",
+    "SCAP Stochastic Context for Action Expert Pretraining.md",
+    "SparseHPS A Unified Model for Human Pose and Shape across Depth Cameras and LiDA.md",
+    "Task2Hand A Contact-Grounded Skill for Parametric Dexterous-Hand Morphology Desi.md",
+    "Humanoid robots for safety-critical electrical switching A perception-informed r.md"
+  ],
+  "published_item_count": 24
+}
