@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-26",
+  "source_digest": "30_Updates/2026-11-26 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "DataForgeVLA Fully Synthetic Manipulation Demonstrations for Vision-Language-Act.md",
+    "CamAct Learning Robotic Manipulation from In-the-Wild Videos via Camera Motion.md",
+    "RoboARC Physical Puzzles for Robotic Manipulation under Spatial Constraints.md",
+    "Embodied AI Fails the Mirror Test How a Simple Mirror Breaks Robot Policies.md",
+    "WAtcher Watching Ahead for Safe Robotic Manipulation with Efficient World-Action.md",
+    "Aegis-VLA Reliability-Gated Action Refinement via a Trajectory World Model for D.md",
+    "Hybrid AI for AI-Native RAN Control A Functional Perspective.md",
+    "VidForce Predicting Force-Aware Articulation by Observing Humans.md",
+    "WorldPhy Benchmarking Fine-Grained Physical Plausibility of World Models in Robo.md",
+    "Integration of Vision-Language-Action Control for Autonomous Forklift Unloading.md",
+    "Learning a Whole-Body Pivot-Walking Gait for Heavy-Box Transport with a Humanoid.md",
+    "Best-of-$N$ Test-Time Steering Can Lead to Reward Hacking in Vision-Language-Act.md",
+    "Ground Your Steps Optimizing Sampling Schedules in Flow Matching Robot Policies.md",
+    "FlipVLA Backdoor Attacks on Vision-Language-Action(VLA) Models Only Through Bit.md",
+    "Physicl Scenes An Artist-created 3D Dataset for Learning Perception and Action.md",
+    "SEEK Self-Evolution through Execution Knowledge for Agentic Robot Manipulation.md",
+    "RegHarness Regulating What Code-as-Policy Agents Keep from Steps to Skills.md",
+    "FreshVLA Frequency-Regularized Time Scale Hierarchical Latent Actions for Vision.md",
+    "DexEngine Scaling Human Demonstrations into Physically Executable Whole-Robot Da.md",
+    "Loop4D Embodied World Modeling with 4D VAEs and Looped Diffusion Transformers.md",
+    "$ widetilde{ varepsilon}$ Does Initial Noise Induce Directional Bias in Vision-L.md",
+    "Embodied-VGGT Preserving Reliable Local Geometry for Long-Sequence Reconstructio.md",
+    "Beyond the Happy Path Generalizing Robot World Models from Simulated Failures.md",
+    "X-World Transferring Video Priors to Cross-Embodiment Robot Control.md"
+  ],
+  "published_item_count": 24
+}
