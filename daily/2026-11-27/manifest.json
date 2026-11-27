@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-27",
+  "source_digest": "30_Updates/2026-11-27 AI Embodied Intelligence Update.md",
+  "published_items": [
+    "Toward Agentic Robotics A Large-Scale Study of Harness Design for Robot-Use Agen.md",
+    "M$ {2}$AdaptVLA Multimodal Memory-Augmented Vision-Language-Action Model with Pr.md",
+    "HoloBrain-0.5 Technical Report.md",
+    "Can Visual World Models See Force.md",
+    "Dynamic Task Update Benchmark (DTU-Bench) Evaluating Runtime Task Adaptation in.md",
+    "SOLVE Sparse, Ordered Keyposes Make LLM Agents Versatile and Efficient Robot Man.md",
+    "ELMO Emergent Representations In Imitation Learning Via Dynamic Hierarchical Act.md",
+    "Cairn Object-Centric 3D Trajectory Priors for Steering Frozen VLAs.md",
+    "RoboEvo$ 2$ Recursive Robot Self-Improvement via Harness-Policy Co-Evolution.md",
+    "Motion Beyond Pixels Learning Future Visual Representations for Object-Centric D.md",
+    "One Patch, Many Policies Object-Associated Physical Patch Attacks on Robotic Man.md",
+    "One Ocean, Many Tasks A Data-Grounded Simulation Suite and Benchmark for Marine.md",
+    "Nav4Manip From Navigation to Dexterous Mobile Manipulation through Co-Evolution.md",
+    "Keep or Roll Back Out-of-Loop Judges for Self-Improving VLA and End-to-End Embod.md",
+    "ScanAR Parallel Row-Scan Decoding for Efficient Image Generation in Unified Auto.md",
+    "Event-WAM Learning to Act with Event-Derived Futures.md",
+    "FineDex Bridging Fine-Grained Human-Object Interaction Generation to Dexterous H.md",
+    "Most of the Way There Turning a Strong Video Prior into an Action-Conditioned Wo.md",
+    "Escapingthe instruction blackhole of vision-language-action policies via optimal.md",
+    "DriftWAM Faster World-Action Models via Action-Aware Video Drifting.md",
+    "Triage Before Fine-Tuning Feasibility-Gated Selection and Monitored Adaptation o.md",
+    "A Failure-Driven Data Flywheel for Post-Training Vision-Language-Action Models.md",
+    "Do We Still Need Reinforcement Learning When We Can Read the World Model.md",
+    "LUDIUS A Benchmark for Embodied Social Intelligence in Everyday Human-Robot Inte.md"
+  ],
+  "published_item_count": 24
+}
